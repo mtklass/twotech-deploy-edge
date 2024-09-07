@@ -1,0 +1,44 @@
+{
+  "id": "11704",
+  "name": "(outdated) Excavated Mine Shaft",
+  "transitionsToward": [
+    {
+      "targetID": "11703",
+      "newTargetID": "11704",
+      "decay": "5m"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "decay": "5m"
+    },
+    {
+      "id": "11703",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "11700",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "11699",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

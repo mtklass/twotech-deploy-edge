@@ -1,0 +1,10 @@
+{
+  "id": "6467",
+  "name": "@ FlagItems",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

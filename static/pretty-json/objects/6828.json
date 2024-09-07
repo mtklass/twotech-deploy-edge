@@ -1,0 +1,19 @@
+{
+  "id": "6828",
+  "name": "Pile of Snares",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "6828",
+      "newTargetID": "3913",
+      "decay": "1s"
+    }
+  ],
+  "version": "20271",
+  "numUses": 5,
+  "craftable": false,
+  "sounds": [
+    147
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "3681",
+  "name": "@ Pattern Bottle with Funnel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20308",
+  "craftable": false,
+  "minPickupAge": 3
+}

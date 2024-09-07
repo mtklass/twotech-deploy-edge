@@ -1,0 +1,11 @@
+{
+  "id": "998",
+  "name": "@ Unlocked Sign",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "91",
+  "craftable": false,
+  "minPickupAge": 3,
+  "blocksWalking": true
+}

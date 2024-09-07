@@ -1,0 +1,58 @@
+{
+  "id": "8787",
+  "name": "Mole Hole - worm",
+  "transitionsToward": [
+    {
+      "targetID": "8786",
+      "newTargetID": "8787",
+      "decay": "5m"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8787",
+      "newActorID": "789",
+      "newTargetID": "195",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20285",
+  "craftable": false,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "decay": "5m"
+    },
+    {
+      "id": "8786",
+      "nodes": [
+        {
+          "id": "467",
+          "nodes": [
+            {
+              "id": "11638",
+              "nodes": []
+            },
+            {
+              "id": "345",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8783",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "8784",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

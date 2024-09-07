@@ -1,0 +1,19 @@
+{
+  "id": "3371",
+  "name": "(outdated) Table -  +contFoodDish +useOnContained",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20306",
+  "craftable": false,
+  "numSlots": 3,
+  "slotSize": 2,
+  "blocksWalking": true,
+  "sounds": [
+    198,
+    588,
+    591,
+    594,
+    595
+  ]
+}

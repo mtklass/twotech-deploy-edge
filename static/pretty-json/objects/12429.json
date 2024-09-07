@@ -1,0 +1,10 @@
+{
+  "id": "12429",
+  "name": "@ Bowlable Seed",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20294",
+  "craftable": false,
+  "minPickupAge": 3
+}

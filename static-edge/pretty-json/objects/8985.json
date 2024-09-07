@@ -1,0 +1,91 @@
+{
+  "id": "8985",
+  "name": "Dead Beaver",
+  "transitionsToward": [
+    {
+      "targetID": "8983",
+      "newActorID": "8985",
+      "newTargetID": "6438",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8709",
+      "newActorUses": "-1",
+      "newActorWeight": 0.08,
+      "targetID": "8985",
+      "newActorID": "8709",
+      "newTargetID": "8987",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "8709",
+      "actorUses": "last",
+      "targetID": "8985",
+      "newActorID": "12012",
+      "newTargetID": "8987",
+      "hand": true
+    },
+    {
+      "actorID": "11671",
+      "newActorUses": "-1",
+      "newActorWeight": 0.08,
+      "targetID": "8985",
+      "newActorID": "11671",
+      "newTargetID": "8987",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "11671",
+      "actorUses": "last",
+      "targetID": "8985",
+      "newActorID": "11560",
+      "newTargetID": "8987",
+      "hand": true
+    },
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "8985",
+      "newActorID": "560",
+      "newTargetID": "8987",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "8985",
+      "newActorID": "11907",
+      "newTargetID": "8987",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "8983",
+      "nodes": [
+        {
+          "id": "8984",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "8981",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

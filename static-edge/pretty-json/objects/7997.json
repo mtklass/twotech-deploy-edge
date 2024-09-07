@@ -1,0 +1,99 @@
+{
+  "id": "7997",
+  "name": "(outdated) Bucket of Worms",
+  "transitionsToward": [
+    {
+      "actorID": "659",
+      "targetID": "6837",
+      "targetUses": "max",
+      "newActorID": "7997",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "7997",
+      "newTargetUses": "-1",
+      "newActorID": "789",
+      "newTargetID": "7997",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "7997",
+      "targetUses": "last",
+      "newActorID": "789",
+      "newTargetID": "659",
+      "hand": true
+    },
+    {
+      "actorID": "7997",
+      "newActorUses": "-1",
+      "newActorID": "7997",
+      "newTargetID": "3914",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7997",
+      "actorUses": "last",
+      "newActorID": "1100",
+      "newTargetID": "3914",
+      "hand": true
+    },
+    {
+      "actorID": "789",
+      "targetID": "7997",
+      "newTargetUses": "+1",
+      "newTargetID": "7997",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20276",
+  "numUses": 2,
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    1056
+  ],
+  "techTree": [
+    {
+      "id": "659",
+      "nodes": [
+        {
+          "id": "59",
+          "nodes": [
+            {
+              "id": "58",
+              "nodes": []
+            },
+            {
+              "id": "58",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "724",
+          "nodes": [
+            {
+              "id": "473",
+              "nodes": []
+            },
+            {
+              "id": "470",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6837",
+      "nodes": null
+    }
+  ]
+}

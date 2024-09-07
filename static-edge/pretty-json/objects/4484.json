@@ -1,0 +1,86 @@
+{
+  "id": "4484",
+  "name": "(outdated) Ripe Cheese Wheel  - 3",
+  "transitionsToward": [
+    {
+      "targetID": "4488",
+      "newActorID": "4495",
+      "newTargetID": "4484",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "11671",
+      "newActorUses": "-1",
+      "newActorWeight": 0.08,
+      "targetID": "4484",
+      "newActorID": "11671",
+      "newTargetID": "4485",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "11671",
+      "actorUses": "last",
+      "targetID": "4484",
+      "newActorID": "11560",
+      "newTargetID": "4485",
+      "hand": true
+    },
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "4484",
+      "newActorID": "560",
+      "newTargetID": "4485",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "4484",
+      "newActorID": "11907",
+      "newTargetID": "4485",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    359
+  ],
+  "techTree": [
+    {
+      "id": "4488",
+      "nodes": [
+        {
+          "id": "11671",
+          "nodes": [
+            {
+              "id": "11647",
+              "nodes": []
+            },
+            {
+              "id": "69",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4483",
+          "nodes": [
+            {
+              "id": "4487",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

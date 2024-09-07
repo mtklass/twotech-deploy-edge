@@ -1,0 +1,40 @@
+{
+  "id": "8924",
+  "name": "Marble Floor with Stakes",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "292",
+      "targetID": "8924",
+      "newActorID": "6861",
+      "newTargetID": "8901",
+      "hand": true
+    },
+    {
+      "actorID": "502",
+      "targetID": "8924",
+      "newActorID": "502",
+      "newTargetID": "8923",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "502",
+      "actorUses": "last",
+      "targetID": "8924",
+      "newActorID": "858",
+      "newTargetID": "8923",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "insulation": 0.4,
+  "sounds": [
+    1050,
+    1051,
+    1053,
+    1055
+  ]
+}

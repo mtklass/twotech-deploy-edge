@@ -1,0 +1,170 @@
+{
+  "id": "13807",
+  "name": "Mine  - 2  - dismantled",
+  "transitionsToward": [
+    {
+      "targetID": "13806",
+      "newActorID": "666",
+      "newTargetID": "13807",
+      "hand": true
+    },
+    {
+      "targetID": "13824",
+      "newActorID": "13804",
+      "newTargetID": "13807",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8929",
+      "targetID": "13807",
+      "newTargetID": "11697",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.462",
+  "version": "20304",
+  "craftable": true,
+  "depth": 70,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "13806",
+      "nodes": [
+        {
+          "id": "11638",
+          "nodes": [
+            {
+              "id": "11639",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "11550",
+          "nodes": [
+            {
+              "id": "11599",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "13832",
+          "mainBranch": true,
+          "depth": 9,
+          "actorID": "8710",
+          "targetID": "11535",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "6421",
+          "mainBranch": true,
+          "depth": 8,
+          "targetID": "13832",
+          "decay": "1s"
+        }
+      ],
+      [
+        {
+          "id": "11557",
+          "mainBranch": true,
+          "depth": 7,
+          "actorID": "8710",
+          "targetID": "6421",
+          "weight": 0.1,
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "11561",
+          "mainBranch": true,
+          "depth": 6,
+          "targetID": "11557",
+          "targetUses": "last",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13833",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "666",
+          "targetID": "11561",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "6423",
+          "mainBranch": true,
+          "depth": 4,
+          "targetID": "13833",
+          "decay": "1s"
+        }
+      ],
+      [
+        {
+          "id": "11600",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "8710",
+          "targetID": "6423",
+          "weight": 0.4,
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "11550",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "11600",
+          "targetUses": "last",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13806",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "11638",
+          "targetID": "11550",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13807",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "13806",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "666",
+      "8710",
+      "11638",
+      "11535"
+    ]
+  }
+}

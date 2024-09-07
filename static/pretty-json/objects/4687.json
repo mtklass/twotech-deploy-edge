@@ -1,0 +1,83 @@
+{
+  "id": "4687",
+  "name": "Sword of Sparta  - scabbard",
+  "transitionsToward": [
+    {
+      "actorID": "4686",
+      "targetID": "4815",
+      "newActorID": "4687",
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "4676",
+      "newActorID": "4687",
+      "newTargetID": "4676",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4687",
+      "newActorID": "4686",
+      "newTargetID": "4815",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4687",
+      "newTargetID": "4809",
+      "decay": "2h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "clothing": "p",
+  "insulation": 0,
+  "size": 2,
+  "minPickupAge": 18,
+  "speedMult": 0.75,
+  "sounds": [
+    695
+  ],
+  "techTree": [
+    {
+      "id": "4686",
+      "nodes": [
+        {
+          "id": "4687",
+          "nodes": [
+            {
+              "id": "4686",
+              "nodes": []
+            },
+            {
+              "id": "4815",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4815",
+      "nodes": [
+        {
+          "id": "4687",
+          "nodes": [
+            {
+              "id": "4686",
+              "nodes": []
+            },
+            {
+              "id": "4815",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

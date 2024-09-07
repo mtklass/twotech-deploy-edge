@@ -1,0 +1,66 @@
+{
+  "id": "4462",
+  "name": "Hitched Dromedary",
+  "transitionsToward": [
+    {
+      "targetID": "4489",
+      "newActorID": "4446",
+      "newTargetID": "4462",
+      "hand": true
+    },
+    {
+      "actorID": "4461",
+      "targetID": "550",
+      "newActorID": "4448",
+      "newTargetID": "4462",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4446",
+      "targetID": "4462",
+      "newTargetID": "4489",
+      "hand": true
+    },
+    {
+      "actorID": "4448",
+      "targetID": "4462",
+      "newActorID": "4461",
+      "newTargetID": "550",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    1002
+  ],
+  "techTree": [
+    {
+      "id": "4489",
+      "nodes": [
+        {
+          "id": "4446",
+          "nodes": [
+            {
+              "id": "4489",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4462",
+          "nodes": [
+            {
+              "id": "4489",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

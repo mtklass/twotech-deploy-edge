@@ -1,0 +1,18 @@
+{
+  "id": "4430",
+  "name": "Celebrated Shrine  - A",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "4430",
+      "newTargetID": "4419",
+      "decay": "1h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    890
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "5197",
+  "name": "Dead Bull Mammoth  - meatless",
+  "transitionsToward": [
+    {
+      "targetID": "4745",
+      "targetUses": "last",
+      "newActorID": "4734",
+      "newTargetID": "5197",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "5197",
+      "newTargetUses": "-1",
+      "newActorID": "4854",
+      "newTargetID": "5197",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "5197",
+      "targetUses": "last",
+      "newActorID": "4854",
+      "newTargetID": "4706",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 6,
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    758
+  ],
+  "techTree": [
+    {
+      "id": "4745",
+      "nodes": [
+        {
+          "id": "4708",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "5313",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

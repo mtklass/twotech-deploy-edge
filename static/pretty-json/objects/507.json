@@ -1,0 +1,10 @@
+{
+  "id": "507",
+  "name": "@ Diggable Live Berry Bush",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20270",
+  "craftable": false,
+  "minPickupAge": 3
+}

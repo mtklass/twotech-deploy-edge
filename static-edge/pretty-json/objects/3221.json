@@ -1,0 +1,10 @@
+{
+  "id": "3221",
+  "name": "Perhaps a Pumpkin",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20274",
+  "craftable": false,
+  "minPickupAge": 3
+}

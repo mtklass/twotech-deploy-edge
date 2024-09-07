@@ -1,0 +1,69 @@
+{
+  "id": "6888",
+  "name": "Blowpipe With Detached Glass Tube",
+  "transitionsToward": [
+    {
+      "actorID": "455",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "6886",
+      "newActorID": "455",
+      "newTargetID": "6888",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "455",
+      "actorUses": "last",
+      "targetID": "6886",
+      "newActorID": "862",
+      "newTargetID": "6888",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "6888",
+      "newActorID": "4620",
+      "newTargetID": "2575",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    405
+  ],
+  "techTree": [
+    {
+      "id": "455",
+      "nodes": [
+        {
+          "id": "451",
+          "nodes": [
+            {
+              "decay": "10s"
+            },
+            {
+              "id": "445",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6886",
+      "nodes": [
+        {
+          "decay": "10s"
+        },
+        {
+          "id": "6884",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

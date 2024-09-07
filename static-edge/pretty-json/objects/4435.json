@@ -1,0 +1,55 @@
+{
+  "id": "4435",
+  "name": "(outdated) Silk Cocoons",
+  "transitionsToward": [
+    {
+      "targetID": "8112",
+      "newActorID": "4435",
+      "newTargetID": "67",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "4435",
+      "decay": "2m"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "8112",
+      "nodes": [
+        {
+          "id": "568",
+          "nodes": [
+            {
+              "id": "441",
+              "nodes": []
+            },
+            {
+              "id": "567",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4447",
+          "nodes": [
+            {
+              "id": "4428",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

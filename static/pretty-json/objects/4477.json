@@ -1,0 +1,153 @@
+{
+  "id": "4477",
+  "name": "Baked Flatbread",
+  "transitionsToward": [
+    {
+      "actorID": "4476",
+      "targetID": "250",
+      "newTargetUses": "-1",
+      "newActorID": "4477",
+      "newTargetID": "250",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "6441",
+      "newActorID": "4477",
+      "newTargetID": "235",
+      "hand": true
+    },
+    {
+      "targetID": "4478",
+      "newActorID": "4477",
+      "newTargetID": "4477",
+      "hand": true
+    },
+    {
+      "actorID": "4476",
+      "targetID": "13608",
+      "newActorID": "4477",
+      "newTargetID": "13608",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4477",
+      "targetID": "235",
+      "newTargetID": "6441",
+      "hand": true
+    },
+    {
+      "actorID": "4477",
+      "targetID": "4477",
+      "newTargetID": "4478",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.194",
+  "version": "20271",
+  "foodValue": [
+    8,
+    0
+  ],
+  "craftable": true,
+  "depth": 21,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    359,
+    1257
+  ],
+  "techTree": [
+    {
+      "id": "4476",
+      "nodes": [
+        {
+          "id": "4501",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "1286",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "250",
+      "nodes": [
+        {
+          "decay": "15s"
+        },
+        {
+          "id": "249",
+          "nodes": [
+            {
+              "id": "248",
+              "nodes": []
+            },
+            {
+              "id": "247",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "1286",
+          "depth": 3,
+          "actorID": "252",
+          "targetID": "291",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4501",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "33",
+          "targetID": "1286",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4476",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "4501",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4477",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "4476",
+          "targetID": "250",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "252",
+      "250",
+      "33",
+      "291"
+    ]
+  }
+}

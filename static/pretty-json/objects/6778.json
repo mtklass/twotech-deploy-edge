@@ -1,0 +1,10 @@
+{
+  "id": "6778",
+  "name": "Perhaps a Catch - low chance",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

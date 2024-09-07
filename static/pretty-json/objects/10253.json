@@ -1,0 +1,10 @@
+{
+  "id": "10253",
+  "name": "@ Wrought Iron Items  - tongs",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20289",
+  "craftable": false,
+  "minPickupAge": 3
+}

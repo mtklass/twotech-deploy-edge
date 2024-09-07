@@ -1,0 +1,10 @@
+{
+  "id": "10410",
+  "name": "@ Bottles - funnel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "minPickupAge": 3
+}

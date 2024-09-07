@@ -1,0 +1,11 @@
+{
+  "id": "8027",
+  "name": "@ Paint brush with Paint",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20277",
+  "craftable": false,
+  "minPickupAge": 3,
+  "blocksWalking": true
+}

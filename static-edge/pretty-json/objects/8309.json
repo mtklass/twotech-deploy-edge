@@ -1,0 +1,12 @@
+{
+  "id": "8309",
+  "name": "Abandoned Calf with Arrow",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20279",
+  "craftable": false,
+  "sounds": [
+    860
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "4817",
+  "name": "Scabbard  - oblivion",
+  "transitionsToward": [
+    {
+      "actorID": "4802",
+      "newActorID": "4801",
+      "newTargetID": "4817",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4801",
+      "targetID": "4817",
+      "newActorID": "4802",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4817",
+      "newTargetID": "4818",
+      "decay": "2h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    45
+  ],
+  "techTree": [
+    {
+      "id": "4802",
+      "nodes": [
+        {
+          "id": "4801",
+          "nodes": [
+            {
+              "id": "4802",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4817",
+          "nodes": [
+            {
+              "id": "4802",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

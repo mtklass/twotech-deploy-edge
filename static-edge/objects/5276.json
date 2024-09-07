@@ -1,0 +1,1 @@
+{"id":"5276","name":"(outdated) Stove Pot on Flat Rock  - cool","transitionsToward":[{"targetID":"5275","newTargetID":"5276","decay":"10s"}],"transitionsAway":[{"targetID":"5276","newActorID":"4841","newTargetID":"291","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"techTree":[{"decay":"10s"},{"id":"5275","nodes":null}]}

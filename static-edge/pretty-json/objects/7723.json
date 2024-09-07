@@ -1,0 +1,43 @@
+{
+  "id": "7723",
+  "name": "(outdated) Pressurised Cool Glass on Flat Rock",
+  "transitionsToward": [
+    {
+      "targetID": "7693",
+      "newTargetID": "7723",
+      "decay": "10s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "7723",
+      "newActorID": "291",
+      "newTargetID": "7694",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20273",
+  "craftable": false,
+  "sounds": [
+    391
+  ],
+  "techTree": [
+    {
+      "decay": "10s"
+    },
+    {
+      "id": "7693",
+      "nodes": [
+        {
+          "id": "291",
+          "nodes": null
+        },
+        {
+          "id": "7692",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

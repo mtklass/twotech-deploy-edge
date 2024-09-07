@@ -1,0 +1,209 @@
+{
+  "id": "7715",
+  "name": "Bowl of Salt  - just scooped",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "7705",
+      "newActorID": "7715",
+      "newTargetID": "7573",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7706",
+      "newActorID": "7715",
+      "newTargetID": "7705",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7707",
+      "newActorID": "7715",
+      "newTargetID": "7706",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7708",
+      "newActorID": "7715",
+      "newTargetID": "7707",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7709",
+      "newActorID": "7715",
+      "newTargetID": "7708",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7715",
+      "targetID": "7573",
+      "newActorID": "235",
+      "newTargetID": "7705",
+      "hand": true
+    },
+    {
+      "actorID": "7715",
+      "targetID": "7705",
+      "newActorID": "235",
+      "newTargetID": "7706",
+      "hand": true
+    },
+    {
+      "actorID": "7715",
+      "targetID": "7706",
+      "newActorID": "235",
+      "newTargetID": "7707",
+      "hand": true
+    },
+    {
+      "actorID": "7715",
+      "targetID": "7707",
+      "newActorID": "235",
+      "newTargetID": "7708",
+      "hand": true
+    },
+    {
+      "actorID": "7715",
+      "targetID": "7708",
+      "newActorID": "235",
+      "newTargetID": "7709",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "7715",
+      "newTargetID": "1234",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.539",
+  "version": "20273",
+  "craftable": true,
+  "depth": 74,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    342
+  ],
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7705",
+      "nodes": [
+        {
+          "id": "1234",
+          "nodes": [
+            {
+              "id": "1232",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7573",
+          "nodes": [
+            {
+              "id": "59",
+              "nodes": []
+            },
+            {
+              "id": "14486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "1226",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "235",
+          "targetID": "706",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1231",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "1226",
+          "targetID": "85",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1232",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "1231",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "1234",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "1232",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7705",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "1234",
+          "targetID": "7573",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7715",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "235",
+          "targetID": "7705",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "7573",
+      "235",
+      "85",
+      "706"
+    ]
+  }
+}

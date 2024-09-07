@@ -1,0 +1,57 @@
+{
+  "id": "8982",
+  "name": "Water Snare",
+  "transitionsToward": [
+    {
+      "targetID": "8984",
+      "newActorID": "8982",
+      "newTargetID": "8983",
+      "hand": true
+    },
+    {
+      "targetID": "8997",
+      "newActorID": "8982",
+      "newTargetID": "6438",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8982",
+      "targetID": "6438",
+      "newTargetID": "8997",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    193
+  ],
+  "techTree": [
+    {
+      "id": "8984",
+      "nodes": [
+        {
+          "decay": "5s"
+        },
+        {
+          "id": "8981",
+          "nodes": [
+            {
+              "id": "8961",
+              "nodes": null
+            },
+            {
+              "id": "8996",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

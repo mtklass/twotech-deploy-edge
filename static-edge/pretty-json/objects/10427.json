@@ -1,0 +1,21 @@
+{
+  "id": "10427",
+  "name": "(outdated) Bottle of Whole Milk  - stopper",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10427",
+      "newTargetID": "3665",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 4,
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    6
+  ]
+}

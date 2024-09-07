@@ -1,0 +1,54 @@
+{
+  "id": "5308",
+  "name": "Cow Mammoth Calf  - just left",
+  "transitionsToward": [
+    {
+      "actorID": "4666",
+      "actorUses": "last",
+      "newActorID": "5308",
+      "newTargetID": "14492"
+    },
+    {
+      "actorID": "4666",
+      "newActorID": "5308",
+      "newTargetID": "14492"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "5308",
+      "newTargetID": "4836",
+      "decay": "3s",
+      "move": 1
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 1.25,
+  "moveType": 1,
+  "moveDistance": 1,
+  "techTree": [
+    {
+      "id": "4666",
+      "nodes": [
+        {
+          "decay": "6s"
+        },
+        {
+          "id": "14491",
+          "nodes": [
+            {
+              "id": "4669",
+              "nodes": []
+            },
+            {
+              "id": "4671",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

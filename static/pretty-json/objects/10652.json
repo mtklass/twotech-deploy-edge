@@ -1,0 +1,88 @@
+{
+  "id": "10652",
+  "name": "(outdated) Stone Oven  - lit, mutton pie",
+  "transitionsToward": [
+    {
+      "actorID": "802",
+      "targetID": "10630",
+      "newTargetID": "10652",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "10652",
+      "newTargetID": "10653",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "heatValue": 14,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    110
+  ],
+  "techTree": [
+    {
+      "id": "802",
+      "nodes": [
+        {
+          "id": "236",
+          "nodes": [
+            {
+              "id": "241",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "11895",
+          "nodes": [
+            {
+              "id": "6923",
+              "nodes": []
+            },
+            {
+              "id": "11890",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10630",
+      "nodes": [
+        {
+          "id": "5294",
+          "nodes": [
+            {
+              "id": "135",
+              "nodes": []
+            },
+            {
+              "id": "326",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "10615",
+          "nodes": [
+            {
+              "id": "2343",
+              "nodes": []
+            },
+            {
+              "id": "10607",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"id":"10547","name":"(outdated) Full Bowl of Dry Rub","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"10547","newTargetID":"4336","decay":"1s"}],"version":"20290","craftable":false,"size":2,"minPickupAge":3,"sounds":[342]}

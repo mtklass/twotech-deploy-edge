@@ -1,0 +1,10 @@
+{
+  "id": "11662",
+  "name": "@ Any Adze",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "minPickupAge": 3
+}

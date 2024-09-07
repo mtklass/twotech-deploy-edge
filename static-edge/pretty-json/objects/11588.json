@@ -1,0 +1,85 @@
+{
+  "id": "11588",
+  "name": "(outdated) Mine Shaft with Drill Bit  - upgrade 3",
+  "transitionsToward": [
+    {
+      "targetID": "11589",
+      "newTargetID": "11588",
+      "newTargetWeight": 0.75,
+      "decay": "20s"
+    },
+    {
+      "actorID": "2495",
+      "targetID": "6424",
+      "newTargetID": "11588",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "2343",
+      "newActorUses": "-1",
+      "targetID": "11588",
+      "newActorID": "2343",
+      "newTargetID": "11589",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "2343",
+      "actorUses": "last",
+      "targetID": "11588",
+      "newActorID": "2302",
+      "newTargetID": "11589",
+      "hand": true
+    },
+    {
+      "actorID": "2705",
+      "targetID": "11588",
+      "newActorID": "235",
+      "newTargetID": "11589",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "decay": "20s"
+    },
+    {
+      "id": "11589",
+      "nodes": [
+        {
+          "id": "2343",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "13762",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "11588",
+          "nodes": [
+            {
+              "decay": "20s"
+            },
+            {
+              "id": "11589",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

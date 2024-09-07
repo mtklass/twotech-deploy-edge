@@ -1,0 +1,71 @@
+{
+  "id": "7109",
+  "name": "(outdated) Hitched Horse Wagon  - single",
+  "transitionsToward": [
+    {
+      "actorID": "7092",
+      "targetID": "774",
+      "newTargetID": "7109",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "770",
+      "targetID": "7109",
+      "newTargetID": "7108",
+      "hand": true
+    },
+    {
+      "actorID": "568",
+      "targetID": "7109",
+      "newActorID": "7780",
+      "newTargetID": "7109",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "numSlots": 4,
+  "slotSize": 3,
+  "blocksWalking": true,
+  "sounds": [
+    198,
+    496
+  ],
+  "techTree": [
+    {
+      "id": "7092",
+      "nodes": null
+    },
+    {
+      "id": "774",
+      "nodes": [
+        {
+          "id": "770",
+          "nodes": [
+            {
+              "id": "1421",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "550",
+          "nodes": [
+            {
+              "id": "556",
+              "nodes": []
+            },
+            {
+              "id": "553",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

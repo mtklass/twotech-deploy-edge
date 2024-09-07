@@ -1,0 +1,97 @@
+{
+  "id": "4532",
+  "name": "Distillery with Mash",
+  "transitionsToward": [
+    {
+      "actorID": "382",
+      "targetID": "4635",
+      "newActorID": "235",
+      "newTargetID": "4532",
+      "hand": true
+    },
+    {
+      "actorID": "210",
+      "targetID": "4635",
+      "newActorID": "209",
+      "newTargetID": "4532",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "344",
+      "targetID": "4532",
+      "newTargetID": "4530",
+      "hand": true
+    },
+    {
+      "actorID": "7393",
+      "targetID": "4532",
+      "newTargetID": "4530",
+      "hand": true
+    },
+    {
+      "actorID": "7394",
+      "targetID": "4532",
+      "newTargetID": "4530",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    411
+  ],
+  "techTree": [
+    {
+      "id": "382",
+      "nodes": [
+        {
+          "id": "235",
+          "nodes": [
+            {
+              "id": "283",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "141",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "4635",
+      "nodes": [
+        {
+          "id": "4561",
+          "nodes": [
+            {
+              "id": "235",
+              "nodes": []
+            },
+            {
+              "id": "4634",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4533",
+          "nodes": [
+            {
+              "decay": "5m"
+            },
+            {
+              "id": "4527",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

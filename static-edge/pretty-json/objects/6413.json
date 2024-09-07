@@ -1,0 +1,13 @@
+{
+  "id": "6413",
+  "name": "Clothing Wheel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    69
+  ]
+}

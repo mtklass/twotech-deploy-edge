@@ -1,0 +1,17 @@
+{
+  "id": "4843",
+  "name": "Wool Gambeson",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "clothing": "t",
+  "insulation": 0.24499999999999997,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    752,
+    286
+  ]
+}

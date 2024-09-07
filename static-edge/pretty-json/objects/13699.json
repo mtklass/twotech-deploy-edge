@@ -1,0 +1,304 @@
+{
+  "id": "13699",
+  "name": "Wood-filled Cast Iron Stove -  +useOnContained",
+  "transitionsToward": [
+    {
+      "actorID": "344",
+      "targetID": "13730",
+      "newTargetID": "13699",
+      "hand": true
+    },
+    {
+      "actorID": "7393",
+      "targetID": "13730",
+      "newTargetID": "13699",
+      "hand": true
+    },
+    {
+      "actorID": "7394",
+      "targetID": "13730",
+      "newTargetID": "13699",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "13699",
+      "newActorID": "344",
+      "newTargetID": "13730",
+      "hand": true
+    },
+    {
+      "actorID": "248",
+      "targetID": "13699",
+      "newActorID": "248",
+      "newTargetID": "13938",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.975",
+  "version": "20304",
+  "craftable": true,
+  "depth": 132,
+  "numSlots": 1,
+  "slotSize": 1,
+  "blocksWalking": true,
+  "sounds": [
+    496
+  ],
+  "techTree": [
+    {
+      "id": "344",
+      "nodes": [
+        {
+          "id": "340",
+          "nodes": [
+            {
+              "id": "8712",
+              "nodes": []
+            },
+            {
+              "id": "100",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13730",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "13731",
+          "nodes": [
+            {
+              "id": "441",
+              "nodes": []
+            },
+            {
+              "id": "13727",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "13745",
+          "mainBranch": true,
+          "depth": 10,
+          "actorID": "13743",
+          "targetID": "13685",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13746",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 9,
+          "targetID": "13745",
+          "decay": "2s"
+        }
+      ],
+      [
+        {
+          "id": "13688",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 8,
+          "targetID": "13746",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13723",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 7,
+          "targetID": "13688",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "13724",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 6,
+          "targetID": "13723",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13726",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "13724",
+          "targetID": "13724",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13729",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "13724",
+          "targetID": "13726",
+          "targetUses": "max",
+          "hand": true
+        },
+        {
+          "id": "13725",
+          "count": 2,
+          "uses": "x2",
+          "depth": 4,
+          "subSteps": [
+            [
+              {
+                "id": "13750",
+                "count": 2,
+                "uses": "x2",
+                "depth": 8,
+                "actorID": "13743",
+                "targetID": "13686",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "13748",
+                "count": 2,
+                "uses": "x2",
+                "depth": 7,
+                "targetID": "13750",
+                "targetUses": "last",
+                "decay": "24s"
+              }
+            ],
+            [
+              {
+                "id": "13687",
+                "count": 2,
+                "uses": "x2",
+                "depth": 6,
+                "targetID": "13748",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "13728",
+                "count": 2,
+                "uses": "x2",
+                "depth": 5,
+                "targetID": "13687",
+                "decay": "10s"
+              }
+            ],
+            [
+              {
+                "id": "13725",
+                "count": 2,
+                "uses": "x2",
+                "depth": 4,
+                "targetID": "13728",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "13727",
+          "uses": "max",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "13725",
+          "actorUses": "x2",
+          "targetID": "13729",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13731",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "441",
+          "targetID": "13727",
+          "targetUses": "max",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13730",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "13731",
+          "decay": "1s"
+        },
+        {
+          "id": "344",
+          "depth": 1,
+          "subSteps": [
+            [
+              {
+                "id": "340",
+                "depth": 2,
+                "actorID": "8712",
+                "targetID": "100",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "344",
+                "depth": 1,
+                "targetID": "340",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "13699",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "344",
+          "targetID": "13730",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13743",
+      "441",
+      "13686",
+      "13685",
+      "8712",
+      "100"
+    ]
+  }
+}

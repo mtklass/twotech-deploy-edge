@@ -1,0 +1,10 @@
+{
+  "id": "5202",
+  "name": "@ Banners",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

@@ -1,0 +1,77 @@
+{
+  "id": "4740",
+  "name": "Burlap Sack  - flour 2",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "4741",
+      "newActorID": "251",
+      "newTargetID": "4740",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "235",
+      "targetID": "4740",
+      "newActorID": "251",
+      "newTargetID": "4739",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4741",
+      "nodes": [
+        {
+          "id": "4738",
+          "nodes": [
+            {
+              "id": "4737",
+              "nodes": []
+            },
+            {
+              "id": "297",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4796",
+          "nodes": [
+            {
+              "decay": "5m"
+            },
+            {
+              "id": "4795",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

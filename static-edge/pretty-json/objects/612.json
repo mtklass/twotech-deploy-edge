@@ -1,0 +1,10 @@
+{
+  "id": "612",
+  "name": "@ Lamb Food Bowl",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "52",
+  "craftable": false,
+  "minPickupAge": 3
+}

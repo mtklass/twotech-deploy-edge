@@ -1,0 +1,41 @@
+{
+  "id": "4558",
+  "name": "Half Jar of Beer -  +noFeeding +emotEat_6_10 +alcohol5",
+  "transitionsToward": [
+    {
+      "targetID": "4621",
+      "newTargetID": "4558",
+      "decay": "1s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4558",
+      "newActorID": "4546",
+      "targetPlayer": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "foodValue": [
+    8,
+    0
+  ],
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    405,
+    1255
+  ],
+  "techTree": [
+    {
+      "decay": "1s"
+    },
+    {
+      "id": "4621",
+      "nodes": null
+    }
+  ]
+}

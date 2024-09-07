@@ -1,0 +1,13 @@
+{
+  "id": "14157",
+  "name": "Mosaic Floor -  groundOnly",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20305",
+  "craftable": false,
+  "insulation": 0.1,
+  "sounds": [
+    890
+  ]
+}

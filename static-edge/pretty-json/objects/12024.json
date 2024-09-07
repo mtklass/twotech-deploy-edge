@@ -1,0 +1,71 @@
+{
+  "id": "12024",
+  "name": "(outdated) Primitive Hookless Fishing Pole",
+  "transitionsToward": [
+    {
+      "targetID": "12023",
+      "newTargetID": "12024",
+      "newTargetWeight": 0.02,
+      "decay": "5s"
+    },
+    {
+      "targetID": "14841",
+      "newTargetID": "12024",
+      "decay": "1s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "12024",
+      "targetID": "191",
+      "newActorID": "12030",
+      "hand": true
+    },
+    {
+      "actorID": "191",
+      "targetID": "12024",
+      "newTargetID": "12030",
+      "hand": true
+    },
+    {
+      "actorID": "12024",
+      "targetID": "198",
+      "newTargetID": "12033",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20291",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    74
+  ],
+  "techTree": [
+    {
+      "decay": "5s"
+    },
+    {
+      "id": "12023",
+      "nodes": [
+        {
+          "id": "12022",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "12023",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "6438",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

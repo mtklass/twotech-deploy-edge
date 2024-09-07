@@ -1,0 +1,20 @@
+{
+  "id": "6458",
+  "name": "Stone Wall - blacksmithflag",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "6458",
+      "newTargetID": "8641",
+      "decay": "10h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ]
+}

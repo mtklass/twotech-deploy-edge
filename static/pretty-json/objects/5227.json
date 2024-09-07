@@ -1,0 +1,100 @@
+{
+  "id": "5227",
+  "name": "(outdated) Dry Apple Cutting",
+  "transitionsToward": [
+    {
+      "actorID": "5226",
+      "targetID": "213",
+      "newTargetID": "5227",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "382",
+      "targetID": "5227",
+      "newActorID": "235",
+      "newTargetID": "5228",
+      "hand": true
+    },
+    {
+      "actorID": "210",
+      "targetID": "5227",
+      "newActorID": "209",
+      "newTargetID": "5228",
+      "hand": true
+    },
+    {
+      "actorID": "7029",
+      "targetID": "5227",
+      "newActorID": "7013",
+      "newTargetID": "5228",
+      "hand": true
+    },
+    {
+      "actorID": "7013",
+      "newActorUses": "-1",
+      "targetID": "5227",
+      "newActorID": "7013",
+      "newTargetID": "5228",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7013",
+      "actorUses": "last",
+      "targetID": "5227",
+      "newActorID": "7014",
+      "newTargetID": "5228",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    297
+  ],
+  "techTree": [
+    {
+      "id": "5226",
+      "nodes": [
+        {
+          "id": "5180",
+          "nodes": [
+            {
+              "decay": "4h"
+            },
+            {
+              "id": "5233",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "nodes": [
+        {
+          "id": "139",
+          "nodes": [
+            {
+              "id": "138",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "1101",
+          "nodes": [
+            {
+              "id": "336",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

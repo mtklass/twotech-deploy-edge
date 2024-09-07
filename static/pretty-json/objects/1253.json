@@ -1,0 +1,23 @@
+{
+  "id": "1253",
+  "name": "(outdated) Squash Seed",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "1253",
+      "targetID": "213",
+      "newTargetID": "1192",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "1253",
+      "decay": "15m"
+    }
+  ],
+  "version": "20270",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3
+}

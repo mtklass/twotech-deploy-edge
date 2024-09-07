@@ -1,0 +1,19 @@
+{
+  "id": "105",
+  "name": "Half Wooden Frame",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "92",
+      "targetID": "105",
+      "newTargetID": "104",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20270",
+  "craftable": false,
+  "sounds": [
+    74
+  ]
+}

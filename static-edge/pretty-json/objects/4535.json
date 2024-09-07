@@ -1,0 +1,35 @@
+{
+  "id": "4535",
+  "name": "Primitive Table",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "334",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "4535",
+      "newActorID": "334",
+      "newTargetID": "344",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "334",
+      "actorUses": "last",
+      "targetID": "4535",
+      "newActorID": "858",
+      "newTargetID": "344",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.8,
+  "numSlots": 2,
+  "slotSize": 2,
+  "blocksWalking": true,
+  "sounds": [
+    429
+  ]
+}

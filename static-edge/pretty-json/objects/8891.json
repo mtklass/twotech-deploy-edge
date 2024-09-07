@@ -1,0 +1,12 @@
+{
+  "id": "8891",
+  "name": "Brook with Cattail - cut",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "sounds": [
+    74
+  ]
+}

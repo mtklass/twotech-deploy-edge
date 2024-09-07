@@ -1,0 +1,155 @@
+{
+  "id": "9134",
+  "name": "Fed Alpaca - rope",
+  "transitionsToward": [
+    {
+      "actorID": "59",
+      "targetID": "8823",
+      "newActorID": "9134",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "9134",
+      "newActorID": "59",
+      "newTargetID": "8823",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.0496",
+  "version": "20288",
+  "craftable": true,
+  "depth": 4,
+  "speedMult": 0.8,
+  "techTree": [
+    {
+      "id": "59",
+      "nodes": [
+        {
+          "id": "58",
+          "nodes": [
+            {
+              "id": "57",
+              "nodes": []
+            },
+            {
+              "id": "57",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "58",
+          "nodes": [
+            {
+              "id": "57",
+              "nodes": []
+            },
+            {
+              "id": "57",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8823",
+      "nodes": [
+        {
+          "id": "4784",
+          "nodes": [
+            {
+              "id": "7312",
+              "nodes": null
+            }
+          ]
+        },
+        {
+          "id": "8819",
+          "nodes": null
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "57",
+          "count": 4,
+          "uses": "x4",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "50",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "58",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "57",
+          "targetID": "57",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "59",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "58",
+          "targetID": "58",
+          "hand": true
+        },
+        {
+          "id": "8823",
+          "depth": 1,
+          "subSteps": [
+            [
+              {
+                "id": "4784",
+                "depth": 2,
+                "targetID": "7312",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "8823",
+                "depth": 1,
+                "actorID": "4784",
+                "targetID": "8819",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "9134",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "59",
+          "targetID": "8823",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "7312",
+      "50",
+      "50",
+      "50",
+      "50",
+      "8819"
+    ]
+  }
+}

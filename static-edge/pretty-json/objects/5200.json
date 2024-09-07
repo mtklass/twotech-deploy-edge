@@ -1,0 +1,79 @@
+{
+  "id": "5200",
+  "name": "Cooked Mammoth Meat",
+  "transitionsToward": [
+    {
+      "actorID": "4734",
+      "targetID": "250",
+      "newTargetUses": "-1",
+      "newActorID": "5200",
+      "newTargetID": "250",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4734",
+      "targetID": "13608",
+      "newActorID": "5200",
+      "newTargetID": "13608",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "5200",
+      "decay": "3s"
+    }
+  ],
+  "version": "20271",
+  "foodValue": [
+    20,
+    0
+  ],
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "4734",
+      "nodes": [
+        {
+          "id": "4744",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "4710",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "250",
+      "nodes": [
+        {
+          "decay": "15s"
+        },
+        {
+          "id": "249",
+          "nodes": [
+            {
+              "id": "248",
+              "nodes": []
+            },
+            {
+              "id": "247",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

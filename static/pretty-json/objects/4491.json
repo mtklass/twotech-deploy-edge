@@ -1,0 +1,192 @@
+{
+  "id": "4491",
+  "name": "Cheesy Mutton Sandwich - 3",
+  "transitionsToward": [
+    {
+      "actorID": "4490",
+      "newActorID": "4491",
+      "targetPlayer": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4491",
+      "newActorID": "4492",
+      "targetPlayer": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.525",
+  "version": "20271",
+  "foodValue": [
+    4,
+    4
+  ],
+  "craftable": true,
+  "depth": 87,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    359,
+    1257
+  ],
+  "techTree": [
+    {
+      "id": "4490",
+      "nodes": [
+        {
+          "id": "4480",
+          "nodes": [
+            {
+              "id": "570",
+              "nodes": []
+            },
+            {
+              "id": "4479",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "1286",
+          "count": 2,
+          "uses": "x2",
+          "depth": 8,
+          "actorID": "252",
+          "targetID": "291",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4501",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 7,
+          "actorID": "33",
+          "targetID": "1286",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4476",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 6,
+          "targetID": "4501",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4477",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "4476",
+          "targetID": "250",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4478",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "4477",
+          "targetID": "4477",
+          "hand": true
+        },
+        {
+          "id": "4495",
+          "depth": 4,
+          "targetID": "13384",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4479",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "4495",
+          "targetID": "4478",
+          "hand": true
+        },
+        {
+          "id": "570",
+          "depth": 3,
+          "subSteps": [
+            [
+              {
+                "id": "569",
+                "depth": 4,
+                "targetID": "9005",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "570",
+                "depth": 3,
+                "actorID": "569",
+                "targetID": "250",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "4480",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "570",
+          "targetID": "4479",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4490",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "4480",
+          "hand": true,
+          "targetPlayer": true
+        }
+      ],
+      [
+        {
+          "id": "4491",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "4490",
+          "hand": true,
+          "targetPlayer": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13384",
+      "252",
+      "9005",
+      "250",
+      "33",
+      "291"
+    ]
+  }
+}

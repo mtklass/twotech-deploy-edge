@@ -1,0 +1,122 @@
+{
+  "id": "11860",
+  "name": "Pile of Beets",
+  "transitionsToward": [
+    {
+      "actorID": "8841",
+      "targetID": "8841",
+      "newTargetUses": "last",
+      "newTargetID": "11860",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "11860",
+      "newTargetUses": "-1",
+      "newActorID": "8841",
+      "newTargetID": "11860",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "11860",
+      "targetUses": "last",
+      "newActorID": "8841",
+      "newTargetID": "8841",
+      "hand": true
+    },
+    {
+      "actorID": "8841",
+      "targetID": "11860",
+      "newTargetUses": "+1",
+      "newTargetID": "11860",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.178",
+  "version": "20290",
+  "numUses": 5,
+  "craftable": true,
+  "depth": 21,
+  "sounds": [
+    147
+  ],
+  "techTree": [
+    {
+      "id": "8841",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "14568",
+          "nodes": [
+            {
+              "id": "8840",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8841",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "14568",
+          "nodes": [
+            {
+              "id": "8840",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "14568",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "8840",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8841",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "14568",
+          "decay": "1s"
+        }
+      ],
+      [
+        {
+          "id": "11860",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "8841",
+          "targetID": "8841",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "8840"
+    ]
+  }
+}

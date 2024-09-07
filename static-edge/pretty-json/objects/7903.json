@@ -1,0 +1,17 @@
+{
+  "id": "7903",
+  "name": "Tank with Fractional Distiller",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "7903",
+      "newActorID": "2336",
+      "newTargetID": "7902",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20274",
+  "craftable": false,
+  "speedMult": 0.75
+}

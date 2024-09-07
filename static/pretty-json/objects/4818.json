@@ -1,0 +1,96 @@
+{
+  "id": "4818",
+  "name": "Scabbard  - public",
+  "transitionsToward": [
+    {
+      "targetID": "4813",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4814",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4819",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4816",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4811",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4812",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4817",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4815",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "targetID": "5166",
+      "newTargetID": "4818",
+      "decay": "2h"
+    },
+    {
+      "actorID": "4809",
+      "newActorID": "4810",
+      "newTargetID": "4818",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4810",
+      "targetID": "4818",
+      "newActorID": "4809",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    45
+  ],
+  "techTree": [
+    {
+      "decay": "2h"
+    },
+    {
+      "id": "4813",
+      "nodes": [
+        {
+          "id": "4677",
+          "nodes": [
+            {
+              "id": "4675",
+              "nodes": []
+            },
+            {
+              "id": "4813",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

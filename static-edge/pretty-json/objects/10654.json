@@ -1,0 +1,50 @@
+{
+  "id": "10654",
+  "name": "(outdated) Stone Oven  - cool, mutton pie",
+  "transitionsToward": [
+    {
+      "targetID": "10653",
+      "newTargetID": "10654",
+      "decay": "2m"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "10654",
+      "newActorID": "803",
+      "newTargetID": "10607",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "heatValue": 4,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    113
+  ],
+  "techTree": [
+    {
+      "decay": "2m"
+    },
+    {
+      "id": "10653",
+      "nodes": [
+        {
+          "id": "10652",
+          "nodes": [
+            {
+              "id": "802",
+              "nodes": []
+            },
+            {
+              "id": "10630",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

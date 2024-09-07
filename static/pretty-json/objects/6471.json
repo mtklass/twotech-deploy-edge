@@ -1,0 +1,14 @@
+{
+  "id": "6471",
+  "name": "Stone Wall - flagholdefloor",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    286
+  ]
+}

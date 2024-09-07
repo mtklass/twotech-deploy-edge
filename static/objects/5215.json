@@ -1,0 +1,1 @@
+{"id":"5215","name":"Iron Griddle on Flat Rock","transitionsToward":[{"targetID":"5274","newTargetID":"5215","decay":"10s"}],"transitionsAway":[],"transitionsTimed":[],"version":"20271","craftable":false,"techTree":[{"decay":"10s"},{"id":"5274","nodes":null}]}

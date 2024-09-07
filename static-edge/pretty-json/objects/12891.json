@@ -1,0 +1,12 @@
+{
+  "id": "12891",
+  "name": "@ Loose Tjunction Pattern",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20296",
+  "craftable": false,
+  "sounds": [
+    1554
+  ]
+}

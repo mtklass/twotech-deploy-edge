@@ -1,0 +1,14 @@
+{
+  "id": "353",
+  "name": "Female006 C",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "24",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    6,
+    34
+  ]
+}

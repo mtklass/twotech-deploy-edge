@@ -1,0 +1,32 @@
+{
+  "id": "4503",
+  "name": "Secure Fence",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "4503",
+      "newActorID": "560",
+      "newTargetID": "550",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "4503",
+      "newActorID": "11907",
+      "newTargetID": "550",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "5310",
+  "name": "@ Shot Mammoth bulls",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

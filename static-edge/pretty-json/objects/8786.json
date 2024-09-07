@@ -1,0 +1,84 @@
+{
+  "id": "8786",
+  "name": "Mole Hole - whacked",
+  "transitionsToward": [
+    {
+      "actorID": "467",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "8783",
+      "newActorID": "467",
+      "newTargetID": "8786",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "467",
+      "actorUses": "last",
+      "targetID": "8783",
+      "newActorID": "863",
+      "newTargetID": "8786",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8786",
+      "newTargetID": "8787",
+      "decay": "5m"
+    }
+  ],
+  "version": "20285",
+  "craftable": false,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "467",
+      "nodes": [
+        {
+          "id": "11638",
+          "nodes": [
+            {
+              "id": "11639",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "345",
+          "nodes": [
+            {
+              "id": "15125",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8783",
+      "nodes": [
+        {
+          "decay": "5s"
+        },
+        {
+          "id": "8784",
+          "nodes": [
+            {
+              "decay": "5m"
+            },
+            {
+              "id": "8788",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

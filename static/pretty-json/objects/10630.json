@@ -1,0 +1,133 @@
+{
+  "id": "10630",
+  "name": "(outdated) Stone Oven  - lit",
+  "transitionsToward": [
+    {
+      "actorID": "5294",
+      "targetID": "10615",
+      "newActorID": "5294",
+      "newTargetID": "10630",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "10630",
+      "newTargetID": "10608",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "2183",
+      "targetID": "10630",
+      "newTargetID": "10635",
+      "hand": true
+    },
+    {
+      "actorID": "6947",
+      "targetID": "10630",
+      "newTargetID": "10646",
+      "hand": true
+    },
+    {
+      "actorID": "802",
+      "targetID": "10630",
+      "newTargetID": "10652",
+      "hand": true
+    },
+    {
+      "actorID": "6943",
+      "targetID": "10630",
+      "newTargetID": "10640",
+      "hand": true
+    },
+    {
+      "actorID": "6951",
+      "targetID": "10630",
+      "newTargetID": "10649",
+      "hand": true
+    },
+    {
+      "actorID": "6945",
+      "targetID": "10630",
+      "newTargetID": "10643",
+      "hand": true
+    },
+    {
+      "actorID": "10087",
+      "targetID": "10630",
+      "newActorID": "291",
+      "newTargetID": "11539",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "10630",
+      "newTargetID": "10607",
+      "decay": "5m"
+    }
+  ],
+  "version": "20290",
+  "heatValue": 14,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    110
+  ],
+  "techTree": [
+    {
+      "id": "5294",
+      "nodes": [
+        {
+          "id": "135",
+          "nodes": [
+            {
+              "id": "150",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "326",
+          "nodes": [
+            {
+              "id": "325",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10615",
+      "nodes": [
+        {
+          "id": "2343",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "13762",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "10607",
+          "nodes": [
+            {
+              "decay": "5m"
+            },
+            {
+              "id": "10630",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

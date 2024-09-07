@@ -1,0 +1,164 @@
+{
+  "id": "8943",
+  "name": "Pair of Old Boots",
+  "transitionsToward": [
+    {
+      "actorID": "2099",
+      "targetID": "2099",
+      "newTargetID": "8943",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8943",
+      "newActorID": "2099",
+      "newTargetID": "2099",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.0995",
+  "version": "20286",
+  "craftable": true,
+  "depth": 12,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    286
+  ],
+  "techTree": [
+    {
+      "id": "2099",
+      "nodes": [
+        {
+          "id": "2098",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "2101",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2099",
+      "nodes": [
+        {
+          "id": "2098",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "2101",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "411",
+          "depth": 7,
+          "actorID": "292",
+          "targetID": "211",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "410",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "292",
+          "targetID": "411",
+          "targetUses": "last",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "789",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "410",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2094",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "2091",
+          "targetID": "789",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2101",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "2094",
+          "targetID": "706",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2098",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "2101",
+          "weight": 0.075,
+          "decay": "5s"
+        }
+      ],
+      [
+        {
+          "id": "2099",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "2098",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8943",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "2099",
+          "targetID": "2099",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "2091",
+      "292",
+      "706",
+      "211"
+    ]
+  }
+}

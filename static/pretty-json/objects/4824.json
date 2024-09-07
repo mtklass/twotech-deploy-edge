@@ -1,0 +1,26 @@
+{
+  "id": "4824",
+  "name": "Bucket of Grape Must",
+  "transitionsToward": [
+    {
+      "targetID": "4823",
+      "newTargetID": "4824",
+      "decay": "1m"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "decay": "1m"
+    },
+    {
+      "id": "4823",
+      "nodes": null
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "8675",
+  "name": "Skull Hat",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20283",
+  "craftable": false,
+  "clothing": "h",
+  "insulation": 0.0375,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    153,
+    286
+  ]
+}

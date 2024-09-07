@@ -1,0 +1,204 @@
+{
+  "id": "7138",
+  "name": "Thin Copper Rod  - just made",
+  "transitionsToward": [
+    {
+      "actorID": "12488",
+      "targetID": "2277",
+      "newActorID": "7138",
+      "newTargetID": "2277",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "12485",
+      "targetID": "2277",
+      "newActorID": "7138",
+      "newTargetID": "2277",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7138",
+      "targetID": "2530",
+      "newTargetUses": "last",
+      "newTargetID": "7137",
+      "hand": true
+    },
+    {
+      "actorID": "7138",
+      "targetID": "7137",
+      "newTargetUses": "+1",
+      "newTargetID": "7137",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "7138",
+      "newTargetID": "2530",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.648",
+  "version": "20271",
+  "craftable": true,
+  "depth": 95,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    1556
+  ],
+  "techTree": [
+    {
+      "id": "12488",
+      "nodes": [
+        {
+          "id": "2514",
+          "nodes": [
+            {
+              "id": "2512",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "2277",
+          "nodes": [
+            {
+              "id": "248",
+              "nodes": []
+            },
+            {
+              "id": "2283",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2277",
+      "nodes": [
+        {
+          "id": "248",
+          "nodes": [
+            {
+              "id": "67",
+              "nodes": []
+            },
+            {
+              "id": "82",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "2283",
+          "nodes": [
+            {
+              "id": "2263",
+              "nodes": []
+            },
+            {
+              "id": "10015",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "13664",
+          "depth": 7,
+          "actorID": "4542",
+          "targetID": "235",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13665",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "33",
+          "targetID": "13664",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13666",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "239",
+          "targetID": "13665",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13668",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "13666",
+          "targetID": "304",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2512",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "13668",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2514",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "2512",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "12488",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "2514",
+          "targetID": "2277",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7138",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "12488",
+          "targetID": "2277",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "2277",
+      "304",
+      "235",
+      "239",
+      "33",
+      "4542"
+    ]
+  }
+}

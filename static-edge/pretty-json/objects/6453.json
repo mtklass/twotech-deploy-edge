@@ -1,0 +1,55 @@
+{
+  "id": "6453",
+  "name": "Stone Wall - horseflag",
+  "transitionsToward": [
+    {
+      "targetID": "6627",
+      "newTargetID": "6453",
+      "decay": "1s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "6453",
+      "newTargetID": "6627",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "6453",
+      "newTargetID": "8637",
+      "decay": "10h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "1s"
+    },
+    {
+      "id": "6627",
+      "nodes": [
+        {
+          "id": "6453",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "6627",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

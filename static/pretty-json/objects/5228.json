@@ -1,0 +1,104 @@
+{
+  "id": "5228",
+  "name": "Wet Apple Cutting",
+  "transitionsToward": [
+    {
+      "actorID": "382",
+      "targetID": "5227",
+      "newActorID": "235",
+      "newTargetID": "5228",
+      "hand": true
+    },
+    {
+      "actorID": "210",
+      "targetID": "5227",
+      "newActorID": "209",
+      "newTargetID": "5228",
+      "hand": true
+    },
+    {
+      "actorID": "7029",
+      "targetID": "5227",
+      "newActorID": "7013",
+      "newTargetID": "5228",
+      "hand": true
+    },
+    {
+      "actorID": "7013",
+      "newActorUses": "-1",
+      "targetID": "5227",
+      "newActorID": "7013",
+      "newTargetID": "5228",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7013",
+      "actorUses": "last",
+      "targetID": "5227",
+      "newActorID": "7014",
+      "newTargetID": "5228",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "5228",
+      "newTargetID": "5229",
+      "decay": "2h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    321
+  ],
+  "techTree": [
+    {
+      "id": "382",
+      "nodes": [
+        {
+          "id": "235",
+          "nodes": [
+            {
+              "id": "283",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "141",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "5227",
+      "nodes": [
+        {
+          "id": "5226",
+          "nodes": [
+            {
+              "id": "5180",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "213",
+          "nodes": [
+            {
+              "id": "139",
+              "nodes": []
+            },
+            {
+              "id": "1101",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

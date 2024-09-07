@@ -1,0 +1,10 @@
+{
+  "id": "1594",
+  "name": "@ Diggable Track",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20270",
+  "craftable": false,
+  "minPickupAge": 3
+}

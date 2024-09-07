@@ -1,0 +1,10 @@
+{
+  "id": "9042",
+  "name": "@ Rooting Cutting (trees and flowers)",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20287",
+  "craftable": false,
+  "minPickupAge": 3
+}

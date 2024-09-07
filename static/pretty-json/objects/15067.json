@@ -1,0 +1,10 @@
+{
+  "id": "15067",
+  "name": "@ CONTAINER Empty Tray +contEmptyTray",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20315",
+  "craftable": false,
+  "minPickupAge": 3
+}

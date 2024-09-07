@@ -1,0 +1,87 @@
+{
+  "id": "5332",
+  "name": "Silver Ore in Wooden Tongs  - 2HOL",
+  "transitionsToward": [
+    {
+      "actorID": "239",
+      "targetID": "5331",
+      "newActorID": "5332",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5332",
+      "newActorID": "239",
+      "newTargetID": "5331",
+      "hand": true
+    },
+    {
+      "actorID": "5332",
+      "targetID": "304",
+      "newTargetUses": "-1",
+      "newActorID": "5335",
+      "newTargetID": "304",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    341
+  ],
+  "techTree": [
+    {
+      "id": "239",
+      "nodes": [
+        {
+          "id": "8709",
+          "nodes": [
+            {
+              "id": "135",
+              "nodes": []
+            },
+            {
+              "id": "70",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "67",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "64",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5331",
+      "nodes": [
+        {
+          "id": "5332",
+          "nodes": [
+            {
+              "id": "239",
+              "nodes": []
+            },
+            {
+              "id": "5331",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

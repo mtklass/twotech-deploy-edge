@@ -1,0 +1,133 @@
+{
+  "id": "10290",
+  "name": "Raw Beaver",
+  "transitionsToward": [
+    {
+      "targetID": "8988",
+      "newTargetUses": "-1",
+      "newActorID": "10290",
+      "newTargetID": "8988",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "8988",
+      "targetUses": "last",
+      "newActorID": "10290",
+      "newTargetID": "10291",
+      "hand": true
+    },
+    {
+      "targetID": "8989",
+      "newActorID": "10290",
+      "newTargetID": "852",
+      "hand": true
+    },
+    {
+      "targetID": "11528",
+      "newTargetUses": "-1",
+      "newActorID": "10290",
+      "newTargetID": "11528",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "11528",
+      "targetUses": "last",
+      "newActorID": "10290",
+      "newTargetID": "10290",
+      "hand": true
+    },
+    {
+      "actorID": "139",
+      "targetID": "11528",
+      "targetUses": "last",
+      "newActorID": "8989",
+      "newTargetID": "10290",
+      "hand": true
+    },
+    {
+      "actorID": "852",
+      "targetID": "11528",
+      "targetUses": "last",
+      "newActorID": "8989",
+      "newTargetID": "10290",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "10290",
+      "targetID": "11528",
+      "newTargetUses": "+1",
+      "newTargetID": "11528",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10290",
+      "targetID": "10290",
+      "newTargetUses": "last",
+      "newTargetID": "11528",
+      "hand": true
+    },
+    {
+      "actorID": "10290",
+      "targetID": "139",
+      "newTargetID": "8989",
+      "hand": true
+    },
+    {
+      "actorID": "139",
+      "targetID": "10290",
+      "newActorID": "8989",
+      "hand": true
+    },
+    {
+      "actorID": "10290",
+      "targetID": "852",
+      "newTargetID": "8989",
+      "hand": true
+    },
+    {
+      "actorID": "852",
+      "targetID": "10290",
+      "newActorID": "8989",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "8988",
+      "nodes": [
+        {
+          "id": "8709",
+          "nodes": [
+            {
+              "id": "135",
+              "nodes": []
+            },
+            {
+              "id": "70",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8986",
+          "nodes": [
+            {
+              "id": "8987",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

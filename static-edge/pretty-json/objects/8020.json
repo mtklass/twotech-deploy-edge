@@ -1,0 +1,10 @@
+{
+  "id": "8020",
+  "name": "Soil",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20276",
+  "craftable": false,
+  "minPickupAge": 3
+}

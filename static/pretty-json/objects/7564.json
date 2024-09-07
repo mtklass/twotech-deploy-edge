@@ -1,0 +1,98 @@
+{
+  "id": "7564",
+  "name": "(outdated) Removed Lock Open Pine Door -  installed vert $20",
+  "transitionsToward": [
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "7562",
+      "newActorID": "560",
+      "newTargetID": "7564",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "7562",
+      "newActorID": "11907",
+      "newTargetID": "7564",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "7564",
+      "newActorID": "7286",
+      "newTargetID": "117",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20272",
+  "craftable": false,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "560",
+      "nodes": [
+        {
+          "id": "559",
+          "nodes": [
+            {
+              "id": "458",
+              "nodes": []
+            },
+            {
+              "id": "459",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "69",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7562",
+      "nodes": [
+        {
+          "id": "7282",
+          "nodes": [
+            {
+              "id": "7288",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7563",
+          "nodes": [
+            {
+              "id": "7282",
+              "nodes": []
+            },
+            {
+              "id": "7562",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

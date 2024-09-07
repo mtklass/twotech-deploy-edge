@@ -1,0 +1,10 @@
+{
+  "id": "494",
+  "name": "@ Yew Bow",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "49",
+  "craftable": false,
+  "minPickupAge": 3
+}

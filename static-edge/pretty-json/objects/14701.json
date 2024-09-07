@@ -1,0 +1,52 @@
+{
+  "id": "14701",
+  "name": "Pineapple Plant",
+  "transitionsToward": [
+    {
+      "targetID": "14700",
+      "newTargetID": "14701",
+      "decay": "10m"
+    },
+    {
+      "targetID": "14702",
+      "newActorID": "14703",
+      "newTargetID": "14701",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "14701",
+      "newTargetID": "14700",
+      "decay": "10m"
+    }
+  ],
+  "version": "20311",
+  "craftable": false,
+  "techTree": [
+    {
+      "decay": "10m"
+    },
+    {
+      "id": "14700",
+      "nodes": [
+        {
+          "decay": "10m"
+        },
+        {
+          "id": "14701",
+          "nodes": [
+            {
+              "decay": "10m"
+            },
+            {
+              "id": "14700",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

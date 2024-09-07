@@ -1,0 +1,10 @@
+{
+  "id": "722",
+  "name": "@ Shallow Digger",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "62",
+  "craftable": false,
+  "minPickupAge": 3
+}

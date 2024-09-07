@@ -1,0 +1,79 @@
+{
+  "id": "4418",
+  "name": "Shrine  - A three carrots",
+  "transitionsToward": [
+    {
+      "actorID": "40",
+      "targetID": "4417",
+      "newTargetID": "4418",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4418",
+      "newActorID": "40",
+      "newTargetID": "4423",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4418",
+      "newTargetID": "4419",
+      "decay": "1h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "40",
+      "nodes": [
+        {
+          "id": "39",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "36",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4417",
+      "nodes": [
+        {
+          "id": "40",
+          "nodes": [
+            {
+              "id": "39",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4416",
+          "nodes": [
+            {
+              "id": "40",
+              "nodes": []
+            },
+            {
+              "id": "4415",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

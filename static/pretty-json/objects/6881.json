@@ -1,0 +1,81 @@
+{
+  "id": "6881",
+  "name": "(outdated) Cheese Wheel Pile",
+  "transitionsToward": [
+    {
+      "actorID": "4481",
+      "targetID": "4481",
+      "newTargetUses": "last",
+      "newTargetID": "6881",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "6881",
+      "newTargetUses": "-1",
+      "newActorID": "4481",
+      "newTargetID": "6881",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "6881",
+      "targetUses": "last",
+      "newActorID": "4481",
+      "newTargetID": "4481",
+      "hand": true
+    },
+    {
+      "actorID": "4481",
+      "targetID": "6881",
+      "newTargetUses": "+1",
+      "newTargetID": "6881",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 5,
+  "craftable": false,
+  "sounds": [
+    359
+  ],
+  "techTree": [
+    {
+      "id": "4481",
+      "nodes": [
+        {
+          "decay": "10m"
+        },
+        {
+          "id": "4498",
+          "nodes": [
+            {
+              "id": "4473",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4481",
+      "nodes": [
+        {
+          "decay": "10m"
+        },
+        {
+          "id": "4498",
+          "nodes": [
+            {
+              "id": "4473",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

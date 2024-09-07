@@ -1,0 +1,21 @@
+{
+  "id": "8458",
+  "name": "Ancient Stone Wall with Board Stack",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "8458",
+      "newActorID": "470",
+      "newTargetID": "8457",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20280",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ]
+}

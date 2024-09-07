@@ -1,0 +1,19 @@
+{
+  "id": "10401",
+  "name": "(outdated) Bottle of Vinegar  - funnel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10401",
+      "newTargetID": "3610",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 4,
+  "craftable": false,
+  "sounds": [
+    405
+  ]
+}

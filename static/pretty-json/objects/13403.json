@@ -1,0 +1,10 @@
+{
+  "id": "13403",
+  "name": "@ Orange Tree Any Season",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20301",
+  "craftable": false,
+  "blocksWalking": true
+}

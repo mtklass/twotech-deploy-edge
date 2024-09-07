@@ -1,0 +1,10 @@
+{
+  "id": "8285",
+  "name": "Perhaps Bear 1 Arrow Hit",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20279",
+  "craftable": false,
+  "minPickupAge": 3
+}

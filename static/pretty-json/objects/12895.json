@@ -1,0 +1,12 @@
+{
+  "id": "12895",
+  "name": "@ Flowing Tjunction Group",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20296",
+  "craftable": false,
+  "sounds": [
+    1554
+  ]
+}

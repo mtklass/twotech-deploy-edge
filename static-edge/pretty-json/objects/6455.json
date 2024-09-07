@@ -1,0 +1,55 @@
+{
+  "id": "6455",
+  "name": "Stone Wall - llamaflag",
+  "transitionsToward": [
+    {
+      "targetID": "6624",
+      "newTargetID": "6455",
+      "decay": "1s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "6455",
+      "newTargetID": "6624",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "6455",
+      "newTargetID": "8640",
+      "decay": "10h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "1s"
+    },
+    {
+      "id": "6624",
+      "nodes": [
+        {
+          "id": "6455",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "6624",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

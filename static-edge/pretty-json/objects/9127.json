@@ -1,0 +1,10 @@
+{
+  "id": "9127",
+  "name": "@ Any Raw Meat",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20288",
+  "craftable": false,
+  "minPickupAge": 3
+}

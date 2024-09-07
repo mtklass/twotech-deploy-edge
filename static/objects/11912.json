@@ -1,0 +1,1 @@
+{"id":"11912","name":"(outdated) Flag Stand","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"11912","newTargetID":"6451","decay":"1s"}],"version":"20290","craftable":false,"minPickupAge":3,"speedMult":0.6,"sounds":[34]}

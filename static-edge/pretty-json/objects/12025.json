@@ -1,0 +1,84 @@
+{
+  "id": "12025",
+  "name": "Primitive Fishing Pole with Bass - just caught",
+  "transitionsToward": [
+    {
+      "targetID": "12023",
+      "newTargetID": "12025",
+      "newTargetWeight": 0.105,
+      "decay": "5s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "12025",
+      "newActorID": "12030",
+      "newTargetID": "7802",
+      "hand": true
+    },
+    {
+      "actorID": "12025",
+      "targetID": "7802",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "hand": true
+    },
+    {
+      "actorID": "12025",
+      "targetID": "7801",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "hand": true
+    },
+    {
+      "actorID": "12025",
+      "targetID": "7827",
+      "newTargetUses": "+1",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "12025",
+      "newTargetID": "12029",
+      "decay": "5s"
+    }
+  ],
+  "version": "20291",
+  "craftable": false,
+  "sounds": [
+    1424,
+    1433
+  ],
+  "techTree": [
+    {
+      "decay": "5s"
+    },
+    {
+      "id": "12023",
+      "nodes": [
+        {
+          "id": "12022",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "12023",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "6438",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

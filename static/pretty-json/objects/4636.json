@@ -1,0 +1,37 @@
+{
+  "id": "4636",
+  "name": "Copper Plates  - 4 tube",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "4636",
+      "newActorID": "4620",
+      "newTargetID": "4545",
+      "hand": true
+    },
+    {
+      "actorID": "441",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "4636",
+      "newActorID": "441",
+      "newTargetID": "4533",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "441",
+      "actorUses": "last",
+      "targetID": "4636",
+      "newActorID": "858",
+      "newTargetID": "4533",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    405
+  ]
+}

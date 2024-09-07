@@ -1,0 +1,10 @@
+{
+  "id": "15073",
+  "name": "@ CONTAINER Switching Table +contSwitchingTable",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20315",
+  "craftable": false,
+  "minPickupAge": 3
+}

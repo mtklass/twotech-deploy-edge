@@ -1,0 +1,10 @@
+{
+  "id": "627",
+  "name": "Parts",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "61",
+  "craftable": false,
+  "minPickupAge": 3
+}

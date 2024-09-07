@@ -1,0 +1,86 @@
+{
+  "id": "4463",
+  "name": "Hitched Caravan Dromedary  - riding",
+  "transitionsToward": [
+    {
+      "actorID": "4460",
+      "targetID": "550",
+      "newTargetID": "4463",
+      "hand": true
+    },
+    {
+      "actorID": "776",
+      "targetID": "4489",
+      "newTargetID": "4463",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4463",
+      "newActorID": "4460",
+      "newTargetID": "550",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "numSlots": 4,
+  "slotSize": 3,
+  "blocksWalking": true,
+  "sounds": [
+    1002
+  ],
+  "techTree": [
+    {
+      "id": "4460",
+      "nodes": [
+        {
+          "id": "4463",
+          "nodes": [
+            {
+              "id": "4460",
+              "nodes": []
+            },
+            {
+              "id": "550",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "550",
+      "nodes": [
+        {
+          "id": "556",
+          "nodes": [
+            {
+              "id": "11638",
+              "nodes": []
+            },
+            {
+              "id": "557",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "553",
+          "nodes": [
+            {
+              "id": "11634",
+              "nodes": []
+            },
+            {
+              "id": "108",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

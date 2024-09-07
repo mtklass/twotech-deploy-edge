@@ -1,0 +1,46 @@
+{
+  "id": "4594",
+  "name": "(outdated) Domestic Hive  - 3A spawn",
+  "transitionsToward": [
+    {
+      "targetID": "4574",
+      "newTargetID": "4594",
+      "decay": "10m"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    509
+  ],
+  "techTree": [
+    {
+      "decay": "10m"
+    },
+    {
+      "id": "4574",
+      "nodes": [
+        {
+          "id": "4570",
+          "nodes": [
+            {
+              "id": "4573",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4573",
+          "nodes": [
+            {
+              "id": "4574",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

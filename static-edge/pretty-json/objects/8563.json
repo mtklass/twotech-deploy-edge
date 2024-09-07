@@ -1,0 +1,22 @@
+{
+  "id": "8563",
+  "name": "Old Airedale -  just fed",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8563",
+      "newTargetID": "1753",
+      "decay": "3s",
+      "move": 1
+    }
+  ],
+  "version": "20281",
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    842
+  ],
+  "moveType": 1,
+  "moveDistance": 4
+}

@@ -1,0 +1,39 @@
+{
+  "id": "4579",
+  "name": "(outdated) Domestic Hive  - 3C",
+  "transitionsToward": [
+    {
+      "targetID": "4580",
+      "newActorID": "4598",
+      "newTargetID": "4579",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4579",
+      "newActorID": "4598",
+      "newTargetID": "4578",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4579",
+      "newTargetID": "4597",
+      "decay": "10m"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    509
+  ],
+  "techTree": [
+    {
+      "id": "4580",
+      "nodes": null
+    }
+  ]
+}

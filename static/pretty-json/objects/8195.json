@@ -1,0 +1,10 @@
+{
+  "id": "8195",
+  "name": "@ Stone Fireplace with Smoldering Tinder",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20278",
+  "craftable": false,
+  "minPickupAge": 3
+}

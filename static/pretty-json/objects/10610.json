@@ -1,0 +1,48 @@
+{
+  "id": "10610",
+  "name": "Oven Rack",
+  "transitionsToward": [
+    {
+      "targetID": "10604",
+      "newActorID": "10610",
+      "newTargetID": "7178",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "10610",
+      "targetID": "7178",
+      "newTargetID": "10604",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    407
+  ],
+  "techTree": [
+    {
+      "id": "10604",
+      "nodes": [
+        {
+          "id": "11534",
+          "nodes": [
+            {
+              "id": "462",
+              "nodes": []
+            },
+            {
+              "id": "10605",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

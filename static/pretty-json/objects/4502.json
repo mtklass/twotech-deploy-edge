@@ -1,0 +1,17 @@
+{
+  "id": "4502",
+  "name": "(outdated) Concrete Floor -  groundOnly",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.1,
+  "sounds": [
+    290,
+    1050,
+    1051,
+    1053,
+    1055
+  ]
+}

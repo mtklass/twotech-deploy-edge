@@ -1,0 +1,14 @@
+{
+  "id": "3080",
+  "name": "Male021 F",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "249",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    6,
+    34
+  ]
+}

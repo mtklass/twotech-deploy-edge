@@ -1,0 +1,13 @@
+{
+  "id": "5288",
+  "name": "Cool Blank and Copper Plate in Tongs",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    391
+  ]
+}

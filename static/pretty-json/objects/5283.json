@@ -1,0 +1,64 @@
+{
+  "id": "5283",
+  "name": "Mammoth Tackle",
+  "transitionsToward": [
+    {
+      "actorID": "139",
+      "targetID": "5265",
+      "newTargetID": "5283",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "5283",
+      "decay": "3s"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    59
+  ],
+  "techTree": [
+    {
+      "id": "139",
+      "nodes": [
+        {
+          "id": "138",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "136",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5265",
+      "nodes": [
+        {
+          "id": "4820",
+          "nodes": [
+            {
+              "id": "5265",
+              "nodes": []
+            },
+            {
+              "id": "4669",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "15058",
+  "name": "@ CONTAINER Wall Shelves and Windowsills +contWallShelf",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20315",
+  "craftable": false,
+  "minPickupAge": 3
+}

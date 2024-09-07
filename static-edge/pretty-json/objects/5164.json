@@ -1,0 +1,74 @@
+{
+  "id": "5164",
+  "name": "(outdated) Vial of Medicine",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "5164",
+      "targetID": "4750",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4749",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4748",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4747",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4746",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "797",
+      "newActorID": "4546",
+      "hand": true
+    },
+    {
+      "actorID": "797",
+      "targetID": "5164",
+      "newTargetID": "4546",
+      "hand": true
+    },
+    {
+      "actorID": "1377",
+      "targetID": "5164",
+      "newTargetID": "4546",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "1377",
+      "newActorID": "4546",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    153
+  ]
+}

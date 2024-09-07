@@ -1,0 +1,158 @@
+{
+  "id": "14662",
+  "name": "Cast Iron Bench - justDropped +tapoutTrigger,1,1,3,3",
+  "transitionsToward": [
+    {
+      "actorID": "14660",
+      "newTargetID": "14662",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "14662",
+      "targetID": "14661",
+      "newTargetID": "14641",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "14662",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.955",
+  "version": "20311",
+  "craftable": true,
+  "depth": 131,
+  "techTree": [
+    {
+      "id": "14660",
+      "nodes": [
+        {
+          "id": "14641",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "14678",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "14643",
+          "mainBranch": true,
+          "depth": 9,
+          "actorID": "13743",
+          "targetID": "14640",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14644",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 8,
+          "targetID": "14643",
+          "decay": "2s"
+        }
+      ],
+      [
+        {
+          "id": "14646",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 7,
+          "targetID": "14644",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14642",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 6,
+          "targetID": "14646",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "14647",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "14642",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14648",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "14647",
+          "targetID": "14647",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14678",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "441",
+          "targetID": "14648",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14641",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "14678",
+          "decay": "1s"
+        }
+      ],
+      [
+        {
+          "id": "14660",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "14641",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14662",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "14660",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13743",
+      "441",
+      "14640"
+    ]
+  }
+}

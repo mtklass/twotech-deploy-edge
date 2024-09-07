@@ -1,0 +1,73 @@
+{
+  "id": "11699",
+  "name": "(outdated) Mine Shaft  - exhausted dynamite lit",
+  "transitionsToward": [
+    {
+      "actorID": "248",
+      "targetID": "11696",
+      "newActorID": "248",
+      "newTargetID": "11699",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "5294",
+      "targetID": "11696",
+      "newActorID": "5294",
+      "newTargetID": "11699",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "11699",
+      "newTargetID": "11700",
+      "decay": "5s"
+    }
+  ],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    108
+  ],
+  "techTree": [
+    {
+      "id": "248",
+      "nodes": [
+        {
+          "id": "67",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "64",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "82",
+          "nodes": [
+            {
+              "id": "72",
+              "nodes": []
+            },
+            {
+              "id": "80",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11696",
+      "nodes": null
+    }
+  ]
+}

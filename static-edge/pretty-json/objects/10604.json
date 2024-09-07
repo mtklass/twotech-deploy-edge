@@ -1,0 +1,68 @@
+{
+  "id": "10604",
+  "name": "(outdated) Partial Stone Oven  - rack",
+  "transitionsToward": [
+    {
+      "targetID": "11534",
+      "newActorID": "10613",
+      "newTargetID": "10604",
+      "hand": true
+    },
+    {
+      "actorID": "10610",
+      "targetID": "7178",
+      "newTargetID": "10604",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "10604",
+      "newActorID": "10610",
+      "newTargetID": "7178",
+      "hand": true
+    },
+    {
+      "actorID": "10613",
+      "targetID": "10604",
+      "newTargetID": "10605",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "11534",
+      "nodes": [
+        {
+          "id": "462",
+          "nodes": [
+            {
+              "id": "454",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "10605",
+          "nodes": [
+            {
+              "id": "10606",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

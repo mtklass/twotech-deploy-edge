@@ -1,0 +1,128 @@
+{
+  "id": "7268",
+  "name": "(outdated) Copper Key -  $20",
+  "transitionsToward": [
+    {
+      "actorID": "7270",
+      "targetID": "115",
+      "newActorID": "7268",
+      "newTargetID": "7266",
+      "hand": true
+    },
+    {
+      "actorID": "7270",
+      "targetID": "116",
+      "newActorID": "7268",
+      "newTargetID": "7569",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7268",
+      "targetID": "7266",
+      "newActorID": "7268",
+      "newTargetID": "7267",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7268",
+      "targetID": "7267",
+      "newActorID": "7268",
+      "newTargetID": "7266",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7268",
+      "targetID": "7272",
+      "newTargetID": "7270",
+      "hand": true
+    },
+    {
+      "actorID": "7268",
+      "targetID": "7568",
+      "newActorID": "7268",
+      "newTargetID": "7569",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7268",
+      "targetID": "7569",
+      "newActorID": "7268",
+      "newTargetID": "7568",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "7270",
+      "nodes": [
+        {
+          "id": "7268",
+          "nodes": [
+            {
+              "id": "7270",
+              "nodes": []
+            },
+            {
+              "id": "115",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7272",
+          "nodes": [
+            {
+              "id": "7271",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "nodes": [
+        {
+          "id": "114",
+          "nodes": [
+            {
+              "id": "69",
+              "nodes": []
+            },
+            {
+              "id": "106",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "108",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

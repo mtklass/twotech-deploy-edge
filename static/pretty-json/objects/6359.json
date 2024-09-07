@@ -1,0 +1,144 @@
+{
+  "id": "6359",
+  "name": "Armored War Charger  - meow",
+  "transitionsToward": [
+    {
+      "actorID": "5171",
+      "targetID": "6352",
+      "newTargetID": "6359",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "6359",
+      "targetID": "5151",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "5155",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "5153",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "5150",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "5154",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "5152",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "4676",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "5170",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "4673",
+      "newActorID": "6352",
+      "newTargetID": "896",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6359",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "6359",
+      "targetID": "896",
+      "newActorID": "6352",
+      "newTargetID": "5154",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "deadlyDistance": 1,
+  "speedMult": 1.1,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "5171",
+      "nodes": [
+        {
+          "id": "5163",
+          "nodes": null
+        },
+        {
+          "id": "4436",
+          "nodes": [
+            {
+              "id": "6392",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6352",
+      "nodes": [
+        {
+          "id": "4709",
+          "nodes": [
+            {
+              "id": "4708",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "6351",
+          "nodes": [
+            {
+              "id": "4844",
+              "nodes": null
+            },
+            {
+              "id": "6350",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

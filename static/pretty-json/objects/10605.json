@@ -1,0 +1,70 @@
+{
+  "id": "10605",
+  "name": "(outdated) Partial Stone Oven  - door",
+  "transitionsToward": [
+    {
+      "targetID": "10606",
+      "newActorID": "10611",
+      "newTargetID": "10605",
+      "hand": true
+    },
+    {
+      "actorID": "10613",
+      "targetID": "10604",
+      "newTargetID": "10605",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "462",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "10605",
+      "newActorID": "462",
+      "newTargetID": "11534",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "462",
+      "actorUses": "last",
+      "targetID": "10605",
+      "newActorID": "858",
+      "newTargetID": "11534",
+      "hand": true
+    },
+    {
+      "actorID": "10611",
+      "targetID": "10605",
+      "newTargetID": "10606",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "10606",
+      "nodes": [
+        {
+          "id": "10607",
+          "nodes": [
+            {
+              "decay": "5m"
+            },
+            {
+              "id": "10630",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

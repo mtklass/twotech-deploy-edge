@@ -1,0 +1,132 @@
+{
+  "id": "4476",
+  "name": "Raw Flatbread",
+  "transitionsToward": [
+    {
+      "targetID": "4501",
+      "newActorID": "4476",
+      "newTargetID": "291",
+      "hand": true
+    },
+    {
+      "targetID": "8345",
+      "newTargetUses": "-1",
+      "newActorID": "4476",
+      "newTargetID": "8345",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "8345",
+      "targetUses": "last",
+      "newActorID": "4476",
+      "newTargetID": "6701",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4476",
+      "targetID": "250",
+      "newTargetUses": "-1",
+      "newActorID": "4477",
+      "newTargetID": "250",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4476",
+      "targetID": "6701",
+      "newTargetUses": "last",
+      "newTargetID": "8345",
+      "hand": true
+    },
+    {
+      "actorID": "4476",
+      "targetID": "8345",
+      "newTargetUses": "+1",
+      "newTargetID": "8345",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4476",
+      "targetID": "13608",
+      "newActorID": "4477",
+      "newTargetID": "13608",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.173",
+  "version": "20271",
+  "craftable": true,
+  "depth": 20,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    1207
+  ],
+  "techTree": [
+    {
+      "id": "4501",
+      "nodes": [
+        {
+          "id": "33",
+          "nodes": null
+        },
+        {
+          "id": "1286",
+          "nodes": [
+            {
+              "id": "252",
+              "nodes": []
+            },
+            {
+              "id": "291",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "1286",
+          "depth": 2,
+          "actorID": "252",
+          "targetID": "291",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4501",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "33",
+          "targetID": "1286",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4476",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "4501",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "252",
+      "33",
+      "291"
+    ]
+  }
+}

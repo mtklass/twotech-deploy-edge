@@ -1,0 +1,96 @@
+{
+  "id": "4527",
+  "name": "Firing Distillery",
+  "transitionsToward": [
+    {
+      "actorID": "248",
+      "targetID": "4531",
+      "newActorID": "248",
+      "newTargetID": "4527",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4527",
+      "newTargetID": "13284",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4527",
+      "newTargetID": "4533",
+      "decay": "5m"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    373,
+    102
+  ],
+  "techTree": [
+    {
+      "id": "248",
+      "nodes": [
+        {
+          "id": "67",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "64",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "82",
+          "nodes": [
+            {
+              "id": "72",
+              "nodes": []
+            },
+            {
+              "id": "80",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4531",
+      "nodes": [
+        {
+          "id": "344",
+          "nodes": [
+            {
+              "id": "340",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4530",
+          "nodes": [
+            {
+              "id": "344",
+              "nodes": []
+            },
+            {
+              "id": "4532",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

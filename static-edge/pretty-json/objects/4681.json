@@ -1,0 +1,288 @@
+{
+  "id": "4681",
+  "name": "Shield of The Commonwealth",
+  "transitionsToward": [
+    {
+      "actorID": "4685",
+      "newActorUses": "-1",
+      "newActorWeight": 0.4,
+      "targetID": "5155",
+      "newActorID": "4681",
+      "newTargetID": "5155",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4675",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4675",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4686",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4686",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4797",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4797",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4799",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4799",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4801",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4801",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4803",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4803",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4805",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4805",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4807",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4807",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4810",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "4810",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "5168",
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newActorID": "5168",
+      "newTargetID": "4681",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4675",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4675",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4686",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4686",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4797",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4797",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4799",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4799",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4801",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4801",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4803",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4803",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4805",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4805",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4807",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4807",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4810",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "4810",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "5168",
+      "targetID": "4681",
+      "targetUses": "last",
+      "newActorID": "5168",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4681",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.4,
+      "newTargetID": "4685",
+      "decay": "2h"
+    }
+  ],
+  "version": "20271",
+  "numUses": 3,
+  "useChance": 0.4,
+  "craftable": false,
+  "clothing": "p0",
+  "insulation": 0,
+  "size": 2,
+  "minPickupAge": 3,
+  "blocksWalking": true,
+  "sounds": [
+    405
+  ],
+  "techTree": [
+    {
+      "id": "4685",
+      "nodes": [
+        {
+          "id": "5282",
+          "nodes": [
+            {
+              "id": "767",
+              "nodes": []
+            },
+            {
+              "id": "767",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "470",
+          "nodes": [
+            {
+              "id": "11674",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5155",
+      "nodes": [
+        {
+          "id": "5174",
+          "nodes": [
+            {
+              "id": "5162",
+              "nodes": null
+            },
+            {
+              "id": "4436",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "896",
+          "nodes": [
+            {
+              "decay": "10h"
+            },
+            {
+              "id": "13322",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

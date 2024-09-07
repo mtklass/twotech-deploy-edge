@@ -1,0 +1,35 @@
+{
+  "id": "5279",
+  "name": "(outdated) Camping Stove  - cold stew ashes veggie",
+  "transitionsToward": [
+    {
+      "targetID": "5278",
+      "newTargetID": "5279",
+      "decay": "5m"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "235",
+      "targetID": "5279",
+      "newActorID": "5273",
+      "newTargetID": "4774",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    113
+  ],
+  "techTree": [
+    {
+      "decay": "5m"
+    },
+    {
+      "id": "5278",
+      "nodes": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "6370",
+  "name": "@ armor",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "clothing": "s",
+  "insulation": 0,
+  "minPickupAge": 3,
+  "sounds": [
+    153,
+    286
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "5298",
+  "name": "@ Unshot 2HOL birds",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

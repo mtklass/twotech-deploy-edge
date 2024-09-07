@@ -1,0 +1,29 @@
+{
+  "id": "8641",
+  "name": "Ancient Stone Wall - blacksmithflag",
+  "transitionsToward": [
+    {
+      "targetID": "6458",
+      "newTargetID": "8641",
+      "decay": "10h"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20282",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "10h"
+    },
+    {
+      "id": "6458",
+      "nodes": null
+    }
+  ]
+}

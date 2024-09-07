@@ -1,0 +1,10 @@
+{
+  "id": "646",
+  "name": "@ Unshot Grizzly Bear",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "61",
+  "craftable": false,
+  "minPickupAge": 3
+}

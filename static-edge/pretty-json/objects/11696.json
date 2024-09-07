@@ -1,0 +1,30 @@
+{
+  "id": "11696",
+  "name": "(outdated) Mine Shaft  - exhausted dynamite",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "248",
+      "targetID": "11696",
+      "newActorID": "248",
+      "newTargetID": "11699",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "5294",
+      "targetID": "11696",
+      "newActorID": "5294",
+      "newTargetID": "11699",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    352
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "5307",
+  "name": "Bull Mammoth Calf  - just left",
+  "transitionsToward": [
+    {
+      "actorID": "14493",
+      "actorUses": "last",
+      "newActorID": "5307",
+      "newTargetID": "14492"
+    },
+    {
+      "actorID": "14493",
+      "newActorID": "5307",
+      "newTargetID": "14492"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "5307",
+      "newTargetID": "4835",
+      "decay": "3s",
+      "move": 1
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 1.25,
+  "moveType": 1,
+  "moveDistance": 1,
+  "techTree": [
+    {
+      "id": "14493",
+      "nodes": [
+        {
+          "decay": "6s"
+        },
+        {
+          "id": "4829",
+          "nodes": [
+            {
+              "id": "4668",
+              "nodes": []
+            },
+            {
+              "id": "4671",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

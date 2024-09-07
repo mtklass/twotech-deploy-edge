@@ -1,0 +1,1 @@
+{"id":"4597","name":"(outdated) Domestic Hive  - 3C spawn","transitionsToward":[{"targetID":"4579","newTargetID":"4597","decay":"10m"}],"transitionsAway":[],"transitionsTimed":[],"version":"20271","craftable":false,"sounds":[509],"techTree":[{"decay":"10m"},{"id":"4579","nodes":[{"id":"4580","nodes":null}]}]}

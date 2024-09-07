@@ -1,0 +1,13 @@
+{
+  "id": "6519",
+  "name": "Burning Tinder - pineneedles",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "heatValue": 2,
+  "craftable": false,
+  "sounds": [
+    108
+  ]
+}

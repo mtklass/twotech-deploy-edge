@@ -1,0 +1,175 @@
+{
+  "id": "4479",
+  "name": "Cheese Sandwich",
+  "transitionsToward": [
+    {
+      "actorID": "4495",
+      "targetID": "4478",
+      "newTargetID": "4479",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4479",
+      "newActorID": "4494",
+      "targetPlayer": true,
+      "hand": true
+    },
+    {
+      "actorID": "570",
+      "targetID": "4479",
+      "newTargetID": "4480",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.524",
+  "version": "20271",
+  "foodValue": [
+    4,
+    5
+  ],
+  "craftable": true,
+  "depth": 84,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    359,
+    1257
+  ],
+  "techTree": [
+    {
+      "id": "4495",
+      "nodes": [
+        {
+          "id": "13384",
+          "nodes": [
+            {
+              "id": "11671",
+              "nodes": []
+            },
+            {
+              "id": "13383",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4478",
+      "nodes": [
+        {
+          "id": "4477",
+          "nodes": [
+            {
+              "id": "4476",
+              "nodes": []
+            },
+            {
+              "id": "250",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4477",
+          "nodes": [
+            {
+              "id": "4476",
+              "nodes": []
+            },
+            {
+              "id": "250",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "1286",
+          "count": 2,
+          "uses": "x2",
+          "depth": 5,
+          "actorID": "252",
+          "targetID": "291",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4501",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "33",
+          "targetID": "1286",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4476",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "4501",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4477",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "4476",
+          "targetID": "250",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4478",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "4477",
+          "targetID": "4477",
+          "hand": true
+        },
+        {
+          "id": "4495",
+          "depth": 1,
+          "targetID": "13384",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4479",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "4495",
+          "targetID": "4478",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13384",
+      "252",
+      "250",
+      "33",
+      "291"
+    ]
+  }
+}

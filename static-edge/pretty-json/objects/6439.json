@@ -1,0 +1,15 @@
+{
+  "id": "6439",
+  "name": "Bowl of Bait",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 5,
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    356
+  ]
+}

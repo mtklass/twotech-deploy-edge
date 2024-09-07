@@ -1,0 +1,224 @@
+{
+  "id": "12030",
+  "name": "(outdated) Primitive Fishing Pole",
+  "transitionsToward": [
+    {
+      "targetID": "12023",
+      "newTargetID": "12030",
+      "newTargetWeight": 0.1,
+      "decay": "5s"
+    },
+    {
+      "targetID": "14840",
+      "newTargetID": "12030",
+      "decay": "1s"
+    },
+    {
+      "actorID": "12025",
+      "newActorID": "12030",
+      "newTargetID": "7802",
+      "hand": true
+    },
+    {
+      "actorID": "12026",
+      "newActorID": "12030",
+      "newTargetID": "7800",
+      "hand": true
+    },
+    {
+      "actorID": "12028",
+      "newActorID": "12030",
+      "newTargetID": "7799",
+      "hand": true
+    },
+    {
+      "actorID": "12029",
+      "newActorID": "12030",
+      "newTargetID": "7801",
+      "hand": true
+    },
+    {
+      "actorID": "12031",
+      "newActorID": "12030",
+      "newTargetID": "2099",
+      "hand": true
+    },
+    {
+      "actorID": "12025",
+      "targetID": "7802",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "hand": true
+    },
+    {
+      "actorID": "12026",
+      "targetID": "7800",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7828",
+      "hand": true
+    },
+    {
+      "actorID": "12028",
+      "targetID": "7800",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7828",
+      "hand": true
+    },
+    {
+      "actorID": "12029",
+      "targetID": "7802",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "hand": true
+    },
+    {
+      "actorID": "12025",
+      "targetID": "7801",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "hand": true
+    },
+    {
+      "actorID": "12026",
+      "targetID": "7799",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7828",
+      "hand": true
+    },
+    {
+      "actorID": "12028",
+      "targetID": "7799",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7828",
+      "hand": true
+    },
+    {
+      "actorID": "12029",
+      "targetID": "7801",
+      "newTargetUses": "last",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "hand": true
+    },
+    {
+      "actorID": "12025",
+      "targetID": "7827",
+      "newTargetUses": "+1",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "12026",
+      "targetID": "7828",
+      "newTargetUses": "+1",
+      "newActorID": "12030",
+      "newTargetID": "7828",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "12028",
+      "targetID": "7828",
+      "newTargetUses": "+1",
+      "newActorID": "12030",
+      "newTargetID": "7828",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "12029",
+      "targetID": "7827",
+      "newTargetUses": "+1",
+      "newActorID": "12030",
+      "newTargetID": "7827",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "12024",
+      "targetID": "191",
+      "newActorID": "12030",
+      "hand": true
+    },
+    {
+      "actorID": "191",
+      "targetID": "12024",
+      "newTargetID": "12030",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "12030",
+      "targetID": "789",
+      "newActorID": "12022",
+      "hand": true
+    },
+    {
+      "actorID": "12030",
+      "targetID": "3924",
+      "newTargetUses": "-1",
+      "newActorID": "12022",
+      "newTargetID": "3924",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "12030",
+      "targetID": "3924",
+      "targetUses": "last",
+      "newActorID": "12022",
+      "newTargetID": "235",
+      "hand": true
+    },
+    {
+      "actorID": "12030",
+      "targetID": "198",
+      "newTargetID": "12032",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20291",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    74
+  ],
+  "techTree": [
+    {
+      "decay": "5s"
+    },
+    {
+      "id": "12023",
+      "nodes": [
+        {
+          "id": "12022",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "12023",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "6438",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

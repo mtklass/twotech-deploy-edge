@@ -1,0 +1,10 @@
+{
+  "id": "11661",
+  "name": "@ Any Shovel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "minPickupAge": 3
+}

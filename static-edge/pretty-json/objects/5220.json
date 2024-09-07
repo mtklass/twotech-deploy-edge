@@ -1,0 +1,127 @@
+{
+  "id": "5220",
+  "name": "(outdated) Hot Cast Iron Pan with Poached Egg",
+  "transitionsToward": [
+    {
+      "actorID": "5218",
+      "targetID": "10608",
+      "newActorID": "5220",
+      "newTargetID": "10608",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "10637",
+      "newActorID": "5220",
+      "newTargetID": "10637",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "10641",
+      "newActorID": "5220",
+      "newTargetID": "10641",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "10644",
+      "newActorID": "5220",
+      "newTargetID": "10644",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "10647",
+      "newActorID": "5220",
+      "newTargetID": "10647",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "10650",
+      "newActorID": "5220",
+      "newTargetID": "10650",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "10653",
+      "newActorID": "5220",
+      "newTargetID": "10653",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "11538",
+      "newActorID": "5220",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5220",
+      "targetID": "236",
+      "newActorID": "5216",
+      "newTargetID": "4786",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    270
+  ],
+  "techTree": [
+    {
+      "id": "5218",
+      "nodes": [
+        {
+          "id": "2799",
+          "nodes": [
+            {
+              "decay": "5m"
+            },
+            {
+              "id": "2780",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "5217",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "10608",
+      "nodes": [
+        {
+          "id": "10630",
+          "nodes": [
+            {
+              "id": "5294",
+              "nodes": []
+            },
+            {
+              "id": "10615",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

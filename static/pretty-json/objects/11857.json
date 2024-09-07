@@ -1,0 +1,805 @@
+{
+  "id": "11857",
+  "name": "Mason Jar with Pickling Beets",
+  "transitionsToward": [
+    {
+      "actorID": "2799",
+      "targetID": "11856",
+      "newActorID": "235",
+      "newTargetID": "11857",
+      "hand": true
+    },
+    {
+      "actorID": "3592",
+      "newActorUses": "-1",
+      "targetID": "11856",
+      "newActorID": "3592",
+      "newTargetID": "11857",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "3592",
+      "actorUses": "last",
+      "targetID": "11856",
+      "newActorID": "3338",
+      "newTargetID": "11857",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "11857",
+      "newTargetID": "11858",
+      "decay": "30s"
+    }
+  ],
+  "difficulty": "0.804",
+  "version": "20290",
+  "craftable": true,
+  "depth": 111,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    287
+  ],
+  "techTree": [
+    {
+      "id": "2799",
+      "nodes": [
+        {
+          "decay": "5m"
+        },
+        {
+          "id": "2780",
+          "nodes": [
+            {
+              "id": "2777",
+              "nodes": []
+            },
+            {
+              "id": "235",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11856",
+      "nodes": [
+        {
+          "id": "10470",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "10472",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "11855",
+          "nodes": [
+            {
+              "id": "8842",
+              "nodes": []
+            },
+            {
+              "id": "4546",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "2767",
+          "count": 3,
+          "uses": "x3",
+          "depth": 31,
+          "targetID": "2766",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2768",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 30,
+          "actorID": "8712",
+          "targetID": "2767",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2773",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 29,
+          "actorID": "235",
+          "targetID": "2768",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2774",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 28,
+          "actorID": "33",
+          "targetID": "2773",
+          "hand": true
+        },
+        {
+          "id": "382",
+          "count": 6,
+          "uses": "x6",
+          "depth": 28,
+          "actorID": "235",
+          "targetID": "141",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2775",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 27,
+          "actorID": "382",
+          "targetID": "2774",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2776",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 26,
+          "actorID": "2775",
+          "targetID": "85",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2778",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 25,
+          "targetID": "2776",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "2777",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 24,
+          "targetID": "2778",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2782",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 23,
+          "actorID": "2777",
+          "targetID": "235",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1606",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 22,
+          "actorID": "2782",
+          "targetID": "291",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1607",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 21,
+          "actorID": "33",
+          "targetID": "1606",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1608",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 20,
+          "actorID": "291",
+          "targetID": "1607",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1609",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 19,
+          "targetID": "1608",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1619",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 18,
+          "targetID": "1609",
+          "hand": true
+        },
+        {
+          "id": "2563",
+          "count": 2,
+          "uses": "x2",
+          "depth": 18,
+          "subSteps": [
+            [
+              {
+                "id": "2558",
+                "count": 2,
+                "uses": "x2",
+                "depth": 23,
+                "actorID": "34",
+                "targetID": "2557",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "2559",
+                "count": 2,
+                "uses": "x2",
+                "depth": 22,
+                "targetID": "2558",
+                "decay": "30s"
+              }
+            ],
+            [
+              {
+                "id": "2560",
+                "count": 2,
+                "uses": "x2",
+                "depth": 21,
+                "actorID": "248",
+                "targetID": "2559",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "2561",
+                "count": 2,
+                "uses": "x2",
+                "depth": 20,
+                "targetID": "2560",
+                "decay": "10s"
+              }
+            ],
+            [
+              {
+                "id": "2562",
+                "count": 2,
+                "uses": "x2",
+                "depth": 19,
+                "actorID": "235",
+                "targetID": "2561",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "2563",
+                "count": 2,
+                "uses": "x2",
+                "depth": 18,
+                "actorID": "382",
+                "targetID": "2562",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "2564",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 17,
+          "actorID": "1619",
+          "targetID": "2563",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2565",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 16,
+          "actorID": "2564",
+          "targetID": "235",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2566",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 15,
+          "targetID": "2565",
+          "decay": "30s"
+        },
+        {
+          "id": "676",
+          "count": 2,
+          "uses": "x2",
+          "depth": 15,
+          "subSteps": [
+            [
+              {
+                "id": "675",
+                "count": 2,
+                "uses": "x2",
+                "depth": 18,
+                "actorID": "674",
+                "targetID": "235",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "678",
+                "count": 2,
+                "uses": "x2",
+                "depth": 17,
+                "actorID": "239",
+                "targetID": "675",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "679",
+                "count": 2,
+                "uses": "x2",
+                "depth": 16,
+                "actorID": "678",
+                "targetID": "282",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "676",
+                "count": 2,
+                "uses": "x2",
+                "depth": 15,
+                "actorID": "679",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "2572",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 14,
+          "actorID": "2566",
+          "targetID": "676",
+          "hand": true
+        },
+        {
+          "id": "2570",
+          "count": 2,
+          "uses": "x2",
+          "depth": 14,
+          "actorID": "235",
+          "targetID": "2567",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2573",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 13,
+          "actorID": "2570",
+          "targetID": "2572",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2577",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 12,
+          "actorID": "239",
+          "targetID": "2573",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2576",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 11,
+          "actorID": "2577",
+          "targetID": "304",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2574",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 10,
+          "actorID": "2576",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2580",
+          "mainBranch": true,
+          "depth": 9,
+          "actorID": "2575",
+          "targetID": "2574",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "3339",
+          "mainBranch": true,
+          "depth": 8,
+          "actorID": "2580",
+          "targetID": "2574",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "6889",
+          "mainBranch": true,
+          "depth": 7,
+          "actorID": "458",
+          "targetID": "3339",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "6883",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "458",
+          "targetID": "6889",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "6885",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "6883",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "6887",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "455",
+          "targetID": "6885",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4546",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "6887",
+          "hand": true
+        },
+        {
+          "id": "8842",
+          "count": 2,
+          "uses": "x2",
+          "depth": 3,
+          "subSteps": [
+            [
+              {
+                "id": "14568",
+                "count": 2,
+                "uses": "x2",
+                "depth": 6,
+                "targetID": "8840",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "8841",
+                "count": 2,
+                "uses": "x2",
+                "depth": 5,
+                "targetID": "14568",
+                "decay": "1s"
+              }
+            ],
+            [
+              {
+                "id": "8843",
+                "count": 2,
+                "uses": "x2",
+                "depth": 4,
+                "actorID": "8841",
+                "targetID": "236",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "8842",
+                "count": 2,
+                "uses": "x2",
+                "depth": 3,
+                "actorID": "11671",
+                "targetID": "8843",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "11855",
+          "uses": "max",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "8842",
+          "actorUses": "x2",
+          "targetID": "4546",
+          "hand": true
+        },
+        {
+          "id": "10470",
+          "uses": "max",
+          "depth": 2,
+          "subSteps": [
+            [
+              {
+                "id": "336",
+                "depth": 11,
+                "actorID": "292",
+                "targetID": "211",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "1101",
+                "depth": 10,
+                "actorID": "336",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "213",
+                "depth": 9,
+                "actorID": "139",
+                "targetID": "1101",
+                "hand": true
+              },
+              {
+                "id": "10463",
+                "depth": 9,
+                "targetID": "10462",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "10464",
+                "depth": 8,
+                "actorID": "10463",
+                "targetID": "213",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "10465",
+                "depth": 7,
+                "actorID": "382",
+                "targetID": "10464",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "10466",
+                "depth": 6,
+                "targetID": "10465",
+                "decay": "2m"
+              }
+            ],
+            [
+              {
+                "id": "10467",
+                "depth": 5,
+                "targetID": "10466",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "10471",
+                "depth": 4,
+                "actorID": "10467",
+                "targetID": "235",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "10472",
+                "depth": 3,
+                "actorID": "33",
+                "targetID": "10471",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "10470",
+                "uses": "max",
+                "depth": 2,
+                "targetID": "10472",
+                "decay": "1s"
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "11856",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "10470",
+          "actorUses": "max",
+          "targetID": "11855",
+          "targetUses": "max",
+          "hand": true
+        },
+        {
+          "id": "2799",
+          "depth": 1,
+          "subSteps": [
+            [
+              {
+                "id": "2780",
+                "depth": 2,
+                "actorID": "2777",
+                "targetID": "235",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "2799",
+                "depth": 1,
+                "targetID": "2780",
+                "decay": "5m"
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "11857",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "2799",
+          "targetID": "11856",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "2575",
+      "458",
+      "455",
+      "11671",
+      "8712",
+      "304",
+      "8840",
+      "236",
+      "235",
+      "282",
+      "248",
+      "85",
+      "239",
+      "292",
+      "139",
+      "2766",
+      "34",
+      "141",
+      "33",
+      "2567",
+      "291",
+      "10462",
+      "211",
+      "2557",
+      "2557",
+      "674",
+      "674"
+    ]
+  }
+}

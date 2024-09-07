@@ -1,0 +1,83 @@
+{
+  "id": "4808",
+  "name": "Sword of Meow Empire  - scabbard",
+  "transitionsToward": [
+    {
+      "actorID": "4807",
+      "targetID": "4812",
+      "newActorID": "4808",
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5154",
+      "newActorID": "4808",
+      "newTargetID": "5154",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4808",
+      "newActorID": "4807",
+      "newTargetID": "4812",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4808",
+      "newTargetID": "4809",
+      "decay": "2h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "clothing": "p",
+  "insulation": 0,
+  "size": 2,
+  "minPickupAge": 18,
+  "speedMult": 0.75,
+  "sounds": [
+    695
+  ],
+  "techTree": [
+    {
+      "id": "4807",
+      "nodes": [
+        {
+          "id": "4808",
+          "nodes": [
+            {
+              "id": "4807",
+              "nodes": []
+            },
+            {
+              "id": "4812",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4812",
+      "nodes": [
+        {
+          "id": "4808",
+          "nodes": [
+            {
+              "id": "4807",
+              "nodes": []
+            },
+            {
+              "id": "4812",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

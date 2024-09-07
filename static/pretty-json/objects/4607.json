@@ -1,0 +1,35 @@
+{
+  "id": "4607",
+  "name": "(outdated) Domestic Hive  - 3A swarm",
+  "transitionsToward": [
+    {
+      "targetID": "4578",
+      "newActorID": "4598",
+      "newTargetID": "4607",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    509
+  ],
+  "techTree": [
+    {
+      "id": "4578",
+      "nodes": [
+        {
+          "id": "4579",
+          "nodes": [
+            {
+              "id": "4580",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

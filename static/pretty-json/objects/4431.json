@@ -1,0 +1,73 @@
+{
+  "id": "4431",
+  "name": "Dromedary",
+  "transitionsToward": [
+    {
+      "actorID": "4461",
+      "newActorID": "4448",
+      "newTargetID": "4431",
+      "hand": true
+    },
+    {
+      "actorID": "659",
+      "targetID": "4499",
+      "newActorID": "1478",
+      "newTargetID": "4431",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4448",
+      "targetID": "4431",
+      "newActorID": "4461",
+      "hand": true
+    },
+    {
+      "actorID": "260",
+      "targetID": "4431",
+      "newActorID": "235",
+      "newTargetID": "4499",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4431",
+      "newTargetID": "4431",
+      "targetRemains": true,
+      "decay": "5s",
+      "move": 3
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 0.5,
+  "moveType": 3,
+  "moveDistance": 1,
+  "techTree": [
+    {
+      "id": "4461",
+      "nodes": [
+        {
+          "id": "4448",
+          "nodes": [
+            {
+              "id": "4421",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4431",
+          "nodes": [
+            {
+              "id": "4461",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "4645",
+  "name": "Cold Copper Bloom on Flat Rock",
+  "transitionsToward": [
+    {
+      "targetID": "4644",
+      "newTargetID": "4645",
+      "decay": "10s"
+    },
+    {
+      "actorID": "4643",
+      "targetID": "291",
+      "newActorID": "239",
+      "newTargetID": "4645",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "239",
+      "targetID": "4645",
+      "newActorID": "4643",
+      "newTargetID": "291",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "techTree": [
+    {
+      "decay": "10s"
+    },
+    {
+      "id": "4644",
+      "nodes": [
+        {
+          "id": "4642",
+          "nodes": [
+            {
+              "id": "239",
+              "nodes": []
+            },
+            {
+              "id": "4640",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "291",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

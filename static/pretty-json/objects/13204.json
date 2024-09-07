@@ -1,0 +1,314 @@
+{
+  "id": "13204",
+  "name": "Wooden Arch",
+  "transitionsToward": [
+    {
+      "actorID": "8454",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "13230",
+      "newActorID": "441",
+      "newTargetID": "13204",
+      "hand": true
+    },
+    {
+      "actorID": "8454",
+      "actorUses": "last",
+      "targetID": "13230",
+      "newActorID": "858",
+      "newTargetID": "13204",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "462",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "13204",
+      "newActorID": "462",
+      "newTargetID": "13230",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "462",
+      "actorUses": "last",
+      "targetID": "13204",
+      "newActorID": "858",
+      "newTargetID": "13230",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.557",
+  "version": "20299",
+  "craftable": true,
+  "depth": 92,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "8454",
+      "nodes": [
+        {
+          "id": "441",
+          "nodes": [
+            {
+              "id": "443",
+              "nodes": []
+            },
+            {
+              "id": "69",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8452",
+          "nodes": [
+            {
+              "id": "8471",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13230",
+      "nodes": [
+        {
+          "id": "470",
+          "nodes": [
+            {
+              "id": "11674",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "12034",
+          "nodes": [
+            {
+              "id": "8646",
+              "nodes": []
+            },
+            {
+              "id": "13228",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "64",
+          "count": 3,
+          "uses": "x3",
+          "depth": 7,
+          "targetID": "63",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "67",
+          "count": 3,
+          "uses": "x3",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "34",
+          "targetID": "64",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "557",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "67",
+          "targetID": "67",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "556",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "11638",
+          "targetID": "557",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8646",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "67",
+          "targetID": "556",
+          "hand": true
+        },
+        {
+          "id": "13228",
+          "depth": 3,
+          "subSteps": [
+            [
+              {
+                "id": "486",
+                "depth": 7,
+                "actorID": "33",
+                "targetID": "107",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "108",
+                "depth": 6,
+                "actorID": "33",
+                "targetID": "486",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "1531",
+                "depth": 5,
+                "actorID": "467",
+                "targetID": "108",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "13197",
+                "depth": 4,
+                "actorID": "467",
+                "targetID": "1531",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "13228",
+                "depth": 3,
+                "actorID": "11634",
+                "targetID": "13197",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "12034",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "8646",
+          "targetID": "13228",
+          "hand": true
+        },
+        {
+          "id": "470",
+          "depth": 2,
+          "subSteps": [
+            [
+              {
+                "id": "15125",
+                "depth": 6,
+                "actorID": "8712",
+                "targetID": "7377",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "345",
+                "depth": 5,
+                "targetID": "15125",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "11675",
+                "depth": 4,
+                "actorID": "8713",
+                "targetID": "345",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "11674",
+                "depth": 3,
+                "actorID": "467",
+                "targetID": "11675",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "470",
+                "depth": 2,
+                "targetID": "11674",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "13230",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "470",
+          "targetID": "12034",
+          "hand": true
+        },
+        {
+          "id": "8454",
+          "depth": 1,
+          "actorID": "441",
+          "targetID": "8452",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13204",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "8454",
+          "targetID": "13230",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "8452",
+      "441",
+      "11634",
+      "467",
+      "8713",
+      "11638",
+      "8712",
+      "107",
+      "34",
+      "63",
+      "33",
+      "7377"
+    ]
+  }
+}

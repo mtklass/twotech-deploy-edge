@@ -1,0 +1,156 @@
+{
+  "id": "8828",
+  "name": "Fed Baby Alpaca",
+  "transitionsToward": [
+    {
+      "actorID": "4784",
+      "targetID": "8829",
+      "newTargetID": "8828",
+      "hand": true
+    },
+    {
+      "actorID": "4784",
+      "targetID": "8825",
+      "newTargetID": "8828",
+      "hand": true
+    },
+    {
+      "actorID": "9138",
+      "newActorID": "59",
+      "newTargetID": "8828",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "59",
+      "targetID": "8828",
+      "newActorID": "9138",
+      "hand": true
+    },
+    {
+      "actorID": "11933",
+      "targetID": "8828",
+      "newActorID": "6465",
+      "newTargetID": "8828",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "8828",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.8,
+      "newTargetID": "8828",
+      "targetRemains": true,
+      "decay": "3s",
+      "move": 2
+    },
+    {
+      "targetID": "8828",
+      "targetUses": "last",
+      "newTargetID": "8819",
+      "decay": "3s",
+      "move": 2
+    }
+  ],
+  "difficulty": "0.0322",
+  "version": "20286",
+  "numUses": 10,
+  "useChance": 0.8,
+  "craftable": true,
+  "depth": 5,
+  "speedMult": 0.8,
+  "sounds": [
+    790
+  ],
+  "moveType": 2,
+  "moveDistance": 2,
+  "techTree": [
+    {
+      "id": "4784",
+      "nodes": [
+        {
+          "id": "7312",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "8829",
+      "nodes": [
+        {
+          "id": "8826",
+          "nodes": [
+            {
+              "decay": "3s"
+            },
+            {
+              "id": "8823",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "4784",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 4,
+          "targetID": "7312",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8823",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "4784",
+          "targetID": "8819",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8826",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "8823",
+          "targetUses": "last",
+          "decay": "30s"
+        }
+      ],
+      [
+        {
+          "id": "8829",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "8826",
+          "actorUses": "last"
+        }
+      ],
+      [
+        {
+          "id": "8828",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "4784",
+          "targetID": "8829",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "7312",
+      "8819"
+    ]
+  }
+}

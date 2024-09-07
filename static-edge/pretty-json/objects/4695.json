@@ -1,0 +1,10 @@
+{
+  "id": "4695",
+  "name": "apple4_all",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

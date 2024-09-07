@@ -1,0 +1,106 @@
+{
+  "id": "5217",
+  "name": "(outdated) Hot Cast Iron Pan with Raw Egg",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "5217",
+      "targetID": "10608",
+      "newActorID": "5219",
+      "newTargetID": "10608",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5217",
+      "targetID": "10637",
+      "newActorID": "5219",
+      "newTargetID": "10637",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5217",
+      "targetID": "10641",
+      "newActorID": "5219",
+      "newTargetID": "10641",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5217",
+      "targetID": "10644",
+      "newActorID": "5219",
+      "newTargetID": "10644",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5217",
+      "targetID": "10647",
+      "newActorID": "5219",
+      "newTargetID": "10647",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5217",
+      "targetID": "10650",
+      "newActorID": "5219",
+      "newTargetID": "10650",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5217",
+      "targetID": "10653",
+      "newActorID": "5219",
+      "newTargetID": "10653",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5217",
+      "targetID": "11538",
+      "newActorID": "5219",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "2799",
+      "targetID": "5217",
+      "newActorID": "235",
+      "newTargetID": "5218",
+      "hand": true
+    },
+    {
+      "actorID": "2799",
+      "targetID": "5217",
+      "newActorID": "235",
+      "newTargetID": "5218",
+      "hand": true
+    },
+    {
+      "actorID": "3592",
+      "newActorUses": "-1",
+      "targetID": "5217",
+      "newActorID": "3592",
+      "newTargetID": "5218",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "3592",
+      "actorUses": "last",
+      "targetID": "5217",
+      "newActorID": "3338",
+      "newTargetID": "5218",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

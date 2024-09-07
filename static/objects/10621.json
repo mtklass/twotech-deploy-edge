@@ -1,0 +1,1 @@
+{"id":"10621","name":"(outdated) Cool Glass on Flat Rock  - 2","transitionsToward":[{"targetID":"10617","newTargetID":"10621","decay":"10s"}],"transitionsAway":[{"actorID":"235","targetID":"10621","newActorID":"2578","newTargetID":"7724","hand":true}],"transitionsTimed":[],"version":"20290","craftable":false,"sounds":[391],"techTree":[{"decay":"10s"},{"id":"10617","nodes":null}]}

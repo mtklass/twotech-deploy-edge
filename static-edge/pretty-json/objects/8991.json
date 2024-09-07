@@ -1,0 +1,58 @@
+{
+  "id": "8991",
+  "name": "Cooked Beaver",
+  "transitionsToward": [
+    {
+      "actorID": "8990",
+      "newActorID": "852",
+      "newTargetID": "8991",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20286",
+  "foodValue": [
+    1,
+    13
+  ],
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    252,
+    283
+  ],
+  "techTree": [
+    {
+      "id": "8990",
+      "nodes": [
+        {
+          "id": "8989",
+          "nodes": [
+            {
+              "id": "139",
+              "nodes": []
+            },
+            {
+              "id": "11528",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "85",
+          "nodes": [
+            {
+              "decay": "1m"
+            },
+            {
+              "id": "82",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

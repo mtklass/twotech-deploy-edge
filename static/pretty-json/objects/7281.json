@@ -1,0 +1,101 @@
+{
+  "id": "7281",
+  "name": "(outdated) Locked Open Pine Needle Door -  installed $20",
+  "transitionsToward": [
+    {
+      "actorID": "7282",
+      "targetID": "7280",
+      "newActorID": "7282",
+      "newTargetID": "7281",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7286",
+      "targetID": "119",
+      "newTargetID": "7281",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7282",
+      "targetID": "7281",
+      "newActorID": "7282",
+      "newTargetID": "7280",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "7281",
+      "newActorID": "560",
+      "newTargetID": "7285",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "7281",
+      "newActorID": "11907",
+      "newTargetID": "7285",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "7282",
+      "nodes": [
+        {
+          "id": "7288",
+          "nodes": [
+            {
+              "id": "7287",
+              "nodes": []
+            },
+            {
+              "id": "7282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7280",
+      "nodes": [
+        {
+          "id": "7282",
+          "nodes": [
+            {
+              "id": "7288",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7281",
+          "nodes": [
+            {
+              "id": "7282",
+              "nodes": []
+            },
+            {
+              "id": "7280",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

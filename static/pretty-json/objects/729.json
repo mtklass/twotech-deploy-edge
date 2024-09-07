@@ -1,0 +1,110 @@
+{
+  "id": "729",
+  "name": "Alum",
+  "transitionsToward": [
+    {
+      "targetID": "11621",
+      "newTargetUses": "-1",
+      "newActorID": "729",
+      "newTargetID": "11621",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "11621",
+      "targetUses": "last",
+      "newActorID": "729",
+      "newTargetID": "729",
+      "hand": true
+    },
+    {
+      "targetID": "13870",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.2,
+      "newActorID": "729",
+      "newTargetID": "13867",
+      "hand": true
+    },
+    {
+      "targetID": "13870",
+      "targetUses": "last",
+      "newActorID": "729",
+      "newTargetID": "13873",
+      "hand": true
+    },
+    {
+      "targetID": "13905",
+      "newActorID": "729",
+      "newTargetID": "13905",
+      "newActorWeight": 0.1,
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "11606",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.2,
+      "newActorID": "729",
+      "newTargetID": "11547",
+      "hand": true
+    },
+    {
+      "targetID": "11606",
+      "targetUses": "last",
+      "newActorID": "729",
+      "newTargetID": "11626",
+      "hand": true
+    },
+    {
+      "actorID": "4350",
+      "targetID": "6379",
+      "newActorID": "729",
+      "newTargetID": "6379",
+      "newActorWeight": 0.1,
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "729",
+      "targetID": "729",
+      "newTargetUses": "last",
+      "newTargetID": "11621",
+      "hand": true
+    },
+    {
+      "actorID": "729",
+      "targetID": "11621",
+      "newTargetUses": "+1",
+      "newTargetID": "11621",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "729",
+      "targetID": "730",
+      "newTargetID": "731",
+      "hand": true
+    },
+    {
+      "actorID": "729",
+      "targetID": "2553",
+      "newTargetID": "3011",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "62",
+  "craftable": true,
+  "depth": 0,
+  "mapChance": 0.05,
+  "biomes": [
+    {
+      "id": "5",
+      "spawnChance": 0.007555723460521347
+    }
+  ],
+  "size": 1,
+  "minPickupAge": 3
+}

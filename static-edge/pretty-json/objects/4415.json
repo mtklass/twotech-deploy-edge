@@ -1,0 +1,56 @@
+{
+  "id": "4415",
+  "name": "Shrine  - A",
+  "transitionsToward": [
+    {
+      "actorID": "693",
+      "targetID": "4414",
+      "newTargetID": "4415",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4415",
+      "newActorID": "693",
+      "newTargetID": "4424",
+      "hand": true
+    },
+    {
+      "actorID": "40",
+      "targetID": "4415",
+      "newTargetID": "4416",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "693",
+      "nodes": [
+        {
+          "id": "701",
+          "nodes": [
+            {
+              "id": "441",
+              "nodes": []
+            },
+            {
+              "id": "698",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4414",
+      "nodes": null
+    }
+  ]
+}

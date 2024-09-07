@@ -1,0 +1,105 @@
+{
+  "id": "8827",
+  "name": "Dead Baby Alpaca",
+  "transitionsToward": [
+    {
+      "targetID": "8825",
+      "targetUses": "last",
+      "newTargetID": "8827",
+      "decay": "2s",
+      "move": 2
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8827",
+      "decay": "30s"
+    }
+  ],
+  "difficulty": "0.0243",
+  "version": "20286",
+  "numUses": 10,
+  "useChance": 0.8,
+  "craftable": true,
+  "depth": 6,
+  "speedMult": 0.8,
+  "techTree": [
+    {
+      "decay": "2s"
+    },
+    {
+      "id": "8825",
+      "nodes": [
+        {
+          "decay": "3s"
+        },
+        {
+          "id": "8829",
+          "nodes": [
+            {
+              "id": "8826",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "4784",
+          "mainBranch": true,
+          "depth": 4,
+          "targetID": "7312",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8823",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "4784",
+          "targetID": "8819",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8826",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "8823",
+          "targetUses": "last",
+          "decay": "30s"
+        }
+      ],
+      [
+        {
+          "id": "8829",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "8826",
+          "actorUses": "last"
+        }
+      ],
+      [
+        {
+          "id": "8827",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "8829",
+          "targetUses": "last",
+          "decay": "50s"
+        }
+      ]
+    ],
+    "ingredients": [
+      "7312",
+      "8819"
+    ]
+  }
+}

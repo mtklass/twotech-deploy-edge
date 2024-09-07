@@ -1,0 +1,10 @@
+{
+  "id": "10255",
+  "name": "@ Wrought Iron Items - Flat Rock",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20289",
+  "craftable": false,
+  "minPickupAge": 3
+}

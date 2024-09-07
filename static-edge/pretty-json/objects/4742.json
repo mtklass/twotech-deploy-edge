@@ -1,0 +1,45 @@
+{
+  "id": "4742",
+  "name": "Mammoth Bones  - 1",
+  "transitionsToward": [
+    {
+      "targetID": "4706",
+      "newActorID": "4857",
+      "newTargetID": "4742",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4742",
+      "newActorID": "4857",
+      "newTargetID": "4743",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4742",
+      "decay": "3s"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 0.5,
+  "techTree": [
+    {
+      "id": "4706",
+      "nodes": [
+        {
+          "id": "5197",
+          "nodes": [
+            {
+              "id": "4745",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

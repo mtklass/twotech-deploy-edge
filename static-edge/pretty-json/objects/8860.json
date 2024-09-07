@@ -1,0 +1,18 @@
+{
+  "id": "8860",
+  "name": "Rock",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": true,
+  "depth": 0,
+  "mapChance": 0.0003,
+  "biomes": [
+    {
+      "id": "7",
+      "spawnChance": 0.0002930259816370386
+    }
+  ],
+  "blocksWalking": true
+}

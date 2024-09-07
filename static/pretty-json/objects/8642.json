@@ -1,0 +1,29 @@
+{
+  "id": "8642",
+  "name": "Ancient Stone Wall - tailorflag",
+  "transitionsToward": [
+    {
+      "targetID": "6459",
+      "newTargetID": "8642",
+      "decay": "10h"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20282",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "10h"
+    },
+    {
+      "id": "6459",
+      "nodes": null
+    }
+  ]
+}

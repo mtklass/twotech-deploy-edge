@@ -1,0 +1,11 @@
+{
+  "id": "5347",
+  "name": "Ancient Stone Wall Corner",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true
+}

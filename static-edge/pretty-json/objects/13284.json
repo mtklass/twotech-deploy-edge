@@ -1,0 +1,60 @@
+{
+  "id": "13284",
+  "name": "Firing Distillery - closed",
+  "transitionsToward": [
+    {
+      "targetID": "4527",
+      "newTargetID": "13284",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "13284",
+      "newTargetID": "4534",
+      "decay": "5m"
+    }
+  ],
+  "version": "20300",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    890,
+    102
+  ],
+  "techTree": [
+    {
+      "id": "4527",
+      "nodes": [
+        {
+          "id": "248",
+          "nodes": [
+            {
+              "id": "67",
+              "nodes": []
+            },
+            {
+              "id": "82",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4531",
+          "nodes": [
+            {
+              "id": "344",
+              "nodes": []
+            },
+            {
+              "id": "4530",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

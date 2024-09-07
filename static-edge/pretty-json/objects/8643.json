@@ -1,0 +1,42 @@
+{
+  "id": "8643",
+  "name": "Ancient Stone Wall - bearflag",
+  "transitionsToward": [
+    {
+      "targetID": "6456",
+      "newTargetID": "8643",
+      "decay": "10h"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20282",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "10h"
+    },
+    {
+      "id": "6456",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "6626",
+          "nodes": [
+            {
+              "id": "6456",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

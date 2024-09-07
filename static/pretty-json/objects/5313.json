@@ -1,0 +1,135 @@
+{
+  "id": "5313",
+  "name": "Dead Bull Mammoth  - just killed",
+  "transitionsToward": [
+    {
+      "actorID": "4709",
+      "targetID": "4669",
+      "newTargetID": "5313",
+      "hand": true
+    },
+    {
+      "actorID": "4709",
+      "targetID": "4668",
+      "newTargetID": "5313",
+      "hand": true
+    },
+    {
+      "actorID": "4709",
+      "targetID": "4667",
+      "newTargetID": "5313",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "34",
+      "targetID": "5313",
+      "newActorID": "34",
+      "newTargetID": "4708",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "8709",
+      "newActorUses": "-1",
+      "newActorWeight": 0.08,
+      "targetID": "5313",
+      "newActorID": "8709",
+      "newTargetID": "4708",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "8709",
+      "actorUses": "last",
+      "targetID": "5313",
+      "newActorID": "12012",
+      "newTargetID": "4708",
+      "hand": true
+    },
+    {
+      "actorID": "11671",
+      "newActorUses": "-1",
+      "newActorWeight": 0.08,
+      "targetID": "5313",
+      "newActorID": "11671",
+      "newTargetID": "4708",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "11671",
+      "actorUses": "last",
+      "targetID": "5313",
+      "newActorID": "11560",
+      "newTargetID": "4708",
+      "hand": true
+    },
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "5313",
+      "newActorID": "560",
+      "newTargetID": "4708",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "5313",
+      "newActorID": "11907",
+      "newTargetID": "4708",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    758
+  ],
+  "techTree": [
+    {
+      "id": "4709",
+      "nodes": [
+        {
+          "id": "4708",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "5313",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4669",
+      "nodes": [
+        {
+          "decay": "3s"
+        },
+        {
+          "id": "4668",
+          "nodes": [
+            {
+              "decay": "10s"
+            },
+            {
+              "id": "5300",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

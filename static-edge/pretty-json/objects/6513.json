@@ -1,0 +1,78 @@
+{
+  "id": "6513",
+  "name": "Hand Cart with Old Tires",
+  "transitionsToward": [
+    {
+      "targetID": "8687",
+      "newActorID": "6513",
+      "newTargetID": "8679",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "467",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "6513",
+      "newActorID": "467",
+      "newTargetID": "2172",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "467",
+      "actorUses": "last",
+      "targetID": "6513",
+      "newActorID": "863",
+      "newTargetID": "2172",
+      "hand": true
+    },
+    {
+      "actorID": "6513",
+      "targetID": "8679",
+      "newTargetID": "8687",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "numSlots": 6,
+  "slotSize": 2,
+  "minPickupAge": 12,
+  "speedMult": 0.8,
+  "sounds": [
+    1207,
+    496
+  ],
+  "techTree": [
+    {
+      "id": "8687",
+      "nodes": [
+        {
+          "id": "6513",
+          "nodes": [
+            {
+              "id": "8687",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8679",
+          "nodes": [
+            {
+              "id": "812",
+              "nodes": []
+            },
+            {
+              "id": "622",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

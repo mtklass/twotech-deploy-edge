@@ -1,0 +1,52 @@
+{
+  "id": "11700",
+  "name": "(outdated) Mine Shaft  - exhausted explosion",
+  "transitionsToward": [
+    {
+      "targetID": "11699",
+      "newTargetID": "11700",
+      "decay": "5s"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "11700",
+      "newTargetID": "11703",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    373
+  ],
+  "techTree": [
+    {
+      "decay": "5s"
+    },
+    {
+      "id": "11699",
+      "nodes": [
+        {
+          "id": "248",
+          "nodes": [
+            {
+              "id": "67",
+              "nodes": []
+            },
+            {
+              "id": "82",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "11696",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

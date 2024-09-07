@@ -1,0 +1,10 @@
+{
+  "id": "14310",
+  "name": "@ Any Big Stack of Boards Color",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20306",
+  "craftable": false,
+  "minPickupAge": 3
+}

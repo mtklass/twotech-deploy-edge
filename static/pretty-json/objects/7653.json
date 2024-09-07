@@ -1,0 +1,256 @@
+{
+  "id": "7653",
+  "name": "Bone meal in Bowl  - just scooped",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "7648",
+      "newActorID": "7653",
+      "newTargetID": "7573",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7649",
+      "newActorID": "7653",
+      "newTargetID": "7648",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7650",
+      "newActorID": "7653",
+      "newTargetID": "7649",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7651",
+      "newActorID": "7653",
+      "newTargetID": "7650",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7652",
+      "newActorID": "7653",
+      "newTargetID": "7651",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7653",
+      "targetID": "7573",
+      "newActorID": "235",
+      "newTargetID": "7648",
+      "hand": true
+    },
+    {
+      "actorID": "7653",
+      "targetID": "7648",
+      "newActorID": "235",
+      "newTargetID": "7649",
+      "hand": true
+    },
+    {
+      "actorID": "7653",
+      "targetID": "7649",
+      "newActorID": "235",
+      "newTargetID": "7650",
+      "hand": true
+    },
+    {
+      "actorID": "7653",
+      "targetID": "7650",
+      "newActorID": "235",
+      "newTargetID": "7651",
+      "hand": true
+    },
+    {
+      "actorID": "7653",
+      "targetID": "7651",
+      "newActorID": "235",
+      "newTargetID": "7652",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "7653",
+      "newTargetID": "6616",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.537",
+  "version": "20273",
+  "craftable": true,
+  "depth": 74,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    342
+  ],
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7648",
+      "nodes": [
+        {
+          "id": "14354",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "356",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7573",
+          "nodes": [
+            {
+              "id": "59",
+              "nodes": []
+            },
+            {
+              "id": "14486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "126",
+          "depth": 5,
+          "targetID": "125",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "233",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "33",
+          "targetID": "126",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "284",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "239",
+          "targetID": "233",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "283",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "284",
+          "targetID": "282",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "235",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "283",
+          "hand": true
+        },
+        {
+          "id": "7648",
+          "depth": 1,
+          "subSteps": [
+            [
+              {
+                "id": "87",
+                "depth": 4,
+                "actorID": "1323",
+                "targetPlayer": true
+              }
+            ],
+            [
+              {
+                "id": "356",
+                "depth": 3,
+                "actorID": "292",
+                "targetID": "87",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "14354",
+                "depth": 2,
+                "actorID": "33",
+                "targetID": "356",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "7648",
+                "depth": 1,
+                "actorID": "14354",
+                "targetID": "7573",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "7653",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "235",
+          "targetID": "7648",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "7573",
+      "282",
+      "239",
+      "292",
+      "33",
+      "1323",
+      "125"
+    ]
+  }
+}

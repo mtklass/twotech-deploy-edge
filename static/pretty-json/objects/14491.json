@@ -1,0 +1,84 @@
+{
+  "id": "14491",
+  "name": "Cow Mammoth  - wild pregnant female",
+  "transitionsToward": [
+    {
+      "actorID": "4669",
+      "targetID": "4671",
+      "newActorID": "4667",
+      "newTargetID": "14491"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5265",
+      "targetID": "14491",
+      "newActorID": "4821",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "14491",
+      "newActorID": "151",
+      "newTargetID": "4750",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "14491",
+      "newTargetUses": "-1",
+      "newTargetID": "14491",
+      "targetRemains": true,
+      "decay": "6s",
+      "move": 1
+    },
+    {
+      "targetID": "14491",
+      "targetUses": "last",
+      "newTargetID": "4666",
+      "decay": "6s",
+      "move": 1
+    }
+  ],
+  "version": "20308",
+  "numUses": 10,
+  "craftable": false,
+  "speedMult": 1.25,
+  "moveType": 1,
+  "moveDistance": 3,
+  "techTree": [
+    {
+      "id": "4669",
+      "nodes": [
+        {
+          "decay": "3s"
+        },
+        {
+          "id": "4668",
+          "nodes": [
+            {
+              "decay": "10s"
+            },
+            {
+              "id": "5300",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4671",
+      "nodes": [
+        {
+          "decay": "10s"
+        },
+        {
+          "id": "5301",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

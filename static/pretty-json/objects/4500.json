@@ -1,0 +1,20 @@
+{
+  "id": "4500",
+  "name": "Dough on Flat Rock",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "33",
+      "targetID": "4500",
+      "newActorID": "33",
+      "newTargetID": "4501",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3
+}

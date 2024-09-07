@@ -1,0 +1,56 @@
+{
+  "id": "14840",
+  "name": "Primitive Fishing Pole - justRemoved",
+  "transitionsToward": [
+    {
+      "targetID": "12032",
+      "newActorID": "14840",
+      "newTargetID": "198",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "14840",
+      "newTargetID": "12030",
+      "decay": "1s"
+    }
+  ],
+  "version": "20313",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "12032",
+      "nodes": [
+        {
+          "id": "12030",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "12023",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "198",
+          "nodes": [
+            {
+              "id": "192",
+              "nodes": []
+            },
+            {
+              "id": "208",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

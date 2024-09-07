@@ -1,0 +1,159 @@
+{
+  "id": "14513",
+  "name": "Bowl of Roasted Cocoa Beans  - just scooped",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "14512",
+      "newActorID": "14513",
+      "newTargetID": "7573",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "14511",
+      "newActorID": "14513",
+      "newTargetID": "14512",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "14510",
+      "newActorID": "14513",
+      "newTargetID": "14511",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "14509",
+      "newActorID": "14513",
+      "newTargetID": "14510",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "14508",
+      "newActorID": "14513",
+      "newTargetID": "14509",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "14513",
+      "newTargetID": "11847",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.550",
+  "version": "20308",
+  "craftable": true,
+  "depth": 79,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    1187
+  ],
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14512",
+      "nodes": [
+        {
+          "id": "11847",
+          "nodes": [
+            {
+              "id": "14172",
+              "nodes": []
+            },
+            {
+              "id": "250",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7573",
+          "nodes": [
+            {
+              "id": "59",
+              "nodes": []
+            },
+            {
+              "id": "14486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "14172",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "235",
+          "targetID": "14170",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "11847",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "14172",
+          "targetID": "250",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14512",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "11847",
+          "targetID": "7573",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14513",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "235",
+          "targetID": "14512",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "14170",
+      "7573",
+      "235",
+      "250"
+    ]
+  }
+}

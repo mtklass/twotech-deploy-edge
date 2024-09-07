@@ -1,0 +1,1 @@
+{"id":"4496","name":"Wet Clay Bowl of Clay","transitionsToward":[],"transitionsAway":[{"actorID":"33","targetID":"4496","newActorID":"33","newTargetID":"4470","hand":true,"tool":true}],"transitionsTimed":[],"version":"20271","craftable":false,"size":2,"minPickupAge":3}

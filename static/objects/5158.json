@@ -1,0 +1,1 @@
+{"id":"5158","name":"Crown of Republique du Baget","transitionsToward":[],"transitionsAway":[{"actorID":"5158","targetID":"4436","newActorID":"5158","newTargetID":"5176","hand":true,"tool":true}],"transitionsTimed":[],"version":"20271","craftable":false,"clothing":"h","insulation":0,"size":1,"minPickupAge":3,"speedMult":0.5}

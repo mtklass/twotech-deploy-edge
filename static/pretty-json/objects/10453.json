@@ -1,0 +1,20 @@
+{
+  "id": "10453",
+  "name": "(outdated) Dill Seed Head",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10453",
+      "newTargetID": "4242",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    311
+  ]
+}

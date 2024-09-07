@@ -1,0 +1,79 @@
+{
+  "id": "4624",
+  "name": "Tent Wall  - vertical blue",
+  "transitionsToward": [
+    {
+      "actorID": "4583",
+      "targetID": "109",
+      "newActorID": "107",
+      "newTargetID": "4624",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "568",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "4624",
+      "newActorID": "568",
+      "newTargetID": "4583",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "568",
+      "actorUses": "last",
+      "targetID": "4624",
+      "newActorID": "862",
+      "newTargetID": "4583",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "4583",
+      "nodes": [
+        {
+          "id": "4584",
+          "nodes": [
+            {
+              "id": "4585",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "nodes": [
+        {
+          "id": "33",
+          "nodes": null
+        },
+        {
+          "id": "108",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

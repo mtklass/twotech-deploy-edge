@@ -1,0 +1,1 @@
+{"id":"6457","name":"Stone Wall - kitchenflag","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"6457","newTargetID":"8639","decay":"10h"}],"version":"20271","craftable":false,"insulation":0.9,"blocksWalking":true,"sounds":[746]}

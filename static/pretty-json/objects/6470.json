@@ -1,0 +1,10 @@
+{
+  "id": "6470",
+  "name": "@ FlagWall",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

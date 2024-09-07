@@ -1,0 +1,14 @@
+{
+  "id": "4537",
+  "name": "(outdated) Bowl of Sand",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    352
+  ]
+}

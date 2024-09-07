@@ -1,0 +1,51 @@
+{
+  "id": "4424",
+  "name": "Cursed Shrine",
+  "transitionsToward": [
+    {
+      "targetID": "4415",
+      "newActorID": "693",
+      "newTargetID": "4424",
+      "hand": true
+    },
+    {
+      "targetID": "4423",
+      "newActorID": "693",
+      "newTargetID": "4424",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "4424",
+      "newTargetID": "661",
+      "decay": "24h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "4415",
+      "nodes": [
+        {
+          "id": "693",
+          "nodes": [
+            {
+              "id": "701",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4414",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

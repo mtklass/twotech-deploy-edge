@@ -1,0 +1,1 @@
+{"id":"4621","name":"Half Jar of Beer - remapStart","transitionsToward":[],"transitionsAway":[{"actorID":"4621","newActorID":"4546","targetPlayer":true,"hand":true}],"transitionsTimed":[{"targetID":"4621","newTargetID":"4558","decay":"1s"}],"version":"20271","foodValue":[8,0],"craftable":false,"size":1,"minPickupAge":3,"sounds":[405,1255]}

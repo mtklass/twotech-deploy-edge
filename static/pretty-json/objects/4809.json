@@ -1,0 +1,189 @@
+{
+  "id": "4809",
+  "name": "Copper Clad Sword - scabbard",
+  "transitionsToward": [
+    {
+      "targetID": "5165",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4808",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4806",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4804",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4802",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4800",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4798",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4687",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "4677",
+      "newTargetID": "4809",
+      "decay": "2h"
+    },
+    {
+      "targetID": "5290",
+      "newActorID": "4809",
+      "newTargetID": "291",
+      "hand": true
+    },
+    {
+      "actorID": "4810",
+      "targetID": "4818",
+      "newActorID": "4809",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4809",
+      "newActorID": "4810",
+      "newTargetID": "4818",
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "4673",
+      "newActorID": "4677",
+      "newTargetID": "4673",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "4676",
+      "newActorID": "4687",
+      "newTargetID": "4676",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5150",
+      "newActorID": "4798",
+      "newTargetID": "5150",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5151",
+      "newActorID": "4806",
+      "newTargetID": "5151",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5152",
+      "newActorID": "4802",
+      "newTargetID": "5152",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5153",
+      "newActorID": "4800",
+      "newTargetID": "5153",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5154",
+      "newActorID": "4808",
+      "newTargetID": "5154",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5155",
+      "newActorID": "4804",
+      "newTargetID": "5155",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4809",
+      "targetID": "5170",
+      "newActorID": "5165",
+      "newTargetID": "5170",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "clothing": "p",
+  "insulation": 0,
+  "size": 2,
+  "minPickupAge": 18,
+  "speedMult": 0.75,
+  "sounds": [
+    695
+  ],
+  "techTree": [
+    {
+      "decay": "2h"
+    },
+    {
+      "id": "5165",
+      "nodes": [
+        {
+          "id": "4809",
+          "nodes": [
+            {
+              "decay": "2h"
+            },
+            {
+              "id": "5165",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "5170",
+          "nodes": [
+            {
+              "id": "5175",
+              "nodes": []
+            },
+            {
+              "id": "896",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

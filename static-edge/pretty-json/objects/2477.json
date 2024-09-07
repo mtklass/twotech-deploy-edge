@@ -1,0 +1,13 @@
+{
+  "id": "2477",
+  "name": "Endtower Base",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "186",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ]
+}

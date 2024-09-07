@@ -1,0 +1,279 @@
+{
+  "id": "13656",
+  "name": "Ladle Cart of Molten Steel",
+  "transitionsToward": [
+    {
+      "actorID": "13679",
+      "targetID": "13680",
+      "newActorID": "13656",
+      "newTargetID": "13663",
+      "hand": true
+    },
+    {
+      "targetID": "13690",
+      "newActorID": "13656",
+      "newTargetID": "13683",
+      "hand": true
+    },
+    {
+      "targetID": "13933",
+      "newActorID": "13656",
+      "newTargetID": "13931",
+      "hand": true
+    },
+    {
+      "targetID": "13927",
+      "newActorID": "13656",
+      "newTargetID": "13924",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "13656",
+      "newTargetID": "13656",
+      "hand": true
+    },
+    {
+      "targetID": "13656",
+      "newActorID": "13656",
+      "hand": true
+    },
+    {
+      "actorID": "13656",
+      "targetID": "13673",
+      "newTargetID": "13689",
+      "hand": true
+    },
+    {
+      "actorID": "13656",
+      "targetID": "13685",
+      "newTargetID": "13934",
+      "hand": true
+    },
+    {
+      "actorID": "13656",
+      "targetID": "13923",
+      "newTargetID": "13928",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.939",
+  "version": "20304",
+  "numUses": 12,
+  "craftable": true,
+  "depth": 126,
+  "speedMult": 0.3,
+  "blocksWalking": true,
+  "sounds": [
+    198
+  ],
+  "techTree": [
+    {
+      "id": "13679",
+      "nodes": [
+        {
+          "id": "13712",
+          "nodes": [
+            {
+              "id": "13711",
+              "nodes": []
+            },
+            {
+              "id": "13711",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "13710",
+          "nodes": [
+            {
+              "id": "7139",
+              "nodes": []
+            },
+            {
+              "id": "13709",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13680",
+      "nodes": [
+        {
+          "id": "13678",
+          "nodes": [
+            {
+              "decay": "30s"
+            },
+            {
+              "id": "13676",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "13540",
+          "mainBranch": true,
+          "depth": 11,
+          "actorID": "292",
+          "targetID": "13543",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13695",
+          "mainBranch": true,
+          "depth": 10,
+          "actorID": "13540",
+          "targetID": "13669",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13735",
+          "mainBranch": true,
+          "depth": 9,
+          "actorID": "2343",
+          "targetID": "13695",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13694",
+          "mainBranch": true,
+          "depth": 8,
+          "actorID": "248",
+          "targetID": "13735",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13739",
+          "mainBranch": true,
+          "depth": 7,
+          "actorID": "674",
+          "targetID": "13694",
+          "hand": true
+        },
+        {
+          "id": "290",
+          "depth": 7,
+          "subSteps": [
+            [
+              {
+                "id": "11559",
+                "depth": 8,
+                "actorID": "8710",
+                "targetID": "6421",
+                "weight": 0.15,
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "290",
+                "depth": 7,
+                "targetID": "11559",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "13738",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "290",
+          "targetID": "13739",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13681",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "13679",
+          "targetID": "13738",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13677",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "13681",
+          "targetID": "13663",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13676",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "13677",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13678",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "13676",
+          "decay": "30s"
+        }
+      ],
+      [
+        {
+          "id": "13680",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "13678",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13656",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "13679",
+          "targetID": "13680",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13669",
+      "2343",
+      "13663",
+      "13543",
+      "13679",
+      "6421",
+      "8710",
+      "248",
+      "292",
+      "674"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "12202",
+  "name": "@ HangableClothes",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20294",
+  "craftable": false,
+  "minPickupAge": 3
+}

@@ -1,0 +1,79 @@
+{
+  "id": "14705",
+  "name": "Ruined Slice of Pizza -  +emotEat_10_10",
+  "transitionsToward": [
+    {
+      "actorID": "14703",
+      "targetID": "10089",
+      "newTargetID": "14705",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "14705",
+      "newActorID": "236",
+      "targetPlayer": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20311",
+  "foodValue": [
+    1,
+    0
+  ],
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    1207,
+    1257
+  ],
+  "techTree": [
+    {
+      "id": "14703",
+      "nodes": [
+        {
+          "id": "14702",
+          "nodes": [
+            {
+              "id": "8709",
+              "nodes": []
+            },
+            {
+              "id": "14700",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10089",
+      "nodes": [
+        {
+          "id": "236",
+          "nodes": [
+            {
+              "id": "241",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "10090",
+          "nodes": [
+            {
+              "id": "11671",
+              "nodes": []
+            },
+            {
+              "id": "10086",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

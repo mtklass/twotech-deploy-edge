@@ -1,0 +1,66 @@
+{
+  "id": "4570",
+  "name": "(outdated) Bee Box",
+  "transitionsToward": [
+    {
+      "targetID": "4573",
+      "newActorID": "4570",
+      "newTargetID": "4572",
+      "hand": true
+    },
+    {
+      "targetID": "4574",
+      "newActorID": "4570",
+      "newTargetID": "4573",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4570",
+      "targetID": "4571",
+      "newTargetID": "4572",
+      "hand": true
+    },
+    {
+      "actorID": "4570",
+      "targetID": "4572",
+      "newTargetID": "4573",
+      "hand": true
+    },
+    {
+      "actorID": "4570",
+      "targetID": "4573",
+      "newTargetID": "4574",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    509
+  ],
+  "techTree": [
+    {
+      "id": "4573",
+      "nodes": [
+        {
+          "id": "4574",
+          "nodes": [
+            {
+              "id": "4570",
+              "nodes": []
+            },
+            {
+              "id": "4573",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

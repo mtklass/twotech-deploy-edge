@@ -1,0 +1,21 @@
+{
+  "id": "7469",
+  "name": "Copper Key with Chisel",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "7469",
+      "newActorID": "455",
+      "newTargetID": "7269",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 5,
+  "useChance": 0.04,
+  "craftable": false,
+  "sounds": [
+    455
+  ]
+}

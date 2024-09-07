@@ -1,0 +1,12 @@
+{
+  "id": "6739",
+  "name": "Random Fertilized Egg Outcome",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    147
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "13188",
+  "name": "@ Autumn Season Tree",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20299",
+  "craftable": false,
+  "blocksWalking": true
+}

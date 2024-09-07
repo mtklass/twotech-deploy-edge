@@ -1,0 +1,61 @@
+{
+  "id": "4419",
+  "name": "Blessed Shrine  - A",
+  "transitionsToward": [
+    {
+      "targetID": "4418",
+      "newTargetID": "4419",
+      "decay": "1h"
+    },
+    {
+      "targetID": "4430",
+      "newTargetID": "4419",
+      "decay": "1h"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "4419",
+      "newTargetID": "4420",
+      "decay": "1h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "decay": "1h"
+    },
+    {
+      "id": "4418",
+      "nodes": [
+        {
+          "id": "40",
+          "nodes": [
+            {
+              "id": "39",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4417",
+          "nodes": [
+            {
+              "id": "40",
+              "nodes": []
+            },
+            {
+              "id": "4416",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

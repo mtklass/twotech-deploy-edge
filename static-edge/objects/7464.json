@@ -1,0 +1,1 @@
+{"id":"7464","name":"Silver Key with Chisel","transitionsToward":[],"transitionsAway":[{"targetID":"7464","newActorID":"455","newTargetID":"7276","hand":true}],"transitionsTimed":[],"version":"20271","numUses":5,"useChance":0.04,"craftable":false,"sounds":[455]}

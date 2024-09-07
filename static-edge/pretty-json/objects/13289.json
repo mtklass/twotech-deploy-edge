@@ -1,0 +1,13 @@
+{
+  "id": "13289",
+  "name": "Random Quarry Outcome",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20300",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    1071
+  ]
+}

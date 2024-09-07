@@ -1,0 +1,45 @@
+{
+  "id": "8788",
+  "name": "Mole Hole - hiding",
+  "transitionsToward": [
+    {
+      "targetID": "8783",
+      "newTargetID": "8788",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8788",
+      "newTargetID": "8784",
+      "decay": "5m"
+    }
+  ],
+  "version": "20285",
+  "craftable": false,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "8783",
+      "nodes": [
+        {
+          "decay": "5s"
+        },
+        {
+          "id": "8784",
+          "nodes": [
+            {
+              "decay": "5m"
+            },
+            {
+              "id": "8788",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

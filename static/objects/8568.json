@@ -1,0 +1,1 @@
+{"id":"8568","name":"Old Schnauser -  just fed","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"8568","newTargetID":"1756","decay":"3s","move":1}],"version":"20281","craftable":false,"speedMult":0.5,"sounds":[842],"moveType":1,"moveDistance":4}

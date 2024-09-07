@@ -1,0 +1,15 @@
+{
+  "id": "4455",
+  "name": "Juniper Sapling",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "4455",
+      "newTargetID": "49",
+      "decay": "4h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false
+}

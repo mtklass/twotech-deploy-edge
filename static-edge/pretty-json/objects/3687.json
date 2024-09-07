@@ -1,0 +1,10 @@
+{
+  "id": "3687",
+  "name": "@ Pattern bottle just emptied",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20308",
+  "craftable": false,
+  "minPickupAge": 3
+}

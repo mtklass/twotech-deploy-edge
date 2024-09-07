@@ -1,0 +1,22 @@
+{
+  "id": "8567",
+  "name": "Old Dachshund -  just fed",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8567",
+      "newTargetID": "1755",
+      "decay": "3s",
+      "move": 1
+    }
+  ],
+  "version": "20281",
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    842
+  ],
+  "moveType": 1,
+  "moveDistance": 4
+}

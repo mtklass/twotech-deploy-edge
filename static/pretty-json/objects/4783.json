@@ -1,0 +1,18 @@
+{
+  "id": "4783",
+  "name": "Cooked Flapjacks  - 3 honeyed",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "foodValue": [
+    13,
+    0
+  ],
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    369,
+    661
+  ]
+}

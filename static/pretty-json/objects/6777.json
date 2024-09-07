@@ -1,0 +1,10 @@
+{
+  "id": "6777",
+  "name": "Perhaps a Catch",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

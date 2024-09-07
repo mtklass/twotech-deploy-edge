@@ -1,0 +1,174 @@
+{
+  "id": "14678",
+  "name": "Cast Iron Bench - justMade",
+  "transitionsToward": [
+    {
+      "actorID": "441",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "14648",
+      "newActorID": "441",
+      "newTargetID": "14678",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "441",
+      "actorUses": "last",
+      "targetID": "14648",
+      "newActorID": "858",
+      "newTargetID": "14678",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "14678",
+      "newTargetID": "14641",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.955",
+  "version": "20311",
+  "craftable": true,
+  "depth": 128,
+  "sounds": [
+    455
+  ],
+  "techTree": [
+    {
+      "id": "441",
+      "nodes": [
+        {
+          "id": "443",
+          "nodes": [
+            {
+              "id": "442",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "69",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14648",
+      "nodes": [
+        {
+          "id": "14647",
+          "nodes": [
+            {
+              "id": "14642",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "14647",
+          "nodes": [
+            {
+              "id": "14642",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "14643",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "13743",
+          "targetID": "14640",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14644",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "14643",
+          "decay": "2s"
+        }
+      ],
+      [
+        {
+          "id": "14646",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 4,
+          "targetID": "14644",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14642",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "14646",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "14647",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "14642",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14648",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "14647",
+          "targetID": "14647",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14678",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "441",
+          "targetID": "14648",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13743",
+      "441",
+      "14640"
+    ]
+  }
+}

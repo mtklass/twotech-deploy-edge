@@ -1,0 +1,1 @@
+{"id":"6459","name":"Stone Wall - tailorflag","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"6459","newTargetID":"8642","decay":"10h"}],"version":"20271","craftable":false,"insulation":0.9,"blocksWalking":true,"sounds":[746]}

@@ -1,0 +1,1 @@
+{"id":"4606","name":"(outdated) Domestic Hive  - 2A swarm","transitionsToward":[{"targetID":"4576","newActorID":"4598","newTargetID":"4606","hand":true}],"transitionsAway":[],"transitionsTimed":[],"version":"20271","craftable":false,"sounds":[509],"techTree":[{"id":"4576","nodes":[{"id":"4577","nodes":null}]}]}

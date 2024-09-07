@@ -1,0 +1,50 @@
+{
+  "id": "10613",
+  "name": "Oven Door",
+  "transitionsToward": [
+    {
+      "targetID": "10620",
+      "newActorID": "10613",
+      "newTargetID": "291",
+      "hand": true
+    },
+    {
+      "targetID": "11534",
+      "newActorID": "10613",
+      "newTargetID": "10604",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "10613",
+      "targetID": "10604",
+      "newTargetID": "10605",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "10620",
+      "nodes": [
+        {
+          "id": "10619",
+          "nodes": [
+            {
+              "decay": "10s"
+            },
+            {
+              "id": "10618",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

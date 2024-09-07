@@ -1,0 +1,10 @@
+{
+  "id": "14850",
+  "name": "@ Potential Half Wall With Shelf",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20313",
+  "craftable": false,
+  "minPickupAge": 3
+}

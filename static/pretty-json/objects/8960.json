@@ -1,0 +1,55 @@
+{
+  "id": "8960",
+  "name": "Beaver Den with Beaver",
+  "transitionsToward": [
+    {
+      "targetID": "8959",
+      "newTargetID": "8960",
+      "decay": "1m"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8960",
+      "newActorID": "8962",
+      "newTargetID": "8961"
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "8960",
+      "newTargetID": "8961",
+      "decay": "2s",
+      "move": 3
+    }
+  ],
+  "version": "20286",
+  "craftable": false,
+  "speedMult": 0.4,
+  "blocksWalking": true,
+  "moveType": 3,
+  "moveDistance": 2,
+  "techTree": [
+    {
+      "decay": "1m"
+    },
+    {
+      "id": "8959",
+      "nodes": [
+        {
+          "id": "8961",
+          "nodes": null
+        },
+        {
+          "id": "8962",
+          "nodes": [
+            {
+              "id": "8960",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "8639",
+  "name": "Ancient Stone Wall - kitchenflag",
+  "transitionsToward": [
+    {
+      "targetID": "6457",
+      "newTargetID": "8639",
+      "decay": "10h"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20282",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "10h"
+    },
+    {
+      "id": "6457",
+      "nodes": null
+    }
+  ]
+}

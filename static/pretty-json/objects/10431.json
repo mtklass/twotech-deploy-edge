@@ -1,0 +1,19 @@
+{
+  "id": "10431",
+  "name": "(outdated) Bottle of Skim Milk  - funnel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10431",
+      "newTargetID": "3622",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 4,
+  "craftable": false,
+  "sounds": [
+    405
+  ]
+}

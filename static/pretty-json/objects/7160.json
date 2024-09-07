@@ -1,0 +1,14 @@
+{
+  "id": "7160",
+  "name": "(outdated) Dry Compost Box",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 3,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    290
+  ]
+}

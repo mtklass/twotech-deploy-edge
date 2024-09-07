@@ -1,0 +1,62 @@
+{
+  "id": "10606",
+  "name": "(outdated) Partial Stone Oven  - stove top",
+  "transitionsToward": [
+    {
+      "targetID": "10607",
+      "newActorID": "10614",
+      "newTargetID": "10606",
+      "hand": true
+    },
+    {
+      "actorID": "10611",
+      "targetID": "10605",
+      "newTargetID": "10606",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "10606",
+      "newActorID": "10611",
+      "newTargetID": "10605",
+      "hand": true
+    },
+    {
+      "actorID": "10614",
+      "targetID": "10606",
+      "newTargetID": "10607",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "10607",
+      "nodes": [
+        {
+          "decay": "5m"
+        },
+        {
+          "id": "10630",
+          "nodes": [
+            {
+              "id": "5294",
+              "nodes": []
+            },
+            {
+              "id": "10615",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

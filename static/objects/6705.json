@@ -1,0 +1,1 @@
+{"id":"6705","name":"(outdated) Sewing Machine - thread","transitionsToward":[],"transitionsAway":[{"actorID":"6463","targetID":"6705","newTargetID":"6715","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"blocksWalking":true,"sounds":[281,1556]}

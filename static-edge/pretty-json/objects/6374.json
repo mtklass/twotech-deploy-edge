@@ -1,0 +1,82 @@
+{
+  "id": "6374",
+  "name": "Fur Coat Stallion",
+  "transitionsToward": [
+    {
+      "actorID": "667",
+      "targetID": "6350",
+      "newTargetID": "6374",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "6374",
+      "newActorID": "6374",
+      "hand": true
+    },
+    {
+      "actorID": "6374",
+      "newTargetID": "6374",
+      "hand": true
+    },
+    {
+      "actorID": "59",
+      "targetID": "6374",
+      "newTargetID": "6375",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 2.25,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "667",
+      "nodes": [
+        {
+          "id": "657",
+          "nodes": [
+            {
+              "id": "8709",
+              "nodes": []
+            },
+            {
+              "id": "643",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6350",
+      "nodes": [
+        {
+          "id": "770",
+          "nodes": [
+            {
+              "id": "1421",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "5151",
+          "nodes": [
+            {
+              "id": "5176",
+              "nodes": []
+            },
+            {
+              "id": "896",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

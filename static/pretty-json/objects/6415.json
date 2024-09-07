@@ -1,0 +1,55 @@
+{
+  "id": "6415",
+  "name": "Clothing Wheel - complete",
+  "transitionsToward": [
+    {
+      "targetID": "6414",
+      "targetUses": "max",
+      "newTargetID": "6415",
+      "decay": "1s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "6415",
+      "targetID": "6416",
+      "newTargetID": "6417",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "speedMult": 0.5,
+  "sounds": [
+    69
+  ],
+  "techTree": [
+    {
+      "decay": "1s"
+    },
+    {
+      "id": "6414",
+      "nodes": [
+        {
+          "id": "6412",
+          "nodes": null
+        },
+        {
+          "id": "475",
+          "nodes": [
+            {
+              "id": "474",
+              "nodes": []
+            },
+            {
+              "id": "472",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"id":"6505","name":"Cooked Pork on Plate","transitionsToward":[],"transitionsAway":[{"targetID":"6505","newActorID":"6504","newTargetID":"236","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"minPickupAge":3,"sounds":[352]}

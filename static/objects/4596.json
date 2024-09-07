@@ -1,0 +1,1 @@
+{"id":"4596","name":"(outdated) Domestic Hive  - 3B spawn","transitionsToward":[{"targetID":"4578","newTargetID":"4596","decay":"10m"}],"transitionsAway":[],"transitionsTimed":[],"version":"20271","craftable":false,"sounds":[509],"techTree":[{"decay":"10m"},{"id":"4578","nodes":[{"id":"4579","nodes":[{"id":"4580","nodes":null}]}]}]}

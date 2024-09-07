@@ -1,0 +1,240 @@
+{
+  "id": "14606",
+  "name": "Cast Iron Fence",
+  "transitionsToward": [
+    {
+      "actorID": "14648",
+      "targetID": "108",
+      "newActorID": "107",
+      "newTargetID": "14606",
+      "hand": true
+    },
+    {
+      "actorID": "14648",
+      "targetID": "14049",
+      "newTargetID": "14606",
+      "hand": true
+    },
+    {
+      "actorID": "441",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "14613",
+      "newActorID": "441",
+      "newTargetID": "14606",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "441",
+      "actorUses": "last",
+      "targetID": "14613",
+      "newActorID": "858",
+      "newTargetID": "14606",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "441",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "14606",
+      "newActorID": "441",
+      "newTargetID": "14605",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "441",
+      "actorUses": "last",
+      "targetID": "14606",
+      "newActorID": "858",
+      "newTargetID": "14605",
+      "hand": true
+    },
+    {
+      "actorID": "684",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "14606",
+      "newActorID": "684",
+      "newTargetID": "14648",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "684",
+      "actorUses": "last",
+      "targetID": "14606",
+      "newActorID": "858",
+      "newTargetID": "14648",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.955",
+  "version": "20311",
+  "craftable": true,
+  "depth": 128,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "14648",
+      "nodes": [
+        {
+          "id": "14647",
+          "nodes": [
+            {
+              "id": "14642",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "14647",
+          "nodes": [
+            {
+              "id": "14642",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "nodes": [
+        {
+          "id": "33",
+          "nodes": null
+        },
+        {
+          "id": "486",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "107",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "14643",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "13743",
+          "targetID": "14640",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14644",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "14643",
+          "decay": "2s"
+        }
+      ],
+      [
+        {
+          "id": "14646",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 4,
+          "targetID": "14644",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14642",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "14646",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "14647",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "14642",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14648",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "14647",
+          "targetID": "14647",
+          "hand": true
+        },
+        {
+          "id": "108",
+          "depth": 1,
+          "subSteps": [
+            [
+              {
+                "id": "486",
+                "depth": 2,
+                "actorID": "33",
+                "targetID": "107",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "108",
+                "depth": 1,
+                "actorID": "33",
+                "targetID": "486",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "14606",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "14648",
+          "targetID": "108",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13743",
+      "14640",
+      "107",
+      "33"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "3034",
+  "name": "Perhaps an Exhausted Pump",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20270",
+  "craftable": false,
+  "minPickupAge": 3
+}

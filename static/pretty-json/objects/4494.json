@@ -1,0 +1,150 @@
+{
+  "id": "4494",
+  "name": "Cheese Sandwich - 2",
+  "transitionsToward": [
+    {
+      "actorID": "4479",
+      "newActorID": "4494",
+      "targetPlayer": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "difficulty": "0.524",
+  "version": "20271",
+  "foodValue": [
+    4,
+    5
+  ],
+  "craftable": true,
+  "depth": 85,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    359,
+    1257
+  ],
+  "techTree": [
+    {
+      "id": "4479",
+      "nodes": [
+        {
+          "id": "4495",
+          "nodes": [
+            {
+              "id": "13384",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4478",
+          "nodes": [
+            {
+              "id": "4477",
+              "nodes": []
+            },
+            {
+              "id": "4477",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "1286",
+          "count": 2,
+          "uses": "x2",
+          "depth": 6,
+          "actorID": "252",
+          "targetID": "291",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4501",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "33",
+          "targetID": "1286",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4476",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 4,
+          "targetID": "4501",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4477",
+          "count": 2,
+          "uses": "x2",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "4476",
+          "targetID": "250",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4478",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "4477",
+          "targetID": "4477",
+          "hand": true
+        },
+        {
+          "id": "4495",
+          "depth": 2,
+          "targetID": "13384",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4479",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "4495",
+          "targetID": "4478",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4494",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "4479",
+          "hand": true,
+          "targetPlayer": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13384",
+      "252",
+      "250",
+      "33",
+      "291"
+    ]
+  }
+}

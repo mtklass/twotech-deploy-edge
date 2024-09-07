@@ -1,0 +1,114 @@
+{
+  "id": "11622",
+  "name": "Pile of Lapis Lazuli",
+  "transitionsToward": [
+    {
+      "actorID": "1890",
+      "targetID": "1890",
+      "newTargetUses": "last",
+      "newTargetID": "11622",
+      "hand": true
+    },
+    {
+      "actorID": "14159",
+      "actorUses": "max",
+      "newActorID": "292",
+      "newTargetID": "11622",
+      "hand": true
+    },
+    {
+      "actorID": "14082",
+      "newActorUses": "-1",
+      "newActorID": "14082",
+      "newTargetID": "11622",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "14082",
+      "actorUses": "last",
+      "newActorID": "13611",
+      "newTargetID": "11622",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "11622",
+      "newTargetUses": "-1",
+      "newActorID": "1890",
+      "newTargetID": "11622",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "11622",
+      "targetUses": "last",
+      "newActorID": "1890",
+      "newTargetID": "1890",
+      "hand": true
+    },
+    {
+      "actorID": "1890",
+      "targetID": "11622",
+      "newTargetUses": "+1",
+      "newTargetID": "11622",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "13611",
+      "newActorUses": "last",
+      "targetID": "11622",
+      "targetUses": "max",
+      "newActorID": "14082",
+      "hand": true
+    },
+    {
+      "actorID": "14082",
+      "newActorUses": "+1",
+      "targetID": "11622",
+      "targetUses": "max",
+      "newActorID": "14082",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.0210",
+  "version": "20290",
+  "numUses": 5,
+  "craftable": true,
+  "depth": 1,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "1890",
+      "nodes": null
+    },
+    {
+      "id": "1890",
+      "nodes": null
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "11622",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "1890",
+          "targetID": "1890",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "1890",
+      "1890"
+    ]
+  }
+}

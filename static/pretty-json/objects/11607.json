@@ -1,0 +1,31 @@
+{
+  "id": "11607",
+  "name": "(outdated) Mine Shaft with Diamond  - desert",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "11607",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.2,
+      "newActorID": "7287",
+      "newTargetID": "11547",
+      "hand": true
+    },
+    {
+      "targetID": "11607",
+      "targetUses": "last",
+      "newActorID": "7287",
+      "newTargetID": "11626",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "numUses": 15,
+  "useChance": 0.2,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    890
+  ]
+}

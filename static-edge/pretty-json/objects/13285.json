@@ -1,0 +1,17 @@
+{
+  "id": "13285",
+  "name": "Granite Floor",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20300",
+  "craftable": false,
+  "insulation": 0.4,
+  "sounds": [
+    78,
+    1050,
+    1051,
+    1053,
+    1055
+  ]
+}

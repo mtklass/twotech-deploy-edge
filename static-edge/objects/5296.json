@@ -1,0 +1,1 @@
+{"id":"5296","name":"(outdated) Bottle of Vinegar","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"5296","newTargetID":"3592","decay":"1s"}],"version":"20271","numUses":4,"craftable":false,"minPickupAge":3,"sounds":[287]}

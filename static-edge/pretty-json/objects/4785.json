@@ -1,0 +1,12 @@
+{
+  "id": "4785",
+  "name": "Churn Bucket",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    74
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "9009",
+  "name": "Short Shaft with Wooden Wheel",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "9009",
+      "newActorID": "69",
+      "newTargetID": "475",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20287",
+  "craftable": false,
+  "sounds": [
+    500
+  ]
+}

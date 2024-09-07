@@ -1,0 +1,10 @@
+{
+  "id": "15063",
+  "name": "@ Seed Bowls +contShelf +contTable +contSwitchingTable",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20315",
+  "craftable": false,
+  "minPickupAge": 3
+}

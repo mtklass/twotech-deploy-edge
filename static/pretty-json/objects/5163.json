@@ -1,0 +1,23 @@
+{
+  "id": "5163",
+  "name": "Crown of Meow Empire",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "5163",
+      "targetID": "4436",
+      "newActorID": "5163",
+      "newTargetID": "5171",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "clothing": "h",
+  "insulation": 0,
+  "size": 1,
+  "minPickupAge": 3,
+  "speedMult": 0.5
+}

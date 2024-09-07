@@ -1,0 +1,10 @@
+{
+  "id": "8443",
+  "name": "@ Potential Shelf Wall",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20280",
+  "craftable": false,
+  "minPickupAge": 3
+}

@@ -1,0 +1,1 @@
+{"id":"5199","name":"Templar Crown","transitionsToward":[],"transitionsAway":[{"actorID":"5199","targetID":"4436","newActorID":"5199","newTargetID":"5175","hand":true,"tool":true}],"transitionsTimed":[],"version":"20271","craftable":false,"clothing":"h","insulation":0,"size":1,"minPickupAge":3,"speedMult":0.5}

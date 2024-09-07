@@ -1,0 +1,77 @@
+{
+  "id": "8817",
+  "name": "Cow in Grass",
+  "transitionsToward": [
+    {
+      "actorID": "1458",
+      "targetID": "8816",
+      "newTargetID": "8817"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8817",
+      "newActorID": "8816",
+      "newTargetID": "1458"
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "8817",
+      "newTargetID": "1458",
+      "decay": "3s",
+      "move": 1
+    }
+  ],
+  "version": "20286",
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    601,
+    605,
+    607,
+    611
+  ],
+  "moveType": 1,
+  "moveDistance": 3,
+  "techTree": [
+    {
+      "id": "1458",
+      "nodes": [
+        {
+          "decay": "3s"
+        },
+        {
+          "id": "1485",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "2727",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8816",
+      "nodes": [
+        {
+          "id": "8817",
+          "nodes": [
+            {
+              "id": "1458",
+              "nodes": []
+            },
+            {
+              "id": "8816",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

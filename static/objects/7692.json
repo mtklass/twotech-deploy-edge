@@ -1,0 +1,1 @@
+{"id":"7692","name":"(outdated) Molten Glass on Flat Rock","transitionsToward":[],"transitionsAway":[{"actorID":"291","targetID":"7692","newTargetID":"7693","hand":true}],"transitionsTimed":[{"targetID":"7692","newTargetID":"7724","decay":"10s"}],"version":"20273","craftable":false,"sounds":[388]}

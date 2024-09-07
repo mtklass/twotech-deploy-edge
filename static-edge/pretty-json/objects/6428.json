@@ -1,0 +1,10 @@
+{
+  "id": "6428",
+  "name": "@ Cart Movable Object",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

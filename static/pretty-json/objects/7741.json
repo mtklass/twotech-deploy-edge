@@ -1,0 +1,65 @@
+{
+  "id": "7741",
+  "name": "Ate Scarecrow  - just ate crow",
+  "transitionsToward": [
+    {
+      "targetID": "7739",
+      "newTargetID": "7741",
+      "decay": "10s"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "7741",
+      "newTargetID": "7740",
+      "decay": "2s"
+    }
+  ],
+  "difficulty": "0.870",
+  "version": "20274",
+  "craftable": true,
+  "depth": 123,
+  "speedMult": 0.6,
+  "techTree": [
+    {
+      "decay": "10s"
+    },
+    {
+      "id": "7739",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "7743",
+          "nodes": [
+            {
+              "decay": "30m"
+            },
+            {
+              "id": "7732",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "7741",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "7732",
+          "decay": "1811s"
+        }
+      ]
+    ],
+    "ingredients": [
+      "7732"
+    ]
+  }
+}

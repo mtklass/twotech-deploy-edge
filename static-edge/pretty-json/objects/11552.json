@@ -1,0 +1,40 @@
+{
+  "id": "11552",
+  "name": "(outdated) Mine Shaft  - exhausted desert",
+  "transitionsToward": [
+    {
+      "targetID": "11626",
+      "newActorID": "7287",
+      "newTargetID": "11552",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "11626",
+      "nodes": [
+        {
+          "id": "11604",
+          "nodes": [
+            {
+              "id": "8710",
+              "nodes": []
+            },
+            {
+              "id": "11547",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "1844",
+  "name": "Blush",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "146",
+  "craftable": false,
+  "minPickupAge": 3
+}

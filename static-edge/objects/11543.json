@@ -1,0 +1,1 @@
+{"id":"11543","name":"(outdated) Mining Pit","transitionsToward":[],"transitionsAway":[{"actorID":"666","targetID":"11543","newTargetID":"6421","hand":true}],"transitionsTimed":[],"version":"20290","craftable":false,"blocksWalking":true,"sounds":[1074]}

@@ -1,0 +1,21 @@
+{
+  "id": "10454",
+  "name": "(outdated) Bowl of Dill Seeds",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10454",
+      "newTargetID": "4243",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 5,
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    1146
+  ]
+}

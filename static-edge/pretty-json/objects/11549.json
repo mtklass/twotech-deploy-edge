@@ -1,0 +1,23 @@
+{
+  "id": "11549",
+  "name": "(outdated) Mine Shaft  - exhausted 3",
+  "transitionsToward": [
+    {
+      "targetID": "11548",
+      "newActorID": "2365",
+      "newTargetID": "11549",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "11548",
+      "nodes": null
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "8816",
+  "name": "Grass Floor -  +noHighlight",
+  "transitionsToward": [
+    {
+      "actorID": "8817",
+      "newActorID": "8816",
+      "newTargetID": "1458"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "1458",
+      "targetID": "8816",
+      "newTargetID": "8817"
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "sounds": [
+    601,
+    605,
+    607,
+    611
+  ],
+  "techTree": [
+    {
+      "id": "8817",
+      "nodes": [
+        {
+          "id": "1458",
+          "nodes": [
+            {
+              "decay": "3s"
+            },
+            {
+              "id": "1485",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8816",
+          "nodes": [
+            {
+              "id": "8817",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "4501",
+  "name": "Raw Flatbread on Flat Rock",
+  "transitionsToward": [
+    {
+      "actorID": "33",
+      "targetID": "1286",
+      "newActorID": "33",
+      "newTargetID": "4501",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "33",
+      "targetID": "4500",
+      "newActorID": "33",
+      "newTargetID": "4501",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4501",
+      "newActorID": "4476",
+      "newTargetID": "291",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.172",
+  "version": "20271",
+  "craftable": true,
+  "depth": 19,
+  "sounds": [
+    1207
+  ],
+  "techTree": [
+    {
+      "id": "33",
+      "nodes": null
+    },
+    {
+      "id": "1286",
+      "nodes": [
+        {
+          "id": "252",
+          "nodes": [
+            {
+              "id": "382",
+              "nodes": []
+            },
+            {
+              "id": "251",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "291",
+          "nodes": null
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "1286",
+          "depth": 1,
+          "actorID": "252",
+          "targetID": "291",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "4501",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "33",
+          "targetID": "1286",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "252",
+      "33",
+      "291"
+    ]
+  }
+}

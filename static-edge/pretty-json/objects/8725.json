@@ -1,0 +1,91 @@
+{
+  "id": "8725",
+  "name": "Filled Hole +noHighlight",
+  "transitionsToward": [
+    {
+      "targetID": "8716",
+      "newTargetID": "8725",
+      "decay": "5m"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8725",
+      "decay": "5m"
+    }
+  ],
+  "difficulty": "0.311",
+  "version": "20284",
+  "craftable": true,
+  "depth": 59,
+  "techTree": [
+    {
+      "decay": "5m"
+    },
+    {
+      "id": "8716",
+      "nodes": [
+        {
+          "id": "8717",
+          "nodes": [
+            {
+              "id": "11634",
+              "nodes": []
+            },
+            {
+              "id": "486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "486",
+          "depth": 3,
+          "actorID": "33",
+          "targetID": "107",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8717",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "11634",
+          "targetID": "486",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8716",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "8717",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8725",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "8716",
+          "decay": "5m"
+        }
+      ]
+    ],
+    "ingredients": [
+      "11634",
+      "107",
+      "33"
+    ]
+  }
+}

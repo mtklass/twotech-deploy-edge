@@ -1,0 +1,124 @@
+{
+  "id": "1129",
+  "name": "(outdated) Snake-Bit Riding Horse -  just died",
+  "transitionsToward": [
+    {
+      "actorID": "770",
+      "targetID": "764",
+      "newActorID": "1129",
+      "newTargetID": "1385",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6362",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6361",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6359",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6358",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6357",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6356",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6355",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6354",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6353",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6352",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "6351",
+      "newActorID": "151",
+      "newTargetID": "1129",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "1129",
+      "newTargetID": "1130",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "106",
+  "craftable": false,
+  "speedMult": 0,
+  "sounds": [
+    1122
+  ],
+  "techTree": [
+    {
+      "id": "770",
+      "nodes": [
+        {
+          "id": "1421",
+          "nodes": [
+            {
+              "id": "770",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "764",
+      "nodes": null
+    }
+  ]
+}

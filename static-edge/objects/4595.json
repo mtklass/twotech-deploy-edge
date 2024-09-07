@@ -1,0 +1,1 @@
+{"id":"4595","name":"(outdated) Domestic Hive  - 2B spawn","transitionsToward":[{"targetID":"4576","newTargetID":"4595","decay":"10m"}],"transitionsAway":[],"transitionsTimed":[],"version":"20271","craftable":false,"sounds":[509],"techTree":[{"decay":"10m"},{"id":"4576","nodes":[{"id":"4577","nodes":null}]}]}

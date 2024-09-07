@@ -1,0 +1,112 @@
+{
+  "id": "7284",
+  "name": "(outdated) Gold Key Blank with Lock $20",
+  "transitionsToward": [
+    {
+      "actorID": "7282",
+      "targetID": "7286",
+      "newTargetID": "7284",
+      "hand": true
+    },
+    {
+      "actorID": "458",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "7283",
+      "newActorID": "458",
+      "newTargetID": "7284",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "458",
+      "actorUses": "last",
+      "targetID": "7283",
+      "newActorID": "862",
+      "newTargetID": "7284",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7284",
+      "targetID": "115",
+      "newActorID": "7282",
+      "newTargetID": "7280",
+      "hand": true
+    },
+    {
+      "actorID": "7284",
+      "targetID": "116",
+      "newActorID": "7282",
+      "newTargetID": "7563",
+      "hand": true
+    },
+    {
+      "actorID": "458",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "7284",
+      "newActorID": "458",
+      "newTargetID": "7284",
+      "targetRemains": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "458",
+      "actorUses": "last",
+      "targetID": "7284",
+      "newActorID": "862",
+      "newTargetID": "7284",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "7282",
+      "nodes": [
+        {
+          "id": "7288",
+          "nodes": [
+            {
+              "id": "7287",
+              "nodes": []
+            },
+            {
+              "id": "7282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7286",
+      "nodes": [
+        {
+          "id": "7285",
+          "nodes": [
+            {
+              "id": "560",
+              "nodes": []
+            },
+            {
+              "id": "7281",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

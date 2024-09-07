@@ -1,0 +1,25 @@
+{
+  "id": "10682",
+  "name": "Shipwreck  - maine coon",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "10682",
+      "newActorID": "10670",
+      "newTargetID": "10733",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": true,
+  "depth": 0,
+  "mapChance": 0.0005,
+  "biomes": [
+    {
+      "id": "7",
+      "spawnChance": 0.0004883766360617311
+    }
+  ],
+  "blocksWalking": true
+}

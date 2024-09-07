@@ -1,0 +1,10 @@
+{
+  "id": "15068",
+  "name": "@ OLD Non-Empty Tray goes on Wall Shelves and Half Wall Shelves +contTrayOnWallShelf",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20315",
+  "craftable": false,
+  "minPickupAge": 3
+}

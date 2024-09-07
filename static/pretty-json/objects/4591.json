@@ -1,0 +1,42 @@
+{
+  "id": "4591",
+  "name": "Tent Door  - open blue",
+  "transitionsToward": [
+    {
+      "targetID": "4590",
+      "newTargetID": "4591",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4591",
+      "newTargetID": "4590",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "4590",
+      "nodes": [
+        {
+          "id": "4591",
+          "nodes": [
+            {
+              "id": "4590",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

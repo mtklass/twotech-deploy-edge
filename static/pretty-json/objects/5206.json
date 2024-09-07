@@ -1,0 +1,10 @@
+{
+  "id": "5206",
+  "name": "@ 2HOL Holstered",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

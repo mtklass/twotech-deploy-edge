@@ -1,0 +1,81 @@
+{
+  "id": "9085",
+  "name": "Shelter with Logs - light",
+  "transitionsToward": [
+    {
+      "actorID": "7392",
+      "targetID": "8966",
+      "newTargetUses": "last",
+      "newTargetID": "9085",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "9085",
+      "newTargetUses": "-1",
+      "newActorID": "7392",
+      "newTargetID": "9085",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "9085",
+      "targetUses": "last",
+      "newActorID": "7392",
+      "newTargetID": "8966",
+      "hand": true
+    },
+    {
+      "actorID": "7392",
+      "targetID": "9085",
+      "newTargetUses": "+1",
+      "newTargetID": "9085",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20288",
+  "numUses": 12,
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    496
+  ],
+  "techTree": [
+    {
+      "id": "7392",
+      "nodes": [
+        {
+          "id": "7405",
+          "nodes": [
+            {
+              "id": "7404",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8966",
+      "nodes": [
+        {
+          "id": "8964",
+          "nodes": [
+            {
+              "id": "344",
+              "nodes": []
+            },
+            {
+              "id": "8966",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

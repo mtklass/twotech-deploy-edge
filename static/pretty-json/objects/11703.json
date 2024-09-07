@@ -1,0 +1,51 @@
+{
+  "id": "11703",
+  "name": "(outdated) Unstable Mine Shaft",
+  "transitionsToward": [
+    {
+      "targetID": "11700",
+      "newTargetID": "11703",
+      "decay": "1s"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "11703",
+      "newTargetID": "11704",
+      "decay": "5m"
+    }
+  ],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    981
+  ],
+  "techTree": [
+    {
+      "decay": "1s"
+    },
+    {
+      "id": "11700",
+      "nodes": [
+        {
+          "decay": "5s"
+        },
+        {
+          "id": "11699",
+          "nodes": [
+            {
+              "id": "248",
+              "nodes": []
+            },
+            {
+              "id": "11696",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

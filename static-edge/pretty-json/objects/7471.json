@@ -1,0 +1,21 @@
+{
+  "id": "7471",
+  "name": "Gold Key with Chisel",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "7471",
+      "newActorID": "455",
+      "newTargetID": "7283",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 5,
+  "useChance": 0.04,
+  "craftable": false,
+  "sounds": [
+    455
+  ]
+}

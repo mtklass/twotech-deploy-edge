@@ -1,0 +1,295 @@
+{
+  "id": "12722",
+  "name": "Hunting Tabby Cat  - readyToPounce",
+  "transitionsToward": [
+    {
+      "actorID": "7735",
+      "targetID": "12710",
+      "newTargetID": "12722",
+      "hand": true
+    },
+    {
+      "actorID": "7977",
+      "targetID": "12710",
+      "newTargetID": "12722",
+      "hand": true
+    },
+    {
+      "actorID": "7744",
+      "targetID": "12710",
+      "newTargetID": "12722",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "12722",
+      "newTargetID": "12703",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.188",
+  "version": "20295",
+  "numUses": 8,
+  "craftable": true,
+  "depth": 23,
+  "speedMult": 0.5,
+  "techTree": [
+    {
+      "id": "7735",
+      "nodes": [
+        {
+          "id": "7733",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "7736",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12710",
+      "nodes": [
+        {
+          "decay": "3s"
+        },
+        {
+          "id": "10755",
+          "nodes": [
+            {
+              "id": "255",
+              "nodes": []
+            },
+            {
+              "id": "10690",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "164",
+          "depth": 10,
+          "targetID": "161",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "162",
+          "mainBranch": true,
+          "depth": 9,
+          "actorID": "160",
+          "targetID": "164",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "176",
+          "mainBranch": true,
+          "depth": 8,
+          "targetID": "162",
+          "decay": "35s"
+        }
+      ],
+      [
+        {
+          "id": "180",
+          "mainBranch": true,
+          "depth": 7,
+          "targetID": "176",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "182",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "8709",
+          "targetID": "180",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "181",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "182",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "254",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "181",
+          "targetID": "235",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "255",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "34",
+          "targetID": "254",
+          "hand": true
+        },
+        {
+          "id": "10690",
+          "depth": 3,
+          "subSteps": [
+            [
+              {
+                "id": "10693",
+                "depth": 4,
+                "targetID": "10732",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "10690",
+                "depth": 3,
+                "actorID": "10693",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "10755",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "255",
+          "targetID": "10690",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "12710",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "10755",
+          "weight": 0.9,
+          "decay": "3s"
+        },
+        {
+          "id": "7735",
+          "depth": 1,
+          "subSteps": [
+            [
+              {
+                "id": "336",
+                "depth": 7,
+                "actorID": "292",
+                "targetID": "211",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "1101",
+                "depth": 6,
+                "actorID": "336",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "213",
+                "depth": 5,
+                "actorID": "139",
+                "targetID": "1101",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "228",
+                "depth": 4,
+                "actorID": "223",
+                "targetID": "213",
+                "hand": true
+              },
+              {
+                "id": "382",
+                "depth": 4,
+                "actorID": "235",
+                "targetID": "141",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "229",
+                "depth": 3,
+                "actorID": "382",
+                "targetID": "228",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "7733",
+                "depth": 2,
+                "targetID": "229",
+                "decay": "961s"
+              }
+            ],
+            [
+              {
+                "id": "7735",
+                "depth": 1,
+                "targetID": "7733",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "12722",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "7735",
+          "targetID": "12710",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "235",
+      "8709",
+      "160",
+      "292",
+      "139",
+      "34",
+      "223",
+      "141",
+      "161",
+      "211",
+      "10732"
+    ]
+  }
+}

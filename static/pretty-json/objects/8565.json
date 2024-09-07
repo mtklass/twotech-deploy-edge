@@ -1,0 +1,22 @@
+{
+  "id": "8565",
+  "name": "Old Collie -  just fed",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8565",
+      "newTargetID": "1758",
+      "decay": "3s",
+      "move": 1
+    }
+  ],
+  "version": "20281",
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    842
+  ],
+  "moveType": 1,
+  "moveDistance": 4
+}

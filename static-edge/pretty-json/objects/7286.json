@@ -1,0 +1,79 @@
+{
+  "id": "7286",
+  "name": "(outdated) Lock $20  - gold",
+  "transitionsToward": [
+    {
+      "targetID": "7285",
+      "newActorID": "7286",
+      "newTargetID": "119",
+      "hand": true
+    },
+    {
+      "targetID": "7564",
+      "newActorID": "7286",
+      "newTargetID": "117",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7282",
+      "targetID": "7286",
+      "newTargetID": "7284",
+      "hand": true
+    },
+    {
+      "actorID": "7286",
+      "targetID": "119",
+      "newTargetID": "7281",
+      "hand": true
+    },
+    {
+      "actorID": "7286",
+      "targetID": "117",
+      "newTargetID": "7562",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "7285",
+      "nodes": [
+        {
+          "id": "560",
+          "nodes": [
+            {
+              "id": "559",
+              "nodes": []
+            },
+            {
+              "id": "69",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7281",
+          "nodes": [
+            {
+              "id": "7282",
+              "nodes": []
+            },
+            {
+              "id": "7280",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

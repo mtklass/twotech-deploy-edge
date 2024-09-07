@@ -1,0 +1,11 @@
+{
+  "id": "8028",
+  "name": "@ Paint Bucket",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20277",
+  "craftable": false,
+  "minPickupAge": 3,
+  "blocksWalking": true
+}

@@ -1,0 +1,87 @@
+{
+  "id": "8990",
+  "name": "Cooked Beaver",
+  "transitionsToward": [
+    {
+      "actorID": "8989",
+      "targetID": "85",
+      "newActorID": "8990",
+      "newTargetID": "85",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "8989",
+      "targetID": "13650",
+      "newActorID": "8990",
+      "newTargetID": "13650",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8990",
+      "newActorID": "852",
+      "newTargetID": "8991",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    270
+  ],
+  "techTree": [
+    {
+      "id": "8989",
+      "nodes": [
+        {
+          "id": "139",
+          "nodes": [
+            {
+              "id": "138",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "11528",
+          "nodes": [
+            {
+              "id": "10290",
+              "nodes": []
+            },
+            {
+              "id": "10290",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "nodes": [
+        {
+          "decay": "1m"
+        },
+        {
+          "id": "82",
+          "nodes": [
+            {
+              "id": "72",
+              "nodes": []
+            },
+            {
+              "id": "80",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

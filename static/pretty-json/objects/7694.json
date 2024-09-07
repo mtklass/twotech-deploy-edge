@@ -1,0 +1,46 @@
+{
+  "id": "7694",
+  "name": "(outdated) Glass Pane on Flat Rock",
+  "transitionsToward": [
+    {
+      "targetID": "7723",
+      "newActorID": "291",
+      "newTargetID": "7694",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "7694",
+      "newActorID": "7701",
+      "newTargetID": "291",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20273",
+  "craftable": false,
+  "techTree": [
+    {
+      "id": "7723",
+      "nodes": [
+        {
+          "decay": "10s"
+        },
+        {
+          "id": "7693",
+          "nodes": [
+            {
+              "id": "291",
+              "nodes": null
+            },
+            {
+              "id": "7692",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

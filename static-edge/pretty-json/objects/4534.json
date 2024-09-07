@@ -1,0 +1,67 @@
+{
+  "id": "4534",
+  "name": "Distillery  - full",
+  "transitionsToward": [
+    {
+      "targetID": "13284",
+      "newTargetID": "4534",
+      "decay": "5m"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4546",
+      "targetID": "4534",
+      "newTargetUses": "-1",
+      "newActorID": "4557",
+      "newTargetID": "4534",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4546",
+      "targetID": "4534",
+      "targetUses": "last",
+      "newActorID": "4557",
+      "newTargetID": "4533",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4534",
+      "newTargetID": "13424",
+      "decay": "1s"
+    }
+  ],
+  "version": "20271",
+  "numUses": 4,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    411
+  ],
+  "techTree": [
+    {
+      "decay": "5m"
+    },
+    {
+      "id": "13284",
+      "nodes": [
+        {
+          "id": "4527",
+          "nodes": [
+            {
+              "id": "248",
+              "nodes": []
+            },
+            {
+              "id": "4531",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

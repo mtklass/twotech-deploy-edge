@@ -1,0 +1,13 @@
+{
+  "id": "11849",
+  "name": "Bowl of Cake Mix",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    346
+  ]
+}

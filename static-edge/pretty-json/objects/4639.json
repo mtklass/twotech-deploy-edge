@@ -1,0 +1,57 @@
+{
+  "id": "4639",
+  "name": "Native Copper in Wooden Tongs",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "4639",
+      "targetID": "7472",
+      "newTargetUses": "+1",
+      "newActorID": "239",
+      "newTargetID": "7472",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4639",
+      "targetID": "304",
+      "newTargetUses": "-1",
+      "newActorID": "4642",
+      "newTargetID": "304",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4639",
+      "targetID": "13533",
+      "newActorID": "4642",
+      "newTargetID": "13533",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4639",
+      "targetID": "13557",
+      "newTargetUses": "-1",
+      "newActorID": "4642",
+      "newTargetID": "13557",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4639",
+      "targetID": "13554",
+      "newActorID": "4642",
+      "newTargetID": "13554",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    341
+  ]
+}

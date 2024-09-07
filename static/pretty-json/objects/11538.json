@@ -1,0 +1,165 @@
+{
+  "id": "11538",
+  "name": "(outdated) Stone Oven  - hot, pizza",
+  "transitionsToward": [
+    {
+      "targetID": "11539",
+      "newTargetID": "11538",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5217",
+      "targetID": "11538",
+      "newActorID": "5219",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "5218",
+      "targetID": "11538",
+      "newActorID": "5220",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10575",
+      "targetID": "11538",
+      "newActorID": "11509",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10576",
+      "targetID": "11538",
+      "newActorID": "11514",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10577",
+      "targetID": "11538",
+      "newActorID": "11513",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10578",
+      "targetID": "11538",
+      "newActorID": "11516",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10579",
+      "targetID": "11538",
+      "newActorID": "11515",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10569",
+      "targetID": "11538",
+      "newActorID": "11507",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10568",
+      "targetID": "11538",
+      "newActorID": "11506",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10570",
+      "targetID": "11538",
+      "newActorID": "11508",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10572",
+      "targetID": "11538",
+      "newActorID": "11501",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "10571",
+      "targetID": "11538",
+      "newActorID": "11502",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "11531",
+      "targetID": "11538",
+      "newActorID": "11532",
+      "newTargetID": "11538",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "11538",
+      "newTargetID": "11537",
+      "decay": "2m"
+    }
+  ],
+  "version": "20290",
+  "heatValue": 7,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "11539",
+      "nodes": [
+        {
+          "id": "10087",
+          "nodes": [
+            {
+              "id": "291",
+              "nodes": null
+            },
+            {
+              "id": "10081",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "10630",
+          "nodes": [
+            {
+              "id": "5294",
+              "nodes": []
+            },
+            {
+              "id": "10615",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

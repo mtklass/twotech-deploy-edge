@@ -1,0 +1,11 @@
+{
+  "id": "14664",
+  "name": "Test Object",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20311",
+  "craftable": false,
+  "minPickupAge": 3,
+  "speedMult": 1.5
+}

@@ -1,0 +1,37 @@
+{
+  "id": "4773",
+  "name": "(outdated) Camping Stove  - hot stew",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "235",
+      "targetID": "4773",
+      "newTargetUses": "-1",
+      "newActorID": "1251",
+      "newTargetID": "4773",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "4773",
+      "targetUses": "last",
+      "newActorID": "1251",
+      "newTargetID": "4774",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4773",
+      "newTargetID": "4776",
+      "decay": "5m"
+    }
+  ],
+  "version": "20271",
+  "numUses": 5,
+  "craftable": false,
+  "sounds": [
+    69
+  ]
+}

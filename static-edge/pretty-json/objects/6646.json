@@ -1,0 +1,14 @@
+{
+  "id": "6646",
+  "name": "Split Sandstone with Chisel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 5,
+  "useChance": 0.04,
+  "craftable": false,
+  "sounds": [
+    678
+  ]
+}

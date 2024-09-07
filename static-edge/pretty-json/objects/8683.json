@@ -1,0 +1,156 @@
+{
+  "id": "8683",
+  "name": "Silver Snake Crown",
+  "transitionsToward": [
+    {
+      "actorID": "441",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "7453",
+      "newActorID": "441",
+      "newTargetID": "8683",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "441",
+      "actorUses": "last",
+      "targetID": "7453",
+      "newActorID": "858",
+      "newTargetID": "8683",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "difficulty": "0.591",
+  "version": "20284",
+  "craftable": true,
+  "depth": 101,
+  "clothing": "h",
+  "insulation": 0.055,
+  "size": 1,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "441",
+      "nodes": [
+        {
+          "id": "443",
+          "nodes": [
+            {
+              "id": "442",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "69",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7453",
+      "nodes": [
+        {
+          "id": "7457",
+          "nodes": [
+            {
+              "id": "7456",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "7452",
+          "depth": 6,
+          "actorID": "684",
+          "targetID": "5339",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7450",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "235",
+          "targetID": "7452",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7454",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "239",
+          "targetID": "7450",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7456",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "7454",
+          "targetID": "304",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7457",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "7456",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7453",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "7457",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8683",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "441",
+          "targetID": "7453",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "684",
+      "441",
+      "304",
+      "235",
+      "239",
+      "5339"
+    ]
+  }
+}

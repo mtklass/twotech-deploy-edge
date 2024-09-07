@@ -1,0 +1,50 @@
+{
+  "id": "869",
+  "name": "Rag Shoe",
+  "transitionsToward": [
+    {
+      "targetID": "873",
+      "newTargetUses": "-1",
+      "newTargetID": "869",
+      "decay": "5h"
+    },
+    {
+      "targetID": "8942",
+      "newActorID": "869",
+      "newTargetID": "869",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "869",
+      "targetID": "869",
+      "newTargetID": "8942",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "869",
+      "decay": "30m"
+    }
+  ],
+  "version": "79",
+  "craftable": false,
+  "clothing": "s",
+  "insulation": 0.04000000000000001,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    286
+  ],
+  "techTree": [
+    {
+      "decay": "5h"
+    },
+    {
+      "id": "873",
+      "nodes": null
+    }
+  ]
+}

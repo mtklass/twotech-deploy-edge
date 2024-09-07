@@ -1,0 +1,21 @@
+{
+  "id": "10133",
+  "name": "(outdated) Small Cut Sandstone  - just dumped",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10133",
+      "newTargetID": "10131",
+      "decay": "1s"
+    }
+  ],
+  "version": "20289",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 14,
+  "speedMult": 0.5,
+  "sounds": [
+    45
+  ]
+}

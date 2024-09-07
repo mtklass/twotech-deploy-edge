@@ -1,0 +1,66 @@
+{
+  "id": "5166",
+  "name": "Scabbard  - templar",
+  "transitionsToward": [
+    {
+      "actorID": "5165",
+      "newActorID": "5168",
+      "newTargetID": "5166",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5168",
+      "targetID": "5166",
+      "newActorID": "5165",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "5166",
+      "newTargetID": "4818",
+      "decay": "2h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    45
+  ],
+  "techTree": [
+    {
+      "id": "5165",
+      "nodes": [
+        {
+          "id": "4809",
+          "nodes": [
+            {
+              "decay": "2h"
+            },
+            {
+              "id": "5165",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "5170",
+          "nodes": [
+            {
+              "id": "5175",
+              "nodes": []
+            },
+            {
+              "id": "896",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

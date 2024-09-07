@@ -1,0 +1,33 @@
+{
+  "id": "7968",
+  "name": "Open Pirate Chest",
+  "transitionsToward": [
+    {
+      "actorID": "7969",
+      "targetID": "7967",
+      "newTargetID": "7968",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20276",
+  "craftable": false,
+  "numSlots": 4,
+  "slotSize": 2,
+  "blocksWalking": true,
+  "sounds": [
+    1063,
+    496
+  ],
+  "techTree": [
+    {
+      "id": "7969",
+      "nodes": null
+    },
+    {
+      "id": "7967",
+      "nodes": null
+    }
+  ]
+}

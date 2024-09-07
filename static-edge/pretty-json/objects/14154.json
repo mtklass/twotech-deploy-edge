@@ -1,0 +1,161 @@
+{
+  "id": "14154",
+  "name": "Mosaic Floor -  groundOnly",
+  "transitionsToward": [
+    {
+      "actorID": "14159",
+      "actorUses": "max",
+      "targetID": "14152",
+      "newActorID": "292",
+      "newTargetID": "14154",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "difficulty": "0.573",
+  "version": "20305",
+  "craftable": true,
+  "depth": 99,
+  "insulation": 0.1,
+  "sounds": [
+    290
+  ],
+  "techTree": [
+    {
+      "id": "14159",
+      "nodes": [
+        {
+          "id": "1890",
+          "nodes": null
+        },
+        {
+          "id": "292",
+          "nodes": [
+            {
+              "id": "124",
+              "nodes": []
+            },
+            {
+              "id": "124",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14152",
+      "nodes": [
+        {
+          "id": "14159",
+          "nodes": [
+            {
+              "id": "1890",
+              "nodes": null
+            },
+            {
+              "id": "292",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "14151",
+          "nodes": [
+            {
+              "id": "13614",
+              "nodes": []
+            },
+            {
+              "id": "486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "13614",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "11634",
+          "targetID": "13602",
+          "hand": true
+        },
+        {
+          "id": "486",
+          "depth": 3,
+          "actorID": "33",
+          "targetID": "107",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14151",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "13614",
+          "targetID": "486",
+          "hand": true
+        },
+        {
+          "id": "14159",
+          "count": 2,
+          "uses": "x2",
+          "depth": 2,
+          "actorID": "1890",
+          "actorUses": "x6",
+          "targetID": "292",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14152",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "14159",
+          "actorUses": "max",
+          "targetID": "14151",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "14154",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "14159",
+          "actorUses": "max",
+          "targetID": "14152",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "13602",
+      "11634",
+      "292",
+      "107",
+      "33",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890",
+      "1890"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "6886",
+  "name": "Blowpipe With Cool Glass Tube",
+  "transitionsToward": [
+    {
+      "targetID": "6884",
+      "newTargetID": "6886",
+      "decay": "10s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "455",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "6886",
+      "newActorID": "455",
+      "newTargetID": "6888",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "455",
+      "actorUses": "last",
+      "targetID": "6886",
+      "newActorID": "862",
+      "newTargetID": "6888",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    1556
+  ],
+  "techTree": [
+    {
+      "decay": "10s"
+    },
+    {
+      "id": "6884",
+      "nodes": null
+    }
+  ]
+}

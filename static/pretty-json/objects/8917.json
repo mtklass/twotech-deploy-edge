@@ -1,0 +1,179 @@
+{
+  "id": "8917",
+  "name": "Stack of Small Marble Tiles with Chisel",
+  "transitionsToward": [
+    {
+      "actorID": "467",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "8916",
+      "newActorID": "467",
+      "newTargetID": "8917",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "467",
+      "actorUses": "last",
+      "targetID": "8916",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.04,
+      "newActorID": "863",
+      "newTargetID": "8917",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8917",
+      "newActorID": "455",
+      "newTargetID": "8907",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.619",
+  "version": "20286",
+  "numUses": 5,
+  "useChance": 0.04,
+  "craftable": true,
+  "depth": 101,
+  "sounds": [
+    1049,
+    1050,
+    1051,
+    1053,
+    1055
+  ],
+  "techTree": [
+    {
+      "id": "467",
+      "nodes": [
+        {
+          "id": "11638",
+          "nodes": [
+            {
+              "id": "11639",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "345",
+          "nodes": [
+            {
+              "id": "15125",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8916",
+      "nodes": [
+        {
+          "id": "455",
+          "nodes": [
+            {
+              "id": "451",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8908",
+          "nodes": [
+            {
+              "id": "8915",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "8910",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "684",
+          "targetID": "8904",
+          "weight": 0.5,
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8909",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "8910",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8914",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "455",
+          "targetID": "8909",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8915",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "467",
+          "targetID": "8914",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8908",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "8915",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8916",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "455",
+          "targetID": "8908",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8917",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "467",
+          "targetID": "8916",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "684",
+      "455",
+      "8904",
+      "467"
+    ]
+  }
+}

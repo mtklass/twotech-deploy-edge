@@ -1,0 +1,10 @@
+{
+  "id": "10419",
+  "name": "@ Bottles - from crocks",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "minPickupAge": 3
+}

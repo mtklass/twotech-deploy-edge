@@ -1,0 +1,131 @@
+{
+  "id": "14492",
+  "name": "Cow Mammoth  - wild sterile",
+  "transitionsToward": [
+    {
+      "targetID": "14493",
+      "targetUses": "last",
+      "newTargetID": "14492",
+      "decay": "6s",
+      "move": 2
+    },
+    {
+      "targetID": "4666",
+      "targetUses": "last",
+      "newTargetID": "14492",
+      "decay": "6s",
+      "move": 2
+    },
+    {
+      "targetID": "4836",
+      "targetUses": "last",
+      "newTargetID": "14492",
+      "decay": "3s",
+      "move": 3
+    },
+    {
+      "actorID": "14493",
+      "actorUses": "last",
+      "newActorID": "5307",
+      "newTargetID": "14492"
+    },
+    {
+      "actorID": "14493",
+      "newActorID": "5307",
+      "newTargetID": "14492"
+    },
+    {
+      "actorID": "4666",
+      "actorUses": "last",
+      "newActorID": "5308",
+      "newTargetID": "14492"
+    },
+    {
+      "actorID": "4666",
+      "newActorID": "5308",
+      "newTargetID": "14492"
+    },
+    {
+      "actorID": "4821",
+      "newActorID": "5265",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4750",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4749",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4748",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4747",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "5164",
+      "targetID": "4746",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "14492",
+      "newTargetID": "14492",
+      "targetRemains": true,
+      "decay": "3s",
+      "move": 1
+    }
+  ],
+  "version": "20308",
+  "craftable": false,
+  "speedMult": 1.25,
+  "moveType": 1,
+  "moveDistance": 3,
+  "techTree": [
+    {
+      "decay": "6s"
+    },
+    {
+      "id": "14493",
+      "nodes": [
+        {
+          "decay": "6s"
+        },
+        {
+          "id": "4829",
+          "nodes": [
+            {
+              "id": "4668",
+              "nodes": []
+            },
+            {
+              "id": "4671",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

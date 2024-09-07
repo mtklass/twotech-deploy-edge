@@ -1,0 +1,1 @@
+{"id":"11702","name":"(outdated) Unstable Mine Shaft  - 2","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"11702","newTargetID":"11705","decay":"5m"}],"version":"20290","craftable":false,"blocksWalking":true,"sounds":[981]}

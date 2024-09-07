@@ -1,0 +1,56 @@
+{
+  "id": "14320",
+  "name": "Horse-Drawn Cart with Tires  - black, riding, feather hat",
+  "transitionsToward": [
+    {
+      "targetID": "14319",
+      "newActorID": "14320",
+      "hand": true
+    },
+    {
+      "targetID": "14321",
+      "newActorID": "14320",
+      "newTargetID": "550",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "14320",
+      "newTargetID": "14319",
+      "hand": true
+    },
+    {
+      "actorID": "14320",
+      "targetID": "550",
+      "newTargetID": "14321",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20306",
+  "craftable": false,
+  "numSlots": 6,
+  "slotSize": 2,
+  "speedMult": 2,
+  "sounds": [
+    1019,
+    496
+  ],
+  "techTree": [
+    {
+      "id": "14319",
+      "nodes": [
+        {
+          "id": "14320",
+          "nodes": [
+            {
+              "id": "14319",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

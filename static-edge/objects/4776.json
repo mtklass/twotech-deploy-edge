@@ -1,0 +1,1 @@
+{"id":"4776","name":"(outdated) Camping Stove  - cold stew ashes","transitionsToward":[{"targetID":"4773","newTargetID":"4776","decay":"5m"}],"transitionsAway":[{"actorID":"235","targetID":"4776","newActorID":"1251","newTargetID":"4774","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"sounds":[113],"techTree":[{"decay":"5m"},{"id":"4773","nodes":null}]}

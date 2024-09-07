@@ -1,0 +1,21 @@
+{
+  "id": "10424",
+  "name": "(outdated) Bottle of Cream  - stopper",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10424",
+      "newTargetID": "3673",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 4,
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    6
+  ]
+}

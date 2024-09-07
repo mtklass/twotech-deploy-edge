@@ -1,0 +1,76 @@
+{
+  "id": "6414",
+  "name": "Clothing Wheel - in progress",
+  "transitionsToward": [
+    {
+      "actorID": "6412",
+      "targetID": "475",
+      "newTargetUses": "last",
+      "newTargetID": "6414",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "6412",
+      "targetID": "6414",
+      "newTargetUses": "+1",
+      "newTargetID": "6414",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "6414",
+      "targetUses": "max",
+      "newTargetID": "6415",
+      "decay": "1s"
+    }
+  ],
+  "version": "20271",
+  "numUses": 4,
+  "craftable": false,
+  "minPickupAge": 3,
+  "speedMult": 0.5,
+  "sounds": [
+    69
+  ],
+  "techTree": [
+    {
+      "id": "6412",
+      "nodes": null
+    },
+    {
+      "id": "475",
+      "nodes": [
+        {
+          "id": "474",
+          "nodes": [
+            {
+              "id": "134",
+              "nodes": []
+            },
+            {
+              "id": "74",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "472",
+          "nodes": [
+            {
+              "id": "11643",
+              "nodes": []
+            },
+            {
+              "id": "345",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

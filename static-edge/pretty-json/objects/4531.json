@@ -1,0 +1,88 @@
+{
+  "id": "4531",
+  "name": "Distillery with Mash  - firewood2",
+  "transitionsToward": [
+    {
+      "actorID": "344",
+      "targetID": "4530",
+      "newTargetID": "4531",
+      "hand": true
+    },
+    {
+      "actorID": "7393",
+      "targetID": "4530",
+      "newTargetID": "4531",
+      "hand": true
+    },
+    {
+      "actorID": "7394",
+      "targetID": "4530",
+      "newTargetID": "4531",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "248",
+      "targetID": "4531",
+      "newActorID": "248",
+      "newTargetID": "4527",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    411
+  ],
+  "techTree": [
+    {
+      "id": "344",
+      "nodes": [
+        {
+          "id": "340",
+          "nodes": [
+            {
+              "id": "8712",
+              "nodes": []
+            },
+            {
+              "id": "100",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4530",
+      "nodes": [
+        {
+          "id": "344",
+          "nodes": [
+            {
+              "id": "340",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4532",
+          "nodes": [
+            {
+              "id": "382",
+              "nodes": []
+            },
+            {
+              "id": "4635",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

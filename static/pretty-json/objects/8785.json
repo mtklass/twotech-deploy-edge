@@ -1,0 +1,10 @@
+{
+  "id": "8785",
+  "name": "Perhaps a mole",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20285",
+  "craftable": false,
+  "minPickupAge": 3
+}

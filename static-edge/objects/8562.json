@@ -1,0 +1,1 @@
+{"id":"8562","name":"Old Beagle -  just fed","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"8562","newTargetID":"1752","decay":"3s","move":1}],"version":"20281","craftable":false,"speedMult":0.5,"sounds":[842],"moveType":1,"moveDistance":4}

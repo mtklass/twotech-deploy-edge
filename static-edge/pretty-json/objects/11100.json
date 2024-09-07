@@ -1,0 +1,10 @@
+{
+  "id": "11100",
+  "name": "@ Any Log Stack",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "minPickupAge": 3
+}

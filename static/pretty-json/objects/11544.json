@@ -1,0 +1,20 @@
+{
+  "id": "11544",
+  "name": "(outdated) Mining Pit  - precious",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "666",
+      "targetID": "11544",
+      "newTargetID": "11546",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    1074
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "10624",
+  "name": "Copper Coil in Wooden Tongs",
+  "transitionsToward": [
+    {
+      "targetID": "10622",
+      "newTargetID": "10624",
+      "decay": "10s"
+    },
+    {
+      "actorID": "239",
+      "targetID": "10612",
+      "newActorID": "10624",
+      "hand": true
+    },
+    {
+      "actorID": "239",
+      "targetID": "10614",
+      "newActorID": "10624",
+      "newTargetID": "10612",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "10624",
+      "newActorID": "239",
+      "newTargetID": "10612",
+      "hand": true
+    },
+    {
+      "actorID": "10624",
+      "targetID": "10612",
+      "newActorID": "239",
+      "newTargetID": "10614",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    341
+  ],
+  "techTree": [
+    {
+      "decay": "10s"
+    },
+    {
+      "id": "10622",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "10623",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

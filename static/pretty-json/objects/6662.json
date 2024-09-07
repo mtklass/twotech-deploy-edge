@@ -1,0 +1,68 @@
+{
+  "id": "6662",
+  "name": "Empty Cheroot Box",
+  "transitionsToward": [
+    {
+      "targetID": "6660",
+      "targetUses": "last",
+      "newActorID": "4720",
+      "newTargetID": "6662",
+      "hand": true
+    },
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "5291",
+      "newActorID": "560",
+      "newTargetID": "6662",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "5291",
+      "newActorID": "11907",
+      "newTargetID": "6662",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4720",
+      "targetID": "6662",
+      "newTargetUses": "last",
+      "newTargetID": "6660",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    65
+  ],
+  "techTree": [
+    {
+      "id": "6660",
+      "nodes": [
+        {
+          "id": "6661",
+          "nodes": [
+            {
+              "id": "4720",
+              "nodes": []
+            },
+            {
+              "id": "6660",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

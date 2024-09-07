@@ -1,0 +1,10 @@
+{
+  "id": "7484",
+  "name": "@ Full Crate of Goods",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

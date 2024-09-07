@@ -1,0 +1,84 @@
+{
+  "id": "5273",
+  "name": "Bowl of Veggie Stew",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "5278",
+      "newTargetUses": "-1",
+      "newActorID": "5273",
+      "newTargetID": "5278",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "5278",
+      "targetUses": "last",
+      "newActorID": "5273",
+      "newTargetID": "4774",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "5279",
+      "newActorID": "5273",
+      "newTargetID": "4774",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5273",
+      "newActorUses": "-1",
+      "newActorID": "5273",
+      "targetPlayer": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "5273",
+      "actorUses": "last",
+      "newActorID": "235",
+      "targetPlayer": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "foodValue": [
+    6,
+    0
+  ],
+  "numUses": 2,
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    149,
+    661
+  ],
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5278",
+      "nodes": null
+    }
+  ]
+}

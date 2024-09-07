@@ -1,0 +1,65 @@
+{
+  "id": "10733",
+  "name": "Shipwreck  - taken",
+  "transitionsToward": [
+    {
+      "targetID": "10682",
+      "newActorID": "10670",
+      "newTargetID": "10733",
+      "hand": true
+    },
+    {
+      "targetID": "10730",
+      "newActorID": "10687",
+      "newTargetID": "10733",
+      "hand": true
+    },
+    {
+      "targetID": "10732",
+      "newActorID": "10693",
+      "newTargetID": "10733",
+      "hand": true
+    },
+    {
+      "targetID": "10984",
+      "newActorID": "10658",
+      "newTargetID": "10733",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10733",
+      "newTargetID": "10680",
+      "decay": "2m"
+    }
+  ],
+  "difficulty": "0.0124",
+  "version": "20290",
+  "craftable": true,
+  "depth": 1,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "10682",
+      "nodes": null
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "10733",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "10682",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "10682"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "8992",
+  "name": "Beaver on Tanning Rack",
+  "transitionsToward": [
+    {
+      "actorID": "8998",
+      "targetID": "7086",
+      "newTargetID": "8992",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8992",
+      "newTargetID": "8994",
+      "decay": "5m"
+    }
+  ],
+  "version": "20286",
+  "craftable": false,
+  "sounds": [
+    870
+  ],
+  "techTree": [
+    {
+      "id": "8998",
+      "nodes": [
+        {
+          "id": "8987",
+          "nodes": [
+            {
+              "id": "8709",
+              "nodes": []
+            },
+            {
+              "id": "8985",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7086",
+      "nodes": [
+        {
+          "id": "59",
+          "nodes": [
+            {
+              "id": "58",
+              "nodes": []
+            },
+            {
+              "id": "58",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7090",
+          "nodes": [
+            {
+              "id": "7089",
+              "nodes": []
+            },
+            {
+              "id": "7089",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

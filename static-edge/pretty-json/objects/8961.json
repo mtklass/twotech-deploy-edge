@@ -1,0 +1,67 @@
+{
+  "id": "8961",
+  "name": "Beaver -  groundOnly",
+  "transitionsToward": [
+    {
+      "targetID": "8960",
+      "newTargetID": "8961",
+      "decay": "2s",
+      "move": 3
+    },
+    {
+      "actorID": "8960",
+      "newActorID": "8962",
+      "newTargetID": "8961"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8961",
+      "newActorID": "6438",
+      "newTargetID": "8961"
+    },
+    {
+      "actorID": "8961",
+      "targetID": "6438",
+      "newTargetID": "8961"
+    },
+    {
+      "actorID": "8961",
+      "targetID": "8962",
+      "newTargetID": "8959"
+    },
+    {
+      "actorID": "8961",
+      "targetID": "8963",
+      "newTargetID": "8959"
+    },
+    {
+      "actorID": "8961",
+      "targetID": "8996",
+      "newTargetID": "8981"
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "8961",
+      "newTargetID": "8961",
+      "targetRemains": true,
+      "decay": "5s",
+      "move": 3
+    }
+  ],
+  "version": "20286",
+  "craftable": true,
+  "depth": 0,
+  "mapChance": 0.001,
+  "biomes": [
+    {
+      "id": "7",
+      "spawnChance": 0.0009767532721234621
+    }
+  ],
+  "speedMult": 0.4,
+  "blocksWalking": true,
+  "moveType": 3,
+  "moveDistance": 2
+}

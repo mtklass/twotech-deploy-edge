@@ -1,0 +1,74 @@
+{
+  "id": "4458",
+  "name": "Caravan Dromedary  - leading",
+  "transitionsToward": [
+    {
+      "actorID": "4448",
+      "targetID": "4459",
+      "newActorID": "4458",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4458",
+      "newActorID": "4448",
+      "newTargetID": "4459",
+      "hand": true
+    },
+    {
+      "actorID": "4458",
+      "targetID": "550",
+      "newActorID": "4448",
+      "newTargetID": "4489",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "numSlots": 4,
+  "slotSize": 3,
+  "minPickupAge": 13,
+  "speedMult": 0.75,
+  "sounds": [
+    795
+  ],
+  "techTree": [
+    {
+      "id": "4448",
+      "nodes": [
+        {
+          "id": "4421",
+          "nodes": [
+            {
+              "decay": "1h"
+            },
+            {
+              "id": "4427",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4459",
+      "nodes": [
+        {
+          "id": "4458",
+          "nodes": [
+            {
+              "id": "4448",
+              "nodes": []
+            },
+            {
+              "id": "4459",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

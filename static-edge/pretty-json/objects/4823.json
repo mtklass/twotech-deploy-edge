@@ -1,0 +1,20 @@
+{
+  "id": "4823",
+  "name": "Bucket of Grape Juice",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "4823",
+      "newTargetID": "4824",
+      "decay": "1m"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    356
+  ]
+}

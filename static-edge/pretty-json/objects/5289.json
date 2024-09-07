@@ -1,0 +1,53 @@
+{
+  "id": "5289",
+  "name": "Cool Blank and Copper Plate - flat rock",
+  "transitionsToward": [
+    {
+      "targetID": "5287",
+      "newTargetID": "5289",
+      "decay": "5s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "239",
+      "targetID": "5289",
+      "newActorID": "5285",
+      "newTargetID": "291",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    407
+  ],
+  "techTree": [
+    {
+      "decay": "5s"
+    },
+    {
+      "id": "5287",
+      "nodes": [
+        {
+          "id": "5286",
+          "nodes": [
+            {
+              "id": "5285",
+              "nodes": []
+            },
+            {
+              "id": "304",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "291",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

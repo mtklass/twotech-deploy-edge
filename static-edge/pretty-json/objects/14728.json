@@ -1,0 +1,17 @@
+{
+  "id": "14728",
+  "name": "Light Blue Linen Skirt",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20312",
+  "craftable": false,
+  "clothing": "b",
+  "insulation": 0.06,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    941,
+    286
+  ]
+}

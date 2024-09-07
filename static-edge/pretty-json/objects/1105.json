@@ -1,0 +1,10 @@
+{
+  "id": "1105",
+  "name": "@ Non Vigorous Gooseberry",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "103",
+  "craftable": false,
+  "minPickupAge": 3
+}

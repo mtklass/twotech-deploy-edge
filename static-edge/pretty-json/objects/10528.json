@@ -1,0 +1,20 @@
+{
+  "id": "10528",
+  "name": "(outdated) Full Bowl of Ground Pepper -  just ground",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10528",
+      "newTargetID": "4317",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    346
+  ]
+}

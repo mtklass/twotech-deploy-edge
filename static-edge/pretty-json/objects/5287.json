@@ -1,0 +1,62 @@
+{
+  "id": "5287",
+  "name": "Hot Blank and Copper Plate - flat rock",
+  "transitionsToward": [
+    {
+      "actorID": "5286",
+      "targetID": "291",
+      "newActorID": "239",
+      "newTargetID": "5287",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "5287",
+      "newTargetID": "5289",
+      "decay": "5s"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    407
+  ],
+  "techTree": [
+    {
+      "id": "5286",
+      "nodes": [
+        {
+          "id": "5285",
+          "nodes": [
+            {
+              "decay": "5s"
+            },
+            {
+              "id": "5286",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "304",
+          "nodes": [
+            {
+              "id": "248",
+              "nodes": []
+            },
+            {
+              "id": "305",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "291",
+      "nodes": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "6425",
+  "name": "@ Mining Loot (outdated)",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

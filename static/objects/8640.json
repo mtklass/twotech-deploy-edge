@@ -1,0 +1,1 @@
+{"id":"8640","name":"Ancient Stone Wall - llamaflag","transitionsToward":[{"targetID":"6455","newTargetID":"8640","decay":"10h"}],"transitionsAway":[],"transitionsTimed":[],"version":"20282","craftable":false,"insulation":0.9,"blocksWalking":true,"sounds":[746],"techTree":[{"decay":"10h"},{"id":"6455","nodes":[{"decay":"1s"},{"id":"6624","nodes":[{"id":"6455","nodes":[]}]}]}]}

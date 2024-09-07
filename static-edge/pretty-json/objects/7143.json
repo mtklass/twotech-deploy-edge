@@ -1,0 +1,105 @@
+{
+  "id": "7143",
+  "name": "(outdated) Pig in Hitched Cargo Wagon",
+  "transitionsToward": [
+    {
+      "actorID": "6910",
+      "targetID": "7114",
+      "newActorID": "59",
+      "newTargetID": "7143",
+      "hand": true
+    },
+    {
+      "actorID": "7142",
+      "targetID": "550",
+      "newTargetID": "7143",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "7143",
+      "newActorID": "7142",
+      "newTargetID": "550",
+      "hand": true
+    },
+    {
+      "actorID": "59",
+      "targetID": "7143",
+      "newActorID": "6910",
+      "newTargetID": "7114",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    1004,
+    496
+  ],
+  "techTree": [
+    {
+      "id": "6910",
+      "nodes": [
+        {
+          "id": "59",
+          "nodes": [
+            {
+              "id": "58",
+              "nodes": []
+            },
+            {
+              "id": "58",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "1325",
+          "nodes": [
+            {
+              "decay": "3s"
+            },
+            {
+              "id": "1351",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7114",
+      "nodes": [
+        {
+          "id": "59",
+          "nodes": [
+            {
+              "id": "58",
+              "nodes": []
+            },
+            {
+              "id": "58",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7116",
+          "nodes": [
+            {
+              "id": "6911",
+              "nodes": []
+            },
+            {
+              "id": "7114",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

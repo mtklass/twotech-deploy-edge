@@ -1,0 +1,2038 @@
+{
+  "id": "217",
+  "name": "Wet Planted Gooseberry Seed - fertile",
+  "transitionsToward": [
+    {
+      "actorID": "382",
+      "targetID": "216",
+      "newActorID": "235",
+      "newTargetID": "217",
+      "hand": true
+    },
+    {
+      "actorID": "210",
+      "targetID": "216",
+      "newActorID": "209",
+      "newTargetID": "217",
+      "hand": true
+    },
+    {
+      "actorID": "7029",
+      "targetID": "216",
+      "newActorID": "7013",
+      "newTargetID": "217",
+      "hand": true
+    },
+    {
+      "actorID": "7013",
+      "newActorUses": "-1",
+      "targetID": "216",
+      "newActorID": "7013",
+      "newTargetID": "217",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7013",
+      "actorUses": "last",
+      "targetID": "216",
+      "newActorID": "7014",
+      "newTargetID": "217",
+      "hand": true
+    },
+    {
+      "actorID": "12445",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "1109",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "396",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "10455",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "8837",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "1161",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "214",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "1192",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "1207",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "6408",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "216",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "2839",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "10436",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "2851",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "3228",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "2829",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12445",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12629",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12630",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14269",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14270",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14271",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12437",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12627",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "12628",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14253",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14254",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14255",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14259",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14260",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14261",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14264",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14265",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    },
+    {
+      "actorID": "14266",
+      "targetID": "4711",
+      "newTargetID": "217",
+      "newTargetWeight": 0.5
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "217",
+      "newTargetID": "219",
+      "decay": "2m"
+    }
+  ],
+  "difficulty": "0.143",
+  "version": "20",
+  "craftable": true,
+  "depth": 16,
+  "sounds": [
+    321
+  ],
+  "techTree": [
+    {
+      "id": "382",
+      "nodes": [
+        {
+          "id": "235",
+          "nodes": [
+            {
+              "id": "283",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "141",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "nodes": [
+        {
+          "id": "35",
+          "nodes": [
+            {
+              "id": "8709",
+              "nodes": []
+            },
+            {
+              "id": "31",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "213",
+          "nodes": [
+            {
+              "id": "139",
+              "nodes": []
+            },
+            {
+              "id": "1101",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "336",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "292",
+          "targetID": "211",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1101",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "336",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "213",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "139",
+          "targetID": "1101",
+          "hand": true
+        },
+        {
+          "id": "35",
+          "depth": 2,
+          "subSteps": [
+            [
+              {
+                "id": "31",
+                "depth": 3,
+                "targetID": "30",
+                "hand": true
+              }
+            ],
+            [
+              {
+                "id": "35",
+                "depth": 2,
+                "actorID": "8709",
+                "targetID": "31",
+                "hand": true
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "id": "216",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "35",
+          "targetID": "213",
+          "hand": true
+        },
+        {
+          "id": "382",
+          "depth": 1,
+          "actorID": "235",
+          "targetID": "141",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "217",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "382",
+          "targetID": "216",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "235",
+      "8709",
+      "292",
+      "139",
+      "141",
+      "30",
+      "211"
+    ]
+  }
+}

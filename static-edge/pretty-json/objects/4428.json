@@ -1,0 +1,50 @@
+{
+  "id": "4428",
+  "name": "Blessed Shrine  - A with cocoon",
+  "transitionsToward": [
+    {
+      "targetID": "4420",
+      "newTargetID": "4428",
+      "decay": "1h"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4428",
+      "newActorID": "4447",
+      "newTargetID": "4422",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "decay": "1h"
+    },
+    {
+      "id": "4420",
+      "nodes": [
+        {
+          "decay": "1h"
+        },
+        {
+          "id": "4419",
+          "nodes": [
+            {
+              "decay": "1h"
+            },
+            {
+              "id": "4418",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

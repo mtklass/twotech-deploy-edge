@@ -1,0 +1,34 @@
+{
+  "id": "8457",
+  "name": "Ancient Stone Wall with Boards",
+  "transitionsToward": [
+    {
+      "targetID": "8458",
+      "newActorID": "470",
+      "newTargetID": "8457",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8457",
+      "newActorID": "470",
+      "newTargetID": "895",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20280",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    509
+  ],
+  "techTree": [
+    {
+      "id": "8458",
+      "nodes": null
+    }
+  ]
+}

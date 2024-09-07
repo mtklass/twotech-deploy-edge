@@ -1,0 +1,100 @@
+{
+  "id": "12142",
+  "name": "Beaver Leather Hat",
+  "transitionsToward": [
+    {
+      "actorID": "192",
+      "targetID": "12179",
+      "targetUses": "max",
+      "newActorID": "191",
+      "newTargetID": "12142",
+      "hand": true
+    },
+    {
+      "actorID": "1126",
+      "newActorUses": "-1",
+      "targetID": "12179",
+      "targetUses": "max",
+      "newActorID": "1126",
+      "newTargetID": "12142",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "1126",
+      "actorUses": "last",
+      "targetID": "12179",
+      "newActorID": "192",
+      "newTargetID": "12142",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20294",
+  "craftable": false,
+  "clothing": "h",
+  "insulation": 0.045,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    153,
+    286
+  ],
+  "techTree": [
+    {
+      "id": "192",
+      "nodes": [
+        {
+          "id": "191",
+          "nodes": [
+            {
+              "id": "8709",
+              "nodes": []
+            },
+            {
+              "id": "189",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "58",
+          "nodes": [
+            {
+              "id": "57",
+              "nodes": []
+            },
+            {
+              "id": "57",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12179",
+      "nodes": [
+        {
+          "id": "8995",
+          "nodes": [
+            {
+              "id": "12179",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8995",
+          "nodes": [
+            {
+              "id": "12179",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

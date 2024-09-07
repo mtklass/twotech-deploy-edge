@@ -1,0 +1,10 @@
+{
+  "id": "15065",
+  "name": "@ Tall Food Dishes +contTable +contWallShelf +contHalfWallShelf +contTray +contEmptyTray +contSwitchingTable",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20315",
+  "craftable": false,
+  "minPickupAge": 3
+}

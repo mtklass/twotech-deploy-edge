@@ -1,0 +1,295 @@
+{
+  "id": "7716",
+  "name": "Bowl of Raw Sugar  - just scooped",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "7710",
+      "newActorID": "7716",
+      "newTargetID": "7573",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7711",
+      "newActorID": "7716",
+      "newTargetID": "7710",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7712",
+      "newActorID": "7716",
+      "newTargetID": "7711",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7713",
+      "newActorID": "7716",
+      "newTargetID": "7712",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7714",
+      "newActorID": "7716",
+      "newTargetID": "7713",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7716",
+      "targetID": "7573",
+      "newActorID": "235",
+      "newTargetID": "7710",
+      "hand": true
+    },
+    {
+      "actorID": "7716",
+      "targetID": "7710",
+      "newActorID": "235",
+      "newTargetID": "7711",
+      "hand": true
+    },
+    {
+      "actorID": "7716",
+      "targetID": "7711",
+      "newActorID": "235",
+      "newTargetID": "7712",
+      "hand": true
+    },
+    {
+      "actorID": "7716",
+      "targetID": "7712",
+      "newActorID": "235",
+      "newTargetID": "7713",
+      "hand": true
+    },
+    {
+      "actorID": "7716",
+      "targetID": "7713",
+      "newActorID": "235",
+      "newTargetID": "7714",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "7716",
+      "newTargetID": "2783",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.546",
+  "version": "20273",
+  "craftable": true,
+  "depth": 74,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    342
+  ],
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7710",
+      "nodes": [
+        {
+          "id": "2783",
+          "nodes": [
+            {
+              "id": "2785",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7573",
+          "nodes": [
+            {
+              "id": "59",
+              "nodes": []
+            },
+            {
+              "id": "14486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "2767",
+          "depth": 13,
+          "targetID": "2766",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2768",
+          "mainBranch": true,
+          "depth": 12,
+          "actorID": "8712",
+          "targetID": "2767",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2773",
+          "mainBranch": true,
+          "depth": 11,
+          "actorID": "235",
+          "targetID": "2768",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2774",
+          "mainBranch": true,
+          "depth": 10,
+          "actorID": "33",
+          "targetID": "2773",
+          "hand": true
+        },
+        {
+          "id": "382",
+          "depth": 10,
+          "actorID": "235",
+          "targetID": "141",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2775",
+          "mainBranch": true,
+          "depth": 9,
+          "actorID": "382",
+          "targetID": "2774",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2776",
+          "mainBranch": true,
+          "depth": 8,
+          "actorID": "2775",
+          "targetID": "85",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2778",
+          "mainBranch": true,
+          "depth": 7,
+          "targetID": "2776",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "2777",
+          "mainBranch": true,
+          "depth": 6,
+          "targetID": "2778",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2780",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "2777",
+          "targetID": "235",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2781",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "2780",
+          "targetID": "85",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "2785",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "2781",
+          "decay": "10s"
+        }
+      ],
+      [
+        {
+          "id": "2783",
+          "mainBranch": true,
+          "depth": 2,
+          "targetID": "2785",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7710",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "2783",
+          "targetID": "7573",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7716",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "235",
+          "targetID": "7710",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "7573",
+      "8712",
+      "235",
+      "85",
+      "2766",
+      "141",
+      "33"
+    ]
+  }
+}

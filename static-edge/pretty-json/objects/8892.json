@@ -1,0 +1,119 @@
+{
+  "id": "8892",
+  "name": "Brook with Cattail - cut",
+  "transitionsToward": [
+    {
+      "actorID": "34",
+      "targetID": "8888",
+      "newActorID": "34",
+      "newTargetID": "8892",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "8709",
+      "newActorUses": "-1",
+      "newActorWeight": 0.08,
+      "targetID": "8888",
+      "newActorID": "8709",
+      "newTargetID": "8892",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "8709",
+      "actorUses": "last",
+      "targetID": "8888",
+      "newActorID": "12012",
+      "newTargetID": "8892",
+      "hand": true
+    },
+    {
+      "actorID": "11671",
+      "newActorUses": "-1",
+      "newActorWeight": 0.08,
+      "targetID": "8888",
+      "newActorID": "11671",
+      "newTargetID": "8892",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "11671",
+      "actorUses": "last",
+      "targetID": "8888",
+      "newActorID": "11560",
+      "newTargetID": "8892",
+      "hand": true
+    },
+    {
+      "actorID": "560",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "8888",
+      "newActorID": "560",
+      "newTargetID": "8892",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "560",
+      "actorUses": "last",
+      "targetID": "8888",
+      "newActorID": "11907",
+      "newTargetID": "8892",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8892",
+      "newActorID": "13270",
+      "newTargetID": "8896",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "sounds": [
+    74
+  ],
+  "techTree": [
+    {
+      "id": "34",
+      "nodes": [
+        {
+          "id": "33",
+          "nodes": null
+        },
+        {
+          "id": "32",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "8888",
+      "nodes": [
+        {
+          "id": "336",
+          "nodes": [
+            {
+              "id": "292",
+              "nodes": []
+            },
+            {
+              "id": "211",
+              "nodes": null
+            }
+          ]
+        },
+        {
+          "id": "8885",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

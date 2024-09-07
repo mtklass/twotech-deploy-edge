@@ -1,0 +1,71 @@
+{
+  "id": "13068",
+  "name": "(outdated) Table Tree Pit With Basket - +useOnContained",
+  "transitionsToward": [
+    {
+      "actorID": "336",
+      "targetID": "13067",
+      "newActorID": "1101",
+      "newTargetID": "13068",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "13068",
+      "newActorID": "13071",
+      "newTargetID": "13067",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20299",
+  "craftable": false,
+  "numSlots": 1,
+  "slotSize": 0,
+  "sounds": [
+    290
+  ],
+  "techTree": [
+    {
+      "id": "336",
+      "nodes": [
+        {
+          "id": "292",
+          "nodes": [
+            {
+              "id": "124",
+              "nodes": []
+            },
+            {
+              "id": "124",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "211",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "13067",
+      "nodes": [
+        {
+          "id": "13068",
+          "nodes": [
+            {
+              "id": "336",
+              "nodes": []
+            },
+            {
+              "id": "13067",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

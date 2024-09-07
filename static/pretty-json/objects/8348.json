@@ -1,0 +1,10 @@
+{
+  "id": "8348",
+  "name": "@ Floor Interaction Item",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20279",
+  "craftable": false,
+  "minPickupAge": 3
+}

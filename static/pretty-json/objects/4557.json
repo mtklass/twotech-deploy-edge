@@ -1,0 +1,91 @@
+{
+  "id": "4557",
+  "name": "Mason Jar of Beer -  +noFeeding +emotEat_6_10 +alcohol5",
+  "transitionsToward": [
+    {
+      "actorID": "4546",
+      "targetID": "4534",
+      "newTargetUses": "-1",
+      "newActorID": "4557",
+      "newTargetID": "4534",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "4546",
+      "targetID": "4534",
+      "targetUses": "last",
+      "newActorID": "4557",
+      "newTargetID": "4533",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4557",
+      "newActorUses": "-1",
+      "newActorID": "4557",
+      "targetPlayer": true,
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "4557",
+      "actorUses": "last",
+      "newActorID": "4546",
+      "targetPlayer": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "foodValue": [
+    3,
+    6
+  ],
+  "numUses": 2,
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    405,
+    1255
+  ],
+  "techTree": [
+    {
+      "id": "4546",
+      "nodes": [
+        {
+          "id": "6887",
+          "nodes": [
+            {
+              "id": "455",
+              "nodes": []
+            },
+            {
+              "id": "6885",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4534",
+      "nodes": [
+        {
+          "decay": "5m"
+        },
+        {
+          "id": "13284",
+          "nodes": [
+            {
+              "id": "4527",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

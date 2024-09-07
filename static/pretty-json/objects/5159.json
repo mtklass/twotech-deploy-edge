@@ -1,0 +1,23 @@
+{
+  "id": "5159",
+  "name": "Crown of Oblivion Empire",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "5159",
+      "targetID": "4436",
+      "newActorID": "5159",
+      "newTargetID": "5173",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "clothing": "h",
+  "insulation": 0,
+  "size": 1,
+  "minPickupAge": 3,
+  "speedMult": 0.5
+}

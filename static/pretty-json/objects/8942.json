@@ -1,0 +1,54 @@
+{
+  "id": "8942",
+  "name": "Pair of Rag Shoes",
+  "transitionsToward": [
+    {
+      "actorID": "869",
+      "targetID": "869",
+      "newTargetID": "8942",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8942",
+      "newActorID": "869",
+      "newTargetID": "869",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    286
+  ],
+  "techTree": [
+    {
+      "id": "869",
+      "nodes": [
+        {
+          "decay": "5h"
+        },
+        {
+          "id": "873",
+          "nodes": null
+        }
+      ]
+    },
+    {
+      "id": "869",
+      "nodes": [
+        {
+          "decay": "5h"
+        },
+        {
+          "id": "873",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

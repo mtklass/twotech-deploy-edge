@@ -1,0 +1,81 @@
+{
+  "id": "8996",
+  "name": "Snare with Bait",
+  "transitionsToward": [
+    {
+      "actorID": "1620",
+      "targetID": "8997",
+      "newTargetID": "8996",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8996",
+      "newActorID": "1620",
+      "newTargetID": "8997",
+      "hand": true
+    },
+    {
+      "actorID": "8961",
+      "targetID": "8996",
+      "newTargetID": "8981"
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "speedMult": 0.4,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "1620",
+      "nodes": [
+        {
+          "id": "11671",
+          "nodes": [
+            {
+              "id": "11647",
+              "nodes": []
+            },
+            {
+              "id": "69",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "69",
+          "nodes": [
+            {
+              "id": "34",
+              "nodes": []
+            },
+            {
+              "id": "67",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8997",
+      "nodes": [
+        {
+          "id": "8996",
+          "nodes": [
+            {
+              "id": "1620",
+              "nodes": []
+            },
+            {
+              "id": "8997",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

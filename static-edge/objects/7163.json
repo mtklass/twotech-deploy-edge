@@ -1,0 +1,1 @@
+{"id":"7163","name":"Worms and Composted Soil in Box","transitionsToward":[],"transitionsAway":[{"targetID":"7163","newActorID":"789","newTargetID":"7164","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"blocksWalking":true,"sounds":[290]}

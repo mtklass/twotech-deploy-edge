@@ -1,0 +1,42 @@
+{
+  "id": "8638",
+  "name": "Ancient Stone Wall - wolfflag",
+  "transitionsToward": [
+    {
+      "targetID": "6454",
+      "newTargetID": "8638",
+      "decay": "10h"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20282",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "10h"
+    },
+    {
+      "id": "6454",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "6625",
+          "nodes": [
+            {
+              "id": "6454",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

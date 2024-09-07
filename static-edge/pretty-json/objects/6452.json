@@ -1,0 +1,14 @@
+{
+  "id": "6452",
+  "name": "Stone Wall - flagholder",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    341
+  ]
+}

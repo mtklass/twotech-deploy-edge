@@ -1,0 +1,10 @@
+{
+  "id": "14034",
+  "name": "@ Shears with Cutting (trees and flowers, unique)",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20304",
+  "craftable": false,
+  "minPickupAge": 3
+}

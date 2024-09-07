@@ -1,0 +1,20 @@
+{
+  "id": "10426",
+  "name": "(outdated) Bottle of Whole Milk",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10426",
+      "newTargetID": "3593",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 4,
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    287
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "4745",
+  "name": "Dead Bull Mammoth  - gutted",
+  "transitionsToward": [
+    {
+      "targetID": "4708",
+      "newActorID": "4709",
+      "newTargetID": "4745",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4745",
+      "newTargetUses": "-1",
+      "newActorID": "4734",
+      "newTargetID": "4745",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "4745",
+      "targetUses": "last",
+      "newActorID": "4734",
+      "newTargetID": "5197",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 6,
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    758
+  ],
+  "techTree": [
+    {
+      "id": "4708",
+      "nodes": [
+        {
+          "id": "34",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "32",
+              "nodes": null
+            }
+          ]
+        },
+        {
+          "id": "5313",
+          "nodes": [
+            {
+              "id": "4709",
+              "nodes": []
+            },
+            {
+              "id": "4669",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

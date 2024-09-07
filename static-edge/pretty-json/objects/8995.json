@@ -1,0 +1,73 @@
+{
+  "id": "8995",
+  "name": "Leather Beaver Hide",
+  "transitionsToward": [
+    {
+      "targetID": "12179",
+      "newTargetUses": "-1",
+      "newActorID": "8995",
+      "newTargetID": "12179",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "12179",
+      "targetUses": "last",
+      "newActorID": "8995",
+      "newTargetID": "8995",
+      "hand": true
+    },
+    {
+      "targetID": "8994",
+      "newActorID": "8995",
+      "newTargetID": "7086",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "8995",
+      "targetID": "12179",
+      "newTargetUses": "+1",
+      "newTargetID": "12179",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "8995",
+      "targetID": "8995",
+      "newTargetUses": "last",
+      "newTargetID": "12179",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "12179",
+      "nodes": [
+        {
+          "id": "8995",
+          "nodes": [
+            {
+              "id": "12179",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8995",
+          "nodes": [
+            {
+              "id": "12179",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

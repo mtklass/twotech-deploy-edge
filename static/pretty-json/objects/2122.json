@@ -1,0 +1,10 @@
+{
+  "id": "2122",
+  "name": "@ Seed Bowl",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "164",
+  "craftable": false,
+  "minPickupAge": 3
+}

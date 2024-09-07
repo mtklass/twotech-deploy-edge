@@ -1,0 +1,11 @@
+{
+  "id": "8026",
+  "name": "@ Paintable Item",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20277",
+  "craftable": false,
+  "minPickupAge": 3,
+  "blocksWalking": true
+}

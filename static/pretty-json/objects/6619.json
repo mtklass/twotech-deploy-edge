@@ -1,0 +1,10 @@
+{
+  "id": "6619",
+  "name": "@ Plant Stage Alt",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

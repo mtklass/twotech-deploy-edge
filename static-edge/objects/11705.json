@@ -1,0 +1,1 @@
+{"id":"11705","name":"(outdated) Excavated Mine Shaft  - 2","transitionsToward":[{"targetID":"11702","newTargetID":"11705","decay":"5m"}],"transitionsAway":[{"actorID":"2365","targetID":"11705","newTargetID":"6424","hand":true}],"transitionsTimed":[],"version":"20290","craftable":false,"blocksWalking":true,"sounds":[890],"techTree":[{"decay":"5m"},{"id":"11702","nodes":null}]}

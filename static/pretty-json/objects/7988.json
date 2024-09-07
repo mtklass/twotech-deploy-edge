@@ -1,0 +1,203 @@
+{
+  "id": "7988",
+  "name": "Bowl of Quicklime  - just scooped",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "7983",
+      "newActorID": "7988",
+      "newTargetID": "7573",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7984",
+      "newActorID": "7988",
+      "newTargetID": "7983",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7985",
+      "newActorID": "7988",
+      "newTargetID": "7984",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7987",
+      "newActorID": "7988",
+      "newTargetID": "7986",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7988",
+      "targetID": "7573",
+      "newActorID": "235",
+      "newTargetID": "7983",
+      "hand": true
+    },
+    {
+      "actorID": "7988",
+      "targetID": "7983",
+      "newActorID": "235",
+      "newTargetID": "7984",
+      "hand": true
+    },
+    {
+      "actorID": "7988",
+      "targetID": "7984",
+      "newActorID": "235",
+      "newTargetID": "7985",
+      "hand": true
+    },
+    {
+      "actorID": "7988",
+      "targetID": "7985",
+      "newActorID": "235",
+      "newTargetID": "7986",
+      "hand": true
+    },
+    {
+      "actorID": "7988",
+      "targetID": "7986",
+      "newActorID": "235",
+      "newTargetID": "7987",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "7988",
+      "newTargetID": "676",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.539",
+  "version": "20276",
+  "craftable": true,
+  "depth": 74,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    342
+  ],
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7983",
+      "nodes": [
+        {
+          "id": "676",
+          "nodes": [
+            {
+              "id": "679",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7573",
+          "nodes": [
+            {
+              "id": "59",
+              "nodes": []
+            },
+            {
+              "id": "14486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "675",
+          "depth": 5,
+          "actorID": "674",
+          "targetID": "235",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "678",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "239",
+          "targetID": "675",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "679",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "678",
+          "targetID": "282",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "676",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "679",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7983",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "676",
+          "targetID": "7573",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7988",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "235",
+          "targetID": "7983",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "7573",
+      "235",
+      "282",
+      "239",
+      "674"
+    ]
+  }
+}

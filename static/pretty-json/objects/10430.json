@@ -1,0 +1,21 @@
+{
+  "id": "10430",
+  "name": "(outdated) Bottle of Skim Milk  - stopper",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10430",
+      "newTargetID": "3668",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 4,
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    6
+  ]
+}

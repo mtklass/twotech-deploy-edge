@@ -1,0 +1,1 @@
+{"id":"4603","name":"Swarm of Angry Bees - hive","transitionsToward":[],"transitionsAway":[{"actorID":"4603","newActorID":"4604","newTargetID":"4602"}],"transitionsTimed":[{"targetID":"4603","newTargetID":"4602","decay":"2s","move":1}],"version":"20271","craftable":false,"moveType":1,"moveDistance":1}

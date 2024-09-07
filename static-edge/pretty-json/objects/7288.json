@@ -1,0 +1,65 @@
+{
+  "id": "7288",
+  "name": "(outdated) Gold Key  -  $20 +password-assigner",
+  "transitionsToward": [
+    {
+      "actorID": "7287",
+      "targetID": "7282",
+      "newTargetID": "7288",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "7288",
+      "newActorID": "7287",
+      "newTargetID": "7282",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "7287",
+      "nodes": [
+        {
+          "id": "13772",
+          "nodes": [
+            {
+              "decay": "2s"
+            },
+            {
+              "id": "13767",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7282",
+      "nodes": [
+        {
+          "id": "7288",
+          "nodes": [
+            {
+              "id": "7287",
+              "nodes": []
+            },
+            {
+              "id": "7282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

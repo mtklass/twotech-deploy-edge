@@ -1,0 +1,110 @@
+{
+  "id": "8687",
+  "name": "Stone Block with Wheeled Hand Cart - installed",
+  "transitionsToward": [
+    {
+      "actorID": "6513",
+      "targetID": "8679",
+      "newTargetID": "8687",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8687",
+      "newActorID": "6513",
+      "newTargetID": "8679",
+      "hand": true
+    },
+    {
+      "actorID": "11638",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "8687",
+      "newActorID": "11638",
+      "newTargetID": "8688",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "11638",
+      "actorUses": "last",
+      "targetID": "8687",
+      "newActorID": "11560",
+      "newTargetID": "8688",
+      "hand": true
+    },
+    {
+      "actorID": "462",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "8687",
+      "newActorID": "462",
+      "newTargetID": "8688",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "462",
+      "actorUses": "last",
+      "targetID": "8687",
+      "newActorID": "858",
+      "newTargetID": "8688",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20284",
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    496
+  ],
+  "techTree": [
+    {
+      "id": "6513",
+      "nodes": [
+        {
+          "id": "8687",
+          "nodes": [
+            {
+              "id": "6513",
+              "nodes": []
+            },
+            {
+              "id": "8679",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8679",
+      "nodes": [
+        {
+          "id": "812",
+          "nodes": [
+            {
+              "id": "11684",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "622",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "110",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

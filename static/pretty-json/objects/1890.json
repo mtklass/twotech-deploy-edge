@@ -1,0 +1,140 @@
+{
+  "id": "1890",
+  "name": "Lapis Lazuli",
+  "transitionsToward": [
+    {
+      "targetID": "11622",
+      "newTargetUses": "-1",
+      "newActorID": "1890",
+      "newTargetID": "11622",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "11622",
+      "targetUses": "last",
+      "newActorID": "1890",
+      "newTargetID": "1890",
+      "hand": true
+    },
+    {
+      "targetID": "14159",
+      "newTargetUses": "-1",
+      "newActorID": "1890",
+      "newTargetID": "14159",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "14159",
+      "targetUses": "last",
+      "newActorID": "1890",
+      "newTargetID": "292",
+      "hand": true
+    },
+    {
+      "targetID": "1892",
+      "newActorID": "1890",
+      "newTargetID": "235",
+      "hand": true
+    },
+    {
+      "targetID": "13869",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.2,
+      "newActorID": "1890",
+      "newTargetID": "13867",
+      "hand": true
+    },
+    {
+      "targetID": "13869",
+      "targetUses": "last",
+      "newActorID": "1890",
+      "newTargetID": "13873",
+      "hand": true
+    },
+    {
+      "targetID": "13905",
+      "newActorID": "1890",
+      "newTargetID": "13905",
+      "newActorWeight": 0.4,
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "11604",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.2,
+      "newActorID": "1890",
+      "newTargetID": "11547",
+      "hand": true
+    },
+    {
+      "targetID": "11604",
+      "targetUses": "last",
+      "newActorID": "1890",
+      "newTargetID": "11626",
+      "hand": true
+    },
+    {
+      "actorID": "4350",
+      "targetID": "6379",
+      "newActorID": "1890",
+      "newTargetID": "6379",
+      "newActorWeight": 0.1,
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "1890",
+      "targetID": "1890",
+      "newTargetUses": "last",
+      "newTargetID": "11622",
+      "hand": true
+    },
+    {
+      "actorID": "1890",
+      "targetID": "11622",
+      "newTargetUses": "+1",
+      "newTargetID": "11622",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "1890",
+      "targetID": "292",
+      "newTargetUses": "last",
+      "newTargetID": "14159",
+      "hand": true
+    },
+    {
+      "actorID": "1890",
+      "targetID": "14159",
+      "newTargetUses": "+1",
+      "newTargetID": "14159",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "1890",
+      "targetID": "235",
+      "newTargetID": "1892",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "158",
+  "craftable": true,
+  "depth": 0,
+  "mapChance": 0.03,
+  "biomes": [
+    {
+      "id": "5",
+      "spawnChance": 0.004533434076312808
+    }
+  ],
+  "size": 1,
+  "minPickupAge": 3
+}

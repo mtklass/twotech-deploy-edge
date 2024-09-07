@@ -1,0 +1,12 @@
+{
+  "id": "8355",
+  "name": "Spit Roast Frame",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20279",
+  "craftable": false,
+  "sounds": [
+    341
+  ]
+}

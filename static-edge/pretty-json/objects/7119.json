@@ -1,0 +1,105 @@
+{
+  "id": "7119",
+  "name": "(outdated) Milk Cow in Hitched Cargo Wagon",
+  "transitionsToward": [
+    {
+      "actorID": "6913",
+      "targetID": "7114",
+      "newActorID": "59",
+      "newTargetID": "7119",
+      "hand": true
+    },
+    {
+      "actorID": "7118",
+      "targetID": "550",
+      "newTargetID": "7119",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "7119",
+      "newActorID": "7118",
+      "newTargetID": "550",
+      "hand": true
+    },
+    {
+      "actorID": "59",
+      "targetID": "7119",
+      "newActorID": "6913",
+      "newTargetID": "7114",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    1004,
+    496
+  ],
+  "techTree": [
+    {
+      "id": "6913",
+      "nodes": [
+        {
+          "id": "59",
+          "nodes": [
+            {
+              "id": "58",
+              "nodes": []
+            },
+            {
+              "id": "58",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "1454",
+          "nodes": [
+            {
+              "decay": "3s"
+            },
+            {
+              "id": "1488",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7114",
+      "nodes": [
+        {
+          "id": "59",
+          "nodes": [
+            {
+              "id": "58",
+              "nodes": []
+            },
+            {
+              "id": "58",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7116",
+          "nodes": [
+            {
+              "id": "6911",
+              "nodes": []
+            },
+            {
+              "id": "7114",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

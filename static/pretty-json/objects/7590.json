@@ -1,0 +1,261 @@
+{
+  "id": "7590",
+  "name": "Bowl of Flour  - just scooped",
+  "transitionsToward": [
+    {
+      "actorID": "235",
+      "targetID": "7579",
+      "newActorID": "7590",
+      "newTargetID": "7573",
+      "hand": true
+    },
+    {
+      "actorID": "7579",
+      "targetID": "235",
+      "newActorID": "7573",
+      "newTargetID": "7590",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7580",
+      "newActorID": "7590",
+      "newTargetID": "7579",
+      "hand": true
+    },
+    {
+      "actorID": "7580",
+      "targetID": "235",
+      "newActorID": "7579",
+      "newTargetID": "7590",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7581",
+      "newActorID": "7590",
+      "newTargetID": "7580",
+      "hand": true
+    },
+    {
+      "actorID": "7581",
+      "targetID": "235",
+      "newActorID": "7580",
+      "newTargetID": "7590",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7582",
+      "newActorID": "7590",
+      "newTargetID": "7581",
+      "hand": true
+    },
+    {
+      "actorID": "7582",
+      "targetID": "235",
+      "newActorID": "7581",
+      "newTargetID": "7590",
+      "hand": true
+    },
+    {
+      "actorID": "235",
+      "targetID": "7583",
+      "newActorID": "7590",
+      "newTargetID": "7582",
+      "hand": true
+    },
+    {
+      "actorID": "7583",
+      "targetID": "235",
+      "newActorID": "7582",
+      "newTargetID": "7590",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7590",
+      "targetID": "7573",
+      "newActorID": "235",
+      "newTargetID": "7579",
+      "hand": true
+    },
+    {
+      "actorID": "7590",
+      "targetID": "7579",
+      "newActorID": "235",
+      "newTargetID": "7580",
+      "hand": true
+    },
+    {
+      "actorID": "7590",
+      "targetID": "7580",
+      "newActorID": "235",
+      "newTargetID": "7581",
+      "hand": true
+    },
+    {
+      "actorID": "7590",
+      "targetID": "7581",
+      "newActorID": "235",
+      "newTargetID": "7582",
+      "hand": true
+    },
+    {
+      "actorID": "7590",
+      "targetID": "7582",
+      "newActorID": "235",
+      "newTargetID": "7583",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "7590",
+      "newTargetID": "251",
+      "decay": "1s"
+    }
+  ],
+  "difficulty": "0.538",
+  "version": "20272",
+  "craftable": true,
+  "depth": 74,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    342
+  ],
+  "techTree": [
+    {
+      "id": "235",
+      "nodes": [
+        {
+          "id": "283",
+          "nodes": [
+            {
+              "id": "284",
+              "nodes": []
+            },
+            {
+              "id": "282",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7579",
+      "nodes": [
+        {
+          "id": "251",
+          "nodes": [
+            {
+              "id": "33",
+              "nodes": null
+            },
+            {
+              "id": "245",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7573",
+          "nodes": [
+            {
+              "id": "59",
+              "nodes": []
+            },
+            {
+              "id": "14486",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "224",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "34",
+          "targetID": "242",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "225",
+          "mainBranch": true,
+          "depth": 5,
+          "targetID": "224",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "226",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "64",
+          "targetID": "225",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "245",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "235",
+          "targetID": "226",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "251",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "33",
+          "targetID": "245",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7579",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "251",
+          "targetID": "7573",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "7590",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "235",
+          "targetID": "7579",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "7573",
+      "235",
+      "34",
+      "64",
+      "33",
+      "242"
+    ]
+  }
+}

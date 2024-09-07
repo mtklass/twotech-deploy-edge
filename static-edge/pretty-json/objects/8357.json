@@ -1,0 +1,27 @@
+{
+  "id": "8357",
+  "name": "(outdated) Clay and Soil Box",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "8357",
+      "newActorID": "126",
+      "newTargetID": "7158",
+      "hand": true
+    },
+    {
+      "actorID": "660",
+      "targetID": "8357",
+      "newActorID": "659",
+      "newTargetID": "8358",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20279",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    290
+  ]
+}

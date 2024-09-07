@@ -1,0 +1,63 @@
+{
+  "id": "5305",
+  "name": "Firewood Stack  - 3",
+  "transitionsToward": [
+    {
+      "targetID": "5306",
+      "newActorID": "344",
+      "newTargetID": "5305",
+      "hand": true
+    },
+    {
+      "actorID": "344",
+      "targetID": "5304",
+      "newTargetID": "5305",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "5305",
+      "newActorID": "344",
+      "newTargetID": "5304",
+      "hand": true
+    },
+    {
+      "actorID": "344",
+      "targetID": "5305",
+      "newTargetID": "5306",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "speedMult": 0.5,
+  "techTree": [
+    {
+      "id": "5306",
+      "nodes": [
+        {
+          "id": "344",
+          "nodes": [
+            {
+              "id": "340",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "5305",
+          "nodes": [
+            {
+              "id": "5306",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

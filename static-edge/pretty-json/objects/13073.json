@@ -1,0 +1,22 @@
+{
+  "id": "13073",
+  "name": "(outdated) Ground Tree Pit With Basket - +useOnContained",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "13073",
+      "newActorID": "13071",
+      "newTargetID": "13070",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20299",
+  "craftable": false,
+  "numSlots": 1,
+  "slotSize": 0,
+  "blocksWalking": true,
+  "sounds": [
+    290
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "8448",
+  "name": "@ Any Board Color",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20280",
+  "craftable": false,
+  "minPickupAge": 3
+}

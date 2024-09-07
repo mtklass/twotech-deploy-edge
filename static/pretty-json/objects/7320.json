@@ -1,0 +1,18 @@
+{
+  "id": "7320",
+  "name": "Honeybee - just left",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "7320",
+      "newTargetID": "4567",
+      "decay": "1s",
+      "move": 3
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "moveType": 3,
+  "moveDistance": 1
+}

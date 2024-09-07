@@ -1,0 +1,10 @@
+{
+  "id": "14128",
+  "name": "@ Hot Pot Food - good raw",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20305",
+  "craftable": false,
+  "minPickupAge": 3
+}

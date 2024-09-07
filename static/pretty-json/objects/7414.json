@@ -1,0 +1,13 @@
+{
+  "id": "7414",
+  "name": "Stack of Logs  - light",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 5,
+  "craftable": false,
+  "sounds": [
+    496
+  ]
+}

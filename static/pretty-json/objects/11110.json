@@ -1,0 +1,10 @@
+{
+  "id": "11110",
+  "name": "@ OLD Basket goes on Table +contBasketOnTable",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20291",
+  "craftable": false,
+  "minPickupAge": 3
+}

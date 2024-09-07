@@ -1,0 +1,24 @@
+{
+  "id": "5301",
+  "name": "Mossy Big Hard Rock  - cow eating",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "5301",
+      "newActorID": "32",
+      "newTargetID": "4671"
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "5301",
+      "newTargetID": "4671",
+      "decay": "10s",
+      "move": 2
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "moveType": 2,
+  "moveDistance": 1
+}

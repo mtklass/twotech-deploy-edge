@@ -1,0 +1,10 @@
+{
+  "id": "15071",
+  "name": "@ OLD Tray goes on Table +contTrayOnTable",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20315",
+  "craftable": false,
+  "minPickupAge": 3
+}

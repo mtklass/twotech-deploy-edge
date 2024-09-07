@@ -1,0 +1,79 @@
+{
+  "id": "5336",
+  "name": "Cold Silver Bloom in Wooden Tongs  - 2HOL",
+  "transitionsToward": [
+    {
+      "targetID": "5335",
+      "newTargetID": "5336",
+      "decay": "15s"
+    },
+    {
+      "actorID": "239",
+      "targetID": "5337",
+      "newActorID": "5336",
+      "newTargetID": "291",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5336",
+      "targetID": "291",
+      "newActorID": "239",
+      "newTargetID": "5337",
+      "hand": true
+    },
+    {
+      "actorID": "5336",
+      "targetID": "304",
+      "newTargetUses": "-1",
+      "newActorID": "5335",
+      "newTargetID": "304",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    388
+  ],
+  "techTree": [
+    {
+      "decay": "15s"
+    },
+    {
+      "id": "5335",
+      "nodes": [
+        {
+          "id": "5332",
+          "nodes": [
+            {
+              "id": "239",
+              "nodes": []
+            },
+            {
+              "id": "5331",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "304",
+          "nodes": [
+            {
+              "id": "248",
+              "nodes": []
+            },
+            {
+              "id": "305",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

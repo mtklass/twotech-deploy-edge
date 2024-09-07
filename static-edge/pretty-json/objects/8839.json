@@ -1,0 +1,149 @@
+{
+  "id": "8839",
+  "name": "Sprouting Beets",
+  "transitionsToward": [
+    {
+      "targetID": "8838",
+      "newTargetID": "8839",
+      "decay": "2m"
+    },
+    {
+      "actorID": "6616",
+      "targetID": "8838",
+      "newActorID": "235",
+      "newTargetID": "8839",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "8839",
+      "newTargetID": "8840",
+      "decay": "2m"
+    }
+  ],
+  "difficulty": "0.131",
+  "version": "20286",
+  "craftable": true,
+  "depth": 17,
+  "techTree": [
+    {
+      "decay": "2m"
+    },
+    {
+      "id": "8838",
+      "nodes": [
+        {
+          "id": "382",
+          "nodes": [
+            {
+              "id": "235",
+              "nodes": []
+            },
+            {
+              "id": "141",
+              "nodes": null
+            }
+          ]
+        },
+        {
+          "id": "8837",
+          "nodes": [
+            {
+              "id": "9140",
+              "nodes": []
+            },
+            {
+              "id": "213",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "336",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "292",
+          "targetID": "211",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1101",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "336",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "213",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "139",
+          "targetID": "1101",
+          "hand": true
+        },
+        {
+          "id": "9140",
+          "depth": 3,
+          "targetID": "9139",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8837",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "9140",
+          "targetID": "213",
+          "hand": true
+        },
+        {
+          "id": "382",
+          "depth": 2,
+          "actorID": "235",
+          "targetID": "141",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8838",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "382",
+          "targetID": "8837",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8839",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "8838",
+          "decay": "2m"
+        }
+      ]
+    ],
+    "ingredients": [
+      "235",
+      "292",
+      "139",
+      "141",
+      "9139",
+      "211"
+    ]
+  }
+}

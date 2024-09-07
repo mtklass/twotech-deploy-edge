@@ -1,0 +1,73 @@
+{
+  "id": "4821",
+  "name": "Cow Mammoth  - saddled 2",
+  "transitionsToward": [
+    {
+      "actorID": "5265",
+      "targetID": "4671",
+      "newActorID": "4821",
+      "hand": true
+    },
+    {
+      "actorID": "5265",
+      "targetID": "14491",
+      "newActorID": "4821",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4821",
+      "newActorID": "4821",
+      "hand": true
+    },
+    {
+      "actorID": "4821",
+      "newActorID": "5265",
+      "newTargetID": "14492",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4821",
+      "decay": "3s"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 1.25,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "5265",
+      "nodes": [
+        {
+          "id": "4820",
+          "nodes": [
+            {
+              "id": "5265",
+              "nodes": []
+            },
+            {
+              "id": "4669",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4671",
+      "nodes": [
+        {
+          "decay": "10s"
+        },
+        {
+          "id": "5301",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

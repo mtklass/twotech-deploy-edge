@@ -1,0 +1,10 @@
+{
+  "id": "2328",
+  "name": "Perhaps Oil",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "179",
+  "craftable": false,
+  "minPickupAge": 3
+}

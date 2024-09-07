@@ -1,0 +1,90 @@
+{
+  "id": "4750",
+  "name": "Cow Mammoth  - 1 arrow",
+  "transitionsToward": [
+    {
+      "actorID": "152",
+      "targetID": "4671",
+      "newActorID": "151",
+      "newTargetID": "4750",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "14491",
+      "newActorID": "151",
+      "newTargetID": "4750",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "5164",
+      "targetID": "4750",
+      "newActorID": "4546",
+      "newTargetID": "14492",
+      "hand": true
+    },
+    {
+      "actorID": "152",
+      "targetID": "4750",
+      "newActorID": "151",
+      "newTargetID": "4749",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4750",
+      "decay": "3s"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 1.25,
+  "techTree": [
+    {
+      "id": "152",
+      "nodes": [
+        {
+          "id": "148",
+          "nodes": [
+            {
+              "id": "146",
+              "nodes": []
+            },
+            {
+              "id": "147",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "151",
+          "nodes": [
+            {
+              "id": "59",
+              "nodes": []
+            },
+            {
+              "id": "131",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4671",
+      "nodes": [
+        {
+          "decay": "10s"
+        },
+        {
+          "id": "5301",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

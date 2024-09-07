@@ -1,0 +1,88 @@
+{
+  "id": "10649",
+  "name": "(outdated) Stone Oven  - lit, pork and apple pie",
+  "transitionsToward": [
+    {
+      "actorID": "6951",
+      "targetID": "10630",
+      "newTargetID": "10649",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "10649",
+      "newTargetID": "10650",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20290",
+  "heatValue": 14,
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    110
+  ],
+  "techTree": [
+    {
+      "id": "6951",
+      "nodes": [
+        {
+          "id": "236",
+          "nodes": [
+            {
+              "id": "241",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "11894",
+          "nodes": [
+            {
+              "id": "4784",
+              "nodes": []
+            },
+            {
+              "id": "11893",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10630",
+      "nodes": [
+        {
+          "id": "5294",
+          "nodes": [
+            {
+              "id": "135",
+              "nodes": []
+            },
+            {
+              "id": "326",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "10615",
+          "nodes": [
+            {
+              "id": "2343",
+              "nodes": []
+            },
+            {
+              "id": "10607",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

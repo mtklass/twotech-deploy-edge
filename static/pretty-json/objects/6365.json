@@ -1,0 +1,10 @@
+{
+  "id": "6365",
+  "name": "@ 2HOL Bannermen",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

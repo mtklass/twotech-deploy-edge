@@ -1,0 +1,1 @@
+{"id":"7693","name":"(outdated) Pressurised Molten Glass on Flat Rock","transitionsToward":[{"actorID":"291","targetID":"7692","newTargetID":"7693","hand":true}],"transitionsAway":[],"transitionsTimed":[{"targetID":"7693","newTargetID":"7723","decay":"10s"}],"version":"20273","craftable":false,"sounds":[890],"techTree":[{"id":"291","nodes":null},{"id":"7692","nodes":null}]}

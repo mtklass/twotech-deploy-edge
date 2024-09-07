@@ -1,0 +1,103 @@
+{
+  "id": "7273",
+  "name": "(outdated) Locked Pine Door -  Installed $20",
+  "transitionsToward": [
+    {
+      "actorID": "7275",
+      "targetID": "7274",
+      "newActorID": "7275",
+      "newTargetID": "7273",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "7277",
+      "targetID": "115",
+      "newActorID": "7275",
+      "newTargetID": "7273",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "7275",
+      "targetID": "7273",
+      "newActorID": "7275",
+      "newTargetID": "7274",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.75,
+  "blocksWalking": true,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "7275",
+      "nodes": [
+        {
+          "id": "7277",
+          "nodes": [
+            {
+              "id": "7275",
+              "nodes": []
+            },
+            {
+              "id": "7279",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "115",
+          "nodes": [
+            {
+              "id": "114",
+              "nodes": []
+            },
+            {
+              "id": "108",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7274",
+      "nodes": [
+        {
+          "id": "7275",
+          "nodes": [
+            {
+              "id": "7277",
+              "nodes": []
+            },
+            {
+              "id": "115",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "7273",
+          "nodes": [
+            {
+              "id": "7275",
+              "nodes": []
+            },
+            {
+              "id": "7274",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

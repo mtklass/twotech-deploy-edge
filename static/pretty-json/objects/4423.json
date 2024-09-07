@@ -1,0 +1,77 @@
+{
+  "id": "4423",
+  "name": "Fallen Shrine  - A",
+  "transitionsToward": [
+    {
+      "targetID": "4422",
+      "newTargetID": "4423",
+      "decay": "1h"
+    },
+    {
+      "targetID": "4429",
+      "newTargetID": "4423",
+      "decay": "1h"
+    },
+    {
+      "targetID": "4416",
+      "newActorID": "40",
+      "newTargetID": "4423",
+      "hand": true
+    },
+    {
+      "targetID": "4417",
+      "newActorID": "40",
+      "newTargetID": "4423",
+      "hand": true
+    },
+    {
+      "targetID": "4418",
+      "newActorID": "40",
+      "newTargetID": "4423",
+      "hand": true
+    },
+    {
+      "targetID": "4420",
+      "newActorID": "4350",
+      "newTargetID": "4423",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4423",
+      "newActorID": "693",
+      "newTargetID": "4424",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "decay": "1h"
+    },
+    {
+      "id": "4422",
+      "nodes": [
+        {
+          "id": "4425",
+          "nodes": [
+            {
+              "id": "277",
+              "nodes": []
+            },
+            {
+              "id": "4422",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"id":"13070","name":"(outdated) Ground Tree Pit - +useOnContained","transitionsToward":[{"targetID":"13073","newActorID":"13071","newTargetID":"13070","hand":true}],"transitionsAway":[],"transitionsTimed":[],"version":"20299","craftable":false,"numSlots":1,"slotSize":0,"blocksWalking":true,"techTree":[{"id":"13073","nodes":null}]}

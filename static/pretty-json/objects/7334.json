@@ -1,0 +1,10 @@
+{
+  "id": "7334",
+  "name": "Empty Bee Smoker  - fire",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

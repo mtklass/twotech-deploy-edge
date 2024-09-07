@@ -1,0 +1,35 @@
+{
+  "id": "6412",
+  "name": "Short and Curved Shaft",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "6412",
+      "newActorID": "69",
+      "newTargetID": "68",
+      "hand": true
+    },
+    {
+      "actorID": "6412",
+      "targetID": "6414",
+      "newTargetUses": "+1",
+      "newTargetID": "6414",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "6412",
+      "targetID": "475",
+      "newTargetUses": "last",
+      "newTargetID": "6414",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    69
+  ]
+}

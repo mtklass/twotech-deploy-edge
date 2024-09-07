@@ -1,0 +1,21 @@
+{
+  "id": "4571",
+  "name": "(outdated) Platform",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "actorID": "4570",
+      "targetID": "4571",
+      "newTargetID": "4572",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    509
+  ]
+}

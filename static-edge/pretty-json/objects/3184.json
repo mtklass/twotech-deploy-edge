@@ -1,0 +1,14 @@
+{
+  "id": "3184",
+  "name": "Map with Permanent Mark -  &written +map",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20307",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    65
+  ]
+}

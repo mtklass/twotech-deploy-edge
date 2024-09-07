@@ -1,0 +1,64 @@
+{
+  "id": "5306",
+  "name": "Firewood Stack  - 4",
+  "transitionsToward": [
+    {
+      "actorID": "344",
+      "targetID": "5305",
+      "newTargetID": "5306",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "5306",
+      "newActorID": "344",
+      "newTargetID": "5305",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "speedMult": 0.25,
+  "techTree": [
+    {
+      "id": "344",
+      "nodes": [
+        {
+          "id": "340",
+          "nodes": [
+            {
+              "id": "8712",
+              "nodes": []
+            },
+            {
+              "id": "100",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5305",
+      "nodes": [
+        {
+          "id": "5306",
+          "nodes": [
+            {
+              "id": "344",
+              "nodes": []
+            },
+            {
+              "id": "5305",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

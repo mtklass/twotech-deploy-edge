@@ -1,0 +1,1 @@
+{"id":"5300","name":"Mossy Big Hard Rock  - bull eating","transitionsToward":[],"transitionsAway":[{"actorID":"5300","newActorID":"32","newTargetID":"4668"}],"transitionsTimed":[{"targetID":"5300","newTargetID":"4668","decay":"10s","move":2}],"version":"20271","craftable":false,"moveType":2,"moveDistance":1}

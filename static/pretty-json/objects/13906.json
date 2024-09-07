@@ -1,0 +1,10 @@
+{
+  "id": "13906",
+  "name": "Random Mine Results -  desert -  - 4 - mineralDeposit",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20304",
+  "craftable": false,
+  "minPickupAge": 3
+}

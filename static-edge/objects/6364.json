@@ -1,0 +1,1 @@
+{"id":"6364","name":"Rocket Explosion","transitionsToward":[],"transitionsAway":[],"transitionsTimed":[{"targetID":"6364","decay":"2m"}],"version":"20271","heatValue":8,"craftable":false,"deadlyDistance":2,"sounds":[110]}

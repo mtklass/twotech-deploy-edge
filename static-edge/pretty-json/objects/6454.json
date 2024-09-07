@@ -1,0 +1,55 @@
+{
+  "id": "6454",
+  "name": "Stone Wall - wolfflag",
+  "transitionsToward": [
+    {
+      "targetID": "6625",
+      "newTargetID": "6454",
+      "decay": "1s"
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "6454",
+      "newTargetID": "6625",
+      "hand": true,
+      "tool": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "6454",
+      "newTargetID": "8638",
+      "decay": "10h"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "insulation": 0.9,
+  "blocksWalking": true,
+  "sounds": [
+    746
+  ],
+  "techTree": [
+    {
+      "decay": "1s"
+    },
+    {
+      "id": "6625",
+      "nodes": [
+        {
+          "id": "6454",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "6625",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

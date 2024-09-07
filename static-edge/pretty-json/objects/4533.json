@@ -1,0 +1,113 @@
+{
+  "id": "4533",
+  "name": "Distillery  - empty",
+  "transitionsToward": [
+    {
+      "targetID": "4527",
+      "newTargetID": "4533",
+      "decay": "5m"
+    },
+    {
+      "actorID": "441",
+      "newActorUses": "-1",
+      "newActorWeight": 0.02,
+      "targetID": "4636",
+      "newActorID": "441",
+      "newTargetID": "4533",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "441",
+      "actorUses": "last",
+      "targetID": "4636",
+      "newActorID": "858",
+      "newTargetID": "4533",
+      "hand": true
+    },
+    {
+      "actorID": "4546",
+      "targetID": "4534",
+      "targetUses": "last",
+      "newActorID": "4557",
+      "newTargetID": "4533",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4561",
+      "targetID": "4533",
+      "newActorID": "235",
+      "newTargetID": "4635",
+      "hand": true
+    },
+    {
+      "actorID": "334",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "4533",
+      "newActorID": "334",
+      "newTargetID": "4545",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "334",
+      "actorUses": "last",
+      "targetID": "4533",
+      "newActorID": "858",
+      "newTargetID": "4545",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "4533",
+      "newTargetID": "13424",
+      "decay": "1s"
+    }
+  ],
+  "version": "20271",
+  "craftable": false,
+  "blocksWalking": true,
+  "sounds": [
+    411
+  ],
+  "techTree": [
+    {
+      "decay": "5m"
+    },
+    {
+      "id": "4527",
+      "nodes": [
+        {
+          "id": "248",
+          "nodes": [
+            {
+              "id": "67",
+              "nodes": []
+            },
+            {
+              "id": "82",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "4531",
+          "nodes": [
+            {
+              "id": "344",
+              "nodes": []
+            },
+            {
+              "id": "4530",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

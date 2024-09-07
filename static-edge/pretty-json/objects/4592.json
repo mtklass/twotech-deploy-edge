@@ -1,0 +1,40 @@
+{
+  "id": "4592",
+  "name": "(outdated) Domestic Hive  - 1A spawn",
+  "transitionsToward": [
+    {
+      "targetID": "4572",
+      "newTargetID": "4592",
+      "decay": "10m"
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "sounds": [
+    509
+  ],
+  "techTree": [
+    {
+      "decay": "10m"
+    },
+    {
+      "id": "4572",
+      "nodes": [
+        {
+          "decay": "2s"
+        },
+        {
+          "id": "4605",
+          "nodes": [
+            {
+              "id": "4575",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

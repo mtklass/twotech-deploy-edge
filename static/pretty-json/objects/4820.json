@@ -1,0 +1,82 @@
+{
+  "id": "4820",
+  "name": "Bull Mammoth  - saddled 2",
+  "transitionsToward": [
+    {
+      "actorID": "5265",
+      "targetID": "4669",
+      "newActorID": "4820",
+      "hand": true
+    },
+    {
+      "actorID": "5265",
+      "targetID": "4668",
+      "newActorID": "4820",
+      "hand": true
+    },
+    {
+      "actorID": "5265",
+      "targetID": "4667",
+      "newActorID": "4820",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "4820",
+      "newActorID": "4820",
+      "hand": true
+    },
+    {
+      "actorID": "4820",
+      "newActorID": "5265",
+      "newTargetID": "4667",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 1.25,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "5265",
+      "nodes": [
+        {
+          "id": "4820",
+          "nodes": [
+            {
+              "id": "5265",
+              "nodes": []
+            },
+            {
+              "id": "4669",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4669",
+      "nodes": [
+        {
+          "decay": "3s"
+        },
+        {
+          "id": "4668",
+          "nodes": [
+            {
+              "decay": "10s"
+            },
+            {
+              "id": "5300",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

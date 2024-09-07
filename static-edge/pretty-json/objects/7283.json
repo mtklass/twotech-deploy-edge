@@ -1,0 +1,46 @@
+{
+  "id": "7283",
+  "name": "Gold Key Blank with Lock",
+  "transitionsToward": [
+    {
+      "targetID": "7471",
+      "newActorID": "455",
+      "newTargetID": "7283",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "458",
+      "newActorUses": "-1",
+      "newActorWeight": 0.04,
+      "targetID": "7283",
+      "newActorID": "458",
+      "newTargetID": "7284",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "458",
+      "actorUses": "last",
+      "targetID": "7283",
+      "newActorID": "862",
+      "newTargetID": "7284",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    890
+  ],
+  "techTree": [
+    {
+      "id": "7471",
+      "nodes": null
+    }
+  ]
+}

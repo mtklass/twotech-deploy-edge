@@ -1,0 +1,66 @@
+{
+  "id": "8997",
+  "name": "Snare",
+  "transitionsToward": [
+    {
+      "targetID": "8996",
+      "newActorID": "1620",
+      "newTargetID": "8997",
+      "hand": true
+    },
+    {
+      "actorID": "8982",
+      "targetID": "6438",
+      "newTargetID": "8997",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "8997",
+      "newActorID": "8982",
+      "newTargetID": "6438",
+      "hand": true
+    },
+    {
+      "actorID": "1620",
+      "targetID": "8997",
+      "newTargetID": "8996",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20286",
+  "craftable": false,
+  "speedMult": 0.4,
+  "blocksWalking": true,
+  "techTree": [
+    {
+      "id": "8996",
+      "nodes": [
+        {
+          "id": "1620",
+          "nodes": [
+            {
+              "id": "11671",
+              "nodes": []
+            },
+            {
+              "id": "69",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8997",
+          "nodes": [
+            {
+              "id": "8996",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

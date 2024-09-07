@@ -1,0 +1,18 @@
+{
+  "id": "6494",
+  "name": "(outdated) Bacon",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "foodValue": [
+    5,
+    0
+  ],
+  "craftable": false,
+  "minPickupAge": 3,
+  "sounds": [
+    252,
+    283
+  ]
+}

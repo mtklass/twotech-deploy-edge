@@ -1,0 +1,60 @@
+{
+  "id": "10625",
+  "name": "Hot Copper Coil",
+  "transitionsToward": [
+    {
+      "actorID": "10622",
+      "newActorID": "239",
+      "newTargetID": "10625",
+      "hand": true
+    },
+    {
+      "actorID": "239",
+      "targetID": "10626",
+      "newActorID": "10622",
+      "newTargetID": "10625",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "10622",
+      "targetID": "10625",
+      "newActorID": "239",
+      "newTargetID": "10626",
+      "hand": true
+    },
+    {
+      "actorID": "239",
+      "targetID": "10625",
+      "newActorID": "10622",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "10625",
+      "newTargetID": "10612",
+      "decay": "10s"
+    }
+  ],
+  "version": "20290",
+  "craftable": false,
+  "sounds": [
+    388
+  ],
+  "techTree": [
+    {
+      "id": "10622",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "10623",
+          "nodes": null
+        }
+      ]
+    }
+  ]
+}

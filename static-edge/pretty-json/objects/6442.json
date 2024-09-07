@@ -1,0 +1,73 @@
+{
+  "id": "6442",
+  "name": "(outdated) Bowl of Worms",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "6442",
+      "newTargetUses": "-1",
+      "newActorID": "789",
+      "newTargetID": "6442",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "6442",
+      "targetUses": "last",
+      "newActorID": "789",
+      "newTargetID": "235",
+      "hand": true
+    },
+    {
+      "actorID": "6442",
+      "newActorUses": "-1",
+      "targetID": "4757",
+      "newActorID": "6442",
+      "newTargetID": "4764",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "6442",
+      "actorUses": "last",
+      "targetID": "4757",
+      "newActorID": "235",
+      "newTargetID": "4764",
+      "hand": true
+    },
+    {
+      "actorID": "2091",
+      "targetID": "6442",
+      "newTargetUses": "-1",
+      "newActorID": "2094",
+      "newTargetID": "6442",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "actorID": "2091",
+      "targetID": "6442",
+      "targetUses": "last",
+      "newActorID": "2094",
+      "newTargetID": "235",
+      "hand": true
+    },
+    {
+      "actorID": "789",
+      "targetID": "6442",
+      "newTargetUses": "+1",
+      "newTargetID": "6442",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "numUses": 5,
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "sounds": [
+    1207
+  ]
+}

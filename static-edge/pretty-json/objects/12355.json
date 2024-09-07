@@ -1,0 +1,21 @@
+{
+  "id": "12355",
+  "name": "(outdated) Dye-Ready Pair of Slippers",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "12355",
+      "newActorID": "12432",
+      "newTargetID": "12432",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20294",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    286
+  ]
+}

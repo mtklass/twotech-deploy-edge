@@ -1,0 +1,14 @@
+{
+  "id": "4615",
+  "name": "Wet Clay Plates",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "sounds": [
+    328
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "5271",
+  "name": "@ 2HOL stews",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "minPickupAge": 3
+}

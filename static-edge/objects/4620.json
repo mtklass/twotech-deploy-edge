@@ -1,0 +1,1 @@
+{"id":"4620","name":"Glass Tube","transitionsToward":[{"targetID":"4636","newActorID":"4620","newTargetID":"4545","hand":true},{"targetID":"6888","newActorID":"4620","newTargetID":"2575","hand":true}],"transitionsAway":[],"transitionsTimed":[],"version":"20271","craftable":false,"size":2,"minPickupAge":3,"sounds":[405],"techTree":[{"id":"4636","nodes":null}]}

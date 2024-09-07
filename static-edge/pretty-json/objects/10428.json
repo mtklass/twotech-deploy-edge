@@ -1,0 +1,19 @@
+{
+  "id": "10428",
+  "name": "(outdated) Bottle of Whole Milk  - funnel",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [
+    {
+      "targetID": "10428",
+      "newTargetID": "3619",
+      "decay": "1s"
+    }
+  ],
+  "version": "20290",
+  "numUses": 4,
+  "craftable": false,
+  "sounds": [
+    405
+  ]
+}

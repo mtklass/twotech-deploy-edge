@@ -1,0 +1,54 @@
+{
+  "id": "5284",
+  "name": "Steel Blade Blank with Copper Plate",
+  "transitionsToward": [
+    {
+      "actorID": "5285",
+      "newActorID": "239",
+      "newTargetID": "5284",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "targetID": "5284",
+      "newActorID": "459",
+      "newTargetID": "4539",
+      "hand": true
+    },
+    {
+      "actorID": "239",
+      "targetID": "5284",
+      "newTargetID": "5285",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 1,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "5285",
+      "nodes": [
+        {
+          "decay": "5s"
+        },
+        {
+          "id": "5286",
+          "nodes": [
+            {
+              "id": "5285",
+              "nodes": []
+            },
+            {
+              "id": "304",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

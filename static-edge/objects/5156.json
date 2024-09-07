@@ -1,0 +1,1 @@
+{"id":"5156","name":"Crown of Avalon","transitionsToward":[],"transitionsAway":[{"actorID":"5156","targetID":"4436","newActorID":"5156","newTargetID":"5179","hand":true,"tool":true}],"transitionsTimed":[],"version":"20271","craftable":false,"clothing":"h","insulation":0,"size":1,"minPickupAge":3,"speedMult":0.5}

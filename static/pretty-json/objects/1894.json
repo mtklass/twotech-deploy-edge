@@ -1,0 +1,207 @@
+{
+  "id": "1894",
+  "name": "Bowl of Ultramarine Pigment",
+  "transitionsToward": [
+    {
+      "targetID": "3691",
+      "newTargetID": "1894",
+      "decay": "1s"
+    },
+    {
+      "actorID": "3604",
+      "newActorUses": "-1",
+      "targetID": "235",
+      "newActorID": "3661",
+      "newTargetID": "1894",
+      "hand": true
+    },
+    {
+      "actorID": "3604",
+      "actorUses": "last",
+      "targetID": "235",
+      "newActorID": "3686",
+      "newTargetID": "1894",
+      "hand": true
+    },
+    {
+      "actorID": "3661",
+      "newActorUses": "-1",
+      "targetID": "235",
+      "newActorID": "3661",
+      "newTargetID": "1894",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "3661",
+      "actorUses": "last",
+      "targetID": "235",
+      "newActorID": "3686",
+      "newTargetID": "1894",
+      "hand": true
+    },
+    {
+      "actorID": "4350",
+      "targetID": "6379",
+      "newActorID": "1894",
+      "newTargetID": "6379",
+      "newActorWeight": 0.1,
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "1894",
+      "targetID": "1903",
+      "newActorID": "235",
+      "newTargetID": "1904",
+      "hand": true
+    },
+    {
+      "actorID": "1894",
+      "targetID": "1906",
+      "newActorID": "235",
+      "newTargetID": "7935",
+      "hand": true
+    },
+    {
+      "actorID": "1894",
+      "targetID": "3351",
+      "newTargetUses": "last",
+      "newActorID": "235",
+      "newTargetID": "3631",
+      "hand": true
+    },
+    {
+      "actorID": "1894",
+      "targetID": "3631",
+      "newTargetUses": "+1",
+      "newActorID": "235",
+      "newTargetID": "3631",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.121",
+  "version": "158",
+  "craftable": true,
+  "depth": 17,
+  "size": 2,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "decay": "1s"
+    },
+    {
+      "id": "3691",
+      "nodes": [
+        {
+          "id": "33",
+          "nodes": null
+        },
+        {
+          "id": "1892",
+          "nodes": [
+            {
+              "id": "1890",
+              "nodes": null
+            },
+            {
+              "id": "235",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "126",
+          "depth": 7,
+          "targetID": "125",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "233",
+          "mainBranch": true,
+          "depth": 6,
+          "actorID": "33",
+          "targetID": "126",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "284",
+          "mainBranch": true,
+          "depth": 5,
+          "actorID": "239",
+          "targetID": "233",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "283",
+          "mainBranch": true,
+          "depth": 4,
+          "actorID": "284",
+          "targetID": "282",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "235",
+          "mainBranch": true,
+          "depth": 3,
+          "actorID": "283",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1892",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "1890",
+          "targetID": "235",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "3691",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "33",
+          "targetID": "1892",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "1894",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "3691",
+          "decay": "1s"
+        }
+      ]
+    ],
+    "ingredients": [
+      "282",
+      "239",
+      "33",
+      "1890",
+      "125"
+    ]
+  }
+}

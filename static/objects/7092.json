@@ -1,0 +1,1 @@
+{"id":"7092","name":"Large Cart","transitionsToward":[],"transitionsAway":[{"actorID":"7092","targetID":"774","newTargetID":"7109","hand":true}],"transitionsTimed":[],"version":"20271","craftable":false,"numSlots":3,"slotSize":3,"minPickupAge":3,"sounds":[74,496]}

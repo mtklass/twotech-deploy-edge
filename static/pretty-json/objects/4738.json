@@ -1,0 +1,81 @@
+{
+  "id": "4738",
+  "name": "Burlap Sack  - wheat 3",
+  "transitionsToward": [
+    {
+      "actorID": "4737",
+      "targetID": "297",
+      "newActorID": "4738",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "235",
+      "targetID": "4738",
+      "newActorID": "245",
+      "newTargetID": "4737",
+      "hand": true
+    },
+    {
+      "actorID": "4738",
+      "targetID": "4796",
+      "newActorID": "4741",
+      "newTargetID": "4796",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "size": 2,
+  "minPickupAge": 3,
+  "techTree": [
+    {
+      "id": "4737",
+      "nodes": [
+        {
+          "id": "4736",
+          "nodes": [
+            {
+              "id": "4735",
+              "nodes": []
+            },
+            {
+              "id": "297",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "297",
+          "nodes": [
+            {
+              "id": "226",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "297",
+      "nodes": [
+        {
+          "id": "226",
+          "nodes": [
+            {
+              "id": "64",
+              "nodes": []
+            },
+            {
+              "id": "225",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

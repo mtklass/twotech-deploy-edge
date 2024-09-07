@@ -1,0 +1,272 @@
+{
+  "id": "13286",
+  "name": "Granite Block",
+  "transitionsToward": [
+    {
+      "targetID": "13288",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.8,
+      "newActorID": "13286",
+      "newTargetID": "8904",
+      "hand": true
+    },
+    {
+      "targetID": "13288",
+      "targetUses": "last",
+      "newActorID": "13286",
+      "newTargetID": "8911",
+      "hand": true
+    },
+    {
+      "actorID": "684",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "8795",
+      "newActorID": "684",
+      "newTargetID": "13286",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "684",
+      "actorUses": "last",
+      "targetID": "8795",
+      "newActorID": "858",
+      "newTargetID": "13286",
+      "hand": true
+    },
+    {
+      "actorID": "684",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "8793",
+      "newActorID": "684",
+      "newTargetID": "13286",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "684",
+      "actorUses": "last",
+      "targetID": "8793",
+      "newActorID": "858",
+      "newTargetID": "13286",
+      "hand": true
+    },
+    {
+      "actorID": "684",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "8794",
+      "newActorID": "684",
+      "newTargetID": "13286",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "684",
+      "actorUses": "last",
+      "targetID": "8794",
+      "newActorID": "858",
+      "newTargetID": "13286",
+      "hand": true
+    },
+    {
+      "actorID": "684",
+      "newActorUses": "-1",
+      "newActorWeight": 0.1,
+      "targetID": "8792",
+      "newActorID": "684",
+      "newTargetID": "13286",
+      "hand": true,
+      "tool": true
+    },
+    {
+      "actorID": "684",
+      "actorUses": "last",
+      "targetID": "8792",
+      "newActorID": "858",
+      "newTargetID": "13286",
+      "hand": true
+    },
+    {
+      "targetID": "13287",
+      "newTargetUses": "-1",
+      "newActorID": "13286",
+      "newTargetID": "13287",
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "13287",
+      "targetUses": "last",
+      "newActorID": "13286",
+      "newTargetID": "13286",
+      "hand": true
+    },
+    {
+      "targetID": "9109",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.7,
+      "newActorID": "13286",
+      "newTargetID": "9109",
+      "newActorWeight": 0.45,
+      "targetRemains": true,
+      "hand": true
+    },
+    {
+      "targetID": "9109",
+      "targetUses": "last",
+      "newActorID": "13286",
+      "newTargetID": "9111",
+      "newActorWeight": 0.45,
+      "hand": true
+    },
+    {
+      "targetID": "10213",
+      "newActorID": "13286",
+      "newTargetID": "10214",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "13286",
+      "targetID": "486",
+      "newActorID": "107",
+      "newTargetID": "8795",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "108",
+      "newActorID": "107",
+      "newTargetID": "8793",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "109",
+      "newActorID": "107",
+      "newTargetID": "8794",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "110",
+      "newActorID": "107",
+      "newTargetID": "8792",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "14064",
+      "newTargetID": "8795",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "14049",
+      "newTargetID": "8793",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "14050",
+      "newTargetID": "8794",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "14048",
+      "newTargetID": "8792",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "13286",
+      "newTargetUses": "last",
+      "newTargetID": "13287",
+      "hand": true
+    },
+    {
+      "actorID": "13286",
+      "targetID": "13287",
+      "newTargetUses": "+1",
+      "newTargetID": "13287",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "difficulty": "0.578",
+  "version": "20300",
+  "craftable": true,
+  "depth": 96,
+  "size": 2,
+  "minPickupAge": 14,
+  "speedMult": 0.5,
+  "sounds": [
+    78
+  ],
+  "techTree": [
+    {
+      "id": "13288",
+      "nodes": [
+        {
+          "id": "684",
+          "nodes": [
+            {
+              "id": "67",
+              "nodes": []
+            },
+            {
+              "id": "685",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "id": "8904",
+          "nodes": [
+            {
+              "decay": "1s"
+            },
+            {
+              "id": "10210",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "13288",
+          "mainBranch": true,
+          "depth": 1,
+          "actorID": "684",
+          "targetID": "8904",
+          "weight": 0.5,
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "13286",
+          "mainBranch": true,
+          "depth": 0,
+          "targetID": "13288",
+          "hand": true
+        }
+      ]
+    ],
+    "ingredients": [
+      "684",
+      "8904"
+    ]
+  }
+}

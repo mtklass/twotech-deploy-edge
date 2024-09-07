@@ -1,0 +1,136 @@
+{
+  "id": "8829",
+  "name": "Baby Alpaca",
+  "transitionsToward": [
+    {
+      "actorID": "8826",
+      "actorUses": "last",
+      "newActorID": "8829",
+      "newTargetID": "8819"
+    },
+    {
+      "actorID": "9137",
+      "newActorID": "59",
+      "newTargetID": "8829",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [
+    {
+      "actorID": "4784",
+      "targetID": "8829",
+      "newTargetID": "8828",
+      "hand": true
+    },
+    {
+      "actorID": "59",
+      "targetID": "8829",
+      "newActorID": "9137",
+      "hand": true
+    },
+    {
+      "actorID": "11933",
+      "targetID": "8829",
+      "newActorID": "6465",
+      "newTargetID": "8829",
+      "targetRemains": true,
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [
+    {
+      "targetID": "8829",
+      "newTargetUses": "-1",
+      "newTargetWeight": 0.8,
+      "newTargetID": "8829",
+      "targetRemains": true,
+      "decay": "3s",
+      "move": 2
+    },
+    {
+      "targetID": "8829",
+      "targetUses": "last",
+      "newTargetID": "8825",
+      "decay": "3s",
+      "move": 2
+    }
+  ],
+  "difficulty": "0.0244",
+  "version": "20286",
+  "numUses": 10,
+  "useChance": 0.8,
+  "craftable": true,
+  "depth": 4,
+  "speedMult": 0.8,
+  "moveType": 2,
+  "moveDistance": 2,
+  "techTree": [
+    {
+      "id": "8826",
+      "nodes": [
+        {
+          "decay": "3s"
+        },
+        {
+          "id": "8823",
+          "nodes": [
+            {
+              "id": "4784",
+              "nodes": []
+            },
+            {
+              "id": "8819",
+              "nodes": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recipe": {
+    "steps": [
+      [
+        {
+          "id": "4784",
+          "mainBranch": true,
+          "depth": 3,
+          "targetID": "7312",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8823",
+          "mainBranch": true,
+          "depth": 2,
+          "actorID": "4784",
+          "targetID": "8819",
+          "hand": true
+        }
+      ],
+      [
+        {
+          "id": "8826",
+          "mainBranch": true,
+          "depth": 1,
+          "targetID": "8823",
+          "targetUses": "last",
+          "decay": "30s"
+        }
+      ],
+      [
+        {
+          "id": "8829",
+          "mainBranch": true,
+          "depth": 0,
+          "actorID": "8826",
+          "actorUses": "last"
+        }
+      ]
+    ],
+    "ingredients": [
+      "7312",
+      "8819"
+    ]
+  }
+}

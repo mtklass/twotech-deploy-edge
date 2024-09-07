@@ -1,0 +1,47 @@
+{
+  "id": "6417",
+  "name": "(outdated) Spinning Wheel Frame and Wheel",
+  "transitionsToward": [
+    {
+      "actorID": "6415",
+      "targetID": "6416",
+      "newTargetID": "6417",
+      "hand": true
+    }
+  ],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20271",
+  "craftable": false,
+  "speedMult": 0.5,
+  "sounds": [
+    34
+  ],
+  "techTree": [
+    {
+      "id": "6415",
+      "nodes": [
+        {
+          "decay": "1s"
+        },
+        {
+          "id": "6414",
+          "nodes": [
+            {
+              "id": "6412",
+              "nodes": null
+            },
+            {
+              "id": "475",
+              "nodes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6416",
+      "nodes": null
+    }
+  ]
+}

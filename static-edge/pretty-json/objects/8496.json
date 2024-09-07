@@ -1,0 +1,10 @@
+{
+  "id": "8496",
+  "name": "@ Single Board Wall",
+  "transitionsToward": [],
+  "transitionsAway": [],
+  "transitionsTimed": [],
+  "version": "20280",
+  "craftable": false,
+  "minPickupAge": 3
+}

@@ -1,0 +1,19 @@
+{
+  "id": "7561",
+  "name": "Disassembled Knitting Needles",
+  "transitionsToward": [],
+  "transitionsAway": [
+    {
+      "targetID": "7561",
+      "newActorID": "852",
+      "newTargetID": "852",
+      "hand": true
+    }
+  ],
+  "transitionsTimed": [],
+  "version": "20272",
+  "craftable": false,
+  "sounds": [
+    748
+  ]
+}
