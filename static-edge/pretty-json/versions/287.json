@@ -1,0 +1,468 @@
+{
+  "id": "287",
+  "date": "2019-11-19T08:05:45.000Z",
+  "commits": [
+    {
+      "sha": "a99962d3ce418179bff9efc3163b323dadcf2b56",
+      "message": "Fixed snow rubble bug.",
+      "date": "2019-11-19T07:12:31.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "3271",
+          "decay": "30s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3271",
+          "newTargetID": "3266",
+          "decay": "30s"
+        }
+      ]
+    },
+    {
+      "sha": "bdf0152a10f65aa33776cc065e7f242eb3036bae",
+      "message": "Scene for update.",
+      "date": "2019-11-19T07:07:49.000Z"
+    },
+    {
+      "sha": "093738b62eff2830dac8c3212eaab645d8c71e86",
+      "message": "Test scene",
+      "date": "2019-11-19T06:05:00.000Z"
+    },
+    {
+      "sha": "2f1eddf3f23e8ca4637fa9e66b826546d5874923",
+      "message": "Snow wall no longer needs behind-layer shadow",
+      "date": "2019-11-19T05:29:06.000Z"
+    },
+    {
+      "sha": "0b7d0375e35c22dca028cba56349f0d2c9111746",
+      "message": "Snow construction and various tattoos.",
+      "date": "2019-11-19T05:25:45.000Z",
+      "addedObjectIDs": [
+        "3266",
+        "3267",
+        "3268",
+        "3269",
+        "3270",
+        "3271",
+        "3272",
+        "3273",
+        "3274",
+        "3275",
+        "3276",
+        "3277",
+        "3278",
+        "3279",
+        "3280",
+        "3281",
+        "3282",
+        "3283",
+        "3284",
+        "3285",
+        "3286",
+        "3287"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3271",
+          "newTargetID": "3266",
+          "decay": "30s"
+        },
+        {
+          "actorID": "2411",
+          "targetID": "108",
+          "newActorID": "107",
+          "newTargetID": "3268",
+          "hand": true
+        },
+        {
+          "actorID": "2411",
+          "targetID": "109",
+          "newActorID": "107",
+          "newTargetID": "3267",
+          "hand": true
+        },
+        {
+          "actorID": "2411",
+          "targetID": "110",
+          "newActorID": "107",
+          "newTargetID": "3266",
+          "hand": true
+        },
+        {
+          "actorID": "2411",
+          "targetID": "486",
+          "newActorID": "107",
+          "newTargetID": "3270",
+          "hand": true
+        },
+        {
+          "actorID": "3248",
+          "targetID": "1878",
+          "newActorID": "3285",
+          "hand": true
+        },
+        {
+          "actorID": "3248",
+          "targetID": "3074",
+          "newActorID": "3287",
+          "hand": true
+        },
+        {
+          "actorID": "3248",
+          "targetID": "58",
+          "newActorID": "3286",
+          "hand": true
+        },
+        {
+          "actorID": "3248",
+          "targetID": "59",
+          "newActorID": "3282",
+          "hand": true
+        },
+        {
+          "actorID": "3248",
+          "targetID": "68",
+          "newActorID": "3283",
+          "hand": true
+        },
+        {
+          "actorID": "3248",
+          "targetID": "69",
+          "newActorID": "3284",
+          "hand": true
+        },
+        {
+          "actorID": "3269",
+          "targetID": "3269",
+          "newTargetID": "3268",
+          "hand": true
+        },
+        {
+          "actorID": "3282",
+          "newActorID": "3248",
+          "newTargetID": "59",
+          "hand": true
+        },
+        {
+          "actorID": "3283",
+          "newActorID": "3248",
+          "newTargetID": "68",
+          "hand": true
+        },
+        {
+          "actorID": "3283",
+          "newActorID": "191",
+          "targetPlayer": true,
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3283",
+          "newActorID": "191",
+          "newTargetID": "3272",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3284",
+          "newActorID": "3248",
+          "newTargetID": "69",
+          "hand": true
+        },
+        {
+          "actorID": "3284",
+          "newActorID": "191",
+          "targetPlayer": true,
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3284",
+          "newActorID": "191",
+          "newTargetID": "3273",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3285",
+          "newActorID": "3248",
+          "newTargetID": "1878",
+          "hand": true
+        },
+        {
+          "actorID": "3285",
+          "newActorID": "191",
+          "targetPlayer": true,
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3285",
+          "newActorID": "191",
+          "newTargetID": "3274",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3286",
+          "newActorID": "3248",
+          "newTargetID": "58",
+          "hand": true
+        },
+        {
+          "actorID": "3286",
+          "newActorID": "191",
+          "targetPlayer": true,
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3286",
+          "newActorID": "191",
+          "newTargetID": "3275",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3287",
+          "newActorID": "3248",
+          "newTargetID": "3074",
+          "hand": true
+        },
+        {
+          "actorID": "3287",
+          "newActorID": "191",
+          "targetPlayer": true,
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3287",
+          "newActorID": "191",
+          "newTargetID": "3276",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3266",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3267",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3268",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3269",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3270",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "3268",
+          "newActorID": "502",
+          "newTargetID": "3269",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3248",
+          "attributes": {
+            "name": {
+              "from": "Tattoo Needle -  +noWait",
+              "to": "Tattoo Needle"
+            }
+          }
+        },
+        {
+          "id": "3249",
+          "attributes": {
+            "name": {
+              "from": "Tattoo -  no_replace emot_17_-1",
+              "to": "Chest Tattoo -  no_replace emot_17_-1"
+            }
+          }
+        },
+        {
+          "id": "3250",
+          "attributes": {
+            "name": {
+              "from": "Tatoo Body",
+              "to": "Chest Tattoo"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3248",
+          "name": "Tattoo Needle",
+          "category": false
+        },
+        {
+          "id": "3272",
+          "name": "Back Tattoo -  no_replace emot_22_-1",
+          "category": false
+        },
+        {
+          "id": "3273",
+          "name": "Mouth Tattoo -  no_replace emot_23_-1",
+          "category": false
+        },
+        {
+          "id": "3274",
+          "name": "Head Tattoo -  no_replace emot_24_-1",
+          "category": false
+        },
+        {
+          "id": "3275",
+          "name": "Face Tattoo -  no_replace emot_25_-1",
+          "category": false
+        },
+        {
+          "id": "3276",
+          "name": "Stomach Tattoo -  no_replace emot_26_-1",
+          "category": false
+        },
+        {
+          "id": "3277",
+          "name": "Back Tattoo",
+          "category": false
+        },
+        {
+          "id": "3278",
+          "name": "Mouth Tattoo",
+          "category": false
+        },
+        {
+          "id": "3279",
+          "name": "Head Tattoo",
+          "category": false
+        },
+        {
+          "id": "3280",
+          "name": "Face Tattoo",
+          "category": false
+        },
+        {
+          "id": "3281",
+          "name": "Stomach Tattoo",
+          "category": false
+        },
+        {
+          "id": "3282",
+          "name": "Rope Template Tattoo Needle -  +noWait",
+          "category": false
+        },
+        {
+          "id": "3283",
+          "name": "Curve Template Tattoo Needle -  +noWait",
+          "category": false
+        },
+        {
+          "id": "3284",
+          "name": "Gap Template Tattoo Needle -  +noWait",
+          "category": false
+        },
+        {
+          "id": "3285",
+          "name": "Leaf Template Tattoo Needle -  +noWait",
+          "category": false
+        },
+        {
+          "id": "3286",
+          "name": "Thread Template Tattoo Needle -  +noWait",
+          "category": false
+        },
+        {
+          "id": "3287",
+          "name": "Leafy Template Tattoo Needle -  +noWait",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "b18ec99a371cd0e67ee72429d5d3125b9b3000de",
+      "message": "Mango and sugarcane cultivation jungle only.",
+      "date": "2019-11-19T00:33:01.000Z",
+      "objectChanges": [
+        {
+          "id": "1868",
+          "attributes": {
+            "name": {
+              "from": "Dry Mango Sapling Cutting",
+              "to": "Dry Mango Sapling Cutting - Jungle Only -  +biomeReq6"
+            }
+          }
+        },
+        {
+          "id": "2770",
+          "attributes": {
+            "name": {
+              "from": "Dry Planted Sugarcane",
+              "to": "Dry Planted Sugarcane - Jungle Only -  +biomeReq6"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "31e9f33ad82a6233544b4a9605637cdfcebb5732",
+      "message": "Dark Nosaj no longer limited-count rand placement.  Fixes #506",
+      "date": "2019-11-18T18:47:12.000Z",
+      "objectChanges": [
+        {
+          "id": "2466",
+          "attributes": {
+            "name": {
+              "from": "Dark Nosaj -  randPlacement13",
+              "to": "Dark Nosaj"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

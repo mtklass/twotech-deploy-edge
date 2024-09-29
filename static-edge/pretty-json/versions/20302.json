@@ -1,0 +1,1306 @@
+{
+  "id": "20302",
+  "date": "2023-03-27T08:35:37.000Z",
+  "commits": [
+    {
+      "sha": "54cae90a76d3113ed86b4ec48eef829908b21423",
+      "message": "Hot fix for the tongs category",
+      "date": "2023-03-27T08:35:37.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "239",
+          "targetID": "13435",
+          "newActorID": "239",
+          "newTargetID": "13436",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13435",
+          "newActorID": "13507",
+          "newTargetID": "13436",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "346fdd3866e35bd7ca5ad98882226458b7c8ccfd",
+      "message": "Revert \"Can use any tongs to open brewery's door\"",
+      "date": "2023-03-27T08:29:03.000Z",
+      "removedObjectIDs": [
+        "13507"
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "57fc56941431bcd11fc4f205c3f6bfa073380c19",
+      "message": "Revert \"Accidentally removed granite blocks from pile category\"",
+      "date": "2023-03-27T07:55:28.000Z"
+    },
+    {
+      "sha": "10cec7c5a4b166736ff5a6e9bedb0f2fbbee09a6",
+      "message": "Accidentally removed granite blocks from pile category",
+      "date": "2023-03-27T07:13:22.000Z"
+    },
+    {
+      "sha": "94ce2a1e3dc14be005b2e176232ca360b462f16d",
+      "message": "Can use any tongs to open brewery's door",
+      "date": "2023-03-27T07:11:31.000Z",
+      "addedObjectIDs": [
+        "13507"
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "9da05147623bb1fd1220aa0543d2e0dd56b45cd8",
+      "message": "Cage food value goes into bonus",
+      "date": "2023-03-25T16:53:39.000Z"
+    },
+    {
+      "sha": "f8d4ca6f1835b2a05b9bdf2660327e5b917dfe8a",
+      "message": "Removed over-boiling water in brewery",
+      "date": "2023-03-25T03:36:34.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13435",
+          "newActorID": "13507",
+          "newTargetID": "13436",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "13428",
+          "newTargetID": "13444",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "13435",
+          "newTargetID": "13436",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "a9c847b8bba64b429b8cd56f37b4db7099c34058",
+      "message": "Can use bagasse to make paper",
+      "date": "2023-03-23T16:27:01.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2782",
+          "targetID": "291",
+          "newActorID": "235",
+          "newTargetID": "1606",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "b916ffe2db3761ffedf6d93163f5601b50f3061a",
+      "message": "Can drop stakes from bowl/basket/bucket",
+      "date": "2023-03-23T16:11:07.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "13348",
+          "newActorID": "659",
+          "newTargetID": "3060",
+          "hand": true
+        },
+        {
+          "actorID": "6861",
+          "newActorID": "292",
+          "newTargetID": "3060",
+          "hand": true
+        },
+        {
+          "actorID": "6879",
+          "newActorID": "235",
+          "newTargetID": "3060",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3060",
+          "attributes": {
+            "name": {
+              "from": "Stakes -  track laid",
+              "to": "Stakes -  just dropped"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "f87b4a7268688ac220cd3081e57106fb0014bd9e",
+      "message": "Stackable blowpipes",
+      "date": "2023-03-22T16:54:20.000Z",
+      "addedObjectIDs": [
+        "13500"
+      ]
+    },
+    {
+      "sha": "f35cfbdfc3587e0651089b9c3b54cb6fe5e47004",
+      "message": "Water snare can be retrieved and broken down",
+      "date": "2023-03-22T16:49:03.000Z",
+      "addedObjectIDs": [
+        "13499"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13499",
+          "newActorID": "33",
+          "newTargetID": "160",
+          "hand": true
+        },
+        {
+          "targetID": "8996",
+          "newActorID": "1620",
+          "newTargetID": "8997",
+          "hand": true
+        },
+        {
+          "targetID": "8997",
+          "newActorID": "8982",
+          "newTargetID": "6438",
+          "hand": true
+        },
+        {
+          "actorID": "9046",
+          "newActorUses": "-1",
+          "targetID": "8982",
+          "newActorID": "9046",
+          "newTargetID": "13499",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "9046",
+          "name": "@ Tier 1 Knives",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "d6673f5149cf3601d4d4f92cb3a7f7e67d46b4a3",
+      "message": "Fixed fish bone crock contained pos",
+      "date": "2023-03-22T16:34:51.000Z"
+    },
+    {
+      "sha": "145eaa4fba84a55e4c775a8f608fcea24a55d0bd",
+      "message": "Bowl of sand contained sideway",
+      "date": "2023-03-22T15:55:15.000Z"
+    },
+    {
+      "sha": "8ea017cce91e65898705bf7640c720a0868043da",
+      "message": "Fixing the beer rework testing bugs",
+      "date": "2023-03-22T15:44:31.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "13472",
+          "newActorID": "4543",
+          "newTargetID": "13470",
+          "hand": true
+        },
+        {
+          "actorID": "11633",
+          "newActorUses": "-1",
+          "targetID": "4539",
+          "newActorID": "11633",
+          "newTargetID": "2548",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4543",
+          "targetID": "13470",
+          "newTargetID": "13472",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "13472",
+          "newActorID": "4539",
+          "newTargetID": "13471",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "11633",
+          "name": "@ Any Smithing Hammer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "7d96d13762ce580cedaed1a2e45d9b5cf507cdb3",
+      "message": "Missing beer drinking sound",
+      "date": "2023-03-17T17:42:41.000Z"
+    },
+    {
+      "sha": "5598574bf0b4e2ba557adea4a3faff6024b2cbde",
+      "message": "Sound of using a maple syrup bucket",
+      "date": "2023-03-17T17:13:10.000Z"
+    },
+    {
+      "sha": "b7844fe19a1ab5b246e68e86f007661a6a40652e",
+      "message": "Roast pig dinner not containable in small containers other than tables and shelves",
+      "date": "2023-03-17T16:42:39.000Z"
+    },
+    {
+      "sha": "ce1fd9c5f3c598ade629fe01d444452929012744",
+      "message": "Crock of shredded cabbage can be picked up",
+      "date": "2023-03-17T16:42:02.000Z"
+    },
+    {
+      "sha": "2c976d06c88280319d997b7a6f179416fa1b8ea8",
+      "message": "Sound of pancake mix",
+      "date": "2023-03-17T16:40:04.000Z"
+    },
+    {
+      "sha": "31722dc9a2beacd0b6e023c1708c309901573aae",
+      "message": "Sound of harvesting rice",
+      "date": "2023-03-17T16:33:45.000Z"
+    },
+    {
+      "sha": "5ad7574d89c34a6a92be9f7fd1d063e543299362",
+      "message": "Can get fish off flat rock",
+      "date": "2023-03-17T16:29:46.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "6483",
+          "newActorID": "2096",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "targetID": "7841",
+          "newActorID": "7799",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "targetID": "7842",
+          "newActorID": "7801",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "targetID": "7843",
+          "newActorID": "7807",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "targetID": "7844",
+          "newActorID": "7811",
+          "newTargetID": "291",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "67aa20488ed316565daac554dda73e6946ac0cf8",
+      "message": "Creation sound of fishes on flat rock",
+      "date": "2023-03-17T16:26:31.000Z"
+    },
+    {
+      "sha": "2e2fabebe721bbe928a68914e9d551dc26192999",
+      "message": "Containable unripe cheese",
+      "date": "2023-03-17T16:18:37.000Z"
+    },
+    {
+      "sha": "f48601c9c894f3e1e9dbcd43e3fe4bc95e467c75",
+      "message": "Buttermilk and related bowls on tables and shelves",
+      "date": "2023-03-17T15:47:18.000Z"
+    },
+    {
+      "sha": "4824822ad77f10557c191f1b5d9f7d01be9b2fe6",
+      "message": "Pair of sandals",
+      "date": "2023-03-17T15:44:10.000Z",
+      "addedObjectIDs": [
+        "13482"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13482",
+          "newActorID": "2887",
+          "newTargetID": "2887",
+          "hand": true
+        },
+        {
+          "actorID": "2887",
+          "targetID": "2887",
+          "newTargetID": "13482",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c55262ef23411b9fc371815583d2737941854d27",
+      "message": "Can put sardine on plate",
+      "date": "2023-03-17T15:42:23.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7924",
+          "targetID": "236",
+          "newTargetID": "7925",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "b57aeb11800d2f88926e10718404de124fdd283f",
+      "message": "Scooping meat with bowl",
+      "date": "2023-03-17T15:11:04.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "1342",
+          "newActorID": "1354",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "569",
+          "newActorID": "6924",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "6936",
+          "newActorID": "6925",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "ad72a952eeb8be768070d95c4cfc2655856ea898",
+      "message": "Missing food ingredients on tables / shelves",
+      "date": "2023-03-17T14:53:45.000Z"
+    },
+    {
+      "sha": "4a7793eea312fe675e8393a819e5c7f6394a56be",
+      "message": "Some baskets of bones have sprites wider than the basket, causing weird contained pos",
+      "date": "2023-03-16T16:06:57.000Z"
+    },
+    {
+      "sha": "f4e733755298e2f5e1d291d31dea9f4810e6b47c",
+      "message": "Minor changes to cat bones",
+      "date": "2023-03-16T15:41:39.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "11661",
+          "newActorUses": "-1",
+          "targetID": "10850",
+          "newActorID": "11661",
+          "newTargetID": "10926",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "11661",
+          "name": "@ Any Shovel",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "902f119841047a8d4a2dda64d89b8568c11c92d1",
+      "message": "Can feed standing cats with the category of cat food",
+      "date": "2023-03-16T15:34:35.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "12716",
+          "newActorUses": "-1",
+          "targetID": "10940",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10938",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "10938",
+          "name": "@ Cat - fed",
+          "category": true
+        },
+        {
+          "id": "10940",
+          "name": "@ Cat - standing",
+          "category": true
+        },
+        {
+          "id": "12716",
+          "name": "@ Cat Food Bowl",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "d2e0586c6c45fcfc20398a762dabacfafcf281fe",
+      "message": "Any color boards can be used to build shelves",
+      "date": "2023-03-16T15:27:40.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "8448",
+          "targetID": "11900",
+          "newTargetUses": "last",
+          "newTargetID": "11901",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "11901",
+          "newTargetUses": "+1",
+          "newTargetID": "11901",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "11901",
+          "targetUses": "max",
+          "newTargetID": "11902",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8448",
+          "name": "@ Any Board Color",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "3c5c1c8eb1588edeb47664a97cdfa2b901365851",
+      "message": "Missed maple syrup changes",
+      "date": "2023-03-16T15:18:52.000Z",
+      "addedObjectIDs": [
+        "13481"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13481",
+          "newTargetID": "8583",
+          "decay": "2m"
+        },
+        {
+          "targetID": "8582",
+          "newTargetID": "13481",
+          "decay": "20s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8582",
+          "newTargetID": "8583",
+          "decay": "5m"
+        }
+      ]
+    },
+    {
+      "sha": "49df20f6bdba9adeefefbe8f7513f43f9a80494e",
+      "message": "Clothes on hanger should not be containable anywhere than racks",
+      "date": "2023-03-16T14:46:22.000Z"
+    },
+    {
+      "sha": "bc92440bef80a1b56641eb0b054f6b5ba2ff298b",
+      "message": "Silver snake crown should be made from silver",
+      "date": "2023-03-16T14:43:06.000Z"
+    },
+    {
+      "sha": "455f240ea8dd569ed127936311e3575a760fdcab",
+      "message": "Minor changes to stove and frame on their storage",
+      "date": "2023-03-16T14:40:29.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "4840",
+          "newTargetID": "4769",
+          "hand": true
+        },
+        {
+          "actorID": "4841",
+          "targetID": "4769",
+          "newTargetID": "4770",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "9b106e9958e12390ce699ddce2b3ce4508b6ff30",
+      "message": "Temp transitions to turn old distillery to new brewery",
+      "date": "2023-03-15T16:18:35.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "4533",
+          "newTargetID": "13424",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4534",
+          "newTargetID": "13424",
+          "decay": "1s"
+        }
+      ]
+    },
+    {
+      "sha": "827095cf738414b75071731f2f9272b25fae5f04",
+      "message": "Beer rework",
+      "date": "2023-03-08T15:18:23.000Z",
+      "addedObjectIDs": [
+        "13424",
+        "13425",
+        "13426",
+        "13427",
+        "13428",
+        "13429",
+        "13430",
+        "13431",
+        "13432",
+        "13433",
+        "13434",
+        "13435",
+        "13436",
+        "13438",
+        "13439",
+        "13440",
+        "13441",
+        "13442",
+        "13443",
+        "13444",
+        "13445",
+        "13446",
+        "13447",
+        "13448",
+        "13449",
+        "13450",
+        "13451",
+        "13452",
+        "13454",
+        "13455",
+        "13456",
+        "13457",
+        "13458",
+        "13459",
+        "13460",
+        "13461",
+        "13462",
+        "13463",
+        "13464",
+        "13465",
+        "13466",
+        "13467",
+        "13468",
+        "13469",
+        "13470",
+        "13471",
+        "13472",
+        "13473",
+        "13474",
+        "13475",
+        "13476",
+        "13477",
+        "13478",
+        "13479",
+        "13480",
+        "4070"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13428",
+          "newTargetID": "13429",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13429",
+          "newTargetID": "13424",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13430",
+          "newTargetID": "13443",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13434",
+          "newTargetID": "13443",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13435",
+          "newTargetID": "13443",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13436",
+          "newTargetID": "13439",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13440",
+          "newTargetID": "13441",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13441",
+          "newTargetID": "13442",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13443",
+          "newTargetID": "13424",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13444",
+          "newTargetID": "13445",
+          "decay": "10s"
+        },
+        {
+          "targetID": "13447",
+          "newTargetID": "13448",
+          "decay": "5s"
+        },
+        {
+          "targetID": "13450",
+          "newTargetID": "13451",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13456",
+          "newTargetID": "13454",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13458",
+          "newTargetID": "13457",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13460",
+          "newTargetID": "13459",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13461",
+          "newTargetID": "13424",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13478",
+          "newTargetID": "13424",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13479",
+          "newTargetID": "13424",
+          "decay": "5s"
+        },
+        {
+          "targetID": "13428",
+          "newTargetID": "13444",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "13435",
+          "newTargetID": "13436",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "13439",
+          "newTargetID": "13438",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "13445",
+          "newTargetID": "13461",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "13470",
+          "newActorID": "13469",
+          "newTargetID": "13469",
+          "hand": true
+        },
+        {
+          "targetID": "13471",
+          "newActorID": "4539",
+          "newTargetID": "13470",
+          "hand": true
+        },
+        {
+          "targetID": "13472",
+          "newActorID": "4539",
+          "newTargetID": "13471",
+          "hand": true
+        },
+        {
+          "targetID": "13474",
+          "newActorID": "4545",
+          "newTargetID": "13473",
+          "hand": true
+        },
+        {
+          "targetID": "13475",
+          "newActorID": "4544",
+          "newTargetID": "13473",
+          "hand": true
+        },
+        {
+          "targetID": "13476",
+          "newActorID": "4543",
+          "newTargetID": "13473",
+          "hand": true
+        },
+        {
+          "targetID": "13477",
+          "newActorID": "4539",
+          "newTargetID": "13473",
+          "hand": true
+        },
+        {
+          "actorID": "11633",
+          "newActorUses": "-1",
+          "targetID": "13472",
+          "newActorID": "11633",
+          "newTargetID": "13473",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "11633",
+          "newActorUses": "-1",
+          "targetID": "13474",
+          "newActorID": "11633",
+          "newTargetID": "13478",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "11633",
+          "newActorUses": "-1",
+          "targetID": "2514",
+          "newActorID": "11633",
+          "newTargetID": "4539",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "11633",
+          "newActorUses": "-1",
+          "targetID": "4543",
+          "newActorID": "11633",
+          "newTargetID": "13469",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "11661",
+          "newActorUses": "-1",
+          "targetID": "13449",
+          "newActorID": "11661",
+          "newTargetID": "13450",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "11661",
+          "newActorUses": "-1",
+          "targetID": "13480",
+          "newActorID": "11661",
+          "newTargetID": "13479",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1217",
+          "targetID": "13451",
+          "newActorID": "13452",
+          "hand": true
+        },
+        {
+          "actorID": "13448",
+          "newActorID": "1217",
+          "newTargetID": "13449",
+          "hand": true
+        },
+        {
+          "actorID": "13452",
+          "targetID": "282",
+          "newTargetUses": "-1",
+          "newActorID": "13454",
+          "newTargetID": "282",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13454",
+          "targetID": "4796",
+          "newActorID": "13459",
+          "newTargetID": "4796",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13455",
+          "targetID": "1217",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "13456",
+          "hand": true
+        },
+        {
+          "actorID": "13455",
+          "targetID": "13454",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "13454",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13457",
+          "targetID": "1217",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "13460",
+          "hand": true
+        },
+        {
+          "actorID": "13457",
+          "targetID": "13459",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "13459",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13459",
+          "actorUses": "max",
+          "targetID": "13429",
+          "newActorID": "1217",
+          "newTargetID": "13430",
+          "hand": true
+        },
+        {
+          "actorID": "13462",
+          "targetID": "13424",
+          "newActorID": "659",
+          "newTargetID": "13431",
+          "hand": true
+        },
+        {
+          "actorID": "13462",
+          "targetID": "13479",
+          "newActorID": "659",
+          "newTargetID": "13431",
+          "hand": true
+        },
+        {
+          "actorID": "13463",
+          "targetID": "13424",
+          "newActorID": "659",
+          "newTargetID": "13440",
+          "hand": true
+        },
+        {
+          "actorID": "13464",
+          "newActorID": "13465",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "13442",
+          "newTargetUses": "-1",
+          "newActorID": "13464",
+          "newTargetID": "13442",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "13442",
+          "targetUses": "last",
+          "newActorID": "13464",
+          "newTargetID": "13424",
+          "hand": true
+        },
+        {
+          "actorID": "13467",
+          "newActorID": "239",
+          "newTargetID": "13466",
+          "hand": true
+        },
+        {
+          "actorID": "13467",
+          "targetID": "282",
+          "newTargetUses": "-1",
+          "newActorID": "13468",
+          "newTargetID": "282",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13468",
+          "newActorID": "239",
+          "newTargetID": "13465",
+          "hand": true
+        },
+        {
+          "actorID": "13469",
+          "targetID": "13469",
+          "newTargetID": "13470",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13446",
+          "newTargetUses": "-1",
+          "newActorID": "245",
+          "newTargetID": "13446",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13446",
+          "targetUses": "last",
+          "newActorID": "245",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13454",
+          "newTargetUses": "-1",
+          "newActorID": "13455",
+          "newTargetID": "13454",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13454",
+          "targetUses": "last",
+          "newActorID": "13455",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13459",
+          "newTargetUses": "-1",
+          "newActorID": "13458",
+          "newTargetID": "13459",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13459",
+          "targetUses": "last",
+          "newActorID": "13458",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13466",
+          "newActorID": "13467",
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "1217",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "13446",
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "13446",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "13446",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13427",
+          "newActorID": "248",
+          "newTargetID": "13428",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13433",
+          "newActorID": "248",
+          "newTargetID": "13434",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "13455",
+          "newActorID": "33",
+          "newTargetID": "13457",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "13466",
+          "newActorID": "33",
+          "newTargetID": "234",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "233",
+          "newActorID": "33",
+          "newTargetID": "13466",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4543",
+          "newActorID": "441",
+          "newTargetID": "13469",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4539",
+          "targetID": "13470",
+          "newTargetID": "13471",
+          "hand": true
+        },
+        {
+          "actorID": "4539",
+          "targetID": "13471",
+          "newTargetID": "13472",
+          "hand": true
+        },
+        {
+          "actorID": "4539",
+          "targetID": "13473",
+          "newTargetID": "13477",
+          "hand": true
+        },
+        {
+          "actorID": "4539",
+          "targetID": "13475",
+          "newTargetID": "13474",
+          "hand": true
+        },
+        {
+          "actorID": "4539",
+          "targetID": "13476",
+          "newTargetID": "13475",
+          "hand": true
+        },
+        {
+          "actorID": "4539",
+          "targetID": "13477",
+          "newTargetID": "13476",
+          "hand": true
+        },
+        {
+          "actorID": "4543",
+          "targetID": "13473",
+          "newTargetID": "13476",
+          "hand": true
+        },
+        {
+          "actorID": "4544",
+          "targetID": "13473",
+          "newTargetID": "13475",
+          "hand": true
+        },
+        {
+          "actorID": "4545",
+          "targetID": "13473",
+          "newTargetID": "13474",
+          "hand": true
+        },
+        {
+          "actorID": "4561",
+          "targetID": "13434",
+          "newActorID": "235",
+          "newTargetID": "13435",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "13430",
+          "newActorID": "13462",
+          "newTargetID": "13480",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "13438",
+          "newActorID": "13463",
+          "newTargetID": "13424",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "13424",
+          "newActorID": "1100",
+          "newTargetID": "13425",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "13446",
+          "newActorID": "659",
+          "newTargetID": "13447",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13424",
+          "newActorID": "684",
+          "newTargetID": "4545",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13473",
+          "newActorID": "684",
+          "newTargetID": "4543",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7577",
+          "targetID": "1217",
+          "newActorID": "7573",
+          "newTargetID": "13446",
+          "hand": true
+        },
+        {
+          "actorID": "8517",
+          "targetID": "13425",
+          "newTargetID": "13426",
+          "hand": true
+        },
+        {
+          "actorID": "8517",
+          "targetID": "13426",
+          "newTargetID": "13427",
+          "hand": true
+        },
+        {
+          "actorID": "8517",
+          "targetID": "13431",
+          "newTargetID": "13432",
+          "hand": true
+        },
+        {
+          "actorID": "8517",
+          "targetID": "13432",
+          "newTargetID": "13433",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "33",
+          "targetID": "233",
+          "newActorID": "33",
+          "newTargetID": "234",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4620",
+          "targetID": "4545",
+          "newTargetID": "4636",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8517",
+          "name": "@ Any Firewood",
+          "category": true
+        },
+        {
+          "id": "11633",
+          "name": "@ Any Smithing Hammer",
+          "category": true
+        },
+        {
+          "id": "11661",
+          "name": "@ Any Shovel",
+          "category": true
+        }
+      ]
+    }
+  ]
+}

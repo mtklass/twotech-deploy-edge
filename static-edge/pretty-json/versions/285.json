@@ -1,0 +1,31 @@
+{
+  "id": "285",
+  "date": "2019-11-18T18:34:31.000Z",
+  "commits": [
+    {
+      "sha": "ede1d22052579baaf2956cd2d455222372863e5e",
+      "message": "+neverDrop on both murder weapons.  Related to jasonrohrer/OneLife#444",
+      "date": "2019-11-18T17:09:50.000Z",
+      "objectChanges": [
+        {
+          "id": "749",
+          "attributes": {
+            "name": {
+              "from": "Yew Bow - just murdered offScreenSound_red",
+              "to": "Yew Bow - just murdered offScreenSound_red +neverDrop"
+            }
+          }
+        },
+        {
+          "id": "750",
+          "attributes": {
+            "name": {
+              "from": "Bloody Knife -  offScreenSound_red",
+              "to": "Bloody Knife -  offScreenSound_red +neverDrop"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

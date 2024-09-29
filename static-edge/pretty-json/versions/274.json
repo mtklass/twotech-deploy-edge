@@ -1,0 +1,132 @@
+{
+  "id": "274",
+  "date": "2019-10-23T17:08:24.000Z",
+  "commits": [
+    {
+      "sha": "19db80af17bcf127dbaf1059416e2bdf2f99f525",
+      "message": "Can dig up dry springs (turn to sand piles).",
+      "date": "2019-10-23T16:57:32.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "3174",
+          "newActorID": "502",
+          "newTargetID": "2571",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "3191",
+          "newActorID": "502",
+          "newTargetID": "2571",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3174",
+          "name": "Dry Natural Spring",
+          "category": false
+        },
+        {
+          "id": "3191",
+          "name": "Thoroughly Dry Natural Spring",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7f5cf9a0d58f84cb4c6a69fde275c6d99c36ddc2",
+      "message": "Added last-use targets for post-build-count long-range tapouts.  These leave thoroughly dry wells behind to let players know that the build count has been reached (so they can stop searching for more spring heads).",
+      "date": "2019-10-22T19:54:04.000Z",
+      "addedObjectIDs": [
+        "3191"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "662",
+          "targetID": "3030",
+          "newTargetID": "3191",
+          "hand": true
+        },
+        {
+          "actorID": "662",
+          "targetID": "3174",
+          "newTargetID": "3191",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3174",
+          "name": "Dry Natural Spring",
+          "category": false
+        },
+        {
+          "id": "3191",
+          "name": "Thoroughly Dry Natural Spring",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "15a3a6ce99770ad0ccada147a9450e3e321682f0",
+      "message": "New way for tapout limit to work:  after 6 are built, it taps out a radius of 800.  This makes it rift-independent.",
+      "date": "2019-10-22T19:07:27.000Z",
+      "objectChanges": [
+        {
+          "id": "662",
+          "attributes": {
+            "name": {
+              "from": "Shallow Well -  +tapoutTrigger,40,40,80,80,6",
+              "to": "Shallow Well -  +tapoutTrigger,40,40,80,80,6,800,800"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "1255d1796ec76f9bd2f7a60806a7c78e57cb3183",
+      "message": "Back to tapout radius of 80 for shallow well, but preparing for hard limit (6) on total wells built in the rift area.",
+      "date": "2019-10-22T18:47:54.000Z",
+      "objectChanges": [
+        {
+          "id": "662",
+          "attributes": {
+            "name": {
+              "from": "Shallow Well -  +tapoutTrigger,40,40,160,160",
+              "to": "Shallow Well -  +tapoutTrigger,40,40,80,80,6"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "0b75a96b257514a9a78d9c916718342d78dd77d3",
+      "message": "Baked rugs on floors and moss on horizontal ancient stone wall to reduce overdraw and improve framerate on slower GPUs.",
+      "date": "2019-10-22T18:31:33.000Z"
+    },
+    {
+      "sha": "8ebf61a0610856034d8727e5a6e7aa706a8d6663",
+      "message": "Doubled tapout radius of shallow well.",
+      "date": "2019-10-21T19:38:35.000Z",
+      "objectChanges": [
+        {
+          "id": "662",
+          "attributes": {
+            "name": {
+              "from": "Shallow Well -  +tapoutTrigger,40,40,80,80",
+              "to": "Shallow Well -  +tapoutTrigger,40,40,160,160"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

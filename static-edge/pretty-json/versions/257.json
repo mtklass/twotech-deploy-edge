@@ -1,0 +1,310 @@
+{
+  "id": "257",
+  "date": "2019-08-03T01:30:14.000Z",
+  "commits": [
+    {
+      "sha": "dbac93e166504053501f139298d8736dc3c92406",
+      "message": "Support for red and white off-screen sounds.",
+      "date": "2019-08-03T01:09:19.000Z",
+      "objectChanges": [
+        {
+          "id": "3048",
+          "attributes": {
+            "name": {
+              "from": "Bloody War Sword -  offScreenSound",
+              "to": "Bloody War Sword -  offScreenSound_red"
+            }
+          }
+        },
+        {
+          "id": "749",
+          "attributes": {
+            "name": {
+              "from": "Yew Bow - just murdered offScreenSound",
+              "to": "Yew Bow - just murdered offScreenSound_red"
+            }
+          }
+        },
+        {
+          "id": "750",
+          "attributes": {
+            "name": {
+              "from": "Bloody Knife -  offScreenSound",
+              "to": "Bloody Knife -  offScreenSound_red"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "3b9848678af7f5f850e408e056f87951e915610c",
+      "message": "Signing a removal notice as an elder makes an off-screen sound.",
+      "date": "2019-08-02T19:14:09.000Z",
+      "objectChanges": [
+        {
+          "id": "3127",
+          "attributes": {
+            "name": {
+              "from": "Elder Removal Receipt -  with charcaol",
+              "to": "Elder Removal Receipt -  with charcaol offScreenSound"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "db939d95b470dab64e6c1df4289682119bfda16d",
+      "message": "Diesel mining pick.",
+      "date": "2019-08-02T18:55:05.000Z",
+      "addedObjectIDs": [
+        "3128",
+        "3129",
+        "3130",
+        "3131",
+        "3132"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3128",
+          "newTargetUses": "last",
+          "newTargetID": "3132",
+          "decay": "2s"
+        },
+        {
+          "targetID": "3132",
+          "newTargetUses": "+1",
+          "newTargetID": "3132",
+          "targetRemains": true,
+          "decay": "2s"
+        },
+        {
+          "targetID": "3132",
+          "targetUses": "max",
+          "newTargetID": "3131",
+          "decay": "2s"
+        },
+        {
+          "targetID": "3130",
+          "newActorID": "2365",
+          "newTargetID": "945",
+          "hand": true
+        },
+        {
+          "targetID": "3131",
+          "newTargetUses": "-1",
+          "newActorID": "290",
+          "newTargetID": "3131",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "3131",
+          "targetUses": "last",
+          "newActorID": "290",
+          "newTargetID": "3130",
+          "hand": true
+        },
+        {
+          "actorID": "2343",
+          "newActorUses": "-1",
+          "targetID": "3129",
+          "newActorID": "2343",
+          "newTargetID": "3128",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "3129",
+          "newActorID": "2302",
+          "newTargetID": "3128",
+          "hand": true
+        },
+        {
+          "actorID": "2365",
+          "targetID": "945",
+          "newTargetID": "3130",
+          "hand": true
+        },
+        {
+          "actorID": "455",
+          "targetID": "3130",
+          "newTargetID": "3129",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c07a27af762e0366e9052628146c85e95aef1430",
+      "message": "Sound plays again when property notice process fails due to 5-second expiration.",
+      "date": "2019-08-02T14:05:22.000Z"
+    },
+    {
+      "sha": "756f935a4c6b273e3c45c8067926ac491d9aeb57",
+      "message": "Property fences can be removed in 10 minutes with the approval of an elder (55+) and the cooperation of one other person (so elder cannot remove fences unilaterally).  Anyone who cares about the fence can interfere with this process during the 10 minute waiting period.  Patternized fences to simplify editor tasks involving fences.",
+      "date": "2019-08-02T05:40:10.000Z",
+      "addedObjectIDs": [
+        "3114",
+        "3115",
+        "3116",
+        "3117",
+        "3118",
+        "3119",
+        "3120",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3127"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3115",
+          "newTargetID": "3114",
+          "decay": "5s"
+        },
+        {
+          "targetID": "3116",
+          "newTargetID": "2992",
+          "decay": "10m"
+        },
+        {
+          "targetID": "3124",
+          "newTargetID": "1617",
+          "decay": "7s"
+        },
+        {
+          "targetID": "3125",
+          "newTargetID": "1619",
+          "decay": "5m"
+        },
+        {
+          "targetID": "3114",
+          "newActorID": "1619",
+          "newTargetID": "2959",
+          "hand": true
+        },
+        {
+          "targetID": "3115",
+          "newActorID": "1619",
+          "newTargetID": "2959",
+          "hand": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "3114",
+          "newActorID": "3124",
+          "newTargetID": "3115",
+          "hand": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "3115",
+          "newActorID": "3127",
+          "newTargetID": "3116",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "2959",
+          "newTargetID": "3114",
+          "hand": true
+        },
+        {
+          "actorID": "3125",
+          "targetID": "2959",
+          "newTargetID": "3114",
+          "hand": true
+        },
+        {
+          "actorID": "3127",
+          "newActorID": "1617",
+          "newTargetID": "3125",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "3116",
+          "newActorID": "33",
+          "newTargetID": "3093",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "2960",
+          "newTargetID": "2978",
+          "decay": "60m"
+        },
+        {
+          "targetID": "2961",
+          "newTargetID": "2977",
+          "decay": "60m"
+        },
+        {
+          "targetID": "2977",
+          "newTargetID": "2992",
+          "decay": "60m"
+        },
+        {
+          "targetID": "2978",
+          "newTargetID": "2992",
+          "decay": "60m"
+        },
+        {
+          "targetID": "3095",
+          "newTargetID": "2960",
+          "decay": "3m"
+        },
+        {
+          "targetID": "3096",
+          "newTargetID": "2961",
+          "decay": "3m"
+        },
+        {
+          "actorID": "33",
+          "targetID": "2960",
+          "newActorID": "33",
+          "newTargetID": "3095",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2961",
+          "newActorID": "33",
+          "newTargetID": "3096",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2977",
+          "newActorID": "33",
+          "newTargetID": "3096",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2978",
+          "newActorID": "33",
+          "newTargetID": "3095",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "e4cdb1fb519ef533f4f1c889edcd141a24a3a744",
+      "message": "Tarr monument.",
+      "date": "2019-08-02T00:12:28.000Z",
+      "addedObjectIDs": [
+        "3112"
+      ]
+    }
+  ]
+}

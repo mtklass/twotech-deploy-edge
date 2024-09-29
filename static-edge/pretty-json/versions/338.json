@@ -1,0 +1,1392 @@
+{
+  "id": "338",
+  "date": "2020-05-15T22:09:46.000Z",
+  "commits": [
+    {
+      "sha": "102d786ed2cc64f8630edf53271ead636e897ac1",
+      "message": "Scene for update image.",
+      "date": "2020-05-15T21:56:01.000Z"
+    },
+    {
+      "sha": "60200f6054a89f0b6c86c27ee00f6e20aacf126e",
+      "message": "Test scene",
+      "date": "2020-05-15T21:16:29.000Z"
+    },
+    {
+      "sha": "f04ae2f2664b0c9ce42954af4309c27b80ec64a8",
+      "message": "Lapis and cinnabar can be scooped with bowl from pile.  Part of #774",
+      "date": "2020-05-15T19:51:18.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1892",
+          "targetID": "1890",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3975",
+          "hand": true
+        },
+        {
+          "actorID": "1892",
+          "targetID": "3975",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3975",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1893",
+          "targetID": "1891",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3974",
+          "hand": true
+        },
+        {
+          "actorID": "1893",
+          "targetID": "3974",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3974",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "1890",
+          "newActorID": "1892",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "1891",
+          "newActorID": "1893",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3974",
+          "newTargetUses": "-1",
+          "newActorID": "1893",
+          "newTargetID": "3974",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3974",
+          "targetUses": "last",
+          "newActorID": "1893",
+          "newTargetID": "1891",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3975",
+          "newTargetUses": "-1",
+          "newActorID": "1892",
+          "newTargetID": "3975",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3975",
+          "targetUses": "last",
+          "newActorID": "1892",
+          "newTargetID": "1890",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3974",
+          "name": "Pile of Cinnabar",
+          "category": false
+        },
+        {
+          "id": "3975",
+          "name": "Pile of Lapis Lazuli",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "b48dd4b838f4da3d2e203677e985a807bc3edfa8",
+      "message": "Electrum scooped into bowl from pile.  Part of #774",
+      "date": "2020-05-15T19:42:59.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "3001",
+          "newActorID": "3002",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3971",
+          "newTargetUses": "-1",
+          "newActorID": "3002",
+          "newTargetID": "3971",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3971",
+          "targetUses": "last",
+          "newActorID": "3002",
+          "newTargetID": "3001",
+          "hand": true
+        },
+        {
+          "actorID": "3002",
+          "targetID": "3001",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3971",
+          "hand": true
+        },
+        {
+          "actorID": "3002",
+          "targetID": "3971",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3971",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3971",
+          "name": "Pile of Electrum Ore",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "1db4011ebbf7f30515aeea090c8b95a2471e4634",
+      "message": "Skewer can remove fish directly from pile.  Part of #774",
+      "date": "2020-05-15T19:38:08.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2103",
+          "targetID": "2096",
+          "newTargetUses": "last",
+          "newActorID": "852",
+          "newTargetID": "4072",
+          "hand": true
+        },
+        {
+          "actorID": "2103",
+          "targetID": "4072",
+          "newTargetUses": "+1",
+          "newActorID": "852",
+          "newTargetID": "4072",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "4072",
+          "newTargetUses": "-1",
+          "newActorID": "2103",
+          "newTargetID": "4072",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "4072",
+          "targetUses": "last",
+          "newActorID": "2103",
+          "newTargetID": "2096",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "853",
+          "name": "@ Non-tilling Stick",
+          "category": true
+        },
+        {
+          "id": "2103",
+          "name": "Skewered Fish",
+          "category": false
+        },
+        {
+          "id": "4072",
+          "name": "Pile of Arctic Char",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "9cee4955e7f0724b7d671e1878c6a81c02a9229e",
+      "message": "Clay plate can remove from shrimp, tomato, onion, and mango pile.  Fixes #774",
+      "date": "2020-05-15T19:27:31.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2818",
+          "newActorID": "2815",
+          "newTargetID": "236",
+          "hand": true
+        },
+        {
+          "actorID": "1879",
+          "targetID": "1877",
+          "newTargetUses": "last",
+          "newActorID": "236",
+          "newTargetID": "3976",
+          "hand": true
+        },
+        {
+          "actorID": "1879",
+          "targetID": "3976",
+          "newTargetUses": "+1",
+          "newActorID": "236",
+          "newTargetID": "3976",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "1877",
+          "newActorID": "1879",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "2815",
+          "newActorID": "2818",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "2836",
+          "newActorID": "2859",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "2855",
+          "newActorID": "2858",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "3899",
+          "newTargetUses": "-1",
+          "newActorID": "2859",
+          "newTargetID": "3899",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "3899",
+          "targetUses": "last",
+          "newActorID": "2859",
+          "newTargetID": "2836",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "3900",
+          "newTargetUses": "-1",
+          "newActorID": "2858",
+          "newTargetID": "3900",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "3900",
+          "targetUses": "last",
+          "newActorID": "2858",
+          "newTargetID": "2855",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "3976",
+          "newTargetUses": "-1",
+          "newActorID": "1879",
+          "newTargetID": "3976",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "3976",
+          "targetUses": "last",
+          "newActorID": "1879",
+          "newTargetID": "1877",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "4071",
+          "newTargetUses": "-1",
+          "newActorID": "2818",
+          "newTargetID": "4071",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "4071",
+          "targetUses": "last",
+          "newActorID": "2818",
+          "newTargetID": "2815",
+          "hand": true
+        },
+        {
+          "actorID": "2818",
+          "targetID": "2815",
+          "newTargetUses": "last",
+          "newActorID": "236",
+          "newTargetID": "4071",
+          "hand": true
+        },
+        {
+          "actorID": "2818",
+          "targetID": "4071",
+          "newTargetUses": "+1",
+          "newActorID": "236",
+          "newTargetID": "4071",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2858",
+          "targetID": "2855",
+          "newTargetUses": "last",
+          "newActorID": "236",
+          "newTargetID": "3900",
+          "hand": true
+        },
+        {
+          "actorID": "2858",
+          "targetID": "3900",
+          "newTargetUses": "+1",
+          "newActorID": "236",
+          "newTargetID": "3900",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2859",
+          "targetID": "2836",
+          "newTargetUses": "last",
+          "newActorID": "236",
+          "newTargetID": "3899",
+          "hand": true
+        },
+        {
+          "actorID": "2859",
+          "targetID": "3899",
+          "newTargetUses": "+1",
+          "newActorID": "236",
+          "newTargetID": "3899",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3899",
+          "name": "Pile of Tomatoes",
+          "category": false
+        },
+        {
+          "id": "3900",
+          "name": "Pile of Onions",
+          "category": false
+        },
+        {
+          "id": "3976",
+          "name": "Pile of Mangoes ",
+          "category": false
+        },
+        {
+          "id": "4071",
+          "name": "Pile of Shrimp",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "764ebb2fa53a6f5e5b34921ae7aad14cddc2bead",
+      "message": "CCan pull corn out of pile with bowl and put it back.  Part of #774",
+      "date": "2020-05-15T19:07:51.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1120",
+          "targetID": "1115",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3902",
+          "hand": true
+        },
+        {
+          "actorID": "1120",
+          "targetID": "3902",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3902",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "1115",
+          "newActorID": "1120",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3902",
+          "newTargetUses": "-1",
+          "newActorID": "1120",
+          "newTargetID": "3902",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3902",
+          "targetUses": "last",
+          "newActorID": "1120",
+          "newTargetID": "1115",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3902",
+          "name": "Pile of Dried Corn",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "a862067b536531c6c243ce312ccf9e4f7999a5bb",
+      "message": "Can add carrot to bowl by clicking on a carrot pile.  Part of #774",
+      "date": "2020-05-15T19:03:06.000Z",
+      "addedObjectIDs": [
+        "4182",
+        "4183"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "4182",
+          "newTargetUses": "-1",
+          "newActorID": "547",
+          "newTargetID": "4182",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "4182",
+          "targetUses": "last",
+          "newActorID": "547",
+          "newTargetID": "4183",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "4183",
+          "newActorID": "547",
+          "hand": true
+        },
+        {
+          "actorID": "253",
+          "targetID": "4182",
+          "targetUses": "max",
+          "newActorID": "258",
+          "newTargetID": "4182",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "253",
+          "targetID": "4182",
+          "targetUses": "max",
+          "newActorID": "258",
+          "newTargetID": "4183",
+          "hand": true
+        },
+        {
+          "actorID": "253",
+          "targetID": "4183",
+          "targetUses": "max",
+          "newActorID": "258",
+          "hand": true
+        },
+        {
+          "actorID": "254",
+          "targetID": "4182",
+          "newTargetUses": "-1",
+          "newActorID": "262",
+          "newTargetID": "4182",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "254",
+          "targetID": "4182",
+          "targetUses": "last",
+          "newActorID": "262",
+          "newTargetID": "4183",
+          "hand": true
+        },
+        {
+          "actorID": "254",
+          "targetID": "4183",
+          "newActorID": "262",
+          "hand": true
+        },
+        {
+          "actorID": "256",
+          "targetID": "4182",
+          "newTargetUses": "-1",
+          "newActorID": "257",
+          "newTargetID": "4182",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "256",
+          "targetID": "4182",
+          "targetUses": "last",
+          "newActorID": "257",
+          "newTargetID": "4183",
+          "hand": true
+        },
+        {
+          "actorID": "256",
+          "targetID": "4183",
+          "newActorID": "257",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4182",
+          "name": "@ Carrot Pile Pattern",
+          "category": true
+        },
+        {
+          "id": "4183",
+          "name": "@ Carrot Pile Last Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "72aa282ee5a8406260886a3800ec671ca87ee540",
+      "message": "Can remove zinc from stack with tongs.  Fixes #793",
+      "date": "2020-05-15T18:48:09.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "239",
+          "targetID": "3898",
+          "newTargetUses": "-1",
+          "newActorID": "2526",
+          "newTargetID": "3898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "3898",
+          "targetUses": "last",
+          "newActorID": "2526",
+          "newTargetID": "2518",
+          "hand": true
+        },
+        {
+          "actorID": "2526",
+          "targetID": "2518",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "3898",
+          "hand": true
+        },
+        {
+          "actorID": "2526",
+          "targetID": "3898",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "3898",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3898",
+          "name": "Stack of Zinc Ingots",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "339fa672f50f05221d0fb564464e861f4974937f",
+      "message": "Lasso makes hitching post for free, instead of spending rope.  Fixes #794",
+      "date": "2020-05-15T18:42:08.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "767",
+          "targetID": "549",
+          "newActorID": "767",
+          "newTargetID": "4156",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "767",
+          "targetID": "550",
+          "newActorID": "767",
+          "newTargetID": "4156",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "767",
+          "targetID": "551",
+          "newActorID": "767",
+          "newTargetID": "4156",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "59",
+          "targetID": "549",
+          "newTargetID": "4156",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "550",
+          "newTargetID": "4156",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "551",
+          "newTargetID": "4156",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4156",
+          "name": "Hitching Post -  +wall justMade +causeAutoOrientH",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "3ae5299254c07d738dcb28dfa82a8b94dbe71609",
+      "message": "Carts can pile up without derailing, and any cart can switch direction simply by clicking it with an empty hand.  Allows MUCH greater capacity for a single rail line (multiple carts in a row), and fixes #790",
+      "date": "2020-05-14T23:18:09.000Z",
+      "addedObjectIDs": [
+        "4159",
+        "4160",
+        "4161",
+        "4162",
+        "4163",
+        "4164",
+        "4165",
+        "4166",
+        "4167",
+        "4168",
+        "4169",
+        "4170",
+        "4171",
+        "4172",
+        "4173",
+        "4174",
+        "4175",
+        "4176",
+        "4177",
+        "4178",
+        "4179",
+        "4180",
+        "4181"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4176",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "4177",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4175",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "4176",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3765",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "targetID": "3763",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "3763",
+          "newTargetID": "3766",
+          "hand": true
+        },
+        {
+          "actorID": "3769",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "targetID": "3768",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "3768",
+          "newTargetID": "3770",
+          "hand": true
+        },
+        {
+          "actorID": "3775",
+          "targetID": "1510",
+          "newTargetID": "1579",
+          "hand": true
+        },
+        {
+          "actorID": "3775",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "targetID": "3773",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "3773",
+          "newTargetID": "3776",
+          "hand": true
+        },
+        {
+          "actorID": "3780",
+          "targetID": "1511",
+          "newTargetID": "1576",
+          "hand": true
+        },
+        {
+          "actorID": "3780",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "targetID": "3778",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "3778",
+          "newTargetID": "3781",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3763",
+          "name": "@ Eastward Leaving Tracks",
+          "category": true
+        },
+        {
+          "id": "3765",
+          "name": "@ Eastward Moving Cart",
+          "category": true
+        },
+        {
+          "id": "3766",
+          "name": "@ Eastward Moving Cart Leaving",
+          "category": true
+        },
+        {
+          "id": "3768",
+          "name": "@ Westward Leaving Tracks",
+          "category": true
+        },
+        {
+          "id": "3769",
+          "name": "@ Westward Moving Cart",
+          "category": true
+        },
+        {
+          "id": "3770",
+          "name": "@ Westward Moving Cart Leaving",
+          "category": true
+        },
+        {
+          "id": "3773",
+          "name": "@ Northward Leaving Tracks",
+          "category": true
+        },
+        {
+          "id": "3775",
+          "name": "@ Northward Moving Cart",
+          "category": true
+        },
+        {
+          "id": "3776",
+          "name": "@ Northward Moving Cart Leaving",
+          "category": true
+        },
+        {
+          "id": "3778",
+          "name": "@ Southward Leaving Tracks",
+          "category": true
+        },
+        {
+          "id": "3780",
+          "name": "@ Southward Moving Cart",
+          "category": true
+        },
+        {
+          "id": "3781",
+          "name": "@ Southward Moving Cart Leaving",
+          "category": true
+        },
+        {
+          "id": "4159",
+          "name": "East West Track with Cart - movingEast reversed",
+          "category": false
+        },
+        {
+          "id": "4160",
+          "name": "East West Track with Cart - movingWest reversed",
+          "category": false
+        },
+        {
+          "id": "4161",
+          "name": "North South Track with Cart -  moving North reversed",
+          "category": false
+        },
+        {
+          "id": "4162",
+          "name": "Cross Track with Cart -  moving North reversed",
+          "category": false
+        },
+        {
+          "id": "4163",
+          "name": "Track Door with Cart -  moving North silent reversed",
+          "category": false
+        },
+        {
+          "id": "4164",
+          "name": "North South Track with Cart -  moving South reversed",
+          "category": false
+        },
+        {
+          "id": "4165",
+          "name": "Cross Track with Cart -  moving South reversed",
+          "category": false
+        },
+        {
+          "id": "4166",
+          "name": "Track Door with Cart -  moving South silent reversed",
+          "category": false
+        },
+        {
+          "id": "4167",
+          "name": "South West Track with Cart -  moving South reversed",
+          "category": false
+        },
+        {
+          "id": "4168",
+          "name": "South West Track with Cart -  moving West reversed",
+          "category": false
+        },
+        {
+          "id": "4169",
+          "name": "North West Track with Cart -  moving North reversed",
+          "category": false
+        },
+        {
+          "id": "4170",
+          "name": "North West Track with Cart -  moving West reversed",
+          "category": false
+        },
+        {
+          "id": "4171",
+          "name": "North East Track with Cart -  moving East reversed",
+          "category": false
+        },
+        {
+          "id": "4172",
+          "name": "North East Track with Cart -  moving North reversed",
+          "category": false
+        },
+        {
+          "id": "4173",
+          "name": "South East Track with Cart -  moving East reversed",
+          "category": false
+        },
+        {
+          "id": "4174",
+          "name": "South East Track with Cart -  moving South reversed",
+          "category": false
+        },
+        {
+          "id": "4175",
+          "name": "@ Reversible Cart On Track",
+          "category": true
+        },
+        {
+          "id": "4176",
+          "name": "@ Reversed Cart On Track",
+          "category": true
+        },
+        {
+          "id": "4177",
+          "name": "@ Reversed Continue Cart On Track",
+          "category": true
+        },
+        {
+          "id": "4178",
+          "name": "Track Door with Cart -  moving South reversed",
+          "category": false
+        },
+        {
+          "id": "4179",
+          "name": "Track Door with Cart -  moving North reversed",
+          "category": false
+        },
+        {
+          "id": "4180",
+          "name": "Cross Track with Cart - movingEast reversed",
+          "category": false
+        },
+        {
+          "id": "4181",
+          "name": "Cross Track with Cart - movingWest reversed",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7c056d77e6dcdf92dc68ae4194826265c9d8ac30",
+      "message": "Can scrap war sword.  Fixes #784",
+      "date": "2020-05-12T19:56:55.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "3047",
+          "targetID": "3076",
+          "newTargetID": "495",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "72899952c6c3115ee1c3e42470189f3f08414e75",
+      "message": "Can pile tires.  Fixes #785",
+      "date": "2020-05-12T19:52:24.000Z",
+      "addedObjectIDs": [
+        "4158"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4158",
+          "newTargetUses": "-1",
+          "newActorID": "2168",
+          "newTargetID": "4158",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "4158",
+          "targetUses": "last",
+          "newActorID": "2168",
+          "newTargetID": "2169",
+          "hand": true
+        },
+        {
+          "actorID": "2168",
+          "targetID": "2169",
+          "newTargetUses": "last",
+          "newTargetID": "4158",
+          "hand": true
+        },
+        {
+          "actorID": "2168",
+          "targetID": "4158",
+          "newTargetUses": "+1",
+          "newTargetID": "4158",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4158",
+          "name": "Tire Pile",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "51ae843000ceb2c613008d4ae543bb34c9cd7380",
+      "message": "New hitching post prevents it from behaving like a fence for auto-orienting purposes.  A bunch of things now use +causeAutoOrientH, to prevent them from auto-orienting their N/S neighbors.  Fixes #787",
+      "date": "2020-05-12T18:56:52.000Z",
+      "addedObjectIDs": [
+        "4154",
+        "4156",
+        "4157"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4156",
+          "newTargetID": "4154",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4157",
+          "newTargetID": "550",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3159",
+          "newActorID": "3158",
+          "newTargetID": "4154",
+          "hand": true
+        },
+        {
+          "targetID": "772",
+          "newActorID": "771",
+          "newTargetID": "4154",
+          "hand": true
+        },
+        {
+          "targetID": "774",
+          "newActorID": "770",
+          "newTargetID": "4154",
+          "hand": true
+        },
+        {
+          "targetID": "779",
+          "newActorID": "778",
+          "newTargetID": "4154",
+          "hand": true
+        },
+        {
+          "actorID": "3158",
+          "targetID": "4154",
+          "newTargetID": "3159",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4154",
+          "newActorID": "568",
+          "newTargetID": "4157",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "549",
+          "newTargetID": "4156",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "550",
+          "newTargetID": "4156",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "551",
+          "newTargetID": "4156",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "4154",
+          "newTargetID": "4143",
+          "hand": true
+        },
+        {
+          "actorID": "770",
+          "targetID": "4154",
+          "newTargetID": "774",
+          "hand": true
+        },
+        {
+          "actorID": "771",
+          "targetID": "4154",
+          "newTargetID": "772",
+          "hand": true
+        },
+        {
+          "actorID": "778",
+          "targetID": "4154",
+          "newTargetID": "779",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3159",
+          "newActorID": "3158",
+          "newTargetID": "550",
+          "hand": true
+        },
+        {
+          "targetID": "772",
+          "newActorID": "771",
+          "newTargetID": "550",
+          "hand": true
+        },
+        {
+          "targetID": "774",
+          "newActorID": "770",
+          "newTargetID": "550",
+          "hand": true
+        },
+        {
+          "targetID": "779",
+          "newActorID": "778",
+          "newTargetID": "550",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "1851",
+          "attributes": {
+            "name": {
+              "from": "Fence Gate -  +wall +causeAutoOrient +blocksMoving +autoDefaultTrans",
+              "to": "Fence Gate -  +wall +causeAutoOrientH +blocksMoving +autoDefaultTrans"
+            }
+          }
+        },
+        {
+          "id": "2962",
+          "attributes": {
+            "name": {
+              "from": "Property Gate -  +owned +causeAutoOrient",
+              "to": "Property Gate -  +owned +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "2963",
+          "attributes": {
+            "name": {
+              "from": "Property Gate -  +owned +causeAutoOrient",
+              "to": "Property Gate -  +owned +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "2966",
+          "attributes": {
+            "name": {
+              "from": "Proposed Property Gate -  +causeAutoOrient +wall",
+              "to": "Proposed Property Gate -  +causeAutoOrientH +wall"
+            }
+          }
+        },
+        {
+          "id": "2974",
+          "attributes": {
+            "name": {
+              "from": "Approved Property Gate -  +causeAutoOrient +wall",
+              "to": "Approved Property Gate -  +causeAutoOrientH +wall"
+            }
+          }
+        },
+        {
+          "id": "2983",
+          "attributes": {
+            "name": {
+              "from": "Shaky Property Gate -  +owned +causeAutoOrient",
+              "to": "Shaky Property Gate -  +owned +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "2984",
+          "attributes": {
+            "name": {
+              "from": "Shaky Property Gate -  +owned +causeAutoOrient",
+              "to": "Shaky Property Gate -  +owned +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "3159",
+          "attributes": {
+            "name": {
+              "from": "Hitched Horse-Drawn Tire Cart",
+              "to": "Hitched Horse-Drawn Tire Cart -  +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "4143",
+          "attributes": {
+            "name": {
+              "from": "Fence Gate -  justMade +wall +causeAutoOrient +blocksMoving +autoDefaultTrans +tapoutTrigger,1,1,2,1",
+              "to": "Fence Gate -  justMade +wall +causeAutoOrientH +blocksMoving +autoDefaultTrans +tapoutTrigger,1,1,2,1"
+            }
+          }
+        },
+        {
+          "id": "4153",
+          "attributes": {
+            "name": {
+              "from": "Fence -  +wall droppedShaft",
+              "to": "Fence -  +wall droppedShaft +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "558",
+          "attributes": {
+            "name": {
+              "from": "Open Fence Gate -  +wall +blocksMoving",
+              "to": "Open Fence Gate -  +wall +blocksMoving +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "772",
+          "attributes": {
+            "name": {
+              "from": "Hitched Wild Horse",
+              "to": "Hitched Wild Horse -  +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "773",
+          "attributes": {
+            "name": {
+              "from": "Hitched Tame Horse",
+              "to": "Hitched Tame Horse -  +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "774",
+          "attributes": {
+            "name": {
+              "from": "Hitched Riding Horse",
+              "to": "Hitched Riding Horse -  +causeAutoOrientH"
+            }
+          }
+        },
+        {
+          "id": "779",
+          "attributes": {
+            "name": {
+              "from": "Hitched Horse-Drawn Cart",
+              "to": "Hitched Horse-Drawn Cart -  +causeAutoOrientH"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3158",
+          "name": "Horse-Drawn Tire Cart",
+          "category": false
+        },
+        {
+          "id": "3159",
+          "name": "Hitched Horse-Drawn Tire Cart -  +causeAutoOrientH",
+          "category": false
+        },
+        {
+          "id": "4143",
+          "name": "Fence Gate -  justMade +wall +causeAutoOrientH +blocksMoving +autoDefaultTrans +tapoutTrigger,1,1,2,1",
+          "category": false
+        },
+        {
+          "id": "4154",
+          "name": "Hitching Post -  +wall +causeAutoOrientH",
+          "category": false
+        },
+        {
+          "id": "4156",
+          "name": "Hitching Post -  +wall justMade +causeAutoOrientH",
+          "category": false
+        },
+        {
+          "id": "4157",
+          "name": "Fence -  +wall +causeAutoOrient justTrimmed",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "3120be458757d69e4e23df351c8d356ea2eca346",
+      "message": "Fixed so that fence gate auto tap-out doesn't make short shaft disappear.  Also fixed to tap out open fence gates too.  Fixes #789",
+      "date": "2020-05-12T17:04:08.000Z",
+      "addedObjectIDs": [
+        "4153"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4153",
+          "newActorID": "69",
+          "newTargetID": "550",
+          "hand": true
+        },
+        {
+          "actorID": "4143",
+          "targetID": "1851",
+          "newTargetID": "4153",
+          "hand": true
+        },
+        {
+          "actorID": "4143",
+          "targetID": "558",
+          "newTargetID": "4153",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "4143",
+          "targetID": "1851",
+          "newTargetID": "550",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4143",
+          "name": "Fence Gate -  justMade +wall +causeAutoOrient +blocksMoving +autoDefaultTrans +tapoutTrigger,1,1,2,1",
+          "category": false
+        },
+        {
+          "id": "4153",
+          "name": "Fence -  +wall droppedShaft",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "e22be9feac5c51a781c33d32b5de9e2628cab642",
+      "message": "Bucket of rubber dough containable.",
+      "date": "2020-05-11T21:37:57.000Z"
+    }
+  ]
+}

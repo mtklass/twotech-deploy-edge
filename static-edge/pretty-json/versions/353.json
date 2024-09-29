@@ -1,0 +1,261 @@
+{
+  "id": "353",
+  "date": "2020-07-24T19:23:09.000Z",
+  "commits": [
+    {
+      "sha": "ccbb56a7280ffe505e0f9df47411ec3441062702",
+      "message": "Scene for update.",
+      "date": "2020-07-24T18:54:14.000Z"
+    },
+    {
+      "sha": "ade2c570db2276655260a0fe9858b0b30e6f2628",
+      "message": "Put rose in bottle on table to get feasting setup started, which allows pumpkin pie to go on table when not feasting.  Part of jasonrohrer/OneLife#655",
+      "date": "2020-07-23T19:09:16.000Z",
+      "addedObjectIDs": [
+        "4632",
+        "4633",
+        "4634",
+        "4636",
+        "4637",
+        "4638"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4637",
+          "decay": "2m"
+        },
+        {
+          "targetID": "3382",
+          "newActorID": "3370",
+          "newTargetID": "4634",
+          "hand": true
+        },
+        {
+          "targetID": "3383",
+          "newActorID": "4636",
+          "newTargetID": "4638",
+          "hand": true
+        },
+        {
+          "targetID": "4632",
+          "newActorID": "1051",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "targetID": "4634",
+          "newActorID": "4633",
+          "newTargetID": "3371",
+          "hand": true
+        },
+        {
+          "targetID": "4636",
+          "newActorID": "4637",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "targetID": "4638",
+          "newActorID": "2200",
+          "newTargetID": "3384",
+          "hand": true
+        },
+        {
+          "actorID": "1051",
+          "targetID": "3338",
+          "newTargetID": "4632",
+          "hand": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "4632",
+          "newActorID": "394",
+          "newTargetID": "4633",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4633",
+          "targetID": "235",
+          "newActorID": "4632",
+          "newTargetID": "382",
+          "hand": true
+        },
+        {
+          "actorID": "4633",
+          "targetID": "3371",
+          "newTargetID": "4634",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3382",
+          "newActorID": "3370",
+          "newTargetID": "3371",
+          "hand": true
+        },
+        {
+          "targetID": "3383",
+          "newActorID": "2200",
+          "newTargetID": "3384",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3370",
+          "attributes": {
+            "name": {
+              "from": "Sliced Pumpkin Pie",
+              "to": "Sliced Pumpkin Pie -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "3382",
+          "attributes": {
+            "name": {
+              "from": "Partial Feast Table -  1",
+              "to": "Partial Feast Table -  1b"
+            }
+          }
+        },
+        {
+          "id": "3384",
+          "attributes": {
+            "name": {
+              "from": "Empty Feast Table -  1",
+              "to": "Empty Feast Table -  1b"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        },
+        {
+          "id": "3382",
+          "name": "Partial Feast Table -  1b",
+          "category": false
+        },
+        {
+          "id": "3383",
+          "name": "Empty Feast Table",
+          "category": false
+        },
+        {
+          "id": "3384",
+          "name": "Empty Feast Table -  1",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "115b72f5bc8783de56111f2f1749c5e073a151b4",
+      "message": "Got rid of back-tracking oil pull objects.  Instead, if a pull fails to reach a pump, the spigot that sent the pull remains stuck in the pull state until fixed with a hammer.  This prevents orphaned pull objects moving back and forth invisibly on map.  Thanks MrXIX.",
+      "date": "2020-07-17T19:20:59.000Z",
+      "removedObjectIDs": [
+        "4562",
+        "4564",
+        "4565",
+        "4566",
+        "4567",
+        "4570",
+        "4571",
+        "4572",
+        "4594",
+        "4595",
+        "4596",
+        "4597"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4550",
+          "decay": "1s"
+        },
+        {
+          "actorID": "4550",
+          "targetID": "4548",
+          "newTargetID": "4546",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "4550",
+          "newTargetUses": "-1",
+          "newTargetID": "4570",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4564",
+          "newTargetID": "4536",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4565",
+          "newTargetID": "4535",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4571",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4596",
+          "newTargetID": "4569",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4597",
+          "newTargetID": "4537",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "actorID": "4550",
+          "targetID": "4548",
+          "newTargetID": "4562",
+          "hand": true
+        },
+        {
+          "actorID": "4570",
+          "newActorID": "4571",
+          "newTargetID": "4572",
+          "hand": true
+        },
+        {
+          "actorID": "4572",
+          "targetID": "4571",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4536",
+          "name": "Oil Pull -  moving West",
+          "category": false
+        },
+        {
+          "id": "4550",
+          "name": "@ Oil Pull leaving",
+          "category": true
+        },
+        {
+          "id": "4562",
+          "name": "@ Oil Pull Reverse Pipe",
+          "category": true
+        }
+      ]
+    }
+  ]
+}

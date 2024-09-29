@@ -1,0 +1,4163 @@
+{
+  "id": "20297",
+  "date": "2022-10-27T12:33:19.000Z",
+  "commits": [
+    {
+      "sha": "5746b2104a000f35edfe35b075e10683ae60410d",
+      "message": "Funnel position compared to filled funnel bottles",
+      "date": "2022-10-26T17:32:03.000Z"
+    },
+    {
+      "sha": "51b76fc705702968702bebe39a748417e680d6d4",
+      "message": "Containable rooting forsythia cutting",
+      "date": "2022-10-26T17:30:05.000Z"
+    },
+    {
+      "sha": "fe4b7cb2f42aa137ce3b204585264ed5dca99de5",
+      "message": "Fixed floating burdock crates",
+      "date": "2022-10-26T17:27:10.000Z"
+    },
+    {
+      "sha": "63195d7374e42c01f91c32b6257719604d0dda7e",
+      "message": "Open horizontal doors should be frontWall",
+      "date": "2022-10-26T17:10:20.000Z"
+    },
+    {
+      "sha": "af130c0cd4f42a67537f2744fa4690836b4dc940",
+      "message": "Dill pile position",
+      "date": "2022-10-26T16:59:27.000Z"
+    },
+    {
+      "sha": "0c30ab7fcb168d9cae2546b6e00fcb6d9246b3d4",
+      "message": "Adjusted on ground horsecart positions",
+      "date": "2022-10-26T16:29:22.000Z"
+    },
+    {
+      "sha": "3e6eeafc7863fdf0a7144ead9ac1c85b9d8b301b",
+      "message": "Adjusted clothing rack / shelf position",
+      "date": "2022-10-26T16:15:55.000Z"
+    },
+    {
+      "sha": "91c80478dace41218ed1e373ca9b2863c34351ac",
+      "message": "Adjusted table sprite position",
+      "date": "2022-10-26T16:08:13.000Z"
+    },
+    {
+      "sha": "961c80e7d33fb7233a8d9868d1da51b8e6c00c1a",
+      "message": "Draw hitched horses in front of certain objects (list not exhaustive)",
+      "date": "2022-10-26T15:39:00.000Z"
+    },
+    {
+      "sha": "35579c0b9d44eb494ad334137789c0692a4305fb",
+      "message": "This signed walls should be floor hugging",
+      "date": "2022-10-25T14:10:50.000Z"
+    },
+    {
+      "sha": "1aec474c934c78a6d27259875124284d2b98be97",
+      "message": "Sack of rice",
+      "date": "2022-10-25T13:47:15.000Z",
+      "addedObjectIDs": [
+        "13045",
+        "13046",
+        "13047",
+        "13048",
+        "13049"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "13045",
+          "newActorID": "8760",
+          "newTargetID": "13046",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13046",
+          "newActorID": "8760",
+          "newTargetID": "13047",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13047",
+          "newActorID": "8760",
+          "newTargetID": "13048",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13048",
+          "newActorID": "8760",
+          "newTargetID": "13049",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13049",
+          "newActorID": "8760",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "8760",
+          "targetID": "13046",
+          "newActorID": "235",
+          "newTargetID": "13045",
+          "hand": true
+        },
+        {
+          "actorID": "8760",
+          "targetID": "13047",
+          "newActorID": "235",
+          "newTargetID": "13046",
+          "hand": true
+        },
+        {
+          "actorID": "8760",
+          "targetID": "13048",
+          "newActorID": "235",
+          "newTargetID": "13047",
+          "hand": true
+        },
+        {
+          "actorID": "8760",
+          "targetID": "13049",
+          "newActorID": "235",
+          "newTargetID": "13048",
+          "hand": true
+        },
+        {
+          "actorID": "8760",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "13049",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c6e5278036b06229f03e311d0be651b6ca59ec33",
+      "message": "Wrong creation sound for calamine and malachite piles",
+      "date": "2022-10-25T13:35:06.000Z"
+    },
+    {
+      "sha": "78c8d63b9f64b441d85c3e7ad4f7bcd5ef87fa48",
+      "message": "Latex buckets were lying sideway on horsecarts",
+      "date": "2022-10-25T13:33:45.000Z"
+    },
+    {
+      "sha": "4d7d26dd2fa71ab766c5c77f336392ab97f56c2d",
+      "message": "Two balls of thread has no creation sound",
+      "date": "2022-10-25T13:31:58.000Z"
+    },
+    {
+      "sha": "891975c7f6d529f2d299c62aca5c921036f15830",
+      "message": "Primitive fence gates block animal and auto-close",
+      "date": "2022-10-25T13:24:29.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2963",
+          "newTargetID": "2962",
+          "decay": "2s"
+        },
+        {
+          "targetID": "2983",
+          "newTargetID": "2984",
+          "decay": "2s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "2983",
+          "newTargetID": "2963",
+          "decay": "20m"
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2963",
+          "attributes": {
+            "name": {
+              "from": "Primitive Fence Gate",
+              "to": "Primitive Fence Gate - +blocksMoving"
+            }
+          }
+        },
+        {
+          "id": "2983",
+          "attributes": {
+            "name": {
+              "from": "Shaky Primitive Fence Gate",
+              "to": "Shaky Primitive Fence Gate - +blocksMoving"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "249473cb6d55b58de5b98076537cf7fc0e03f027",
+      "message": "Primitive crown has no creation sound",
+      "date": "2022-10-25T12:55:39.000Z"
+    },
+    {
+      "sha": "47e0ff9f0b5fd48780425a06baebec48e31cc13c",
+      "message": "Fixed some positioning discrepancy",
+      "date": "2022-10-25T12:47:26.000Z"
+    },
+    {
+      "sha": "0ed2392991ce4fe2e2566ec987844604c67b24f5",
+      "message": "Decorated fireplace should turn coal before ash",
+      "date": "2022-10-25T07:49:06.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "8189",
+          "newTargetUses": "-1",
+          "newTargetID": "8192",
+          "decay": "10m"
+        },
+        {
+          "targetID": "8192",
+          "newTargetUses": "-1",
+          "newTargetID": "8190",
+          "decay": "3m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8189",
+          "newTargetUses": "-1",
+          "newTargetID": "8190",
+          "decay": "10m"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8189",
+          "name": "@ Stone Fireplace",
+          "category": true
+        },
+        {
+          "id": "8190",
+          "name": "@ Stone Fireplace with Ashes",
+          "category": true
+        },
+        {
+          "id": "8192",
+          "name": "@ Stone Fireplace with Hot Coals",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "310e7d8ab8ab130f080907feb76f9a7ff5f06ad2",
+      "message": "Destructible fresh brick half wall",
+      "date": "2022-10-25T07:34:47.000Z",
+      "addedObjectIDs": [
+        "13043",
+        "13044"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13043",
+          "newActorID": "8367",
+          "newTargetID": "13044",
+          "hand": true
+        },
+        {
+          "targetID": "13044",
+          "newActorID": "8367",
+          "newTargetID": "8367",
+          "hand": true
+        },
+        {
+          "targetID": "8366",
+          "newTargetUses": "-1",
+          "newActorID": "8367",
+          "newTargetID": "8366",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "8366",
+          "targetUses": "last",
+          "newActorID": "8367",
+          "newTargetID": "13043",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "targetID": "10024",
+          "newActorID": "858",
+          "newTargetID": "13043",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "targetID": "10025",
+          "newActorID": "858",
+          "newTargetID": "13043",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "targetID": "10130",
+          "newActorID": "858",
+          "newTargetID": "13043",
+          "hand": true
+        },
+        {
+          "actorID": "8362",
+          "targetID": "13043",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "8366",
+          "hand": true
+        },
+        {
+          "actorID": "8362",
+          "targetID": "13044",
+          "newActorID": "239",
+          "newTargetID": "13043",
+          "hand": true
+        },
+        {
+          "actorID": "8362",
+          "targetID": "8367",
+          "newActorID": "239",
+          "newTargetID": "13044",
+          "hand": true
+        },
+        {
+          "actorID": "8367",
+          "targetID": "13043",
+          "newTargetUses": "last",
+          "newTargetID": "8366",
+          "hand": true
+        },
+        {
+          "actorID": "8367",
+          "targetID": "13044",
+          "newTargetID": "13043",
+          "hand": true
+        },
+        {
+          "actorID": "8367",
+          "targetID": "8366",
+          "newTargetUses": "+1",
+          "newTargetID": "8366",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8367",
+          "targetID": "8367",
+          "newTargetID": "13044",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "8362",
+          "targetID": "8367",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "8366",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "aed31380ad8bb6b9a5fa7a8052af8267287acb8f",
+      "message": "Dogs hold dug item forever",
+      "date": "2022-10-23T16:49:25.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "12957",
+          "targetUses": "last",
+          "newTargetID": "1658",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12976",
+          "targetUses": "last",
+          "newTargetID": "1657",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12987",
+          "targetUses": "last",
+          "newTargetID": "1662",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12996",
+          "targetUses": "last",
+          "newTargetID": "1661",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13005",
+          "targetUses": "last",
+          "newTargetID": "1660",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13014",
+          "targetUses": "last",
+          "newTargetID": "1664",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13023",
+          "targetUses": "last",
+          "newTargetID": "1663",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13032",
+          "targetUses": "last",
+          "newTargetID": "1659",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13041",
+          "targetUses": "last",
+          "newTargetID": "1665",
+          "decay": "3s",
+          "move": 1
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "12957",
+          "name": "@ German Shepherd Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "12976",
+          "name": "@ Collie Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "12987",
+          "name": "@ Poodle Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "12996",
+          "name": "@ Airedale Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13005",
+          "name": "@ Beagle Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13014",
+          "name": "@ Schnauser Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13023",
+          "name": "@ Dachshund Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13032",
+          "name": "@ Pit Bull Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13041",
+          "name": "@ Chihuahua Digging Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "6154c18fc166e2b2e259f2793870fe084e0bfba8",
+      "message": "Track kit makes 6 tracks now",
+      "date": "2022-10-23T16:28:15.000Z",
+      "removedObjectIDs": [
+        "1595"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13042",
+          "newTargetID": "107",
+          "decay": "1s"
+        },
+        {
+          "actorID": "12921",
+          "targetID": "12920",
+          "newTargetID": "1530",
+          "hand": true
+        },
+        {
+          "actorID": "12921",
+          "targetID": "12921",
+          "newTargetID": "1530",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "108",
+          "newActorID": "3059",
+          "newTargetID": "1512",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "108",
+          "newActorID": "13042",
+          "newTargetID": "1512",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "109",
+          "newActorID": "3059",
+          "newTargetID": "1513",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "109",
+          "newActorID": "13042",
+          "newTargetID": "1513",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "110",
+          "newActorID": "3059",
+          "newTargetID": "1583",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "110",
+          "newActorID": "13042",
+          "newTargetID": "1583",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "12912",
+          "newActorID": "3059",
+          "newTargetID": "12919",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "12912",
+          "newActorID": "13042",
+          "newTargetID": "12919",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "12913",
+          "newActorID": "3059",
+          "newTargetID": "12916",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "12913",
+          "newActorID": "13042",
+          "newTargetID": "12916",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "12914",
+          "newActorID": "3059",
+          "newTargetID": "12918",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "12914",
+          "newActorID": "13042",
+          "newTargetID": "12918",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "12915",
+          "newActorID": "3059",
+          "newTargetID": "12917",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "12915",
+          "newActorID": "13042",
+          "newTargetID": "12917",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "1531",
+          "newActorID": "3059",
+          "newTargetID": "12923",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "1531",
+          "newActorID": "13042",
+          "newTargetID": "12923",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "1532",
+          "newActorID": "3059",
+          "newTargetID": "12926",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "1532",
+          "newActorID": "13042",
+          "newTargetID": "12926",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "1533",
+          "newActorID": "3059",
+          "newTargetID": "12924",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "1533",
+          "newActorID": "13042",
+          "newTargetID": "12924",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "newActorUses": "-1",
+          "targetID": "1534",
+          "newActorID": "3059",
+          "newTargetID": "12925",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "actorUses": "last",
+          "targetID": "1534",
+          "newActorID": "13042",
+          "newTargetID": "12925",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "targetID": "1594",
+          "newActorID": "12927",
+          "newTargetID": "1530",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "1595",
+          "newTargetID": "1530",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3062",
+          "newTargetID": "1595",
+          "decay": "1s"
+        },
+        {
+          "actorID": "12921",
+          "targetID": "12920",
+          "newTargetUses": "-1",
+          "newTargetID": "1595",
+          "hand": true
+        },
+        {
+          "actorID": "12921",
+          "targetID": "12921",
+          "newTargetUses": "-1",
+          "newTargetID": "1595",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "108",
+          "newActorID": "107",
+          "newTargetID": "1512",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "109",
+          "newActorID": "107",
+          "newTargetID": "1513",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "110",
+          "newActorID": "107",
+          "newTargetID": "1583",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12912",
+          "newActorID": "107",
+          "newTargetID": "12919",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12913",
+          "newActorID": "107",
+          "newTargetID": "12916",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12914",
+          "newActorID": "107",
+          "newTargetID": "12918",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12915",
+          "newActorID": "107",
+          "newTargetID": "12917",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1531",
+          "newActorID": "107",
+          "newTargetID": "12923",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1532",
+          "newActorID": "107",
+          "newTargetID": "12926",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1533",
+          "newActorID": "107",
+          "newTargetID": "12924",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1534",
+          "newActorID": "107",
+          "newTargetID": "12925",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "108",
+          "newActorID": "3060",
+          "newTargetID": "1512",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "109",
+          "newActorID": "3060",
+          "newTargetID": "1513",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1530",
+          "newTargetUses": "+1",
+          "newTargetID": "1530",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1531",
+          "newActorID": "3060",
+          "newTargetID": "12923",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1532",
+          "newActorID": "3060",
+          "newTargetID": "12926",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1533",
+          "newActorID": "3060",
+          "newTargetID": "12924",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1534",
+          "newActorID": "3060",
+          "newTargetID": "12925",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1595",
+          "newTargetUses": "last",
+          "newTargetID": "1530",
+          "hand": true
+        },
+        {
+          "actorID": "3059",
+          "actorUses": "last",
+          "newActorID": "1595",
+          "newTargetID": "107",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "targetID": "1594",
+          "newTargetUses": "-1",
+          "newActorID": "12927",
+          "newTargetID": "1595",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1594",
+          "name": "@ Diggable Track",
+          "category": true
+        },
+        {
+          "id": "1595",
+          "name": "Track Kit -  just dug",
+          "category": false
+        },
+        {
+          "id": "3062",
+          "name": "Single Track Kit -  just dug",
+          "category": false
+        },
+        {
+          "id": "12916",
+          "name": "Track  - NE  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12917",
+          "name": "Track  - SE  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12918",
+          "name": "Track  - SW  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12919",
+          "name": "Track  - NW  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12920",
+          "name": "@ Check Track Group",
+          "category": true
+        },
+        {
+          "id": "12921",
+          "name": "@ Tapout Track Group",
+          "category": true
+        },
+        {
+          "id": "12923",
+          "name": "Track End  - E  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12924",
+          "name": "Track End  - N  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12925",
+          "name": "Track End  - S  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12926",
+          "name": "Track End  - W  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "f6eb5921d27a0de35491d8cc16082a00771f359a",
+      "message": "Other raw meat also feeds dogs",
+      "date": "2022-10-23T12:34:32.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1342",
+          "targetID": "1658",
+          "newTargetID": "1677",
+          "hand": true
+        },
+        {
+          "actorID": "6936",
+          "targetID": "1658",
+          "newTargetID": "1677",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "6033064b383ff5f5ebe5ca42123bead9915b0e74",
+      "message": "Scavenging dogs - transitions and patterns",
+      "date": "2022-10-20T15:30:37.000Z",
+      "addedObjectIDs": [
+        "12938",
+        "12939",
+        "12940",
+        "12941",
+        "12942",
+        "12943",
+        "12944",
+        "12945",
+        "12946",
+        "12947",
+        "12949",
+        "12950",
+        "12951",
+        "12952",
+        "12953",
+        "12954",
+        "12955",
+        "12956",
+        "12957",
+        "12958",
+        "12959",
+        "12961",
+        "12962",
+        "12963",
+        "12964",
+        "12965",
+        "12966",
+        "12967",
+        "12968",
+        "12969",
+        "12970",
+        "12971",
+        "12972",
+        "12973",
+        "12974",
+        "12976",
+        "12977",
+        "12978",
+        "12979",
+        "12980",
+        "12981",
+        "12982",
+        "12983",
+        "12984",
+        "12985",
+        "12986",
+        "12987",
+        "12988",
+        "12989",
+        "12990",
+        "12991",
+        "12992",
+        "12993",
+        "12994",
+        "12995",
+        "12996",
+        "12997",
+        "12998",
+        "12999",
+        "13000",
+        "13001",
+        "13002",
+        "13003",
+        "13004",
+        "13005",
+        "13006",
+        "13007",
+        "13008",
+        "13009",
+        "13010",
+        "13011",
+        "13012",
+        "13013",
+        "13014",
+        "13015",
+        "13016",
+        "13017",
+        "13018",
+        "13019",
+        "13020",
+        "13021",
+        "13022",
+        "13023",
+        "13024",
+        "13025",
+        "13026",
+        "13027",
+        "13028",
+        "13029",
+        "13030",
+        "13031",
+        "13032",
+        "13033",
+        "13034",
+        "13035",
+        "13036",
+        "13037",
+        "13038",
+        "13039",
+        "13040",
+        "13041",
+        "3991"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12928",
+          "newTargetID": "12956",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12929",
+          "newTargetID": "12978",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12931",
+          "newTargetID": "13004",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12932",
+          "newTargetID": "12979",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12933",
+          "newTargetID": "12995",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12934",
+          "newTargetID": "13022",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12935",
+          "newTargetID": "13013",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12936",
+          "newTargetID": "13031",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12937",
+          "newTargetID": "13040",
+          "decay": "5s"
+        },
+        {
+          "targetID": "12938",
+          "newTargetUses": "-1",
+          "newTargetID": "12938",
+          "targetRemains": true,
+          "decay": "2s",
+          "move": 8
+        },
+        {
+          "targetID": "12938",
+          "targetUses": "last",
+          "newTargetID": "1658",
+          "decay": "2s",
+          "move": 1
+        },
+        {
+          "targetID": "12947",
+          "newTargetID": "12938",
+          "decay": "2s",
+          "move": 8
+        },
+        {
+          "targetID": "12957",
+          "newTargetUses": "-1",
+          "newTargetID": "12957",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12957",
+          "targetUses": "last",
+          "newTargetID": "1658",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12959",
+          "newTargetID": "69",
+          "decay": "1m"
+        },
+        {
+          "targetID": "12976",
+          "newTargetUses": "-1",
+          "newTargetID": "12976",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12976",
+          "targetUses": "last",
+          "newTargetID": "1657",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12987",
+          "newTargetUses": "-1",
+          "newTargetID": "12987",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12987",
+          "targetUses": "last",
+          "newTargetID": "1662",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12996",
+          "newTargetUses": "-1",
+          "newTargetID": "12996",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "12996",
+          "targetUses": "last",
+          "newTargetID": "1661",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13005",
+          "newTargetUses": "-1",
+          "newTargetID": "13005",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13005",
+          "targetUses": "last",
+          "newTargetID": "1660",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13014",
+          "newTargetUses": "-1",
+          "newTargetID": "13014",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13014",
+          "targetUses": "last",
+          "newTargetID": "1664",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13023",
+          "newTargetUses": "-1",
+          "newTargetID": "13023",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13023",
+          "targetUses": "last",
+          "newTargetID": "1663",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13032",
+          "newTargetUses": "-1",
+          "newTargetID": "13032",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13032",
+          "targetUses": "last",
+          "newTargetID": "1659",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13041",
+          "newTargetUses": "-1",
+          "newTargetID": "13041",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "13041",
+          "targetUses": "last",
+          "newTargetID": "1665",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "3991",
+          "newTargetID": "69",
+          "decay": "1m"
+        },
+        {
+          "targetID": "8560",
+          "newTargetID": "1658",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12957",
+          "newActorID": "12958",
+          "newTargetID": "8560",
+          "hand": true
+        },
+        {
+          "targetID": "12959",
+          "newActorID": "3991",
+          "hand": true
+        },
+        {
+          "targetID": "12976",
+          "newActorID": "12958",
+          "newTargetID": "8556",
+          "hand": true
+        },
+        {
+          "targetID": "12987",
+          "newActorID": "12958",
+          "newTargetID": "8555",
+          "hand": true
+        },
+        {
+          "targetID": "12996",
+          "newActorID": "12958",
+          "newTargetID": "8554",
+          "hand": true
+        },
+        {
+          "targetID": "13005",
+          "newActorID": "12958",
+          "newTargetID": "8553",
+          "hand": true
+        },
+        {
+          "targetID": "13014",
+          "newActorID": "12958",
+          "newTargetID": "8559",
+          "hand": true
+        },
+        {
+          "targetID": "13023",
+          "newActorID": "12958",
+          "newTargetID": "8558",
+          "hand": true
+        },
+        {
+          "targetID": "13032",
+          "newActorID": "12958",
+          "newTargetID": "8557",
+          "hand": true
+        },
+        {
+          "targetID": "13041",
+          "newActorID": "12958",
+          "newTargetID": "8561",
+          "hand": true
+        },
+        {
+          "actorID": "12938",
+          "targetID": "12959",
+          "newTargetID": "12928",
+          "hand": true
+        },
+        {
+          "actorID": "12947",
+          "newActorID": "3991",
+          "newTargetID": "12938",
+          "hand": true
+        },
+        {
+          "actorID": "3991",
+          "newTargetID": "12959",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "1658",
+          "newTargetID": "12947",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8560",
+          "newTargetID": "1658",
+          "decay": "3s",
+          "move": 1
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12928",
+          "attributes": {
+            "name": {
+              "from": "German Shepherd  - scavenging",
+              "to": "German Shepherd  - digging"
+            }
+          }
+        },
+        {
+          "id": "12929",
+          "attributes": {
+            "name": {
+              "from": "Poodle  - scavenging",
+              "to": "Poodle  - digging"
+            }
+          }
+        },
+        {
+          "id": "12931",
+          "attributes": {
+            "name": {
+              "from": "Beagle  - scavenging",
+              "to": "Beagle  - digging"
+            }
+          }
+        },
+        {
+          "id": "12932",
+          "attributes": {
+            "name": {
+              "from": "Collie  - scavenging",
+              "to": "Collie  - digging"
+            }
+          }
+        },
+        {
+          "id": "12933",
+          "attributes": {
+            "name": {
+              "from": "Airedale  - scavenging",
+              "to": "Airedale  - digging"
+            }
+          }
+        },
+        {
+          "id": "12934",
+          "attributes": {
+            "name": {
+              "from": "Dachshund  - scavenging",
+              "to": "Dachshund  - digging"
+            }
+          }
+        },
+        {
+          "id": "12935",
+          "attributes": {
+            "name": {
+              "from": "Schnauser  - scavenging",
+              "to": "Schnauser  - digging"
+            }
+          }
+        },
+        {
+          "id": "12936",
+          "attributes": {
+            "name": {
+              "from": "Pit Bull  - scavenging",
+              "to": "Pit Bull  - digging"
+            }
+          }
+        },
+        {
+          "id": "12937",
+          "attributes": {
+            "name": {
+              "from": "Chihuahua  - scavenging",
+              "to": "Chihuahua  - digging"
+            }
+          }
+        },
+        {
+          "id": "8553",
+          "attributes": {
+            "name": {
+              "from": "Beagle -  just fed",
+              "to": "Beagle  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8554",
+          "attributes": {
+            "name": {
+              "from": "Airedale -  just fed",
+              "to": "Airedale  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8555",
+          "attributes": {
+            "name": {
+              "from": "Poodle -  just fed",
+              "to": "Poodle  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8556",
+          "attributes": {
+            "name": {
+              "from": "Collie -  just fed",
+              "to": "Collie  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8557",
+          "attributes": {
+            "name": {
+              "from": "Pit Bull -  just fed",
+              "to": "Pit Bull  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8558",
+          "attributes": {
+            "name": {
+              "from": "Dachshund -  just fed",
+              "to": "Dachshund  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8559",
+          "attributes": {
+            "name": {
+              "from": "Schnauser -  just fed",
+              "to": "Schnauser  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8560",
+          "attributes": {
+            "name": {
+              "from": "German Shepherd -  just fed",
+              "to": "German Shepherd  - donePlaying"
+            }
+          }
+        },
+        {
+          "id": "8561",
+          "attributes": {
+            "name": {
+              "from": "Chihuahua -  just fed",
+              "to": "Chihuahua  - donePlaying"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "12956",
+          "name": "Random Items Dug Up by German Shepherd",
+          "category": true
+        },
+        {
+          "id": "12957",
+          "name": "@ German Shepherd Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "12958",
+          "name": "@ Dog Dug Objects Pattern",
+          "category": true
+        },
+        {
+          "id": "12976",
+          "name": "@ Collie Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "12978",
+          "name": "Random Items Dug Up by Poodle",
+          "category": true
+        },
+        {
+          "id": "12979",
+          "name": "Random Items Dug Up by Collie",
+          "category": true
+        },
+        {
+          "id": "12987",
+          "name": "@ Poodle Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "12995",
+          "name": "Random Items Dug Up by Airedale",
+          "category": true
+        },
+        {
+          "id": "12996",
+          "name": "@ Airedale Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13004",
+          "name": "Random Items Dug Up by Beagle",
+          "category": true
+        },
+        {
+          "id": "13005",
+          "name": "@ Beagle Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13013",
+          "name": "Random Items Dug Up by Schnauser",
+          "category": true
+        },
+        {
+          "id": "13014",
+          "name": "@ Schnauser Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13022",
+          "name": "Random Items Dug Up by Dachshund",
+          "category": true
+        },
+        {
+          "id": "13023",
+          "name": "@ Dachshund Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13031",
+          "name": "Random Items Dug Up by Pit Bull",
+          "category": true
+        },
+        {
+          "id": "13032",
+          "name": "@ Pit Bull Digging Pattern",
+          "category": true
+        },
+        {
+          "id": "13040",
+          "name": "Random Items Dug Up by Chihuahua",
+          "category": true
+        },
+        {
+          "id": "13041",
+          "name": "@ Chihuahua Digging Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "3983583327672ab227219d988745e74e4531f740",
+      "message": "Scavenging dogs - redoing the feeding transitions",
+      "date": "2022-10-20T14:41:04.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "570",
+          "targetID": "1658",
+          "newTargetID": "8560",
+          "hand": true
+        },
+        {
+          "actorID": "570",
+          "targetID": "1658",
+          "targetUses": "max",
+          "newTargetWeight": 0.025,
+          "newActorID": "570",
+          "newTargetID": "1658",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "570",
+          "targetID": "1749",
+          "newTargetID": "8569",
+          "hand": true
+        },
+        {
+          "actorID": "570",
+          "targetID": "1749",
+          "targetUses": "max",
+          "newTargetWeight": 0.05,
+          "newActorID": "570",
+          "newTargetID": "1749",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "0da73785c31fcc373b7ed9b9721c0e4af7ce40b7",
+      "message": "Scavenging dogs - animations",
+      "date": "2022-10-20T14:26:44.000Z",
+      "addedObjectIDs": [
+        "12928",
+        "12929",
+        "12931",
+        "12932",
+        "12933",
+        "12934",
+        "12935",
+        "12936",
+        "12937"
+      ]
+    },
+    {
+      "sha": "5bb2e6320af1e448872b6e1b39cf361e8f056577",
+      "message": "Cart tracks - adze cooldown",
+      "date": "2022-10-19T18:00:41.000Z",
+      "addedObjectIDs": [
+        "12927"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12927",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.02,
+          "newTargetID": "462",
+          "decay": "3s"
+        },
+        {
+          "targetID": "12927",
+          "targetUses": "last",
+          "newTargetID": "858",
+          "decay": "3s"
+        },
+        {
+          "actorID": "462",
+          "targetID": "1594",
+          "newTargetUses": "-1",
+          "newActorID": "12927",
+          "newTargetID": "1595",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "1594",
+          "newTargetUses": "-1",
+          "newActorID": "462",
+          "newTargetID": "1595",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1594",
+          "name": "@ Diggable Track",
+          "category": true
+        },
+        {
+          "id": "1595",
+          "name": "Track Kit -  just dug",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "47793218b6e30d6db3d4844a538420fccf465112",
+      "message": "Cart tracks - tapouts",
+      "date": "2022-10-19T17:31:51.000Z",
+      "addedObjectIDs": [
+        "12916",
+        "12917",
+        "12918",
+        "12919",
+        "12920",
+        "12921",
+        "12922",
+        "12923",
+        "12924",
+        "12925",
+        "12926"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12916",
+          "newTargetID": "3760",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12917",
+          "newTargetID": "3762",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12918",
+          "newTargetID": "3761",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12919",
+          "newTargetID": "3759",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12923",
+          "newTargetID": "1515",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12924",
+          "newTargetID": "1511",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12925",
+          "newTargetID": "1510",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12926",
+          "newTargetID": "1514",
+          "decay": "1s"
+        },
+        {
+          "actorID": "12920",
+          "targetID": "12922",
+          "newTargetUses": "-1",
+          "newTargetID": "12922",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12921",
+          "targetID": "12920",
+          "newTargetUses": "-1",
+          "newTargetID": "1595",
+          "hand": true
+        },
+        {
+          "actorID": "12921",
+          "targetID": "12921",
+          "newTargetUses": "-1",
+          "newTargetID": "1595",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "110",
+          "newActorID": "107",
+          "newTargetID": "1583",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12912",
+          "newActorID": "107",
+          "newTargetID": "12919",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12913",
+          "newActorID": "107",
+          "newTargetID": "12916",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12914",
+          "newActorID": "107",
+          "newTargetID": "12918",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "12915",
+          "newActorID": "107",
+          "newTargetID": "12917",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1531",
+          "newActorID": "107",
+          "newTargetID": "12923",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1532",
+          "newActorID": "107",
+          "newTargetID": "12926",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1533",
+          "newActorID": "107",
+          "newTargetID": "12924",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1534",
+          "newActorID": "107",
+          "newTargetID": "12925",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1531",
+          "newActorID": "3060",
+          "newTargetID": "12923",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1532",
+          "newActorID": "3060",
+          "newTargetID": "12926",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1533",
+          "newActorID": "3060",
+          "newTargetID": "12924",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1534",
+          "newActorID": "3060",
+          "newTargetID": "12925",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "1530",
+          "targetID": "1512",
+          "newTargetID": "1583",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1513",
+          "newTargetID": "1583",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1531",
+          "newActorID": "107",
+          "newTargetID": "1515",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1532",
+          "newActorID": "107",
+          "newTargetID": "1514",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1533",
+          "newActorID": "107",
+          "newTargetID": "1511",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "1534",
+          "newActorID": "107",
+          "newTargetID": "1510",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1512",
+          "newActorID": "1595",
+          "newTargetID": "1583",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1513",
+          "newActorID": "1595",
+          "newTargetID": "1583",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1531",
+          "newActorID": "3060",
+          "newTargetID": "1515",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1532",
+          "newActorID": "3060",
+          "newTargetID": "1514",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1533",
+          "newActorID": "3060",
+          "newTargetID": "1511",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "1534",
+          "newActorID": "3060",
+          "newTargetID": "1510",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "1510",
+          "attributes": {
+            "name": {
+              "from": "Track End  - S",
+              "to": "Track End  - S +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1511",
+          "attributes": {
+            "name": {
+              "from": "Track End  - N",
+              "to": "Track End  - N +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1514",
+          "attributes": {
+            "name": {
+              "from": "Track End  - W",
+              "to": "Track End  - W +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1515",
+          "attributes": {
+            "name": {
+              "from": "Track End  - E",
+              "to": "Track End  - E +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1550",
+          "attributes": {
+            "name": {
+              "from": "Track End  - W  - cart",
+              "to": "Track End  - W  - cart +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1551",
+          "attributes": {
+            "name": {
+              "from": "Track End  - E  - cart",
+              "to": "Track End  - E  - cart +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1552",
+          "attributes": {
+            "name": {
+              "from": "Track End  - W  - cart  - built",
+              "to": "Track End  - W  - cart  - check +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1553",
+          "attributes": {
+            "name": {
+              "from": "Track End  - E  - cart  - built",
+              "to": "Track End  - E  - cart  - check +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1574",
+          "attributes": {
+            "name": {
+              "from": "Track End  - N  - cart",
+              "to": "Track End  - N  - cart +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1575",
+          "attributes": {
+            "name": {
+              "from": "Track End  - N  - cart  - built",
+              "to": "Track End  - N  - cart  - check +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1577",
+          "attributes": {
+            "name": {
+              "from": "Track End  - S  - cart",
+              "to": "Track End  - S  - cart +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "1578",
+          "attributes": {
+            "name": {
+              "from": "Track End  - S  - cart  - built",
+              "to": "Track End  - S  - cart  - check +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "3759",
+          "attributes": {
+            "name": {
+              "from": "Track  - NW",
+              "to": "Track  - NW +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "3760",
+          "attributes": {
+            "name": {
+              "from": "Track  - NE",
+              "to": "Track  - NE +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "3761",
+          "attributes": {
+            "name": {
+              "from": "Track  - SW",
+              "to": "Track  - SW +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "3762",
+          "attributes": {
+            "name": {
+              "from": "Track  - SE",
+              "to": "Track  - SE +tapoutTrigger,1,1,1,1"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1595",
+          "name": "Track Kit -  just dug",
+          "category": false
+        },
+        {
+          "id": "12916",
+          "name": "Track  - NE  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12917",
+          "name": "Track  - SE  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12918",
+          "name": "Track  - SW  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12919",
+          "name": "Track  - NW  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12920",
+          "name": "@ Check Track Group",
+          "category": true
+        },
+        {
+          "id": "12921",
+          "name": "@ Tapout Track Group",
+          "category": true
+        },
+        {
+          "id": "12922",
+          "name": "@ Tapout Track Pattern",
+          "category": true
+        },
+        {
+          "id": "12923",
+          "name": "Track End  - E  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12924",
+          "name": "Track End  - N  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12925",
+          "name": "Track End  - S  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12926",
+          "name": "Track End  - W  - check +tapoutTrigger,1,1,1,1",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "19c589cf262b2ffd77365164e4792a15037cd717",
+      "message": "Cart tracks - corner track stakes",
+      "date": "2022-10-19T16:40:42.000Z",
+      "addedObjectIDs": [
+        "12912",
+        "12913",
+        "12914",
+        "12915"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "110",
+          "newActorID": "467",
+          "newTargetID": "12913",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "12912",
+          "newActorID": "467",
+          "newTargetID": "110",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "12913",
+          "newActorID": "467",
+          "newTargetID": "12915",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "12914",
+          "newActorID": "467",
+          "newTargetID": "12912",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "12915",
+          "newActorID": "467",
+          "newTargetID": "12914",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "57deaaa2b4b0755c3f56389c161c7ceda6c9c7bd",
+      "message": "Cart tracks - click to reverse direction",
+      "date": "2022-10-19T16:08:00.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "1556",
+          "newTargetID": "1557",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "1557",
+          "newTargetID": "1556",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "1580",
+          "newTargetID": "1581",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "1581",
+          "newTargetID": "1580",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "1584",
+          "newTargetID": "1585",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "1585",
+          "newTargetID": "1584",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "1586",
+          "newTargetID": "1587",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "1587",
+          "newTargetID": "1586",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3783",
+          "newTargetID": "3786",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3786",
+          "newTargetID": "3783",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3787",
+          "newTargetID": "3790",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3790",
+          "newTargetID": "3787",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3792",
+          "newTargetID": "3795",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3795",
+          "newTargetID": "3792",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3796",
+          "newTargetID": "3799",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "3799",
+          "newTargetID": "3796",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "fd06bb14c66132039411ee2a7162ceac38d063ab",
+      "message": "Cart tracks - corners",
+      "date": "2022-10-19T16:01:50.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "3783",
+          "newTargetID": "12909",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "3786",
+          "newTargetID": "12908",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "3787",
+          "newTargetID": "12909",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "3790",
+          "newTargetID": "12911",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "3792",
+          "newTargetID": "12910",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "3795",
+          "newTargetID": "12908",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "3796",
+          "newTargetID": "12910",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "3799",
+          "newTargetID": "12911",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "actorID": "12908",
+          "targetID": "3759",
+          "newTargetID": "3787",
+          "hand": true
+        },
+        {
+          "actorID": "12908",
+          "targetID": "3760",
+          "newTargetID": "3786",
+          "hand": true
+        },
+        {
+          "actorID": "12908",
+          "targetID": "3761",
+          "newTargetID": "3796",
+          "hand": true
+        },
+        {
+          "actorID": "12908",
+          "targetID": "3762",
+          "newTargetID": "3795",
+          "hand": true
+        },
+        {
+          "actorID": "12909",
+          "targetID": "3759",
+          "newTargetID": "3787",
+          "hand": true
+        },
+        {
+          "actorID": "12909",
+          "targetID": "3760",
+          "newTargetID": "3783",
+          "hand": true
+        },
+        {
+          "actorID": "12909",
+          "targetID": "3761",
+          "newTargetID": "3799",
+          "hand": true
+        },
+        {
+          "actorID": "12909",
+          "targetID": "3762",
+          "newTargetID": "3795",
+          "hand": true
+        },
+        {
+          "actorID": "12910",
+          "targetID": "3759",
+          "newTargetID": "3790",
+          "hand": true
+        },
+        {
+          "actorID": "12910",
+          "targetID": "3760",
+          "newTargetID": "3786",
+          "hand": true
+        },
+        {
+          "actorID": "12910",
+          "targetID": "3761",
+          "newTargetID": "3796",
+          "hand": true
+        },
+        {
+          "actorID": "12910",
+          "targetID": "3762",
+          "newTargetID": "3792",
+          "hand": true
+        },
+        {
+          "actorID": "12911",
+          "targetID": "3759",
+          "newTargetID": "3790",
+          "hand": true
+        },
+        {
+          "actorID": "12911",
+          "targetID": "3760",
+          "newTargetID": "3783",
+          "hand": true
+        },
+        {
+          "actorID": "12911",
+          "targetID": "3761",
+          "newTargetID": "3799",
+          "hand": true
+        },
+        {
+          "actorID": "12911",
+          "targetID": "3762",
+          "newTargetID": "3792",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "3761",
+          "newTargetID": "3799",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "3762",
+          "newTargetID": "3795",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "3759",
+          "newTargetID": "3787",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "3761",
+          "newTargetID": "3796",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "3760",
+          "newTargetID": "3783",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "3762",
+          "newTargetID": "3792",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "3759",
+          "newTargetID": "3790",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "3760",
+          "newTargetID": "3786",
+          "hand": true
+        },
+        {
+          "actorID": "3783",
+          "newActorID": "3760",
+          "newTargetID": "12909",
+          "hand": true
+        },
+        {
+          "actorID": "3786",
+          "newActorID": "3760",
+          "newTargetID": "12908",
+          "hand": true
+        },
+        {
+          "actorID": "3787",
+          "newActorID": "3759",
+          "newTargetID": "12909",
+          "hand": true
+        },
+        {
+          "actorID": "3790",
+          "newActorID": "3759",
+          "newTargetID": "12911",
+          "hand": true
+        },
+        {
+          "actorID": "3792",
+          "newActorID": "3762",
+          "newTargetID": "12910",
+          "hand": true
+        },
+        {
+          "actorID": "3795",
+          "newActorID": "3762",
+          "newTargetID": "12908",
+          "hand": true
+        },
+        {
+          "actorID": "3796",
+          "newActorID": "3761",
+          "newTargetID": "12910",
+          "hand": true
+        },
+        {
+          "actorID": "3799",
+          "newActorID": "3761",
+          "newTargetID": "12911",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e10641a7ca532a8d9e04965035888428a8482198",
+      "message": "Cart tracks - try moving",
+      "date": "2022-10-19T15:41:04.000Z",
+      "addedObjectIDs": [
+        "12908",
+        "12909",
+        "12910",
+        "12911"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12908",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12909",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12910",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12911",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "1554",
+          "newTargetID": "12911",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "1555",
+          "newTargetID": "12908",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1576",
+          "newTargetID": "12910",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1579",
+          "newTargetID": "12909",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "actorID": "12908",
+          "targetID": "1512",
+          "newTargetID": "1557",
+          "hand": true
+        },
+        {
+          "actorID": "12908",
+          "targetID": "1583",
+          "newTargetID": "1586",
+          "hand": true
+        },
+        {
+          "actorID": "12909",
+          "targetID": "1513",
+          "newTargetID": "1581",
+          "hand": true
+        },
+        {
+          "actorID": "12909",
+          "targetID": "1583",
+          "newTargetID": "1584",
+          "hand": true
+        },
+        {
+          "actorID": "12910",
+          "targetID": "1513",
+          "newTargetID": "1580",
+          "hand": true
+        },
+        {
+          "actorID": "12910",
+          "targetID": "1583",
+          "newTargetID": "1585",
+          "hand": true
+        },
+        {
+          "actorID": "12911",
+          "targetID": "1512",
+          "newTargetID": "1556",
+          "hand": true
+        },
+        {
+          "actorID": "12911",
+          "targetID": "1583",
+          "newTargetID": "1587",
+          "hand": true
+        },
+        {
+          "actorID": "1554",
+          "newActorID": "1515",
+          "newTargetID": "12911",
+          "hand": true
+        },
+        {
+          "actorID": "1555",
+          "newActorID": "1514",
+          "newTargetID": "12908",
+          "hand": true
+        },
+        {
+          "actorID": "1576",
+          "newActorID": "1511",
+          "newTargetID": "12910",
+          "hand": true
+        },
+        {
+          "actorID": "1579",
+          "newActorID": "1510",
+          "newTargetID": "12909",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "1554",
+          "newTargetID": "1567",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "1555",
+          "newTargetID": "1522",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1576",
+          "newTargetID": "1571",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1579",
+          "newTargetID": "1521",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "actorID": "1554",
+          "newActorID": "1515",
+          "newTargetID": "1567",
+          "hand": true
+        },
+        {
+          "actorID": "1555",
+          "newActorID": "1514",
+          "newTargetID": "1522",
+          "hand": true
+        },
+        {
+          "actorID": "1576",
+          "newActorID": "1511",
+          "newTargetID": "1571",
+          "hand": true
+        },
+        {
+          "actorID": "1579",
+          "newActorID": "1510",
+          "newTargetID": "1521",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "b1f7a6cb5a3bcd67f91d08d84b209ea8981bb58d",
+      "message": "Cart tracks - four main directions",
+      "date": "2022-10-19T15:08:50.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "1521",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "1522",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "1554",
+          "newTargetID": "1567",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "1555",
+          "newTargetID": "1522",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1556",
+          "newTargetID": "1567",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "1557",
+          "newTargetID": "1522",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1567",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "1571",
+          "newTargetID": "1582",
+          "decay": "1s"
+        },
+        {
+          "targetID": "1576",
+          "newTargetID": "1571",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1579",
+          "newTargetID": "1521",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "1580",
+          "newTargetID": "1571",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1581",
+          "newTargetID": "1521",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "1584",
+          "newTargetID": "1521",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "1585",
+          "newTargetID": "1571",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1586",
+          "newTargetID": "1522",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1587",
+          "newTargetID": "1567",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "actorID": "1521",
+          "targetID": "1510",
+          "newTargetID": "1577",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "1511",
+          "newTargetID": "1574",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "1513",
+          "newTargetID": "1581",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "1583",
+          "newTargetID": "1584",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "1512",
+          "newTargetID": "1557",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "1514",
+          "newTargetID": "1550",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "1515",
+          "newTargetID": "1551",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "1583",
+          "newTargetID": "1586",
+          "hand": true
+        },
+        {
+          "actorID": "1554",
+          "newActorID": "1515",
+          "newTargetID": "1567",
+          "hand": true
+        },
+        {
+          "actorID": "1555",
+          "newActorID": "1514",
+          "newTargetID": "1522",
+          "hand": true
+        },
+        {
+          "actorID": "1556",
+          "newActorID": "1512",
+          "newTargetID": "1567",
+          "hand": true
+        },
+        {
+          "actorID": "1557",
+          "newActorID": "1512",
+          "newTargetID": "1522",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "1512",
+          "newTargetID": "1556",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "1514",
+          "newTargetID": "1550",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "1515",
+          "newTargetID": "1551",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "1583",
+          "newTargetID": "1587",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "1510",
+          "newTargetID": "1577",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "1511",
+          "newTargetID": "1574",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "1513",
+          "newTargetID": "1580",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "1583",
+          "newTargetID": "1585",
+          "hand": true
+        },
+        {
+          "actorID": "1576",
+          "newActorID": "1511",
+          "newTargetID": "1571",
+          "hand": true
+        },
+        {
+          "actorID": "1579",
+          "newActorID": "1510",
+          "newTargetID": "1521",
+          "hand": true
+        },
+        {
+          "actorID": "1580",
+          "newActorID": "1513",
+          "newTargetID": "1571",
+          "hand": true
+        },
+        {
+          "actorID": "1581",
+          "newActorID": "1513",
+          "newTargetID": "1521",
+          "hand": true
+        },
+        {
+          "actorID": "1584",
+          "newActorID": "1583",
+          "newTargetID": "1521",
+          "hand": true
+        },
+        {
+          "actorID": "1585",
+          "newActorID": "1583",
+          "newTargetID": "1571",
+          "hand": true
+        },
+        {
+          "actorID": "1586",
+          "newActorID": "1583",
+          "newTargetID": "1522",
+          "hand": true
+        },
+        {
+          "actorID": "1587",
+          "newActorID": "1583",
+          "newTargetID": "1567",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "aeda19c3a7d2104e89484d4fcfe84a466e537ff7",
+      "message": "Cart Tracks - renaming objects",
+      "date": "2022-10-19T13:46:05.000Z",
+      "objectChanges": [
+        {
+          "id": "1510",
+          "attributes": {
+            "name": {
+              "from": "South Track End",
+              "to": "Track End  - S"
+            }
+          }
+        },
+        {
+          "id": "1511",
+          "attributes": {
+            "name": {
+              "from": "North Track End",
+              "to": "Track End  - N"
+            }
+          }
+        },
+        {
+          "id": "1512",
+          "attributes": {
+            "name": {
+              "from": "East West Track",
+              "to": "Track  - EW"
+            }
+          }
+        },
+        {
+          "id": "1513",
+          "attributes": {
+            "name": {
+              "from": "North South Track",
+              "to": "Track  - NS"
+            }
+          }
+        },
+        {
+          "id": "1514",
+          "attributes": {
+            "name": {
+              "from": "West Track End",
+              "to": "Track End  - W"
+            }
+          }
+        },
+        {
+          "id": "1515",
+          "attributes": {
+            "name": {
+              "from": "East Track End",
+              "to": "Track End  - E"
+            }
+          }
+        },
+        {
+          "id": "1521",
+          "attributes": {
+            "name": {
+              "from": "Track Cart -  moving North",
+              "to": "Moving Track Cart  - N"
+            }
+          }
+        },
+        {
+          "id": "1522",
+          "attributes": {
+            "name": {
+              "from": "Track Cart - moving East",
+              "to": "Moving Track Cart  - E"
+            }
+          }
+        },
+        {
+          "id": "1550",
+          "attributes": {
+            "name": {
+              "from": "West Track End with Cart",
+              "to": "Track End  - W  - cart"
+            }
+          }
+        },
+        {
+          "id": "1551",
+          "attributes": {
+            "name": {
+              "from": "East Track End with Cart",
+              "to": "Track End  - E  - cart"
+            }
+          }
+        },
+        {
+          "id": "1552",
+          "attributes": {
+            "name": {
+              "from": "West Track End with Cart - built",
+              "to": "Track End  - W  - cart  - built"
+            }
+          }
+        },
+        {
+          "id": "1553",
+          "attributes": {
+            "name": {
+              "from": "East Track End with Cart - built",
+              "to": "Track End  - E  - cart  - built"
+            }
+          }
+        },
+        {
+          "id": "1554",
+          "attributes": {
+            "name": {
+              "from": "East Track End with Wound Cart",
+              "to": "Track End  - E  - cartW"
+            }
+          }
+        },
+        {
+          "id": "1555",
+          "attributes": {
+            "name": {
+              "from": "West Track End with Wound Cart",
+              "to": "Track End  - W  - cartE"
+            }
+          }
+        },
+        {
+          "id": "1556",
+          "attributes": {
+            "name": {
+              "from": "East West Track with Cart - movingWest",
+              "to": "Track  - EW  - cartW"
+            }
+          }
+        },
+        {
+          "id": "1557",
+          "attributes": {
+            "name": {
+              "from": "East West Track with Cart - movingEast",
+              "to": "Track  - EW  - cartE"
+            }
+          }
+        },
+        {
+          "id": "1567",
+          "attributes": {
+            "name": {
+              "from": "Track Cart - moving West",
+              "to": "Moving Track Cart  - W"
+            }
+          }
+        },
+        {
+          "id": "1571",
+          "attributes": {
+            "name": {
+              "from": "Track Cart -  moving South",
+              "to": "Moving Track Cart  - S"
+            }
+          }
+        },
+        {
+          "id": "1574",
+          "attributes": {
+            "name": {
+              "from": "North Track End with Cart",
+              "to": "Track End  - N  - cart"
+            }
+          }
+        },
+        {
+          "id": "1575",
+          "attributes": {
+            "name": {
+              "from": "North Track End with Cart - built",
+              "to": "Track End  - N  - cart  - built"
+            }
+          }
+        },
+        {
+          "id": "1576",
+          "attributes": {
+            "name": {
+              "from": "North Track End with Wound Cart",
+              "to": "Track End  - N  - cartS"
+            }
+          }
+        },
+        {
+          "id": "1577",
+          "attributes": {
+            "name": {
+              "from": "South Track End with Cart",
+              "to": "Track End  - S  - cart"
+            }
+          }
+        },
+        {
+          "id": "1578",
+          "attributes": {
+            "name": {
+              "from": "South Track End with Cart - built",
+              "to": "Track End  - S  - cart  - built"
+            }
+          }
+        },
+        {
+          "id": "1579",
+          "attributes": {
+            "name": {
+              "from": "South Track End with Wound Cart",
+              "to": "Track End  - S  - cartN"
+            }
+          }
+        },
+        {
+          "id": "1580",
+          "attributes": {
+            "name": {
+              "from": "North South Track with Cart -  moving South",
+              "to": "Track  - NS  - cartS"
+            }
+          }
+        },
+        {
+          "id": "1581",
+          "attributes": {
+            "name": {
+              "from": "North South Track with Cart -  moving North",
+              "to": "Track  - NS  - cartN"
+            }
+          }
+        },
+        {
+          "id": "1583",
+          "attributes": {
+            "name": {
+              "from": "Cross Track",
+              "to": "Track  - C"
+            }
+          }
+        },
+        {
+          "id": "1584",
+          "attributes": {
+            "name": {
+              "from": "Cross Track with Cart -  moving North",
+              "to": "Track  - C  - cartN"
+            }
+          }
+        },
+        {
+          "id": "1585",
+          "attributes": {
+            "name": {
+              "from": "Cross Track with Cart -  moving South",
+              "to": "Track  - C  - cartS"
+            }
+          }
+        },
+        {
+          "id": "1586",
+          "attributes": {
+            "name": {
+              "from": "Cross Track with Cart - movingEast",
+              "to": "Track  - C  - cartE"
+            }
+          }
+        },
+        {
+          "id": "1587",
+          "attributes": {
+            "name": {
+              "from": "Cross Track with Cart - movingWest",
+              "to": "Track  - C  - cartW"
+            }
+          }
+        },
+        {
+          "id": "3759",
+          "attributes": {
+            "name": {
+              "from": "North West Track",
+              "to": "Track  - NW"
+            }
+          }
+        },
+        {
+          "id": "3760",
+          "attributes": {
+            "name": {
+              "from": "North East Track",
+              "to": "Track  - NE"
+            }
+          }
+        },
+        {
+          "id": "3761",
+          "attributes": {
+            "name": {
+              "from": "South West Track",
+              "to": "Track  - SW"
+            }
+          }
+        },
+        {
+          "id": "3762",
+          "attributes": {
+            "name": {
+              "from": "South East Track",
+              "to": "Track  - SE"
+            }
+          }
+        },
+        {
+          "id": "3783",
+          "attributes": {
+            "name": {
+              "from": "North East Track with Cart -  moving North",
+              "to": "Track  - NE  - cartN"
+            }
+          }
+        },
+        {
+          "id": "3786",
+          "attributes": {
+            "name": {
+              "from": "North East Track with Cart -  moving East",
+              "to": "Track  - NE  - cartE"
+            }
+          }
+        },
+        {
+          "id": "3787",
+          "attributes": {
+            "name": {
+              "from": "North West Track with Cart -  moving North",
+              "to": "Track  - NW  - cartN"
+            }
+          }
+        },
+        {
+          "id": "3790",
+          "attributes": {
+            "name": {
+              "from": "North West Track with Cart -  moving West",
+              "to": "Track  - NW  - cartW"
+            }
+          }
+        },
+        {
+          "id": "3792",
+          "attributes": {
+            "name": {
+              "from": "South East Track with Cart -  moving South",
+              "to": "Track  - SE  - cartS"
+            }
+          }
+        },
+        {
+          "id": "3795",
+          "attributes": {
+            "name": {
+              "from": "South East Track with Cart -  moving East",
+              "to": "Track  - SE  - cartE"
+            }
+          }
+        },
+        {
+          "id": "3796",
+          "attributes": {
+            "name": {
+              "from": "South West Track with Cart -  moving South",
+              "to": "Track  - SW  - cartS"
+            }
+          }
+        },
+        {
+          "id": "3799",
+          "attributes": {
+            "name": {
+              "from": "South West Track with Cart -  moving West",
+              "to": "Track  - SW  - cartW"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "03173d84be33e1c1f8fce0fbf0da92142a178be8",
+      "message": "Tweaked some pile sounds again",
+      "date": "2022-10-18T15:05:28.000Z"
+    },
+    {
+      "sha": "05478f25fb64ac99af6b22f8b9c328c82bcd9320",
+      "message": "Cart Tracks - removing old transitions and excess objects",
+      "date": "2022-10-17T16:47:11.000Z",
+      "removedObjectIDs": [
+        "1568",
+        "1569",
+        "1572",
+        "1573",
+        "1588",
+        "1589",
+        "1590",
+        "1591"
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "1554",
+          "newTargetID": "1569",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "1555",
+          "newTargetID": "1568",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1556",
+          "newTargetID": "1567",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "1557",
+          "newTargetID": "1522",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1576",
+          "newTargetID": "1572",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1579",
+          "newTargetID": "1573",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "1580",
+          "newTargetID": "1571",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1581",
+          "newTargetID": "1521",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "1584",
+          "newTargetID": "1588",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "1585",
+          "newTargetID": "1589",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "1586",
+          "newTargetID": "1591",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "1587",
+          "newTargetID": "1590",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "actorID": "1521",
+          "newActorID": "1513",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "1511",
+          "newActorID": "1513",
+          "newTargetID": "1574",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "1513",
+          "newActorID": "1513",
+          "newTargetID": "1581",
+          "hand": true
+        },
+        {
+          "actorID": "1521",
+          "targetID": "1583",
+          "newActorID": "1513",
+          "newTargetID": "1584",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "newActorID": "1512",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "1512",
+          "newActorID": "1512",
+          "newTargetID": "1557",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "1515",
+          "newActorID": "1512",
+          "newTargetID": "1551",
+          "hand": true
+        },
+        {
+          "actorID": "1522",
+          "targetID": "1583",
+          "newActorID": "1512",
+          "newTargetID": "1586",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "newActorID": "1512",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "1512",
+          "newActorID": "1512",
+          "newTargetID": "1556",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "1514",
+          "newActorID": "1512",
+          "newTargetID": "1550",
+          "hand": true
+        },
+        {
+          "actorID": "1567",
+          "targetID": "1583",
+          "newActorID": "1512",
+          "newTargetID": "1587",
+          "hand": true
+        },
+        {
+          "actorID": "1568",
+          "newActorID": "1514",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1568",
+          "targetID": "1512",
+          "newActorID": "1514",
+          "newTargetID": "1557",
+          "hand": true
+        },
+        {
+          "actorID": "1568",
+          "targetID": "1515",
+          "newActorID": "1514",
+          "newTargetID": "1551",
+          "hand": true
+        },
+        {
+          "actorID": "1568",
+          "targetID": "1583",
+          "newActorID": "1514",
+          "newTargetID": "1586",
+          "hand": true
+        },
+        {
+          "actorID": "1569",
+          "newActorID": "1515",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1569",
+          "targetID": "1512",
+          "newActorID": "1515",
+          "newTargetID": "1556",
+          "hand": true
+        },
+        {
+          "actorID": "1569",
+          "targetID": "1514",
+          "newActorID": "1515",
+          "newTargetID": "1550",
+          "hand": true
+        },
+        {
+          "actorID": "1569",
+          "targetID": "1583",
+          "newActorID": "1515",
+          "newTargetID": "1587",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "newActorID": "1513",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "1510",
+          "newActorID": "1513",
+          "newTargetID": "1577",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "1513",
+          "newActorID": "1513",
+          "newTargetID": "1580",
+          "hand": true
+        },
+        {
+          "actorID": "1571",
+          "targetID": "1583",
+          "newActorID": "1513",
+          "newTargetID": "1585",
+          "hand": true
+        },
+        {
+          "actorID": "1572",
+          "newActorID": "1511",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1572",
+          "targetID": "1510",
+          "newActorID": "1511",
+          "newTargetID": "1577",
+          "hand": true
+        },
+        {
+          "actorID": "1572",
+          "targetID": "1513",
+          "newActorID": "1511",
+          "newTargetID": "1580",
+          "hand": true
+        },
+        {
+          "actorID": "1572",
+          "targetID": "1583",
+          "newActorID": "1511",
+          "newTargetID": "1585",
+          "hand": true
+        },
+        {
+          "actorID": "1573",
+          "newActorID": "1510",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1573",
+          "targetID": "1511",
+          "newActorID": "1510",
+          "newTargetID": "1574",
+          "hand": true
+        },
+        {
+          "actorID": "1573",
+          "targetID": "1513",
+          "newActorID": "1510",
+          "newTargetID": "1581",
+          "hand": true
+        },
+        {
+          "actorID": "1573",
+          "targetID": "1583",
+          "newActorID": "1510",
+          "newTargetID": "1584",
+          "hand": true
+        },
+        {
+          "actorID": "1588",
+          "newActorID": "1583",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1588",
+          "targetID": "1511",
+          "newActorID": "1583",
+          "newTargetID": "1574",
+          "hand": true
+        },
+        {
+          "actorID": "1588",
+          "targetID": "1513",
+          "newActorID": "1583",
+          "newTargetID": "1581",
+          "hand": true
+        },
+        {
+          "actorID": "1588",
+          "targetID": "1583",
+          "newActorID": "1583",
+          "newTargetID": "1584",
+          "hand": true
+        },
+        {
+          "actorID": "1589",
+          "newActorID": "1583",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1589",
+          "targetID": "1510",
+          "newActorID": "1583",
+          "newTargetID": "1577",
+          "hand": true
+        },
+        {
+          "actorID": "1589",
+          "targetID": "1513",
+          "newActorID": "1583",
+          "newTargetID": "1580",
+          "hand": true
+        },
+        {
+          "actorID": "1589",
+          "targetID": "1583",
+          "newActorID": "1583",
+          "newTargetID": "1585",
+          "hand": true
+        },
+        {
+          "actorID": "1590",
+          "newActorID": "1583",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1590",
+          "targetID": "1512",
+          "newActorID": "1583",
+          "newTargetID": "1556",
+          "hand": true
+        },
+        {
+          "actorID": "1590",
+          "targetID": "1514",
+          "newActorID": "1583",
+          "newTargetID": "1550",
+          "hand": true
+        },
+        {
+          "actorID": "1590",
+          "targetID": "1583",
+          "newActorID": "1583",
+          "newTargetID": "1587",
+          "hand": true
+        },
+        {
+          "actorID": "1591",
+          "newActorID": "1583",
+          "newTargetID": "1582",
+          "hand": true
+        },
+        {
+          "actorID": "1591",
+          "targetID": "1512",
+          "newActorID": "1583",
+          "newTargetID": "1557",
+          "hand": true
+        },
+        {
+          "actorID": "1591",
+          "targetID": "1515",
+          "newActorID": "1583",
+          "newTargetID": "1551",
+          "hand": true
+        },
+        {
+          "actorID": "1591",
+          "targetID": "1583",
+          "newActorID": "1583",
+          "newTargetID": "1586",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1568",
+          "name": "Track Cart - moving East left end",
+          "category": false
+        },
+        {
+          "id": "1569",
+          "name": "Track Cart - moving West left end",
+          "category": false
+        },
+        {
+          "id": "1572",
+          "name": "Track Cart -  moving South left end",
+          "category": false
+        },
+        {
+          "id": "1573",
+          "name": "Track Cart -  moving North left end",
+          "category": false
+        },
+        {
+          "id": "1588",
+          "name": "Track Cart -  moving North left cross",
+          "category": false
+        },
+        {
+          "id": "1589",
+          "name": "Track Cart -  moving South left cross",
+          "category": false
+        },
+        {
+          "id": "1590",
+          "name": "Track Cart - moving West left cross",
+          "category": false
+        },
+        {
+          "id": "1591",
+          "name": "Track Cart - moving East left cross",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "bae3bce75b5ff150a459450fa17cbd2a1455aa1d",
+      "message": "Cart Tracks - objects and sprites",
+      "date": "2022-10-17T16:30:10.000Z",
+      "addedObjectIDs": [
+        "3759",
+        "3760",
+        "3761",
+        "3762",
+        "3783",
+        "3786",
+        "3787",
+        "3790",
+        "3792",
+        "3795",
+        "3796",
+        "3799"
+      ]
+    },
+    {
+      "sha": "3ae12e16654b240708b2beb6054adf81156a6865",
+      "message": "These splitters aint drawn right in scene editor",
+      "date": "2022-10-14T17:02:45.000Z"
+    },
+    {
+      "sha": "3a89331e22935ecc9e7772786815df6cdab69def",
+      "message": "These objects ain't drawn right in scene editor",
+      "date": "2022-10-14T16:46:34.000Z"
+    },
+    {
+      "sha": "2cf8b5bee80df2d8d0a25629ce2ce3de64306503",
+      "message": "FIND move and tapout don't work well together for now... Made it CHASE",
+      "date": "2022-10-16T09:29:23.000Z",
+      "legacyObjects": [
+        {
+          "id": "10940",
+          "name": "@ Cat - standing",
+          "category": true
+        },
+        {
+          "id": "12715",
+          "name": "@ Cat - hunting",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "22b2098daea1219436ccebe097266341537cf035",
+      "message": "Spraying Sprinklers let water flow through",
+      "date": "2022-10-15T17:18:41.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12439",
+          "newTargetID": "12436",
+          "decay": "4s"
+        },
+        {
+          "targetID": "12446",
+          "newTargetID": "12444",
+          "decay": "4s"
+        },
+        {
+          "actorID": "12438",
+          "newActorID": "12631",
+          "newTargetID": "7235",
+          "hand": true
+        },
+        {
+          "actorID": "12443",
+          "newActorID": "12631",
+          "newTargetID": "7236",
+          "hand": true
+        },
+        {
+          "actorID": "12447",
+          "newActorID": "12632",
+          "newTargetID": "7234",
+          "hand": true
+        },
+        {
+          "actorID": "12448",
+          "newActorID": "12632",
+          "newTargetID": "7232",
+          "hand": true
+        },
+        {
+          "actorID": "7232",
+          "targetID": "12446",
+          "newTargetID": "12448",
+          "hand": true
+        },
+        {
+          "actorID": "7234",
+          "targetID": "12446",
+          "newTargetID": "12447",
+          "hand": true
+        },
+        {
+          "actorID": "7235",
+          "targetID": "12439",
+          "newTargetID": "12438",
+          "hand": true
+        },
+        {
+          "actorID": "7236",
+          "targetID": "12439",
+          "newTargetID": "12443",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "12439",
+          "newTargetID": "12436",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12446",
+          "newTargetID": "12444",
+          "decay": "1s"
+        },
+        {
+          "actorID": "12438",
+          "newActorID": "12439",
+          "newTargetID": "7235",
+          "hand": true
+        },
+        {
+          "actorID": "12443",
+          "newActorID": "12439",
+          "newTargetID": "7236",
+          "hand": true
+        },
+        {
+          "actorID": "12447",
+          "newActorID": "12446",
+          "newTargetID": "7234",
+          "hand": true
+        },
+        {
+          "actorID": "12448",
+          "newActorID": "12446",
+          "newTargetID": "7232",
+          "hand": true
+        },
+        {
+          "actorID": "7232",
+          "targetID": "12446",
+          "newTargetID": "12632",
+          "hand": true
+        },
+        {
+          "actorID": "7234",
+          "targetID": "12446",
+          "newTargetID": "12632",
+          "hand": true
+        },
+        {
+          "actorID": "7235",
+          "targetID": "12439",
+          "newTargetID": "12631",
+          "hand": true
+        },
+        {
+          "actorID": "7236",
+          "targetID": "12439",
+          "newTargetID": "12631",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12438",
+          "attributes": {
+            "name": {
+              "from": "Copper Sprinkler  - EW E spraying",
+              "to": "Copper Sprinkler  - EW  - waterE spraying"
+            }
+          }
+        },
+        {
+          "id": "12443",
+          "attributes": {
+            "name": {
+              "from": "Copper Sprinkler  - EW W spraying",
+              "to": "Copper Sprinkler  - EW  - waterW spraying"
+            }
+          }
+        },
+        {
+          "id": "12447",
+          "attributes": {
+            "name": {
+              "from": "Copper Sprinkler  - NS S spraying",
+              "to": "Copper Sprinkler  - NS  - waterS spraying"
+            }
+          }
+        },
+        {
+          "id": "12448",
+          "attributes": {
+            "name": {
+              "from": "Copper Sprinkler  - NS N spraying",
+              "to": "Copper Sprinkler  - NS  - waterN spraying"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "12631",
+          "name": "@ Perhaps EW Sprinkler waterE tapout (outdated)",
+          "category": true
+        },
+        {
+          "id": "12632",
+          "name": "@ Perhaps NS Sprinkler waterN tapout (outdated)",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "34c3039bb5a1cbf24a4187ef235b7002cdb48ddc",
+      "message": "This temp object doesn't mean to be natural",
+      "date": "2022-10-13T13:47:30.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12738",
+          "newTargetID": "1938",
+          "decay": "1s"
+        }
+      ]
+    }
+  ]
+}

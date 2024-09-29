@@ -1,0 +1,202 @@
+{
+  "id": "295",
+  "date": "2019-12-14T02:08:26.000Z",
+  "commits": [
+    {
+      "sha": "0c9bdadfc84b60e4ee7d41f3d3bc24dc9c80e0a8",
+      "message": "Added griefer to image.",
+      "date": "2019-12-14T01:41:50.000Z"
+    },
+    {
+      "sha": "52597de6076c4c28949b0ecb242b6982be10547d",
+      "message": "Scene for leadership image.  Still need to add dummy color for badges before taking screen shot.",
+      "date": "2019-12-14T01:38:18.000Z"
+    },
+    {
+      "sha": "514e3018dda0b0470d32b10cc3a47e3fc405b7cf",
+      "message": "Final badge and exile sprites.",
+      "date": "2019-12-13T23:06:56.000Z",
+      "addedObjectIDs": [
+        "3400",
+        "3401",
+        "3402",
+        "3403",
+        "3404",
+        "3405",
+        "3406",
+        "3407",
+        "3408",
+        "3409",
+        "3410",
+        "3411",
+        "3412",
+        "3413",
+        "3414",
+        "3415",
+        "3416",
+        "3417",
+        "3418"
+      ],
+      "legacyObjects": [
+        {
+          "id": "3400",
+          "name": "Badge A Half X",
+          "category": false
+        },
+        {
+          "id": "3401",
+          "name": "Badge B Half X",
+          "category": false
+        },
+        {
+          "id": "3402",
+          "name": "Badge C Half X",
+          "category": false
+        },
+        {
+          "id": "3403",
+          "name": "Badge D Half X",
+          "category": false
+        },
+        {
+          "id": "3404",
+          "name": "Badge E Half X",
+          "category": false
+        },
+        {
+          "id": "3405",
+          "name": "Badge F Half X",
+          "category": false
+        },
+        {
+          "id": "3406",
+          "name": "Badge G Half X",
+          "category": false
+        },
+        {
+          "id": "3407",
+          "name": "Badge H Half X",
+          "category": false
+        },
+        {
+          "id": "3408",
+          "name": "Badge I Half X",
+          "category": false
+        },
+        {
+          "id": "3409",
+          "name": "Badge A Full X",
+          "category": false
+        },
+        {
+          "id": "3410",
+          "name": "Badge B Full X",
+          "category": false
+        },
+        {
+          "id": "3411",
+          "name": "Badge C Full X",
+          "category": false
+        },
+        {
+          "id": "3412",
+          "name": "Badge D Full X",
+          "category": false
+        },
+        {
+          "id": "3413",
+          "name": "Badge E Full X",
+          "category": false
+        },
+        {
+          "id": "3414",
+          "name": "Badge F Full X",
+          "category": false
+        },
+        {
+          "id": "3415",
+          "name": "Badge G Full X",
+          "category": false
+        },
+        {
+          "id": "3416",
+          "name": "Badge H Full X",
+          "category": false
+        },
+        {
+          "id": "3417",
+          "name": "Badge I Full X",
+          "category": false
+        },
+        {
+          "id": "3418",
+          "name": "Full X",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "6208fc4715e075493b7f40603f17c64aefc76a2d",
+      "message": "Placeholder badge objects for testing.",
+      "date": "2019-12-13T01:17:39.000Z",
+      "addedObjectIDs": [
+        "3391",
+        "3392",
+        "3393",
+        "3394",
+        "3395",
+        "3396",
+        "3397",
+        "3398",
+        "3399"
+      ],
+      "legacyObjects": [
+        {
+          "id": "3391",
+          "name": "Badge A",
+          "category": false
+        },
+        {
+          "id": "3392",
+          "name": "Badge B",
+          "category": false
+        },
+        {
+          "id": "3393",
+          "name": "Badge C",
+          "category": false
+        },
+        {
+          "id": "3394",
+          "name": "Badge D",
+          "category": false
+        },
+        {
+          "id": "3395",
+          "name": "Badge E",
+          "category": false
+        },
+        {
+          "id": "3396",
+          "name": "Badge F",
+          "category": false
+        },
+        {
+          "id": "3397",
+          "name": "Badge G",
+          "category": false
+        },
+        {
+          "id": "3398",
+          "name": "Badge I",
+          "category": false
+        },
+        {
+          "id": "3399",
+          "name": "Badge H",
+          "category": false
+        }
+      ]
+    }
+  ]
+}

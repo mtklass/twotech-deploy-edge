@@ -1,0 +1,5170 @@
+{
+  "id": "20303",
+  "date": "2023-04-08T11:29:15.000Z",
+  "commits": [
+    {
+      "sha": "a540e7f665595576719438133e622b8584f80e8f",
+      "message": "Changed mug recipes and made them stackable",
+      "date": "2023-04-08T11:13:15.000Z",
+      "addedObjectIDs": [
+        "13636",
+        "13637",
+        "13638",
+        "13639"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13637",
+          "decay": "4m"
+        },
+        {
+          "targetID": "13636",
+          "newActorID": "13637",
+          "newTargetID": "126",
+          "hand": true
+        },
+        {
+          "targetID": "13638",
+          "newActorID": "13465",
+          "newTargetID": "13639",
+          "hand": true
+        },
+        {
+          "targetID": "13639",
+          "newActorID": "13465",
+          "newTargetID": "13465",
+          "hand": true
+        },
+        {
+          "actorID": "11671",
+          "newActorUses": "-1",
+          "newActorWeight": 0.08,
+          "targetID": "126",
+          "newActorID": "11671",
+          "newTargetID": "13636",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "13465",
+          "newTargetID": "13639",
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "13639",
+          "newTargetID": "13638",
+          "hand": true
+        },
+        {
+          "actorID": "13637",
+          "targetID": "233",
+          "newTargetID": "13466",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "233",
+          "newActorID": "33",
+          "newTargetID": "234",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "126",
+          "newActorID": "560",
+          "newTargetID": "13636",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8709",
+          "newActorUses": "-1",
+          "newActorWeight": 0.08,
+          "targetID": "126",
+          "newActorID": "8709",
+          "newTargetID": "13636",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "33",
+          "targetID": "13466",
+          "newActorID": "33",
+          "newTargetID": "234",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "233",
+          "newActorID": "33",
+          "newTargetID": "13466",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "0bad41228cd630fec08f2d5d5f61c590c1852077",
+      "message": "Fixed some inconsistencies about hops containment",
+      "date": "2023-04-06T16:09:36.000Z"
+    },
+    {
+      "sha": "7829f6a9fcdcb2703cc99428b1198abd580790fe",
+      "message": "Fixed a bunch of inconsistencies with camping stove",
+      "date": "2023-04-06T15:44:57.000Z",
+      "addedObjectIDs": [
+        "13634",
+        "13635"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13634",
+          "newTargetID": "4841",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13635",
+          "newTargetID": "4840",
+          "decay": "1s"
+        },
+        {
+          "targetID": "9072",
+          "newTargetID": "4774",
+          "decay": "2m"
+        },
+        {
+          "targetID": "4770",
+          "newActorID": "13634",
+          "newTargetID": "4769",
+          "hand": true
+        },
+        {
+          "targetID": "4774",
+          "newActorID": "13634",
+          "newTargetID": "4769",
+          "hand": true
+        },
+        {
+          "targetID": "9072",
+          "newActorID": "13634",
+          "newTargetID": "9074",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "4839",
+          "newTargetID": "13635",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "9072",
+          "newTargetID": "9076",
+          "decay": "2m"
+        },
+        {
+          "targetID": "4770",
+          "newActorID": "4841",
+          "newTargetID": "4769",
+          "hand": true
+        },
+        {
+          "targetID": "4774",
+          "newActorID": "4841",
+          "newTargetID": "4769",
+          "hand": true
+        },
+        {
+          "targetID": "9072",
+          "newActorID": "4841",
+          "newTargetID": "9074",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "4839",
+          "newTargetID": "4840",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "13370",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove with Warm Milk  - hot",
+              "to": "Camping Stove with Warm Milk"
+            }
+          }
+        },
+        {
+          "id": "13385",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove with Milk  - hot",
+              "to": "Camping Stove with Milk"
+            }
+          }
+        },
+        {
+          "id": "4769",
+          "attributes": {
+            "name": {
+              "from": "Stove Frame  - deployed",
+              "to": "Camping Stove Frame"
+            }
+          }
+        },
+        {
+          "id": "4770",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - empty",
+              "to": "Empty Camping Stove"
+            }
+          }
+        },
+        {
+          "id": "4771",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - water",
+              "to": "Camping Stove  - water (old)"
+            }
+          }
+        },
+        {
+          "id": "4772",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - water boiling",
+              "to": "Camping Stove with Boiling Water"
+            }
+          }
+        },
+        {
+          "id": "4773",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - hot stew",
+              "to": "Camping Stove  - hot stew (old)"
+            }
+          }
+        },
+        {
+          "id": "4774",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - empty ashes",
+              "to": "Empty Camping Stove on Ashes"
+            }
+          }
+        },
+        {
+          "id": "4775",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - water ashes",
+              "to": "Camping Stove  - water ashes (old)"
+            }
+          }
+        },
+        {
+          "id": "4776",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - cold stew ashes",
+              "to": "Camping Stove  - cold stew ashes (old)"
+            }
+          }
+        },
+        {
+          "id": "4840",
+          "attributes": {
+            "name": {
+              "from": "Stove Frame  - stowed",
+              "to": "Camping Stove Frame  - stowed"
+            }
+          }
+        },
+        {
+          "id": "5277",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - water heating",
+              "to": "Camping Stove with Hot Water"
+            }
+          }
+        },
+        {
+          "id": "5278",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - hot stew veggie",
+              "to": "Camping Stove  - hot stew veggie (old)"
+            }
+          }
+        },
+        {
+          "id": "5279",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove  - cold stew ashes veggie",
+              "to": "Camping Stove  - cold stew ashes veggie (old)"
+            }
+          }
+        },
+        {
+          "id": "9056",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove with Tomato Soup - hot",
+              "to": "Camping Stove with Hot Tomato Soup"
+            }
+          }
+        },
+        {
+          "id": "9057",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove with Mushroom Soup - hot",
+              "to": "Camping Stove with Hot Mushroom Soup"
+            }
+          }
+        },
+        {
+          "id": "9060",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove with Carrot and Onions  - hot",
+              "to": "Camping Stove with Carrot and Onions - hot"
+            }
+          }
+        },
+        {
+          "id": "9062",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove with French Onion Soup - hot",
+              "to": "Camping Stove with Hot French Onion Soup"
+            }
+          }
+        },
+        {
+          "id": "9072",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove on Hot Coals",
+              "to": "Empty Camping Stove on Hot Coals"
+            }
+          }
+        },
+        {
+          "id": "9074",
+          "attributes": {
+            "name": {
+              "from": "Camping Stove Base on Hot Coals",
+              "to": "Camping Stove Frame on Hot Coals"
+            }
+          }
+        },
+        {
+          "id": "9075",
+          "attributes": {
+            "name": {
+              "from": "Stove Frame on Ashes",
+              "to": "Camping Stove Frame on Ashes"
+            }
+          }
+        },
+        {
+          "id": "9076",
+          "attributes": {
+            "name": {
+              "from": "Empty Camping Stove on Ashes",
+              "to": "Empty Camping Stove on Ashes (old)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "5b9376bc405e37be3228e49b9617d0bf67b4288a",
+      "message": "Use straight shaft to close iron doors instead of tongs",
+      "date": "2023-04-06T10:45:29.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13435",
+          "newActorID": "13507",
+          "newTargetID": "13436",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "239",
+          "targetID": "13435",
+          "newActorID": "239",
+          "newTargetID": "13436",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "a793c668da72ee10cc6c29ff3d78016178db48d8",
+      "message": "Replaced bamboo hat sprites",
+      "date": "2023-04-05T13:04:33.000Z"
+    },
+    {
+      "sha": "396f648f2aaefe9c540c81bc4892112ca6fc5442",
+      "message": "Shovel with stakes / concrete is permanent",
+      "date": "2023-04-04T18:38:35.000Z"
+    },
+    {
+      "sha": "060199da7ca66611e3f82a1fbb13bd04a9f8afa2",
+      "message": "No cheating by leaving one ball of cotton",
+      "date": "2023-04-04T18:19:27.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "6397",
+          "newTargetID": "848",
+          "decay": "60m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "6397",
+          "newTargetID": "213",
+          "decay": "60m"
+        }
+      ]
+    },
+    {
+      "sha": "1db086900ec4b9d634cbe78bd1ec06b5bb769371",
+      "message": "Beavers do not enter full den",
+      "date": "2023-04-04T18:07:24.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "8961",
+          "targetID": "8959",
+          "newTargetID": "8959",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "55825f348a8611f927f3e23d8efa2fa2ec79ab33",
+      "message": "Raw link of sausages is permanent",
+      "date": "2023-04-04T17:58:07.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "6506",
+          "targetID": "6508",
+          "newActorID": "235",
+          "newTargetID": "6497",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "6508",
+          "targetID": "6506",
+          "newActorID": "6497",
+          "newTargetID": "235",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "b5b4687679b3329adcef092a7b3370d891ed10f2",
+      "message": "Fixed roller mechanism held pos when its just grabbed",
+      "date": "2023-04-04T17:47:51.000Z"
+    },
+    {
+      "sha": "0e2288781e042cf3dc7a638ac2f16696b2f0ee03",
+      "message": "Can add bagasse as wood shaving to a crock",
+      "date": "2023-04-04T17:42:09.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2782",
+          "targetID": "10225",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10225",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2782",
+          "targetID": "10225",
+          "targetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "10234",
+          "hand": true
+        },
+        {
+          "actorID": "2782",
+          "targetID": "1217",
+          "newActorID": "235",
+          "newTargetID": "10225",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "680c512725f0c465432c36a0e2b0b9e1348d7da8",
+      "message": "Transitions for bamboo hat, backpack and sandals",
+      "date": "2023-04-04T15:23:34.000Z",
+      "addedObjectIDs": [
+        "13627",
+        "13630",
+        "13631",
+        "13632",
+        "13633"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13631",
+          "newActorID": "13630",
+          "newTargetID": "13630",
+          "hand": true
+        },
+        {
+          "targetID": "13632",
+          "newTargetUses": "-1",
+          "newActorID": "13630",
+          "newTargetID": "13632",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13632",
+          "targetUses": "last",
+          "newActorID": "13630",
+          "newTargetID": "13633",
+          "hand": true
+        },
+        {
+          "targetID": "13633",
+          "newActorID": "13630",
+          "newTargetID": "13631",
+          "hand": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "13630",
+          "newActorID": "1127",
+          "newTargetID": "12277",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "11665",
+          "newActorUses": "-1",
+          "targetID": "6667",
+          "newActorID": "11665",
+          "newTargetID": "13627",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13627",
+          "targetID": "730",
+          "newActorID": "13630",
+          "newTargetID": "730",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13630",
+          "targetID": "13630",
+          "newTargetID": "13631",
+          "hand": true
+        },
+        {
+          "actorID": "13630",
+          "targetID": "13631",
+          "newTargetID": "13633",
+          "hand": true
+        },
+        {
+          "actorID": "13630",
+          "targetID": "13632",
+          "newTargetUses": "+1",
+          "newTargetID": "13632",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13630",
+          "targetID": "13633",
+          "newTargetUses": "last",
+          "newTargetID": "13632",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "13632",
+          "targetUses": "max",
+          "newTargetID": "12276",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "13633",
+          "newTargetID": "12278",
+          "hand": true
+        },
+        {
+          "actorID": "71",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "6667",
+          "newActorID": "71",
+          "newTargetID": "13627",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        },
+        {
+          "id": "11665",
+          "name": "@ Any Axe",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8f504ac27f4c7d0edb287249462746e658bc45c0",
+      "message": "Bowl of nails contained sideway",
+      "date": "2023-04-04T13:54:07.000Z"
+    },
+    {
+      "sha": "73ff491efb3dcec917052f94bfbbca4308ec9433",
+      "message": "Changed the soil clay pile name to be consistent with the boxed version",
+      "date": "2023-04-04T13:53:01.000Z",
+      "objectChanges": [
+        {
+          "id": "13572",
+          "attributes": {
+            "name": {
+              "from": "Mixed Soil and Clay Pile",
+              "to": "Wet Soil and Clay Mixture"
+            }
+          }
+        },
+        {
+          "id": "13573",
+          "attributes": {
+            "name": {
+              "from": "Mixed Soil and Fireclay Pile",
+              "to": "Wet Soil and Fireclay Mixture"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "133f0b4600d26aae5b52dacfb52bbe2528fd4ec1",
+      "message": "Changed plastered floor to concrete floor",
+      "date": "2023-04-03T18:34:07.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "13603",
+          "targetID": "486",
+          "newActorID": "13624",
+          "newTargetID": "4502",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "targetID": "486",
+          "newActorID": "13625",
+          "newTargetID": "4502",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "677",
+          "targetID": "485",
+          "newActorID": "235",
+          "newTargetID": "4502",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "4502",
+          "attributes": {
+            "name": {
+              "from": "Plastered Floor Boards -  groundOnly",
+              "to": "Concrete Floor -  groundOnly"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "690bd16040fb6bd4a2a804c66f3af482b8970d35",
+      "message": "When building with stakes and shovel of concrete, stakes go to the shovel instead of the built object",
+      "date": "2023-04-03T18:20:48.000Z",
+      "addedObjectIDs": [
+        "13624"
+      ],
+      "removedObjectIDs": [
+        "13604"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "13603",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13624",
+          "newTargetID": "13560",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "targetID": "13619",
+          "newActorID": "13624",
+          "newTargetID": "7178",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13625",
+          "newTargetID": "13560",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "targetID": "13619",
+          "newActorID": "13625",
+          "newTargetID": "7178",
+          "hand": true
+        },
+        {
+          "actorID": "13624",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "newActorID": "502",
+          "newTargetID": "3060",
+          "hand": true
+        },
+        {
+          "actorID": "13624",
+          "actorUses": "last",
+          "newActorID": "858",
+          "newTargetID": "107",
+          "hand": true
+        },
+        {
+          "actorID": "13625",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "newActorID": "11634",
+          "newTargetID": "3060",
+          "hand": true
+        },
+        {
+          "actorID": "13625",
+          "actorUses": "last",
+          "newActorID": "11560",
+          "newTargetID": "107",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "13604",
+          "newActorID": "107",
+          "newTargetID": "13560",
+          "hand": true
+        },
+        {
+          "targetID": "13620",
+          "newActorID": "107",
+          "newTargetID": "7178",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13605",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "actorUses": "last",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "858",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "13619",
+          "newActorID": "502",
+          "newTargetID": "13620",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "actorUses": "last",
+          "targetID": "13619",
+          "newActorID": "858",
+          "newTargetID": "13620",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13615",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "actorUses": "last",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "11560",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13619",
+          "newActorID": "11634",
+          "newTargetID": "13620",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "actorUses": "last",
+          "targetID": "13619",
+          "newActorID": "11560",
+          "newTargetID": "13620",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13604",
+          "name": "Brick Oven with Stakes",
+          "category": false
+        },
+        {
+          "id": "13620",
+          "name": "Empty Stone Fireplace with Stakes",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "61ea64f1d63bcd65eef7f64c6bb824d37ccf2d77",
+      "message": "Concrete dry up in wheelbarrow",
+      "date": "2023-04-03T18:04:34.000Z",
+      "addedObjectIDs": [
+        "13622",
+        "13623"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13602",
+          "newTargetID": "13622",
+          "decay": "1h"
+        },
+        {
+          "targetID": "13623",
+          "newTargetID": "483",
+          "decay": "1s"
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13622",
+          "newActorID": "684",
+          "newTargetID": "13623",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8710",
+          "newActorUses": "-1",
+          "newActorWeight": 0.2,
+          "targetID": "13622",
+          "newActorID": "8710",
+          "newTargetID": "13623",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "12dac5026ac09a5cd89ce5a604a35b8f141946eb",
+      "message": "Pile of bauxite, and fixed missing sound of partial alum pile",
+      "date": "2023-04-03T17:43:35.000Z",
+      "addedObjectIDs": [
+        "13621"
+      ]
+    },
+    {
+      "sha": "3f83933192a1631ab1fbc77e21c0e648d3275aa9",
+      "message": "Require concrete to build fireplace (and therefore stone kiln and furnace)",
+      "date": "2023-04-03T17:32:34.000Z",
+      "addedObjectIDs": [
+        "13619",
+        "13620"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13619",
+          "newActorID": "7136",
+          "newTargetID": "622",
+          "hand": true
+        },
+        {
+          "targetID": "13620",
+          "newActorID": "107",
+          "newTargetID": "7178",
+          "hand": true
+        },
+        {
+          "actorID": "13595",
+          "targetID": "282",
+          "newTargetUses": "-1",
+          "newActorID": "13597",
+          "newTargetID": "282",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13598",
+          "targetID": "483",
+          "newActorID": "1217",
+          "newTargetID": "13600",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "13619",
+          "newActorID": "502",
+          "newTargetID": "13620",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "actorUses": "last",
+          "targetID": "13619",
+          "newActorID": "858",
+          "newTargetID": "13620",
+          "hand": true
+        },
+        {
+          "actorID": "13606",
+          "targetID": "13600",
+          "newActorID": "292",
+          "newTargetID": "13601",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13619",
+          "newActorID": "11634",
+          "newTargetID": "13620",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "actorUses": "last",
+          "targetID": "13619",
+          "newActorID": "11560",
+          "newTargetID": "13620",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "4437",
+          "newActorID": "13606",
+          "hand": true
+        },
+        {
+          "actorID": "7136",
+          "targetID": "622",
+          "newTargetID": "13619",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "7136",
+          "targetID": "622",
+          "newActorID": "107",
+          "newTargetID": "7178",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13620",
+          "name": "Empty Stone Fireplace with Stakes",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "a96c4104f782e9ef191eeb0e12bfb3c0fa26ad60",
+      "message": "Temporary recipes to bring bauxite and coal into the game",
+      "date": "2023-04-03T15:22:24.000Z",
+      "addedObjectIDs": [
+        "13617",
+        "13618"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13617",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.2,
+          "newActorID": "13497",
+          "newTargetID": "11547",
+          "hand": true
+        },
+        {
+          "targetID": "13617",
+          "targetUses": "last",
+          "newActorID": "13497",
+          "newTargetID": "11626",
+          "hand": true
+        },
+        {
+          "targetID": "13618",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.2,
+          "newActorID": "13536",
+          "newTargetID": "11546",
+          "hand": true
+        },
+        {
+          "targetID": "13618",
+          "targetUses": "last",
+          "newActorID": "13536",
+          "newTargetID": "11627",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "16598d58939827e787228d3dcd87089b69f74047",
+      "message": "Updated tutorial, removing the mango tree",
+      "date": "2023-04-02T18:04:55.000Z"
+    },
+    {
+      "sha": "6335e5a3c4f37e759a4da6b6be3a17027f9f8d29",
+      "message": "Fixing guinea pigs bugs",
+      "date": "2023-04-02T18:04:20.000Z",
+      "addedObjectIDs": [
+        "13616"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13616",
+          "newTargetID": "237",
+          "decay": "1s"
+        },
+        {
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "decay": "3s"
+        },
+        {
+          "targetID": "250",
+          "targetUses": "last",
+          "newTargetID": "237",
+          "decay": "3s"
+        },
+        {
+          "actorID": "250",
+          "actorUses": "last",
+          "newActorID": "13616",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "decay": "10s"
+        },
+        {
+          "targetID": "250",
+          "targetUses": "last",
+          "newTargetID": "237",
+          "decay": "10s"
+        },
+        {
+          "actorID": "250",
+          "actorUses": "last",
+          "newActorID": "237",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "019af589977e4a5fd3acadfbf267a116d5ccc2ac",
+      "message": "Consistent use spending of shovel on dung and concrete",
+      "date": "2023-04-02T14:31:11.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "13603",
+          "actorUses": "last",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "858",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "actorUses": "last",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "11560",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "targetID": "7158",
+          "newActorID": "858",
+          "newTargetID": "7160",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "11634",
+          "actorUses": "last",
+          "targetID": "6806",
+          "newActorID": "11560",
+          "newTargetID": "6806",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11634",
+          "actorUses": "last",
+          "targetID": "6807",
+          "newTargetUses": "-1",
+          "newActorID": "11560",
+          "newTargetID": "6807",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11634",
+          "actorUses": "last",
+          "targetID": "899",
+          "newActorID": "11560",
+          "newTargetID": "899",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11688",
+          "actorUses": "last",
+          "newActorID": "11560",
+          "newTargetID": "899",
+          "hand": true
+        },
+        {
+          "actorID": "11688",
+          "actorUses": "last",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "11560",
+          "newTargetID": "6807",
+          "hand": true
+        },
+        {
+          "actorID": "11688",
+          "actorUses": "last",
+          "targetID": "6807",
+          "newActorID": "11560",
+          "newTargetID": "6806",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "actorUses": "last",
+          "newActorID": "858",
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "actorUses": "last",
+          "targetID": "13602",
+          "newActorID": "858",
+          "newTargetID": "13602",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "actorUses": "last",
+          "targetID": "6806",
+          "newActorID": "858",
+          "newTargetID": "6806",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "actorUses": "last",
+          "targetID": "6807",
+          "newTargetUses": "-1",
+          "newActorID": "858",
+          "newTargetID": "6807",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "newActorID": "858",
+          "newTargetID": "899",
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "858",
+          "newTargetID": "6807",
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "targetID": "6807",
+          "newTargetUses": "+1",
+          "newActorID": "858",
+          "newTargetID": "6807",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "targetID": "6807",
+          "newActorID": "858",
+          "newTargetID": "6806",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1266",
+          "name": "@ Dung Shovel Source",
+          "category": true
+        },
+        {
+          "id": "13604",
+          "name": "Brick Oven with Stakes",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "69ced3495ebfd26d6d80eefc3a7a5b3ba2e588fa",
+      "message": "Bronze shovel for concrete too",
+      "date": "2023-04-02T12:48:38.000Z",
+      "addedObjectIDs": [
+        "13614",
+        "13615"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13615",
+          "newTargetID": "11634",
+          "decay": "1s"
+        },
+        {
+          "actorID": "11634",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13602",
+          "newTargetUses": "-1",
+          "newActorID": "13614",
+          "newTargetID": "13602",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11634",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13602",
+          "targetUses": "last",
+          "newActorID": "13614",
+          "newTargetID": "483",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13605",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13615",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "targetID": "13602",
+          "newTargetUses": "+1",
+          "newActorID": "13615",
+          "newTargetID": "13602",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13614",
+          "targetID": "483",
+          "newTargetUses": "last",
+          "newActorID": "13615",
+          "newTargetID": "13602",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "13603",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "502",
+          "newTargetID": "13604",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13604",
+          "name": "Brick Oven with Stakes",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "0ba3602428aa0366c636dcf139af9b9b667d840b",
+      "message": "Some food nerfing",
+      "date": "2023-04-01T17:48:27.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "10503",
+          "decay": "5m"
+        },
+        {
+          "actorID": "1121",
+          "newActorID": "235",
+          "targetPlayer": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "1121",
+          "newActorUses": "-1",
+          "newActorID": "1121",
+          "targetPlayer": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1121",
+          "actorUses": "last",
+          "newActorID": "235",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "1148",
+          "newActorID": "1149",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "1292",
+          "newActorID": "235",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "bbb6fc87304616b275d5e88b7eec3207c5cfa030",
+      "message": "Up rice to 5 uses per harvest, and Initial rice ball",
+      "date": "2023-04-01T17:24:53.000Z",
+      "addedObjectIDs": [
+        "13612",
+        "13613"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8754",
+          "newTargetUses": "-1",
+          "newActorID": "8756",
+          "newTargetID": "8754",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "8754",
+          "targetUses": "last",
+          "newActorID": "8756",
+          "newTargetID": "8716",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8754",
+          "newActorID": "8756",
+          "newTargetID": "8716",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13612",
+          "name": "Rice Ball test",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "3e0d344995341171022efef618fdd15499701217",
+      "message": "Initial Steel Wheelbarrow",
+      "date": "2023-04-01T17:01:10.000Z",
+      "addedObjectIDs": [
+        "13610",
+        "13611"
+      ]
+    },
+    {
+      "sha": "d214f79c42fde67aa9f112c956b39e4ce391cd1e",
+      "message": "Brick Oven 5",
+      "date": "2023-04-01T16:37:31.000Z",
+      "addedObjectIDs": [
+        "13609"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13608",
+          "newTargetID": "13560",
+          "decay": "1m"
+        },
+        {
+          "targetID": "13609",
+          "newTargetID": "13564",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13607",
+          "newActorID": "72",
+          "newTargetID": "13560",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13607",
+          "newActorID": "248",
+          "newTargetID": "13608",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "684",
+          "targetID": "13560",
+          "newActorID": "858",
+          "newTargetID": "13609",
+          "hand": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "13560",
+          "newTargetID": "13607",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "684",
+          "targetID": "13560",
+          "newActorID": "858",
+          "newTargetID": "13564",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "70e53a82f8df976d0588b65fb4cab2b8d961fe02",
+      "message": "Brick Oven 4",
+      "date": "2023-04-01T16:17:19.000Z"
+    },
+    {
+      "sha": "09571d987ffe126b2ac4ac621cfe910a40f0b576",
+      "message": "Brick Oven 3",
+      "date": "2023-04-01T16:08:03.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "10391",
+          "targetID": "13608",
+          "newActorID": "10392",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1147",
+          "targetID": "13608",
+          "newActorID": "1148",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11760",
+          "targetID": "13608",
+          "newActorID": "11750",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1202",
+          "targetID": "13608",
+          "newActorID": "10023",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1342",
+          "targetID": "13608",
+          "newActorID": "6504",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1469",
+          "targetID": "13608",
+          "newActorID": "1470",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1539",
+          "targetID": "13608",
+          "newActorID": "1540",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2146",
+          "targetID": "13608",
+          "newActorID": "2147",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2150",
+          "targetID": "13608",
+          "newActorID": "2149",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2165",
+          "targetID": "13608",
+          "newActorID": "2167",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2166",
+          "targetID": "13608",
+          "newActorID": "2168",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2267",
+          "targetID": "13608",
+          "newActorID": "2266",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "265",
+          "targetID": "13608",
+          "newActorID": "272",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "266",
+          "targetID": "13608",
+          "newActorID": "275",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "267",
+          "targetID": "13608",
+          "newActorID": "278",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "268",
+          "targetID": "13608",
+          "newActorID": "273",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "269",
+          "targetID": "13608",
+          "newActorID": "277",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "270",
+          "targetID": "13608",
+          "newActorID": "274",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "271",
+          "targetID": "13608",
+          "newActorID": "276",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3361",
+          "targetID": "13608",
+          "newActorID": "3369",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4476",
+          "targetID": "13608",
+          "newActorID": "4477",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4734",
+          "targetID": "13608",
+          "newActorID": "5200",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4790",
+          "targetID": "13608",
+          "newActorID": "4791",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4858",
+          "targetID": "13608",
+          "newActorID": "4859",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "516",
+          "targetID": "13608",
+          "newActorID": "517",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "569",
+          "targetID": "13608",
+          "newActorID": "570",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6496",
+          "targetID": "13608",
+          "newActorID": "6502",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6936",
+          "targetID": "13608",
+          "newActorID": "7669",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6949",
+          "targetID": "13608",
+          "newActorID": "6950",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6954",
+          "targetID": "13608",
+          "newActorID": "7594",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8251",
+          "targetID": "13608",
+          "newActorID": "8254",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "7f7d417198109a3d6009c1f6d495420ad6c8dfe5",
+      "message": "Brick Oven 2",
+      "date": "2023-04-01T16:07:51.000Z",
+      "addedObjectIDs": [
+        "13607",
+        "13608"
+      ]
+    },
+    {
+      "sha": "4522b7c36fce075cf774988490b36b4f183a7948",
+      "message": "Use-based adobe oven",
+      "date": "2023-04-01T15:24:25.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "decay": "10s"
+        },
+        {
+          "targetID": "250",
+          "targetUses": "last",
+          "newTargetID": "237",
+          "decay": "10s"
+        },
+        {
+          "actorID": "250",
+          "newActorUses": "-1",
+          "newActorID": "250",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "250",
+          "actorUses": "last",
+          "newActorID": "237",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "250",
+          "newTargetID": "237",
+          "decay": "1m"
+        }
+      ]
+    },
+    {
+      "sha": "7f09cbba7a7d6c96140857802bbcd13b22e1eef3",
+      "message": "Hot oven glows",
+      "date": "2023-04-01T15:07:40.000Z"
+    },
+    {
+      "sha": "1c67b47f1f2551a5bb9f2996b54b227bb9ab3d50",
+      "message": "Newcomen hammer as stone crusher",
+      "date": "2023-04-01T15:03:36.000Z",
+      "addedObjectIDs": [
+        "13606"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "13496",
+          "targetID": "2238",
+          "newActorID": "13498",
+          "newTargetID": "2238",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13606",
+          "newActorID": "292",
+          "newTargetID": "4437",
+          "hand": true
+        },
+        {
+          "actorID": "13606",
+          "targetID": "659",
+          "newActorID": "292",
+          "newTargetID": "13591",
+          "hand": true
+        },
+        {
+          "actorID": "675",
+          "targetID": "2238",
+          "newActorID": "13345",
+          "newTargetID": "2238",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7024",
+          "targetID": "2238",
+          "newActorID": "13606",
+          "newTargetID": "2238",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "33",
+          "targetID": "13496",
+          "newActorID": "33",
+          "newTargetID": "13498",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "338c836bfeac6fcbdc0fb9dd9bdd91005781046d",
+      "message": "Gravel, cement, concrete",
+      "date": "2023-04-01T14:46:23.000Z",
+      "addedObjectIDs": [
+        "13591",
+        "13592",
+        "13593",
+        "13594",
+        "13595",
+        "13596",
+        "13597",
+        "13598",
+        "13599",
+        "13600",
+        "13601",
+        "13602",
+        "13603",
+        "13604",
+        "13605",
+        "4437"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13592",
+          "newTargetID": "4437",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13605",
+          "newTargetID": "502",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13594",
+          "newActorID": "126",
+          "newTargetID": "13593",
+          "hand": true
+        },
+        {
+          "targetID": "13604",
+          "newActorID": "107",
+          "newTargetID": "13560",
+          "hand": true
+        },
+        {
+          "actorID": "126",
+          "targetID": "13593",
+          "newTargetID": "13594",
+          "hand": true
+        },
+        {
+          "actorID": "13344",
+          "actorUses": "max",
+          "targetID": "1217",
+          "newActorID": "1100",
+          "newTargetID": "13593",
+          "hand": true
+        },
+        {
+          "actorID": "13591",
+          "newActorID": "1100",
+          "newTargetID": "4437",
+          "hand": true
+        },
+        {
+          "actorID": "13591",
+          "targetID": "13600",
+          "newActorID": "1100",
+          "newTargetID": "13601",
+          "hand": true
+        },
+        {
+          "actorID": "13595",
+          "newActorID": "239",
+          "newTargetID": "13594",
+          "hand": true
+        },
+        {
+          "actorID": "13595",
+          "targetID": "7181",
+          "newActorID": "13597",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13596",
+          "targetID": "2238",
+          "newActorID": "13598",
+          "newTargetID": "2238",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13597",
+          "newActorID": "239",
+          "newTargetID": "13596",
+          "hand": true
+        },
+        {
+          "actorID": "13598",
+          "targetID": "7573",
+          "newActorID": "1217",
+          "newTargetID": "13599",
+          "hand": true
+        },
+        {
+          "actorID": "13599",
+          "targetID": "483",
+          "newActorID": "7573",
+          "newTargetID": "13600",
+          "hand": true
+        },
+        {
+          "actorID": "13600",
+          "targetID": "7573",
+          "newActorID": "483",
+          "newTargetID": "13599",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "actorUses": "last",
+          "newActorID": "858",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "502",
+          "newTargetID": "13604",
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "13602",
+          "newTargetUses": "+1",
+          "newActorID": "13605",
+          "newTargetID": "13602",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13603",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "483",
+          "newTargetUses": "last",
+          "newActorID": "13605",
+          "newTargetID": "13602",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13594",
+          "newActorID": "13595",
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "targetID": "13602",
+          "newTargetUses": "-1",
+          "newActorID": "13603",
+          "newTargetID": "13602",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "actorUses": "last",
+          "targetID": "13602",
+          "newActorID": "858",
+          "newTargetID": "13602",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "13602",
+          "targetUses": "last",
+          "newActorID": "13603",
+          "newTargetID": "483",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "13593",
+          "newActorID": "13344",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "4437",
+          "newActorID": "13591",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "13601",
+          "newActorID": "1100",
+          "newTargetID": "13602",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "targetID": "13560",
+          "newActorID": "858",
+          "newTargetID": "13564",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "881",
+          "newActorID": "684",
+          "newTargetID": "13592",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13604",
+          "name": "Brick Oven with Stakes",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7f842e22747815dc236d17f0a8d0d8002cead912",
+      "message": "Replaced bauxite sprite",
+      "date": "2023-03-30T17:44:08.000Z"
+    },
+    {
+      "sha": "722588fcc4bd25e70b6eba470e07a0a111359b36",
+      "message": "Firebricks 3",
+      "date": "2023-03-30T16:26:31.000Z",
+      "addedObjectIDs": [
+        "13584",
+        "13585",
+        "13586",
+        "13587",
+        "13588",
+        "13589",
+        "13590"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13587",
+          "newTargetID": "13584",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13588",
+          "newTargetID": "13589",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13590",
+          "newTargetID": "13583",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13584",
+          "newTargetUses": "-1",
+          "newActorID": "13562",
+          "newTargetID": "13584",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13584",
+          "targetUses": "last",
+          "newActorID": "13562",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13585",
+          "newActorID": "72",
+          "newTargetID": "13584",
+          "hand": true
+        },
+        {
+          "targetID": "13586",
+          "newTargetUses": "-1",
+          "newActorID": "13561",
+          "newTargetID": "13586",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13586",
+          "targetUses": "last",
+          "newActorID": "13561",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13589",
+          "newTargetID": "13586",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13587",
+          "newActorID": "13507",
+          "newTargetID": "13588",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13562",
+          "targetID": "13509",
+          "newTargetUses": "last",
+          "newTargetID": "13584",
+          "hand": true
+        },
+        {
+          "actorID": "13562",
+          "targetID": "13584",
+          "newTargetUses": "+1",
+          "newTargetID": "13584",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13562",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newTargetID": "13584",
+          "hand": true
+        },
+        {
+          "actorID": "13582",
+          "targetID": "13562",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "13563",
+          "hand": true
+        },
+        {
+          "actorID": "13582",
+          "targetID": "13563",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "13563",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13582",
+          "targetID": "13584",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "13584",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13582",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "13584",
+          "hand": true
+        },
+        {
+          "actorID": "13583",
+          "targetID": "13561",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "13564",
+          "hand": true
+        },
+        {
+          "actorID": "13583",
+          "targetID": "13564",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "13564",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13563",
+          "newTargetUses": "-1",
+          "newActorID": "13582",
+          "newTargetID": "13563",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13563",
+          "targetUses": "last",
+          "newActorID": "13582",
+          "newTargetID": "13562",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13584",
+          "newTargetUses": "-1",
+          "newActorID": "13582",
+          "newTargetID": "13584",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13584",
+          "targetUses": "last",
+          "newActorID": "13582",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13586",
+          "newTargetUses": "-1",
+          "newActorID": "13590",
+          "newTargetID": "13586",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13586",
+          "targetUses": "last",
+          "newActorID": "13590",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13585",
+          "newActorID": "248",
+          "newTargetID": "13587",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "13584",
+          "newTargetID": "13585",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "d18ad76132cbdfc4a08b1a0889ac78a7c05f3f7e",
+      "message": "Firebricks 2",
+      "date": "2023-03-28T19:25:02.000Z",
+      "addedObjectIDs": [
+        "13570",
+        "13572",
+        "13573",
+        "13574",
+        "13575",
+        "13576",
+        "13577",
+        "13578",
+        "13579",
+        "13580",
+        "13581",
+        "13582",
+        "13583"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13570",
+          "newActorID": "126",
+          "newTargetID": "1101",
+          "hand": true
+        },
+        {
+          "targetID": "13574",
+          "newTargetID": "13577",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "13576",
+          "newActorID": "13575",
+          "newTargetID": "1101",
+          "hand": true
+        },
+        {
+          "targetID": "13577",
+          "newActorID": "13575",
+          "hand": true
+        },
+        {
+          "targetID": "13579",
+          "newActorID": "291",
+          "newTargetID": "13580",
+          "hand": true
+        },
+        {
+          "targetID": "13580",
+          "newActorID": "13562",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "actorID": "126",
+          "targetID": "1101",
+          "newTargetID": "13570",
+          "hand": true
+        },
+        {
+          "actorID": "13498",
+          "targetID": "126",
+          "newActorID": "235",
+          "newTargetID": "13574",
+          "hand": true
+        },
+        {
+          "actorID": "13575",
+          "targetID": "1101",
+          "newTargetID": "13576",
+          "hand": true
+        },
+        {
+          "actorID": "13578",
+          "targetID": "291",
+          "newActorID": "235",
+          "newTargetID": "13581",
+          "hand": true
+        },
+        {
+          "actorID": "13582",
+          "newActorID": "239",
+          "newTargetID": "13562",
+          "hand": true
+        },
+        {
+          "actorID": "13582",
+          "targetID": "7181",
+          "newActorID": "13583",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13583",
+          "newActorID": "239",
+          "newTargetID": "13561",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13572",
+          "newTargetUses": "-1",
+          "newActorID": "8359",
+          "newTargetID": "13572",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13572",
+          "targetUses": "last",
+          "newActorID": "8359",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13573",
+          "newTargetUses": "-1",
+          "newActorID": "13578",
+          "newTargetID": "13573",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13573",
+          "targetUses": "last",
+          "newActorID": "13578",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13574",
+          "newActorID": "13498",
+          "newTargetID": "126",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13581",
+          "newActorID": "13578",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13562",
+          "newActorID": "13582",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "13581",
+          "newTargetID": "13579",
+          "hand": true
+        },
+        {
+          "actorID": "382",
+          "targetID": "13570",
+          "newActorID": "235",
+          "newTargetID": "13572",
+          "hand": true
+        },
+        {
+          "actorID": "382",
+          "targetID": "13576",
+          "newActorID": "235",
+          "newTargetID": "13573",
+          "hand": true
+        },
+        {
+          "actorID": "8363",
+          "targetID": "7181",
+          "newActorID": "8362",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "b107f1e4fc82a35f250877d54275d5c7c4f453f8",
+      "message": "Firebricks 1",
+      "date": "2023-03-28T14:51:14.000Z",
+      "addedObjectIDs": [
+        "13566",
+        "13567",
+        "13568",
+        "13569"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13563",
+          "newTargetUses": "-1",
+          "newActorID": "13562",
+          "newTargetID": "13563",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13563",
+          "targetUses": "last",
+          "newActorID": "13562",
+          "newTargetID": "13562",
+          "hand": true
+        },
+        {
+          "targetID": "13564",
+          "newTargetUses": "-1",
+          "newActorID": "13561",
+          "newTargetID": "13564",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13564",
+          "targetUses": "last",
+          "newActorID": "13561",
+          "newTargetID": "13561",
+          "hand": true
+        },
+        {
+          "targetID": "13565",
+          "newTargetUses": "-1",
+          "newActorID": "13561",
+          "newTargetID": "13565",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13565",
+          "targetUses": "last",
+          "newActorID": "13561",
+          "newTargetID": "622",
+          "hand": true
+        },
+        {
+          "actorID": "13561",
+          "targetID": "13561",
+          "newTargetUses": "last",
+          "newTargetID": "13564",
+          "hand": true
+        },
+        {
+          "actorID": "13561",
+          "targetID": "13564",
+          "newTargetUses": "+1",
+          "newTargetID": "13564",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13561",
+          "targetID": "13565",
+          "newTargetUses": "+1",
+          "newTargetID": "13565",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13561",
+          "targetID": "622",
+          "newTargetUses": "last",
+          "newTargetID": "13565",
+          "hand": true
+        },
+        {
+          "actorID": "13562",
+          "targetID": "13562",
+          "newTargetUses": "last",
+          "newTargetID": "13563",
+          "hand": true
+        },
+        {
+          "actorID": "13562",
+          "targetID": "13563",
+          "newTargetUses": "+1",
+          "newTargetID": "13563",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13566",
+          "newActorID": "483",
+          "newTargetID": "13564",
+          "hand": true
+        },
+        {
+          "actorID": "13566",
+          "targetID": "13564",
+          "targetUses": "max",
+          "newActorID": "13567",
+          "hand": true
+        },
+        {
+          "actorID": "13566",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13567",
+          "newTargetID": "622",
+          "hand": true
+        },
+        {
+          "actorID": "13566",
+          "targetID": "622",
+          "newActorID": "483",
+          "newTargetID": "13565",
+          "hand": true
+        },
+        {
+          "actorID": "13567",
+          "newActorID": "13566",
+          "newTargetID": "13564",
+          "hand": true
+        },
+        {
+          "actorID": "13567",
+          "targetID": "622",
+          "newActorID": "13566",
+          "newTargetID": "13565",
+          "hand": true
+        },
+        {
+          "actorID": "13568",
+          "newActorID": "13569",
+          "newTargetID": "13563",
+          "hand": true
+        },
+        {
+          "actorID": "13569",
+          "newActorID": "483",
+          "newTargetID": "13563",
+          "hand": true
+        },
+        {
+          "actorID": "13569",
+          "targetID": "13563",
+          "targetUses": "max",
+          "newActorID": "13568",
+          "hand": true
+        },
+        {
+          "actorID": "483",
+          "targetID": "13563",
+          "targetUses": "max",
+          "newActorID": "13569",
+          "hand": true
+        },
+        {
+          "actorID": "483",
+          "targetID": "13564",
+          "targetUses": "max",
+          "newActorID": "13566",
+          "hand": true
+        },
+        {
+          "actorID": "483",
+          "targetID": "13565",
+          "targetUses": "max",
+          "newActorID": "13566",
+          "newTargetID": "622",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "f59f934287553b68f0c56ca3918754176dabc098",
+      "message": "Brick Oven 1",
+      "date": "2023-03-28T13:22:42.000Z",
+      "addedObjectIDs": [
+        "13560",
+        "13561",
+        "13562",
+        "13563",
+        "13564",
+        "13565"
+      ]
+    },
+    {
+      "sha": "86dda78e2363054319dc873bd0579daab531ea37",
+      "message": "Coal and coke 4",
+      "date": "2023-03-28T12:44:31.000Z",
+      "addedObjectIDs": [
+        "13550",
+        "13551",
+        "13553",
+        "13554",
+        "13555",
+        "13556",
+        "13557",
+        "13558",
+        "13559"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13533",
+          "newTargetID": "13534",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13554",
+          "newTargetID": "13534",
+          "decay": "45s"
+        },
+        {
+          "targetID": "13557",
+          "newTargetUses": "-1",
+          "newTargetID": "13557",
+          "targetRemains": true,
+          "decay": "3s"
+        },
+        {
+          "targetID": "13557",
+          "targetUses": "last",
+          "newTargetID": "303",
+          "decay": "3s"
+        },
+        {
+          "targetID": "13555",
+          "newActorID": "288",
+          "newTargetID": "13559",
+          "hand": true
+        },
+        {
+          "targetID": "13556",
+          "newActorID": "288",
+          "newTargetID": "13558",
+          "hand": true
+        },
+        {
+          "actorID": "10253",
+          "newActorUses": "-1",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "10254",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10628",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "10627",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11572",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "11573",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11578",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "11576",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12486",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "12492",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12489",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "12492",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13540",
+          "targetID": "13501",
+          "newActorID": "292",
+          "newTargetID": "13551",
+          "hand": true
+        },
+        {
+          "actorID": "13540",
+          "targetID": "238",
+          "newActorID": "292",
+          "newTargetID": "13558",
+          "hand": true
+        },
+        {
+          "actorID": "13540",
+          "targetID": "303",
+          "newActorID": "292",
+          "newTargetID": "13556",
+          "hand": true
+        },
+        {
+          "actorID": "13541",
+          "targetID": "13501",
+          "newActorID": "292",
+          "newTargetID": "13550",
+          "hand": true
+        },
+        {
+          "actorID": "13541",
+          "targetID": "238",
+          "newActorID": "292",
+          "newTargetID": "13559",
+          "hand": true
+        },
+        {
+          "actorID": "13541",
+          "targetID": "303",
+          "newActorID": "292",
+          "newTargetID": "13555",
+          "hand": true
+        },
+        {
+          "actorID": "13557",
+          "newActorUses": "-1",
+          "newActorID": "13557",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13557",
+          "actorUses": "last",
+          "newActorID": "13531",
+          "hand": true
+        },
+        {
+          "actorID": "1526",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "1525",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1527",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "1524",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2218",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2217",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2294",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2634",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13550",
+          "newActorID": "248",
+          "newTargetID": "13533",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13551",
+          "newActorID": "248",
+          "newTargetID": "13554",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13555",
+          "newActorID": "248",
+          "newTargetID": "304",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13556",
+          "newActorID": "248",
+          "newTargetID": "13557",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13558",
+          "newActorID": "248",
+          "newTargetID": "282",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13559",
+          "newActorID": "248",
+          "newTargetID": "282",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2577",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2576",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2579",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2576",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "6884",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2581",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2580",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2636",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2576",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "288",
+          "targetID": "13558",
+          "newTargetID": "13556",
+          "hand": true
+        },
+        {
+          "actorID": "288",
+          "targetID": "13559",
+          "newTargetID": "13555",
+          "hand": true
+        },
+        {
+          "actorID": "289",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "308",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13550",
+          "newActorID": "13541",
+          "newTargetID": "13501",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13551",
+          "newActorID": "13540",
+          "newTargetID": "13501",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13555",
+          "newActorID": "13541",
+          "newTargetID": "303",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13556",
+          "newActorID": "13540",
+          "newTargetID": "303",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13558",
+          "newActorID": "13540",
+          "newTargetID": "238",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13559",
+          "newActorID": "13541",
+          "newTargetID": "238",
+          "hand": true
+        },
+        {
+          "actorID": "311",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "308",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "320",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "323",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "327",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "329",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3340",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2580",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3343",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "2580",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4638",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "4637",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4639",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "4642",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4643",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "4642",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "678",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "679",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6889",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "6883",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "690",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "691",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7454",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "7456",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7756",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "4637",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "13533",
+          "newTargetID": "13534",
+          "decay": "35s"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "10253",
+          "name": "@ Wrought Iron Items  - tongs",
+          "category": true
+        },
+        {
+          "id": "10254",
+          "name": "@ Wrought Iron Items - Hot",
+          "category": true
+        },
+        {
+          "id": "13553",
+          "name": "@ Any Forge",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "d4df09cc848f3b5f693eb423ef5a884797d42686",
+      "message": "Coal and coke 3",
+      "date": "2023-03-27T19:22:10.000Z",
+      "addedObjectIDs": [
+        "13548",
+        "13549",
+        "4102"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "13540",
+          "targetID": "13539",
+          "newTargetUses": "last",
+          "newActorID": "292",
+          "newTargetID": "13549",
+          "hand": true
+        },
+        {
+          "actorID": "13540",
+          "targetID": "13549",
+          "newTargetUses": "+1",
+          "newActorID": "292",
+          "newTargetID": "13549",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13541",
+          "targetID": "13535",
+          "newTargetUses": "last",
+          "newActorID": "292",
+          "newTargetID": "13548",
+          "hand": true
+        },
+        {
+          "actorID": "13541",
+          "targetID": "13548",
+          "newTargetUses": "+1",
+          "newActorID": "292",
+          "newTargetID": "13548",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13548",
+          "newTargetUses": "-1",
+          "newActorID": "13541",
+          "newTargetID": "13548",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13548",
+          "targetUses": "last",
+          "newActorID": "13541",
+          "newTargetID": "13535",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13549",
+          "newTargetUses": "-1",
+          "newActorID": "13540",
+          "newTargetID": "13549",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13549",
+          "targetUses": "last",
+          "newActorID": "13540",
+          "newTargetID": "13539",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "4102",
+          "newTargetUses": "-1",
+          "newActorID": "298",
+          "newTargetID": "4102",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "4102",
+          "targetUses": "last",
+          "newActorID": "298",
+          "newTargetID": "300",
+          "hand": true
+        },
+        {
+          "actorID": "298",
+          "targetID": "300",
+          "newTargetUses": "last",
+          "newActorID": "292",
+          "newTargetID": "4102",
+          "hand": true
+        },
+        {
+          "actorID": "298",
+          "targetID": "4102",
+          "newTargetUses": "+1",
+          "newActorID": "292",
+          "newTargetID": "4102",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "d3f55a3b1f6992c0f51790bdf9015740563f786a",
+      "message": "Coal and coke 2",
+      "date": "2023-03-27T19:01:21.000Z",
+      "addedObjectIDs": [
+        "13542",
+        "13543",
+        "13544",
+        "13545",
+        "13546",
+        "13547"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13545",
+          "newTargetID": "13542",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13546",
+          "newTargetID": "13547",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13544",
+          "newActorID": "72",
+          "newTargetID": "13542",
+          "hand": true
+        },
+        {
+          "targetID": "13547",
+          "newTargetID": "13543",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13545",
+          "newActorID": "13507",
+          "newTargetID": "13546",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13541",
+          "targetID": "13542",
+          "newTargetUses": "+1",
+          "newActorID": "292",
+          "newTargetID": "13542",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13541",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newActorID": "292",
+          "newTargetID": "13542",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13544",
+          "newActorID": "248",
+          "newTargetID": "13545",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13542",
+          "newTargetUses": "-1",
+          "newActorID": "13541",
+          "newTargetID": "13542",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13542",
+          "targetUses": "last",
+          "newActorID": "13541",
+          "newTargetID": "7179",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13543",
+          "newTargetUses": "-1",
+          "newActorID": "13540",
+          "newTargetID": "13543",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13543",
+          "targetUses": "last",
+          "newActorID": "13540",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "13542",
+          "newTargetID": "13544",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "73c080a406f264f4b90b96e8d758beb3fce739e4",
+      "message": "Coal and coke 1",
+      "date": "2023-03-27T18:18:00.000Z",
+      "addedObjectIDs": [
+        "13535",
+        "13536",
+        "13538",
+        "13539",
+        "13540",
+        "13541"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13535",
+          "newActorID": "13536",
+          "newTargetID": "13538",
+          "hand": true
+        },
+        {
+          "targetID": "13538",
+          "newActorID": "13536",
+          "newTargetID": "13536",
+          "hand": true
+        },
+        {
+          "actorID": "13536",
+          "targetID": "13536",
+          "newTargetID": "13538",
+          "hand": true
+        },
+        {
+          "actorID": "13536",
+          "targetID": "13538",
+          "newTargetID": "13535",
+          "hand": true
+        },
+        {
+          "actorID": "13540",
+          "newActorID": "292",
+          "newTargetID": "13539",
+          "hand": true
+        },
+        {
+          "actorID": "13541",
+          "newActorID": "292",
+          "newTargetID": "13535",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13535",
+          "newActorID": "13541",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13539",
+          "newActorID": "13540",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "5c032b2e514eb3896a91693e4d957716ecd5a5ef",
+      "message": "Fixed the orient flag and flipped these tga",
+      "date": "2023-03-26T14:03:55.000Z"
+    },
+    {
+      "sha": "75388fed87bff13cf5eddc2247f0e2408ea1ef75",
+      "message": "Stone Furnace 3",
+      "date": "2023-03-25T19:27:22.000Z",
+      "addedObjectIDs": [
+        "13534"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13533",
+          "newTargetID": "13534",
+          "decay": "35s"
+        },
+        {
+          "targetID": "13534",
+          "newTargetID": "13501",
+          "decay": "1s"
+        },
+        {
+          "actorID": "10253",
+          "newActorUses": "-1",
+          "targetID": "13533",
+          "newActorID": "10254",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10628",
+          "targetID": "13533",
+          "newActorID": "10627",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11578",
+          "targetID": "13533",
+          "newActorID": "11576",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "11579",
+          "targetID": "13533",
+          "newActorID": "11576",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12486",
+          "targetID": "13533",
+          "newActorID": "12492",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12489",
+          "targetID": "13533",
+          "newActorID": "12492",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1526",
+          "targetID": "13533",
+          "newActorID": "1525",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1527",
+          "targetID": "13533",
+          "newActorID": "1524",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2218",
+          "targetID": "13533",
+          "newActorID": "2217",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2294",
+          "targetID": "13533",
+          "newActorID": "2634",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2577",
+          "targetID": "13533",
+          "newActorID": "2576",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2579",
+          "targetID": "13533",
+          "newActorID": "2576",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "13533",
+          "newActorID": "6884",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2581",
+          "targetID": "13533",
+          "newActorID": "2580",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2636",
+          "targetID": "13533",
+          "newActorID": "2576",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "289",
+          "targetID": "13533",
+          "newActorID": "308",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "311",
+          "targetID": "13533",
+          "newActorID": "308",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "320",
+          "targetID": "13533",
+          "newActorID": "323",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "327",
+          "targetID": "13533",
+          "newActorID": "329",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3340",
+          "targetID": "13533",
+          "newActorID": "2580",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3343",
+          "targetID": "13533",
+          "newActorID": "2580",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4638",
+          "targetID": "13533",
+          "newActorID": "4637",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4639",
+          "targetID": "13533",
+          "newActorID": "4642",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4643",
+          "targetID": "13533",
+          "newActorID": "4642",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "678",
+          "targetID": "13533",
+          "newActorID": "679",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6889",
+          "targetID": "13533",
+          "newActorID": "6883",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "690",
+          "targetID": "13533",
+          "newActorID": "691",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7454",
+          "targetID": "13533",
+          "newActorID": "7456",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7756",
+          "targetID": "13533",
+          "newActorID": "4637",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "13533",
+          "newTargetID": "13501",
+          "decay": "35s"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "10253",
+          "name": "@ Wrought Iron Items  - tongs",
+          "category": true
+        },
+        {
+          "id": "10254",
+          "name": "@ Wrought Iron Items - Hot",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "1c58934317cccbc54fc0293743fe0a92a8fa20fd",
+      "message": "Fire bricks in kiln instead of forge",
+      "date": "2023-03-25T19:07:03.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "8363",
+          "targetID": "282",
+          "newTargetUses": "-1",
+          "newActorID": "8362",
+          "newTargetID": "282",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "8363",
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newActorID": "8362",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "70f90605b6ea35d5b1f9bba9a6abb212002f48a1",
+      "message": "Stone Furnace 2",
+      "date": "2023-03-25T19:05:47.000Z",
+      "addedObjectIDs": [
+        "13532",
+        "13533"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13533",
+          "newTargetID": "13501",
+          "decay": "35s"
+        },
+        {
+          "actorID": "248",
+          "targetID": "13532",
+          "newActorID": "248",
+          "newTargetID": "13533",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "13532",
+          "newActorID": "298",
+          "newTargetID": "13501",
+          "hand": true
+        },
+        {
+          "actorID": "298",
+          "targetID": "13501",
+          "newActorID": "292",
+          "newTargetID": "13532",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "f9bbfa803165556b2298cc2ed178a4040f9801f4",
+      "message": "Not using the heat sources when sterilizing a knife",
+      "date": "2023-03-25T18:48:06.000Z",
+      "legacyObjects": [
+        {
+          "id": "1369",
+          "name": "@ high heat source",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "ed3375f6ff36e192cc13d9e125b20c3753c19822",
+      "message": "Down the ashes despawn time",
+      "date": "2023-03-25T18:38:39.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7186",
+          "newTargetID": "7178",
+          "decay": "5s"
+        },
+        {
+          "targetID": "7190",
+          "newTargetID": "7179",
+          "decay": "5s"
+        },
+        {
+          "targetID": "8190",
+          "newTargetUses": "-1",
+          "newTargetID": "8188",
+          "decay": "5s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7186",
+          "newTargetID": "7178",
+          "decay": "30s"
+        },
+        {
+          "targetID": "7190",
+          "newTargetID": "7179",
+          "decay": "20s"
+        },
+        {
+          "targetID": "8190",
+          "newTargetUses": "-1",
+          "newTargetID": "8188",
+          "decay": "30s"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8188",
+          "name": "@ Empty Fireplace",
+          "category": true
+        },
+        {
+          "id": "8190",
+          "name": "@ Stone Fireplace with Ashes",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "e0142195c18d55c4e846d50de96d88e7beab24c0",
+      "message": "Stone Kiln",
+      "date": "2023-03-25T18:38:15.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7181",
+          "newTargetUses": "-1",
+          "newTargetID": "7190",
+          "decay": "35s"
+        },
+        {
+          "targetID": "7181",
+          "targetUses": "last",
+          "newTargetID": "7190",
+          "decay": "35s"
+        },
+        {
+          "actorID": "1218",
+          "targetID": "7181",
+          "newActorID": "1219",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2111",
+          "targetID": "7181",
+          "newActorID": "2112",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "240",
+          "targetID": "7181",
+          "newActorID": "241",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2585",
+          "targetID": "7181",
+          "newActorID": "2586",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "284",
+          "targetID": "7181",
+          "newActorID": "283",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "295",
+          "targetID": "7181",
+          "newActorID": "296",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7181",
+          "newTargetUses": "-1",
+          "newTargetID": "7190",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7181",
+          "targetUses": "last",
+          "newTargetID": "7190",
+          "decay": "1m"
+        }
+      ]
+    },
+    {
+      "sha": "d22e6bc1b553806b4ab7216868754d3bea5405a0",
+      "message": "Use-based adobe kiln",
+      "date": "2023-03-25T18:20:18.000Z",
+      "addedObjectIDs": [
+        "13530"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13530",
+          "newTargetID": "238",
+          "decay": "1s"
+        },
+        {
+          "targetID": "282",
+          "newTargetUses": "-1",
+          "newTargetID": "282",
+          "targetRemains": true,
+          "decay": "3s"
+        },
+        {
+          "targetID": "282",
+          "targetUses": "last",
+          "newTargetID": "238",
+          "decay": "3s"
+        },
+        {
+          "actorID": "282",
+          "newActorUses": "-1",
+          "newActorID": "282",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "282",
+          "actorUses": "last",
+          "newActorID": "13530",
+          "hand": true
+        },
+        {
+          "actorID": "678",
+          "targetID": "7181",
+          "newActorID": "679",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "282",
+          "newTargetID": "238",
+          "decay": "30s"
+        }
+      ]
+    },
+    {
+      "sha": "dbdedaf6e94e0fd69ea6ad22539b5e4a106ffe30",
+      "message": "Initial Stone furnace",
+      "date": "2023-03-25T07:24:50.000Z",
+      "addedObjectIDs": [
+        "13501"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13501",
+          "newActorID": "288",
+          "newTargetID": "7179",
+          "hand": true
+        },
+        {
+          "actorID": "288",
+          "targetID": "7179",
+          "newTargetID": "13501",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c6aea53fd4e64117dbe7b0f592bb5a968ad00fd7",
+      "message": "Stone Kiln to batch bake wet bricks",
+      "date": "2023-03-25T06:39:47.000Z",
+      "addedObjectIDs": [
+        "13523",
+        "13524",
+        "13525",
+        "13526",
+        "13527",
+        "13528",
+        "13529"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13526",
+          "newTargetID": "13523",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13528",
+          "newTargetID": "13527",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13529",
+          "newTargetID": "8362",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13523",
+          "newTargetUses": "-1",
+          "newActorID": "8364",
+          "newTargetID": "13523",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13523",
+          "targetUses": "last",
+          "newActorID": "8364",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13524",
+          "newActorID": "72",
+          "newTargetID": "13523",
+          "hand": true
+        },
+        {
+          "targetID": "13525",
+          "newTargetUses": "-1",
+          "newActorID": "8367",
+          "newTargetID": "13525",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13525",
+          "targetUses": "last",
+          "newActorID": "8367",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13527",
+          "newTargetID": "13525",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13526",
+          "newActorID": "13507",
+          "newTargetID": "13528",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13529",
+          "newActorID": "239",
+          "newTargetID": "8367",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13523",
+          "newTargetUses": "-1",
+          "newActorID": "8363",
+          "newTargetID": "13523",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13523",
+          "targetUses": "last",
+          "newActorID": "8363",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13525",
+          "newTargetUses": "-1",
+          "newActorID": "13529",
+          "newTargetID": "13525",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13525",
+          "targetUses": "last",
+          "newActorID": "13529",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13524",
+          "newActorID": "248",
+          "newTargetID": "13526",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "13523",
+          "newTargetID": "13524",
+          "hand": true
+        },
+        {
+          "actorID": "8363",
+          "targetID": "13523",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "13523",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8363",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "13523",
+          "hand": true
+        },
+        {
+          "actorID": "8364",
+          "targetID": "13523",
+          "newTargetUses": "+1",
+          "newTargetID": "13523",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8364",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newTargetID": "13523",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "d97951b790e0159a92c667f4d8ab6fb17fa15e18",
+      "message": "Stone Kiln to batch bake wet plates",
+      "date": "2023-03-25T04:33:49.000Z",
+      "addedObjectIDs": [
+        "13517",
+        "13518",
+        "13519",
+        "13520",
+        "13521",
+        "13522"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13520",
+          "newTargetID": "13517",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13521",
+          "newTargetID": "13522",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13517",
+          "newTargetUses": "-1",
+          "newActorID": "234",
+          "newTargetID": "13517",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13517",
+          "targetUses": "last",
+          "newActorID": "234",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13518",
+          "newActorID": "72",
+          "newTargetID": "13517",
+          "hand": true
+        },
+        {
+          "targetID": "13519",
+          "newTargetUses": "-1",
+          "newActorID": "236",
+          "newTargetID": "13519",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13519",
+          "targetUses": "last",
+          "newActorID": "236",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13522",
+          "newTargetID": "13519",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13520",
+          "newActorID": "13507",
+          "newTargetID": "13521",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "234",
+          "targetID": "13517",
+          "newTargetUses": "+1",
+          "newTargetID": "13517",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "234",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newTargetID": "13517",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13517",
+          "newTargetUses": "-1",
+          "newActorID": "240",
+          "newTargetID": "13517",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13517",
+          "targetUses": "last",
+          "newActorID": "240",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13519",
+          "newTargetUses": "-1",
+          "newActorID": "241",
+          "newTargetID": "13519",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13519",
+          "targetUses": "last",
+          "newActorID": "241",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "240",
+          "targetID": "13517",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "13517",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "240",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "13517",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13518",
+          "newActorID": "248",
+          "newTargetID": "13520",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "13517",
+          "newTargetID": "13518",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "90a0d5aee98b8a4423fe9eafddb9787bda94b48a",
+      "message": "Stone Kiln to batch bake wet bowls",
+      "date": "2023-03-24T19:29:28.000Z",
+      "addedObjectIDs": [
+        "13511",
+        "13512",
+        "13513",
+        "13514",
+        "13515",
+        "13516"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13513",
+          "newTargetID": "13511",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13514",
+          "newTargetID": "13515",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13511",
+          "newTargetUses": "-1",
+          "newActorID": "233",
+          "newTargetID": "13511",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13511",
+          "targetUses": "last",
+          "newActorID": "233",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13512",
+          "newActorID": "72",
+          "newTargetID": "13511",
+          "hand": true
+        },
+        {
+          "targetID": "13515",
+          "newTargetID": "13516",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "13516",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "13516",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13516",
+          "targetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13513",
+          "newActorID": "13507",
+          "newTargetID": "13514",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "233",
+          "targetID": "13511",
+          "newTargetUses": "+1",
+          "newTargetID": "13511",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "233",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newTargetID": "13511",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13511",
+          "newTargetUses": "-1",
+          "newActorID": "284",
+          "newTargetID": "13511",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13511",
+          "targetUses": "last",
+          "newActorID": "284",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13516",
+          "newTargetUses": "-1",
+          "newActorID": "283",
+          "newTargetID": "13516",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13516",
+          "targetUses": "last",
+          "newActorID": "283",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13512",
+          "newActorID": "248",
+          "newTargetID": "13513",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "284",
+          "targetID": "13511",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "13511",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "284",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "13511",
+          "hand": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "13511",
+          "newTargetID": "13512",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "919e46338c2b196ef5edc78384fa63643bfc38ed",
+      "message": "Stone Lime Kiln",
+      "date": "2023-03-24T18:33:44.000Z",
+      "addedObjectIDs": [
+        "13502",
+        "13503",
+        "13504",
+        "13506",
+        "13507",
+        "13508",
+        "13509",
+        "13510"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13504",
+          "newTargetID": "13502",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13506",
+          "newTargetID": "13510",
+          "decay": "30s"
+        },
+        {
+          "targetID": "13509",
+          "newTargetID": "7179",
+          "decay": "1s"
+        },
+        {
+          "targetID": "13502",
+          "newTargetUses": "-1",
+          "newActorID": "674",
+          "newTargetID": "13502",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "13502",
+          "targetUses": "last",
+          "newActorID": "674",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "targetID": "13503",
+          "newActorID": "72",
+          "newTargetID": "13502",
+          "hand": true
+        },
+        {
+          "targetID": "13510",
+          "newTargetID": "13508",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "13504",
+          "newActorID": "13507",
+          "newTargetID": "13506",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "13507",
+          "newActorUses": "-1",
+          "targetID": "7181",
+          "newActorID": "13507",
+          "newTargetID": "7187",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13508",
+          "newTargetUses": "-1",
+          "newActorID": "676",
+          "newTargetID": "13508",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "13508",
+          "targetUses": "last",
+          "newActorID": "676",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13502",
+          "newTargetUses": "-1",
+          "newActorID": "9012",
+          "newTargetID": "13502",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "13502",
+          "targetUses": "last",
+          "newActorID": "9012",
+          "newTargetID": "13509",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "13503",
+          "newActorID": "248",
+          "newTargetID": "13504",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "674",
+          "targetID": "13502",
+          "newTargetUses": "+1",
+          "newTargetID": "13502",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "674",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newTargetID": "13502",
+          "hand": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "13502",
+          "newTargetID": "13503",
+          "hand": true
+        },
+        {
+          "actorID": "9012",
+          "targetID": "13502",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "13502",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "9012",
+          "targetID": "7179",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "13502",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7181",
+          "newTargetID": "7187",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "13507",
+          "name": "@ Any Iron Door Closer",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "085eea1ca1e4aa975ee777611f2985179f635982",
+      "message": "Firing stone kiln should burn out with any amount of kindlings inside",
+      "date": "2023-03-24T15:53:09.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7181",
+          "newTargetUses": "-1",
+          "newTargetID": "7190",
+          "decay": "1m"
+        }
+      ]
+    },
+    {
+      "sha": "751b87d82a90cb3b5254ff04c1f6b8f00fa318ce",
+      "message": "Can cook limestone in kiln (without bellow)",
+      "date": "2023-03-24T15:38:43.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "678",
+          "targetID": "282",
+          "newTargetUses": "-1",
+          "newActorID": "679",
+          "newTargetID": "282",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "dc666c6cf64453d13e916899da42df1610d1f5b7",
+      "message": "Renamed stone furnace to stone kiln",
+      "date": "2023-03-23T18:09:01.000Z",
+      "objectChanges": [
+        {
+          "id": "7179",
+          "attributes": {
+            "name": {
+              "from": "Empty Stone Furnace",
+              "to": "Empty Stone Kiln"
+            }
+          }
+        },
+        {
+          "id": "7180",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace with Kindling",
+              "to": "Stone Kiln with Kindling"
+            }
+          }
+        },
+        {
+          "id": "7181",
+          "attributes": {
+            "name": {
+              "from": "Firing Stone Furnace",
+              "to": "Firing Stone Kiln"
+            }
+          }
+        },
+        {
+          "id": "7182",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace with Charcoal",
+              "to": "Stone Kiln with Charcoal"
+            }
+          }
+        },
+        {
+          "id": "7187",
+          "attributes": {
+            "name": {
+              "from": "Closed Firing Stone Furnace",
+              "to": "Closed Firing Stone Kiln"
+            }
+          }
+        },
+        {
+          "id": "7188",
+          "attributes": {
+            "name": {
+              "from": "Closed Stone Furnace with Charcoal",
+              "to": "Closed Stone Kiln with Charcoal"
+            }
+          }
+        },
+        {
+          "id": "7189",
+          "attributes": {
+            "name": {
+              "from": "Empty Stone Furnace  - no door",
+              "to": "Empty Stone Kiln  - no door"
+            }
+          }
+        },
+        {
+          "id": "7190",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace with Ashe",
+              "to": "Stone Kiln with Ashe"
+            }
+          }
+        },
+        {
+          "id": "7191",
+          "attributes": {
+            "name": {
+              "from": "Empty Stone Furnace  - door removed",
+              "to": "Empty Stone Kiln  - door removed"
+            }
+          }
+        },
+        {
+          "id": "7192",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace Rubble",
+              "to": "Stone Kiln Rubble"
+            }
+          }
+        },
+        {
+          "id": "7201",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace with Kindling  - no door",
+              "to": "Stone Kiln with Kindling  - no door"
+            }
+          }
+        },
+        {
+          "id": "7720",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace with Burning Tinder",
+              "to": "Stone Kiln with Burning Tinder"
+            }
+          }
+        },
+        {
+          "id": "7721",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace with Kindling Tinder",
+              "to": "Stone Kiln with Kindling Tinder"
+            }
+          }
+        },
+        {
+          "id": "7722",
+          "attributes": {
+            "name": {
+              "from": "Stone Furnace with Smoldering Tinder",
+              "to": "Stone Kiln with Smoldering Tinder"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "6f35d934b2602f44b9fef39ac56fff59a2f9db79",
+      "message": "Use-based adobe forge",
+      "date": "2023-03-23T18:02:50.000Z",
+      "addedObjectIDs": [
+        "13531"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13531",
+          "newTargetID": "303",
+          "decay": "1s"
+        },
+        {
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "decay": "3s"
+        },
+        {
+          "targetID": "304",
+          "targetUses": "last",
+          "newTargetID": "303",
+          "decay": "3s"
+        },
+        {
+          "actorID": "304",
+          "newActorUses": "-1",
+          "newActorID": "304",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "304",
+          "actorUses": "last",
+          "newActorID": "13531",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "304",
+          "newTargetID": "303",
+          "decay": "30s"
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "303",
+          "attributes": {
+            "name": {
+              "from": "Forge",
+              "to": "Adobe Forge"
+            }
+          }
+        },
+        {
+          "id": "304",
+          "attributes": {
+            "name": {
+              "from": "Firing Forge",
+              "to": "Firing Adobe Forge"
+            }
+          }
+        },
+        {
+          "id": "305",
+          "attributes": {
+            "name": {
+              "from": "Forge with Charcoal",
+              "to": "Adobe Forge with Charcoal"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "250fe8c0f4e92350015ad579937065d35f75fd6a",
+      "message": "Bauxite",
+      "date": "2023-03-22T15:19:47.000Z",
+      "addedObjectIDs": [
+        "13496",
+        "13497",
+        "13498"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13496",
+          "newActorID": "13497",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "13497",
+          "targetID": "235",
+          "newTargetID": "13496",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "13496",
+          "newActorID": "33",
+          "newTargetID": "13498",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "0d60da8678f3dd25fb25bf684ee062fc14e7b67c",
+      "message": "Tin",
+      "date": "2023-03-19T19:20:53.000Z",
+      "addedObjectIDs": [
+        "13483",
+        "13484",
+        "13485",
+        "13486",
+        "13487",
+        "13488",
+        "13489",
+        "13490",
+        "13491",
+        "13492",
+        "13493",
+        "13494",
+        "13495"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "13489",
+          "newTargetID": "13491",
+          "decay": "10s"
+        },
+        {
+          "targetID": "13484",
+          "newActorID": "13483",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "13485",
+          "newActorID": "13483",
+          "newTargetID": "318",
+          "hand": true
+        },
+        {
+          "targetID": "13492",
+          "newActorID": "13493",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "13483",
+          "targetID": "235",
+          "newTargetID": "13484",
+          "hand": true
+        },
+        {
+          "actorID": "13483",
+          "targetID": "318",
+          "newTargetID": "13485",
+          "hand": true
+        },
+        {
+          "actorID": "13491",
+          "newActorID": "239",
+          "newTargetID": "13488",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "13485",
+          "newTargetID": "13486",
+          "hand": true
+        },
+        {
+          "actorID": "302",
+          "targetID": "13484",
+          "newTargetID": "13485",
+          "hand": true
+        }
+      ]
+    }
+  ]
+}

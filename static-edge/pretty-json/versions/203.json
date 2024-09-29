@@ -1,0 +1,409 @@
+{
+  "id": "203",
+  "date": "2019-02-23T07:09:26.000Z",
+  "commits": [
+    {
+      "sha": "465ebfdb7fc34831c57481892fbc1ed0439b668a",
+      "message": "Wrought iron on ground can cool.  Fixes #92",
+      "date": "2019-02-23T05:42:49.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2216",
+          "newTargetID": "314",
+          "decay": "10s"
+        }
+      ]
+    },
+    {
+      "sha": "404bf3277d57f99b69bb6c18a8d716345c499d5f",
+      "message": "Typo.  Fixes #91",
+      "date": "2019-02-23T05:41:09.000Z",
+      "objectChanges": [
+        {
+          "id": "2375",
+          "attributes": {
+            "name": {
+              "from": "Fuel Injection Nozzel",
+              "to": "Fuel Injection Nozzle"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "64f1f2c35172f1ead1e63b2a1b89ee832fe82076",
+      "message": "Ingot from flat rock with hands.  Fixes #89",
+      "date": "2019-02-23T05:39:29.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "335",
+          "newActorID": "326",
+          "newTargetID": "291",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "7c019fe1d40e2cc1d205eedc6897f619b77c95fe",
+      "message": "Missing transition for milk cow resulted in zombie cow.  Fixes #88",
+      "date": "2019-02-23T05:37:48.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "1493",
+          "targetUses": "last",
+          "newTargetID": "1458",
+          "decay": "1s"
+        }
+      ]
+    },
+    {
+      "sha": "5b396440c45aa59aa1b7e7988c1dbd05b690a971",
+      "message": "Dumping palm kernels from bowl.  Fixes #87",
+      "date": "2019-02-23T05:29:10.000Z",
+      "addedObjectIDs": [
+        "2715",
+        "2716",
+        "2717",
+        "2718"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2715",
+          "newActorID": "235",
+          "newTargetID": "2717",
+          "hand": true
+        },
+        {
+          "targetID": "2716",
+          "newActorID": "235",
+          "newTargetID": "2718",
+          "hand": true
+        },
+        {
+          "actorID": "1866",
+          "newActorUses": "-1",
+          "targetID": "2146",
+          "newActorID": "1866",
+          "newTargetID": "2715",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1866",
+          "newActorUses": "-1",
+          "targetID": "2148",
+          "newActorID": "1866",
+          "newTargetID": "2716",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2717",
+          "newActorID": "2146",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2718",
+          "newActorID": "2148",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1866",
+          "name": "@ Bowl Flipper",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "b92545feaaaeec11b1d2612643cf9bb2c391e5e2",
+      "message": "Distiller deconstructable.  Various radio transmitters and receivers are moveable in their partially-constructed states.  Fixes #83",
+      "date": "2019-02-23T05:15:46.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2339",
+          "newActorID": "2336",
+          "newTargetID": "2213",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "f13b78d59d35e50096c6643e7a7995e5b37de661",
+      "message": "Tongs on wrought iron stack.  Fixes #81",
+      "date": "2019-02-23T05:04:18.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2218",
+          "targetID": "2123",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "2123",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2218",
+          "targetID": "314",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "2123",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2123",
+          "newTargetUses": "-1",
+          "newActorID": "2218",
+          "newTargetID": "2123",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2123",
+          "targetUses": "last",
+          "newActorID": "2218",
+          "newTargetID": "314",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "358ca99e3e1d4b3a57d62003e01c5d8b923012ec",
+      "message": "After 30 moves, fed griz bear becomes hungry again instead of freezing.  Fixes #77",
+      "date": "2019-02-23T04:36:07.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "628",
+          "newTargetID": "631",
+          "decay": "3s",
+          "move": 3
+        }
+      ]
+    },
+    {
+      "sha": "d229138021eab6e912060298537a0f6cb0f3817d",
+      "message": "Dropping roped horse or lambs now results in rope on ground under animal (instead of in hand), so that in case of force-drop (you're wounded), the rope isn't lost.  Fixes #169",
+      "date": "2019-02-23T04:29:58.000Z",
+      "addedObjectIDs": [
+        "2710",
+        "2711",
+        "2712",
+        "2713",
+        "2714"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2710",
+          "newTargetID": "769",
+          "decay": "1s",
+          "move": 2
+        },
+        {
+          "targetID": "2711",
+          "newTargetID": "534",
+          "decay": "1s",
+          "move": 2
+        },
+        {
+          "targetID": "2712",
+          "newTargetID": "542",
+          "decay": "1s",
+          "move": 1
+        },
+        {
+          "targetID": "2713",
+          "newTargetID": "602",
+          "decay": "1s",
+          "move": 1
+        },
+        {
+          "targetID": "2714",
+          "newTargetID": "609",
+          "decay": "1s",
+          "move": 1
+        },
+        {
+          "actorID": "2710",
+          "newActorID": "767",
+          "newTargetID": "769",
+          "hand": true
+        },
+        {
+          "actorID": "2711",
+          "newActorID": "59",
+          "newTargetID": "534",
+          "hand": true
+        },
+        {
+          "actorID": "2712",
+          "newActorID": "59",
+          "newTargetID": "542",
+          "hand": true
+        },
+        {
+          "actorID": "2713",
+          "newActorID": "59",
+          "newTargetID": "602",
+          "hand": true
+        },
+        {
+          "actorID": "2714",
+          "newActorID": "59",
+          "newTargetID": "609",
+          "hand": true
+        },
+        {
+          "actorID": "540",
+          "newTargetID": "2711",
+          "hand": true
+        },
+        {
+          "actorID": "543",
+          "newTargetID": "2712",
+          "hand": true
+        },
+        {
+          "actorID": "608",
+          "newTargetID": "2713",
+          "hand": true
+        },
+        {
+          "actorID": "613",
+          "newTargetID": "2714",
+          "hand": true
+        },
+        {
+          "actorID": "771",
+          "newTargetID": "2710",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "540",
+          "newActorID": "59",
+          "newTargetID": "534",
+          "hand": true
+        },
+        {
+          "actorID": "543",
+          "newActorID": "59",
+          "newTargetID": "542",
+          "hand": true
+        },
+        {
+          "actorID": "608",
+          "newActorID": "59",
+          "newTargetID": "602",
+          "hand": true
+        },
+        {
+          "actorID": "613",
+          "newActorID": "59",
+          "newTargetID": "609",
+          "hand": true
+        },
+        {
+          "actorID": "771",
+          "newActorID": "767",
+          "newTargetID": "769",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "217883e6e8e08fcf964c1eb5be960445f3a393a1",
+      "message": "Using a tilling skewer for non-tilling activity (butter, rubber, cooking) now turns it into a weak skewer right away, instead of using it up and giving it a chance of breaking.  Weak skewer can be thrown in trash pit.  Fixes #168",
+      "date": "2019-02-23T03:14:18.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "126",
+          "newActorID": "852",
+          "newTargetID": "2110",
+          "hand": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "1283",
+          "newActorID": "852",
+          "newTargetID": "1280",
+          "hand": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "1464",
+          "newActorID": "852",
+          "newTargetID": "1465",
+          "hand": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "2163",
+          "newActorID": "852",
+          "newTargetID": "2164",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "126",
+          "newActorID": "853",
+          "newTargetID": "2110",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "1283",
+          "newActorID": "853",
+          "newTargetID": "1280",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "1464",
+          "newActorID": "853",
+          "newTargetID": "1465",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "2163",
+          "newActorID": "853",
+          "newTargetID": "2164",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "853",
+          "name": "@ Non-tilling Stick",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "e14862e99da0190d1b52364109f62ca5015b892d",
+      "message": "Backpack now has .5 R value, so that it blocks some cooling from contained snowballs (one in backpack is less cooling than one in hand).",
+      "date": "2019-02-23T03:00:00.000Z"
+    }
+  ]
+}

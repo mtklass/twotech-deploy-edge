@@ -1,0 +1,571 @@
+{
+  "id": "273",
+  "date": "2019-10-19T21:01:03.000Z",
+  "commits": [
+    {
+      "sha": "a112f006f04deb28e2db2179a2309946503997a5",
+      "message": "Scene for update image.",
+      "date": "2019-10-19T20:07:44.000Z"
+    },
+    {
+      "sha": "ea657894ad2ce9a7df4743aae1028f186f71a3df",
+      "message": "Either bowl of berries/carrot OR burdock now can be spread on flat rock to make 3x rabbit bait.  This number can be adjusted in the future for fine-grained controll of the cost of snaring a rabbit.",
+      "date": "2019-10-19T19:35:49.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "260",
+          "targetID": "291",
+          "newActorID": "235",
+          "newTargetID": "3180",
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "newActorUses": "-1",
+          "targetID": "162",
+          "newActorID": "3180",
+          "newTargetID": "3177",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3180",
+          "actorUses": "last",
+          "targetID": "162",
+          "newActorID": "291",
+          "newTargetID": "3177",
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "newActorUses": "-1",
+          "targetID": "163",
+          "newActorID": "3180",
+          "newTargetID": "3176",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3180",
+          "actorUses": "last",
+          "targetID": "163",
+          "newActorID": "291",
+          "newTargetID": "3176",
+          "hand": true
+        },
+        {
+          "actorID": "64",
+          "targetID": "3180",
+          "newActorID": "64",
+          "newTargetID": "1854",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "260",
+          "targetID": "162",
+          "newActorID": "235",
+          "newTargetID": "3177",
+          "hand": true
+        },
+        {
+          "actorID": "260",
+          "targetID": "163",
+          "newActorID": "235",
+          "newTargetID": "3176",
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "newActorID": "291",
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "targetID": "162",
+          "newActorID": "291",
+          "newTargetID": "3177",
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "targetID": "163",
+          "newActorID": "291",
+          "newTargetID": "3176",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3180",
+          "attributes": {
+            "name": {
+              "from": "Flat Rock with Mashed Burdock",
+              "to": "Flat Rock with Rabbit Bait"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3176",
+          "name": "Baited Snared Rabbit Family Hole - hiding",
+          "category": false
+        },
+        {
+          "id": "3177",
+          "name": "Baited Snared Rabbit Hole - hiding",
+          "category": false
+        },
+        {
+          "id": "3180",
+          "name": "Flat Rock with Rabbit Bait",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "f0593ca153b33978d291b535714b56f280f6ef02",
+      "message": "Burdock added to end of tutorial.",
+      "date": "2019-10-19T19:19:24.000Z"
+    },
+    {
+      "sha": "63052ea80207fc2c2439923990412b0121968973",
+      "message": "Test scene",
+      "date": "2019-10-19T02:49:09.000Z"
+    },
+    {
+      "sha": "76e1550eed86ea9410461093491156ce1d4b4247",
+      "message": "Rebaked floor sprites with black fill around edge to fill gaps between floor tiles, now that biomes aren't always drawn under contiguous floor sections.  To do this, floors were baked with a solid black 128x128 square centered at 0,10 behind them.  This allows all floors to butt against all other floors with no gaps.  Also baked moss into ancient floor, to reduce sprite overdraw.",
+      "date": "2019-10-19T01:55:01.000Z"
+    },
+    {
+      "sha": "25ecc697cd7ffaff62dad7685f587ea47dd0f5f4",
+      "message": "test scenes",
+      "date": "2019-10-19T01:00:41.000Z"
+    },
+    {
+      "sha": "f7ae9dd7f0327e16071aa0f7a476374c873cbc18",
+      "message": "Map making content.  Still need to write code to handle +map tags",
+      "date": "2019-10-18T16:50:14.000Z",
+      "addedObjectIDs": [
+        "3181",
+        "3182",
+        "3183",
+        "3184",
+        "3186",
+        "3188"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3182",
+          "newTargetID": "3186",
+          "decay": "2s"
+        },
+        {
+          "targetID": "3181",
+          "newTargetID": "3182",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "3185",
+          "newActorID": "3181",
+          "hand": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "3188",
+          "newTargetUses": "-1",
+          "newActorID": "3181",
+          "newTargetID": "3188",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "3188",
+          "targetUses": "last",
+          "newActorID": "3181",
+          "newTargetID": "3185",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "733",
+          "newActorID": "3185",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2170",
+          "targetID": "3183",
+          "newActorID": "2170",
+          "newTargetID": "3185",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3139",
+          "targetID": "3183",
+          "newActorID": "3139",
+          "newTargetID": "3184",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3181",
+          "newActorID": "1617",
+          "newTargetID": "3185",
+          "hand": true
+        },
+        {
+          "actorID": "3181",
+          "targetID": "3185",
+          "newTargetUses": "last",
+          "newActorID": "1617",
+          "newTargetID": "3188",
+          "hand": true
+        },
+        {
+          "actorID": "3181",
+          "targetID": "3188",
+          "newTargetUses": "+1",
+          "newActorID": "1617",
+          "newTargetID": "3188",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3182",
+          "newActorID": "1617",
+          "newTargetID": "3183",
+          "hand": true
+        },
+        {
+          "actorID": "3186",
+          "newActorID": "1617",
+          "newTargetID": "3183",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3139",
+          "name": "Elder Quill Ink Pen",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "dbeba6d36b0df6a391476ac9ef38287bdc04b43c",
+      "message": "Removing rocks from dry well sites",
+      "date": "2019-10-18T00:27:21.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "3175",
+          "newTargetUses": "-1",
+          "newActorID": "33",
+          "newTargetID": "3175",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "3175",
+          "targetUses": "last",
+          "newActorID": "33",
+          "newTargetID": "3174",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3174",
+          "name": "Dry Natural Spring",
+          "category": false
+        },
+        {
+          "id": "3175",
+          "name": "Dry Well Site",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "3723c850b8c7dd6c3ff6921392f16d575ee19667",
+      "message": "Reverting commit 825f235e293337c5c5043d8165a19fdf65fc720b .  Rabbits respawn again with original timeframe, but snaring them requires bait.  Early stages, this can be done with burdock in a kiln-free environment.  Later, this can be done with mashed carrot/berry bowl.  So snaring rabbits either uses an exhaustible natural resource (burdock) or a bowl of water (or in case of wild berries, at least some water for the domestic carrot).",
+      "date": "2019-10-17T23:08:15.000Z",
+      "addedObjectIDs": [
+        "3176",
+        "3177",
+        "3178",
+        "3179",
+        "3180"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "196",
+          "newTargetID": "161",
+          "decay": "1h"
+        },
+        {
+          "targetID": "3176",
+          "newTargetID": "172",
+          "decay": "5s"
+        },
+        {
+          "targetID": "3177",
+          "newTargetID": "169",
+          "decay": "5s"
+        },
+        {
+          "targetID": "162",
+          "newActorID": "160",
+          "newTargetID": "161",
+          "hand": true
+        },
+        {
+          "targetID": "163",
+          "newActorID": "160",
+          "newTargetID": "167",
+          "hand": true
+        },
+        {
+          "targetID": "3179",
+          "newActorID": "807",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "actorID": "260",
+          "targetID": "162",
+          "newActorID": "235",
+          "newTargetID": "3177",
+          "hand": true
+        },
+        {
+          "actorID": "260",
+          "targetID": "163",
+          "newActorID": "235",
+          "newTargetID": "3176",
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "newActorID": "291",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "targetID": "162",
+          "newActorID": "291",
+          "newTargetID": "3177",
+          "hand": true
+        },
+        {
+          "actorID": "3180",
+          "targetID": "163",
+          "newActorID": "291",
+          "newTargetID": "3176",
+          "hand": true
+        },
+        {
+          "actorID": "34",
+          "targetID": "3179",
+          "newActorID": "34",
+          "newTargetID": "3180",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "807",
+          "targetID": "291",
+          "newTargetID": "3179",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "162",
+          "newTargetID": "169",
+          "decay": "5s"
+        },
+        {
+          "targetID": "163",
+          "newTargetID": "172",
+          "decay": "5s"
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "169",
+          "attributes": {
+            "name": {
+              "from": "Snared Rabbit Hole - peeking1,single",
+              "to": "Baited Snared Rabbit Hole - peeking1,single"
+            }
+          }
+        },
+        {
+          "id": "171",
+          "attributes": {
+            "name": {
+              "from": "Snared Rabbit Family Hole - peeking2",
+              "to": "Baited Snared Rabbit Family Hole - peeking2"
+            }
+          }
+        },
+        {
+          "id": "172",
+          "attributes": {
+            "name": {
+              "from": "Snared Rabbit Family Hole - peeking1",
+              "to": "Baited Snared Rabbit Family Hole - peeking1"
+            }
+          }
+        },
+        {
+          "id": "291",
+          "attributes": {
+            "name": {
+              "from": "Flat Rock",
+              "to": "Flat Rock -  empty"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3176",
+          "name": "Baited Snared Rabbit Family Hole - hiding",
+          "category": false
+        },
+        {
+          "id": "3177",
+          "name": "Baited Snared Rabbit Hole - hiding",
+          "category": false
+        },
+        {
+          "id": "3178",
+          "name": "WORKING Bait",
+          "category": false
+        },
+        {
+          "id": "3179",
+          "name": "Flat Rock with Burdock Root",
+          "category": false
+        },
+        {
+          "id": "3180",
+          "name": "Flat Rock with Mashed Burdock",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "fab2debff548590075ba80c29cb24b32434cbcda",
+      "message": "Working on implementation of tapout triggers",
+      "date": "2019-10-17T00:00:41.000Z",
+      "addedObjectIDs": [
+        "3174",
+        "3175"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "662",
+          "targetID": "1096",
+          "newTargetID": "3175",
+          "hand": true
+        },
+        {
+          "actorID": "662",
+          "targetID": "3030",
+          "newTargetID": "3174",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "662",
+          "attributes": {
+            "name": {
+              "from": "Shallow Well",
+              "to": "Shallow Well -  +tapoutTrigger,40,40,80,80"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3174",
+          "name": "Dry Natural Spring",
+          "category": false
+        },
+        {
+          "id": "3175",
+          "name": "Dry Well Site",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "1a1c0f6ee9d84c43c90b567664c519c3fc180ffe",
+      "message": "Put ponds on ice as a long term water source.  They used to refill one bowl every 3 hours on average.  Now they refill one bowl per week (168 hours).  The problem is that I can't predict how many ponds are in a given area.  10 ponds over 24 hours will produce 80 bowls of water.  Ponds are for bootstrapping only.",
+      "date": "2019-10-16T22:47:11.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "388",
+          "newTargetUses": "+1",
+          "newTargetID": "388",
+          "targetRemains": true,
+          "decay": "168h"
+        },
+        {
+          "targetID": "512",
+          "newTargetUses": "last",
+          "newTargetID": "511",
+          "decay": "168h"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "388",
+          "newTargetUses": "+1",
+          "newTargetID": "388",
+          "targetRemains": true,
+          "decay": "120m"
+        },
+        {
+          "targetID": "512",
+          "newTargetUses": "last",
+          "newTargetID": "511",
+          "decay": "120m"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "388",
+          "name": "@ Pond Water Source",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "825f235e293337c5c5043d8165a19fdf65fc720b",
+      "message": "There are 2204 rabbit holes on a sample rift, enough for 489 backpacks.  Rabbits were respawning every two hours, leading to rabbit product overload.  After snaring, rabbits no longer respawn.",
+      "date": "2019-10-16T22:27:25.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "196",
+          "newTargetID": "161",
+          "decay": "1h"
+        }
+      ]
+    }
+  ]
+}

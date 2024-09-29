@@ -1,0 +1,2922 @@
+{
+  "id": "20272",
+  "date": "2020-09-12T00:43:43.000Z",
+  "commits": [
+    {
+      "sha": "937140a369aa7b4b729f55f1f525e48a62c59142",
+      "message": "doubled speed for new stacked stuff",
+      "date": "2020-09-11T22:58:14.000Z"
+    },
+    {
+      "sha": "5340db4e8d549762c562711aa87cb93519b287f0",
+      "message": "Backpack now works on compost box",
+      "date": "2020-09-11T22:55:58.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "198",
+          "targetID": "7161",
+          "newTargetUses": "-1",
+          "newActorID": "212",
+          "newTargetID": "7161",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "198",
+          "targetID": "7161",
+          "targetUses": "last",
+          "newActorID": "212",
+          "newTargetID": "434",
+          "hand": true
+        },
+        {
+          "actorID": "198",
+          "targetID": "7166",
+          "newActorID": "212",
+          "newTargetID": "7161",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "29f6d1bc90691045cbe24591e3e6d3251880d6fb",
+      "message": "Slowed down boiler movement",
+      "date": "2020-09-11T22:53:52.000Z"
+    },
+    {
+      "sha": "97dff93b8b045f9a22fb6cb76952f4ac53f26e2e",
+      "message": "Added fill sound to water can",
+      "date": "2020-09-11T22:52:06.000Z"
+    },
+    {
+      "sha": "bebc0538d30f10d463a070df75535465bc3f5275",
+      "message": "Pile of peppers",
+      "date": "2020-09-11T22:01:41.000Z",
+      "addedObjectIDs": [
+        "7606"
+      ]
+    },
+    {
+      "sha": "c3de7e33c320338e1bf7697a702245aa4b0f72f8",
+      "message": "Boiler now classes as a extra large item",
+      "date": "2020-09-11T21:51:21.000Z"
+    },
+    {
+      "sha": "5a68aef9bf5724143d04ebac3ffad7fb5eddb45a",
+      "message": "Buckets can be filled at several wells",
+      "date": "2020-09-11T21:48:50.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7014",
+          "targetID": "1097",
+          "newActorID": "7029",
+          "newTargetID": "663",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "2234",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "2234",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "2352",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "2352",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "2352",
+          "targetUses": "last",
+          "newActorID": "7029",
+          "newTargetID": "3035",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "2390",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "2390",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "2390",
+          "targetUses": "last",
+          "newActorID": "7029",
+          "newTargetID": "2388",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "3044",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "3044",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "3044",
+          "targetUses": "last",
+          "newActorID": "7029",
+          "newTargetID": "3035",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "663",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.25,
+          "newActorID": "7029",
+          "newTargetID": "663",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "663",
+          "targetUses": "last",
+          "newActorID": "7029",
+          "newTargetID": "665",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "671",
+          "newActorID": "7029",
+          "newTargetID": "672",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "672",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "672",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "672",
+          "targetUses": "last",
+          "newActorID": "7029",
+          "newTargetID": "673",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2352",
+          "name": "Wet Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "3035",
+          "name": "Perhaps an Exhausted Kerosene Pump",
+          "category": false
+        },
+        {
+          "id": "3044",
+          "name": "Wet Kerosene Newcomen Pump -  burner added",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "846f075bbb133f33511a46c2fd26fe7b3d24bcab",
+      "message": "Added Locked to pine doors with locks",
+      "date": "2020-09-11T21:40:58.000Z",
+      "objectChanges": [
+        {
+          "id": "7266",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed copper $20",
+              "to": "Locked Pine Door -  Installed $20"
+            }
+          }
+        },
+        {
+          "id": "7267",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  copper installed $20",
+              "to": "Locked Open Pine Needle Door -  installed $20"
+            }
+          }
+        },
+        {
+          "id": "7271",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Needle Door -  installed copper $20",
+              "to": "Removed Lock Open Pine Needle Door -  installed $20"
+            }
+          }
+        },
+        {
+          "id": "7273",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed silver $20",
+              "to": "Locked Pine Door -  Installed $20"
+            }
+          }
+        },
+        {
+          "id": "7274",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door Silver -  installed $20",
+              "to": "Locked Open Pine Needle Door  -  installed $20"
+            }
+          }
+        },
+        {
+          "id": "7278",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Needle Door -  silver installed $20",
+              "to": "Removed Lock Open Pine Needle Door -  installed $20"
+            }
+          }
+        },
+        {
+          "id": "7280",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed gold $20",
+              "to": "Locked Pine Door -  Installed $20"
+            }
+          }
+        },
+        {
+          "id": "7281",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  gold installed $20",
+              "to": "Locked Open Pine Needle Door -  installed $20"
+            }
+          }
+        },
+        {
+          "id": "7285",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Needle Door -  gold installed $20",
+              "to": "Removed Lock Open Pine Needle Door -  installed $20"
+            }
+          }
+        },
+        {
+          "id": "7289",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  installed $20 +password-protected",
+              "to": "Locked Open Pine Needle Door -  installed $20 +password-protected"
+            }
+          }
+        },
+        {
+          "id": "7290",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed $20 +password-protected",
+              "to": "Locked Pine Door -  Installed $20 +password-protected"
+            }
+          }
+        },
+        {
+          "id": "7562",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Door -  installed vert gold $20",
+              "to": "Locked Open Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7563",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  installed vert gold $20",
+              "to": "Locked Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7564",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Door -  installed vert gold $20",
+              "to": "Removed Lock Open Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7565",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Door -  installed vert silver $20",
+              "to": "Locked Open Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7566",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  installed vert silver $20",
+              "to": "Locked Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7567",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Door -  installed vert silver $20",
+              "to": "Removed Lock Open Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7568",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Door -  installed vert copper $20",
+              "to": "Locked Open Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7569",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  installed vert copper $20",
+              "to": "Locked Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7570",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Door -  installed vert copper $20",
+              "to": "Removed Lock Open Pine Door -  installed vert $20"
+            }
+          }
+        },
+        {
+          "id": "7571",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Door -  installed vert gold $20 +password-protected",
+              "to": "Locked Open Pine Door -  installed vert $20 +password-protected"
+            }
+          }
+        },
+        {
+          "id": "7572",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  installed vert gold $20 +password-protected",
+              "to": "Locked Pine Door -  installed vert $20 +password-protected"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "63267d1c67ae38e742bf32202403b0b7e8fbd32a",
+      "message": "Added long shaft stack",
+      "date": "2020-09-11T19:22:30.000Z",
+      "addedObjectIDs": [
+        "7605"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7605",
+          "newTargetUses": "-1",
+          "newActorID": "67",
+          "newTargetID": "7605",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "7605",
+          "targetUses": "last",
+          "newActorID": "67",
+          "newTargetID": "557",
+          "hand": true
+        },
+        {
+          "actorID": "557",
+          "targetID": "557",
+          "newTargetID": "7605",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "557",
+          "newTargetUses": "last",
+          "newTargetID": "7605",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "7605",
+          "newTargetUses": "+1",
+          "newTargetID": "7605",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e9031b96daeb8eb02d6744bdd964728873024232",
+      "message": "Missed backpack with soil tansition",
+      "date": "2020-09-11T17:37:57.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "198",
+          "targetID": "7158",
+          "newActorID": "212",
+          "newTargetID": "434",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "5500476a2f82816ab87ee6c03c1f8c0870531e8b",
+      "message": "Fixed engine hold position",
+      "date": "2020-09-11T17:31:59.000Z"
+    },
+    {
+      "sha": "59a94a405e6335f8d4194132849ba817701df940",
+      "message": "Addded fence and bamboo stacks",
+      "date": "2020-09-11T00:46:15.000Z",
+      "addedObjectIDs": [
+        "7602",
+        "7604"
+      ]
+    },
+    {
+      "sha": "2d7577c4d0ccc7fd80ecc8271941324c7af60bde",
+      "message": "Tweeked worm animation",
+      "date": "2020-09-11T00:14:30.000Z"
+    },
+    {
+      "sha": "e96942da4960efd0e59bd2ffbbe12f6b23fed35b",
+      "message": "Added worm sprite and animation to wormy row",
+      "date": "2020-09-10T23:25:46.000Z"
+    },
+    {
+      "sha": "02f475bb27d127e6b7c18297d9ba06ab02234a90",
+      "message": "Fixed mean pit bull bug",
+      "date": "2020-09-10T22:44:34.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "1659",
+          "targetUses": "last",
+          "newTargetID": "1750",
+          "decay": "3s",
+          "move": 1
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "1659",
+          "targetUses": "last",
+          "newTargetID": "1747",
+          "decay": "3s",
+          "move": 1
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1747",
+          "name": "Mean Pit Bull",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7f90d8b532b66c8cd4da78f5359baad97b2105df",
+      "message": "Added Top hat with feather",
+      "date": "2020-09-10T22:40:25.000Z",
+      "addedObjectIDs": [
+        "7595",
+        "7596",
+        "7597",
+        "7598",
+        "7599",
+        "7600",
+        "7601"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "2178",
+          "targetID": "2885",
+          "newTargetID": "7599",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2914",
+          "newTargetID": "7598",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2921",
+          "newTargetID": "7595",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2932",
+          "newTargetID": "7597",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2940",
+          "newTargetID": "7600",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2948",
+          "newTargetID": "7601",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2956",
+          "newTargetID": "7596",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c1fe60aa1cf21c78c9db93278d6b307a2e36273f",
+      "message": "Goose can be cooked in oven",
+      "date": "2020-09-10T22:31:11.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "516",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "517",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "1155eb9747a336cbccd0f89ff1911190e548eb27",
+      "message": "Chicken on plate can be baked",
+      "date": "2020-09-10T21:49:44.000Z",
+      "addedObjectIDs": [
+        "7594"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7594",
+          "newActorID": "4859",
+          "newTargetID": "236",
+          "hand": true
+        },
+        {
+          "actorID": "6954",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "7594",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "68c90725b3f083fe73dc749d8c9afe5fdd0d5a34",
+      "message": "Added caged Turkeys and renamed caged animals",
+      "date": "2020-09-10T21:13:47.000Z",
+      "addedObjectIDs": [
+        "7593"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "7080",
+          "targetID": "2174",
+          "newTargetID": "7593",
+          "hand": true
+        },
+        {
+          "actorID": "7593",
+          "newActorID": "7080",
+          "newTargetID": "2175",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "7079",
+          "attributes": {
+            "name": {
+              "from": "Domestic Goose in Cage",
+              "to": "Caged Goose"
+            }
+          }
+        },
+        {
+          "id": "7081",
+          "attributes": {
+            "name": {
+              "from": "Rooster in Cage",
+              "to": "Caged Rooster"
+            }
+          }
+        },
+        {
+          "id": "7082",
+          "attributes": {
+            "name": {
+              "from": "Hen in Cage",
+              "to": "Caged Hen"
+            }
+          }
+        },
+        {
+          "id": "7212",
+          "attributes": {
+            "name": {
+              "from": "Rabbit in Cage",
+              "to": "Caged Rabbit"
+            }
+          }
+        },
+        {
+          "id": "7447",
+          "attributes": {
+            "name": {
+              "from": "Cage with Cardinals",
+              "to": "Caged Cardinals"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "a55cbb1808e7b952eeff8322968621c345869159",
+      "message": "Baked engine sprite and set to containable as extra large",
+      "date": "2020-09-10T20:10:57.000Z"
+    },
+    {
+      "sha": "6ac543ec68fea50d095c75ce26416d9f758f3624",
+      "message": "Bamboo can only be cut with knife",
+      "date": "2020-09-09T20:03:50.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "6664",
+          "newActorID": "560",
+          "newTargetID": "6665",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "6664",
+          "newActorID": "964",
+          "newTargetID": "6665",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "b05a2705dae804f5519289faad7e81f2b2f8c8c4",
+      "message": "Polar sapling no longer spawns",
+      "date": "2020-09-09T20:03:00.000Z"
+    },
+    {
+      "sha": "486ccdd6c0736841eb8792a0ce0c45b8eab5eb23",
+      "message": "Sandstone piles",
+      "date": "2020-09-09T19:57:41.000Z",
+      "addedObjectIDs": [
+        "7591"
+      ]
+    },
+    {
+      "sha": "10b49d49fea6c7fbc3bb683ee2cb49fabb092a85",
+      "message": "Backpacks can interact with soil box",
+      "date": "2020-09-09T19:51:16.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "198",
+          "targetID": "7154",
+          "newTargetUses": "-1",
+          "newActorID": "212",
+          "newTargetID": "7154",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "198",
+          "targetID": "7154",
+          "targetUses": "last",
+          "newActorID": "212",
+          "newTargetID": "7158",
+          "hand": true
+        },
+        {
+          "actorID": "212",
+          "targetID": "434",
+          "newActorID": "198",
+          "newTargetID": "7158",
+          "hand": true
+        },
+        {
+          "actorID": "212",
+          "targetID": "7154",
+          "newTargetUses": "+1",
+          "newActorID": "198",
+          "newTargetID": "7154",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "212",
+          "targetID": "7158",
+          "newTargetUses": "last",
+          "newActorID": "198",
+          "newTargetID": "7154",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "3be5dc5e1a2ed81c3d7fe0f57cfdbcb4282be99a",
+      "message": "Slight buff to windmill, wheat bags can be turned to flour with windmill",
+      "date": "2020-09-09T19:44:51.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "4795",
+          "newTargetID": "4796",
+          "decay": "5m"
+        },
+        {
+          "actorID": "7574",
+          "targetID": "4796",
+          "newActorID": "7580",
+          "newTargetID": "4796",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7575",
+          "targetID": "4796",
+          "newActorID": "7581",
+          "newTargetID": "4796",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7576",
+          "targetID": "4796",
+          "newActorID": "7582",
+          "newTargetID": "4796",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7577",
+          "targetID": "4796",
+          "newActorID": "7583",
+          "newTargetID": "4796",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7578",
+          "targetID": "4796",
+          "newActorID": "7579",
+          "newTargetID": "4796",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "4795",
+          "newTargetID": "4796",
+          "decay": "500s"
+        }
+      ]
+    },
+    {
+      "sha": "1affc7d59a130cab4ad67003bb7c34057b17c941",
+      "message": "Added corn bag and fixed sounds for pouring",
+      "date": "2020-09-09T19:31:24.000Z",
+      "addedObjectIDs": [
+        "7584",
+        "7585",
+        "7586",
+        "7587",
+        "7588",
+        "7589",
+        "7590"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7589",
+          "newTargetID": "1247",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7590",
+          "newTargetID": "251",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1247",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7584",
+          "hand": true
+        },
+        {
+          "actorID": "1247",
+          "targetID": "7584",
+          "newActorID": "235",
+          "newTargetID": "7585",
+          "hand": true
+        },
+        {
+          "actorID": "1247",
+          "targetID": "7585",
+          "newActorID": "235",
+          "newTargetID": "7586",
+          "hand": true
+        },
+        {
+          "actorID": "1247",
+          "targetID": "7586",
+          "newActorID": "235",
+          "newTargetID": "7587",
+          "hand": true
+        },
+        {
+          "actorID": "1247",
+          "targetID": "7587",
+          "newActorID": "235",
+          "newTargetID": "7588",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7579",
+          "newActorID": "7590",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7580",
+          "newActorID": "7590",
+          "newTargetID": "7579",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7581",
+          "newActorID": "7590",
+          "newTargetID": "7580",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7582",
+          "newActorID": "7590",
+          "newTargetID": "7581",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7583",
+          "newActorID": "7590",
+          "newTargetID": "7582",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7584",
+          "newActorID": "7589",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7585",
+          "newActorID": "7589",
+          "newTargetID": "7584",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7586",
+          "newActorID": "7589",
+          "newTargetID": "7585",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7587",
+          "newActorID": "7589",
+          "newTargetID": "7586",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7588",
+          "newActorID": "7589",
+          "newTargetID": "7587",
+          "hand": true
+        },
+        {
+          "actorID": "7579",
+          "targetID": "235",
+          "newActorID": "7573",
+          "newTargetID": "7590",
+          "hand": true
+        },
+        {
+          "actorID": "7580",
+          "targetID": "235",
+          "newActorID": "7579",
+          "newTargetID": "7590",
+          "hand": true
+        },
+        {
+          "actorID": "7581",
+          "targetID": "235",
+          "newActorID": "7580",
+          "newTargetID": "7590",
+          "hand": true
+        },
+        {
+          "actorID": "7582",
+          "targetID": "235",
+          "newActorID": "7581",
+          "newTargetID": "7590",
+          "hand": true
+        },
+        {
+          "actorID": "7583",
+          "targetID": "235",
+          "newActorID": "7582",
+          "newTargetID": "7590",
+          "hand": true
+        },
+        {
+          "actorID": "7584",
+          "targetID": "235",
+          "newActorID": "7573",
+          "newTargetID": "7589",
+          "hand": true
+        },
+        {
+          "actorID": "7585",
+          "targetID": "235",
+          "newActorID": "7584",
+          "newTargetID": "7589",
+          "hand": true
+        },
+        {
+          "actorID": "7586",
+          "targetID": "235",
+          "newActorID": "7585",
+          "newTargetID": "7589",
+          "hand": true
+        },
+        {
+          "actorID": "7587",
+          "targetID": "235",
+          "newActorID": "7586",
+          "newTargetID": "7589",
+          "hand": true
+        },
+        {
+          "actorID": "7588",
+          "targetID": "235",
+          "newActorID": "7587",
+          "newTargetID": "7589",
+          "hand": true
+        },
+        {
+          "actorID": "7589",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7584",
+          "hand": true
+        },
+        {
+          "actorID": "7589",
+          "targetID": "7584",
+          "newActorID": "235",
+          "newTargetID": "7585",
+          "hand": true
+        },
+        {
+          "actorID": "7589",
+          "targetID": "7585",
+          "newActorID": "235",
+          "newTargetID": "7586",
+          "hand": true
+        },
+        {
+          "actorID": "7589",
+          "targetID": "7586",
+          "newActorID": "235",
+          "newTargetID": "7587",
+          "hand": true
+        },
+        {
+          "actorID": "7589",
+          "targetID": "7587",
+          "newActorID": "235",
+          "newTargetID": "7588",
+          "hand": true
+        },
+        {
+          "actorID": "7590",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7579",
+          "hand": true
+        },
+        {
+          "actorID": "7590",
+          "targetID": "7579",
+          "newActorID": "235",
+          "newTargetID": "7580",
+          "hand": true
+        },
+        {
+          "actorID": "7590",
+          "targetID": "7580",
+          "newActorID": "235",
+          "newTargetID": "7581",
+          "hand": true
+        },
+        {
+          "actorID": "7590",
+          "targetID": "7581",
+          "newActorID": "235",
+          "newTargetID": "7582",
+          "hand": true
+        },
+        {
+          "actorID": "7590",
+          "targetID": "7582",
+          "newActorID": "235",
+          "newTargetID": "7583",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "7579",
+          "newActorID": "251",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7580",
+          "newActorID": "251",
+          "newTargetID": "7579",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7581",
+          "newActorID": "251",
+          "newTargetID": "7580",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7582",
+          "newActorID": "251",
+          "newTargetID": "7581",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7583",
+          "newActorID": "251",
+          "newTargetID": "7582",
+          "hand": true
+        },
+        {
+          "actorID": "7579",
+          "targetID": "235",
+          "newActorID": "7573",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7580",
+          "targetID": "235",
+          "newActorID": "7579",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7581",
+          "targetID": "235",
+          "newActorID": "7580",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7582",
+          "targetID": "235",
+          "newActorID": "7581",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7583",
+          "targetID": "235",
+          "newActorID": "7582",
+          "newTargetID": "251",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "902c5bfa453db6f16c813583f441e960013ef59f",
+      "message": "Added bag of flour",
+      "date": "2020-09-09T02:15:07.000Z",
+      "addedObjectIDs": [
+        "7579",
+        "7580",
+        "7581",
+        "7582",
+        "7583"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "7579",
+          "newActorID": "251",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7580",
+          "newActorID": "251",
+          "newTargetID": "7579",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7581",
+          "newActorID": "251",
+          "newTargetID": "7580",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7582",
+          "newActorID": "251",
+          "newTargetID": "7581",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7583",
+          "newActorID": "251",
+          "newTargetID": "7582",
+          "hand": true
+        },
+        {
+          "actorID": "251",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7579",
+          "hand": true
+        },
+        {
+          "actorID": "251",
+          "targetID": "7579",
+          "newActorID": "235",
+          "newTargetID": "7580",
+          "hand": true
+        },
+        {
+          "actorID": "251",
+          "targetID": "7580",
+          "newActorID": "235",
+          "newTargetID": "7581",
+          "hand": true
+        },
+        {
+          "actorID": "251",
+          "targetID": "7581",
+          "newActorID": "235",
+          "newTargetID": "7582",
+          "hand": true
+        },
+        {
+          "actorID": "251",
+          "targetID": "7582",
+          "newActorID": "235",
+          "newTargetID": "7583",
+          "hand": true
+        },
+        {
+          "actorID": "7579",
+          "targetID": "235",
+          "newActorID": "7573",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7580",
+          "targetID": "235",
+          "newActorID": "7579",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7581",
+          "targetID": "235",
+          "newActorID": "7580",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7582",
+          "targetID": "235",
+          "newActorID": "7581",
+          "newTargetID": "251",
+          "hand": true
+        },
+        {
+          "actorID": "7583",
+          "targetID": "235",
+          "newActorID": "7582",
+          "newTargetID": "251",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "491025ff7d62880fdf1632babd086b39bfee737b",
+      "message": "Changed recipe of head wrap",
+      "date": "2020-09-09T02:05:37.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "6405",
+          "newActorID": "1127",
+          "newTargetID": "6721",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "ebca90f30907a802f2b0825d2e8f5e4287950ac0",
+      "message": "Removed old sack recipe",
+      "date": "2020-09-09T02:00:14.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "4436",
+          "targetID": "5264",
+          "newTargetID": "4735",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a3cbe027b341abfa86dd44c2ee414cedc0b0f57e",
+      "message": "Added new sacks",
+      "date": "2020-09-09T01:58:56.000Z",
+      "addedObjectIDs": [
+        "7573",
+        "7574",
+        "7575",
+        "7576",
+        "7577",
+        "7578"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "7574",
+          "newActorID": "245",
+          "newTargetID": "7578",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7575",
+          "newActorID": "245",
+          "newTargetID": "7574",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7576",
+          "newActorID": "245",
+          "newTargetID": "7575",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7577",
+          "newActorID": "245",
+          "newTargetID": "7576",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7578",
+          "newActorID": "245",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7578",
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "7574",
+          "newActorID": "235",
+          "newTargetID": "7575",
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "7575",
+          "newActorID": "235",
+          "newTargetID": "7576",
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "7576",
+          "newActorID": "235",
+          "newTargetID": "7577",
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "7578",
+          "newActorID": "235",
+          "newTargetID": "7574",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "6405",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "7574",
+          "targetID": "235",
+          "newActorID": "7578",
+          "newTargetID": "245",
+          "hand": true
+        },
+        {
+          "actorID": "7575",
+          "targetID": "235",
+          "newActorID": "7574",
+          "newTargetID": "245",
+          "hand": true
+        },
+        {
+          "actorID": "7576",
+          "targetID": "235",
+          "newActorID": "7575",
+          "newTargetID": "245",
+          "hand": true
+        },
+        {
+          "actorID": "7577",
+          "targetID": "235",
+          "newActorID": "7576",
+          "newTargetID": "245",
+          "hand": true
+        },
+        {
+          "actorID": "7578",
+          "targetID": "235",
+          "newActorID": "7573",
+          "newTargetID": "245",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "59",
+          "targetID": "6405",
+          "newTargetID": "6721",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a77b1692d1d37728c2255dce625137d05dd7c20e",
+      "message": "Removed domestic berry transitions",
+      "date": "2020-09-08T01:12:32.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "135",
+          "targetID": "432",
+          "newActorID": "135",
+          "newTargetID": "35",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "35",
+          "targetID": "62",
+          "newTargetID": "432",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "4566c21424b86ec7aaac71c2e446456cfb308d34",
+      "message": "Fence holes can be dug on flooring",
+      "date": "2020-09-08T01:10:57.000Z",
+      "objectChanges": [
+        {
+          "id": "553",
+          "attributes": {
+            "name": {
+              "from": "East-West Fence Holes -  groundOnly",
+              "to": "East-West Fence Holes"
+            }
+          }
+        },
+        {
+          "id": "554",
+          "attributes": {
+            "name": {
+              "from": "North-South Fence Holes -  groundOnly",
+              "to": "North-South Fence Holes"
+            }
+          }
+        },
+        {
+          "id": "555",
+          "attributes": {
+            "name": {
+              "from": "Corner Fence Holes -  groundOnly",
+              "to": "Corner Fence Holes"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "fcd8aac9c1d333f360c8397be58161e10c07a8f7",
+      "message": "Fixed Timers on fruit tree growth",
+      "date": "2020-09-07T23:44:06.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7358",
+          "newTargetID": "7356",
+          "decay": "30m"
+        },
+        {
+          "targetID": "7359",
+          "newTargetID": "7312",
+          "decay": "60m"
+        },
+        {
+          "targetID": "7363",
+          "newTargetID": "7364",
+          "decay": "30m"
+        },
+        {
+          "targetID": "7365",
+          "newTargetID": "7313",
+          "decay": "60m"
+        },
+        {
+          "targetID": "7367",
+          "newTargetID": "7368",
+          "decay": "30m"
+        },
+        {
+          "targetID": "7369",
+          "newTargetID": "7314",
+          "decay": "60m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7358",
+          "newTargetID": "7356",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7359",
+          "newTargetID": "7312",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7363",
+          "newTargetID": "7364",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7365",
+          "newTargetID": "7313",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7367",
+          "newTargetID": "7368",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7369",
+          "newTargetID": "7314",
+          "decay": "1m"
+        }
+      ]
+    },
+    {
+      "sha": "206b92d0def8a4981018645c699eb88bfae10f55",
+      "message": "Honey bees no longer spawn naturally",
+      "date": "2020-09-07T21:52:56.000Z",
+      "objectChanges": [
+        {
+          "id": "4567",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "d232193a54b2c33d9a95cd06bbbbe21c5d6f72a5",
+      "message": "Added new branches to compost items",
+      "date": "2020-09-07T21:45:33.000Z"
+    },
+    {
+      "sha": "554a49173f4560e286f2dcae468ffeee27d8fc8b",
+      "message": "Balanced composting box",
+      "date": "2020-09-07T21:44:36.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7219",
+          "newTargetID": "7167",
+          "decay": "11m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7219",
+          "newTargetID": "7167",
+          "decay": "10m"
+        },
+        {
+          "actorID": "6806",
+          "targetID": "7158",
+          "newActorID": "659",
+          "newTargetID": "7162",
+          "hand": true
+        },
+        {
+          "actorID": "7159",
+          "targetID": "7158",
+          "newTargetID": "7160",
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "7160",
+          "newTargetUses": "+1",
+          "newActorID": "502",
+          "newTargetID": "7160",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "7160",
+          "targetUses": "max",
+          "newActorID": "502",
+          "newTargetID": "7162",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7159",
+          "name": "@ Compost Organic - Whole",
+          "category": true
+        },
+        {
+          "id": "7162",
+          "name": "Full Composting Box",
+          "category": false
+        },
+        {
+          "id": "7167",
+          "name": "Perhaps Wormy Compost",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "f297fe6214963de2fe64b9bd7208bcec6319845a",
+      "message": "Tobacco seed despawns",
+      "date": "2020-09-07T20:29:59.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "5223",
+          "decay": "5m"
+        }
+      ]
+    },
+    {
+      "sha": "c3bc48c6e07951a7ae062864ff5d5bfd264741ab",
+      "message": "Added password decay for vert pine door",
+      "date": "2020-09-06T23:36:18.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7572",
+          "newTargetID": "7563",
+          "decay": "10080m"
+        }
+      ]
+    },
+    {
+      "sha": "88dba1090019af44d10d12c9ae8acb084bf4ab24",
+      "message": "Vert pine doors can be password protected",
+      "date": "2020-09-06T23:34:02.000Z",
+      "addedObjectIDs": [
+        "7571",
+        "7572"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7571",
+          "newTargetID": "7572",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "7572",
+          "newTargetID": "7571",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7282",
+          "targetID": "7571",
+          "newActorID": "7288",
+          "newTargetID": "7562",
+          "hand": true
+        },
+        {
+          "actorID": "7288",
+          "targetID": "7562",
+          "newActorID": "7282",
+          "newTargetID": "7571",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "9fbf8118c0d04b9564a03c79d3ee73b6fb1ca98e",
+      "message": "Added missing cabbage crate transitions",
+      "date": "2020-09-06T22:09:07.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7551",
+          "newActorID": "7549",
+          "newTargetID": "7549",
+          "hand": true
+        },
+        {
+          "targetID": "7552",
+          "newActorID": "7549",
+          "newTargetID": "7551",
+          "hand": true
+        },
+        {
+          "actorID": "7549",
+          "targetID": "7549",
+          "newTargetID": "7551",
+          "hand": true
+        },
+        {
+          "actorID": "7549",
+          "targetID": "7551",
+          "newTargetID": "7552",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "bb9aa38c62b6c4185f75fd4ab5684a4cad960d01",
+      "message": "Fixed keys and allowed key and lock to be combined back",
+      "date": "2020-09-06T21:13:43.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7278",
+          "newActorID": "7279",
+          "newTargetID": "119",
+          "hand": true
+        },
+        {
+          "targetID": "7285",
+          "newActorID": "7286",
+          "newTargetID": "119",
+          "hand": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7276",
+          "newActorID": "458",
+          "newTargetID": "7277",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7277",
+          "newActorID": "458",
+          "newTargetID": "7277",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7283",
+          "newActorID": "458",
+          "newTargetID": "7284",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7284",
+          "newActorID": "458",
+          "newTargetID": "7284",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7274",
+          "newActorID": "560",
+          "newTargetID": "7278",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7281",
+          "newActorID": "560",
+          "newTargetID": "7285",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7268",
+          "targetID": "7272",
+          "newTargetID": "7270",
+          "hand": true
+        },
+        {
+          "actorID": "7275",
+          "targetID": "7273",
+          "newActorID": "7275",
+          "newTargetID": "7274",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7275",
+          "targetID": "7274",
+          "newActorID": "7275",
+          "newTargetID": "7273",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7275",
+          "targetID": "7279",
+          "newTargetID": "7277",
+          "hand": true
+        },
+        {
+          "actorID": "7277",
+          "targetID": "115",
+          "newActorID": "7275",
+          "newTargetID": "7273",
+          "hand": true
+        },
+        {
+          "actorID": "7279",
+          "targetID": "119",
+          "newTargetID": "7274",
+          "hand": true
+        },
+        {
+          "actorID": "7282",
+          "targetID": "7280",
+          "newActorID": "7282",
+          "newTargetID": "7281",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7282",
+          "targetID": "7281",
+          "newActorID": "7282",
+          "newTargetID": "7280",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7282",
+          "targetID": "7286",
+          "newTargetID": "7284",
+          "hand": true
+        },
+        {
+          "actorID": "7284",
+          "targetID": "115",
+          "newActorID": "7282",
+          "newTargetID": "7280",
+          "hand": true
+        },
+        {
+          "actorID": "7286",
+          "targetID": "119",
+          "newTargetID": "7281",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "7266",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed $20",
+              "to": "Pine Door -  Installed copper $20"
+            }
+          }
+        },
+        {
+          "id": "7267",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  installed $20",
+              "to": "Open Pine Needle Door -  copper installed $20"
+            }
+          }
+        },
+        {
+          "id": "7271",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Needle Door -  installed $20",
+              "to": "Removed Lock Open Pine Needle Door -  installed copper $20"
+            }
+          }
+        },
+        {
+          "id": "7273",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed $20",
+              "to": "Pine Door -  Installed silver $20"
+            }
+          }
+        },
+        {
+          "id": "7278",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Needle Door -  installed $20",
+              "to": "Removed Lock Open Pine Needle Door -  silver installed $20"
+            }
+          }
+        },
+        {
+          "id": "7280",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed $20",
+              "to": "Pine Door -  Installed gold $20"
+            }
+          }
+        },
+        {
+          "id": "7281",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  installed $20",
+              "to": "Open Pine Needle Door -  gold installed $20"
+            }
+          }
+        },
+        {
+          "id": "7285",
+          "attributes": {
+            "name": {
+              "from": "Removed Lock Open Pine Needle Door -  installed $20",
+              "to": "Removed Lock Open Pine Needle Door -  gold installed $20"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "85eca1e6f47b8c5b2e52398965852b6caca77677",
+      "message": "Vertical doors can now be locked also",
+      "date": "2020-09-06T19:12:07.000Z",
+      "addedObjectIDs": [
+        "7562",
+        "7563",
+        "7564",
+        "7565",
+        "7566",
+        "7567",
+        "7568",
+        "7569",
+        "7570"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7564",
+          "newActorID": "7286",
+          "newTargetID": "117",
+          "hand": true
+        },
+        {
+          "targetID": "7567",
+          "newActorID": "7279",
+          "newTargetID": "117",
+          "hand": true
+        },
+        {
+          "targetID": "7570",
+          "newActorID": "7272",
+          "newTargetID": "117",
+          "hand": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7562",
+          "newActorID": "560",
+          "newTargetID": "7564",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7565",
+          "newActorID": "560",
+          "newTargetID": "7567",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7568",
+          "newActorID": "560",
+          "newTargetID": "7570",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7268",
+          "targetID": "7568",
+          "newActorID": "7268",
+          "newTargetID": "7569",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7268",
+          "targetID": "7569",
+          "newActorID": "7268",
+          "newTargetID": "7568",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7270",
+          "targetID": "116",
+          "newActorID": "7268",
+          "newTargetID": "7569",
+          "hand": true
+        },
+        {
+          "actorID": "7272",
+          "targetID": "117",
+          "newTargetID": "7568",
+          "hand": true
+        },
+        {
+          "actorID": "7275",
+          "targetID": "7565",
+          "newActorID": "7275",
+          "newTargetID": "7566",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7275",
+          "targetID": "7566",
+          "newActorID": "7275",
+          "newTargetID": "7565",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7277",
+          "targetID": "116",
+          "newActorID": "7275",
+          "newTargetID": "7566",
+          "hand": true
+        },
+        {
+          "actorID": "7279",
+          "targetID": "117",
+          "newTargetID": "7565",
+          "hand": true
+        },
+        {
+          "actorID": "7282",
+          "targetID": "7562",
+          "newActorID": "7282",
+          "newTargetID": "7563",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7282",
+          "targetID": "7563",
+          "newActorID": "7282",
+          "newTargetID": "7562",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7284",
+          "targetID": "116",
+          "newActorID": "7282",
+          "newTargetID": "7563",
+          "hand": true
+        },
+        {
+          "actorID": "7286",
+          "targetID": "117",
+          "newTargetID": "7562",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "13d6f095a83148eb835f4c4bfe06a7a3cf4f3dfc",
+      "message": "Knitting needles can be disassembled",
+      "date": "2020-09-06T14:53:35.000Z",
+      "addedObjectIDs": [
+        "7561"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7561",
+          "newActorID": "852",
+          "newTargetID": "852",
+          "hand": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "583",
+          "newActorID": "964",
+          "newTargetID": "7561",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "1dde72ae65e054415e5b55c7ca8f51c8da846b97",
+      "message": "Added more crate produce",
+      "date": "2020-09-06T14:46:57.000Z",
+      "addedObjectIDs": [
+        "7533",
+        "7534",
+        "7535",
+        "7536",
+        "7537",
+        "7538",
+        "7539",
+        "7540",
+        "7541",
+        "7542",
+        "7543",
+        "7544",
+        "7545",
+        "7546",
+        "7547",
+        "7548",
+        "7549",
+        "7550",
+        "7551",
+        "7552",
+        "7553",
+        "7554",
+        "7555",
+        "7556",
+        "7557",
+        "7558",
+        "7559",
+        "7560"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7535",
+          "newActorID": "7534",
+          "newTargetID": "7534",
+          "hand": true
+        },
+        {
+          "targetID": "7536",
+          "newActorID": "7534",
+          "newTargetID": "7535",
+          "hand": true
+        },
+        {
+          "targetID": "7539",
+          "newActorID": "7537",
+          "newTargetID": "7537",
+          "hand": true
+        },
+        {
+          "targetID": "7540",
+          "newActorID": "7537",
+          "newTargetID": "7539",
+          "hand": true
+        },
+        {
+          "targetID": "7543",
+          "newActorID": "7541",
+          "newTargetID": "7541",
+          "hand": true
+        },
+        {
+          "targetID": "7544",
+          "newActorID": "7541",
+          "newTargetID": "7543",
+          "hand": true
+        },
+        {
+          "targetID": "7547",
+          "newActorID": "7545",
+          "newTargetID": "7545",
+          "hand": true
+        },
+        {
+          "targetID": "7548",
+          "newActorID": "7545",
+          "newTargetID": "7547",
+          "hand": true
+        },
+        {
+          "targetID": "7555",
+          "newActorID": "7553",
+          "newTargetID": "7553",
+          "hand": true
+        },
+        {
+          "targetID": "7556",
+          "newActorID": "7553",
+          "newTargetID": "7555",
+          "hand": true
+        },
+        {
+          "targetID": "7559",
+          "newActorID": "7558",
+          "newTargetID": "7558",
+          "hand": true
+        },
+        {
+          "targetID": "7560",
+          "newActorID": "7558",
+          "newTargetID": "7559",
+          "hand": true
+        },
+        {
+          "actorID": "7534",
+          "targetID": "7534",
+          "newTargetID": "7535",
+          "hand": true
+        },
+        {
+          "actorID": "7534",
+          "targetID": "7535",
+          "newTargetID": "7536",
+          "hand": true
+        },
+        {
+          "actorID": "7537",
+          "targetID": "7537",
+          "newTargetID": "7539",
+          "hand": true
+        },
+        {
+          "actorID": "7537",
+          "targetID": "7539",
+          "newTargetID": "7540",
+          "hand": true
+        },
+        {
+          "actorID": "7541",
+          "targetID": "7541",
+          "newTargetID": "7543",
+          "hand": true
+        },
+        {
+          "actorID": "7541",
+          "targetID": "7543",
+          "newTargetID": "7544",
+          "hand": true
+        },
+        {
+          "actorID": "7545",
+          "targetID": "7545",
+          "newTargetID": "7547",
+          "hand": true
+        },
+        {
+          "actorID": "7545",
+          "targetID": "7547",
+          "newTargetID": "7548",
+          "hand": true
+        },
+        {
+          "actorID": "7553",
+          "targetID": "7553",
+          "newTargetID": "7555",
+          "hand": true
+        },
+        {
+          "actorID": "7553",
+          "targetID": "7555",
+          "newTargetID": "7556",
+          "hand": true
+        },
+        {
+          "actorID": "7558",
+          "targetID": "7558",
+          "newTargetID": "7559",
+          "hand": true
+        },
+        {
+          "actorID": "7558",
+          "targetID": "7559",
+          "newTargetID": "7560",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a60312794942fc4391a2b27008b8bdeae60a4c40",
+      "message": "Added additional crate produce",
+      "date": "2020-09-06T01:04:56.000Z",
+      "addedObjectIDs": [
+        "7506",
+        "7507",
+        "7508",
+        "7509",
+        "7510",
+        "7511",
+        "7512",
+        "7513",
+        "7514",
+        "7515",
+        "7516",
+        "7517",
+        "7519",
+        "7520",
+        "7521",
+        "7522",
+        "7524",
+        "7525",
+        "7526",
+        "7527",
+        "7528",
+        "7529",
+        "7530",
+        "7531"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7508",
+          "newActorID": "7506",
+          "newTargetID": "7506",
+          "hand": true
+        },
+        {
+          "targetID": "7509",
+          "newActorID": "7506",
+          "newTargetID": "7508",
+          "hand": true
+        },
+        {
+          "targetID": "7512",
+          "newActorID": "7511",
+          "newTargetID": "7511",
+          "hand": true
+        },
+        {
+          "targetID": "7513",
+          "newActorID": "7511",
+          "newTargetID": "7512",
+          "hand": true
+        },
+        {
+          "targetID": "7516",
+          "newActorID": "7514",
+          "newTargetID": "7514",
+          "hand": true
+        },
+        {
+          "targetID": "7517",
+          "newActorID": "7514",
+          "newTargetID": "7516",
+          "hand": true
+        },
+        {
+          "targetID": "7521",
+          "newActorID": "7519",
+          "newTargetID": "7520",
+          "hand": true
+        },
+        {
+          "targetID": "7522",
+          "newActorID": "7519",
+          "newTargetID": "7521",
+          "hand": true
+        },
+        {
+          "targetID": "7526",
+          "newActorID": "7524",
+          "newTargetID": "7524",
+          "hand": true
+        },
+        {
+          "targetID": "7527",
+          "newActorID": "7524",
+          "newTargetID": "7526",
+          "hand": true
+        },
+        {
+          "targetID": "7530",
+          "newActorID": "7528",
+          "newTargetID": "7528",
+          "hand": true
+        },
+        {
+          "targetID": "7531",
+          "newActorID": "7528",
+          "newTargetID": "7530",
+          "hand": true
+        },
+        {
+          "actorID": "7506",
+          "targetID": "7506",
+          "newTargetID": "7508",
+          "hand": true
+        },
+        {
+          "actorID": "7506",
+          "targetID": "7508",
+          "newTargetID": "7509",
+          "hand": true
+        },
+        {
+          "actorID": "7511",
+          "targetID": "7511",
+          "newTargetID": "7512",
+          "hand": true
+        },
+        {
+          "actorID": "7511",
+          "targetID": "7512",
+          "newTargetID": "7513",
+          "hand": true
+        },
+        {
+          "actorID": "7514",
+          "targetID": "7514",
+          "newTargetID": "7516",
+          "hand": true
+        },
+        {
+          "actorID": "7514",
+          "targetID": "7516",
+          "newTargetID": "7517",
+          "hand": true
+        },
+        {
+          "actorID": "7519",
+          "targetID": "7520",
+          "newTargetID": "7521",
+          "hand": true
+        },
+        {
+          "actorID": "7519",
+          "targetID": "7521",
+          "newTargetID": "7522",
+          "hand": true
+        },
+        {
+          "actorID": "7524",
+          "targetID": "7524",
+          "newTargetID": "7526",
+          "hand": true
+        },
+        {
+          "actorID": "7524",
+          "targetID": "7526",
+          "newTargetID": "7527",
+          "hand": true
+        },
+        {
+          "actorID": "7528",
+          "targetID": "7528",
+          "newTargetID": "7530",
+          "hand": true
+        },
+        {
+          "actorID": "7528",
+          "targetID": "7530",
+          "newTargetID": "7531",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "07a6c1168bc0ec90208fc0160338c66917413cde",
+      "message": "Added arrow signs",
+      "date": "2020-09-05T22:15:51.000Z",
+      "addedObjectIDs": [
+        "7495",
+        "7496",
+        "7497",
+        "7498",
+        "7499",
+        "7500",
+        "7501",
+        "7502",
+        "7503",
+        "7504",
+        "7505"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7504",
+          "newActorID": "455",
+          "newTargetID": "977",
+          "hand": true
+        },
+        {
+          "targetID": "7505",
+          "newActorID": "455",
+          "newTargetID": "7495",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7495",
+          "newActorID": "334",
+          "newTargetID": "7503",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7503",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "targetID": "977",
+          "newTargetID": "7504",
+          "hand": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7495",
+          "newActorID": "467",
+          "newTargetID": "7499",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7496",
+          "newActorID": "467",
+          "newTargetID": "7501",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7497",
+          "newActorID": "467",
+          "newTargetID": "7502",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7498",
+          "newActorID": "467",
+          "newTargetID": "7500",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7499",
+          "newActorID": "467",
+          "newTargetID": "7498",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7500",
+          "newActorID": "467",
+          "newTargetID": "7496",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7501",
+          "newActorID": "467",
+          "newTargetID": "7497",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7502",
+          "newActorID": "467",
+          "newTargetID": "7495",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7504",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.04,
+          "newActorID": "467",
+          "newTargetID": "7505",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7503",
+          "targetID": "92",
+          "newTargetID": "7495",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "8caf7b812ccf5ca3a0761dab4e084b5a3ea15133",
+      "message": "Removed old bee box transition",
+      "date": "2020-09-05T19:18:53.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "4600",
+          "targetID": "470",
+          "newTargetID": "4570",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "59194baef2d5d2f376f284885cbfda8106563706",
+      "message": "Hive stands can be moved",
+      "date": "2020-09-05T19:17:29.000Z"
+    },
+    {
+      "sha": "2ee84f77d612d4f66c8c53ec73492705b19f1fd9",
+      "message": "Fixed door decay",
+      "date": "2020-09-05T17:28:45.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7290",
+          "newTargetID": "7280",
+          "decay": "10080m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7290",
+          "newTargetID": "7266",
+          "decay": "10080m"
+        }
+      ]
+    },
+    {
+      "sha": "9a116295d1b8e706bb538ab9380bb61a89842477",
+      "message": "Forgot to times by 24 first",
+      "date": "2020-09-05T16:56:50.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7290",
+          "newTargetID": "7266",
+          "decay": "10080m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7290",
+          "newTargetID": "7266",
+          "decay": "420m"
+        }
+      ]
+    },
+    {
+      "sha": "761be31ad43b0431f242eb405512fbe6291d76d9",
+      "message": "Autumn trees now give leaves",
+      "date": "2020-09-05T13:52:53.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "292",
+          "targetID": "7340",
+          "newTargetUses": "-1",
+          "newActorID": "6856",
+          "newTargetID": "7340",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "7340",
+          "targetUses": "last",
+          "newActorID": "6856",
+          "newTargetID": "7341",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "46bc2b000e522088edf2e27580ffcf8e8e0691d6",
+      "message": "Bees take longer to spawn  from hives",
+      "date": "2020-09-05T13:38:02.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7296",
+          "newTargetID": "7310",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7301",
+          "newTargetID": "7306",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7305",
+          "newTargetID": "7321",
+          "decay": "10m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7296",
+          "newTargetID": "7310",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7301",
+          "newTargetID": "7306",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7305",
+          "newTargetID": "7321",
+          "decay": "1m"
+        }
+      ]
+    },
+    {
+      "sha": "f4b507de5e177189fbaf3a2cf1d8f7ee5b26bf30",
+      "message": "Fruit trees take longer to produce fruit",
+      "date": "2020-09-05T13:28:17.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7339",
+          "newTargetID": "7312",
+          "decay": "5m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7339",
+          "newTargetID": "7312",
+          "decay": "10s"
+        }
+      ]
+    },
+    {
+      "sha": "509830d5bb2d22967b25772d3e2996ffc14790d1",
+      "message": "Fruit trees now have a longer cycle period",
+      "date": "2020-09-05T13:26:40.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7319",
+          "newTargetID": "7336",
+          "decay": "5m"
+        },
+        {
+          "targetID": "7336",
+          "newTargetID": "7340",
+          "decay": "5m"
+        },
+        {
+          "targetID": "7340",
+          "newTargetID": "7341",
+          "decay": "5m"
+        },
+        {
+          "targetID": "7341",
+          "newTargetID": "7319",
+          "decay": "5m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7319",
+          "newTargetID": "7336",
+          "decay": "10s"
+        },
+        {
+          "targetID": "7336",
+          "newTargetID": "7340",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7340",
+          "newTargetID": "7341",
+          "decay": "10s"
+        },
+        {
+          "targetID": "7341",
+          "newTargetID": "7319",
+          "decay": "10s"
+        }
+      ]
+    },
+    {
+      "sha": "19a264f51a017260ba995758e3bf0a6b566a1b88",
+      "message": "Removed unintended transition",
+      "date": "2020-09-05T13:14:47.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "302",
+          "targetID": "7169",
+          "newTargetID": "7170",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "0d53bcddc2f6038f722a796f3b98fbb1adbefab2",
+      "message": "Removed invalid category",
+      "date": "2020-09-05T13:10:51.000Z"
+    }
+  ]
+}

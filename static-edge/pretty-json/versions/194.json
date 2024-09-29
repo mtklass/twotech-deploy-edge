@@ -1,0 +1,314 @@
+{
+  "id": "194",
+  "date": "2019-01-17T23:55:02.000Z",
+  "commits": [
+    {
+      "sha": "fad084232a88427c6b6c39bce2cefb663525bda0",
+      "message": "Fixed speech routing.  Added transition for separating two triodes.  All content for update tested and working.",
+      "date": "2019-01-17T21:57:54.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2646",
+          "newActorID": "2641",
+          "newTargetID": "2641",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2669",
+          "attributes": {
+            "name": {
+              "from": "High Frequency AM Receiver -  speechOut_0",
+              "to": "High Frequency AM Receiver -  speechOut_2"
+            }
+          }
+        },
+        {
+          "id": "2671",
+          "attributes": {
+            "name": {
+              "from": "Low Frequency AM Receiver -  speechOut_2",
+              "to": "Low Frequency AM Receiver -  speechOut_0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "4ad3875f187027624310061d570353ced8cd1e7e",
+      "message": "All content done for AM transmitter and receiver.  Still need to implement speech transmission server-side, and also test.",
+      "date": "2019-01-17T01:06:07.000Z",
+      "addedObjectIDs": [
+        "2638",
+        "2639",
+        "2640",
+        "2641",
+        "2642",
+        "2643",
+        "2644",
+        "2645",
+        "2646",
+        "2647",
+        "2648",
+        "2650",
+        "2651",
+        "2652",
+        "2653",
+        "2654",
+        "2655",
+        "2656",
+        "2659",
+        "2660",
+        "2661",
+        "2662",
+        "2663",
+        "2664",
+        "2665",
+        "2669",
+        "2670",
+        "2671"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2651",
+          "newActorID": "2535",
+          "newTargetID": "2604",
+          "hand": true
+        },
+        {
+          "targetID": "2653",
+          "newActorID": "2535",
+          "newTargetID": "2652",
+          "hand": true
+        },
+        {
+          "targetID": "2654",
+          "newActorID": "2604",
+          "newTargetID": "2652",
+          "hand": true
+        },
+        {
+          "targetID": "2655",
+          "newActorID": "2651",
+          "newTargetID": "2652",
+          "hand": true
+        },
+        {
+          "targetID": "2656",
+          "newActorID": "2619",
+          "newTargetID": "2655",
+          "hand": true
+        },
+        {
+          "targetID": "2659",
+          "newActorID": "2619",
+          "newTargetID": "2654",
+          "hand": true
+        },
+        {
+          "targetID": "2660",
+          "newActorID": "2619",
+          "newTargetID": "2653",
+          "hand": true
+        },
+        {
+          "targetID": "2665",
+          "newActorID": "2619",
+          "newTargetID": "2664",
+          "hand": true
+        },
+        {
+          "targetID": "2669",
+          "newActorID": "2537",
+          "newTargetID": "2665",
+          "hand": true
+        },
+        {
+          "targetID": "2670",
+          "newActorID": "2538",
+          "newTargetID": "2665",
+          "hand": true
+        },
+        {
+          "targetID": "2671",
+          "newActorID": "2539",
+          "newTargetID": "2665",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "2600",
+          "newTargetID": "2645",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2590",
+          "newTargetID": "2638",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2638",
+          "newTargetID": "2639",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2644",
+          "newTargetID": "2642",
+          "hand": true
+        },
+        {
+          "actorID": "2532",
+          "targetID": "2643",
+          "newTargetID": "2644",
+          "hand": true
+        },
+        {
+          "actorID": "2535",
+          "targetID": "2604",
+          "newTargetID": "2651",
+          "hand": true
+        },
+        {
+          "actorID": "2535",
+          "targetID": "2652",
+          "newTargetID": "2653",
+          "hand": true
+        },
+        {
+          "actorID": "2535",
+          "targetID": "2663",
+          "newTargetID": "2664",
+          "hand": true
+        },
+        {
+          "actorID": "2536",
+          "targetID": "2648",
+          "newTargetID": "2650",
+          "hand": true
+        },
+        {
+          "actorID": "2537",
+          "targetID": "2665",
+          "newTargetID": "2669",
+          "hand": true
+        },
+        {
+          "actorID": "2538",
+          "targetID": "2665",
+          "newTargetID": "2670",
+          "hand": true
+        },
+        {
+          "actorID": "2539",
+          "targetID": "2650",
+          "newTargetID": "2652",
+          "hand": true
+        },
+        {
+          "actorID": "2539",
+          "targetID": "2665",
+          "newTargetID": "2671",
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "2638",
+          "newActorID": "2575",
+          "newTargetID": "2640",
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "2639",
+          "newActorID": "2575",
+          "newTargetID": "2641",
+          "hand": true
+        },
+        {
+          "actorID": "2604",
+          "targetID": "2652",
+          "newTargetID": "2654",
+          "hand": true
+        },
+        {
+          "actorID": "2619",
+          "targetID": "2653",
+          "newTargetID": "2660",
+          "hand": true
+        },
+        {
+          "actorID": "2619",
+          "targetID": "2654",
+          "newTargetID": "2659",
+          "hand": true
+        },
+        {
+          "actorID": "2619",
+          "targetID": "2655",
+          "newTargetID": "2656",
+          "hand": true
+        },
+        {
+          "actorID": "2619",
+          "targetID": "2664",
+          "newTargetID": "2665",
+          "hand": true
+        },
+        {
+          "actorID": "2640",
+          "targetID": "2662",
+          "newTargetID": "2663",
+          "hand": true
+        },
+        {
+          "actorID": "2641",
+          "targetID": "2641",
+          "newTargetID": "2646",
+          "hand": true
+        },
+        {
+          "actorID": "2641",
+          "targetID": "2661",
+          "newTargetID": "2662",
+          "hand": true
+        },
+        {
+          "actorID": "2642",
+          "targetID": "470",
+          "newTargetID": "2647",
+          "hand": true
+        },
+        {
+          "actorID": "2645",
+          "targetID": "470",
+          "newTargetID": "2661",
+          "hand": true
+        },
+        {
+          "actorID": "2646",
+          "targetID": "2647",
+          "newTargetID": "2648",
+          "hand": true
+        },
+        {
+          "actorID": "2651",
+          "targetID": "2652",
+          "newTargetID": "2655",
+          "hand": true
+        },
+        {
+          "actorID": "302",
+          "targetID": "2532",
+          "newActorID": "302",
+          "newTargetID": "2643",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    }
+  ]
+}

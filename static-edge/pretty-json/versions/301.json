@@ -1,0 +1,1346 @@
+{
+  "id": "301",
+  "date": "2020-01-04T00:15:21.000Z",
+  "commits": [
+    {
+      "sha": "b327b94486946b5a7a51b5bbee8ef1f78fe46531",
+      "message": "Scene for update.",
+      "date": "2020-01-03T23:40:45.000Z"
+    },
+    {
+      "sha": "19ee241b6c007338490cc68438c2c4fa9e807d1b",
+      "message": "More details about removed transitions in checkin report.",
+      "date": "2020-01-03T23:06:20.000Z"
+    },
+    {
+      "sha": "09e519cd04a28b8f8ddfc021be4f6ac28b762d40",
+      "message": "Can no longer dump water back into ponds and wells.  Given that behavior was probabilistic, it was too confusing.  There chance of removing water by accident and having no place to put it is small.  Fixes #516",
+      "date": "2020-01-03T21:33:53.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "388",
+          "newTargetUses": "+1",
+          "newActorID": "394",
+          "newTargetID": "388",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "412",
+          "targetUses": "max",
+          "newActorID": "394",
+          "newTargetID": "513",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "511",
+          "targetUses": "max",
+          "newTargetWeight": 0.2,
+          "newActorID": "394",
+          "newTargetID": "513",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "512",
+          "newTargetUses": "last",
+          "newActorID": "394",
+          "newTargetID": "511",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "662",
+          "newTargetUses": "+1",
+          "newTargetWeight": 0.06,
+          "newActorID": "394",
+          "newTargetID": "662",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "662",
+          "targetUses": "max",
+          "newTargetWeight": 0.06,
+          "newActorID": "394",
+          "newTargetID": "1098",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "664",
+          "newTargetUses": "last",
+          "newActorID": "394",
+          "newTargetID": "1862",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "663",
+          "newTargetUses": "+1",
+          "newTargetWeight": 0.25,
+          "newActorID": "659",
+          "newTargetID": "663",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "663",
+          "targetUses": "max",
+          "newTargetWeight": 0.25,
+          "newActorID": "659",
+          "newTargetID": "1097",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "665",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "1861",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "388",
+          "name": "@ Pond Water Source",
+          "category": true
+        },
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        },
+        {
+          "id": "412",
+          "name": "@ Wet Canada Goose Pond",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8403937a309e75377355d1b8067b8c000415ef99",
+      "message": "Fixed so that butter use not consumed when butter made.  Fixes #519",
+      "date": "2020-01-03T21:01:42.000Z",
+      "legacyObjects": [
+        {
+          "id": "853",
+          "name": "@ Non-tilling Stick",
+          "category": true
+        },
+        {
+          "id": "3374",
+          "name": "Bowl of Whipped Cream",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "c7310a546af9da50ad3c0ad532e1e3adba69e8b4",
+      "message": "3 pumpkin seeds per pumpkin, and decay time 1 hour (not five minutes, which is for infinite seeds).  Fixes #520",
+      "date": "2020-01-03T21:00:05.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "3226",
+          "decay": "1h"
+        },
+        {
+          "targetID": "3224",
+          "newTargetUses": "-1",
+          "newActorID": "3226",
+          "newTargetID": "3224",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "3224",
+          "targetUses": "last",
+          "newActorID": "3226",
+          "newTargetID": "3225",
+          "hand": true
+        },
+        {
+          "targetID": "3362",
+          "newTargetUses": "-1",
+          "newActorID": "3226",
+          "newTargetID": "3362",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "3362",
+          "targetUses": "last",
+          "newActorID": "3226",
+          "newTargetID": "3363",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3224",
+          "newActorID": "3226",
+          "newTargetID": "3225",
+          "hand": true
+        },
+        {
+          "targetID": "3362",
+          "newActorID": "3226",
+          "newTargetID": "3363",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "420e098aeab9cb0dcaddf947a2dbd0493ff1354f",
+      "message": "Grape trellis blocks walking.  Fixes #521",
+      "date": "2020-01-03T20:51:10.000Z"
+    },
+    {
+      "sha": "b8092e0ef2d7263c7fbfb01d72934ce21a632af9",
+      "message": "Battery can go in cart.  Fixes #535",
+      "date": "2020-01-03T20:36:10.000Z"
+    },
+    {
+      "sha": "2296d159bb1cd086073ea545ad4534eed5d973d6",
+      "message": "Can dig up any adult rabbit hole, and rabbit flees in random direction to dig a new hole.  Fixes #538",
+      "date": "2020-01-03T01:19:40.000Z",
+      "addedObjectIDs": [
+        "3566",
+        "3567",
+        "3568"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3566",
+          "newTargetID": "3568",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "3568",
+          "newTargetID": "161",
+          "decay": "1s"
+        },
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "3567",
+          "newTargetUses": "-1",
+          "newActorID": "502",
+          "newTargetID": "3566",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3566",
+          "name": "Fleeing Rabbit",
+          "category": false
+        },
+        {
+          "id": "3567",
+          "name": "@ Any adult rabbit hole",
+          "category": true
+        },
+        {
+          "id": "3568",
+          "name": "Fleeing Rabbit - dest",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "6648f50344829af98feaaa9831c69440f90fad0c",
+      "message": "Whoops, no pumpkin pie was meant to be containable (too mushy).  Fixes #555",
+      "date": "2020-01-03T00:58:06.000Z"
+    },
+    {
+      "sha": "129b56316b3b96144e429d9d3ad6aa0febccfe40",
+      "message": "Empty table can now be used to store three large items, or can be made into a feasting table by placing a pumpkin pie on the empty table (pumpkin pie is not usually containable).  Fixes #539",
+      "date": "2020-01-03T00:53:48.000Z"
+    },
+    {
+      "sha": "cb9b2e8e467b3037bb2b810e734edd1b069067c6",
+      "message": "Can chop dormant grape plants with axe.  Fixes #540",
+      "date": "2020-01-03T00:01:04.000Z",
+      "addedObjectIDs": [
+        "3565"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3565",
+          "newActorID": "72",
+          "newTargetID": "3312",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3321",
+          "newActorID": "334",
+          "newTargetID": "3565",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3323",
+          "newActorID": "334",
+          "newTargetID": "3565",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3312",
+          "name": "Two Wire Trellis",
+          "category": false
+        },
+        {
+          "id": "3321",
+          "name": "Dry Pruned Cabernet Sauvignon Plant",
+          "category": false
+        },
+        {
+          "id": "3323",
+          "name": "Cabernet Sauvignon with Dormant Canes",
+          "category": false
+        },
+        {
+          "id": "3565",
+          "name": "Two Wire Trellis with Kindling",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "1949cdd9b613aa339a638499bbab3ed66fbb2219",
+      "message": "Skewered shrimp can go in basket.  Fixes #541",
+      "date": "2020-01-02T23:49:24.000Z"
+    },
+    {
+      "sha": "1429a742dd87e390c15240a73281090586e4f27e",
+      "message": "emoteEat tag on wine, for blushing.  Part of jasonrohrer/OneLife#481",
+      "date": "2020-01-02T23:43:33.000Z",
+      "objectChanges": [
+        {
+          "id": "3358",
+          "attributes": {
+            "name": {
+              "from": "Glass of Wine -  +alcohol1 +drink",
+              "to": "Glass of Wine -  +alcohol1 +drink +emotEat_6_10"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ac997d6e53b3b25d55741b12bea61addfde98e25",
+      "message": "Fixed held positions of wine bottles.",
+      "date": "2020-01-02T23:23:27.000Z"
+    },
+    {
+      "sha": "9d60b3def415377af375db422d847b58663f53a1",
+      "message": "Pipe, like rod, goes in basket.  Fixes #544",
+      "date": "2020-01-02T22:31:57.000Z"
+    },
+    {
+      "sha": "70b9759a311f0d48b0445c056f256717284e26b3",
+      "message": "Three new colors of dyed roses, with corresponding rose hats.  Fixes #552",
+      "date": "2020-01-02T22:23:27.000Z",
+      "addedObjectIDs": [
+        "3523",
+        "3524",
+        "3525",
+        "3526",
+        "3527",
+        "3528",
+        "3529",
+        "3530",
+        "3531",
+        "3532",
+        "3533",
+        "3534",
+        "3535",
+        "3536",
+        "3537",
+        "3538",
+        "3539",
+        "3540",
+        "3541",
+        "3542",
+        "3543",
+        "3544",
+        "3545",
+        "3546",
+        "3547",
+        "3548",
+        "3549",
+        "3550",
+        "3551",
+        "3552",
+        "3553",
+        "3554",
+        "3555",
+        "3556",
+        "3557",
+        "3558",
+        "3559",
+        "3560",
+        "3561",
+        "3562",
+        "3563",
+        "3564"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1052",
+          "targetID": "2896",
+          "newActorID": "3523",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1052",
+          "targetID": "2897",
+          "newActorID": "3525",
+          "newTargetID": "2897",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1052",
+          "targetID": "2898",
+          "newActorID": "3524",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3523",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3556",
+          "hand": true
+        },
+        {
+          "actorID": "3524",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3557",
+          "hand": true
+        },
+        {
+          "actorID": "3525",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3558",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3516",
+          "name": "@ Roseless Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3556",
+          "name": "@ Black Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3557",
+          "name": "@ Green Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3558",
+          "name": "@ Yellow Rose Hat Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "fe745b3141612c1a96d45a7e63ae954ffa740646",
+      "message": "Fixed so that dumping salt water back into ice hole doesn't make floor disappear.  Fixes #554",
+      "date": "2020-01-02T21:53:24.000Z",
+      "addedObjectIDs": [
+        "3520",
+        "3521"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3520",
+          "newTargetID": "3291",
+          "decay": "5s"
+        },
+        {
+          "targetID": "3521",
+          "newTargetID": "3291",
+          "decay": "5s"
+        },
+        {
+          "actorID": "1226",
+          "targetID": "3291",
+          "newActorID": "235",
+          "newTargetID": "3520",
+          "hand": true
+        },
+        {
+          "actorID": "1226",
+          "targetID": "3520",
+          "newActorID": "235",
+          "newTargetID": "3521",
+          "hand": true
+        },
+        {
+          "actorID": "1226",
+          "targetID": "3521",
+          "newActorID": "235",
+          "newTargetID": "3520",
+          "hand": true
+        },
+        {
+          "actorID": "1228",
+          "targetID": "3291",
+          "newActorID": "209",
+          "newTargetID": "3520",
+          "hand": true
+        },
+        {
+          "actorID": "1228",
+          "targetID": "3520",
+          "newActorID": "209",
+          "newTargetID": "3521",
+          "hand": true
+        },
+        {
+          "actorID": "1228",
+          "targetID": "3521",
+          "newActorID": "209",
+          "newTargetID": "3520",
+          "hand": true
+        },
+        {
+          "actorID": "2127",
+          "targetID": "3291",
+          "newActorID": "659",
+          "newTargetID": "3520",
+          "hand": true
+        },
+        {
+          "actorID": "2127",
+          "targetID": "3520",
+          "newActorID": "659",
+          "newTargetID": "3521",
+          "hand": true
+        },
+        {
+          "actorID": "2127",
+          "targetID": "3521",
+          "newActorID": "659",
+          "newTargetID": "3520",
+          "hand": true
+        },
+        {
+          "actorID": "2128",
+          "targetID": "3291",
+          "newActorID": "659",
+          "newTargetID": "3520",
+          "hand": true
+        },
+        {
+          "actorID": "2128",
+          "targetID": "3520",
+          "newActorID": "659",
+          "newTargetID": "3521",
+          "hand": true
+        },
+        {
+          "actorID": "2128",
+          "targetID": "3521",
+          "newActorID": "659",
+          "newTargetID": "3520",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3291",
+          "name": "Ice Hole with Snow Floor",
+          "category": false
+        },
+        {
+          "id": "3520",
+          "name": "Ice Hole with Snow Floor -  water dumped",
+          "category": false
+        },
+        {
+          "id": "3521",
+          "name": "Ice Hole with Snow Floor -  water dumped 2",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "aca91048868e9d9c1235447e7cdedd789dd1a538",
+      "message": "Can put roses on fancy hats.  Last part of #550.  Fixes #550",
+      "date": "2020-01-02T05:01:06.000Z",
+      "addedObjectIDs": [
+        "3461",
+        "3462",
+        "3463",
+        "3464",
+        "3465",
+        "3466",
+        "3467",
+        "3468",
+        "3469",
+        "3470",
+        "3471",
+        "3472",
+        "3473",
+        "3474",
+        "3475",
+        "3476",
+        "3477",
+        "3478",
+        "3479",
+        "3480",
+        "3481",
+        "3482",
+        "3483",
+        "3484",
+        "3485",
+        "3487",
+        "3488",
+        "3489",
+        "3490",
+        "3492",
+        "3493",
+        "3494",
+        "3495",
+        "3496",
+        "3497",
+        "3498",
+        "3499",
+        "3500",
+        "3501",
+        "3502",
+        "3503",
+        "3504",
+        "3505",
+        "3506",
+        "3507",
+        "3508",
+        "3509",
+        "3510",
+        "3516",
+        "3519"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1036",
+          "targetID": "2884",
+          "newTargetID": "3463",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2885",
+          "newTargetID": "3467",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2920",
+          "newTargetID": "3488",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2921",
+          "newTargetID": "3509",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2931",
+          "newTargetID": "3475",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2932",
+          "newTargetID": "3497",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2939",
+          "newTargetID": "3483",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2940",
+          "newTargetID": "3505",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2947",
+          "newTargetID": "3479",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2948",
+          "newTargetID": "3501",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2955",
+          "newTargetID": "3471",
+          "hand": true
+        },
+        {
+          "actorID": "1036",
+          "targetID": "2956",
+          "newTargetID": "3493",
+          "hand": true
+        },
+        {
+          "actorID": "1093",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3519",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3516",
+          "name": "@ Roseless Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3519",
+          "name": "@ Blue Rose Hat Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "c88b1705b20c67cbb20c6c14194f09fc195cee91",
+      "message": "Three missing dye colors for knit wool items (green, yellow, black).  Can dye top and bowler hats before or after adding feather.  Part of #550",
+      "date": "2020-01-02T01:58:39.000Z",
+      "addedObjectIDs": [
+        "3440",
+        "3441",
+        "3442",
+        "3443",
+        "3444",
+        "3445",
+        "3446",
+        "3447",
+        "3448",
+        "3449",
+        "3450",
+        "3451",
+        "3452",
+        "3453",
+        "3454",
+        "3455",
+        "3456",
+        "3457",
+        "3458",
+        "3459",
+        "3460"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3451",
+          "newTargetID": "3428",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3452",
+          "newTargetID": "3429",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3453",
+          "newTargetID": "3430",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3454",
+          "newTargetID": "3432",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3455",
+          "newTargetID": "3433",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3456",
+          "newTargetID": "3434",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3457",
+          "newTargetID": "3435",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3458",
+          "newTargetID": "3436",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3459",
+          "newTargetID": "3437",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3460",
+          "newTargetID": "3438",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3456",
+          "newTargetID": "3434",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "584",
+          "targetID": "731",
+          "newActorID": "737",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "585",
+          "targetID": "731",
+          "newActorID": "738",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "586",
+          "targetID": "731",
+          "newActorID": "736",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "736",
+          "targetID": "733",
+          "newActorID": "739",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "736",
+          "targetID": "734",
+          "newActorID": "740",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "737",
+          "targetID": "733",
+          "newActorID": "742",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "737",
+          "targetID": "734",
+          "newActorID": "741",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "738",
+          "targetID": "733",
+          "newActorID": "725",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "738",
+          "targetID": "734",
+          "newActorID": "726",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3428",
+          "name": "Black Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3429",
+          "name": "Indigo Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3430",
+          "name": "Yellow Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3432",
+          "name": "Green Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3433",
+          "name": "Red Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3434",
+          "name": "Yellow Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3435",
+          "name": "Indigo Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3436",
+          "name": "Green Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3437",
+          "name": "Black Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3438",
+          "name": "Red Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3440",
+          "name": "Green Wool Hat",
+          "category": false
+        },
+        {
+          "id": "3441",
+          "name": "Black Wool Hat",
+          "category": false
+        },
+        {
+          "id": "3442",
+          "name": "Yellow Wool Hat",
+          "category": false
+        },
+        {
+          "id": "3443",
+          "name": "Yellow Wool Sweater",
+          "category": false
+        },
+        {
+          "id": "3444",
+          "name": "Green Wool Sweater",
+          "category": false
+        },
+        {
+          "id": "3445",
+          "name": "Black Wool Sweater",
+          "category": false
+        },
+        {
+          "id": "3446",
+          "name": "Black Wool Booty",
+          "category": false
+        },
+        {
+          "id": "3447",
+          "name": "Yellow Wool Booty",
+          "category": false
+        },
+        {
+          "id": "3448",
+          "name": "Green Wool Booty",
+          "category": false
+        },
+        {
+          "id": "3449",
+          "name": "Dye-Ready Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3450",
+          "name": "Dye-Ready Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3451",
+          "name": "Black Bowler Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3452",
+          "name": "Indigo Bowler Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3453",
+          "name": "Yellow Bowler Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3454",
+          "name": "Green Bowler Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3455",
+          "name": "Red Bowler Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3456",
+          "name": "Yellow Top Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3457",
+          "name": "Indigo Top Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3458",
+          "name": "Green Top Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3459",
+          "name": "Black Top Hat with Feather -  justDyed",
+          "category": false
+        },
+        {
+          "id": "3460",
+          "name": "Red Top Hat with Feather -  justDyed",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "5594400f24e717f4d81ec94b404a3f9ff918c120",
+      "message": "Top hats and bowler hats can have feathers.  Part of #550",
+      "date": "2020-01-02T01:20:24.000Z",
+      "addedObjectIDs": [
+        "3428",
+        "3429",
+        "3430",
+        "3431",
+        "3432",
+        "3433",
+        "3434",
+        "3435",
+        "3436",
+        "3437",
+        "3438",
+        "3439"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "2178",
+          "targetID": "2884",
+          "newTargetID": "3431",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2885",
+          "newTargetID": "3439",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2920",
+          "newTargetID": "3433",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2921",
+          "newTargetID": "3438",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2931",
+          "newTargetID": "3429",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2932",
+          "newTargetID": "3435",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2939",
+          "newTargetID": "3432",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2940",
+          "newTargetID": "3436",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2947",
+          "newTargetID": "3430",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2948",
+          "newTargetID": "3434",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2955",
+          "newTargetID": "3428",
+          "hand": true
+        },
+        {
+          "actorID": "2178",
+          "targetID": "2956",
+          "newTargetID": "3437",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3428",
+          "name": "Black Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3429",
+          "name": "Indigo Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3430",
+          "name": "Yellow Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3431",
+          "name": "Undyed Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3432",
+          "name": "Green Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3433",
+          "name": "Red Bowler Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3434",
+          "name": "Yellow Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3435",
+          "name": "Indigo Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3436",
+          "name": "Green Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3437",
+          "name": "Black Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3438",
+          "name": "Red Top Hat with Feather",
+          "category": false
+        },
+        {
+          "id": "3439",
+          "name": "Undyed Top Hat with Feather",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "d68b39e7e4d1519a71ee4ef6e4db178966ae2a05",
+      "message": "Chef hat insulation.  Part of #550",
+      "date": "2020-01-02T01:04:21.000Z"
+    },
+    {
+      "sha": "dc168e37d68027645f3e350da8df0d2d35e7fd61",
+      "message": "Old boot has slight insulation.  Related to #550",
+      "date": "2020-01-02T01:03:30.000Z"
+    },
+    {
+      "sha": "3340141c7e3740932d50f5b18ba4e21ec5960eba",
+      "message": "Semi-tame wolf decays in 30 min instead of 10 min to allow pelt harvest.  Skinless wolf can be buried to get it out of the way.  Fixes #548",
+      "date": "2019-12-31T22:49:51.000Z",
+      "addedObjectIDs": [
+        "3427"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "1771",
+          "decay": "30m"
+        },
+        {
+          "targetID": "3427",
+          "decay": "2m"
+        },
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "424",
+          "newActorID": "502",
+          "newTargetID": "3427",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "1771",
+          "decay": "10m"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3427",
+          "name": "Buried Wolf",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "835d3999326479c6413543f3c9ca0de74690a9d9",
+      "message": "Can move cows with rope.  Fixes #545",
+      "date": "2019-12-31T01:25:51.000Z",
+      "addedObjectIDs": [
+        "3425",
+        "3426"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3426",
+          "newTargetID": "1458",
+          "decay": "1s"
+        },
+        {
+          "actorID": "3425",
+          "newActorID": "59",
+          "newTargetID": "3426",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "1458",
+          "newActorID": "3425",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3425",
+          "name": "Domestic Cow on Rope",
+          "category": false
+        },
+        {
+          "id": "3426",
+          "name": "Domestic Cow -  just unroped",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "20b93c13e0728bbadf3b6d003d7809e37b9d1f3b",
+      "message": "Crock of cabbage can now be moved and composted.  No longer stuck with it if you don't have salt.  Related to #545",
+      "date": "2019-12-31T00:57:30.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1222",
+          "targetID": "227",
+          "newActorID": "1217",
+          "newTargetID": "623",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "10353eac94249c445264d8183dbaa987b2fa8abe",
+      "message": "Way stones don't block movement.  Fixes #546",
+      "date": "2019-12-30T21:38:40.000Z"
+    }
+  ]
+}

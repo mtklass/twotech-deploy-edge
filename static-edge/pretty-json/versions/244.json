@@ -1,0 +1,142 @@
+{
+  "id": "244",
+  "date": "2019-06-22T01:14:43.000Z",
+  "commits": [
+    {
+      "sha": "5857bb40fea00c8246c1d753699984a0c2f74a63",
+      "message": "Script for checking list of deadly objects.",
+      "date": "2019-06-21T23:53:25.000Z"
+    },
+    {
+      "sha": "a2e4db4435721c8371c6053ae6835111b0ea5991",
+      "message": "Snowball post-throw no longer deadly.  AlecYawata saves the day again.  Fixes #369",
+      "date": "2019-06-21T23:02:45.000Z"
+    },
+    {
+      "sha": "9a119cf671b357d889025c33b8f27b13860eab83",
+      "message": "Bone baskets have orig grave tag.  Related to jasonrohrer/OneLife#338",
+      "date": "2019-06-21T22:55:15.000Z",
+      "objectChanges": [
+        {
+          "id": "3052",
+          "attributes": {
+            "name": {
+              "from": "Basket of Baby Bones",
+              "to": "Basket of Baby Bones -  origGrave"
+            }
+          }
+        },
+        {
+          "id": "356",
+          "attributes": {
+            "name": {
+              "from": "Basket of Bones",
+              "to": "Basket of Bones -  origGrave"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "f9ddbde95afb0ba54f7d76ec3afcbb1acf3ac9b2",
+      "message": "Knitting needles are kindling.  Fixes #367",
+      "date": "2019-06-21T22:52:59.000Z"
+    },
+    {
+      "sha": "8b3243276d5cd92ef8500145f49b5e6a0a3cb132",
+      "message": "Tongs as kindling source.",
+      "date": "2019-06-20T23:59:35.000Z"
+    },
+    {
+      "sha": "eda1ded4757fb299944ca9b87b004a072596ec7f",
+      "message": "Stakes now have common stake center for all stake positions, so you can repeat-click the center (the entire hitbox doesn't change).  Also floor stakes are the first thing you make, to speed up road building, which is common.  Even in buildings, floors are more common that walls.  Related to #330",
+      "date": "2019-06-20T23:57:24.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "33",
+          "targetID": "107",
+          "newActorID": "33",
+          "newTargetID": "486",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "110",
+          "newActorID": "33",
+          "newTargetID": "622",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "486",
+          "newActorID": "33",
+          "newTargetID": "108",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "622",
+          "newActorID": "33",
+          "newTargetID": "107",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "33",
+          "targetID": "107",
+          "newActorID": "33",
+          "newTargetID": "108",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "110",
+          "newActorID": "33",
+          "newTargetID": "486",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "486",
+          "newActorID": "33",
+          "newTargetID": "622",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "622",
+          "newActorID": "33",
+          "newTargetID": "108",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "9389ccc71a70e50f8ce211d2d0cdffc48d108251",
+      "message": "Sound when entering the kill state, and angry muttering as long as you're in the kill state.  People can hear you coming now.",
+      "date": "2019-06-20T23:27:31.000Z",
+      "addedObjectIDs": [
+        "3066"
+      ]
+    },
+    {
+      "sha": "f3ca77c8e9584c9bf52ee8ef5572ee254b908206",
+      "message": "some test scenes.",
+      "date": "2019-06-19T23:24:56.000Z"
+    },
+    {
+      "sha": "6deef3e9135a8bc2851dccb220347af71c007494",
+      "message": "Scenes for gif and for new Steam library asset.",
+      "date": "2019-06-14T22:06:45.000Z"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "252",
+  "date": "2019-07-26T00:07:37.000Z",
+  "commits": [
+    {
+      "sha": "e66b30aca3eb447b926ca5728e180e92e063c6f1",
+      "message": "Rift objects.",
+      "date": "2019-07-25T19:57:39.000Z",
+      "addedObjectIDs": [
+        "3097",
+        "3098",
+        "3099",
+        "3100",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3105",
+        "3106",
+        "3107",
+        "3108"
+      ]
+    },
+    {
+      "sha": "2ec5e61c5ef8a7436d38bad20b4feb4f3f4589f3",
+      "message": "Improved appearance of renewed property fences.",
+      "date": "2019-07-22T20:00:02.000Z"
+    },
+    {
+      "sha": "328257dde37ea14aa0722e5b0943640efb74936d",
+      "message": "Fixed so that property fence renewal times can be 'synced' together even if they aren't rickety yet, by allowing to be renewed at any time, giving you 60 more minutes until they become rickety.  Thus, as soon as one part is rickety, you can walk around and renew the whole thing.  Before you felt psychological pressure to constantly check the fence, because various pieces would become rickety at different times, and you couldn't repair each one until then.  The renewed state is visually distinct and lasts 3 minutes.  Also fixed the naming of one of the fence configurations, and fixed some duplicate sprites.",
+      "date": "2019-07-22T19:48:41.000Z",
+      "addedObjectIDs": [
+        "3093",
+        "3095",
+        "3096"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3093",
+          "newTargetID": "2959",
+          "decay": "3m"
+        },
+        {
+          "targetID": "3095",
+          "newTargetID": "2960",
+          "decay": "3m"
+        },
+        {
+          "targetID": "3096",
+          "newTargetID": "2961",
+          "decay": "3m"
+        },
+        {
+          "actorID": "33",
+          "targetID": "2959",
+          "newActorID": "33",
+          "newTargetID": "3093",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2960",
+          "newActorID": "33",
+          "newTargetID": "3095",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2961",
+          "newActorID": "33",
+          "newTargetID": "3096",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2976",
+          "newActorID": "33",
+          "newTargetID": "3093",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2977",
+          "newActorID": "33",
+          "newTargetID": "3096",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2978",
+          "newActorID": "33",
+          "newTargetID": "3095",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "33",
+          "targetID": "2976",
+          "newActorID": "33",
+          "newTargetID": "2959",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2977",
+          "newActorID": "33",
+          "newTargetID": "2961",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "2978",
+          "newActorID": "33",
+          "newTargetID": "2960",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2976",
+          "attributes": {
+            "name": {
+              "from": "Rickety Fence",
+              "to": "Rickety Property Fence"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

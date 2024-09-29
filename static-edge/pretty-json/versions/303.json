@@ -1,0 +1,1364 @@
+{
+  "id": "303",
+  "date": "2020-01-09T21:08:54.000Z",
+  "commits": [
+    {
+      "sha": "598fb2d9d85881e792404a1bbc61e074aa305cb7",
+      "message": "Scene for Bottle It update.",
+      "date": "2020-01-09T20:28:00.000Z"
+    },
+    {
+      "sha": "084d1642685ea3f92b9f15b61f1582b8708ca31f",
+      "message": "Bottles of sand, to boostrap higher-volume sand collection.  Fixes #570",
+      "date": "2020-01-09T19:27:04.000Z",
+      "addedObjectIDs": [
+        "3705",
+        "3706",
+        "3707",
+        "3708",
+        "3709"
+      ],
+      "legacyObjects": [
+        {
+          "id": "3705",
+          "name": "Sand Bottle",
+          "category": false
+        },
+        {
+          "id": "3706",
+          "name": "Sand Bottle -  just poured",
+          "category": false
+        },
+        {
+          "id": "3707",
+          "name": "Sand Bottle with Funnel -  insterted",
+          "category": false
+        },
+        {
+          "id": "3708",
+          "name": "Sand Bottle with Funnel",
+          "category": false
+        },
+        {
+          "id": "3709",
+          "name": "Sealed Sand Bottle",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "89809aa289e65bdd6a4293486f1d8d9990d62c2d",
+      "message": "Pine door naming consistency.",
+      "date": "2020-01-09T19:11:52.000Z",
+      "objectChanges": [
+        {
+          "id": "119",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  installed +horizontalOpenDoorPine +cornerOpenDoorPine",
+              "to": "Open Pine Door -  installed +horizontalOpenDoorPine +cornerOpenDoorPine"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "1fa44e0e17fe37de9ed8b10e365e7babb7e61946",
+      "message": "Fixed so that open doors participate in auto-orientation.  Fixes #567",
+      "date": "2020-01-09T19:11:01.000Z",
+      "objectChanges": [
+        {
+          "id": "117",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Door -  installed vert",
+              "to": "Open Pine Door -  installed vert +verticalOpenDoorPine"
+            }
+          }
+        },
+        {
+          "id": "119",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  installed",
+              "to": "Open Pine Needle Door -  installed +horizontalOpenDoorPine +cornerOpenDoorPine"
+            }
+          }
+        },
+        {
+          "id": "2758",
+          "attributes": {
+            "name": {
+              "from": "Springy Open Wooden Door -  installed +autoDefaultTrans",
+              "to": "Springy Open Wooden Door -  installed +autoDefaultTrans +horizontalOpenSpringyDoor +cornerOpenSpringyDoor"
+            }
+          }
+        },
+        {
+          "id": "2760",
+          "attributes": {
+            "name": {
+              "from": "Springy Open Wooden Door -  installed vert +autoDefaultTrans",
+              "to": "Springy Open Wooden Door -  installed vert +autoDefaultTrans +verticalOpenSpringyDoor"
+            }
+          }
+        },
+        {
+          "id": "878",
+          "attributes": {
+            "name": {
+              "from": "Open Wooden Door -  installed",
+              "to": "Open Wooden Door -  installed +horizontalDoorOpenWood +cornerDoorOpenWood"
+            }
+          }
+        },
+        {
+          "id": "879",
+          "attributes": {
+            "name": {
+              "from": "Open Wooden Door -  installed vert",
+              "to": "Open Wooden Door -  installed vert +verticalDoorOpenWood"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "2b88114508b8450b3001494ded6a5219561fadf4",
+      "message": "Glasswort can be cultivated in the desert.  Fixes #568",
+      "date": "2020-01-09T18:42:20.000Z",
+      "addedObjectIDs": [
+        "3701",
+        "3702",
+        "3703",
+        "3704"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3704",
+          "newTargetID": "2557",
+          "decay": "5m"
+        },
+        {
+          "actorID": "3701",
+          "newActorID": "568",
+          "newTargetID": "3702",
+          "hand": true
+        },
+        {
+          "actorID": "3702",
+          "targetID": "213",
+          "newTargetID": "3703",
+          "hand": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "3703",
+          "newActorID": "394",
+          "newTargetID": "3704",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "2557",
+          "newActorID": "3701",
+          "newTargetID": "2557",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        },
+        {
+          "id": "3701",
+          "name": "Shears with Glasswort Cutting",
+          "category": false
+        },
+        {
+          "id": "3702",
+          "name": "Glasswort Cutting",
+          "category": false
+        },
+        {
+          "id": "3703",
+          "name": "Dry Planted Glasswort Cutting - Desert Only -  +biomeReq5",
+          "category": false
+        },
+        {
+          "id": "3704",
+          "name": "Wet Glasswort Cutting",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "124870f970ca97ae9f750b4a21af70b59ca37ab5",
+      "message": "One bucket of rubber dough makes 4 tires, 12 rubber balls, or 36 stoppers.  Fixes #569",
+      "date": "2020-01-09T18:00:07.000Z",
+      "addedObjectIDs": [
+        "3699",
+        "3700"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "2165",
+          "targetID": "2165",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3699",
+          "hand": true
+        },
+        {
+          "actorID": "2165",
+          "targetID": "3699",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3699",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2164",
+          "newActorID": "3699",
+          "newTargetID": "2164",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2164",
+          "newActorID": "3699",
+          "newTargetID": "659",
+          "hand": true
+        },
+        {
+          "actorID": "286",
+          "targetID": "2165",
+          "newActorID": "286",
+          "newTargetID": "3700",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "3352",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3700",
+          "hand": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "3700",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3700",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "3700",
+          "targetUses": "max",
+          "newActorID": "33",
+          "newTargetID": "2165",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3699",
+          "actorUses": "max",
+          "targetID": "2164",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "2164",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3699",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3699",
+          "newTargetID": "2165",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3699",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "2165",
+          "newTargetID": "2165",
+          "hand": true
+        },
+        {
+          "actorID": "3699",
+          "actorUses": "max",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "2164",
+          "hand": true
+        },
+        {
+          "actorID": "3700",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3700",
+          "newTargetID": "3352",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3700",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3352",
+          "newTargetID": "3352",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "2165",
+          "targetID": "2164",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "2164",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2165",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "2164",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2164",
+          "newActorID": "2165",
+          "newTargetID": "2164",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2164",
+          "newActorID": "2165",
+          "newTargetID": "659",
+          "hand": true
+        },
+        {
+          "actorID": "286",
+          "targetID": "2165",
+          "newActorID": "286",
+          "newTargetID": "3352",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "2164",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "2164",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "2164",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3699",
+          "name": "Bowl with Raw Rubber Balls",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7d31b399a32fb4e3ee0945cc27d37b5282b01cc3",
+      "message": "Bottles are all no-flip, to keep specular highlight in right spot.",
+      "date": "2020-01-09T00:35:23.000Z"
+    },
+    {
+      "sha": "b8509fa1d2808ded8ecfe925ca1f24d0ad4257cc",
+      "message": "Bottle of silver nitrate solutione.  Fixes #563",
+      "date": "2020-01-09T00:28:43.000Z",
+      "addedObjectIDs": [
+        "3693",
+        "3695",
+        "3696",
+        "3697",
+        "3698"
+      ]
+    },
+    {
+      "sha": "22e0ffe5661299099cf3a819c33aeef2b4af0f34",
+      "message": "Got sounds working for emptying different types of bottles, using the new multi-object-occurrence pattern support.",
+      "date": "2020-01-08T02:29:22.000Z",
+      "addedObjectIDs": [
+        "3688",
+        "3689",
+        "3690",
+        "3691",
+        "3692"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3689",
+          "newTargetID": "1895",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3690",
+          "newTargetID": "1897",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3691",
+          "newTargetID": "1894",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3692",
+          "newTargetID": "3013",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1898",
+          "targetID": "85",
+          "newActorID": "3690",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3012",
+          "targetID": "85",
+          "newActorID": "3692",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1892",
+          "newActorID": "33",
+          "newTargetID": "3691",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1893",
+          "newActorID": "33",
+          "newTargetID": "3689",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "1898",
+          "targetID": "85",
+          "newActorID": "1897",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3012",
+          "targetID": "85",
+          "newActorID": "3013",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1892",
+          "newActorID": "33",
+          "newTargetID": "1894",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1893",
+          "newActorID": "33",
+          "newTargetID": "1895",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "b9a820e457a4468a8679850705f73e6b2733e12f",
+      "message": "Bottle patterns mostly done.  Still figuring out powder vs liquid sounds, and sounds for pouring bottles into bowls that already have sounds.",
+      "date": "2020-01-08T01:58:54.000Z",
+      "addedObjectIDs": [
+        "3620",
+        "3621",
+        "3622",
+        "3624",
+        "3625",
+        "3626",
+        "3627",
+        "3628",
+        "3629",
+        "3630",
+        "3631",
+        "3632",
+        "3633",
+        "3634",
+        "3635",
+        "3636",
+        "3637",
+        "3638",
+        "3639",
+        "3640",
+        "3641",
+        "3642",
+        "3643",
+        "3644",
+        "3645",
+        "3646",
+        "3647",
+        "3648",
+        "3649",
+        "3650",
+        "3651",
+        "3652",
+        "3653",
+        "3654",
+        "3655",
+        "3656",
+        "3657",
+        "3658",
+        "3659",
+        "3660",
+        "3661",
+        "3662",
+        "3663",
+        "3664",
+        "3665",
+        "3666",
+        "3667",
+        "3668",
+        "3669",
+        "3670",
+        "3671",
+        "3672",
+        "3673",
+        "3674",
+        "3675",
+        "3676",
+        "3677",
+        "3678",
+        "3679",
+        "3680",
+        "3681",
+        "3682",
+        "3683",
+        "3684",
+        "3685",
+        "3686",
+        "3687"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3682",
+          "newTargetID": "3681",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3684",
+          "newTargetID": "3680",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3687",
+          "newTargetUses": "-1",
+          "newTargetID": "3338",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3681",
+          "newActorID": "3616",
+          "newTargetID": "3680",
+          "hand": true
+        },
+        {
+          "targetID": "3682",
+          "newActorID": "3616",
+          "newTargetID": "3680",
+          "hand": true
+        },
+        {
+          "targetID": "3683",
+          "newActorID": "3360",
+          "newTargetID": "3680",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "3680",
+          "newTargetID": "3682",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "3680",
+          "newTargetID": "3683",
+          "hand": true
+        },
+        {
+          "actorID": "3360",
+          "targetID": "3680",
+          "newTargetID": "3683",
+          "hand": true
+        },
+        {
+          "actorID": "3616",
+          "targetID": "3338",
+          "newTargetID": "3351",
+          "hand": true
+        },
+        {
+          "actorID": "3616",
+          "targetID": "3680",
+          "newTargetID": "3682",
+          "hand": true
+        },
+        {
+          "actorID": "3680",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3684",
+          "newTargetID": "3685",
+          "hand": true
+        },
+        {
+          "actorID": "3680",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3687",
+          "newTargetID": "3685",
+          "hand": true
+        },
+        {
+          "actorID": "3684",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3684",
+          "newTargetID": "3685",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3684",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3687",
+          "newTargetID": "3685",
+          "hand": true
+        },
+        {
+          "actorID": "3685",
+          "actorUses": "max",
+          "targetID": "3351",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3681",
+          "hand": true
+        },
+        {
+          "actorID": "3685",
+          "actorUses": "max",
+          "targetID": "3681",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3681",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3615",
+          "newTargetID": "3610",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3618",
+          "newTargetID": "3592",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3610",
+          "newActorID": "3616",
+          "newTargetID": "3592",
+          "hand": true
+        },
+        {
+          "targetID": "3613",
+          "newActorID": "3360",
+          "newTargetID": "3592",
+          "hand": true
+        },
+        {
+          "actorID": "2799",
+          "targetID": "3351",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3610",
+          "hand": true
+        },
+        {
+          "actorID": "2799",
+          "targetID": "3610",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3610",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "3592",
+          "newTargetID": "3615",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "3592",
+          "newTargetID": "3613",
+          "hand": true
+        },
+        {
+          "actorID": "3592",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3618",
+          "newTargetID": "2799",
+          "hand": true
+        },
+        {
+          "actorID": "3592",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3617",
+          "newTargetID": "2799",
+          "hand": true
+        },
+        {
+          "actorID": "3618",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3618",
+          "newTargetID": "2799",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3618",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3617",
+          "newTargetID": "2799",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3621",
+          "name": "Palm Olein Bottle with Funnel",
+          "category": false
+        },
+        {
+          "id": "3626",
+          "name": "Raw Sugar Bottle with Funnel",
+          "category": false
+        },
+        {
+          "id": "3627",
+          "name": "Salt Bottle with Funnel",
+          "category": false
+        },
+        {
+          "id": "3632",
+          "name": "Antivenom Blood Bottle with Funnel",
+          "category": false
+        },
+        {
+          "id": "3637",
+          "name": "Palm Olein Bottle with Funnel -  insterted",
+          "category": false
+        },
+        {
+          "id": "3641",
+          "name": "Raw Sugar Bottle with Funnel -  insterted",
+          "category": false
+        },
+        {
+          "id": "3642",
+          "name": "Salt Bottle with Funnel -  insterted",
+          "category": false
+        },
+        {
+          "id": "3647",
+          "name": "Antivenom Blood Bottle with Funnel -  insterted",
+          "category": false
+        },
+        {
+          "id": "3652",
+          "name": "Palm Olein Bottle -  just poured",
+          "category": false
+        },
+        {
+          "id": "3656",
+          "name": "Raw Sugar Bottle -  just poured",
+          "category": false
+        },
+        {
+          "id": "3657",
+          "name": "Salt Bottle -  just poured",
+          "category": false
+        },
+        {
+          "id": "3662",
+          "name": "Antivenom Blood Bottle -  just poured",
+          "category": false
+        },
+        {
+          "id": "3667",
+          "name": "Sealed Palm Olein Bottle",
+          "category": false
+        },
+        {
+          "id": "3671",
+          "name": "Sealed Raw Sugar Bottle",
+          "category": false
+        },
+        {
+          "id": "3672",
+          "name": "Sealed Salt Bottle",
+          "category": false
+        },
+        {
+          "id": "3677",
+          "name": "Sealed Antivenom Blood Bottle",
+          "category": false
+        },
+        {
+          "id": "3680",
+          "name": "@ Pattern Bottle",
+          "category": true
+        },
+        {
+          "id": "3681",
+          "name": "@ Pattern Bottle with Funnel",
+          "category": true
+        },
+        {
+          "id": "3682",
+          "name": "@ Pattern Bottle with Funnel just inserted",
+          "category": true
+        },
+        {
+          "id": "3683",
+          "name": "@ Pattern Sealed Bottle",
+          "category": true
+        },
+        {
+          "id": "3684",
+          "name": "@ Pattern Bottle just poured",
+          "category": true
+        },
+        {
+          "id": "3685",
+          "name": "@ Pattern bowl of Bottle Stuff",
+          "category": true
+        },
+        {
+          "id": "3687",
+          "name": "@ Pattern bottle just emptied",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "d3104c426b0f8dfafb5d19aab0353f856cfab566",
+      "message": "Vinegar bottle complete.  Other bottle basic forms and colors in place.",
+      "date": "2020-01-07T23:54:51.000Z",
+      "addedObjectIDs": [
+        "3592",
+        "3593",
+        "3594",
+        "3595",
+        "3596",
+        "3597",
+        "3598",
+        "3599",
+        "3600",
+        "3601",
+        "3602",
+        "3603",
+        "3604",
+        "3605",
+        "3606",
+        "3607",
+        "3608",
+        "3609",
+        "3610",
+        "3611",
+        "3613",
+        "3615",
+        "3616",
+        "3617",
+        "3618"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3615",
+          "newTargetID": "3610",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3616",
+          "newTargetID": "3344",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3617",
+          "newTargetID": "3338",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3618",
+          "newTargetID": "3592",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3351",
+          "newActorID": "3616",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "targetID": "3355",
+          "newActorID": "3616",
+          "newTargetID": "3356",
+          "hand": true
+        },
+        {
+          "targetID": "3610",
+          "newActorID": "3616",
+          "newTargetID": "3592",
+          "hand": true
+        },
+        {
+          "targetID": "3613",
+          "newActorID": "3360",
+          "newTargetID": "3592",
+          "hand": true
+        },
+        {
+          "actorID": "2799",
+          "targetID": "3351",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3610",
+          "hand": true
+        },
+        {
+          "actorID": "2799",
+          "targetID": "3610",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3610",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "3592",
+          "newTargetID": "3615",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "3592",
+          "newTargetID": "3613",
+          "hand": true
+        },
+        {
+          "actorID": "3592",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3618",
+          "newTargetID": "2799",
+          "hand": true
+        },
+        {
+          "actorID": "3592",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3617",
+          "newTargetID": "2799",
+          "hand": true
+        },
+        {
+          "actorID": "3618",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3618",
+          "newTargetID": "2799",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3618",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3617",
+          "newTargetID": "2799",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3351",
+          "newActorID": "3344",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "targetID": "3355",
+          "newActorID": "3344",
+          "newTargetID": "3356",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3355",
+          "name": "Wine Bottle with Funnel",
+          "category": false
+        },
+        {
+          "id": "3356",
+          "name": "Wine Bottle",
+          "category": false
+        },
+        {
+          "id": "3595",
+          "name": "Palm Olein Bottle",
+          "category": false
+        },
+        {
+          "id": "3599",
+          "name": "Raw Sugar Bottle",
+          "category": false
+        },
+        {
+          "id": "3600",
+          "name": "Salt Bottle",
+          "category": false
+        },
+        {
+          "id": "3605",
+          "name": "Antivenom Blood Bottle",
+          "category": false
+        },
+        {
+          "id": "3608",
+          "name": "Bottle Funnel Working",
+          "category": false
+        },
+        {
+          "id": "3609",
+          "name": "Bottle Stopper Working",
+          "category": false
+        },
+        {
+          "id": "3611",
+          "name": "Whole Milk Bottle with Funnel",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "2f0f013f1b33f0e537932abcdc48b01fdb48ea14",
+      "message": "Whoops... forgot yellow wall shelf.  Fixes #561",
+      "date": "2020-01-07T20:47:27.000Z",
+      "addedObjectIDs": [
+        "3585",
+        "3586",
+        "3587",
+        "3588",
+        "3589",
+        "3590",
+        "3591"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3585",
+          "newTargetID": "1915",
+          "decay": "1s"
+        },
+        {
+          "actorID": "471",
+          "targetID": "1915",
+          "newActorID": "67",
+          "newTargetID": "3587",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3585",
+          "name": "Yellow Plaster Wall -  +causeAutoOrient shelfRemoved",
+          "category": false
+        },
+        {
+          "id": "3586",
+          "name": "Yellow Wall Shelf with Slot Notches -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3587",
+          "name": "Yellow Wall Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3588",
+          "name": "Yellow Wall Slot Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3589",
+          "name": "Yellow Wall with Box and Thread -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3590",
+          "name": "Yellow Wall with Box -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3591",
+          "name": "Yellow Wall with Thread -  +causeAutoOrient",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "a495e729a262ba3b698ba1af67f2850c612b19e1",
+      "message": "Shelves can now go on red and blue plaster walls.  Fixes #505",
+      "date": "2020-01-07T01:21:13.000Z",
+      "addedObjectIDs": [
+        "3569",
+        "3570",
+        "3571",
+        "3572",
+        "3573",
+        "3574",
+        "3575",
+        "3576",
+        "3577",
+        "3578",
+        "3580",
+        "3581",
+        "3582",
+        "3583",
+        "3584"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3569",
+          "newTargetID": "1885",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3570",
+          "newTargetID": "1912",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3571",
+          "newTargetID": "1909",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3243",
+          "newActorID": "58",
+          "newTargetID": "3569",
+          "hand": true
+        },
+        {
+          "actorID": "471",
+          "targetID": "1909",
+          "newActorID": "67",
+          "newTargetID": "3580",
+          "hand": true
+        },
+        {
+          "actorID": "471",
+          "targetID": "1912",
+          "newActorID": "67",
+          "newTargetID": "3574",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "3244",
+          "newActorID": "471",
+          "newTargetID": "3569",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3243",
+          "newActorID": "58",
+          "newTargetID": "1885",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "3244",
+          "newActorID": "471",
+          "newTargetID": "1885",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3243",
+          "name": "Plaster Wall with Thread -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3244",
+          "name": "Plaster Wall with Box -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3569",
+          "name": "Plaster Wall -  +causeAutoOrient shelfRemoved",
+          "category": false
+        },
+        {
+          "id": "3570",
+          "name": "Red Plaster Wall -  +causeAutoOrient shelfRemoved",
+          "category": false
+        },
+        {
+          "id": "3571",
+          "name": "Blue Plaster Wall -  +causeAutoOrient shelfRemoved",
+          "category": false
+        },
+        {
+          "id": "3572",
+          "name": "Red Wall Shelf with Slot Notches -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3573",
+          "name": "Red Wall Slot Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3574",
+          "name": "Red Wall Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3575",
+          "name": "Red Wall with Box and Thread -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3576",
+          "name": "Red Wall with Box -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3577",
+          "name": "Red Wall with Thread -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3578",
+          "name": "Blue Wall Shelf with Slot Notches -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3580",
+          "name": "Blue Wall Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3581",
+          "name": "Blue Wall Slot Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3582",
+          "name": "Blue Wall with Box and Thread -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3583",
+          "name": "Blue Wall with Box -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3584",
+          "name": "Blue Wall with Thread -  +causeAutoOrient",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "556edb1695f02205e19cfbc19f37cf841155291c",
+      "message": "Fleeing rabbits can't land on floors, because their holes can't be dug on floors.  Fixes #559",
+      "date": "2020-01-07T00:32:18.000Z",
+      "objectChanges": [
+        {
+          "id": "3568",
+          "attributes": {
+            "name": {
+              "from": "Fleeing Rabbit - dest",
+              "to": "Fleeing Rabbit - dest -  groundOnly"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "214b477eda26e1fda0bef0cf326ca953a2581ba3",
+      "message": "Tweaked scene.",
+      "date": "2020-01-04T03:19:34.000Z"
+    }
+  ]
+}

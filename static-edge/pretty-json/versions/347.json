@@ -1,0 +1,905 @@
+{
+  "id": "347",
+  "date": "2020-07-04T00:15:37.000Z",
+  "commits": [
+    {
+      "sha": "a0278ceec5778931442831640dabf6290588fcb9",
+      "message": "Fixed names of some pipes.  Scene for update image.",
+      "date": "2020-07-03T23:55:36.000Z",
+      "objectChanges": [
+        {
+          "id": "4356",
+          "attributes": {
+            "name": {
+              "from": "Test Sprinkler Pipe South Charged",
+              "to": "South-facing Sprinkler Pipe -  waterHit"
+            }
+          }
+        },
+        {
+          "id": "4357",
+          "attributes": {
+            "name": {
+              "from": "Test Sprinkler Pipe North Charged",
+              "to": "North-facing Sprinkler Pipe -  waterHit"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "103c39054f3f1c4b8766b7f4e9276dfd316e0d04",
+      "message": "Plow can work on shallow rows too now.",
+      "date": "2020-07-03T23:06:14.000Z",
+      "addedObjectIDs": [
+        "4388"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4388",
+          "newTargetID": "4361",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "actorID": "4361",
+          "targetID": "1136",
+          "newTargetID": "4388",
+          "hand": true
+        },
+        {
+          "actorID": "4377",
+          "targetID": "1136",
+          "newTargetID": "4388",
+          "hand": true
+        },
+        {
+          "actorID": "4388",
+          "newActorID": "213",
+          "newTargetID": "4361",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4361",
+          "name": "Moving Plow",
+          "category": false
+        },
+        {
+          "id": "4377",
+          "name": "Fueled Plow",
+          "category": false
+        },
+        {
+          "id": "4388",
+          "name": "Running Plow -  shallow row",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "ceb9be9cf23b92ae71877dcd7c181a0e8fb06fa9",
+      "message": "Plow and sprinkler have 24 uses per unit of kero (was 6).",
+      "date": "2020-07-03T22:58:36.000Z"
+    },
+    {
+      "sha": "166cb447c0e3e1876faf5d26645cfd9909752ec4",
+      "message": "Plow spelling",
+      "date": "2020-07-03T21:52:28.000Z",
+      "objectChanges": [
+        {
+          "id": "4360",
+          "attributes": {
+            "name": {
+              "from": "Plough Stalled on Row -  justStalled",
+              "to": "Plow Stalled on Row -  justStalled"
+            }
+          }
+        },
+        {
+          "id": "4361",
+          "attributes": {
+            "name": {
+              "from": "Moving Plough",
+              "to": "Moving Plow"
+            }
+          }
+        },
+        {
+          "id": "4363",
+          "attributes": {
+            "name": {
+              "from": "Running Plough -  hard row",
+              "to": "Running Plow -  hard row"
+            }
+          }
+        },
+        {
+          "id": "4376",
+          "attributes": {
+            "name": {
+              "from": "Empty Plough",
+              "to": "Empty Plow"
+            }
+          }
+        },
+        {
+          "id": "4377",
+          "attributes": {
+            "name": {
+              "from": "Fueled Plough",
+              "to": "Fueled Plow"
+            }
+          }
+        },
+        {
+          "id": "4379",
+          "attributes": {
+            "name": {
+              "from": "Plough Kit",
+              "to": "Plow Kit"
+            }
+          }
+        },
+        {
+          "id": "4380",
+          "attributes": {
+            "name": {
+              "from": "Empty Plough -  just built",
+              "to": "Empty Plow -  just built"
+            }
+          }
+        },
+        {
+          "id": "4382",
+          "attributes": {
+            "name": {
+              "from": "Empty Plough on Row",
+              "to": "Empty Plow on Row"
+            }
+          }
+        },
+        {
+          "id": "4383",
+          "attributes": {
+            "name": {
+              "from": "Empty Plough -  just stalled",
+              "to": "Empty Plow -  just stalled"
+            }
+          }
+        },
+        {
+          "id": "4386",
+          "attributes": {
+            "name": {
+              "from": "Fueled Plough -  justFilled",
+              "to": "Fueled Plow -  justFilled"
+            }
+          }
+        },
+        {
+          "id": "4387",
+          "attributes": {
+            "name": {
+              "from": "Plough Stalled on Row",
+              "to": "Plow Stalled on Row"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "e363cec14cffa1b5907c114e33c0c6f0c86e8dac",
+      "message": "Fixed pick-up age to 15 for plow.",
+      "date": "2020-07-03T21:51:02.000Z"
+    },
+    {
+      "sha": "84fdcf5df28a3ea1df3395b10f81e0c74486ce89",
+      "message": "Final plough content working.",
+      "date": "2020-07-03T20:27:35.000Z",
+      "addedObjectIDs": [
+        "4376",
+        "4377",
+        "4378",
+        "4379",
+        "4380",
+        "4382",
+        "4383",
+        "4386",
+        "4387"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4360",
+          "newTargetUses": "-1",
+          "newTargetID": "4387",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4360",
+          "targetUses": "last",
+          "newTargetID": "4382",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4361",
+          "newTargetUses": "-1",
+          "newTargetID": "4377",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4361",
+          "targetUses": "last",
+          "newTargetID": "4383",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4380",
+          "newTargetID": "4376",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4383",
+          "newTargetID": "4376",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4384",
+          "newTargetID": "4349",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4385",
+          "newTargetID": "4350",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4386",
+          "newTargetID": "4377",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4376",
+          "newActorID": "4379",
+          "newTargetID": "2365",
+          "hand": true
+        },
+        {
+          "targetID": "4378",
+          "newActorID": "475",
+          "newTargetID": "475",
+          "hand": true
+        },
+        {
+          "targetID": "4379",
+          "newActorID": "559",
+          "newTargetID": "4378",
+          "hand": true
+        },
+        {
+          "targetID": "4382",
+          "newActorID": "4376",
+          "newTargetID": "213",
+          "hand": true
+        },
+        {
+          "targetID": "4387",
+          "newActorID": "4377",
+          "newTargetID": "213",
+          "hand": true
+        },
+        {
+          "actorID": "2343",
+          "newActorUses": "-1",
+          "targetID": "4376",
+          "newActorID": "2343",
+          "newTargetID": "4386",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "4376",
+          "newActorID": "2302",
+          "newTargetID": "4386",
+          "hand": true
+        },
+        {
+          "actorID": "4352",
+          "targetID": "4384",
+          "newTargetID": "4349",
+          "hand": true
+        },
+        {
+          "actorID": "4352",
+          "targetID": "4385",
+          "newTargetID": "4350",
+          "hand": true
+        },
+        {
+          "actorID": "4358",
+          "newActorID": "4384",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "4359",
+          "newActorID": "4385",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "4361",
+          "targetID": "213",
+          "newTargetID": "4360",
+          "hand": true
+        },
+        {
+          "actorID": "4361",
+          "targetID": "848",
+          "newTargetID": "4363",
+          "hand": true
+        },
+        {
+          "actorID": "4378",
+          "targetID": "559",
+          "newTargetID": "4379",
+          "hand": true
+        },
+        {
+          "actorID": "4379",
+          "targetID": "2365",
+          "newTargetID": "4380",
+          "hand": true
+        },
+        {
+          "actorID": "475",
+          "targetID": "475",
+          "newTargetID": "4378",
+          "hand": true
+        },
+        {
+          "actorID": "559",
+          "targetID": "4378",
+          "newTargetID": "4379",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "4361",
+          "newTargetID": "4364",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4362",
+          "newTargetID": "4361",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "actorID": "4358",
+          "newActorID": "4349",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "4359",
+          "newActorID": "4350",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "4361",
+          "targetID": "848",
+          "newTargetID": "4362",
+          "hand": true
+        },
+        {
+          "actorID": "4362",
+          "newActorID": "213",
+          "newTargetID": "4361",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "4360",
+          "attributes": {
+            "name": {
+              "from": "Plough Waiting",
+              "to": "Plough Stalled on Row -  justStalled"
+            }
+          }
+        },
+        {
+          "id": "4361",
+          "attributes": {
+            "name": {
+              "from": "Plough Charged",
+              "to": "Moving Plough"
+            }
+          }
+        },
+        {
+          "id": "4363",
+          "attributes": {
+            "name": {
+              "from": "Plough Charged",
+              "to": "Running Plough -  hard row"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4349",
+          "name": "South-facing Sprinkler Pipe",
+          "category": false
+        },
+        {
+          "id": "4358",
+          "name": "South-facing Sprinkler Pipe -  water passed",
+          "category": false
+        },
+        {
+          "id": "4359",
+          "name": "North-facing Sprinkler Pipe -  water passed",
+          "category": false
+        },
+        {
+          "id": "4360",
+          "name": "Plough Stalled on Row -  justStalled",
+          "category": false
+        },
+        {
+          "id": "4361",
+          "name": "Moving Plough",
+          "category": false
+        },
+        {
+          "id": "4362",
+          "name": "Plough on Row",
+          "category": false
+        },
+        {
+          "id": "4363",
+          "name": "Running Plough -  hard row",
+          "category": false
+        },
+        {
+          "id": "4364",
+          "name": "Plough Stalled",
+          "category": false
+        },
+        {
+          "id": "4376",
+          "name": "Empty Plough",
+          "category": false
+        },
+        {
+          "id": "4377",
+          "name": "Fueled Plough",
+          "category": false
+        },
+        {
+          "id": "4378",
+          "name": "Two Wheels",
+          "category": false
+        },
+        {
+          "id": "4379",
+          "name": "Plough Kit",
+          "category": false
+        },
+        {
+          "id": "4380",
+          "name": "Empty Plough -  just built",
+          "category": false
+        },
+        {
+          "id": "4382",
+          "name": "Empty Plough on Row",
+          "category": false
+        },
+        {
+          "id": "4383",
+          "name": "Empty Plough -  just stalled",
+          "category": false
+        },
+        {
+          "id": "4384",
+          "name": "South-facing Sprinkler Pipe -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4385",
+          "name": "North-facing Sprinkler Pipe -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4386",
+          "name": "Fueled Plough -  justFilled",
+          "category": false
+        },
+        {
+          "id": "4387",
+          "name": "Plough Stalled on Row",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "efd070769585ffced1f97d260875e9fcc752c398",
+      "message": "Irrigation system in place and working.  Also placeholder version of plough objects, which will be fleshed out tomorrow.",
+      "date": "2020-07-03T00:12:25.000Z",
+      "addedObjectIDs": [
+        "4349",
+        "4350",
+        "4352",
+        "4353",
+        "4354",
+        "4356",
+        "4357",
+        "4358",
+        "4359",
+        "4360",
+        "4361",
+        "4362",
+        "4363",
+        "4364",
+        "4365",
+        "4366",
+        "4368",
+        "4369",
+        "4370",
+        "4371",
+        "4372",
+        "4373"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4352",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4353",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4354",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4356",
+          "newTargetID": "4354",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4357",
+          "newTargetID": "4353",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4358",
+          "newTargetID": "4352",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4359",
+          "newTargetID": "4352",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4361",
+          "newTargetID": "4364",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4362",
+          "newTargetID": "4361",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4363",
+          "newTargetID": "4361",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4365",
+          "newTargetID": "4352",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4369",
+          "newTargetID": "4368",
+          "decay": "10s"
+        },
+        {
+          "targetID": "4369",
+          "targetUses": "last",
+          "newTargetID": "4366",
+          "decay": "10s"
+        },
+        {
+          "targetID": "4370",
+          "newTargetID": "2297",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4349",
+          "newTargetID": "4350",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "4350",
+          "newTargetID": "4349",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "4360",
+          "newTargetID": "4363",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "4366",
+          "newActorID": "2365",
+          "newTargetID": "4370",
+          "hand": true
+        },
+        {
+          "targetID": "4371",
+          "newActorID": "2375",
+          "newTargetID": "2297",
+          "hand": true
+        },
+        {
+          "actorID": "2343",
+          "newActorUses": "-1",
+          "targetID": "4366",
+          "newActorID": "2343",
+          "newTargetID": "4368",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "4366",
+          "newActorID": "2302",
+          "newTargetID": "4368",
+          "hand": true
+        },
+        {
+          "actorID": "2365",
+          "targetID": "2297",
+          "newTargetID": "4366",
+          "hand": true
+        },
+        {
+          "actorID": "2375",
+          "targetID": "2297",
+          "newTargetID": "4349",
+          "hand": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "4368",
+          "newActorID": "394",
+          "newTargetID": "4365",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4352",
+          "targetID": "4349",
+          "newTargetID": "4356",
+          "hand": true
+        },
+        {
+          "actorID": "4352",
+          "targetID": "4350",
+          "newTargetID": "4357",
+          "hand": true
+        },
+        {
+          "actorID": "4353",
+          "targetID": "4359",
+          "newTargetID": "4359",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4353",
+          "targetID": "4372",
+          "newTargetUses": "-1",
+          "newTargetID": "4373",
+          "hand": true
+        },
+        {
+          "actorID": "4354",
+          "targetID": "4358",
+          "newTargetID": "4358",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4354",
+          "targetID": "4372",
+          "newTargetUses": "-1",
+          "newTargetID": "4373",
+          "hand": true
+        },
+        {
+          "actorID": "4356",
+          "newActorID": "4358",
+          "newTargetID": "4354",
+          "hand": true
+        },
+        {
+          "actorID": "4357",
+          "newActorID": "4359",
+          "newTargetID": "4353",
+          "hand": true
+        },
+        {
+          "actorID": "4358",
+          "newActorID": "4349",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "4359",
+          "newActorID": "4350",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "4361",
+          "targetID": "848",
+          "newTargetID": "4362",
+          "hand": true
+        },
+        {
+          "actorID": "4362",
+          "newActorID": "213",
+          "newTargetID": "4361",
+          "hand": true
+        },
+        {
+          "actorID": "4363",
+          "newActorID": "213",
+          "newTargetID": "4361",
+          "hand": true
+        },
+        {
+          "actorID": "4365",
+          "newActorID": "4369",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4349",
+          "newActorID": "441",
+          "newTargetID": "4371",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4350",
+          "newActorID": "441",
+          "newTargetID": "4371",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        },
+        {
+          "id": "4349",
+          "name": "South-facing Sprinkler Pipe",
+          "category": false
+        },
+        {
+          "id": "4354",
+          "name": "Sprinkler Squirt South",
+          "category": false
+        },
+        {
+          "id": "4356",
+          "name": "Test Sprinkler Pipe South Charged",
+          "category": false
+        },
+        {
+          "id": "4357",
+          "name": "Test Sprinkler Pipe North Charged",
+          "category": false
+        },
+        {
+          "id": "4358",
+          "name": "South-facing Sprinkler Pipe -  water passed",
+          "category": false
+        },
+        {
+          "id": "4359",
+          "name": "North-facing Sprinkler Pipe -  water passed",
+          "category": false
+        },
+        {
+          "id": "4360",
+          "name": "Plough Waiting",
+          "category": false
+        },
+        {
+          "id": "4361",
+          "name": "Plough Charged",
+          "category": false
+        },
+        {
+          "id": "4362",
+          "name": "Plough on Row",
+          "category": false
+        },
+        {
+          "id": "4363",
+          "name": "Plough Charged",
+          "category": false
+        },
+        {
+          "id": "4364",
+          "name": "Plough Stalled",
+          "category": false
+        },
+        {
+          "id": "4369",
+          "name": "Running sprinkler pump -  waterSent",
+          "category": false
+        },
+        {
+          "id": "4370",
+          "name": "Steel Pipe -  engine removed",
+          "category": false
+        },
+        {
+          "id": "4371",
+          "name": "Steel Pipe with Nozzle",
+          "category": false
+        },
+        {
+          "id": "4372",
+          "name": "@ Dry Sprinkler Crop Pattern",
+          "category": true
+        },
+        {
+          "id": "4373",
+          "name": "@ Wet Sprinkler Crop Pattern",
+          "category": true
+        }
+      ]
+    }
+  ]
+}

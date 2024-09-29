@@ -1,0 +1,2772 @@
+{
+  "id": "20273",
+  "date": "2020-09-26T22:41:25.000Z",
+  "commits": [
+    {
+      "sha": "d048d90f04ff69fb46faa95800fcb7b9241b99c3",
+      "message": "Minor item fixes",
+      "date": "2020-09-26T22:35:11.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1052",
+          "targetID": "2896",
+          "newActorID": "3523",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7643",
+          "targetID": "1619",
+          "newActorID": "235",
+          "newTargetID": "7644",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7693",
+          "newActorID": "291",
+          "newTargetID": "7694",
+          "hand": true
+        },
+        {
+          "actorID": "7643",
+          "targetID": "1619",
+          "newActorID": "7643",
+          "newTargetID": "7644",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7643",
+          "targetID": "1619",
+          "newActorID": "235",
+          "newTargetID": "7644",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "8a64f02a8bbff0d00503386ec265e4267cf96685",
+      "message": "Added merchant clothing",
+      "date": "2020-09-26T19:52:49.000Z",
+      "addedObjectIDs": [
+        "7725",
+        "7726",
+        "7727",
+        "7728"
+      ]
+    },
+    {
+      "sha": "708779cfb1034ad85efb628e373420399bba0bb7",
+      "message": "Made object permanent to prevent client crash",
+      "date": "2020-09-26T19:38:04.000Z"
+    },
+    {
+      "sha": "5e86ae15e0bbde01f3543dcf9492402cc7410e20",
+      "message": "Fixed Poipack positioning",
+      "date": "2020-09-26T19:13:54.000Z"
+    },
+    {
+      "sha": "80bff849673193f8f0b6d91280362897ebb99425",
+      "message": "Fixed layer issue with workpants",
+      "date": "2020-09-26T16:22:17.000Z"
+    },
+    {
+      "sha": "acc1d5873111cd66087749e1b3b5ac2db456bd07",
+      "message": "Glue can be added back into the pot",
+      "date": "2020-09-26T00:56:42.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7643",
+          "targetID": "7641",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "7641",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "8a16f32aaede32e5433a9de3b00fdd34cad58f12",
+      "message": "All stumps decay",
+      "date": "2020-09-26T00:18:23.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7389",
+          "decay": "60m"
+        },
+        {
+          "targetID": "7390",
+          "decay": "60m"
+        }
+      ]
+    },
+    {
+      "sha": "6269983cac59f398c0580b8f1b3adcf953f1dd6a",
+      "message": "Fixed container size for wooden crate stack",
+      "date": "2020-09-25T23:54:54.000Z"
+    },
+    {
+      "sha": "492734922cd3c515c7e2ad61fd4c5b80aff573ab",
+      "message": "Coir and pine needles added to options for fireplace and furnace",
+      "date": "2020-09-25T23:53:10.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7419",
+          "targetID": "7180",
+          "newTargetID": "7721",
+          "hand": true
+        },
+        {
+          "actorID": "7419",
+          "targetID": "7183",
+          "newTargetID": "7718",
+          "hand": true
+        },
+        {
+          "actorID": "96",
+          "targetID": "7180",
+          "newTargetID": "7721",
+          "hand": true
+        },
+        {
+          "actorID": "96",
+          "targetID": "7183",
+          "newTargetID": "7718",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "4154f61f304037008e4a5203f92e84238d57f9de",
+      "message": "Added transition for alternative wattle wall to cross wattle wall",
+      "date": "2020-09-25T23:46:20.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "67",
+          "targetID": "7684",
+          "newTargetID": "7686",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "8bd8a4b30ee4d7c8c011ab8218e6ea3fe8e8d908",
+      "message": "Added missing glass panel transitions",
+      "date": "2020-09-25T23:40:16.000Z",
+      "addedObjectIDs": [
+        "7723",
+        "7724"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7692",
+          "newTargetID": "7724",
+          "decay": "10s"
+        },
+        {
+          "targetID": "7693",
+          "newTargetID": "7723",
+          "decay": "10s"
+        },
+        {
+          "targetID": "7693",
+          "newActorID": "291",
+          "newTargetID": "7694",
+          "hand": true
+        },
+        {
+          "targetID": "7694",
+          "newActorID": "7701",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "targetID": "7723",
+          "newActorID": "291",
+          "newTargetID": "7694",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7724",
+          "newActorID": "2578",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "actorID": "2576",
+          "targetID": "291",
+          "newActorID": "283",
+          "newTargetID": "7692",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "7692",
+          "newTargetID": "7693",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c30d79197b3d67bff738c57b094398387691df20",
+      "message": "Missing last use transitions for dung shovel",
+      "date": "2020-09-25T01:24:35.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "858",
+          "newTargetID": "6807",
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "targetID": "6807",
+          "newTargetUses": "+1",
+          "newActorID": "858",
+          "newTargetID": "6807",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "900",
+          "actorUses": "last",
+          "targetID": "6807",
+          "newActorID": "858",
+          "newTargetID": "6806",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "358fb6bde2e3f6ee9e707372a97bef49d71d1a14",
+      "message": "Added missing hops watercan transitions",
+      "date": "2020-09-25T01:15:24.000Z"
+    },
+    {
+      "sha": "d04b0e744bc50fe43cff2010a5e657defaa9c81d",
+      "message": "Fireplace and Furnace can be started with tinder",
+      "date": "2020-09-25T01:02:29.000Z",
+      "addedObjectIDs": [
+        "7717",
+        "7718",
+        "7719",
+        "7720",
+        "7721",
+        "7722"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7717",
+          "newTargetID": "7177",
+          "decay": "5s"
+        },
+        {
+          "targetID": "7719",
+          "newTargetID": "7717",
+          "decay": "5s"
+        },
+        {
+          "targetID": "7720",
+          "newTargetID": "7181",
+          "decay": "5s"
+        },
+        {
+          "targetID": "7722",
+          "newTargetID": "7720",
+          "decay": "5s"
+        },
+        {
+          "targetID": "7718",
+          "newActorID": "61",
+          "newTargetID": "7183",
+          "hand": true
+        },
+        {
+          "targetID": "7721",
+          "newActorID": "61",
+          "newTargetID": "7180",
+          "hand": true
+        },
+        {
+          "actorID": "5294",
+          "targetID": "7718",
+          "newActorID": "5294",
+          "newTargetID": "7719",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "5294",
+          "targetID": "7721",
+          "newActorID": "5294",
+          "newTargetID": "7722",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "61",
+          "targetID": "7180",
+          "newTargetID": "7721",
+          "hand": true
+        },
+        {
+          "actorID": "61",
+          "targetID": "7183",
+          "newTargetID": "7718",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "d57c90385c69189c9bb548f88c9930a0345ae233",
+      "message": "Added salt and sugar sacks",
+      "date": "2020-09-24T23:25:19.000Z",
+      "addedObjectIDs": [
+        "7705",
+        "7706",
+        "7707",
+        "7708",
+        "7709",
+        "7710",
+        "7711",
+        "7712",
+        "7713",
+        "7714",
+        "7715",
+        "7716"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7715",
+          "newTargetID": "1234",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7716",
+          "newTargetID": "2783",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1234",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7705",
+          "hand": true
+        },
+        {
+          "actorID": "1234",
+          "targetID": "7705",
+          "newActorID": "235",
+          "newTargetID": "7706",
+          "hand": true
+        },
+        {
+          "actorID": "1234",
+          "targetID": "7706",
+          "newActorID": "235",
+          "newTargetID": "7707",
+          "hand": true
+        },
+        {
+          "actorID": "1234",
+          "targetID": "7707",
+          "newActorID": "235",
+          "newTargetID": "7708",
+          "hand": true
+        },
+        {
+          "actorID": "1234",
+          "targetID": "7708",
+          "newActorID": "235",
+          "newTargetID": "7709",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7705",
+          "newActorID": "7715",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7706",
+          "newActorID": "7715",
+          "newTargetID": "7705",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7707",
+          "newActorID": "7715",
+          "newTargetID": "7706",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7708",
+          "newActorID": "7715",
+          "newTargetID": "7707",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7709",
+          "newActorID": "7715",
+          "newTargetID": "7708",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7710",
+          "newActorID": "7716",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7711",
+          "newActorID": "7716",
+          "newTargetID": "7710",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7712",
+          "newActorID": "7716",
+          "newTargetID": "7711",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7713",
+          "newActorID": "7716",
+          "newTargetID": "7712",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7714",
+          "newActorID": "7716",
+          "newTargetID": "7713",
+          "hand": true
+        },
+        {
+          "actorID": "2783",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7710",
+          "hand": true
+        },
+        {
+          "actorID": "2783",
+          "targetID": "7710",
+          "newActorID": "235",
+          "newTargetID": "7711",
+          "hand": true
+        },
+        {
+          "actorID": "2783",
+          "targetID": "7711",
+          "newActorID": "235",
+          "newTargetID": "7712",
+          "hand": true
+        },
+        {
+          "actorID": "2783",
+          "targetID": "7712",
+          "newActorID": "235",
+          "newTargetID": "7713",
+          "hand": true
+        },
+        {
+          "actorID": "2783",
+          "targetID": "7713",
+          "newActorID": "235",
+          "newTargetID": "7714",
+          "hand": true
+        },
+        {
+          "actorID": "7715",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7705",
+          "hand": true
+        },
+        {
+          "actorID": "7715",
+          "targetID": "7705",
+          "newActorID": "235",
+          "newTargetID": "7706",
+          "hand": true
+        },
+        {
+          "actorID": "7715",
+          "targetID": "7706",
+          "newActorID": "235",
+          "newTargetID": "7707",
+          "hand": true
+        },
+        {
+          "actorID": "7715",
+          "targetID": "7707",
+          "newActorID": "235",
+          "newTargetID": "7708",
+          "hand": true
+        },
+        {
+          "actorID": "7715",
+          "targetID": "7708",
+          "newActorID": "235",
+          "newTargetID": "7709",
+          "hand": true
+        },
+        {
+          "actorID": "7716",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7710",
+          "hand": true
+        },
+        {
+          "actorID": "7716",
+          "targetID": "7710",
+          "newActorID": "235",
+          "newTargetID": "7711",
+          "hand": true
+        },
+        {
+          "actorID": "7716",
+          "targetID": "7711",
+          "newActorID": "235",
+          "newTargetID": "7712",
+          "hand": true
+        },
+        {
+          "actorID": "7716",
+          "targetID": "7712",
+          "newActorID": "235",
+          "newTargetID": "7713",
+          "hand": true
+        },
+        {
+          "actorID": "7716",
+          "targetID": "7713",
+          "newActorID": "235",
+          "newTargetID": "7714",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "40a20f168d0cfba40b8a1c31652aeab95af499f4",
+      "message": "Reset cycle of fruit trees once picked",
+      "date": "2020-09-22T22:56:23.000Z",
+      "addedObjectIDs": [
+        "7702",
+        "7703",
+        "7704"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7702",
+          "newTargetID": "7340",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7312",
+          "targetUses": "last",
+          "newActorID": "4784",
+          "newTargetID": "7702",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7312",
+          "targetUses": "last",
+          "newActorID": "4784",
+          "newTargetID": "7319",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "192fdd2be38e9f5e09090f9967ab2097f64800d2",
+      "message": "Added Windowed Walls",
+      "date": "2020-09-22T22:46:25.000Z",
+      "addedObjectIDs": [
+        "7692",
+        "7693",
+        "7694",
+        "7695",
+        "7696",
+        "7697",
+        "7698",
+        "7699",
+        "7700",
+        "7701"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "7701",
+          "targetID": "112",
+          "newTargetID": "7700",
+          "hand": true
+        },
+        {
+          "actorID": "7701",
+          "targetID": "1885",
+          "newTargetID": "7695",
+          "hand": true
+        },
+        {
+          "actorID": "7701",
+          "targetID": "6654",
+          "newTargetID": "7697",
+          "hand": true
+        },
+        {
+          "actorID": "7701",
+          "targetID": "6749",
+          "newTargetID": "7696",
+          "hand": true
+        },
+        {
+          "actorID": "7701",
+          "targetID": "6963",
+          "newTargetID": "7699",
+          "hand": true
+        },
+        {
+          "actorID": "7701",
+          "targetID": "887",
+          "newTargetID": "7698",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "6527b81b3dccda221d43b5267101c5ee0947afb4",
+      "message": "Two short shafts can be contained",
+      "date": "2020-09-20T20:51:40.000Z"
+    },
+    {
+      "sha": "cb201877f36eda2965a83893e040004dd105536f",
+      "message": "Added Wattle walls",
+      "date": "2020-09-20T19:47:22.000Z",
+      "addedObjectIDs": [
+        "7676",
+        "7677",
+        "7678",
+        "7679",
+        "7680",
+        "7681",
+        "7682",
+        "7683",
+        "7684",
+        "7685",
+        "7686",
+        "7687",
+        "7688",
+        "7689",
+        "7690"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7687",
+          "newActorID": "557",
+          "newTargetID": "7683",
+          "hand": true
+        },
+        {
+          "targetID": "7688",
+          "newActorID": "557",
+          "newTargetID": "7676",
+          "hand": true
+        },
+        {
+          "targetID": "7689",
+          "newActorID": "67",
+          "newTargetID": "7676",
+          "hand": true
+        },
+        {
+          "targetID": "7690",
+          "newActorID": "67",
+          "newTargetID": "7688",
+          "hand": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7676",
+          "newActorID": "455",
+          "newTargetID": "112",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7683",
+          "newActorID": "455",
+          "newTargetID": "111",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7677",
+          "newActorID": "462",
+          "newTargetID": "7690",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7678",
+          "newActorID": "462",
+          "newTargetID": "7690",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7679",
+          "newActorID": "462",
+          "newTargetID": "7688",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7680",
+          "newActorID": "462",
+          "newTargetID": "7688",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7681",
+          "newActorID": "462",
+          "newTargetID": "7690",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7682",
+          "newActorID": "462",
+          "newTargetID": "7687",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7684",
+          "newActorID": "462",
+          "newTargetID": "7689",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7685",
+          "newActorID": "462",
+          "newTargetID": "7689",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "7686",
+          "newActorID": "462",
+          "newTargetID": "7688",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7677",
+          "newActorID": "467",
+          "newTargetID": "7681",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7678",
+          "newActorID": "467",
+          "newTargetID": "7677",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7679",
+          "newActorID": "467",
+          "newTargetID": "7686",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7680",
+          "newActorID": "467",
+          "newTargetID": "7679",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7681",
+          "newActorID": "467",
+          "newTargetID": "7678",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7684",
+          "newActorID": "467",
+          "newTargetID": "7685",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7685",
+          "newActorID": "467",
+          "newTargetID": "7684",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "7686",
+          "newActorID": "467",
+          "newTargetID": "7680",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "557",
+          "targetID": "7676",
+          "newTargetID": "7686",
+          "hand": true
+        },
+        {
+          "actorID": "557",
+          "targetID": "7683",
+          "newTargetID": "7682",
+          "hand": true
+        },
+        {
+          "actorID": "677",
+          "targetID": "111",
+          "newActorID": "235",
+          "newTargetID": "7683",
+          "hand": true
+        },
+        {
+          "actorID": "677",
+          "targetID": "112",
+          "newActorID": "235",
+          "newTargetID": "7676",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "7676",
+          "newTargetID": "7685",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "7685",
+          "newTargetID": "7686",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "7686",
+          "newTargetID": "7681",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "5a4fde6dd2ba6d9dece445f407a3513bb4b49e23",
+      "message": "Fixed bee transition",
+      "date": "2020-09-20T13:07:50.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "4602",
+          "targetID": "530",
+          "newTargetID": "4599",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "65e32835660af0d112805c7532a0da96f851b914",
+      "message": "Stacked pipes",
+      "date": "2020-09-20T02:19:27.000Z",
+      "addedObjectIDs": [
+        "7672",
+        "7673",
+        "7674",
+        "7675"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7672",
+          "newTargetID": "6903",
+          "decay": "10s"
+        },
+        {
+          "targetID": "7673",
+          "newTargetID": "7675",
+          "decay": "10s"
+        },
+        {
+          "targetID": "7674",
+          "newTargetID": "2491",
+          "decay": "1s"
+        },
+        {
+          "actorID": "2293",
+          "targetID": "2295",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7672",
+          "hand": true
+        },
+        {
+          "actorID": "2293",
+          "targetID": "7672",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7672",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2493",
+          "newActorID": "7674",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7672",
+          "newTargetUses": "-1",
+          "newActorID": "2635",
+          "newTargetID": "7672",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7672",
+          "targetUses": "last",
+          "newActorID": "2635",
+          "newTargetID": "2295",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7673",
+          "newTargetUses": "-1",
+          "newActorID": "7674",
+          "newTargetID": "7673",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7673",
+          "targetUses": "last",
+          "newActorID": "7674",
+          "newTargetID": "2493",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7675",
+          "newTargetUses": "-1",
+          "newActorID": "2492",
+          "newTargetID": "7675",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7675",
+          "targetUses": "last",
+          "newActorID": "2492",
+          "newTargetID": "2494",
+          "hand": true
+        },
+        {
+          "actorID": "2491",
+          "targetID": "2493",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7673",
+          "hand": true
+        },
+        {
+          "actorID": "2491",
+          "targetID": "7673",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7673",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2492",
+          "targetID": "2494",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7675",
+          "hand": true
+        },
+        {
+          "actorID": "2492",
+          "targetID": "7675",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7675",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2635",
+          "targetID": "2295",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7672",
+          "hand": true
+        },
+        {
+          "actorID": "2635",
+          "targetID": "7672",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7672",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7674",
+          "newActorID": "239",
+          "newTargetID": "2493",
+          "hand": true
+        },
+        {
+          "actorID": "7674",
+          "targetID": "2493",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7673",
+          "hand": true
+        },
+        {
+          "actorID": "7674",
+          "targetID": "7673",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7673",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "6903",
+          "attributes": {
+            "name": {
+              "from": "Pile of Steel Rods",
+              "to": "Stack of Steel Rods"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "4b7f69796aee4e39faf152458ff813f0af833ade",
+      "message": "Added piston stacks",
+      "date": "2020-09-20T01:18:18.000Z",
+      "addedObjectIDs": [
+        "7670",
+        "7671"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7670",
+          "newTargetID": "7671",
+          "decay": "10s"
+        },
+        {
+          "actorID": "2286",
+          "targetID": "2287",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7670",
+          "hand": true
+        },
+        {
+          "actorID": "2286",
+          "targetID": "7670",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7670",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2289",
+          "newActorID": "239",
+          "newTargetID": "2287",
+          "hand": true
+        },
+        {
+          "actorID": "2289",
+          "targetID": "2287",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7670",
+          "hand": true
+        },
+        {
+          "actorID": "2289",
+          "targetID": "7670",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7670",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2290",
+          "targetID": "2291",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "7671",
+          "hand": true
+        },
+        {
+          "actorID": "2290",
+          "targetID": "7671",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "7671",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2291",
+          "newActorID": "2290",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7670",
+          "newTargetUses": "-1",
+          "newActorID": "2289",
+          "newTargetID": "7670",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7670",
+          "targetUses": "last",
+          "newActorID": "2289",
+          "newTargetID": "2287",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7671",
+          "newTargetUses": "-1",
+          "newActorID": "2290",
+          "newTargetID": "7671",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "7671",
+          "targetUses": "last",
+          "newActorID": "2290",
+          "newTargetID": "2291",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e81f65db77ed1c8a0ffa03197df2dd2fbcc2e750",
+      "message": "Beef can be cooked in oven",
+      "date": "2020-09-19T23:56:53.000Z",
+      "addedObjectIDs": [
+        "7669"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "6936",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "7669",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "01e5abb21a9d056c3261c7db64bcb75aab71853b",
+      "message": "Added tree stump pile",
+      "date": "2020-09-19T18:53:07.000Z",
+      "addedObjectIDs": [
+        "7666",
+        "7667",
+        "7668"
+      ]
+    },
+    {
+      "sha": "4e465c97f61427d2eb266f4c8b4f47bc550a7139",
+      "message": "Empty creates now stack",
+      "date": "2020-09-19T18:03:46.000Z",
+      "addedObjectIDs": [
+        "7664",
+        "7665"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7664",
+          "newActorID": "7293",
+          "newTargetID": "7293",
+          "hand": true
+        },
+        {
+          "targetID": "7665",
+          "newActorID": "7293",
+          "newTargetID": "7664",
+          "hand": true
+        },
+        {
+          "actorID": "7293",
+          "targetID": "7293",
+          "newTargetID": "7664",
+          "hand": true
+        },
+        {
+          "actorID": "7293",
+          "targetID": "7664",
+          "newTargetID": "7665",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a9533da3a382d35b65cd168d5b37f4b3d989e35b",
+      "message": "Goose can be placed and killed on all stumps",
+      "date": "2020-09-19T17:30:32.000Z",
+      "addedObjectIDs": [
+        "7654",
+        "7655",
+        "7656",
+        "7657",
+        "7658",
+        "7659",
+        "7660",
+        "7661",
+        "7662",
+        "7663"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7654",
+          "newTargetID": "1256",
+          "decay": "2s",
+          "move": 2
+        },
+        {
+          "targetID": "7655",
+          "newTargetID": "1272",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7656",
+          "newTargetID": "7390",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7657",
+          "newTargetID": "7658",
+          "decay": "2s"
+        },
+        {
+          "targetID": "7658",
+          "newTargetID": "7390",
+          "decay": "20s"
+        },
+        {
+          "targetID": "7659",
+          "newTargetID": "7389",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7660",
+          "newTargetID": "1272",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7661",
+          "newTargetID": "1256",
+          "decay": "2s",
+          "move": 2
+        },
+        {
+          "targetID": "7662",
+          "newTargetID": "7663",
+          "decay": "2s"
+        },
+        {
+          "targetID": "7663",
+          "newTargetID": "7389",
+          "decay": "20s"
+        },
+        {
+          "targetID": "1271",
+          "newActorID": "1273",
+          "newTargetID": "1274",
+          "hand": true
+        },
+        {
+          "targetID": "7655",
+          "newActorID": "1273",
+          "newTargetID": "7657",
+          "hand": true
+        },
+        {
+          "targetID": "7660",
+          "newActorID": "1273",
+          "newTargetID": "7662",
+          "hand": true
+        },
+        {
+          "actorID": "1267",
+          "targetID": "7389",
+          "newTargetID": "7661",
+          "hand": true
+        },
+        {
+          "actorID": "1267",
+          "targetID": "7390",
+          "newTargetID": "7654",
+          "hand": true
+        },
+        {
+          "actorID": "1272",
+          "targetID": "7657",
+          "newTargetID": "7655",
+          "hand": true
+        },
+        {
+          "actorID": "1272",
+          "targetID": "7662",
+          "newTargetID": "7660",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7654",
+          "newActorID": "334",
+          "newTargetID": "7655",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7661",
+          "newActorID": "334",
+          "newTargetID": "7660",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7654",
+          "newActorID": "7656",
+          "newTargetID": "1256",
+          "hand": true
+        },
+        {
+          "actorID": "7655",
+          "newActorID": "7657",
+          "newTargetID": "1272",
+          "hand": true
+        },
+        {
+          "actorID": "7660",
+          "newActorID": "7662",
+          "newTargetID": "1272",
+          "hand": true
+        },
+        {
+          "actorID": "7661",
+          "newActorID": "7659",
+          "newTargetID": "1256",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "20a0c01faf53d8009820cbf9c32bdff5e313996c",
+      "message": "Copper now cools down in tongs",
+      "date": "2020-09-19T16:19:08.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "4637",
+          "newTargetID": "4638",
+          "decay": "10s"
+        }
+      ]
+    },
+    {
+      "sha": "0a8fbeccc7ed41489568a2e9cddf97821719f538",
+      "message": "Added bone meal sack",
+      "date": "2020-09-19T15:25:13.000Z",
+      "addedObjectIDs": [
+        "7648",
+        "7649",
+        "7650",
+        "7651",
+        "7652",
+        "7653"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7653",
+          "newTargetID": "6616",
+          "decay": "1s"
+        },
+        {
+          "actorID": "235",
+          "targetID": "7648",
+          "newActorID": "7653",
+          "newTargetID": "7573",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7649",
+          "newActorID": "7653",
+          "newTargetID": "7648",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7650",
+          "newActorID": "7653",
+          "newTargetID": "7649",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7651",
+          "newActorID": "7653",
+          "newTargetID": "7650",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7652",
+          "newActorID": "7653",
+          "newTargetID": "7651",
+          "hand": true
+        },
+        {
+          "actorID": "6616",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7648",
+          "hand": true
+        },
+        {
+          "actorID": "6616",
+          "targetID": "7648",
+          "newActorID": "235",
+          "newTargetID": "7649",
+          "hand": true
+        },
+        {
+          "actorID": "6616",
+          "targetID": "7649",
+          "newActorID": "235",
+          "newTargetID": "7650",
+          "hand": true
+        },
+        {
+          "actorID": "6616",
+          "targetID": "7650",
+          "newActorID": "235",
+          "newTargetID": "7651",
+          "hand": true
+        },
+        {
+          "actorID": "6616",
+          "targetID": "7651",
+          "newActorID": "235",
+          "newTargetID": "7652",
+          "hand": true
+        },
+        {
+          "actorID": "7653",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "7648",
+          "hand": true
+        },
+        {
+          "actorID": "7653",
+          "targetID": "7648",
+          "newActorID": "235",
+          "newTargetID": "7649",
+          "hand": true
+        },
+        {
+          "actorID": "7653",
+          "targetID": "7649",
+          "newActorID": "235",
+          "newTargetID": "7650",
+          "hand": true
+        },
+        {
+          "actorID": "7653",
+          "targetID": "7650",
+          "newActorID": "235",
+          "newTargetID": "7651",
+          "hand": true
+        },
+        {
+          "actorID": "7653",
+          "targetID": "7651",
+          "newActorID": "235",
+          "newTargetID": "7652",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "bfa2681b40e327b3009e6711747bb4db3fa8f9da",
+      "message": "Added cotton seed bag",
+      "date": "2020-09-19T15:01:32.000Z",
+      "addedObjectIDs": [
+        "7647"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "6399",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7647",
+          "hand": true
+        },
+        {
+          "actorID": "6399",
+          "targetID": "7647",
+          "newTargetUses": "+1",
+          "newTargetID": "7647",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7647",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7647",
+          "newTargetID": "6408",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7647",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "6408",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "5582cda09afc1c33d13e94e5383762ac539982c0",
+      "message": "Added seed paper bags",
+      "date": "2020-09-19T01:40:57.000Z",
+      "addedObjectIDs": [
+        "7630",
+        "7631",
+        "7632",
+        "7633",
+        "7634",
+        "7635",
+        "7636",
+        "7637",
+        "7638",
+        "7639",
+        "7640",
+        "7641",
+        "7642",
+        "7643",
+        "7644",
+        "7645",
+        "7646"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7642",
+          "newTargetID": "7641",
+          "decay": "1m"
+        },
+        {
+          "targetID": "7645",
+          "newTargetID": "1619",
+          "decay": "30s"
+        },
+        {
+          "targetID": "7646",
+          "newTargetID": "382",
+          "decay": "1s"
+        },
+        {
+          "targetID": "1312",
+          "newTargetUses": "-1",
+          "newActorID": "1206",
+          "newTargetID": "1312",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "1312",
+          "targetUses": "last",
+          "newActorID": "1206",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "1119",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7632",
+          "hand": true
+        },
+        {
+          "actorID": "1119",
+          "targetID": "7632",
+          "newTargetUses": "+1",
+          "newTargetID": "7632",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1206",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7637",
+          "hand": true
+        },
+        {
+          "actorID": "1206",
+          "targetID": "7637",
+          "newTargetUses": "+1",
+          "newTargetID": "7637",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1253",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7636",
+          "hand": true
+        },
+        {
+          "actorID": "1253",
+          "targetID": "7636",
+          "newTargetUses": "+1",
+          "newTargetID": "7636",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1344",
+          "targetID": "1217",
+          "newActorID": "292",
+          "newTargetID": "7639",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "7644",
+          "newTargetID": "7630",
+          "hand": true
+        },
+        {
+          "actorID": "223",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7633",
+          "hand": true
+        },
+        {
+          "actorID": "223",
+          "targetID": "7633",
+          "newTargetUses": "+1",
+          "newTargetID": "7633",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7641",
+          "newTargetUses": "-1",
+          "newActorID": "7643",
+          "newTargetID": "7641",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "7641",
+          "targetUses": "last",
+          "newActorID": "7643",
+          "newTargetID": "1250",
+          "hand": true
+        },
+        {
+          "actorID": "2808",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7635",
+          "hand": true
+        },
+        {
+          "actorID": "2808",
+          "targetID": "7635",
+          "newTargetUses": "+1",
+          "newTargetID": "7635",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2830",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7631",
+          "hand": true
+        },
+        {
+          "actorID": "2830",
+          "targetID": "7631",
+          "newTargetUses": "+1",
+          "newTargetID": "7631",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2849",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7634",
+          "hand": true
+        },
+        {
+          "actorID": "2849",
+          "targetID": "7634",
+          "newTargetUses": "+1",
+          "newTargetID": "7634",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "7639",
+          "newActorID": "394",
+          "newTargetID": "7640",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "395",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7638",
+          "hand": true
+        },
+        {
+          "actorID": "395",
+          "targetID": "7638",
+          "newTargetUses": "+1",
+          "newTargetID": "7638",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7631",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7631",
+          "newTargetID": "2829",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7631",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "2829",
+          "hand": true
+        },
+        {
+          "actorID": "7632",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7632",
+          "newTargetID": "1109",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7632",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "1109",
+          "hand": true
+        },
+        {
+          "actorID": "7633",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7633",
+          "newTargetID": "228",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7633",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "228",
+          "hand": true
+        },
+        {
+          "actorID": "7634",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7634",
+          "newTargetID": "2856",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7634",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "2856",
+          "hand": true
+        },
+        {
+          "actorID": "7635",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7635",
+          "newTargetID": "2839",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7635",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "2839",
+          "hand": true
+        },
+        {
+          "actorID": "7636",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7636",
+          "newTargetID": "1192",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7636",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "1192",
+          "hand": true
+        },
+        {
+          "actorID": "7637",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7637",
+          "newTargetID": "1207",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7637",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "1207",
+          "hand": true
+        },
+        {
+          "actorID": "7638",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7638",
+          "newTargetID": "396",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7638",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "396",
+          "hand": true
+        },
+        {
+          "actorID": "7640",
+          "targetID": "85",
+          "newTargetID": "7642",
+          "hand": true
+        },
+        {
+          "actorID": "7643",
+          "targetID": "1619",
+          "newActorID": "7643",
+          "newTargetID": "7644",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7643",
+          "targetID": "1619",
+          "newActorID": "235",
+          "newTargetID": "7644",
+          "hand": true
+        },
+        {
+          "actorID": "7644",
+          "targetID": "1619",
+          "newTargetID": "7630",
+          "hand": true
+        },
+        {
+          "actorID": "7644",
+          "targetID": "382",
+          "newActorID": "7645",
+          "newTargetID": "7646",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "dd559c014cedaddee399c23e74e2950947038ed6",
+      "message": "Added missing copper transitions",
+      "date": "2020-09-18T01:03:51.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "4541",
+          "newTargetID": "2514",
+          "decay": "10s"
+        },
+        {
+          "actorID": "239",
+          "targetID": "4646",
+          "newActorID": "4638",
+          "newTargetID": "291",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "beffa0d144d39fdc70fc754c18e3275b8f313430",
+      "message": "Removed rose bushes from pattern and created their own transitions",
+      "date": "2020-09-17T23:50:32.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "1027",
+          "newTargetID": "1028",
+          "decay": "30s"
+        },
+        {
+          "targetID": "1029",
+          "newTargetID": "1030",
+          "decay": "30s"
+        },
+        {
+          "targetID": "1043",
+          "newTargetID": "1044",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1044",
+          "newTargetID": "1056",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1046",
+          "newTargetID": "1047",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1047",
+          "newTargetID": "1055",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1057",
+          "newTargetID": "1059",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1058",
+          "newTargetID": "1060",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1028",
+          "newActorID": "1031",
+          "newTargetID": "1021",
+          "hand": true
+        },
+        {
+          "targetID": "1030",
+          "newActorID": "1032",
+          "newTargetID": "1021",
+          "hand": true
+        },
+        {
+          "targetID": "1059",
+          "newTargetUses": "-1",
+          "newActorID": "1051",
+          "newTargetID": "1059",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "1059",
+          "targetUses": "last",
+          "newActorID": "1053",
+          "newTargetID": "1056",
+          "hand": true
+        },
+        {
+          "targetID": "1060",
+          "newTargetUses": "-1",
+          "newActorID": "1052",
+          "newTargetID": "1060",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "1060",
+          "targetUses": "last",
+          "newActorID": "1054",
+          "newTargetID": "1055",
+          "hand": true
+        },
+        {
+          "actorID": "1025",
+          "targetID": "1021",
+          "newTargetID": "1027",
+          "hand": true
+        },
+        {
+          "actorID": "1026",
+          "targetID": "1021",
+          "newTargetID": "1029",
+          "hand": true
+        },
+        {
+          "actorID": "1031",
+          "targetID": "213",
+          "newTargetID": "1042",
+          "hand": true
+        },
+        {
+          "actorID": "1032",
+          "targetID": "213",
+          "newTargetID": "1045",
+          "hand": true
+        },
+        {
+          "actorID": "1040",
+          "targetID": "1021",
+          "newTargetID": "1027",
+          "hand": true
+        },
+        {
+          "actorID": "1041",
+          "targetID": "1021",
+          "newTargetID": "1029",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "1055",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "1056",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "1042",
+          "newActorID": "394",
+          "newTargetID": "1043",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "1045",
+          "newActorID": "394",
+          "newTargetID": "1046",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "1055",
+          "newActorID": "394",
+          "newTargetID": "1058",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "1056",
+          "newActorID": "394",
+          "newTargetID": "1057",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "1053",
+          "newActorID": "964",
+          "newTargetID": "1040",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "1054",
+          "newActorID": "964",
+          "newTargetID": "1041",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        },
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "c558281f31eb08f603be6c99b0487180e1d3dfec",
+      "message": "Added remaining rose hat transitions",
+      "date": "2020-09-17T23:22:42.000Z",
+      "addedObjectIDs": [
+        "7627",
+        "7628",
+        "7629"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1036",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "7628",
+          "hand": true
+        },
+        {
+          "actorID": "1051",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "7627",
+          "hand": true
+        },
+        {
+          "actorID": "1052",
+          "targetID": "2897",
+          "newActorID": "3525",
+          "newTargetID": "2897",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1052",
+          "targetID": "2898",
+          "newActorID": "3524",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "1052",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "7629",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3516",
+          "name": "@ Roseless Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "7627",
+          "name": "@ Red Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "7628",
+          "name": "@ Pink Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "7629",
+          "name": "@ White Rose Hat Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "62baa633eacb14bfeba1cafe20713af49c9d5a5c",
+      "message": "Copied over rose hats, need transitions for red, pink and white",
+      "date": "2020-09-17T01:36:01.000Z",
+      "addedObjectIDs": [
+        "3461",
+        "3462",
+        "3463",
+        "3464",
+        "3465",
+        "3466",
+        "3467",
+        "3468",
+        "3469",
+        "3470",
+        "3471",
+        "3472",
+        "3473",
+        "3474",
+        "3475",
+        "3476",
+        "3477",
+        "3478",
+        "3479",
+        "3480",
+        "3481",
+        "3482",
+        "3483",
+        "3484",
+        "3485",
+        "3487",
+        "3488",
+        "3489",
+        "3490",
+        "3492",
+        "3493",
+        "3494",
+        "3495",
+        "3496",
+        "3497",
+        "3498",
+        "3499",
+        "3500",
+        "3501",
+        "3502",
+        "3503",
+        "3504",
+        "3505",
+        "3506",
+        "3507",
+        "3508",
+        "3509",
+        "3510",
+        "3516",
+        "3519",
+        "3523",
+        "3524",
+        "3525",
+        "3526",
+        "3527",
+        "3528",
+        "3529",
+        "3530",
+        "3531",
+        "3532",
+        "3533",
+        "3534",
+        "3535",
+        "3536",
+        "3537",
+        "3538",
+        "3539",
+        "3540",
+        "3541",
+        "3542",
+        "3543",
+        "3544",
+        "3545",
+        "3546",
+        "3547",
+        "3548",
+        "3549",
+        "3550",
+        "3551",
+        "3552",
+        "3553",
+        "3554",
+        "3555",
+        "3556",
+        "3557",
+        "3558",
+        "3559",
+        "3560",
+        "3561",
+        "3562",
+        "3563",
+        "3564"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1093",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3519",
+          "hand": true
+        },
+        {
+          "actorID": "3523",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3556",
+          "hand": true
+        },
+        {
+          "actorID": "3524",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3557",
+          "hand": true
+        },
+        {
+          "actorID": "3525",
+          "targetID": "3516",
+          "newTargetUses": "-1",
+          "newTargetID": "3558",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3516",
+          "name": "@ Roseless Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3519",
+          "name": "@ Blue Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3556",
+          "name": "@ Black Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3557",
+          "name": "@ Green Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3558",
+          "name": "@ Yellow Rose Hat Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "5189bd748877fa27f174af30acbc727ed77652a3",
+      "message": "Can now stack clay items with tongs",
+      "date": "2020-09-17T00:22:09.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "241",
+          "targetID": "1602",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "1602",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "241",
+          "targetID": "236",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "1602",
+          "hand": true
+        },
+        {
+          "actorID": "283",
+          "targetID": "1603",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "1603",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "283",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "1603",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "28288b9b8f8785bf469dee84447fe103b306f32e",
+      "message": "Added wild produce to crates",
+      "date": "2020-09-16T23:19:34.000Z",
+      "addedObjectIDs": [
+        "7609",
+        "7610",
+        "7611",
+        "7612",
+        "7613",
+        "7614",
+        "7615",
+        "7616",
+        "7617",
+        "7618",
+        "7619",
+        "7620",
+        "7621",
+        "7622",
+        "7623",
+        "7624"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7611",
+          "newActorID": "7610",
+          "newTargetID": "7610",
+          "hand": true
+        },
+        {
+          "targetID": "7612",
+          "newActorID": "7610",
+          "newTargetID": "7611",
+          "hand": true
+        },
+        {
+          "targetID": "7615",
+          "newActorID": "7613",
+          "newTargetID": "7613",
+          "hand": true
+        },
+        {
+          "targetID": "7616",
+          "newActorID": "7613",
+          "newTargetID": "7615",
+          "hand": true
+        },
+        {
+          "targetID": "7619",
+          "newActorID": "7617",
+          "newTargetID": "7617",
+          "hand": true
+        },
+        {
+          "targetID": "7620",
+          "newActorID": "7617",
+          "newTargetID": "7619",
+          "hand": true
+        },
+        {
+          "targetID": "7623",
+          "newActorID": "7621",
+          "newTargetID": "7621",
+          "hand": true
+        },
+        {
+          "targetID": "7624",
+          "newActorID": "7621",
+          "newTargetID": "7623",
+          "hand": true
+        },
+        {
+          "actorID": "7610",
+          "targetID": "7610",
+          "newTargetID": "7611",
+          "hand": true
+        },
+        {
+          "actorID": "7610",
+          "targetID": "7611",
+          "newTargetID": "7612",
+          "hand": true
+        },
+        {
+          "actorID": "7613",
+          "targetID": "7613",
+          "newTargetID": "7615",
+          "hand": true
+        },
+        {
+          "actorID": "7613",
+          "targetID": "7615",
+          "newTargetID": "7616",
+          "hand": true
+        },
+        {
+          "actorID": "7617",
+          "targetID": "7617",
+          "newTargetID": "7619",
+          "hand": true
+        },
+        {
+          "actorID": "7617",
+          "targetID": "7619",
+          "newTargetID": "7620",
+          "hand": true
+        },
+        {
+          "actorID": "7621",
+          "targetID": "7621",
+          "newTargetID": "7623",
+          "hand": true
+        },
+        {
+          "actorID": "7621",
+          "targetID": "7623",
+          "newTargetID": "7624",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "da7fc3e6423828f20f7f41a81ad66bbddf7097d6",
+      "message": "Skewers now give 3 letter stocks",
+      "date": "2020-09-12T21:54:01.000Z",
+      "addedObjectIDs": [
+        "7607",
+        "7608"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7608",
+          "newTargetID": "7607",
+          "decay": "1s"
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "853",
+          "newTargetUses": "-1",
+          "newActorID": "964",
+          "newTargetID": "7608",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "853",
+          "newTargetUses": "-1",
+          "newActorID": "964",
+          "newTargetID": "946",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "853",
+          "name": "@ Non-tilling Stick",
+          "category": true
+        },
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8c27cd34e897deaf08e3eadf8326abc101ac7e64",
+      "message": "Singular crates are classed as a large item not extra large",
+      "date": "2020-09-12T19:45:26.000Z"
+    },
+    {
+      "sha": "ce283e216bb62f4b88ba4050a2c8585cb79ccee1",
+      "message": "Fixed wrong and missing crate objects",
+      "date": "2020-09-12T14:34:39.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7512",
+          "newActorID": "7510",
+          "newTargetID": "7510",
+          "hand": true
+        },
+        {
+          "targetID": "7513",
+          "newActorID": "7510",
+          "newTargetID": "7512",
+          "hand": true
+        },
+        {
+          "targetID": "7521",
+          "newActorID": "7519",
+          "newTargetID": "7519",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7512",
+          "newActorID": "7511",
+          "newTargetID": "7511",
+          "hand": true
+        },
+        {
+          "targetID": "7513",
+          "newActorID": "7511",
+          "newTargetID": "7512",
+          "hand": true
+        },
+        {
+          "targetID": "7521",
+          "newActorID": "7519",
+          "newTargetID": "7520",
+          "hand": true
+        }
+      ]
+    }
+  ]
+}

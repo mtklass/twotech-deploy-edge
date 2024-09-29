@@ -1,0 +1,170 @@
+{
+  "id": "265",
+  "date": "2019-09-20T20:52:49.000Z",
+  "commits": [
+    {
+      "sha": "c4afc1abffb6b8e5fa32a3dd56c4596888e4044d",
+      "message": "Taking down a stone wall no longer destroys pick.  Fixes #445",
+      "date": "2019-09-20T20:40:08.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "1318",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "684",
+          "newTargetID": "1853",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "684",
+          "targetID": "1318",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "858",
+          "newTargetID": "1853",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1318",
+          "name": "@ Young Stone Wall",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "a356c6b0e7dde0c315416adcd90b57419f60b10a",
+      "message": "Visual indication of status of held partial buckets (which used to look just like empty buckets).  Fixes #446",
+      "date": "2019-09-20T20:35:51.000Z"
+    },
+    {
+      "sha": "39a8309eb15e96467dbbfdd99fa2fa8912354bc2",
+      "message": "You can eat cooked beans straight.  Fixes #449",
+      "date": "2019-09-20T20:14:40.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1292",
+          "newActorID": "235",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "58933b12f05a68a6c1af916ec350d5586d023d38",
+      "message": "Can use backpack to put soil on mango tree.  Fixes #386",
+      "date": "2019-09-20T19:30:31.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "212",
+          "targetID": "1876",
+          "newActorID": "198",
+          "newTargetID": "1922",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "d88851750b4cb20c4ed229f82a4dc2423a30f1f1",
+      "message": "Okay, I cry Uncle.  Backpack never decays.  Fixes #453",
+      "date": "2019-09-20T19:27:04.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "198",
+          "newTargetID": "874",
+          "decay": "5h"
+        },
+        {
+          "targetID": "212",
+          "newTargetID": "874",
+          "decay": "5h"
+        },
+        {
+          "targetID": "874",
+          "decay": "30m"
+        }
+      ]
+    },
+    {
+      "sha": "6e05301de852ccfbd4ca00a06c2a4f88834fb9a6",
+      "message": "Made loom parts containable.  Fixes #457",
+      "date": "2019-09-20T19:07:12.000Z"
+    },
+    {
+      "sha": "c55c4cc0dde13fec68c8fb56b389e9693bcd8586",
+      "message": "Raw rubber tire, and rubber belts in various forms, containable.  Fixes #460",
+      "date": "2019-09-20T18:54:22.000Z"
+    },
+    {
+      "sha": "1f0914b8ebaa823383891c298866ed9523c8a51a",
+      "message": "Can remove turkey from plate.  Fixes #461",
+      "date": "2019-09-20T18:48:25.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2183",
+          "newActorID": "2182",
+          "newTargetID": "236",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e1564a374fb93465e69ce4eaf3ce07a8a11dcc3b",
+      "message": "Can remove rabbit from bowl.  Fixes #236",
+      "date": "2019-09-18T23:26:11.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "254",
+          "newActorID": "181",
+          "newTargetID": "235",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c0c57d79f4934bd8ec5c0adb261713a4ab18fd3d",
+      "message": "Can no longer scrap lock and key blank (they can be separated and scrapped separately).  Fixes #232",
+      "date": "2019-09-18T23:23:44.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "911",
+          "targetID": "3076",
+          "newTargetID": "495",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "ba9b2da6a010710077855a18c2de2fccf1593d96",
+      "message": "Staked languishing bushes now look languishing.  Fixes #214",
+      "date": "2019-09-18T23:03:14.000Z"
+    },
+    {
+      "sha": "750a42fd3857f0cc483fc113057692a673a66632",
+      "message": "Fixed puppies getting stuck when fed on last two transitions.  Fixes #51",
+      "date": "2019-09-18T22:44:52.000Z"
+    },
+    {
+      "sha": "0dd53ccbd95a3015964bf2e0b8bf69dfd55c9742",
+      "message": "Fixed so that you can't add things to slots in DIE-baby graves.",
+      "date": "2019-09-18T03:06:12.000Z",
+      "objectChanges": [
+        {
+          "id": "3053",
+          "attributes": {
+            "name": {
+              "from": "Baby Bone Pile -  origGrave justDied",
+              "to": "Baby Bone Pile -  origGrave justDied fromDeath"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

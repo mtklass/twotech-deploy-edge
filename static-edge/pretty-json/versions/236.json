@@ -1,0 +1,137 @@
+{
+  "id": "236",
+  "date": "2019-05-30T01:51:14.000Z",
+  "commits": [
+    {
+      "sha": "dd8485e563c9cc7202988c2d93c7ae0d1834368d",
+      "message": "Scenes for gif.",
+      "date": "2019-05-30T01:33:01.000Z"
+    },
+    {
+      "sha": "77e555b026944fa1ae8cdbd07042d13d57df8e18",
+      "message": "Forgot to make bowl of butter containable.  Working on scene for gif.",
+      "date": "2019-05-30T01:27:50.000Z"
+    },
+    {
+      "sha": "2dbb7de93e4a6c475c8cbe61e0d701e69b221504",
+      "message": "What the heck... baskets don't decay at all, while we're at it.",
+      "date": "2019-05-30T00:04:42.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "1605",
+          "newTargetID": "1848",
+          "decay": "12h"
+        },
+        {
+          "targetID": "929",
+          "newTargetUses": "-1",
+          "newTargetID": "845",
+          "decay": "12h"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "929",
+          "name": "@ Decaying Basket",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "86cb6988e8de97cb315330989f9144c94554828f",
+      "message": "Added slot-box for small items than can hold 10 with no sub-containers.",
+      "date": "2019-05-30T00:02:11.000Z",
+      "addedObjectIDs": [
+        "3064",
+        "3065"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "461",
+          "newActorUses": "-1",
+          "newActorWeight": 0.2,
+          "targetID": "434",
+          "newActorID": "461",
+          "newTargetID": "3064",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "58",
+          "targetID": "3064",
+          "newTargetID": "3065",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "2a7714e1ebcbb7fa2c5cca37c6769f8868c0769f",
+      "message": "66 bowls of stuff are now containable when they didn't used to be.  The logic is that anything non-liquid in a bowl means that bowl can go in a larger container.",
+      "date": "2019-05-29T22:52:24.000Z"
+    },
+    {
+      "sha": "c687c73d83f404c8cdf67f86f7560260f7840f00",
+      "message": "Baskets last 2 more hours (12 total) before decaying.  Alternative path to basket making using thread.  If you're making baskets using straw, this produces half as much excess wheat in the process.  Straw and Tule bundles don't decay (decayed on only 6 minutes before, whoops).",
+      "date": "2019-05-29T19:39:11.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "1605",
+          "newTargetID": "1848",
+          "decay": "12h"
+        },
+        {
+          "targetID": "929",
+          "newTargetUses": "-1",
+          "newTargetID": "845",
+          "decay": "12h"
+        },
+        {
+          "actorID": "58",
+          "targetID": "123",
+          "newTargetID": "1927",
+          "hand": true
+        },
+        {
+          "actorID": "58",
+          "targetID": "124",
+          "newTargetID": "292",
+          "hand": true
+        },
+        {
+          "actorID": "58",
+          "targetID": "227",
+          "newTargetID": "292",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "124",
+          "decay": "4m"
+        },
+        {
+          "targetID": "1605",
+          "newTargetID": "1848",
+          "decay": "10h"
+        },
+        {
+          "targetID": "227",
+          "decay": "4m"
+        },
+        {
+          "targetID": "929",
+          "newTargetUses": "-1",
+          "newTargetID": "845",
+          "decay": "10h"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "929",
+          "name": "@ Decaying Basket",
+          "category": true
+        }
+      ]
+    }
+  ]
+}

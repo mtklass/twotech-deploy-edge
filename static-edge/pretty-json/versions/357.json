@@ -1,0 +1,698 @@
+{
+  "id": "357",
+  "date": "2020-09-19T03:27:23.000Z",
+  "commits": [
+    {
+      "sha": "430031b709bacda670a5942bfcf108275609cf12",
+      "message": "Scenes for update image.",
+      "date": "2020-09-19T02:52:09.000Z"
+    },
+    {
+      "sha": "5611f2b5ab5ed1ff2b05efb6615447570dcf02be",
+      "message": "All powered land vehicles can smash snakes (trucks and sports cars).",
+      "date": "2020-09-19T01:46:27.000Z",
+      "addedObjectIDs": [
+        "4725"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "4725",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "targetID": "764",
+          "newActorID": "4725",
+          "newTargetID": "2401",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4725",
+          "name": "@ Any powered driving vehicle",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8e841cdb62d84d56cb2f63472c8f5ea93c467c60",
+      "message": "White car.",
+      "date": "2020-09-19T01:41:04.000Z",
+      "addedObjectIDs": [
+        "4715",
+        "4716",
+        "4717",
+        "4718",
+        "4719",
+        "4720",
+        "4721",
+        "4722",
+        "4723",
+        "4724"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1903",
+          "targetID": "4652",
+          "newActorID": "659",
+          "newTargetID": "4715",
+          "hand": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4715",
+          "newActorID": "455",
+          "newTargetID": "4656",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4715",
+          "targetID": "4662",
+          "newTargetID": "4716",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4656",
+          "name": "Stack of Sheet Metal -  paint scraped",
+          "category": false
+        },
+        {
+          "id": "4723",
+          "name": "Seatless White Sports Car",
+          "category": false
+        },
+        {
+          "id": "4724",
+          "name": "Unnumbered White Sports Car",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "2c4360bbc1354d072b8edf82cdbffe4b80d747ea",
+      "message": "Fixed so that other colors of sheet metal can't make red truck body.",
+      "date": "2020-09-19T01:28:55.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4675",
+          "newActorID": "455",
+          "newTargetID": "4656",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4676",
+          "newActorID": "455",
+          "newTargetID": "4656",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4677",
+          "newActorID": "455",
+          "newTargetID": "4656",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4678",
+          "newActorID": "455",
+          "newTargetID": "4656",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4675",
+          "targetID": "4662",
+          "newTargetID": "4679",
+          "hand": true
+        },
+        {
+          "actorID": "4676",
+          "targetID": "4662",
+          "newTargetID": "4688",
+          "hand": true
+        },
+        {
+          "actorID": "4677",
+          "targetID": "4662",
+          "newTargetID": "4697",
+          "hand": true
+        },
+        {
+          "actorID": "4678",
+          "targetID": "4662",
+          "newTargetID": "4706",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4656",
+          "name": "Stack of Sheet Metal -  paint scraped",
+          "category": false
+        },
+        {
+          "id": "4688",
+          "name": "Green Sports Car Body",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "6d96a5823eac2c3cd9cf89755ade03d03a3702d9",
+      "message": "Black car in and working great.  All car colors tested and working.",
+      "date": "2020-09-18T21:08:48.000Z",
+      "addedObjectIDs": [
+        "4706",
+        "4707",
+        "4708",
+        "4709",
+        "4710",
+        "4711",
+        "4712",
+        "4713",
+        "4714"
+      ]
+    },
+    {
+      "sha": "ad77d9cee372a24a09bdfb79ce23a94d9b559079",
+      "message": "Yellow car in place and working.",
+      "date": "2020-09-18T20:57:45.000Z",
+      "addedObjectIDs": [
+        "4697",
+        "4698",
+        "4699",
+        "4700",
+        "4701",
+        "4702",
+        "4703",
+        "4704",
+        "4705"
+      ],
+      "legacyObjects": [
+        {
+          "id": "4705",
+          "name": "Unnumbered Yellow Sports Car",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7874e7766040adfd238f3ed91a1aee90590667e6",
+      "message": "Green car in and working.",
+      "date": "2020-09-18T20:42:30.000Z",
+      "addedObjectIDs": [
+        "4688",
+        "4689",
+        "4690",
+        "4691",
+        "4692",
+        "4693",
+        "4694",
+        "4695",
+        "4696"
+      ],
+      "legacyObjects": [
+        {
+          "id": "4688",
+          "name": "Green Sports Car Body",
+          "category": false
+        },
+        {
+          "id": "4689",
+          "name": "Green Sports Car $30 -  justFueled +varNumeral",
+          "category": false
+        },
+        {
+          "id": "4690",
+          "name": "Green Sports Car $30 -  driving +varNumeral",
+          "category": false
+        },
+        {
+          "id": "4691",
+          "name": "Empty Tank Green Sports Car $30 -  driving +varNumeral",
+          "category": false
+        },
+        {
+          "id": "4692",
+          "name": "Unfueled Green Sports Car $30 -  +varNumeral +varSerialNumber1 justBuilt",
+          "category": false
+        },
+        {
+          "id": "4693",
+          "name": "Green Sports Car $30 -  +varNumeral",
+          "category": false
+        },
+        {
+          "id": "4694",
+          "name": "Unfueled Green Sports Car $30 -  +varNumeral",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "16c47cf0b40ebd3bc9f256eaef2895b5547be9a3",
+      "message": "Truck door handle.",
+      "date": "2020-09-18T20:31:59.000Z"
+    },
+    {
+      "sha": "3ed50aa798cc59e2d811580f070c625085c30d4b",
+      "message": "Windshield easier to click.",
+      "date": "2020-09-18T20:28:52.000Z"
+    },
+    {
+      "sha": "c202f0a46df12d5116af86d8e2a3c2fd7c10283a",
+      "message": "Red and blue car share same serial number sequence.",
+      "date": "2020-09-18T20:21:26.000Z",
+      "objectChanges": [
+        {
+          "id": "4673",
+          "attributes": {
+            "name": {
+              "from": "Unfueled Red Sports Car $30 -  +varNumeral +varSerialNumber justBuilt",
+              "to": "Unfueled Red Sports Car $30 -  +varNumeral +varSerialNumber1 justBuilt"
+            }
+          }
+        },
+        {
+          "id": "4683",
+          "attributes": {
+            "name": {
+              "from": "Unfueled Blue Sports Car $30 -  +varNumeral +varSerialNumber justBuilt",
+              "to": "Unfueled Blue Sports Car $30 -  +varNumeral +varSerialNumber1 justBuilt"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "01e6e3524ab29b546b0aaba853084dafe534f6bc",
+      "message": "Blue car working through pattern from red car.",
+      "date": "2020-09-18T20:07:36.000Z",
+      "addedObjectIDs": [
+        "4675",
+        "4676",
+        "4677",
+        "4678",
+        "4679",
+        "4680",
+        "4681",
+        "4682",
+        "4683",
+        "4684",
+        "4685",
+        "4686",
+        "4687"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1904",
+          "targetID": "4652",
+          "newActorID": "659",
+          "newTargetID": "4675",
+          "hand": true
+        },
+        {
+          "actorID": "1906",
+          "targetID": "4652",
+          "newActorID": "659",
+          "newTargetID": "4677",
+          "hand": true
+        },
+        {
+          "actorID": "3022",
+          "targetID": "4652",
+          "newActorID": "659",
+          "newTargetID": "4678",
+          "hand": true
+        },
+        {
+          "actorID": "3863",
+          "targetID": "4652",
+          "newActorID": "659",
+          "newTargetID": "4676",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3863",
+          "name": "Bucket of Green Paint",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "5cd60c8a79da2e6da5a77fa7b82ad5c49c7fd5c0",
+      "message": "Fixed truck fueling and painting sounds, and truck and car driven out of fuel sounds.  Car tested and completely working.",
+      "date": "2020-09-18T19:28:59.000Z",
+      "addedObjectIDs": [
+        "4674"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4674",
+          "newTargetID": "4643",
+          "decay": "1s"
+        },
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "4643",
+          "newActorID": "2302",
+          "newTargetID": "4658",
+          "hand": true
+        },
+        {
+          "actorID": "3022",
+          "targetID": "4649",
+          "newActorID": "659",
+          "newTargetID": "4674",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "4643",
+          "newActorID": "2302",
+          "newTargetID": "4654",
+          "hand": true
+        },
+        {
+          "actorID": "3022",
+          "targetID": "4649",
+          "newActorID": "659",
+          "newTargetID": "4643",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4654",
+          "name": "Delivery Truck -  +slotsInvis",
+          "category": false
+        },
+        {
+          "id": "4658",
+          "name": "Delivery Truck -  +slotsInvis justFueled",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "ae534105b93ac3d49210377a49ed2dd6a57edd8d",
+      "message": "Red sports car working fully, including serial numbers.",
+      "date": "2020-09-18T19:04:49.000Z",
+      "addedObjectIDs": [
+        "4670",
+        "4671",
+        "4672",
+        "4673"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4659",
+          "newTargetID": "4670",
+          "decay": "1h"
+        },
+        {
+          "targetID": "4660",
+          "newTargetID": "4672",
+          "decay": "1h"
+        },
+        {
+          "targetID": "4671",
+          "newTargetID": "4659",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4673",
+          "newTargetID": "4670",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1903",
+          "targetID": "4668",
+          "newActorID": "659",
+          "newTargetID": "4673",
+          "hand": true
+        },
+        {
+          "actorID": "2343",
+          "newActorUses": "-1",
+          "targetID": "4670",
+          "newActorID": "2343",
+          "newTargetID": "4671",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "4670",
+          "newActorID": "2302",
+          "newTargetID": "4671",
+          "hand": true
+        },
+        {
+          "actorID": "4657",
+          "newTargetID": "4643",
+          "hand": true
+        },
+        {
+          "actorID": "4672",
+          "newTargetID": "4670",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "4659",
+          "attributes": {
+            "name": {
+              "from": "Red Sports Car",
+              "to": "Red Sports Car $30 -  +varNumeral"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4657",
+          "name": "Empty Tank Delivery Truck -  +slotsInvis driving",
+          "category": false
+        },
+        {
+          "id": "4659",
+          "name": "Red Sports Car $30 -  +varNumeral",
+          "category": false
+        },
+        {
+          "id": "4670",
+          "name": "Unfueled Red Sports Car $30 -  +varNumeral",
+          "category": false
+        },
+        {
+          "id": "4672",
+          "name": "Empty Tank Red Sports Car $30 -  driving +varNumeral",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "4d1b937046aaff7b5bd02df966f928d74a3c8605",
+      "message": "Fixed wayward numeral 5",
+      "date": "2020-09-18T02:15:36.000Z"
+    },
+    {
+      "sha": "ec4099fc5365938244327e8ca9a93851400838d0",
+      "message": "Car numeral content in place.",
+      "date": "2020-09-18T01:13:20.000Z",
+      "objectChanges": [
+        {
+          "id": "4660",
+          "attributes": {
+            "name": {
+              "from": "Red Sports Car -  driving",
+              "to": "Red Sports Car $30 -  driving +varNumeral"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ea54322b1ecd6e7582d5ba4ae2b431a07e759f00",
+      "message": "Sports car construction transitions and driving animation working.  Next:  numbering, and color variations.",
+      "date": "2020-09-16T01:05:25.000Z",
+      "addedObjectIDs": [
+        "4660",
+        "4661",
+        "4662",
+        "4663",
+        "4664",
+        "4665",
+        "4666",
+        "4667",
+        "4668"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4659",
+          "newActorID": "4660",
+          "hand": true
+        },
+        {
+          "targetID": "4661",
+          "newActorID": "4641",
+          "newTargetID": "2297",
+          "hand": true
+        },
+        {
+          "targetID": "4662",
+          "newActorID": "2365",
+          "newTargetID": "4661",
+          "hand": true
+        },
+        {
+          "targetID": "4665",
+          "newActorID": "2575",
+          "newTargetID": "4663",
+          "hand": true
+        },
+        {
+          "actorID": "2365",
+          "targetID": "4661",
+          "newTargetID": "4662",
+          "hand": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4664",
+          "newActorID": "455",
+          "newTargetID": "4665",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3339",
+          "newActorID": "458",
+          "newTargetID": "4664",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4641",
+          "targetID": "2297",
+          "newTargetID": "4661",
+          "hand": true
+        },
+        {
+          "actorID": "4653",
+          "targetID": "4662",
+          "newTargetID": "4666",
+          "hand": true
+        },
+        {
+          "actorID": "4660",
+          "newTargetID": "4659",
+          "hand": true
+        },
+        {
+          "actorID": "4663",
+          "targetID": "4666",
+          "newTargetID": "4667",
+          "hand": true
+        },
+        {
+          "actorID": "564",
+          "targetID": "4667",
+          "newTargetID": "4668",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "4659",
+          "attributes": {
+            "name": {
+              "from": "Sports Car",
+              "to": "Red Sports Car"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4653",
+          "name": "Stack of Red Sheet Metal",
+          "category": false
+        },
+        {
+          "id": "4659",
+          "name": "Red Sports Car",
+          "category": false
+        },
+        {
+          "id": "4661",
+          "name": "Sports Car Chassis",
+          "category": false
+        },
+        {
+          "id": "4663",
+          "name": "Car Windshield",
+          "category": false
+        },
+        {
+          "id": "4664",
+          "name": "Blowpipe With Cool Windshield",
+          "category": false
+        },
+        {
+          "id": "4665",
+          "name": "Blowpipe With Windshield",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "649e5fbc05c02ce9f2f8154fb3a8c3067b40cba4",
+      "message": "Sportscar sprites and initial layout.",
+      "date": "2020-09-15T20:47:47.000Z",
+      "addedObjectIDs": [
+        "4659"
+      ],
+      "legacyObjects": [
+        {
+          "id": "4659",
+          "name": "Sports Car",
+          "category": false
+        }
+      ]
+    }
+  ]
+}

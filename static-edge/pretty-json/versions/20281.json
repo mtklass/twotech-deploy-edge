@@ -1,0 +1,811 @@
+{
+  "id": "20281",
+  "date": "2021-03-14T14:00:11.000Z",
+  "commits": [
+    {
+      "sha": "557e8feb4ca6165dcdfb4001996c36c46e3d8639",
+      "message": "Removed medic bag creation for now",
+      "date": "2021-03-14T13:53:23.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "192",
+          "targetID": "8606",
+          "newTargetID": "8604",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "0c31bc637327bac12b8473af1ed10961c003545a",
+      "message": "Medic Bag",
+      "date": "2021-03-14T03:24:41.000Z",
+      "addedObjectIDs": [
+        "8603",
+        "8604",
+        "8605",
+        "8606",
+        "8607"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8603",
+          "newActorID": "8604",
+          "newTargetID": "6633",
+          "hand": true
+        },
+        {
+          "targetID": "8605",
+          "newActorID": "8604",
+          "newTargetID": "198",
+          "hand": true
+        },
+        {
+          "targetID": "8606",
+          "newActorID": "1378",
+          "newTargetID": "8340",
+          "hand": true
+        },
+        {
+          "actorID": "1377",
+          "targetID": "5164",
+          "newTargetID": "4546",
+          "hand": true
+        },
+        {
+          "actorID": "1378",
+          "targetID": "8340",
+          "newTargetID": "8606",
+          "hand": true
+        },
+        {
+          "actorID": "192",
+          "targetID": "8606",
+          "newTargetID": "8604",
+          "hand": true
+        },
+        {
+          "actorID": "8603",
+          "targetID": "8607",
+          "hand": true
+        },
+        {
+          "actorID": "8604",
+          "targetID": "198",
+          "newTargetID": "8605",
+          "hand": true
+        },
+        {
+          "actorID": "8604",
+          "targetID": "6633",
+          "newTargetID": "8603",
+          "hand": true
+        },
+        {
+          "actorID": "8604",
+          "targetID": "8607",
+          "hand": true
+        },
+        {
+          "actorID": "8605",
+          "targetID": "8607",
+          "hand": true
+        },
+        {
+          "actorID": "8607",
+          "targetID": "8603",
+          "newTargetID": "6633",
+          "hand": true
+        },
+        {
+          "actorID": "8607",
+          "targetID": "8604",
+          "hand": true
+        },
+        {
+          "actorID": "8607",
+          "targetID": "8605",
+          "newTargetID": "198",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8607",
+          "name": "@ Self Healing Wound",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "6e761841f1ab13328e5b7b3e10e01385f09b9318",
+      "message": "Pancakes",
+      "date": "2021-03-14T02:45:32.000Z",
+      "addedObjectIDs": [
+        "8595",
+        "8596",
+        "8597",
+        "8598",
+        "8599",
+        "8600",
+        "8601",
+        "8602"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8597",
+          "newTargetID": "8600",
+          "decay": "15s"
+        },
+        {
+          "targetID": "8600",
+          "newTargetID": "1284",
+          "decay": "100s"
+        },
+        {
+          "targetID": "8602",
+          "newTargetID": "1280",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1262",
+          "targetID": "251",
+          "newTargetID": "8595",
+          "hand": true
+        },
+        {
+          "actorID": "1463",
+          "targetID": "8595",
+          "newActorID": "235",
+          "newTargetID": "8596",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "newActorUses": "last",
+          "targetID": "8597",
+          "newActorID": "8598",
+          "newTargetID": "1280",
+          "hand": true
+        },
+        {
+          "actorID": "4794",
+          "targetID": "251",
+          "newTargetID": "8595",
+          "hand": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "8600",
+          "newActorID": "852",
+          "newTargetID": "8602",
+          "hand": true
+        },
+        {
+          "actorID": "8580",
+          "newActorUses": "-1",
+          "targetID": "8601",
+          "newActorID": "8580",
+          "newTargetID": "8599",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8580",
+          "actorUses": "last",
+          "targetID": "8601",
+          "newActorID": "6892",
+          "newTargetID": "8599",
+          "hand": true
+        },
+        {
+          "actorID": "8584",
+          "targetID": "8601",
+          "newActorID": "235",
+          "newTargetID": "8599",
+          "hand": true
+        },
+        {
+          "actorID": "8596",
+          "newActorUses": "-1",
+          "targetID": "1280",
+          "newActorID": "8596",
+          "newTargetID": "8597",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8596",
+          "actorUses": "last",
+          "targetID": "1280",
+          "newActorID": "235",
+          "newTargetID": "8597",
+          "hand": true
+        },
+        {
+          "actorID": "8596",
+          "newActorUses": "-1",
+          "targetID": "8602",
+          "newActorID": "8596",
+          "newTargetID": "8597",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8596",
+          "actorUses": "last",
+          "targetID": "8602",
+          "newActorID": "235",
+          "newTargetID": "8597",
+          "hand": true
+        },
+        {
+          "actorID": "8598",
+          "newActorUses": "+1",
+          "targetID": "8597",
+          "newActorID": "8598",
+          "newTargetID": "1280",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8598",
+          "actorUses": "max",
+          "targetID": "8597",
+          "newActorID": "8601",
+          "newTargetID": "1280",
+          "hand": true
+        },
+        {
+          "actorID": "8599",
+          "newActorUses": "-1",
+          "newActorID": "8599",
+          "targetPlayer": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8599",
+          "actorUses": "last",
+          "newActorID": "236",
+          "targetPlayer": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "853",
+          "name": "@ Non-tilling Stick",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "6c7f5d01224e613d8dc0c7eb07a26548aa90b941",
+      "message": "Missed colour sprite",
+      "date": "2021-03-13T23:28:17.000Z"
+    },
+    {
+      "sha": "075f544b7a2199177fa21b7cd049749ea62e0fe9",
+      "message": "Fixed bugs",
+      "date": "2021-03-13T23:23:01.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "8580",
+          "newTargetUses": "-1",
+          "newActorID": "8584",
+          "newTargetID": "8580",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "131272bd10e9ab01ddf66fea1c32dde655a7e29b",
+      "message": "Added more characters",
+      "date": "2021-03-13T19:36:28.000Z",
+      "addedObjectIDs": [
+        "8591",
+        "8592",
+        "8593",
+        "8594"
+      ]
+    },
+    {
+      "sha": "c4924eb314b9281b3309a3b595379ee6255922d0",
+      "message": "Maple syrup",
+      "date": "2021-03-13T01:50:48.000Z",
+      "addedObjectIDs": [
+        "8578",
+        "8579",
+        "8580",
+        "8581",
+        "8582",
+        "8583",
+        "8584",
+        "8585",
+        "8586",
+        "8587",
+        "8588",
+        "8589",
+        "8590"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "6798",
+          "newTargetUses": "-1",
+          "newTargetID": "6798",
+          "targetRemains": true,
+          "decay": "10m"
+        },
+        {
+          "targetID": "6798",
+          "targetUses": "last",
+          "newTargetID": "8589",
+          "decay": "10m"
+        },
+        {
+          "targetID": "6799",
+          "newTargetID": "8578",
+          "decay": "5m"
+        },
+        {
+          "targetID": "8582",
+          "newTargetID": "8583",
+          "decay": "5m"
+        },
+        {
+          "targetID": "8590",
+          "newTargetID": "48",
+          "decay": "1h"
+        },
+        {
+          "targetID": "8578",
+          "newTargetUses": "-1",
+          "newActorID": "8579",
+          "newTargetID": "6798",
+          "hand": true
+        },
+        {
+          "targetID": "8578",
+          "targetUses": "last",
+          "newActorID": "8579",
+          "newTargetID": "8589",
+          "hand": true
+        },
+        {
+          "targetID": "8583",
+          "newActorID": "8584",
+          "newTargetID": "86",
+          "hand": true
+        },
+        {
+          "targetID": "8585",
+          "newActorID": "455",
+          "newTargetID": "2599",
+          "hand": true
+        },
+        {
+          "targetID": "8586",
+          "newActorID": "455",
+          "newTargetID": "8587",
+          "hand": true
+        },
+        {
+          "targetID": "8588",
+          "newActorID": "8587",
+          "newTargetID": "48",
+          "hand": true
+        },
+        {
+          "targetID": "8589",
+          "newActorID": "8587",
+          "newTargetID": "8590",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "6800",
+          "newTargetUses": "-1",
+          "newActorID": "8581",
+          "newTargetID": "6800",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "6800",
+          "targetUses": "last",
+          "newActorID": "8581",
+          "newTargetID": "659",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "8579",
+          "newActorID": "8581",
+          "newTargetID": "6800",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "8580",
+          "newTargetUses": "-1",
+          "newActorID": "8584",
+          "newTargetID": "8580",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8590",
+          "newActorID": "334",
+          "newTargetID": "340",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "targetID": "2599",
+          "newTargetID": "8585",
+          "hand": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "8585",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.04,
+          "newActorID": "467",
+          "newTargetID": "8586",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "8588",
+          "newActorID": "467",
+          "newTargetID": "6798",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "6798",
+          "newTargetID": "6799",
+          "hand": true
+        },
+        {
+          "actorID": "8580",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "8580",
+          "newTargetID": "8584",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8580",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "6892",
+          "newTargetID": "8584",
+          "hand": true
+        },
+        {
+          "actorID": "8581",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "6800",
+          "hand": true
+        },
+        {
+          "actorID": "8581",
+          "targetID": "6800",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "6800",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8581",
+          "targetID": "6800",
+          "targetUses": "max",
+          "newActorID": "235",
+          "newTargetID": "8579",
+          "hand": true
+        },
+        {
+          "actorID": "8581",
+          "targetID": "85",
+          "newTargetID": "8582",
+          "hand": true
+        },
+        {
+          "actorID": "8584",
+          "newActorID": "235",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "8584",
+          "targetID": "6892",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "8580",
+          "hand": true
+        },
+        {
+          "actorID": "8584",
+          "targetID": "8580",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "8580",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8587",
+          "targetID": "48",
+          "newTargetID": "8588",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "9a2af899aa236491e06a76abe38a156ea8336cf1",
+      "message": "Fixed emotes for new characters",
+      "date": "2021-03-12T23:25:03.000Z"
+    },
+    {
+      "sha": "8690e864f72f25cb98320f0f842053e856dd5980",
+      "message": "Green wool clothing",
+      "date": "2021-03-12T22:41:14.000Z",
+      "addedObjectIDs": [
+        "8576",
+        "8577"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "736",
+          "targetID": "2898",
+          "newActorID": "8576",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "738",
+          "targetID": "2898",
+          "newActorID": "8577",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "05b95dbcbb4c6539958eb7919345f77334f6e8b9",
+      "message": "New male character",
+      "date": "2021-03-12T22:28:11.000Z",
+      "addedObjectIDs": [
+        "8575"
+      ]
+    },
+    {
+      "sha": "5777cba438207652498fcfcbd1a591509c3e76a9",
+      "message": "Initial mushroom items",
+      "date": "2021-03-12T19:54:48.000Z",
+      "addedObjectIDs": [
+        "8571",
+        "8572",
+        "8573",
+        "8574"
+      ]
+    },
+    {
+      "sha": "fe78d4926853cc82da050c305936a4d8d53df106",
+      "message": "Ability to reset dog state by feeding them",
+      "date": "2021-03-11T00:00:58.000Z",
+      "addedObjectIDs": [
+        "8553",
+        "8554",
+        "8555",
+        "8556",
+        "8557",
+        "8558",
+        "8559",
+        "8560",
+        "8561",
+        "8562",
+        "8563",
+        "8564",
+        "8565",
+        "8566",
+        "8567",
+        "8568",
+        "8569",
+        "8570"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8560",
+          "newTargetID": "1658",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "8569",
+          "newTargetID": "1749",
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "actorID": "570",
+          "targetID": "1658",
+          "newTargetID": "8560",
+          "hand": true
+        },
+        {
+          "actorID": "570",
+          "targetID": "1658",
+          "targetUses": "max",
+          "newTargetWeight": 0.025,
+          "newActorID": "570",
+          "newTargetID": "1658",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "570",
+          "targetID": "1749",
+          "newTargetID": "8569",
+          "hand": true
+        },
+        {
+          "actorID": "570",
+          "targetID": "1749",
+          "targetUses": "max",
+          "newTargetWeight": 0.05,
+          "newActorID": "570",
+          "newTargetID": "1749",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "1676",
+          "attributes": {
+            "name": {
+              "from": "Collie -  just fed",
+              "to": "Collie -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1677",
+          "attributes": {
+            "name": {
+              "from": "German Shepherd -  just fed",
+              "to": "German Shepherd -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1678",
+          "attributes": {
+            "name": {
+              "from": "Pit Bull -  just fed",
+              "to": "Pit Bull -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1679",
+          "attributes": {
+            "name": {
+              "from": "Beagle -  just fed",
+              "to": "Beagle -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1680",
+          "attributes": {
+            "name": {
+              "from": "Airedale -  just fed",
+              "to": "Airedale -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1681",
+          "attributes": {
+            "name": {
+              "from": "Poodle -  just fed",
+              "to": "Poodle -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1682",
+          "attributes": {
+            "name": {
+              "from": "Dachshund -  just fed",
+              "to": "Dachshund -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1683",
+          "attributes": {
+            "name": {
+              "from": "Schnauser -  just fed",
+              "to": "Schnauser -  just fed raw"
+            }
+          }
+        },
+        {
+          "id": "1684",
+          "attributes": {
+            "name": {
+              "from": "Chihuahua -  just fed",
+              "to": "Chihuahua -  just fed raw"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "0dc79213e65163a440f8e0ebb6eff8f7a9b978a3",
+      "message": "Leather boot variants",
+      "date": "2021-03-10T22:06:30.000Z",
+      "addedObjectIDs": [
+        "8551",
+        "8552"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "8382",
+          "targetID": "2896",
+          "newActorID": "8551",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8382",
+          "targetID": "2897",
+          "newActorID": "8552",
+          "newTargetID": "2897",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "82f6307ce3046f02ed7207f078fd2225a202ec22",
+      "message": "New female character",
+      "date": "2021-03-09T01:00:35.000Z",
+      "addedObjectIDs": [
+        "8550"
+      ]
+    },
+    {
+      "sha": "575f7f46ee45a2ddb15a81188bdcd139bd003fdc",
+      "message": "New tree sapling sprites",
+      "date": "2021-03-08T02:39:32.000Z"
+    }
+  ]
+}

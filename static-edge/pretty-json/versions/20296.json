@@ -1,0 +1,4419 @@
+{
+  "id": "20296",
+  "date": "2022-10-12T17:01:54.000Z",
+  "commits": [
+    {
+      "sha": "2bccad07aaf88300ba07001e3820614b53e4cc83",
+      "message": "Hanger now containable, solved hanger contained position problem with containment transition",
+      "date": "2022-10-12T09:04:56.000Z",
+      "addedObjectIDs": [
+        "12907"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "12162",
+          "targetID": "12907",
+          "newActorID": "12162",
+          "newTargetID": "12178",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "12178",
+          "targetID": "12162",
+          "newActorID": "12907",
+          "newTargetID": "12162",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "8165e1c722695f7eea53b435b34a20cfff915202",
+      "message": "Fixed two sheepskins being permanent since they are used in stack now",
+      "date": "2022-10-12T08:41:09.000Z"
+    },
+    {
+      "sha": "628efeeea8060da66a66ea0b6d0f1055c6ea683b",
+      "message": "Fixed some creation sound when using piles",
+      "date": "2022-10-12T08:08:05.000Z"
+    },
+    {
+      "sha": "f4341d2e6045780a26960370b5d3da79327963f5",
+      "message": "Fixed glass bottle holding pos to be the same with filled bottles",
+      "date": "2022-10-12T06:41:15.000Z"
+    },
+    {
+      "sha": "a500d1658c6459064e37707ddf4e9bdeb05938e5",
+      "message": "Tweaked glasses sprites",
+      "date": "2022-10-12T06:32:09.000Z"
+    },
+    {
+      "sha": "04d0cec0dfa577ae6379b0ae0b7bb3585a5578cf",
+      "message": "Sandstone half walls turn ancient",
+      "date": "2022-10-12T06:08:36.000Z",
+      "addedObjectIDs": [
+        "12904",
+        "12905",
+        "12906"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "10026",
+          "newTargetID": "12906",
+          "decay": "10h"
+        },
+        {
+          "targetID": "10027",
+          "newTargetID": "12905",
+          "decay": "10h"
+        },
+        {
+          "targetID": "10129",
+          "newTargetID": "12904",
+          "decay": "10h"
+        }
+      ]
+    },
+    {
+      "sha": "0c397a72f517d18ad2032a8fff411020d615fa56",
+      "message": "Brick half walls turn ancient",
+      "date": "2022-10-12T06:02:55.000Z",
+      "addedObjectIDs": [
+        "12901",
+        "12902",
+        "12903"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "10024",
+          "newTargetID": "12903",
+          "decay": "10h"
+        },
+        {
+          "targetID": "10025",
+          "newTargetID": "12901",
+          "decay": "10h"
+        },
+        {
+          "targetID": "10130",
+          "newTargetID": "12902",
+          "decay": "10h"
+        }
+      ]
+    },
+    {
+      "sha": "bb3d6e24991425d0f2d637d12669769073d8f2cc",
+      "message": "Tweaked how cats tapout accounting for the code change",
+      "date": "2022-10-12T05:26:39.000Z",
+      "removedObjectIDs": [
+        "7734"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12727",
+          "newTargetID": "12709",
+          "decay": "1s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "12727",
+          "newTargetID": "12709",
+          "decay": "3s"
+        },
+        {
+          "targetID": "7734",
+          "newTargetID": "7733",
+          "decay": "1s"
+        },
+        {
+          "actorID": "12709",
+          "targetID": "7736",
+          "newTargetID": "7735",
+          "hand": true
+        },
+        {
+          "actorID": "12709",
+          "targetID": "7743",
+          "newTargetID": "7744",
+          "hand": true
+        },
+        {
+          "actorID": "12709",
+          "targetID": "7976",
+          "newTargetID": "7977",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12703",
+          "attributes": {
+            "name": {
+              "from": "Tabby Cat  - pouncing +tapoutTrigger,1,1,3,3",
+              "to": "Tabby Cat  - pouncing"
+            }
+          }
+        },
+        {
+          "id": "12704",
+          "attributes": {
+            "name": {
+              "from": "White Cat  - pouncing +tapoutTrigger,1,1,3,3",
+              "to": "White Cat  - pouncing"
+            }
+          }
+        },
+        {
+          "id": "12705",
+          "attributes": {
+            "name": {
+              "from": "Black Cat  - pouncing +tapoutTrigger,1,1,3,3",
+              "to": "Black Cat  - pouncing"
+            }
+          }
+        },
+        {
+          "id": "12706",
+          "attributes": {
+            "name": {
+              "from": "Maine Coon Cat  - pouncing +tapoutTrigger,1,1,3,3",
+              "to": "Maine Coon Cat  - pouncing"
+            }
+          }
+        },
+        {
+          "id": "12707",
+          "attributes": {
+            "name": {
+              "from": "Calico Cat  - pouncing +tapoutTrigger,1,1,3,3",
+              "to": "Calico Cat  - pouncing"
+            }
+          }
+        },
+        {
+          "id": "12710",
+          "attributes": {
+            "name": {
+              "from": "Tabby Cat  - hunting",
+              "to": "Tabby Cat  - hunting +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12711",
+          "attributes": {
+            "name": {
+              "from": "Maine Coon Cat  - hunting",
+              "to": "Maine Coon Cat  - hunting +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12712",
+          "attributes": {
+            "name": {
+              "from": "Black Cat  - hunting",
+              "to": "Black Cat  - hunting +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12713",
+          "attributes": {
+            "name": {
+              "from": "White Cat  - hunting",
+              "to": "White Cat  - hunting +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12714",
+          "attributes": {
+            "name": {
+              "from": "Calico Cat  - hunting",
+              "to": "Calico Cat  - hunting +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "7733",
+          "attributes": {
+            "name": {
+              "from": "Ripe Wheat  - crow +tapoutTrigger,1,1,3,3",
+              "to": "Ripe Wheat  - crow  - eating +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "7735",
+          "attributes": {
+            "name": {
+              "from": "Ripe Wheat  - crow flee flying",
+              "to": "Ripe Wheat  - crow  - flee +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "7736",
+          "attributes": {
+            "name": {
+              "from": "Tapout Ripe Wheat  - crow flying +tapoutTrigger,1,1,5,5",
+              "to": "Tapout Ripe Wheat  - crow  - landing +tapoutTrigger,1,1,5,5"
+            }
+          }
+        },
+        {
+          "id": "7739",
+          "attributes": {
+            "name": {
+              "from": "Scarecrow  - crow",
+              "to": "Scarecrow  - crow  - eating +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "7743",
+          "attributes": {
+            "name": {
+              "from": "Scarecrow  - crow flying  -  +tapoutTrigger,1,1,3,3",
+              "to": "Scarecrow  - crow  - landing"
+            }
+          }
+        },
+        {
+          "id": "7744",
+          "attributes": {
+            "name": {
+              "from": "Scarecrow  - crow flee",
+              "to": "Scarecrow  - crow  - flee +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "7975",
+          "attributes": {
+            "name": {
+              "from": "Domestic Gooseberry Bush  - sparrow +tapoutTrigger,1,1,5,5",
+              "to": "Domestic Gooseberry Bush  - sparrow  - landing +tapoutTrigger,1,1,5,5"
+            }
+          }
+        },
+        {
+          "id": "7976",
+          "attributes": {
+            "name": {
+              "from": "Domestic Gooseberry Bush  - sparrow eating +tapoutTrigger,1,1,3,3",
+              "to": "Domestic Gooseberry Bush  - sparrow  - eating +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "7977",
+          "attributes": {
+            "name": {
+              "from": "Domestic Gooseberry Bush  - sparrow flee",
+              "to": "Domestic Gooseberry Bush  - sparrow  - flee +tapoutTrigger,1,1,3,3"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7734",
+          "name": "Ripe Wheat  - crow flying",
+          "category": false
+        },
+        {
+          "id": "12709",
+          "name": "@ Cat - pouncing",
+          "category": true
+        },
+        {
+          "id": "12727",
+          "name": "@ Cat - readyToPounce",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "f9d352f20152f1894510f732bf7b9581aab2f696",
+      "message": "Now sprinklers tapout when water enters, instead of leaves",
+      "date": "2022-10-11T17:06:13.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12439",
+          "newTargetID": "12436",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12446",
+          "newTargetID": "12444",
+          "decay": "1s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "12439",
+          "newTargetID": "12631",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12446",
+          "newTargetID": "12632",
+          "decay": "1s"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "12631",
+          "name": "@ Perhaps EW Sprinkler waterE tapout (outdated)",
+          "category": true
+        },
+        {
+          "id": "12632",
+          "name": "@ Perhaps NS Sprinkler waterN tapout (outdated)",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "e13d17235daef716b2774590ed8b338abfe4fab8",
+      "message": "Missing oil leakage despawn",
+      "date": "2022-10-11T15:07:21.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12809",
+          "decay": "10m"
+        },
+        {
+          "targetID": "12810",
+          "decay": "10m"
+        },
+        {
+          "targetID": "12811",
+          "decay": "10m"
+        }
+      ]
+    },
+    {
+      "sha": "0cdef31b41f4269b21c29fa8c16f7599bc9fe88f",
+      "message": "Fixed cat legs",
+      "date": "2022-10-11T14:46:44.000Z"
+    },
+    {
+      "sha": "0ebf6458fe4e8b7a50c448a2a92f184a9b0a5190",
+      "message": "Polished jars and bottles sprites and animations",
+      "date": "2022-10-11T14:28:04.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "4611",
+          "newActorUses": "-1",
+          "targetID": "12093",
+          "newActorID": "4611",
+          "newTargetID": "12125",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4611",
+          "actorUses": "last",
+          "targetID": "12093",
+          "newActorID": "4546",
+          "newTargetID": "12125",
+          "hand": true
+        },
+        {
+          "actorID": "4611",
+          "newActorUses": "-1",
+          "targetID": "270",
+          "newActorID": "4611",
+          "newTargetID": "6949",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4611",
+          "actorUses": "last",
+          "targetID": "270",
+          "newActorID": "4546",
+          "newTargetID": "6949",
+          "hand": true
+        },
+        {
+          "actorID": "9041",
+          "newActorUses": "-1",
+          "targetID": "4611",
+          "newTargetUses": "-1",
+          "newActorID": "9042",
+          "newTargetID": "4611",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "9041",
+          "newActorUses": "-1",
+          "targetID": "4611",
+          "targetUses": "last",
+          "newActorID": "9042",
+          "newTargetID": "4546",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "4611",
+          "targetID": "12093",
+          "newActorID": "4612",
+          "newTargetID": "12125",
+          "hand": true
+        },
+        {
+          "actorID": "4611",
+          "targetID": "270",
+          "newActorID": "4612",
+          "newTargetID": "6949",
+          "hand": true
+        },
+        {
+          "actorID": "9041",
+          "newActorUses": "-1",
+          "targetID": "4611",
+          "newActorID": "9042",
+          "newTargetID": "4612",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "9041",
+          "name": "@ Non-rooting Cutting (trees and flowers)",
+          "category": true
+        },
+        {
+          "id": "9042",
+          "name": "@ Rooting Cutting (trees and flowers)",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "044800d6a8c837dfdbb281496b637ec7c9df83a9",
+      "message": "Changed beer and honey sprites, and also nerf both and the other honey food",
+      "date": "2022-10-11T03:54:42.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "4557",
+          "newActorUses": "-1",
+          "newActorID": "4557",
+          "targetPlayer": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4557",
+          "actorUses": "last",
+          "newActorID": "4546",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "4611",
+          "newActorUses": "-1",
+          "newActorID": "4611",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4611",
+          "actorUses": "last",
+          "newActorID": "4546",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "4557",
+          "newActorID": "4558",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "4598",
+          "targetID": "4546",
+          "newTargetID": "4608",
+          "hand": true
+        },
+        {
+          "actorID": "4600",
+          "targetID": "4546",
+          "newTargetID": "4608",
+          "hand": true
+        },
+        {
+          "actorID": "4611",
+          "newActorID": "4612",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "b90ae27f4eca5fed5020bbafa6840d5746b31922",
+      "message": "Fixed floating bean seed bag",
+      "date": "2022-10-10T18:59:14.000Z"
+    },
+    {
+      "sha": "259da818ded9a779613add225712d253a4826300",
+      "message": "Way to dismantle primitive fence gate",
+      "date": "2022-10-10T18:46:58.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2995",
+          "newActorUses": "-1",
+          "targetID": "2962",
+          "newActorID": "2995",
+          "newTargetID": "2984",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2995",
+          "name": "@ Primitive Fence Buster",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "78b156415aa6a40036946a85874170dff9e662b4",
+      "message": "Splitters - creation sound when toggled",
+      "date": "2022-10-10T18:11:28.000Z"
+    },
+    {
+      "sha": "1c0ef5b40ecb40aee8a5dbe98f7948e6d99080a3",
+      "message": "Splitters - creation sound just installed",
+      "date": "2022-10-10T18:04:40.000Z"
+    },
+    {
+      "sha": "ae7df31baeca32be1d2f1608e7266e13f929b9c3",
+      "message": "Splitters - all drawn behind player",
+      "date": "2022-10-10T18:02:39.000Z"
+    },
+    {
+      "sha": "a499c660c98d1c07f6ab4efe8546d9a0d98249a3",
+      "message": "Splitters - toggle",
+      "date": "2022-10-10T17:55:57.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "467",
+          "targetID": "12840",
+          "newActorID": "467",
+          "newTargetID": "12841",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12841",
+          "newActorID": "467",
+          "newTargetID": "12840",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12842",
+          "newActorID": "467",
+          "newTargetID": "12843",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12843",
+          "newActorID": "467",
+          "newTargetID": "12842",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12844",
+          "newActorID": "467",
+          "newTargetID": "12845",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12845",
+          "newActorID": "467",
+          "newTargetID": "12844",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12846",
+          "newActorID": "467",
+          "newTargetID": "12847",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12847",
+          "newActorID": "467",
+          "newTargetID": "12846",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12848",
+          "newActorID": "467",
+          "newTargetID": "12841",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12849",
+          "newActorID": "467",
+          "newTargetID": "12840",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12850",
+          "newActorID": "467",
+          "newTargetID": "12846",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12851",
+          "newActorID": "467",
+          "newTargetID": "12847",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12852",
+          "newActorID": "467",
+          "newTargetID": "12843",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12853",
+          "newActorID": "467",
+          "newTargetID": "12842",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12854",
+          "newActorID": "467",
+          "newTargetID": "12845",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12855",
+          "newActorID": "467",
+          "newTargetID": "12844",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12856",
+          "newActorID": "467",
+          "newTargetID": "12841",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12857",
+          "newActorID": "467",
+          "newTargetID": "12840",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12858",
+          "newActorID": "467",
+          "newTargetID": "12843",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12859",
+          "newActorID": "467",
+          "newTargetID": "12842",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12860",
+          "newActorID": "467",
+          "newTargetID": "12845",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12861",
+          "newActorID": "467",
+          "newTargetID": "12844",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12862",
+          "newActorID": "467",
+          "newTargetID": "12846",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12863",
+          "newActorID": "467",
+          "newTargetID": "12847",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "36fae8ab1afcf4036a790c68e9c10cc8f061c49f",
+      "message": "Splitters - loosing flowing splitters",
+      "date": "2022-10-10T17:48:31.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "441",
+          "targetID": "12848",
+          "newActorID": "441",
+          "newTargetID": "12880",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12849",
+          "newActorID": "441",
+          "newTargetID": "12881",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12850",
+          "newActorID": "441",
+          "newTargetID": "12886",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12851",
+          "newActorID": "441",
+          "newTargetID": "12887",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12852",
+          "newActorID": "441",
+          "newTargetID": "12882",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12853",
+          "newActorID": "441",
+          "newTargetID": "12883",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12854",
+          "newActorID": "441",
+          "newTargetID": "12884",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12855",
+          "newActorID": "441",
+          "newTargetID": "12885",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12856",
+          "newActorID": "441",
+          "newTargetID": "12880",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12857",
+          "newActorID": "441",
+          "newTargetID": "12881",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12858",
+          "newActorID": "441",
+          "newTargetID": "12882",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12859",
+          "newActorID": "441",
+          "newTargetID": "12883",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12860",
+          "newActorID": "441",
+          "newTargetID": "12884",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12861",
+          "newActorID": "441",
+          "newTargetID": "12885",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12862",
+          "newActorID": "441",
+          "newTargetID": "12886",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12863",
+          "newActorID": "441",
+          "newTargetID": "12887",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "1be1073a93070a6bf24580d0f74777d27e9008b3",
+      "message": "Splitters - cycling through installation",
+      "date": "2022-10-10T17:45:15.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12451",
+          "newTargetID": "7224",
+          "decay": "10s"
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12451",
+          "newActorID": "441",
+          "newTargetID": "12874",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12872",
+          "newActorID": "441",
+          "newTargetID": "12876",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12874",
+          "newActorID": "441",
+          "newTargetID": "12872",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12876",
+          "newActorID": "441",
+          "newTargetID": "12878",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12878",
+          "newActorID": "441",
+          "newTargetID": "12451",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "12451",
+          "newTargetID": "7224",
+          "decay": "1s"
+        }
+      ]
+    },
+    {
+      "sha": "a72c6aa5d7519ef8c737d6edfda4908606c6b04e",
+      "message": "Splitters - flowing",
+      "date": "2022-10-10T17:11:23.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12848",
+          "newTargetID": "7859",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12849",
+          "newTargetID": "7887",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "12850",
+          "newTargetID": "7859",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12851",
+          "newTargetID": "7887",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "12852",
+          "newTargetID": "7886",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "12853",
+          "newTargetID": "7888",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "12854",
+          "newTargetID": "7886",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "12855",
+          "newTargetID": "7888",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "12856",
+          "newTargetID": "12771",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12857",
+          "newTargetID": "12772",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "12858",
+          "newTargetID": "12770",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "12859",
+          "newTargetID": "12773",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "12860",
+          "newTargetID": "12770",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "12861",
+          "newTargetID": "12773",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "12862",
+          "newTargetID": "12771",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12863",
+          "newTargetID": "12772",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12846",
+          "newTargetID": "12863",
+          "hand": true
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12847",
+          "newTargetID": "12862",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12844",
+          "newTargetID": "12860",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12845",
+          "newTargetID": "12861",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12842",
+          "newTargetID": "12858",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12843",
+          "newTargetID": "12859",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12840",
+          "newTargetID": "12856",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12841",
+          "newTargetID": "12857",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12842",
+          "newTargetID": "12858",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12844",
+          "newTargetID": "12860",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12846",
+          "newTargetID": "12863",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12847",
+          "newTargetID": "12862",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12840",
+          "newTargetID": "12856",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12844",
+          "newTargetID": "12860",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12845",
+          "newTargetID": "12861",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12847",
+          "newTargetID": "12862",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12841",
+          "newTargetID": "12857",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12842",
+          "newTargetID": "12858",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12843",
+          "newTargetID": "12859",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12846",
+          "newTargetID": "12863",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12840",
+          "newTargetID": "12856",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12841",
+          "newTargetID": "12857",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12843",
+          "newTargetID": "12859",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12845",
+          "newTargetID": "12861",
+          "hand": true
+        },
+        {
+          "actorID": "12848",
+          "newActorID": "12840",
+          "newTargetID": "7859",
+          "hand": true
+        },
+        {
+          "actorID": "12849",
+          "newActorID": "12841",
+          "newTargetID": "7887",
+          "hand": true
+        },
+        {
+          "actorID": "12850",
+          "newActorID": "12847",
+          "newTargetID": "7859",
+          "hand": true
+        },
+        {
+          "actorID": "12851",
+          "newActorID": "12846",
+          "newTargetID": "7887",
+          "hand": true
+        },
+        {
+          "actorID": "12852",
+          "newActorID": "12842",
+          "newTargetID": "7886",
+          "hand": true
+        },
+        {
+          "actorID": "12853",
+          "newActorID": "12843",
+          "newTargetID": "7888",
+          "hand": true
+        },
+        {
+          "actorID": "12854",
+          "newActorID": "12844",
+          "newTargetID": "7886",
+          "hand": true
+        },
+        {
+          "actorID": "12855",
+          "newActorID": "12845",
+          "newTargetID": "7888",
+          "hand": true
+        },
+        {
+          "actorID": "12856",
+          "newActorID": "12840",
+          "newTargetID": "12771",
+          "hand": true
+        },
+        {
+          "actorID": "12857",
+          "newActorID": "12841",
+          "newTargetID": "12772",
+          "hand": true
+        },
+        {
+          "actorID": "12858",
+          "newActorID": "12842",
+          "newTargetID": "12770",
+          "hand": true
+        },
+        {
+          "actorID": "12859",
+          "newActorID": "12843",
+          "newTargetID": "12773",
+          "hand": true
+        },
+        {
+          "actorID": "12860",
+          "newActorID": "12844",
+          "newTargetID": "12770",
+          "hand": true
+        },
+        {
+          "actorID": "12861",
+          "newActorID": "12845",
+          "newTargetID": "12773",
+          "hand": true
+        },
+        {
+          "actorID": "12862",
+          "newActorID": "12847",
+          "newTargetID": "12771",
+          "hand": true
+        },
+        {
+          "actorID": "12863",
+          "newActorID": "12846",
+          "newTargetID": "12772",
+          "hand": true
+        },
+        {
+          "actorID": "7232",
+          "targetID": "12844",
+          "newTargetID": "12854",
+          "hand": true
+        },
+        {
+          "actorID": "7232",
+          "targetID": "12845",
+          "newTargetID": "12855",
+          "hand": true
+        },
+        {
+          "actorID": "7234",
+          "targetID": "12842",
+          "newTargetID": "12852",
+          "hand": true
+        },
+        {
+          "actorID": "7234",
+          "targetID": "12843",
+          "newTargetID": "12853",
+          "hand": true
+        },
+        {
+          "actorID": "7235",
+          "targetID": "12846",
+          "newTargetID": "12851",
+          "hand": true
+        },
+        {
+          "actorID": "7235",
+          "targetID": "12847",
+          "newTargetID": "12850",
+          "hand": true
+        },
+        {
+          "actorID": "7236",
+          "targetID": "12840",
+          "newTargetID": "12848",
+          "hand": true
+        },
+        {
+          "actorID": "7236",
+          "targetID": "12841",
+          "newTargetID": "12849",
+          "hand": true
+        },
+        {
+          "actorID": "7859",
+          "targetID": "12840",
+          "newTargetID": "12848",
+          "hand": true
+        },
+        {
+          "actorID": "7859",
+          "targetID": "12844",
+          "newTargetID": "12854",
+          "hand": true
+        },
+        {
+          "actorID": "7859",
+          "targetID": "12845",
+          "newTargetID": "12855",
+          "hand": true
+        },
+        {
+          "actorID": "7859",
+          "targetID": "12847",
+          "newTargetID": "12850",
+          "hand": true
+        },
+        {
+          "actorID": "7886",
+          "targetID": "12842",
+          "newTargetID": "12852",
+          "hand": true
+        },
+        {
+          "actorID": "7886",
+          "targetID": "12844",
+          "newTargetID": "12854",
+          "hand": true
+        },
+        {
+          "actorID": "7886",
+          "targetID": "12846",
+          "newTargetID": "12851",
+          "hand": true
+        },
+        {
+          "actorID": "7886",
+          "targetID": "12847",
+          "newTargetID": "12850",
+          "hand": true
+        },
+        {
+          "actorID": "7887",
+          "targetID": "12841",
+          "newTargetID": "12849",
+          "hand": true
+        },
+        {
+          "actorID": "7887",
+          "targetID": "12842",
+          "newTargetID": "12852",
+          "hand": true
+        },
+        {
+          "actorID": "7887",
+          "targetID": "12843",
+          "newTargetID": "12853",
+          "hand": true
+        },
+        {
+          "actorID": "7887",
+          "targetID": "12846",
+          "newTargetID": "12851",
+          "hand": true
+        },
+        {
+          "actorID": "7888",
+          "targetID": "12840",
+          "newTargetID": "12848",
+          "hand": true
+        },
+        {
+          "actorID": "7888",
+          "targetID": "12841",
+          "newTargetID": "12849",
+          "hand": true
+        },
+        {
+          "actorID": "7888",
+          "targetID": "12843",
+          "newTargetID": "12853",
+          "hand": true
+        },
+        {
+          "actorID": "7888",
+          "targetID": "12845",
+          "newTargetID": "12855",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "4ce21b85ade9b6eff5008d59eef8602fa5b7662d",
+      "message": "Splitters - tapouts",
+      "date": "2022-10-10T16:39:00.000Z",
+      "addedObjectIDs": [
+        "12889",
+        "12890",
+        "12891",
+        "12892",
+        "12893",
+        "12894",
+        "12895"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12889",
+          "newTargetUses": "-1",
+          "newTargetID": "12892",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12890",
+          "newTargetUses": "-1",
+          "newTargetID": "12889",
+          "decay": "10s"
+        },
+        {
+          "targetID": "12891",
+          "newTargetUses": "-1",
+          "newTargetID": "12889",
+          "decay": "3s"
+        },
+        {
+          "actorID": "11662",
+          "newActorUses": "-1",
+          "targetID": "12891",
+          "newTargetUses": "-1",
+          "newActorID": "11662",
+          "newTargetID": "12498",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "12888",
+          "targetID": "12893",
+          "newTargetUses": "-1",
+          "newTargetID": "12498",
+          "hand": true
+        },
+        {
+          "actorID": "12888",
+          "targetID": "12894",
+          "newTargetUses": "-1",
+          "newTargetID": "12498",
+          "hand": true
+        },
+        {
+          "actorID": "12888",
+          "targetID": "12895",
+          "newTargetUses": "-1",
+          "newTargetID": "12498",
+          "hand": true
+        },
+        {
+          "actorID": "12893",
+          "targetID": "12888",
+          "newTargetID": "12888",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12893",
+          "targetID": "12894",
+          "newTargetUses": "-1",
+          "newTargetID": "12894",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12893",
+          "targetID": "12895",
+          "newTargetUses": "-1",
+          "newTargetID": "12895",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12893",
+          "targetID": "7889",
+          "newTargetUses": "-1",
+          "newTargetID": "7889",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12893",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7899",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12894",
+          "targetID": "12893",
+          "newTargetUses": "-1",
+          "newTargetID": "12498",
+          "hand": true
+        },
+        {
+          "actorID": "12894",
+          "targetID": "7898",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12895",
+          "targetID": "12888",
+          "newTargetUses": "-1",
+          "newTargetID": "12888",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12895",
+          "targetID": "12893",
+          "newTargetUses": "-1",
+          "newTargetID": "12498",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12892",
+          "newTargetUses": "-1",
+          "newActorID": "441",
+          "newTargetID": "12891",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7889",
+          "targetID": "12893",
+          "newTargetUses": "-1",
+          "newTargetID": "12498",
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12894",
+          "newTargetUses": "-1",
+          "newTargetID": "12894",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7899",
+          "targetID": "12893",
+          "newTargetUses": "-1",
+          "newTargetID": "12498",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7889",
+          "name": "@ Flowing Tapout Corner Group",
+          "category": true
+        },
+        {
+          "id": "7898",
+          "name": "@ Check Corner Group",
+          "category": true
+        },
+        {
+          "id": "7899",
+          "name": "@ Tapout Corner Group",
+          "category": true
+        },
+        {
+          "id": "11662",
+          "name": "@ Any Adze",
+          "category": true
+        },
+        {
+          "id": "12888",
+          "name": "@ Pipe Source Tapout Group",
+          "category": true
+        },
+        {
+          "id": "12889",
+          "name": "@ Check Tjunction Pattern",
+          "category": true
+        },
+        {
+          "id": "12890",
+          "name": "@ Installed Tjunction Pattern",
+          "category": true
+        },
+        {
+          "id": "12891",
+          "name": "@ Loose Tjunction Pattern",
+          "category": true
+        },
+        {
+          "id": "12892",
+          "name": "@ Pipe Tjunction Pattern",
+          "category": true
+        },
+        {
+          "id": "12893",
+          "name": "@ Check Tjunction Group",
+          "category": true
+        },
+        {
+          "id": "12894",
+          "name": "@ Tapout Tjunction Group",
+          "category": true
+        },
+        {
+          "id": "12895",
+          "name": "@ Flowing Tjunction Group",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "939ce1223b6cb42f15d414024f5274059647c000",
+      "message": "Checked the last use transitions of pipe sources",
+      "date": "2022-10-10T15:47:11.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7769",
+          "newTargetID": "7887",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "7769",
+          "targetUses": "last",
+          "newTargetID": "7887",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "7769",
+          "newActorUses": "-1",
+          "newActorID": "7769",
+          "newTargetID": "7887",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7769",
+          "actorUses": "last",
+          "newActorID": "7798",
+          "newTargetID": "7887",
+          "hand": true
+        },
+        {
+          "actorID": "7887",
+          "targetID": "7769",
+          "targetUses": "max",
+          "newTargetID": "7769",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7887",
+          "targetID": "7798",
+          "newTargetUses": "last",
+          "newTargetID": "7769",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7769",
+          "newTargetID": "7234",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "7769",
+          "newActorUses": "-1",
+          "newActorID": "7769",
+          "newTargetID": "7234",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "b7b53fe1a8dd1d0044c47fc16fed6bf3a52a86c2",
+      "message": "Tidy up the existing corners/sources tapouts",
+      "date": "2022-10-10T15:13:22.000Z",
+      "addedObjectIDs": [
+        "12888"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "7880",
+          "newTargetUses": "-1",
+          "newTargetID": "7882",
+          "decay": "3s"
+        },
+        {
+          "actorID": "7889",
+          "targetID": "12888",
+          "newTargetUses": "-1",
+          "newTargetID": "12888",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12888",
+          "newTargetID": "12888",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7880",
+          "newTargetUses": "-1",
+          "newTargetID": "7881",
+          "decay": "3s"
+        },
+        {
+          "actorID": "12454",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12744",
+          "targetID": "7898",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12744",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12745",
+          "targetID": "7898",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12745",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "7769",
+          "targetID": "7898",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "7769",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "7798",
+          "targetID": "7898",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "7798",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "7881",
+          "targetID": "7882",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "7882",
+          "targetID": "7880",
+          "newTargetUses": "-1",
+          "newTargetID": "7881",
+          "hand": true
+        },
+        {
+          "actorID": "7882",
+          "targetID": "7881",
+          "newTargetUses": "-1",
+          "newTargetID": "7881",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12453",
+          "newTargetID": "12453",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12454",
+          "newTargetID": "12454",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12744",
+          "newTargetID": "12744",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12745",
+          "newTargetID": "12745",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "7769",
+          "newTargetID": "7769",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "7798",
+          "newTargetID": "7798",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7880",
+          "name": "@ Loose Corner Pattern",
+          "category": true
+        },
+        {
+          "id": "7881",
+          "name": "@ Pipe Corner Pattern",
+          "category": true
+        },
+        {
+          "id": "7882",
+          "name": "@ Check Corner Pattern",
+          "category": true
+        },
+        {
+          "id": "7889",
+          "name": "@ Flowing Tapout Corner Group",
+          "category": true
+        },
+        {
+          "id": "7898",
+          "name": "@ Check Corner Group",
+          "category": true
+        },
+        {
+          "id": "7899",
+          "name": "@ Tapout Corner Group",
+          "category": true
+        },
+        {
+          "id": "12888",
+          "name": "@ Pipe Source Tapout Group",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "bde9a71fdd0946c89c74c42406060a117177dacb",
+      "message": "Splitters - objects",
+      "date": "2022-10-09T16:54:34.000Z",
+      "addedObjectIDs": [
+        "12841",
+        "12842",
+        "12843",
+        "12844",
+        "12845",
+        "12846",
+        "12847",
+        "12848",
+        "12849",
+        "12850",
+        "12851",
+        "12852",
+        "12853",
+        "12854",
+        "12855",
+        "12856",
+        "12857",
+        "12858",
+        "12859",
+        "12860",
+        "12861",
+        "12862",
+        "12863",
+        "12865",
+        "12866",
+        "12867",
+        "12868",
+        "12869",
+        "12870",
+        "12871",
+        "12873",
+        "12874",
+        "12875",
+        "12876",
+        "12877",
+        "12878",
+        "12879",
+        "12880",
+        "12881",
+        "12882",
+        "12883",
+        "12884",
+        "12885",
+        "12886",
+        "12887"
+      ],
+      "removedObjectIDs": [
+        "7228",
+        "7229",
+        "7230",
+        "7231",
+        "8061",
+        "8062"
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12451",
+          "newActorID": "441",
+          "newTargetID": "7884",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7228",
+          "name": "Copper Pipe  - tjunction S",
+          "category": false
+        },
+        {
+          "id": "7229",
+          "name": "Copper Pipe  - tjunction N",
+          "category": false
+        },
+        {
+          "id": "7230",
+          "name": "Copper Pipe  - tjunction W",
+          "category": false
+        },
+        {
+          "id": "7231",
+          "name": "Copper Pipe East Splitter  - vertical",
+          "category": false
+        },
+        {
+          "id": "8061",
+          "name": "Copper Pipe East Splitter  - vertical S",
+          "category": false
+        },
+        {
+          "id": "8062",
+          "name": "Copper Pipe East Splitter  - vertical E",
+          "category": false
+        },
+        {
+          "id": "12865",
+          "name": "Copper Pipe  - TE  - SE check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12866",
+          "name": "Copper Pipe  - TN  - NE check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12867",
+          "name": "Copper Pipe  - TN  - NW check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12868",
+          "name": "Copper Pipe  - TS  - SE check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12869",
+          "name": "Copper Pipe  - TS  - SW check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12870",
+          "name": "Copper Pipe  - TW  - NW check +tapoutTrigger,1,1,1,1",
+          "category": false
+        },
+        {
+          "id": "12871",
+          "name": "Copper Pipe  - TW  - SW check +tapoutTrigger,1,1,1,1",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "6688f72560141cfa34246f6334455ea9fa6982ae",
+      "message": "Consistent way to unstuck/turn off pipe crosses",
+      "date": "2022-10-09T15:13:17.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "441",
+          "targetID": "12434",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12435",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12440",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12441",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12795",
+          "newActorID": "467",
+          "newTargetID": "12442",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12796",
+          "newActorID": "467",
+          "newTargetID": "12442",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12797",
+          "newActorID": "467",
+          "newTargetID": "12442",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12798",
+          "newActorID": "467",
+          "newTargetID": "12442",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "1e824317e9fb3139a077f15500454cd4e1c59732",
+      "message": "Oil pipes - leakage from sprinklers",
+      "date": "2022-10-09T13:26:21.000Z",
+      "addedObjectIDs": [
+        "12838",
+        "12839"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12838",
+          "newTargetID": "12436",
+          "decay": "10m"
+        },
+        {
+          "targetID": "12839",
+          "newTargetID": "12444",
+          "decay": "10m"
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12436",
+          "newTargetID": "12838",
+          "hand": true
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12838",
+          "newTargetID": "12838",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12444",
+          "newTargetID": "12839",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12839",
+          "newTargetID": "12839",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12444",
+          "newTargetID": "12839",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12839",
+          "newTargetID": "12839",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12436",
+          "newTargetID": "12838",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12838",
+          "newTargetID": "12838",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12436",
+          "newTargetID": "12838",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12838",
+          "newTargetID": "12838",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12444",
+          "newTargetID": "12839",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12839",
+          "newTargetID": "12839",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12444",
+          "newTargetID": "12839",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12839",
+          "newTargetID": "12839",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12436",
+          "newTargetID": "12838",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12838",
+          "newTargetID": "12838",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "47e268d276386d3c873ab89cd6e4a7a6206a84dd",
+      "message": "Oil pipes - fill stations",
+      "date": "2022-10-09T13:15:32.000Z",
+      "addedObjectIDs": [
+        "12817",
+        "12819",
+        "12820",
+        "12821",
+        "12822",
+        "12823",
+        "12824",
+        "12825",
+        "12826",
+        "12827",
+        "12828",
+        "12829",
+        "12830",
+        "12831",
+        "12832",
+        "12833",
+        "12834",
+        "12835",
+        "12836",
+        "12837"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12826",
+          "newTargetID": "12817",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12827",
+          "newTargetID": "12822",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12831",
+          "newTargetID": "12828",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12836",
+          "newTargetID": "12833",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12817",
+          "newActorID": "2302",
+          "newTargetID": "7249",
+          "hand": true
+        },
+        {
+          "targetID": "12820",
+          "newActorID": "2334",
+          "newTargetID": "7249",
+          "hand": true
+        },
+        {
+          "targetID": "12822",
+          "newActorID": "2302",
+          "newTargetID": "7248",
+          "hand": true
+        },
+        {
+          "targetID": "12824",
+          "newActorID": "2334",
+          "newTargetID": "7248",
+          "hand": true
+        },
+        {
+          "targetID": "12828",
+          "newActorID": "2302",
+          "newTargetID": "7250",
+          "hand": true
+        },
+        {
+          "targetID": "12830",
+          "newActorID": "2334",
+          "newTargetID": "7250",
+          "hand": true
+        },
+        {
+          "targetID": "12833",
+          "newActorID": "2302",
+          "newTargetID": "7251",
+          "hand": true
+        },
+        {
+          "targetID": "12835",
+          "newActorID": "2334",
+          "newTargetID": "7251",
+          "hand": true
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12823",
+          "newTargetUses": "+1",
+          "newTargetID": "12823",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12823",
+          "targetUses": "max",
+          "newTargetID": "12824",
+          "hand": true
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12825",
+          "newTargetUses": "last",
+          "newTargetID": "12823",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12834",
+          "newTargetUses": "+1",
+          "newTargetID": "12834",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12834",
+          "targetUses": "max",
+          "newTargetID": "12835",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12837",
+          "newTargetUses": "last",
+          "newTargetID": "12834",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12829",
+          "newTargetUses": "+1",
+          "newTargetID": "12829",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12829",
+          "targetUses": "max",
+          "newTargetID": "12830",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12832",
+          "newTargetUses": "last",
+          "newTargetID": "12829",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12819",
+          "newTargetUses": "+1",
+          "newTargetID": "12819",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12819",
+          "targetUses": "max",
+          "newTargetID": "12820",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12821",
+          "newTargetUses": "last",
+          "newTargetID": "12819",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12823",
+          "newTargetUses": "+1",
+          "newTargetID": "12823",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12823",
+          "targetUses": "max",
+          "newTargetID": "12824",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12825",
+          "newTargetUses": "last",
+          "newTargetID": "12823",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12834",
+          "newTargetUses": "+1",
+          "newTargetID": "12834",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12834",
+          "targetUses": "max",
+          "newTargetID": "12835",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12837",
+          "newTargetUses": "last",
+          "newTargetID": "12834",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12829",
+          "newTargetUses": "+1",
+          "newTargetID": "12829",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12829",
+          "targetUses": "max",
+          "newTargetID": "12830",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12832",
+          "newTargetUses": "last",
+          "newTargetID": "12829",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12819",
+          "newTargetUses": "+1",
+          "newTargetID": "12819",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12819",
+          "targetUses": "max",
+          "newTargetID": "12820",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12821",
+          "newTargetUses": "last",
+          "newTargetID": "12819",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "7248",
+          "newTargetID": "12822",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "7249",
+          "newTargetID": "12817",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "7250",
+          "newTargetID": "12828",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "7251",
+          "newTargetID": "12833",
+          "hand": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12817",
+          "newActorID": "467",
+          "newTargetID": "12821",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12821",
+          "newActorID": "467",
+          "newTargetID": "12826",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12822",
+          "newActorID": "467",
+          "newTargetID": "12825",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12825",
+          "newActorID": "467",
+          "newTargetID": "12827",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12828",
+          "newActorID": "467",
+          "newTargetID": "12832",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12832",
+          "newActorID": "467",
+          "newTargetID": "12831",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12833",
+          "newActorID": "467",
+          "newTargetID": "12837",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "12837",
+          "newActorID": "467",
+          "newTargetID": "12836",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "12520d0d5c6aa140a5ebd38cced0f87e3f74b230",
+      "message": "Diesel oil rig - flowing oil",
+      "date": "2022-10-09T07:31:41.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12744",
+          "newTargetID": "12772",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "12744",
+          "newActorUses": "-1",
+          "newActorID": "12744",
+          "newTargetID": "12772",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "12744",
+          "actorUses": "last",
+          "newActorID": "12745",
+          "newTargetID": "12772",
+          "hand": true
+        },
+        {
+          "actorID": "12744",
+          "targetID": "7898",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12744",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12745",
+          "targetID": "7898",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12745",
+          "targetID": "7899",
+          "newTargetUses": "-1",
+          "newTargetID": "7861",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12744",
+          "newTargetUses": "+1",
+          "newTargetID": "12744",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12744",
+          "targetUses": "max",
+          "newTargetID": "12744",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12745",
+          "newTargetUses": "last",
+          "newTargetID": "12744",
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12744",
+          "newTargetID": "12744",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7898",
+          "targetID": "12745",
+          "newTargetID": "12745",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12744",
+          "attributes": {
+            "name": {
+              "from": "Oil Rig  - derrick  - pumping",
+              "to": "Oil Rig  - derrick  - pumping +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "12745",
+          "attributes": {
+            "name": {
+              "from": "Oil Rig  - derrick",
+              "to": "Oil Rig  - derrick +tapoutTrigger,1,1,1,1"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7898",
+          "name": "@ Check Corner Group",
+          "category": true
+        },
+        {
+          "id": "7899",
+          "name": "@ Tapout Corner Group",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "87fde2344a9d35e2963f4262cab9dea352d4235d",
+      "message": "Fix well back feeding again",
+      "date": "2022-10-09T07:12:30.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "12453",
+          "newTargetID": "7887",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "12453",
+          "newActorUses": "-1",
+          "newActorID": "12453",
+          "newTargetID": "7887",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "12453",
+          "actorUses": "last",
+          "newActorID": "12454",
+          "newTargetID": "7887",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "12453",
+          "newTargetID": "7234",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "12453",
+          "newActorUses": "-1",
+          "newActorID": "12453",
+          "newTargetID": "7234",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "12453",
+          "actorUses": "last",
+          "newActorID": "12454",
+          "newTargetID": "7234",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "67ce814152f08b7057c85920495c9342627b11b6",
+      "message": "Oil leakage - and more punishing water leakage as well",
+      "date": "2022-10-09T07:04:19.000Z",
+      "addedObjectIDs": [
+        "12809",
+        "12810",
+        "12811",
+        "12812",
+        "12813",
+        "12814",
+        "12815",
+        "12816"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12766",
+          "newTargetID": "12809",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12767",
+          "newTargetID": "12810",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12768",
+          "newTargetID": "12811",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12769",
+          "newTargetID": "12812",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12770",
+          "newTargetID": "12809",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12771",
+          "newTargetID": "12810",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12772",
+          "newTargetID": "12811",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12773",
+          "newTargetID": "12812",
+          "decay": "1s"
+        },
+        {
+          "targetID": "12812",
+          "decay": "10m"
+        },
+        {
+          "targetID": "12813",
+          "decay": "10m"
+        },
+        {
+          "actorID": "12815",
+          "targetID": "12813",
+          "newTargetUses": "-1",
+          "newTargetID": "12813",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12816",
+          "targetID": "12813",
+          "newTargetUses": "-1",
+          "newTargetID": "12814",
+          "hand": true
+        },
+        {
+          "actorID": "12816",
+          "targetID": "12814",
+          "newTargetUses": "-1",
+          "newTargetID": "12814",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "12813",
+          "name": "@ Water Leakage",
+          "category": true
+        },
+        {
+          "id": "12814",
+          "name": "@ Oil Leakage",
+          "category": true
+        },
+        {
+          "id": "12815",
+          "name": "@ Flowing Water",
+          "category": true
+        },
+        {
+          "id": "12816",
+          "name": "@ Flowing Oil",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "aa299f1954d2abd04e813b36bc2b6ab075c66d5e",
+      "message": "Oil pipes - flowing in the corners",
+      "date": "2022-10-09T06:48:01.000Z",
+      "addedObjectIDs": [
+        "12801",
+        "12802",
+        "12803",
+        "12804",
+        "12805",
+        "12806",
+        "12807",
+        "12808"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12801",
+          "newTargetID": "12770",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "12802",
+          "newTargetID": "12771",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12803",
+          "newTargetID": "12771",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12804",
+          "newTargetID": "12773",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "12805",
+          "newTargetID": "12770",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "12806",
+          "newTargetID": "12772",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "12807",
+          "newTargetID": "12772",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "12808",
+          "newTargetID": "12773",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "actorID": "12766",
+          "targetID": "7223",
+          "newTargetID": "12807",
+          "hand": true
+        },
+        {
+          "actorID": "12766",
+          "targetID": "7225",
+          "newTargetID": "12803",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "7223",
+          "newTargetID": "12808",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "7227",
+          "newTargetID": "12805",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "7225",
+          "newTargetID": "12804",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "7226",
+          "newTargetID": "12801",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "7226",
+          "newTargetID": "12802",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "7227",
+          "newTargetID": "12806",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "7223",
+          "newTargetID": "12807",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "7225",
+          "newTargetID": "12803",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "7226",
+          "newTargetID": "12801",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "7227",
+          "newTargetID": "12805",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "7223",
+          "newTargetID": "12808",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "7225",
+          "newTargetID": "12803",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "7226",
+          "newTargetID": "12802",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "7227",
+          "newTargetID": "12805",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "7223",
+          "newTargetID": "12807",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "7225",
+          "newTargetID": "12804",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "7226",
+          "newTargetID": "12801",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "7227",
+          "newTargetID": "12806",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "7223",
+          "newTargetID": "12808",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "7225",
+          "newTargetID": "12804",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "7226",
+          "newTargetID": "12802",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "7227",
+          "newTargetID": "12806",
+          "hand": true
+        },
+        {
+          "actorID": "12801",
+          "newActorID": "7226",
+          "newTargetID": "12770",
+          "hand": true
+        },
+        {
+          "actorID": "12802",
+          "newActorID": "7226",
+          "newTargetID": "12771",
+          "hand": true
+        },
+        {
+          "actorID": "12803",
+          "newActorID": "7225",
+          "newTargetID": "12771",
+          "hand": true
+        },
+        {
+          "actorID": "12804",
+          "newActorID": "7225",
+          "newTargetID": "12773",
+          "hand": true
+        },
+        {
+          "actorID": "12805",
+          "newActorID": "7227",
+          "newTargetID": "12770",
+          "hand": true
+        },
+        {
+          "actorID": "12806",
+          "newActorID": "7227",
+          "newTargetID": "12772",
+          "hand": true
+        },
+        {
+          "actorID": "12807",
+          "newActorID": "7223",
+          "newTargetID": "12772",
+          "hand": true
+        },
+        {
+          "actorID": "12808",
+          "newActorID": "7223",
+          "newTargetID": "12773",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "7889",
+          "attributes": {
+            "name": {
+              "from": "@ Water Tapout Corner Group",
+              "to": "@ Flowing Tapout Corner Group"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "fc0572d17a543c92fe84d1beaa4145c7fa41f6c7",
+      "message": "Oil pipes - flowing in the 4 directions",
+      "date": "2022-10-09T05:59:13.000Z",
+      "addedObjectIDs": [
+        "12781",
+        "12782",
+        "12783",
+        "12784",
+        "12785",
+        "12786",
+        "12787",
+        "12788",
+        "12789",
+        "12790",
+        "12791",
+        "12792",
+        "12793",
+        "12794",
+        "12795",
+        "12796",
+        "12797",
+        "12798",
+        "12799",
+        "12800"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12785",
+          "newTargetID": "12766",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "12786",
+          "newTargetID": "12769",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "12799",
+          "newTargetID": "12767",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12800",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12768",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "12766",
+          "targetID": "12634",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12785",
+          "hand": true
+        },
+        {
+          "actorID": "12767",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12799",
+          "hand": true
+        },
+        {
+          "actorID": "12768",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12800",
+          "hand": true
+        },
+        {
+          "actorID": "12769",
+          "targetID": "12634",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12786",
+          "hand": true
+        },
+        {
+          "actorID": "12770",
+          "targetID": "12634",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12785",
+          "hand": true
+        },
+        {
+          "actorID": "12771",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12799",
+          "hand": true
+        },
+        {
+          "actorID": "12772",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12800",
+          "hand": true
+        },
+        {
+          "actorID": "12773",
+          "targetID": "12634",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12786",
+          "hand": true
+        },
+        {
+          "actorID": "12785",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "newActorID": "12634",
+          "newTargetID": "12766",
+          "hand": true
+        },
+        {
+          "actorID": "12786",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "newActorID": "12634",
+          "newTargetID": "12769",
+          "hand": true
+        },
+        {
+          "actorID": "12799",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "newActorID": "12775",
+          "newTargetID": "12767",
+          "hand": true
+        },
+        {
+          "actorID": "12800",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "newActorID": "12775",
+          "newTargetID": "12768",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12781",
+          "newActorID": "441",
+          "newTargetID": "7873",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12782",
+          "newActorID": "441",
+          "newTargetID": "7873",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12783",
+          "newActorID": "441",
+          "newTargetID": "7874",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12784",
+          "newActorID": "441",
+          "newTargetID": "7874",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12790",
+          "newActorID": "441",
+          "newTargetID": "12653",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12791",
+          "newActorID": "441",
+          "newTargetID": "12653",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12795",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12796",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12797",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "12798",
+          "newActorID": "441",
+          "newTargetID": "12452",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "12634",
+          "name": "@ Pipe  - EW",
+          "category": true
+        },
+        {
+          "id": "12653",
+          "name": "@ Wall  - pipe loose",
+          "category": true
+        },
+        {
+          "id": "12775",
+          "name": "@ Pipe  - NS",
+          "category": true
+        },
+        {
+          "id": "12785",
+          "name": "@ Pipe  - EW  - oilE",
+          "category": true
+        },
+        {
+          "id": "12786",
+          "name": "@ Pipe  - EW  - oilW",
+          "category": true
+        },
+        {
+          "id": "12790",
+          "name": "@ Wall  - pipe  - EW  - oilE",
+          "category": true
+        },
+        {
+          "id": "12791",
+          "name": "@ Wall  - pipe  - EW  - oilW",
+          "category": true
+        },
+        {
+          "id": "12799",
+          "name": "@ Pipe  - NS  - oilN",
+          "category": true
+        },
+        {
+          "id": "12800",
+          "name": "@ Pipe  - NS  - oilS",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "745f593a46f9051fb03335c857dd8123772f0ea2",
+      "message": "Seperate the wall pipe categories and flowing pipe categories...",
+      "date": "2022-10-09T04:46:04.000Z",
+      "addedObjectIDs": [
+        "12775",
+        "12776",
+        "12777",
+        "12778",
+        "12779",
+        "12780"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12653",
+          "newTargetID": "12776",
+          "decay": "3s"
+        },
+        {
+          "targetID": "12779",
+          "newTargetID": "7232",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "12780",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "7234",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "actorID": "12779",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "newActorID": "12775",
+          "newTargetID": "7232",
+          "hand": true
+        },
+        {
+          "actorID": "12780",
+          "newActorUses": "-1",
+          "newActorWeight": 0,
+          "newActorID": "12775",
+          "newTargetID": "7234",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12654",
+          "newActorID": "441",
+          "newTargetID": "12776",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7232",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12779",
+          "hand": true
+        },
+        {
+          "actorID": "7234",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12780",
+          "hand": true
+        },
+        {
+          "actorID": "7859",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12779",
+          "hand": true
+        },
+        {
+          "actorID": "7887",
+          "targetID": "12775",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12780",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "12653",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "12634",
+          "decay": "3s"
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12654",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "441",
+          "newTargetID": "12634",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12653",
+          "attributes": {
+            "name": {
+              "from": "@ Pipe  - EW loose",
+              "to": "@ Wall  - pipe loose"
+            }
+          }
+        },
+        {
+          "id": "12654",
+          "attributes": {
+            "name": {
+              "from": "@ Wall with Copper Pipe  - NS",
+              "to": "@ Wall with Copper Pipe"
+            }
+          }
+        },
+        {
+          "id": "12655",
+          "attributes": {
+            "name": {
+              "from": "@ Wall for Copper Pipe  - NS",
+              "to": "@ Wall for Copper Pipe"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "12634",
+          "name": "@ Pipe  - EW",
+          "category": true
+        },
+        {
+          "id": "12653",
+          "name": "@ Wall  - pipe loose",
+          "category": true
+        },
+        {
+          "id": "12654",
+          "name": "@ Wall with Copper Pipe",
+          "category": true
+        },
+        {
+          "id": "12775",
+          "name": "@ Pipe  - NS",
+          "category": true
+        },
+        {
+          "id": "12776",
+          "name": "@ Wall  - pipe  - EW",
+          "category": true
+        },
+        {
+          "id": "12777",
+          "name": "@ Wall  - pipe  - EW  - waterE",
+          "category": true
+        },
+        {
+          "id": "12778",
+          "name": "@ Wall  - pipe  - EW  - waterW",
+          "category": true
+        },
+        {
+          "id": "12779",
+          "name": "@ Pipe  - NS  - waterN",
+          "category": true
+        },
+        {
+          "id": "12780",
+          "name": "@ Pipe  - NS  - waterS",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "7b7c7008448d52d968fc774bebcd965a0ce67b96",
+      "message": "Oil pipes - travelling oil objects",
+      "date": "2022-10-09T03:42:35.000Z",
+      "addedObjectIDs": [
+        "12766",
+        "12767",
+        "12768",
+        "12769",
+        "12770",
+        "12771",
+        "12772",
+        "12773"
+      ]
+    },
+    {
+      "sha": "5242019f8bbf03876df19ee90ba9cc8b87420775",
+      "message": "Renamed the pipes that have water flowing through",
+      "date": "2022-10-08T16:52:33.000Z",
+      "objectChanges": [
+        {
+          "id": "12434",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - C N",
+              "to": "Copper Pipe  - C  - waterN"
+            }
+          }
+        },
+        {
+          "id": "12435",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - C E",
+              "to": "Copper Pipe  - C  - waterE"
+            }
+          }
+        },
+        {
+          "id": "12440",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - C W",
+              "to": "Copper Pipe  - C  - waterW"
+            }
+          }
+        },
+        {
+          "id": "12441",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - C S",
+              "to": "Copper Pipe  - C  - waterS"
+            }
+          }
+        },
+        {
+          "id": "12635",
+          "attributes": {
+            "name": {
+              "from": "@ Pipe  - EW E",
+              "to": "@ Pipe  - EW  - waterE"
+            }
+          }
+        },
+        {
+          "id": "12636",
+          "attributes": {
+            "name": {
+              "from": "@ Pipe  - EW W",
+              "to": "@ Pipe  - EW  - waterW"
+            }
+          }
+        },
+        {
+          "id": "12640",
+          "attributes": {
+            "name": {
+              "from": "Ancient Brick Wall  - pipe  - EW E",
+              "to": "Ancient Brick Wall  - pipe  - EW  - waterE"
+            }
+          }
+        },
+        {
+          "id": "12641",
+          "attributes": {
+            "name": {
+              "from": "Ancient Brick Wall  - pipe  - EW W",
+              "to": "Ancient Brick Wall  - pipe  - EW  - waterW"
+            }
+          }
+        },
+        {
+          "id": "12646",
+          "attributes": {
+            "name": {
+              "from": "Ancient Stone Wall  - pipe  - EW E",
+              "to": "Ancient Stone Wall  - pipe  - EW  - waterE"
+            }
+          }
+        },
+        {
+          "id": "12647",
+          "attributes": {
+            "name": {
+              "from": "Ancient Stone Wall  - pipe  - EW W",
+              "to": "Ancient Stone Wall  - pipe  - EW  - waterW"
+            }
+          }
+        },
+        {
+          "id": "12649",
+          "attributes": {
+            "name": {
+              "from": "Wattle Wall  - pipe  - EW E",
+              "to": "Wattle Wall  - pipe  - EW  - waterE"
+            }
+          }
+        },
+        {
+          "id": "12650",
+          "attributes": {
+            "name": {
+              "from": "Wattle Wall  - pipe  - EW W",
+              "to": "Wattle Wall  - pipe  - EW  - waterW"
+            }
+          }
+        },
+        {
+          "id": "7233",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - NS N",
+              "to": "Copper Pipe  - NS  - waterN"
+            }
+          }
+        },
+        {
+          "id": "7237",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - NS S",
+              "to": "Copper Pipe  - NS  - waterS"
+            }
+          }
+        },
+        {
+          "id": "7238",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - NW W +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - NW  - waterW +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "7239",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - NW N +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - NW  - waterN +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "7240",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - EW W",
+              "to": "Copper Pipe  - EW  - waterW"
+            }
+          }
+        },
+        {
+          "id": "7241",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - NE N +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - NE  - waterN +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "7242",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - SE E +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - SE  - waterE +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "7243",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - EW E",
+              "to": "Copper Pipe  - EW  - waterE"
+            }
+          }
+        },
+        {
+          "id": "7244",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - SW S +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - SW  - waterS +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "7245",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - SW W +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - SW  - waterW +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "7246",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - SE S +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - SE  - waterS +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "7247",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe  - NE E +tapoutTrigger,1,1,1,1",
+              "to": "Copper Pipe  - NE  - waterE +tapoutTrigger,1,1,1,1"
+            }
+          }
+        },
+        {
+          "id": "8058",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe East Splitter  - vertical E water",
+              "to": "Copper Pipe East Splitter  - vertical  - waterE water"
+            }
+          }
+        },
+        {
+          "id": "8059",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe East Splitter  - vertical S water",
+              "to": "Copper Pipe East Splitter  - vertical  - waterS water"
+            }
+          }
+        },
+        {
+          "id": "8060",
+          "attributes": {
+            "name": {
+              "from": "Copper Pipe East Splitter  - vertical N water",
+              "to": "Copper Pipe East Splitter  - vertical  - waterN water"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "f52abea5d4beac112f9e2f18b01434de922dcecf",
+      "message": "Derrick - construction 1st part",
+      "date": "2022-10-08T16:30:41.000Z",
+      "addedObjectIDs": [
+        "12760",
+        "12761",
+        "12762",
+        "12763",
+        "12764",
+        "12765"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12760",
+          "newActorID": "2257",
+          "newTargetID": "12761",
+          "hand": true
+        },
+        {
+          "targetID": "12761",
+          "newActorID": "7257",
+          "newTargetID": "12762",
+          "hand": true
+        },
+        {
+          "targetID": "12762",
+          "newActorID": "7605",
+          "newTargetID": "12763",
+          "hand": true
+        },
+        {
+          "targetID": "12763",
+          "newActorID": "7605",
+          "newTargetID": "12764",
+          "hand": true
+        },
+        {
+          "targetID": "12764",
+          "newActorID": "7605",
+          "newTargetID": "3091",
+          "hand": true
+        },
+        {
+          "targetID": "12765",
+          "newActorID": "59",
+          "newTargetID": "12760",
+          "hand": true
+        },
+        {
+          "actorID": "2257",
+          "targetID": "12761",
+          "newTargetID": "12760",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "12760",
+          "newTargetID": "12765",
+          "hand": true
+        },
+        {
+          "actorID": "7257",
+          "targetID": "12762",
+          "newTargetID": "12761",
+          "hand": true
+        },
+        {
+          "actorID": "7605",
+          "actorUses": "max",
+          "targetID": "12763",
+          "newTargetID": "12762",
+          "hand": true
+        },
+        {
+          "actorID": "7605",
+          "actorUses": "max",
+          "targetID": "12764",
+          "newTargetID": "12763",
+          "hand": true
+        },
+        {
+          "actorID": "7605",
+          "actorUses": "max",
+          "targetID": "3091",
+          "newTargetID": "12764",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12765",
+          "newActorID": "441",
+          "newTargetID": "12748",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "3f1ba37e33a511c973d46c19d54d6f1ff4039a84",
+      "message": "Newcomen Oil Rig - Dismantling",
+      "date": "2022-10-08T16:04:59.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "2308",
+          "newActorID": "462",
+          "newTargetID": "3083",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "2308",
+          "newActorID": "462",
+          "newTargetID": "3083",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3083",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Pumpjack",
+              "to": "Dismantled Oil Pumpjack"
+            }
+          }
+        },
+        {
+          "id": "3084",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Pumpjack -  1",
+              "to": "Dismantled Oil Pumpjack -  1"
+            }
+          }
+        },
+        {
+          "id": "3085",
+          "attributes": {
+            "name": {
+              "from": "Ropeless Exhausted Oil Pumpjack -  2",
+              "to": "Ropeless Dismantled Oil Pumpjack -  2"
+            }
+          }
+        },
+        {
+          "id": "3086",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Pump Tower -  3",
+              "to": "Dismantled Oil Pump Tower -  3"
+            }
+          }
+        },
+        {
+          "id": "3087",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Pump Tower -  4",
+              "to": "Dismantled Oil Pump Tower -  4"
+            }
+          }
+        },
+        {
+          "id": "3088",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Pumpjack -  5",
+              "to": "Dismantled Oil Pumpjack -  5"
+            }
+          }
+        },
+        {
+          "id": "3089",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Pump Tower -  6",
+              "to": "Dismantled Oil Pump Tower -  6"
+            }
+          }
+        },
+        {
+          "id": "3090",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Pump Tower -  7",
+              "to": "Dismantled Oil Pump Tower -  7"
+            }
+          }
+        },
+        {
+          "id": "3091",
+          "attributes": {
+            "name": {
+              "from": "Exhausted Oil Well -  8",
+              "to": "Bore Hole"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ee14429df43ad9cbaaba86f55618c5a22c312e52",
+      "message": "Derrick - construction 2nd part",
+      "date": "2022-10-08T15:20:49.000Z",
+      "addedObjectIDs": [
+        "12748",
+        "12749",
+        "12750",
+        "12751",
+        "12752",
+        "12753",
+        "12754",
+        "12755",
+        "12756",
+        "12757",
+        "12758",
+        "12759"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12749",
+          "newActorID": "11803",
+          "newTargetID": "12750",
+          "hand": true
+        },
+        {
+          "targetID": "12750",
+          "newActorID": "470",
+          "newTargetID": "12751",
+          "hand": true
+        },
+        {
+          "targetID": "12751",
+          "newActorID": "227",
+          "newTargetID": "12752",
+          "hand": true
+        },
+        {
+          "targetID": "12752",
+          "newActorID": "7605",
+          "newTargetID": "12748",
+          "hand": true
+        },
+        {
+          "targetID": "12753",
+          "newActorID": "2365",
+          "newTargetID": "12749",
+          "hand": true
+        },
+        {
+          "targetID": "12754",
+          "newActorID": "685",
+          "newTargetID": "12755",
+          "hand": true
+        },
+        {
+          "targetID": "12755",
+          "newActorID": "2296",
+          "newTargetID": "12756",
+          "hand": true
+        },
+        {
+          "targetID": "12756",
+          "newActorID": "2296",
+          "newTargetID": "12753",
+          "hand": true
+        },
+        {
+          "targetID": "12757",
+          "newActorID": "2575",
+          "newTargetID": "12758",
+          "hand": true
+        },
+        {
+          "targetID": "12758",
+          "newActorID": "2575",
+          "newTargetID": "12754",
+          "hand": true
+        },
+        {
+          "targetID": "12759",
+          "newActorID": "2494",
+          "newTargetID": "12757",
+          "hand": true
+        },
+        {
+          "actorID": "11803",
+          "targetID": "12750",
+          "newTargetID": "12749",
+          "hand": true
+        },
+        {
+          "actorID": "227",
+          "targetID": "12752",
+          "newTargetID": "12751",
+          "hand": true
+        },
+        {
+          "actorID": "2296",
+          "targetID": "12753",
+          "newTargetID": "12756",
+          "hand": true
+        },
+        {
+          "actorID": "2296",
+          "targetID": "12756",
+          "newTargetID": "12755",
+          "hand": true
+        },
+        {
+          "actorID": "2365",
+          "targetID": "12749",
+          "newTargetID": "12753",
+          "hand": true
+        },
+        {
+          "actorID": "2494",
+          "targetID": "12757",
+          "newTargetID": "12759",
+          "hand": true
+        },
+        {
+          "actorID": "2575",
+          "targetID": "12754",
+          "newTargetID": "12758",
+          "hand": true
+        },
+        {
+          "actorID": "2575",
+          "targetID": "12758",
+          "newTargetID": "12757",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "12751",
+          "newTargetID": "12750",
+          "hand": true
+        },
+        {
+          "actorID": "685",
+          "targetID": "12755",
+          "newTargetID": "12754",
+          "hand": true
+        },
+        {
+          "actorID": "7605",
+          "actorUses": "max",
+          "targetID": "12748",
+          "newTargetID": "12752",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "12759",
+          "newActorID": "441",
+          "newTargetID": "12745",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "183a213df1ba3149dca559c5eb347701d98d03e3",
+      "message": "Diesel oil rig - basic objects and animations",
+      "date": "2022-10-08T13:47:27.000Z",
+      "addedObjectIDs": [
+        "12738",
+        "12743",
+        "12744",
+        "12745",
+        "12746",
+        "12747"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12743",
+          "newTargetID": "12747",
+          "decay": "20s"
+        },
+        {
+          "actorID": "2297",
+          "targetID": "12745",
+          "newTargetID": "12746",
+          "hand": true
+        },
+        {
+          "actorID": "2343",
+          "newActorUses": "-1",
+          "targetID": "12746",
+          "newActorID": "2343",
+          "newTargetID": "12743",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "12746",
+          "newActorID": "2302",
+          "newTargetID": "12743",
+          "hand": true
+        },
+        {
+          "actorID": "2343",
+          "newActorUses": "-1",
+          "targetID": "12747",
+          "newActorID": "2343",
+          "newTargetID": "12744",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2343",
+          "actorUses": "last",
+          "targetID": "12747",
+          "newActorID": "2302",
+          "newTargetID": "12744",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "84c5c262630dbb06471b28637f0869ea2d7f5a3d",
+      "message": "Added script to renumber sprites",
+      "date": "2022-10-07T17:35:00.000Z"
+    },
+    {
+      "sha": "bf5c8c6968ffb0f3768950c865fdf73390fedf40",
+      "message": "And accidentally changed this category as well",
+      "date": "2022-10-07T12:37:15.000Z"
+    },
+    {
+      "sha": "a75fb2f1cf4f0fe53dba01df25341e578796d369",
+      "message": "Accidentally changed this category",
+      "date": "2022-10-06T16:52:22.000Z"
+    }
+  ]
+}

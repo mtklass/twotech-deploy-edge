@@ -1,0 +1,137 @@
+{
+  "id": "226",
+  "date": "2019-05-14T00:48:49.000Z",
+  "commits": [
+    {
+      "sha": "311e5857d9d1e7313a498e508784847b15d62612",
+      "message": "Ponds and shallow wells were still refilling pretty quickly from empty.  Slowed them down by a factor of 10x.",
+      "date": "2019-05-14T00:34:08.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "388",
+          "newTargetUses": "+1",
+          "newTargetID": "388",
+          "targetRemains": true,
+          "decay": "120m"
+        },
+        {
+          "targetID": "512",
+          "newTargetUses": "last",
+          "newTargetID": "511",
+          "decay": "120m"
+        },
+        {
+          "targetID": "662",
+          "newTargetUses": "+1",
+          "newTargetWeight": 0.06,
+          "newTargetID": "662",
+          "targetRemains": true,
+          "decay": "36m"
+        },
+        {
+          "targetID": "664",
+          "newTargetUses": "last",
+          "newTargetID": "662",
+          "decay": "36m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "388",
+          "newTargetUses": "+1",
+          "newTargetID": "388",
+          "targetRemains": true,
+          "decay": "12m"
+        },
+        {
+          "targetID": "512",
+          "newTargetUses": "last",
+          "newTargetID": "511",
+          "decay": "12m"
+        },
+        {
+          "targetID": "662",
+          "newTargetUses": "+1",
+          "newTargetWeight": 0.06,
+          "newTargetID": "662",
+          "targetRemains": true,
+          "decay": "216s"
+        },
+        {
+          "targetID": "664",
+          "newTargetUses": "last",
+          "newTargetID": "662",
+          "decay": "216s"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "388",
+          "name": "@ Pond Water Source",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "46208f217e634e84fbc642779d508a5c2776a602",
+      "message": "Sword no longer containable, but can be carried visibly attached to bottom of backpack.  Sword can easily be turned back into a steel rod.",
+      "date": "2019-05-13T23:45:50.000Z",
+      "addedObjectIDs": [
+        "3050"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3050",
+          "newActorID": "3047",
+          "newTargetID": "198",
+          "hand": true
+        },
+        {
+          "actorID": "3047",
+          "targetID": "198",
+          "newTargetID": "3050",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3047",
+          "newActorID": "441",
+          "newTargetID": "2296",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "a7d7b6887c73393dd1f3b531018a7070e1faecb7",
+      "message": "Fixed times on horizontal property fences.  Fixes #307",
+      "date": "2019-05-13T16:50:46.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2959",
+          "newTargetID": "2976",
+          "decay": "60m"
+        },
+        {
+          "targetID": "2976",
+          "newTargetID": "2992",
+          "decay": "60m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "2959",
+          "newTargetID": "2976",
+          "decay": "30m"
+        },
+        {
+          "targetID": "2976",
+          "newTargetID": "2992",
+          "decay": "30m"
+        }
+      ]
+    }
+  ]
+}

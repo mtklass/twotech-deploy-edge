@@ -1,0 +1,2891 @@
+{
+  "id": "20280",
+  "date": "2021-03-06T18:44:12.000Z",
+  "commits": [
+    {
+      "sha": "a9fc5f49cf51a1b73190ca14ab3eaa5c00ab907b",
+      "message": "Added last use for hammer and nails",
+      "date": "2021-03-06T18:26:29.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "8454",
+          "actorUses": "last",
+          "targetID": "8496",
+          "newTargetUses": "-1",
+          "newActorID": "858",
+          "newTargetID": "8444",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "actorUses": "last",
+          "targetID": "8497",
+          "newTargetUses": "-1",
+          "newActorID": "858",
+          "newTargetID": "8446",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8444",
+          "name": "@ Single Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8446",
+          "name": "@ Double Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8496",
+          "name": "@ Single Board Wall",
+          "category": true
+        },
+        {
+          "id": "8497",
+          "name": "@ Double Board Wall",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "26b625de1950105d1eacd6c8f587371c39c3c1cb",
+      "message": "Fixed nail bug",
+      "date": "2021-03-06T18:19:23.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "8452",
+          "targetUses": "max",
+          "newActorID": "8453",
+          "hand": true
+        },
+        {
+          "actorID": "64",
+          "targetID": "8453",
+          "targetUses": "max",
+          "newActorID": "64",
+          "newTargetID": "8455",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "8452",
+          "newActorID": "8453",
+          "hand": true
+        },
+        {
+          "actorID": "64",
+          "targetID": "8453",
+          "newActorID": "64",
+          "newTargetID": "8455",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "6f58cfe859e2356575c65383d778ebf10bf3fb1f",
+      "message": "Chilli con carne",
+      "date": "2021-03-06T16:49:28.000Z",
+      "addedObjectIDs": [
+        "8540",
+        "8541",
+        "8542",
+        "8543",
+        "8544",
+        "8545",
+        "8546",
+        "8547",
+        "8548",
+        "8549"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8541",
+          "newTargetID": "8542",
+          "decay": "30s"
+        },
+        {
+          "actorID": "1181",
+          "targetID": "8544",
+          "newActorID": "235",
+          "newTargetID": "8545",
+          "hand": true
+        },
+        {
+          "actorID": "1181",
+          "targetID": "8549",
+          "newActorID": "235",
+          "newTargetID": "8545",
+          "hand": true
+        },
+        {
+          "actorID": "1355",
+          "targetID": "8543",
+          "newActorID": "235",
+          "newTargetID": "8549",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "8542",
+          "newTargetUses": "-1",
+          "newActorID": "8540",
+          "newTargetID": "8542",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "8542",
+          "targetUses": "last",
+          "newActorID": "8540",
+          "newTargetID": "1250",
+          "hand": true
+        },
+        {
+          "actorID": "2807",
+          "targetID": "8547",
+          "newTargetID": "8543",
+          "hand": true
+        },
+        {
+          "actorID": "2844",
+          "targetID": "8547",
+          "newTargetID": "8543",
+          "hand": true
+        },
+        {
+          "actorID": "2860",
+          "targetID": "1217",
+          "newActorID": "236",
+          "newTargetID": "8548",
+          "hand": true
+        },
+        {
+          "actorID": "2861",
+          "targetID": "8548",
+          "newActorID": "236",
+          "newTargetID": "8547",
+          "hand": true
+        },
+        {
+          "actorID": "2864",
+          "targetID": "1217",
+          "newActorID": "236",
+          "newTargetID": "8543",
+          "hand": true
+        },
+        {
+          "actorID": "382",
+          "targetID": "8545",
+          "newActorID": "235",
+          "newTargetID": "8546",
+          "hand": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "8545",
+          "newActorID": "394",
+          "newTargetID": "8546",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "6506",
+          "targetID": "8543",
+          "newActorID": "235",
+          "newTargetID": "8549",
+          "hand": true
+        },
+        {
+          "actorID": "6922",
+          "targetID": "8543",
+          "newActorID": "235",
+          "newTargetID": "8544",
+          "hand": true
+        },
+        {
+          "actorID": "8540",
+          "newActorUses": "-1",
+          "newActorID": "8540",
+          "targetPlayer": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8540",
+          "actorUses": "last",
+          "newActorID": "235",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "8546",
+          "targetID": "85",
+          "newTargetID": "8541",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "a1a177145b73771eda82552c3a35c7ff6cec8af8",
+      "message": "Most green biome trees give leaves",
+      "date": "2021-03-06T15:38:55.000Z",
+      "addedObjectIDs": [
+        "8539"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8539",
+          "newTargetUses": "-1",
+          "newActorID": "62",
+          "newTargetID": "8539",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8539",
+          "name": "@ Any Leaf Tree",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "37c70e18a9aeba795686727bbde1b68d5000d3d0",
+      "message": "Fixed timing for roast pig",
+      "date": "2021-03-06T15:26:58.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "8498",
+          "newTargetID": "8499",
+          "decay": "2m"
+        },
+        {
+          "targetID": "8499",
+          "newTargetID": "8501",
+          "decay": "2m"
+        },
+        {
+          "targetID": "8501",
+          "newTargetID": "8502",
+          "decay": "1m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8498",
+          "newTargetID": "8499",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8499",
+          "newTargetID": "8501",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8501",
+          "newTargetID": "8502",
+          "decay": "1s"
+        }
+      ]
+    },
+    {
+      "sha": "2593ebcc7868a4800b6c4d7308a16df97010869d",
+      "message": "Fixed minor issues with new objects",
+      "date": "2021-03-05T20:02:50.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "8521",
+          "newActorID": "69",
+          "newTargetID": "549",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8521",
+          "attributes": {
+            "name": {
+              "from": "Fence with Dislodged Shaft - +blocksMoving +autoDefaultTrans",
+              "to": "Fence with Dislodged Shaft"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "a8bfa4c07ae2354b62230a7b868ed030f4dcc32d",
+      "message": "Removed merchant changes ready for new system",
+      "date": "2021-03-05T19:53:14.000Z",
+      "removedObjectIDs": [
+        "8523",
+        "8524",
+        "8525",
+        "8528",
+        "8533",
+        "8534",
+        "8535",
+        "8536",
+        "8537",
+        "8538"
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8534",
+          "newTargetID": "8533",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8535",
+          "newTargetID": "6376",
+          "decay": "10s"
+        },
+        {
+          "targetID": "8535",
+          "targetUses": "last",
+          "newTargetID": "8538",
+          "decay": "10s"
+        },
+        {
+          "targetID": "8538",
+          "newTargetUses": "-1",
+          "newTargetID": "8538",
+          "targetRemains": true,
+          "decay": "5s",
+          "move": 3
+        },
+        {
+          "targetID": "8538",
+          "targetUses": "last",
+          "newTargetID": "6376",
+          "decay": "5s",
+          "move": 3
+        },
+        {
+          "targetID": "6376",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "6376",
+          "targetUses": "last",
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8533",
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8535",
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4350",
+          "targetID": "8535",
+          "newActorID": "8536",
+          "newTargetID": "6376",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8523",
+          "name": "Merchant  - thinking",
+          "category": false
+        },
+        {
+          "id": "8524",
+          "name": "Merchant  - item",
+          "category": false
+        },
+        {
+          "id": "8525",
+          "name": "Merchant with Fishing Hat  - item",
+          "category": false
+        },
+        {
+          "id": "8528",
+          "name": "Merchant with Merchant Hat  - item",
+          "category": false
+        },
+        {
+          "id": "8533",
+          "name": "@Merchant Probability Tier 1",
+          "category": true
+        },
+        {
+          "id": "8534",
+          "name": "Merchant  - thinking probability",
+          "category": false
+        },
+        {
+          "id": "8535",
+          "name": "@Merchant Tier 1",
+          "category": true
+        },
+        {
+          "id": "8536",
+          "name": "@Merchant Goods Tier 1",
+          "category": true
+        },
+        {
+          "id": "8537",
+          "name": "Merchant with Carrot  - item",
+          "category": false
+        },
+        {
+          "id": "8538",
+          "name": "Merchant  - no items",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "c49676fe5a73ff88a229a04c937214fb5ac51657",
+      "message": "Merchant restriction test",
+      "date": "2021-02-09T00:58:05.000Z",
+      "addedObjectIDs": [
+        "8537",
+        "8538"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "6376",
+          "targetUses": "last",
+          "newTargetID": "6376",
+          "targetRemains": true,
+          "decay": "5s",
+          "move": 3
+        },
+        {
+          "targetID": "8535",
+          "targetUses": "last",
+          "newTargetID": "8538",
+          "decay": "10s"
+        },
+        {
+          "targetID": "8538",
+          "newTargetUses": "-1",
+          "newTargetID": "8538",
+          "targetRemains": true,
+          "decay": "5s",
+          "move": 3
+        },
+        {
+          "targetID": "8538",
+          "targetUses": "last",
+          "newTargetID": "6376",
+          "decay": "5s",
+          "move": 3
+        },
+        {
+          "targetID": "6376",
+          "targetUses": "last",
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8534",
+          "name": "Merchant  - thinking probability",
+          "category": false
+        },
+        {
+          "id": "8535",
+          "name": "@Merchant Tier 1",
+          "category": true
+        },
+        {
+          "id": "8537",
+          "name": "Merchant with Carrot  - item",
+          "category": false
+        },
+        {
+          "id": "8538",
+          "name": "Merchant  - no items",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "ea7d579a62953fa0a5c371d6a03dac9dc1aed8da",
+      "message": "Spelling fix",
+      "date": "2021-02-08T02:46:31.000Z",
+      "objectChanges": [
+        {
+          "id": "8512",
+          "attributes": {
+            "name": {
+              "from": "Roaat Pig Dinner on Plate",
+              "to": "Roast Pig Dinner on Plate"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "4b5454c350d8baeb610bddb12bb19c8cc52b8a49",
+      "message": "Further merchant changes",
+      "date": "2021-02-08T02:44:09.000Z",
+      "removedObjectIDs": [
+        "8530",
+        "8531"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8534",
+          "newTargetID": "8533",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8535",
+          "newTargetID": "6376",
+          "decay": "10s"
+        },
+        {
+          "targetID": "6376",
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8533",
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8535",
+          "newTargetID": "8534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4350",
+          "targetID": "8535",
+          "newActorID": "8536",
+          "newTargetID": "6376",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8529",
+          "newTargetUses": "-1",
+          "newTargetID": "8532",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8531",
+          "newTargetUses": "-1",
+          "newTargetID": "8527",
+          "decay": "1s"
+        },
+        {
+          "targetID": "6376",
+          "newTargetID": "8527",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8527",
+          "newTargetUses": "-1",
+          "newTargetID": "8529",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8532",
+          "newTargetUses": "-1",
+          "newTargetID": "8531",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8527",
+          "name": "@Merchant Options",
+          "category": true
+        },
+        {
+          "id": "8529",
+          "name": "@Merchant Decay Options Alt",
+          "category": true
+        },
+        {
+          "id": "8530",
+          "name": "Merchant  - thinking merchant hat",
+          "category": false
+        },
+        {
+          "id": "8531",
+          "name": "@Merchant Decay Options",
+          "category": true
+        },
+        {
+          "id": "8532",
+          "name": "@Merchant Options Alt",
+          "category": true
+        },
+        {
+          "id": "8533",
+          "name": "@Merchant Probability Tier 1",
+          "category": true
+        },
+        {
+          "id": "8534",
+          "name": "Merchant  - thinking probability",
+          "category": false
+        },
+        {
+          "id": "8535",
+          "name": "@Merchant Tier 1",
+          "category": true
+        },
+        {
+          "id": "8536",
+          "name": "@Merchant Goods Tier 1",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8833527cbbb2d5d3d65f174a7d412cfa7fe5cbbe",
+      "message": "Merchant test redo",
+      "date": "2021-02-07T01:44:51.000Z",
+      "addedObjectIDs": [
+        "8523",
+        "8524",
+        "8525",
+        "8526",
+        "8527",
+        "8528",
+        "8529",
+        "8530",
+        "8531",
+        "8532"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8529",
+          "newTargetUses": "-1",
+          "newTargetID": "8532",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8531",
+          "newTargetUses": "-1",
+          "newTargetID": "8527",
+          "decay": "1s"
+        },
+        {
+          "targetID": "6376",
+          "newTargetID": "8527",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8527",
+          "newTargetUses": "-1",
+          "newTargetID": "8529",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8532",
+          "newTargetUses": "-1",
+          "newTargetID": "8531",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "5164",
+          "targetID": "1363",
+          "newActorID": "4546",
+          "newTargetID": "8317",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8317",
+          "name": "Yew Shaft with Rope",
+          "category": false
+        },
+        {
+          "id": "8523",
+          "name": "Merchant  - thinking",
+          "category": false
+        },
+        {
+          "id": "8524",
+          "name": "Merchant  - item",
+          "category": false
+        },
+        {
+          "id": "8525",
+          "name": "Merchant with Fishing Hat  - item",
+          "category": false
+        },
+        {
+          "id": "8526",
+          "name": "Merchant  - thinking fishing hat",
+          "category": false
+        },
+        {
+          "id": "8527",
+          "name": "@Merchant Options",
+          "category": true
+        },
+        {
+          "id": "8528",
+          "name": "Merchant with Merchant Hat  - item",
+          "category": false
+        },
+        {
+          "id": "8529",
+          "name": "@Merchant Decay Options Alt",
+          "category": true
+        },
+        {
+          "id": "8530",
+          "name": "Merchant  - thinking merchant hat",
+          "category": false
+        },
+        {
+          "id": "8531",
+          "name": "@Merchant Decay Options",
+          "category": true
+        },
+        {
+          "id": "8532",
+          "name": "@Merchant Options Alt",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "e49d249df425864a51d162a76fb7c21ed43825d2",
+      "message": "Removed uses for paintbrush creation, horse variants can be used to collect hair and sound fixed",
+      "date": "2021-02-06T22:25:50.000Z",
+      "addedObjectIDs": [
+        "8522"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8522",
+          "newTargetUses": "-1",
+          "newActorID": "7780",
+          "newTargetID": "8522",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8522",
+          "name": "@ Horse Hair Source",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "07e9a7ff5f10f8b27e13688fd39d5633db7962da",
+      "message": "Vertical gates",
+      "date": "2021-02-06T22:11:31.000Z",
+      "addedObjectIDs": [
+        "8519",
+        "8520",
+        "8521"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8520",
+          "newTargetID": "8519",
+          "decay": "3s"
+        },
+        {
+          "targetID": "8519",
+          "newTargetID": "8520",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8520",
+          "newTargetID": "8519",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "8519",
+          "newActorID": "467",
+          "newTargetID": "8521",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "549",
+          "newTargetID": "8519",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e06fa11b50529476dc717db1e0fa1447059eafcc",
+      "message": "Roast Pig",
+      "date": "2021-02-06T21:22:27.000Z",
+      "addedObjectIDs": [
+        "8498",
+        "8499",
+        "8501",
+        "8502",
+        "8503",
+        "8504",
+        "8505",
+        "8506",
+        "8507",
+        "8508",
+        "8509",
+        "8510",
+        "8511",
+        "8512",
+        "8513",
+        "8514",
+        "8515",
+        "8516",
+        "8517",
+        "8518"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8356",
+          "newTargetID": "8515",
+          "decay": "1m"
+        },
+        {
+          "targetID": "8498",
+          "newTargetID": "8499",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8499",
+          "newTargetID": "8501",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8501",
+          "newTargetID": "8502",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8515",
+          "newTargetID": "8516",
+          "decay": "1m"
+        },
+        {
+          "targetID": "8516",
+          "newTargetID": "8510",
+          "decay": "2m"
+        },
+        {
+          "targetID": "8356",
+          "newActorID": "8508",
+          "newTargetID": "346",
+          "hand": true
+        },
+        {
+          "targetID": "8508",
+          "newActorID": "131",
+          "newTargetID": "8509",
+          "hand": true
+        },
+        {
+          "targetID": "8509",
+          "newActorID": "3028",
+          "newTargetID": "3028",
+          "hand": true
+        },
+        {
+          "targetID": "8510",
+          "newActorID": "8508",
+          "newTargetID": "86",
+          "hand": true
+        },
+        {
+          "targetID": "8511",
+          "newTargetUses": "-1",
+          "newActorID": "1148",
+          "newTargetID": "8511",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "8511",
+          "targetUses": "last",
+          "newActorID": "1148",
+          "newTargetID": "292",
+          "hand": true
+        },
+        {
+          "targetID": "8515",
+          "newActorID": "8508",
+          "newTargetID": "82",
+          "hand": true
+        },
+        {
+          "targetID": "8516",
+          "newActorID": "8508",
+          "newTargetID": "85",
+          "hand": true
+        },
+        {
+          "actorID": "1148",
+          "targetID": "292",
+          "newTargetUses": "last",
+          "newTargetID": "8511",
+          "hand": true
+        },
+        {
+          "actorID": "1148",
+          "targetID": "8511",
+          "newTargetUses": "+1",
+          "newTargetID": "8511",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "131",
+          "targetID": "8509",
+          "newTargetID": "8508",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "8504",
+          "newTargetUses": "-1",
+          "newActorID": "8512",
+          "newTargetID": "8504",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "8504",
+          "targetUses": "last",
+          "newActorID": "8512",
+          "newTargetID": "8514",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "1352",
+          "newActorID": "8506",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "8502",
+          "newActorID": "8503",
+          "newTargetID": "8510",
+          "hand": true
+        },
+        {
+          "actorID": "292",
+          "targetID": "8514",
+          "newActorID": "1344",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "actorID": "3028",
+          "targetID": "3028",
+          "newTargetID": "8509",
+          "hand": true
+        },
+        {
+          "actorID": "4784",
+          "targetID": "8506",
+          "newTargetID": "8507",
+          "hand": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8505",
+          "newActorID": "560",
+          "newTargetID": "8504",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "8516",
+          "newTargetID": "8515",
+          "hand": true
+        },
+        {
+          "actorID": "8507",
+          "targetID": "8356",
+          "newActorID": "291",
+          "newTargetID": "8498",
+          "hand": true
+        },
+        {
+          "actorID": "8508",
+          "targetID": "346",
+          "newTargetID": "8356",
+          "hand": true
+        },
+        {
+          "actorID": "8511",
+          "actorUses": "max",
+          "targetID": "8503",
+          "newActorID": "292",
+          "newTargetID": "8505",
+          "hand": true
+        },
+        {
+          "actorID": "8512",
+          "newActorID": "236",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "8513",
+          "newActorID": "236",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "8514",
+          "newActorID": "291",
+          "newTargetID": "1343",
+          "hand": true
+        },
+        {
+          "actorID": "8517",
+          "targetID": "8515",
+          "newTargetID": "8356",
+          "hand": true
+        },
+        {
+          "actorID": "8518",
+          "targetID": "8515",
+          "newTargetID": "8356",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8517",
+          "name": "@ Any Firewood",
+          "category": true
+        },
+        {
+          "id": "8518",
+          "name": "@ Any Log",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "5e65c8d544256a4ac7f9aac733e0185863c1d7a7",
+      "message": "Fixed sounds and positions",
+      "date": "2021-01-24T22:18:04.000Z",
+      "addedObjectIDs": [
+        "8472",
+        "8473",
+        "8474",
+        "8475",
+        "8476",
+        "8477",
+        "8478",
+        "8479",
+        "8480",
+        "8481",
+        "8482",
+        "8483",
+        "8484",
+        "8485",
+        "8486",
+        "8487",
+        "8488",
+        "8489",
+        "8490",
+        "8491",
+        "8492",
+        "8493",
+        "8494",
+        "8495",
+        "8496",
+        "8497"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8496",
+          "newTargetUses": "-1",
+          "newActorID": "470",
+          "newTargetID": "8443",
+          "hand": true
+        },
+        {
+          "targetID": "8497",
+          "newTargetUses": "-1",
+          "newActorID": "470",
+          "newTargetID": "8496",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8496",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "8496",
+          "newTargetUses": "-1",
+          "newTargetID": "8497",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8496",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8496",
+          "newTargetUses": "-1",
+          "newTargetID": "8497",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8496",
+          "newTargetUses": "-1",
+          "newActorID": "441",
+          "newTargetID": "8444",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8497",
+          "newTargetUses": "-1",
+          "newActorID": "441",
+          "newTargetID": "8446",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "470",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8445",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8445",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8443",
+          "name": "@ Potential Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8444",
+          "name": "@ Single Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8445",
+          "name": "@ Single Board Wall - just removed",
+          "category": true
+        },
+        {
+          "id": "8446",
+          "name": "@ Double Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8448",
+          "name": "@ Any Board Color",
+          "category": true
+        },
+        {
+          "id": "8496",
+          "name": "@ Single Board Wall",
+          "category": true
+        },
+        {
+          "id": "8497",
+          "name": "@ Double Board Wall",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "b2b7464f0cfb0e338b103ebcc9668cf448b6aebe",
+      "message": "New way to create shelves",
+      "date": "2021-01-24T16:04:02.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "470",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8445",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8445",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8445",
+          "newTargetUses": "-1",
+          "newTargetID": "8447",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8445",
+          "newTargetUses": "-1",
+          "newActorID": "441",
+          "newTargetID": "8444",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8447",
+          "newTargetUses": "-1",
+          "newActorID": "441",
+          "newTargetID": "8446",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "470",
+          "targetID": "6919",
+          "newTargetID": "7907",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "7912",
+          "newTargetID": "7913",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8444",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "8444",
+          "newTargetUses": "-1",
+          "newTargetID": "8446",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "887",
+          "newTargetID": "6919",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "896",
+          "newTargetID": "7912",
+          "hand": true
+        },
+        {
+          "actorID": "7946",
+          "targetID": "8444",
+          "newTargetUses": "-1",
+          "newTargetID": "8446",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "6919",
+          "newTargetID": "7907",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "7912",
+          "newTargetID": "7913",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8444",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8444",
+          "newTargetUses": "-1",
+          "newTargetID": "8446",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "887",
+          "newTargetID": "6919",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "896",
+          "newTargetID": "7912",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "7908",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall with Boards",
+              "to": "Stone Wall with Boards -  +noBackAccess"
+            }
+          }
+        },
+        {
+          "id": "7909",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall with Stack of Boards",
+              "to": "Stone Wall with Big Stack of Boards -  +noBackAccess"
+            }
+          }
+        },
+        {
+          "id": "7910",
+          "attributes": {
+            "name": {
+              "from": "Ancient Stone Wall with Boards",
+              "to": "Ancient Stone Wall with Boards -  +noBackAccess"
+            }
+          }
+        },
+        {
+          "id": "7911",
+          "attributes": {
+            "name": {
+              "from": "Ancient Stone Wall with Stacks of Boards",
+              "to": "Ancient Stone Wall with Big Stack of Boards -  +noBackAccess"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8443",
+          "name": "@ Potential Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8444",
+          "name": "@ Single Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8445",
+          "name": "@ Single Board Wall - just removed",
+          "category": true
+        },
+        {
+          "id": "8446",
+          "name": "@ Double Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8447",
+          "name": "@ Double Board Wall - just removed",
+          "category": true
+        },
+        {
+          "id": "8448",
+          "name": "@ Any Board Color",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "64caab56062b095f539270dc1efb13a1017d7503",
+      "message": "Nail transitions",
+      "date": "2021-01-24T02:45:51.000Z",
+      "addedObjectIDs": [
+        "8470",
+        "8471"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8470",
+          "newActorID": "455",
+          "newTargetID": "314",
+          "hand": true
+        },
+        {
+          "targetID": "8471",
+          "newActorID": "455",
+          "newTargetID": "8452",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "8452",
+          "newActorID": "8453",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8470",
+          "newActorID": "441",
+          "newTargetID": "8471",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "targetID": "314",
+          "newTargetID": "8470",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e9cb3ab6128f560fa3b0ac4653ed36a8afa60487",
+      "message": "Missing sign transitions",
+      "date": "2021-01-23T21:17:22.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "979",
+          "targetID": "885",
+          "newTargetID": "8461",
+          "hand": true
+        },
+        {
+          "actorID": "979",
+          "targetID": "887",
+          "newTargetID": "8466",
+          "hand": true
+        },
+        {
+          "actorID": "979",
+          "targetID": "896",
+          "newTargetID": "8465",
+          "hand": true
+        },
+        {
+          "actorID": "980",
+          "targetID": "885",
+          "newTargetID": "8462",
+          "hand": true
+        },
+        {
+          "actorID": "980",
+          "targetID": "887",
+          "newTargetID": "8463",
+          "hand": true
+        },
+        {
+          "actorID": "980",
+          "targetID": "896",
+          "newTargetID": "8464",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "979",
+          "targetID": "885",
+          "newTargetID": "981",
+          "hand": true
+        },
+        {
+          "actorID": "980",
+          "targetID": "885",
+          "newTargetID": "982",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "78a846383772177ff585f8077b99c05c088c4d6f",
+      "message": "Signs on vertical walls",
+      "date": "2021-01-23T21:06:32.000Z",
+      "addedObjectIDs": [
+        "8467",
+        "8468"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8465",
+          "newActorID": "979",
+          "newTargetID": "896",
+          "hand": true
+        },
+        {
+          "targetID": "8466",
+          "newActorID": "979",
+          "newTargetID": "887",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8467",
+          "newActorID": "462",
+          "newTargetID": "8466",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8468",
+          "newActorID": "462",
+          "newTargetID": "8465",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8465",
+          "newActorID": "441",
+          "newTargetID": "8468",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8466",
+          "newActorID": "441",
+          "newTargetID": "8467",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c64aa2d4263f2cb9972fa026c5d87d507980357e",
+      "message": "Sign walls transitions and objects",
+      "date": "2021-01-23T20:02:27.000Z",
+      "addedObjectIDs": [
+        "8457",
+        "8458",
+        "8459",
+        "8460",
+        "8461",
+        "8462",
+        "8463",
+        "8464",
+        "8465",
+        "8466"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8457",
+          "newActorID": "470",
+          "newTargetID": "895",
+          "hand": true
+        },
+        {
+          "targetID": "8458",
+          "newActorID": "470",
+          "newTargetID": "8457",
+          "hand": true
+        },
+        {
+          "targetID": "8459",
+          "newActorID": "979",
+          "newTargetID": "895",
+          "hand": true
+        },
+        {
+          "targetID": "8460",
+          "newActorID": "980",
+          "newTargetID": "895",
+          "hand": true
+        },
+        {
+          "targetID": "8461",
+          "newActorID": "979",
+          "newTargetID": "885",
+          "hand": true
+        },
+        {
+          "targetID": "8462",
+          "newActorID": "980",
+          "newTargetID": "885",
+          "hand": true
+        },
+        {
+          "targetID": "8463",
+          "newActorID": "980",
+          "newTargetID": "887",
+          "hand": true
+        },
+        {
+          "targetID": "8464",
+          "newActorID": "980",
+          "newTargetID": "896",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8449",
+          "newActorID": "462",
+          "newTargetID": "8463",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8450",
+          "newActorID": "462",
+          "newTargetID": "8464",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "981",
+          "newActorID": "462",
+          "newTargetID": "8461",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "982",
+          "newActorID": "462",
+          "newTargetID": "8462",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "983",
+          "newActorID": "462",
+          "newTargetID": "8459",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "984",
+          "newActorID": "462",
+          "newTargetID": "8460",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8459",
+          "newActorID": "441",
+          "newTargetID": "983",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8460",
+          "newActorID": "441",
+          "newTargetID": "984",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8461",
+          "newActorID": "441",
+          "newTargetID": "981",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8462",
+          "newActorID": "441",
+          "newTargetID": "982",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8463",
+          "newActorID": "441",
+          "newTargetID": "8449",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8464",
+          "newActorID": "441",
+          "newTargetID": "8450",
+          "hand": true
+        },
+        {
+          "actorID": "979",
+          "targetID": "895",
+          "newTargetID": "8459",
+          "hand": true
+        },
+        {
+          "actorID": "980",
+          "targetID": "895",
+          "newTargetID": "8460",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "981",
+          "newActorID": "462",
+          "newTargetID": "1860",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "982",
+          "newActorID": "462",
+          "newTargetID": "1859",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "885",
+          "newTargetID": "981",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "981",
+          "newTargetID": "982",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "885",
+          "newTargetID": "981",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "981",
+          "newTargetID": "982",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8448",
+          "name": "@ Any Board Color",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "a0fae209985c19d2f63fb8551fca035dba734103",
+      "message": "Added missing bone needle stack transitions",
+      "date": "2021-01-22T02:36:29.000Z"
+    },
+    {
+      "sha": "c0fafa122db7663ba3b85643fe72bed4db68a958",
+      "message": "Fixed extinguished transition",
+      "date": "2021-01-22T02:32:40.000Z",
+      "addedObjectIDs": [
+        "8456"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8456",
+          "newTargetID": "660",
+          "decay": "1s"
+        },
+        {
+          "actorID": "248",
+          "targetID": "660",
+          "newActorID": "8393",
+          "newTargetID": "8456",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "248",
+          "targetID": "660",
+          "newActorID": "8393",
+          "newTargetID": "660",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "66fb05afa56e667267c5f4a90493762fad190eaa",
+      "message": "Nails and signs on walls",
+      "date": "2021-01-22T02:22:05.000Z",
+      "addedObjectIDs": [
+        "8449",
+        "8450",
+        "8451",
+        "8452",
+        "8453",
+        "8454",
+        "8455"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8453",
+          "newTargetUses": "-1",
+          "newActorID": "8451",
+          "newTargetID": "8453",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "8453",
+          "targetUses": "last",
+          "newActorID": "8451",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "8455",
+          "newActorID": "235",
+          "newTargetID": "8452",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "8451",
+          "newActorID": "8454",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "8452",
+          "newTargetUses": "-1",
+          "newActorID": "8454",
+          "newTargetID": "8452",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "8452",
+          "targetUses": "last",
+          "newActorID": "8454",
+          "newTargetID": "8451",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "8453",
+          "newTargetUses": "-1",
+          "newActorID": "8454",
+          "newTargetID": "8453",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "8453",
+          "targetUses": "last",
+          "newActorID": "8454",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "64",
+          "targetID": "8453",
+          "newActorID": "64",
+          "newTargetID": "8455",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8451",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newTargetID": "8453",
+          "hand": true
+        },
+        {
+          "actorID": "8451",
+          "targetID": "8453",
+          "newTargetUses": "+1",
+          "newTargetID": "8453",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorID": "441",
+          "newTargetID": "8451",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newActorID": "441",
+          "newTargetID": "8453",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "targetID": "8451",
+          "newTargetUses": "last",
+          "newActorID": "441",
+          "newTargetID": "8452",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "targetID": "8452",
+          "newTargetUses": "+1",
+          "newActorID": "441",
+          "newTargetID": "8452",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "targetID": "8453",
+          "newTargetUses": "+1",
+          "newActorID": "441",
+          "newTargetID": "8453",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e17be2c13cd4c2fea7cf641426e0dfdcfb8d9fba",
+      "message": "Added missing bison arrow transition",
+      "date": "2021-01-21T22:11:45.000Z"
+    },
+    {
+      "sha": "442c6565bc417eea1a984a24f0e9bc6eb7fdf37d",
+      "message": "Distillery can take all coloured wood",
+      "date": "2021-01-21T21:57:47.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7393",
+          "targetID": "4530",
+          "newTargetID": "4531",
+          "hand": true
+        },
+        {
+          "actorID": "7393",
+          "targetID": "4532",
+          "newTargetID": "4530",
+          "hand": true
+        },
+        {
+          "actorID": "7394",
+          "targetID": "4530",
+          "newTargetID": "4531",
+          "hand": true
+        },
+        {
+          "actorID": "7394",
+          "targetID": "4532",
+          "newTargetID": "4530",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "104f326a24a8fee166dc41b2c3b8225ae333c86d",
+      "message": "Scarecrow buff",
+      "date": "2021-01-21T21:55:10.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7732",
+          "newTargetID": "7742",
+          "decay": "30m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "7732",
+          "newTargetID": "7742",
+          "decay": "10m"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7742",
+          "name": "Perhaps a Crow  - scarecrow",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "988608e8184abe27b3a3a49c799bb21868a87bfb",
+      "message": "Added missing orange transition",
+      "date": "2021-01-21T20:17:49.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7703",
+          "newTargetID": "7344",
+          "decay": "10m"
+        }
+      ]
+    },
+    {
+      "sha": "3d3fae2c02f968798dc931cbfbe6b01af156a3a3",
+      "message": "Fixed lazy board pattern method with better one",
+      "date": "2021-01-20T02:10:25.000Z",
+      "addedObjectIDs": [
+        "8448"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "2596",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "2613",
+          "hand": true
+        },
+        {
+          "actorID": "2602",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "2603",
+          "hand": true
+        },
+        {
+          "actorID": "2642",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "2647",
+          "hand": true
+        },
+        {
+          "actorID": "2645",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "2661",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "8050",
+          "hand": true
+        },
+        {
+          "actorID": "3022",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newActorID": "659",
+          "newTargetID": "3027",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8448",
+          "newActorID": "441",
+          "newTargetID": "7300",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "459",
+          "targetID": "8448",
+          "newTargetID": "1530",
+          "hand": true
+        },
+        {
+          "actorID": "473",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "724",
+          "hand": true
+        },
+        {
+          "actorID": "475",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "1544",
+          "hand": true
+        },
+        {
+          "actorID": "5282",
+          "targetID": "8448",
+          "newTargetID": "4685",
+          "hand": true
+        },
+        {
+          "actorID": "58",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "7293",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "8448",
+          "newTargetID": "434",
+          "hand": true
+        },
+        {
+          "actorID": "7786",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newActorID": "7779",
+          "newTargetID": "3027",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "1213",
+          "newTargetID": "1214",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "2257",
+          "newTargetID": "2697",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "434",
+          "newTargetID": "986",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "newActorUses": "-1",
+          "targetID": "486",
+          "newActorID": "107",
+          "newTargetID": "485",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "557",
+          "newTargetID": "6701",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "6919",
+          "newTargetID": "7907",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "7019",
+          "newTargetID": "7020",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "7021",
+          "newTargetID": "7022",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "7912",
+          "newTargetID": "7913",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8444",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "8444",
+          "newTargetUses": "-1",
+          "newTargetID": "8446",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "885",
+          "newTargetID": "981",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "887",
+          "newTargetID": "6919",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "896",
+          "newTargetID": "7912",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "92",
+          "newTargetID": "977",
+          "hand": true
+        },
+        {
+          "actorID": "8448",
+          "targetID": "981",
+          "newTargetID": "982",
+          "hand": true
+        },
+        {
+          "actorID": "92",
+          "targetID": "8448",
+          "newTargetUses": "-1",
+          "newTargetID": "977",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8443",
+          "name": "@ Potential Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8444",
+          "name": "@ Single Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8446",
+          "name": "@ Double Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8448",
+          "name": "@ Any Board Color",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8781d1d6a80cd8f83bc54e7a029fd6cb4a740985",
+      "message": "Shelf wall variants",
+      "date": "2021-01-20T01:55:55.000Z",
+      "addedObjectIDs": [
+        "8400",
+        "8401",
+        "8402",
+        "8403",
+        "8404",
+        "8405",
+        "8406",
+        "8407",
+        "8408",
+        "8409",
+        "8410",
+        "8411",
+        "8412",
+        "8413",
+        "8414",
+        "8415",
+        "8416",
+        "8417",
+        "8419",
+        "8420",
+        "8421",
+        "8422",
+        "8423",
+        "8424",
+        "8425",
+        "8426",
+        "8427",
+        "8428",
+        "8429",
+        "8430",
+        "8431",
+        "8432",
+        "8433",
+        "8434",
+        "8435",
+        "8436",
+        "8437",
+        "8438",
+        "8439",
+        "8440",
+        "8443",
+        "8444",
+        "8445",
+        "8446",
+        "8447"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8445",
+          "newTargetUses": "-1",
+          "newActorID": "470",
+          "newTargetID": "8443",
+          "hand": true
+        },
+        {
+          "targetID": "8447",
+          "newTargetUses": "-1",
+          "newActorID": "470",
+          "newTargetID": "8445",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8444",
+          "newTargetUses": "-1",
+          "newActorID": "462",
+          "newTargetID": "8445",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8446",
+          "newTargetUses": "-1",
+          "newActorID": "462",
+          "newTargetID": "8447",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "8443",
+          "newTargetUses": "-1",
+          "newTargetID": "8444",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "8444",
+          "newTargetUses": "-1",
+          "newTargetID": "8446",
+          "hand": true
+        },
+        {
+          "actorID": "7946",
+          "targetID": "8444",
+          "newTargetUses": "-1",
+          "newTargetID": "8446",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8443",
+          "name": "@ Potential Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8444",
+          "name": "@ Single Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8445",
+          "name": "@ Single Board Wall - just removed",
+          "category": true
+        },
+        {
+          "id": "8446",
+          "name": "@ Double Shelf Wall",
+          "category": true
+        },
+        {
+          "id": "8447",
+          "name": "@ Double Board Wall - just removed",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "7b3ff2ed3923db14f71a5c5ef53a3b28790aa351",
+      "message": "Light and dark springy doors",
+      "date": "2021-01-18T01:19:46.000Z",
+      "addedObjectIDs": [
+        "8394",
+        "8395",
+        "8396",
+        "8397",
+        "8398",
+        "8399"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8396",
+          "newTargetID": "8395",
+          "decay": "3s"
+        },
+        {
+          "targetID": "8399",
+          "newTargetID": "8398",
+          "decay": "3s"
+        },
+        {
+          "targetID": "8394",
+          "newActorID": "1541",
+          "newTargetID": "8037",
+          "hand": true
+        },
+        {
+          "targetID": "8395",
+          "newTargetID": "8396",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8397",
+          "newActorID": "1541",
+          "newTargetID": "8036",
+          "hand": true
+        },
+        {
+          "targetID": "8398",
+          "newTargetID": "8399",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1541",
+          "targetID": "8036",
+          "newTargetID": "8397",
+          "hand": true
+        },
+        {
+          "actorID": "1541",
+          "targetID": "8037",
+          "newTargetID": "8394",
+          "hand": true
+        },
+        {
+          "actorID": "8394",
+          "targetID": "108",
+          "newActorID": "107",
+          "newTargetID": "8395",
+          "hand": true
+        },
+        {
+          "actorID": "8397",
+          "targetID": "108",
+          "newActorID": "107",
+          "newTargetID": "8398",
+          "hand": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "8395",
+          "newActorID": "964",
+          "newTargetID": "8394",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "8398",
+          "newActorID": "964",
+          "newTargetID": "8397",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "030e8e58cd409dab18af07524fa066f3ae1d276d",
+      "message": "Firebrand can be extinguished",
+      "date": "2021-01-17T18:00:48.000Z",
+      "addedObjectIDs": [
+        "8393"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8393",
+          "newTargetID": "67",
+          "decay": "1s"
+        },
+        {
+          "actorID": "248",
+          "targetID": "1099",
+          "newActorID": "8393",
+          "newTargetID": "1099",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "660",
+          "newActorID": "8393",
+          "newTargetID": "660",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "cb5c17856cc31ee79e9b44803e9fb394f20fa66b",
+      "message": "Plate stack can be used for forging",
+      "date": "2021-01-17T17:14:19.000Z",
+      "addedObjectIDs": [
+        "8391",
+        "8392"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1602",
+          "newActorUses": "-1",
+          "targetID": "8391",
+          "newTargetUses": "-1",
+          "newActorID": "1602",
+          "newTargetID": "8392",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1602",
+          "actorUses": "last",
+          "targetID": "8391",
+          "newTargetUses": "-1",
+          "newActorID": "236",
+          "newTargetID": "8392",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8391",
+          "name": "@ Unsealed Crucible ",
+          "category": true
+        },
+        {
+          "id": "8392",
+          "name": "@ Sealed Crucible ",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "0abd18d43f3488a0721a70fa48af2f53130ad44f",
+      "message": "Fixed typo",
+      "date": "2021-01-17T16:21:56.000Z",
+      "objectChanges": [
+        {
+          "id": "8381",
+          "attributes": {
+            "name": {
+              "from": "Stacl of Bone Needles",
+              "to": "Stack of Bone Needles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "86e67b547ce61ce919ea1e725e65241b1ab103d8",
+      "message": "Written Stone blocks can be made permanent",
+      "date": "2021-01-17T16:12:01.000Z",
+      "addedObjectIDs": [
+        "8390"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "8390",
+          "newActorID": "502",
+          "newTargetID": "8385",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "502",
+          "actorUses": "last",
+          "targetID": "8390",
+          "newActorID": "858",
+          "newTargetID": "8385",
+          "hand": true
+        },
+        {
+          "actorID": "8385",
+          "targetID": "622",
+          "newActorID": "107",
+          "newTargetID": "8390",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8385",
+          "attributes": {
+            "name": {
+              "from": "Stone Block with Writing -  &written +passToRead",
+              "to": "Stone Block with Writing -  &written"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "175078e642fe70bf375833455cdc02fea24dcf4e",
+      "message": "Stone blocks can hold written text",
+      "date": "2021-01-17T03:45:43.000Z",
+      "addedObjectIDs": [
+        "8385",
+        "8386",
+        "8387",
+        "8388",
+        "8389"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8386",
+          "newActorID": "1615",
+          "newTargetID": "812",
+          "hand": true
+        },
+        {
+          "targetID": "8387",
+          "newActorID": "455",
+          "newTargetID": "8386",
+          "hand": true
+        },
+        {
+          "targetID": "8388",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.04,
+          "newActorID": "455",
+          "newTargetID": "8389",
+          "hand": true
+        },
+        {
+          "targetID": "8389",
+          "newActorID": "1619",
+          "newTargetID": "8385",
+          "hand": true
+        },
+        {
+          "actorID": "1615",
+          "targetID": "812",
+          "newTargetID": "8386",
+          "hand": true
+        },
+        {
+          "actorID": "455",
+          "targetID": "8386",
+          "newTargetID": "8387",
+          "hand": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "8387",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.04,
+          "newActorID": "467",
+          "newTargetID": "8388",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "912247aff0d846f98355533e2bb64ac1fb95ccce",
+      "message": "Silver coin revamp",
+      "date": "2021-01-17T02:13:19.000Z"
+    },
+    {
+      "sha": "0229b32cc4407fc9409c5be9fc7f4d23a176fde3",
+      "message": "Gold coin revamp",
+      "date": "2021-01-17T02:03:57.000Z"
+    },
+    {
+      "sha": "ea4c006b0e17660c98001098c12b9f06ff20e5c0",
+      "message": "Mouflon loincloth",
+      "date": "2021-01-17T01:20:29.000Z",
+      "addedObjectIDs": [
+        "8383"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "564",
+          "newActorID": "1127",
+          "newTargetID": "8383",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "a7160dd0a456bf4bf908d3409575252042673d5d",
+      "message": "Leather boot",
+      "date": "2021-01-17T00:56:43.000Z",
+      "addedObjectIDs": [
+        "8382"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "8343",
+          "newActorID": "1127",
+          "newTargetID": "8382",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "3220de4414f309cd3f76f6753109214392c7ff6e",
+      "message": "Brick mixture has 12 uses",
+      "date": "2021-01-16T20:45:17.000Z",
+      "addedObjectIDs": [
+        "8381"
+      ]
+    }
+  ]
+}

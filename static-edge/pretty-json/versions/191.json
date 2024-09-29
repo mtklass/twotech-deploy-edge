@@ -1,0 +1,1604 @@
+{
+  "id": "191",
+  "date": "2019-01-11T23:38:30.000Z",
+  "commits": [
+    {
+      "sha": "b50d74a2ddd6117f788fa7ca75244efa3725b466",
+      "message": "All content tested, and a bunch of glitches fixed.",
+      "date": "2019-01-11T21:58:59.000Z",
+      "addedObjectIDs": [
+        "2634",
+        "2635",
+        "2636"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2634",
+          "newTargetID": "2293",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2635",
+          "newTargetID": "2293",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2636",
+          "newTargetID": "2579",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2620",
+          "newActorID": "2619",
+          "newTargetID": "2617",
+          "hand": true
+        },
+        {
+          "actorID": "2294",
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newActorID": "2634",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2295",
+          "newActorID": "2635",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2296",
+          "newActorID": "2294",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2578",
+          "newActorID": "2636",
+          "hand": true
+        },
+        {
+          "actorID": "2636",
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newActorID": "2576",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "382",
+          "targetID": "2550",
+          "newActorID": "235",
+          "newTargetID": "2551",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "2550",
+          "newTargetID": "2551",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2578",
+          "newActorID": "2579",
+          "hand": true
+        },
+        {
+          "actorID": "2562",
+          "newActorID": "235",
+          "newTargetID": "2561",
+          "hand": true
+        },
+        {
+          "actorID": "2595",
+          "newActorID": "235",
+          "newTargetID": "2592",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "877ea893bbca1278a5f0d6f316979eea1ea068f4",
+      "message": "Improved sound of spark gap transmitter.",
+      "date": "2019-01-11T19:50:54.000Z"
+    },
+    {
+      "sha": "0675bf8bb0f0704f997b918ec6c6c49a5d833c34",
+      "message": "Fixed radio transition.",
+      "date": "2019-01-11T19:31:51.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2629",
+          "targetID": "2622",
+          "newActorID": "2629",
+          "newTargetID": "2625",
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "2629",
+          "targetID": "2622",
+          "newActorID": "2629",
+          "newTargetID": "2624",
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "a5dc0f2bd516b474b6579ede70492772295b19c5",
+      "message": "Global triggers integrated into radio content.",
+      "date": "2019-01-11T01:30:36.000Z",
+      "removedObjectIDs": [
+        "2628",
+        "2630",
+        "2632"
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "2628",
+          "targetID": "2624",
+          "newActorID": "2628",
+          "newTargetID": "2621",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2630",
+          "targetID": "2624",
+          "newActorID": "2630",
+          "newTargetID": "2622",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2632",
+          "targetID": "2626",
+          "newActorID": "2632",
+          "newTargetID": "2623",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2607",
+          "attributes": {
+            "name": {
+              "from": "High Frequency Spark Gap Transmitter",
+              "to": "High Frequency Spark Gap Transmitter -  !global1"
+            }
+          }
+        },
+        {
+          "id": "2608",
+          "attributes": {
+            "name": {
+              "from": "Medium Frequency Spark Gap Transmitter",
+              "to": "Medium Frequency Spark Gap Transmitter -  !global2"
+            }
+          }
+        },
+        {
+          "id": "2609",
+          "attributes": {
+            "name": {
+              "from": "Low Frequency Spark Gap Transmitter",
+              "to": "Low Frequency Spark Gap Transmitter -  !global3"
+            }
+          }
+        },
+        {
+          "id": "2621",
+          "attributes": {
+            "name": {
+              "from": "High Frequency Marconi Receiver",
+              "to": "High Frequency Marconi Receiver -  >global1"
+            }
+          }
+        },
+        {
+          "id": "2622",
+          "attributes": {
+            "name": {
+              "from": "Medium Frequency Marconi Receiver",
+              "to": "Medium Frequency Marconi Receiver -  >global2"
+            }
+          }
+        },
+        {
+          "id": "2623",
+          "attributes": {
+            "name": {
+              "from": "Low Frequency Marconi Receiver",
+              "to": "Low Frequency Marconi Receiver -  >global3"
+            }
+          }
+        },
+        {
+          "id": "2627",
+          "attributes": {
+            "name": {
+              "from": "global1 on",
+              "to": ">global1"
+            }
+          }
+        },
+        {
+          "id": "2629",
+          "attributes": {
+            "name": {
+              "from": "global2 on",
+              "to": ">global2"
+            }
+          }
+        },
+        {
+          "id": "2631",
+          "attributes": {
+            "name": {
+              "from": "global3 on",
+              "to": ">global3"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2628",
+          "name": "global1 off",
+          "category": false
+        },
+        {
+          "id": "2630",
+          "name": "global2 off",
+          "category": false
+        },
+        {
+          "id": "2632",
+          "name": "global3 off",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "426433f4b3306296c0a25efc39bdc3041cda0a41",
+      "message": "Marconi receiver in place.  Global hookup needs to be implemented in server code.",
+      "date": "2019-01-10T23:05:55.000Z",
+      "addedObjectIDs": [
+        "2613",
+        "2614",
+        "2615",
+        "2616",
+        "2617",
+        "2619",
+        "2620",
+        "2621",
+        "2622",
+        "2623",
+        "2624",
+        "2625",
+        "2626",
+        "2627",
+        "2628",
+        "2629",
+        "2630",
+        "2631",
+        "2632"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2619",
+          "newActorID": "2490",
+          "newTargetID": "2490",
+          "hand": true
+        },
+        {
+          "targetID": "2621",
+          "newActorID": "2537",
+          "newTargetID": "2620",
+          "hand": true
+        },
+        {
+          "targetID": "2622",
+          "newActorID": "2538",
+          "newTargetID": "2620",
+          "hand": true
+        },
+        {
+          "targetID": "2623",
+          "newActorID": "2539",
+          "newTargetID": "2620",
+          "hand": true
+        },
+        {
+          "targetID": "2624",
+          "newActorID": "2537",
+          "newTargetID": "2620",
+          "hand": true
+        },
+        {
+          "targetID": "2625",
+          "newActorID": "2538",
+          "newTargetID": "2620",
+          "hand": true
+        },
+        {
+          "targetID": "2626",
+          "newActorID": "2539",
+          "newTargetID": "2620",
+          "hand": true
+        },
+        {
+          "actorID": "2490",
+          "targetID": "2490",
+          "newTargetID": "2619",
+          "hand": true
+        },
+        {
+          "actorID": "2537",
+          "targetID": "2620",
+          "newTargetID": "2621",
+          "hand": true
+        },
+        {
+          "actorID": "2538",
+          "targetID": "2620",
+          "newTargetID": "2622",
+          "hand": true
+        },
+        {
+          "actorID": "2539",
+          "targetID": "2620",
+          "newTargetID": "2623",
+          "hand": true
+        },
+        {
+          "actorID": "2556",
+          "targetID": "2616",
+          "newTargetID": "2617",
+          "hand": true
+        },
+        {
+          "actorID": "2596",
+          "targetID": "470",
+          "newTargetID": "2613",
+          "hand": true
+        },
+        {
+          "actorID": "2600",
+          "targetID": "2615",
+          "newTargetID": "2616",
+          "hand": true
+        },
+        {
+          "actorID": "2614",
+          "targetID": "2613",
+          "newTargetID": "2615",
+          "hand": true
+        },
+        {
+          "actorID": "2619",
+          "targetID": "2617",
+          "newTargetID": "2620",
+          "hand": true
+        },
+        {
+          "actorID": "2627",
+          "targetID": "2621",
+          "newActorID": "2627",
+          "newTargetID": "2624",
+          "tool": true
+        },
+        {
+          "actorID": "2628",
+          "targetID": "2624",
+          "newActorID": "2628",
+          "newTargetID": "2621",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2629",
+          "targetID": "2622",
+          "newActorID": "2629",
+          "newTargetID": "2624",
+          "tool": true
+        },
+        {
+          "actorID": "2630",
+          "targetID": "2624",
+          "newActorID": "2630",
+          "newTargetID": "2622",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2631",
+          "targetID": "2623",
+          "newActorID": "2631",
+          "newTargetID": "2626",
+          "tool": true
+        },
+        {
+          "actorID": "2632",
+          "targetID": "2626",
+          "newActorID": "2632",
+          "newTargetID": "2623",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2610",
+          "attributes": {
+            "name": {
+              "from": "Operating High Frequency Transmitter",
+              "to": "Operating High Frequency Transmitter -  *global1"
+            }
+          }
+        },
+        {
+          "id": "2611",
+          "attributes": {
+            "name": {
+              "from": "Operating Medium Frequency Transmitter",
+              "to": "Operating Medium Frequency Transmitter -  *global2"
+            }
+          }
+        },
+        {
+          "id": "2612",
+          "attributes": {
+            "name": {
+              "from": "Operating Low Frequency Transmitter",
+              "to": "Operating Low Frequency Transmitter -  *global3"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2628",
+          "name": "global1 off",
+          "category": false
+        },
+        {
+          "id": "2630",
+          "name": "global2 off",
+          "category": false
+        },
+        {
+          "id": "2632",
+          "name": "global3 off",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "719eaef12f6672a40f1947b0751a0e8788f61025",
+      "message": "Up to spark gap transmitter.",
+      "date": "2019-01-10T21:29:44.000Z",
+      "addedObjectIDs": [
+        "2572",
+        "2573",
+        "2574",
+        "2575",
+        "2576",
+        "2577",
+        "2578",
+        "2579",
+        "2580",
+        "2581",
+        "2582",
+        "2583",
+        "2584",
+        "2585",
+        "2586",
+        "2587",
+        "2588",
+        "2589",
+        "2590",
+        "2591",
+        "2592",
+        "2594",
+        "2595",
+        "2596",
+        "2597",
+        "2598",
+        "2599",
+        "2600",
+        "2601",
+        "2602",
+        "2603",
+        "2604",
+        "2605",
+        "2606",
+        "2607",
+        "2608",
+        "2609",
+        "2610",
+        "2611",
+        "2612"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2574",
+          "newTargetID": "2578",
+          "decay": "10s"
+        },
+        {
+          "targetID": "2576",
+          "newTargetID": "2579",
+          "decay": "10s"
+        },
+        {
+          "targetID": "2580",
+          "newTargetID": "2581",
+          "decay": "10s"
+        },
+        {
+          "targetID": "2582",
+          "newTargetID": "2578",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2583",
+          "newActorID": "58",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "2587",
+          "newActorID": "236",
+          "newTargetID": "2588",
+          "hand": true
+        },
+        {
+          "targetID": "2588",
+          "newActorID": "2589",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "2591",
+          "newActorID": "314",
+          "newTargetID": "2592",
+          "hand": true
+        },
+        {
+          "targetID": "2597",
+          "newActorID": "2596",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "2602",
+          "newActorID": "2601",
+          "newTargetID": "2601",
+          "hand": true
+        },
+        {
+          "targetID": "2604",
+          "newActorID": "2535",
+          "newTargetID": "2535",
+          "hand": true
+        },
+        {
+          "targetID": "2607",
+          "newActorID": "2537",
+          "newTargetID": "2606",
+          "hand": true
+        },
+        {
+          "targetID": "2608",
+          "newActorID": "2538",
+          "newTargetID": "2606",
+          "hand": true
+        },
+        {
+          "targetID": "2609",
+          "newActorID": "2539",
+          "newTargetID": "2606",
+          "hand": true
+        },
+        {
+          "targetID": "2610",
+          "newActorID": "2490",
+          "newTargetID": "2607",
+          "hand": true
+        },
+        {
+          "targetID": "2611",
+          "newActorID": "2490",
+          "newTargetID": "2608",
+          "hand": true
+        },
+        {
+          "targetID": "2612",
+          "newActorID": "2490",
+          "newTargetID": "2609",
+          "hand": true
+        },
+        {
+          "actorID": "2217",
+          "targetID": "2277",
+          "newActorID": "2598",
+          "newTargetID": "2277",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2297",
+          "targetID": "2277",
+          "newActorID": "2575",
+          "newTargetID": "2277",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2592",
+          "newActorID": "2595",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "targetID": "2583",
+          "newTargetID": "2584",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2573",
+          "newActorID": "2577",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2574",
+          "newActorID": "2576",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2578",
+          "newActorID": "2579",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2584",
+          "newActorID": "2585",
+          "hand": true
+        },
+        {
+          "actorID": "2490",
+          "targetID": "2607",
+          "newTargetID": "2610",
+          "hand": true
+        },
+        {
+          "actorID": "2490",
+          "targetID": "2608",
+          "newTargetID": "2611",
+          "hand": true
+        },
+        {
+          "actorID": "2490",
+          "targetID": "2609",
+          "newTargetID": "2612",
+          "hand": true
+        },
+        {
+          "actorID": "2514",
+          "targetID": "2530",
+          "newTargetID": "2601",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2589",
+          "newTargetID": "2590",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2595",
+          "newTargetID": "2594",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2599",
+          "newTargetID": "2600",
+          "hand": true
+        },
+        {
+          "actorID": "2535",
+          "targetID": "2535",
+          "newTargetID": "2604",
+          "hand": true
+        },
+        {
+          "actorID": "2536",
+          "targetID": "2605",
+          "newTargetID": "2606",
+          "hand": true
+        },
+        {
+          "actorID": "2537",
+          "targetID": "2606",
+          "newTargetID": "2607",
+          "hand": true
+        },
+        {
+          "actorID": "2538",
+          "targetID": "2606",
+          "newTargetID": "2608",
+          "hand": true
+        },
+        {
+          "actorID": "2539",
+          "targetID": "2606",
+          "newTargetID": "2609",
+          "hand": true
+        },
+        {
+          "actorID": "2566",
+          "targetID": "676",
+          "newActorID": "235",
+          "newTargetID": "2572",
+          "hand": true
+        },
+        {
+          "actorID": "2570",
+          "targetID": "2572",
+          "newActorID": "235",
+          "newTargetID": "2573",
+          "hand": true
+        },
+        {
+          "actorID": "2572",
+          "targetID": "2570",
+          "newActorID": "235",
+          "newTargetID": "2573",
+          "hand": true
+        },
+        {
+          "actorID": "2575",
+          "targetID": "2574",
+          "newActorID": "2580",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "2576",
+          "newActorID": "239",
+          "newTargetID": "2574",
+          "hand": true
+        },
+        {
+          "actorID": "2577",
+          "newActorID": "239",
+          "newTargetID": "2573",
+          "hand": true
+        },
+        {
+          "actorID": "2577",
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newActorID": "2576",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2579",
+          "newActorID": "239",
+          "newTargetID": "2578",
+          "hand": true
+        },
+        {
+          "actorID": "2579",
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newActorID": "2576",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "2590",
+          "newActorID": "2575",
+          "newTargetID": "2556",
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "2594",
+          "newActorID": "2575",
+          "newTargetID": "2597",
+          "hand": true
+        },
+        {
+          "actorID": "2581",
+          "targetID": "235",
+          "newActorID": "2575",
+          "newTargetID": "2582",
+          "hand": true
+        },
+        {
+          "actorID": "2581",
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newActorID": "2580",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2585",
+          "newActorID": "239",
+          "newTargetID": "2584",
+          "hand": true
+        },
+        {
+          "actorID": "2585",
+          "targetID": "282",
+          "newTargetUses": "-1",
+          "newActorID": "2586",
+          "newTargetID": "282",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2586",
+          "newActorID": "239",
+          "newTargetID": "2587",
+          "hand": true
+        },
+        {
+          "actorID": "2595",
+          "newActorID": "235",
+          "newTargetID": "2592",
+          "hand": true
+        },
+        {
+          "actorID": "2598",
+          "newActorID": "239",
+          "newTargetID": "2599",
+          "hand": true
+        },
+        {
+          "actorID": "2601",
+          "targetID": "2601",
+          "newTargetID": "2602",
+          "hand": true
+        },
+        {
+          "actorID": "2602",
+          "targetID": "470",
+          "newTargetID": "2603",
+          "hand": true
+        },
+        {
+          "actorID": "2604",
+          "targetID": "2603",
+          "newTargetID": "2605",
+          "hand": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "314",
+          "newActorID": "458",
+          "newTargetID": "2591",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "58",
+          "targetID": "235",
+          "newTargetID": "2583",
+          "hand": true
+        },
+        {
+          "actorID": "676",
+          "targetID": "2566",
+          "newActorID": "235",
+          "newTargetID": "2572",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "84f9bdc4e3f6c010f48193a2bd4efe9566814976",
+      "message": "All remaining sprites for update.  Soda ash refining, glass making.  Still need to add most of the objects and transitions.",
+      "date": "2019-01-09T21:17:41.000Z",
+      "addedObjectIDs": [
+        "2556",
+        "2557",
+        "2558",
+        "2559",
+        "2560",
+        "2561",
+        "2562",
+        "2563",
+        "2564",
+        "2565",
+        "2566",
+        "2567",
+        "2568",
+        "2569",
+        "2570",
+        "2571"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2558",
+          "newTargetID": "2559",
+          "decay": "30s"
+        },
+        {
+          "targetID": "2560",
+          "newTargetID": "2561",
+          "decay": "10s"
+        },
+        {
+          "targetID": "2565",
+          "newTargetID": "2566",
+          "decay": "30s"
+        },
+        {
+          "actorID": "1619",
+          "targetID": "2563",
+          "newTargetID": "2564",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2561",
+          "newActorID": "2562",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2567",
+          "newActorID": "2570",
+          "newTargetID": "2568",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2568",
+          "newTargetUses": "-1",
+          "newActorID": "2570",
+          "newTargetID": "2568",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2568",
+          "targetUses": "last",
+          "newActorID": "2570",
+          "newTargetID": "2569",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2571",
+          "newActorID": "2570",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "2559",
+          "newActorID": "248",
+          "newTargetID": "2560",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2562",
+          "newActorID": "235",
+          "newTargetID": "2561",
+          "hand": true
+        },
+        {
+          "actorID": "2564",
+          "targetID": "235",
+          "newActorID": "2545",
+          "newTargetID": "2565",
+          "hand": true
+        },
+        {
+          "actorID": "2570",
+          "newActorID": "235",
+          "newTargetID": "2571",
+          "hand": true
+        },
+        {
+          "actorID": "2570",
+          "targetID": "2568",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "2568",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2570",
+          "targetID": "2568",
+          "targetUses": "max",
+          "newActorID": "235",
+          "newTargetID": "2567",
+          "hand": true
+        },
+        {
+          "actorID": "2570",
+          "targetID": "2569",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "2568",
+          "hand": true
+        },
+        {
+          "actorID": "382",
+          "targetID": "2562",
+          "newActorID": "235",
+          "newTargetID": "2563",
+          "hand": true
+        },
+        {
+          "actorID": "723",
+          "newActorUses": "-1",
+          "targetID": "2557",
+          "newActorID": "723",
+          "newTargetID": "2558",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2541",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Dissolved Niter",
+              "to": "Bowl of Niter Solution"
+            }
+          }
+        },
+        {
+          "id": "2544",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Dissolved Saltpeter",
+              "to": "Bowl of Saltpeter Solution"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "723",
+          "name": "@ Rough Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "4a9c3568e6aef4b1d00ada0a23dcb1071cf9d072",
+      "message": "Fixed some pattern errors.  Thanks Ryanb.",
+      "date": "2019-01-08T21:55:34.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "302",
+          "targetID": "2516",
+          "newTargetID": "2517",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "9a904325c948b9ad032c7f6d5ce893309799fe67",
+      "message": "Everything for transmitter and receiver except for glass parts.",
+      "date": "2019-01-08T21:10:10.000Z",
+      "addedObjectIDs": [
+        "2491",
+        "2492",
+        "2493",
+        "2494",
+        "2495",
+        "2496",
+        "2497",
+        "2498",
+        "2499",
+        "2500",
+        "2501",
+        "2502",
+        "2503",
+        "2504",
+        "2505",
+        "2506",
+        "2507",
+        "2508",
+        "2509",
+        "2510",
+        "2511",
+        "2512",
+        "2513",
+        "2514",
+        "2515",
+        "2516",
+        "2517",
+        "2518",
+        "2519",
+        "2520",
+        "2521",
+        "2522",
+        "2523",
+        "2524",
+        "2525",
+        "2526",
+        "2527",
+        "2528",
+        "2529",
+        "2530",
+        "2531",
+        "2532",
+        "2533",
+        "2535",
+        "2536",
+        "2537",
+        "2538",
+        "2539",
+        "2540",
+        "2541",
+        "2542",
+        "2543",
+        "2544",
+        "2545",
+        "2546",
+        "2547",
+        "2548",
+        "2549",
+        "2550",
+        "2551",
+        "2552",
+        "2553",
+        "2554",
+        "2555"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2491",
+          "newTargetID": "2492",
+          "decay": "10s"
+        },
+        {
+          "targetID": "2493",
+          "newTargetID": "2494",
+          "decay": "10s"
+        },
+        {
+          "targetID": "2497",
+          "newTargetID": "2496",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2498",
+          "newTargetID": "2500",
+          "decay": "20s"
+        },
+        {
+          "targetID": "2527",
+          "newTargetID": "2526",
+          "decay": "10s"
+        },
+        {
+          "targetID": "2544",
+          "newTargetID": "2547",
+          "decay": "30s"
+        },
+        {
+          "targetID": "2546",
+          "decay": "1m"
+        },
+        {
+          "targetID": "2550",
+          "newTargetID": "732",
+          "decay": "30s"
+        },
+        {
+          "targetID": "2496",
+          "newActorID": "2495",
+          "newTargetID": "2269",
+          "hand": true
+        },
+        {
+          "targetID": "2500",
+          "newActorID": "2497",
+          "newTargetID": "2243",
+          "hand": true
+        },
+        {
+          "targetID": "2512",
+          "newActorID": "2514",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "2525",
+          "newActorID": "2518",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "2545",
+          "newActorID": "2546",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "2551",
+          "newActorID": "2552",
+          "newTargetID": "86",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "2532",
+          "newTargetID": "2533",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "2542",
+          "newTargetID": "2543",
+          "hand": true
+        },
+        {
+          "actorID": "2138",
+          "targetID": "2547",
+          "newActorID": "235",
+          "newTargetID": "2549",
+          "hand": true
+        },
+        {
+          "actorID": "2293",
+          "targetID": "2277",
+          "newActorID": "2491",
+          "newTargetID": "2277",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "2550",
+          "newTargetID": "2551",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "2518",
+          "newActorID": "2526",
+          "hand": true
+        },
+        {
+          "actorID": "2491",
+          "newActorID": "239",
+          "newTargetID": "2493",
+          "hand": true
+        },
+        {
+          "actorID": "2494",
+          "targetID": "2357",
+          "newActorID": "2495",
+          "newTargetID": "2357",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2495",
+          "targetID": "2262",
+          "newTargetID": "2496",
+          "hand": true
+        },
+        {
+          "actorID": "2496",
+          "targetID": "2243",
+          "newTargetID": "2500",
+          "hand": true
+        },
+        {
+          "actorID": "2504",
+          "targetID": "235",
+          "newTargetID": "2513",
+          "hand": true
+        },
+        {
+          "actorID": "2504",
+          "targetID": "318",
+          "newTargetID": "2505",
+          "hand": true
+        },
+        {
+          "actorID": "2514",
+          "targetID": "2238",
+          "newActorID": "2532",
+          "newTargetID": "2238",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2514",
+          "targetID": "2277",
+          "newActorID": "2530",
+          "newTargetID": "2277",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2515",
+          "targetID": "235",
+          "newTargetID": "2516",
+          "hand": true
+        },
+        {
+          "actorID": "2515",
+          "targetID": "318",
+          "newTargetID": "2517",
+          "hand": true
+        },
+        {
+          "actorID": "2526",
+          "newActorID": "239",
+          "newTargetID": "2518",
+          "hand": true
+        },
+        {
+          "actorID": "2526",
+          "targetID": "85",
+          "newActorID": "2527",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2527",
+          "targetID": "2277",
+          "newActorID": "2528",
+          "newTargetID": "2277",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2528",
+          "newActorID": "239",
+          "newTargetID": "2529",
+          "hand": true
+        },
+        {
+          "actorID": "2529",
+          "targetID": "2552",
+          "newTargetID": "2555",
+          "hand": true
+        },
+        {
+          "actorID": "2530",
+          "targetID": "2503",
+          "newActorID": "2531",
+          "newTargetID": "2503",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2531",
+          "newTargetID": "2537",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2537",
+          "newTargetID": "2538",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2538",
+          "newTargetID": "2539",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "69",
+          "newActorID": "2536",
+          "newTargetID": "69",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2532",
+          "targetID": "1619",
+          "newTargetID": "2533",
+          "hand": true
+        },
+        {
+          "actorID": "2532",
+          "targetID": "2552",
+          "newTargetID": "2553",
+          "hand": true
+        },
+        {
+          "actorID": "2533",
+          "targetID": "2533",
+          "newTargetID": "2535",
+          "hand": true
+        },
+        {
+          "actorID": "2540",
+          "targetID": "382",
+          "newTargetID": "2541",
+          "hand": true
+        },
+        {
+          "actorID": "2541",
+          "targetID": "86",
+          "newActorID": "2542",
+          "hand": true
+        },
+        {
+          "actorID": "2543",
+          "targetID": "235",
+          "newActorID": "2545",
+          "newTargetID": "2544",
+          "hand": true
+        },
+        {
+          "actorID": "2547",
+          "targetID": "2138",
+          "newActorID": "235",
+          "newTargetID": "2549",
+          "hand": true
+        },
+        {
+          "actorID": "2549",
+          "targetID": "85",
+          "newTargetID": "2550",
+          "hand": true
+        },
+        {
+          "actorID": "2553",
+          "targetID": "2548",
+          "newActorID": "235",
+          "newTargetID": "2554",
+          "hand": true
+        },
+        {
+          "actorID": "2555",
+          "targetID": "2554",
+          "newTargetID": "2490",
+          "hand": true
+        },
+        {
+          "actorID": "302",
+          "targetID": "2513",
+          "newTargetID": "2505",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "2514",
+          "newActorID": "441",
+          "newTargetID": "2548",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "459",
+          "targetID": "2498",
+          "newActorID": "2503",
+          "newTargetID": "2498",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2490",
+          "attributes": {
+            "name": {
+              "from": "Daniel Cell",
+              "to": "Daniell Cell"
+            }
+          }
+        },
+        {
+          "id": "319",
+          "attributes": {
+            "name": {
+              "from": "Unforged Sealed Crucible",
+              "to": "Unforged Sealed Steel Crucible"
+            }
+          }
+        },
+        {
+          "id": "320",
+          "attributes": {
+            "name": {
+              "from": "Unforged Crucible in Wooden Tongs",
+              "to": "Unforged Steel Crucible in Wooden Tongs"
+            }
+          }
+        },
+        {
+          "id": "321",
+          "attributes": {
+            "name": {
+              "from": "Hot Forged Crucible",
+              "to": "Hot Forged Steel Crucible"
+            }
+          }
+        },
+        {
+          "id": "322",
+          "attributes": {
+            "name": {
+              "from": "Forged Crucible",
+              "to": "Forged Steel Crucible"
+            }
+          }
+        },
+        {
+          "id": "323",
+          "attributes": {
+            "name": {
+              "from": "Hot Crucible in Wooden Tongs",
+              "to": "Hot Steel Crucible in Wooden Tongs"
+            }
+          }
+        },
+        {
+          "id": "324",
+          "attributes": {
+            "name": {
+              "from": "Cool Crucible in Wooden Tongs",
+              "to": "Cool Steel Crucible in Wooden Tongs"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2499",
+          "name": "Drill Working",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "fcf00aa447862ce11443a9012a38cd710b229850",
+      "message": "Sprites for spark-gap transmitter and Marconi receiver.  Still need glass for glass parts.",
+      "date": "2019-01-07T19:58:44.000Z",
+      "addedObjectIDs": [
+        "2490"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "id": "214",
+  "date": "2019-04-06T02:43:47.000Z",
+  "commits": [
+    {
+      "sha": "637fc36cda7fe0b802239aace0415c7afc2acf38",
+      "message": "Rebalanced r-value of hats.",
+      "date": "2019-04-06T02:35:58.000Z"
+    },
+    {
+      "sha": "1198178cd2c43f9645c63a3f531dd9703d732c74",
+      "message": "Rolled back mouflon hide insulation.  Leaving it alone for now.",
+      "date": "2019-04-06T02:28:52.000Z"
+    },
+    {
+      "sha": "f252d5d7e51297181e17c1ac31a96e7a8fe35efc",
+      "message": "Whoops.  Mouflon hide OP relative to other wearable animal skins.",
+      "date": "2019-04-05T22:06:25.000Z"
+    },
+    {
+      "sha": "4cead85687b94ec38fa95158ca176ebfde9ebd60",
+      "message": "Animations for colored cloak, dress, and long skirt.",
+      "date": "2019-04-05T20:01:22.000Z"
+    },
+    {
+      "sha": "cd39d519eae8db5d73defa5b49bc8e1c77ac2141",
+      "message": "All colors of new clothing tested and working.",
+      "date": "2019-04-05T19:14:49.000Z",
+      "addedObjectIDs": [
+        "2893",
+        "2894",
+        "2895",
+        "2896",
+        "2897",
+        "2898",
+        "2899",
+        "2900",
+        "2901",
+        "2902",
+        "2903",
+        "2904",
+        "2905",
+        "2907",
+        "2908",
+        "2909",
+        "2910",
+        "2911",
+        "2912",
+        "2913",
+        "2914",
+        "2915",
+        "2916",
+        "2917",
+        "2918",
+        "2919",
+        "2920",
+        "2921",
+        "2922",
+        "2925",
+        "2926",
+        "2927",
+        "2928",
+        "2929",
+        "2930",
+        "2931",
+        "2932",
+        "2933",
+        "2934",
+        "2935",
+        "2936",
+        "2937",
+        "2938",
+        "2939",
+        "2940",
+        "2941",
+        "2942",
+        "2943",
+        "2944",
+        "2945",
+        "2946",
+        "2947",
+        "2948",
+        "2949",
+        "2950",
+        "2951",
+        "2952",
+        "2953",
+        "2954",
+        "2955",
+        "2956"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1226",
+          "targetID": "2595",
+          "newActorID": "235",
+          "newTargetID": "2894",
+          "hand": true
+        },
+        {
+          "actorID": "1228",
+          "targetID": "2595",
+          "newActorID": "209",
+          "newTargetID": "2894",
+          "hand": true
+        },
+        {
+          "actorID": "1897",
+          "targetID": "730",
+          "newActorID": "235",
+          "newTargetID": "2897",
+          "hand": true
+        },
+        {
+          "actorID": "1897",
+          "targetID": "733",
+          "newActorID": "235",
+          "newTargetID": "2898",
+          "hand": true
+        },
+        {
+          "actorID": "2799",
+          "targetID": "2893",
+          "newActorID": "235",
+          "newTargetID": "2895",
+          "hand": true
+        },
+        {
+          "actorID": "2894",
+          "targetID": "235",
+          "newActorID": "2893",
+          "newTargetID": "1226",
+          "hand": true
+        },
+        {
+          "actorID": "2895",
+          "targetID": "85",
+          "newTargetID": "2896",
+          "hand": true
+        },
+        {
+          "actorID": "2899",
+          "newActorUses": "-1",
+          "targetID": "731",
+          "newActorID": "2900",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2900",
+          "newActorUses": "-1",
+          "targetID": "2896",
+          "newActorID": "2905",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2900",
+          "newActorUses": "-1",
+          "targetID": "2897",
+          "newActorID": "2904",
+          "newTargetID": "2897",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2900",
+          "newActorUses": "-1",
+          "targetID": "2898",
+          "newActorID": "2903",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2900",
+          "newActorUses": "-1",
+          "targetID": "733",
+          "newActorID": "2902",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2900",
+          "newActorUses": "-1",
+          "targetID": "734",
+          "newActorID": "2901",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2899",
+          "name": "@ Undyed Item Pattern",
+          "category": true
+        },
+        {
+          "id": "2900",
+          "name": "@ Dye-ready Item Pattern",
+          "category": true
+        },
+        {
+          "id": "2901",
+          "name": "@ Dyed Red Item Pattern",
+          "category": true
+        },
+        {
+          "id": "2902",
+          "name": "@ Dyed Indigo Item Pattern",
+          "category": true
+        },
+        {
+          "id": "2903",
+          "name": "@ Dyed Green Item Pattern",
+          "category": true
+        },
+        {
+          "id": "2904",
+          "name": "@ Dyed Yellow Item Pattern",
+          "category": true
+        },
+        {
+          "id": "2905",
+          "name": "@ Dyed Black Item Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "1bd7001c4a2026b91c594039dd7c4ef028c39e9e",
+      "message": "Tortilla chips and fries can go back in the bowl.  Fixes #234",
+      "date": "2019-04-05T01:31:22.000Z",
+      "addedObjectIDs": [
+        "2891",
+        "2892"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2891",
+          "newTargetID": "2868",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2892",
+          "newTargetID": "2873",
+          "decay": "1s"
+        },
+        {
+          "actorID": "2866",
+          "targetID": "2867",
+          "newActorID": "2891",
+          "newTargetID": "2867",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2869",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newTargetID": "2868",
+          "hand": true
+        },
+        {
+          "actorID": "2869",
+          "targetID": "2868",
+          "newTargetUses": "+1",
+          "newTargetID": "2868",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2872",
+          "targetID": "2867",
+          "newActorID": "2892",
+          "newTargetID": "2867",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2874",
+          "targetID": "236",
+          "newTargetUses": "last",
+          "newTargetID": "2873",
+          "hand": true
+        },
+        {
+          "actorID": "2874",
+          "targetID": "2873",
+          "newTargetUses": "+1",
+          "newTargetID": "2873",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "2866",
+          "targetID": "2867",
+          "newActorID": "2868",
+          "newTargetID": "2867",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2872",
+          "targetID": "2867",
+          "newActorID": "2873",
+          "newTargetID": "2867",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "eafa2bd14912144440141a7582486129916955ab",
+      "message": "French fry with ketchup better food value.  Fixes #228",
+      "date": "2019-04-05T01:21:28.000Z"
+    },
+    {
+      "sha": "42e029bd81f4d7a1e4b535ed58a8f7496242400c",
+      "message": "Typo and lack of decay for wild plants.  Fixes #226  Fixes #227",
+      "date": "2019-04-05T01:19:04.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2802",
+          "decay": "2m"
+        },
+        {
+          "targetID": "2805",
+          "decay": "2m"
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2805",
+          "attributes": {
+            "name": {
+              "from": "Dug Wild Peper Plant",
+              "to": "Dug Wild Pepper Plant"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "44e83c8486a2d09c599208806c03115c92d41ab9",
+      "message": "All transitions for new undyed clothing in place, tested, and working",
+      "date": "2019-04-05T01:12:46.000Z",
+      "addedObjectIDs": [
+        "2888",
+        "2889",
+        "2890"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2889",
+          "newActorID": "2888",
+          "newTargetID": "2888",
+          "hand": true
+        },
+        {
+          "targetID": "2890",
+          "newActorID": "2878",
+          "newTargetID": "2882",
+          "hand": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "2880",
+          "newActorID": "1127",
+          "newTargetID": "2881",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "2883",
+          "newActorID": "1127",
+          "newTargetID": "2879",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "2888",
+          "newActorID": "1127",
+          "newTargetID": "2884",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "2889",
+          "newActorID": "1127",
+          "newTargetID": "2885",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "191",
+          "targetID": "578",
+          "newActorID": "191",
+          "newTargetID": "2888",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2888",
+          "targetID": "2888",
+          "newTargetID": "2889",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "467",
+          "newActorID": "462",
+          "newTargetID": "2886",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "2685",
+          "newActorID": "568",
+          "newTargetID": "2883",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "2878",
+          "newActorID": "568",
+          "newTargetID": "2880",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "2879",
+          "newActorID": "568",
+          "newTargetID": "2890",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "766",
+          "newActorID": "568",
+          "newTargetID": "2887",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "10ac2f98b3b07bc124960694e048d7eafa19e386",
+      "message": "Split trousers to allow container slot in pocket.  Added R values for all new clothing.",
+      "date": "2019-04-05T00:19:49.000Z",
+      "objectChanges": [
+        {
+          "id": "2884",
+          "attributes": {
+            "name": {
+              "from": "Bowler Hat",
+              "to": "Undyed Bowler Hat"
+            }
+          }
+        },
+        {
+          "id": "2885",
+          "attributes": {
+            "name": {
+              "from": "Top Hat",
+              "to": "Undyed Top Hat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ed9c6ff777735e97825bd8fb9d0c7a4f92261501",
+      "message": "Positions and animations, and sounds for all undyed clothing.",
+      "date": "2019-04-05T00:07:19.000Z"
+    },
+    {
+      "sha": "ac310875fd63612dc52f19e99939bdae800a2c28",
+      "message": "Clothing sprites.",
+      "date": "2019-04-01T20:34:43.000Z",
+      "addedObjectIDs": [
+        "2878",
+        "2879",
+        "2880",
+        "2881",
+        "2882",
+        "2883",
+        "2884",
+        "2885",
+        "2886",
+        "2887"
+      ]
+    }
+  ]
+}

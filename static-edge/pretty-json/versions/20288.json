@@ -1,0 +1,1126 @@
+{
+  "id": "20288",
+  "date": "2021-12-10T19:06:30.000Z",
+  "commits": [
+    {
+      "sha": "7123d255d8046e5b8a162a986fa3fa57df2574ff",
+      "message": "Fixed reports in gp-reports",
+      "date": "2021-12-10T18:53:36.000Z"
+    },
+    {
+      "sha": "84d702a1a279557235bd082ab1a4f82771cbb5f3",
+      "message": "Added Flower biome and items",
+      "date": "2021-12-10T01:17:57.000Z",
+      "addedObjectIDs": [
+        "9144",
+        "9145",
+        "9146",
+        "9147",
+        "9148",
+        "9149",
+        "9150",
+        "9151",
+        "9152",
+        "9153",
+        "9154",
+        "9155",
+        "9156",
+        "9157",
+        "9158"
+      ],
+      "objectChanges": [
+        {
+          "id": "8848",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                8
+              ]
+            }
+          }
+        },
+        {
+          "id": "8862",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                0,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "id": "8885",
+          "attributes": {
+            "biomes": {
+              "from": [
+                1
+              ],
+              "to": [
+                1,
+                8
+              ]
+            }
+          }
+        },
+        {
+          "id": "8972",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                0,
+                8
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "770f63ddaa69cb806acba5a5d32b552bc2dd0c53",
+      "message": "Initial Spawn rates",
+      "date": "2021-12-09T02:19:37.000Z",
+      "addedObjectIDs": [
+        "9139",
+        "9140",
+        "9141",
+        "9142",
+        "9143"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8834",
+          "newTargetID": "8835",
+          "decay": "10m"
+        },
+        {
+          "targetID": "8838",
+          "newTargetID": "8839",
+          "decay": "2m"
+        },
+        {
+          "targetID": "8839",
+          "newTargetID": "8840",
+          "decay": "2m"
+        },
+        {
+          "targetID": "9139",
+          "newActorID": "9140",
+          "newTargetID": "8958",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "8147",
+          "newActorID": "33",
+          "newTargetID": "9096",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "8837",
+          "newActorID": "394",
+          "newTargetID": "8838",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "326",
+          "newActorID": "441",
+          "newTargetID": "8683",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "722",
+          "newActorUses": "-1",
+          "targetID": "9139",
+          "newActorID": "722",
+          "newTargetID": "8957",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "723",
+          "newActorUses": "-1",
+          "targetID": "9142",
+          "newActorID": "723",
+          "newTargetID": "8756",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "9140",
+          "targetID": "213",
+          "newTargetID": "8837",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8834",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                6
+              ]
+            }
+          }
+        },
+        {
+          "id": "8853",
+          "attributes": {
+            "biomes": {
+              "from": [
+                5
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "8856",
+          "attributes": {
+            "name": {
+              "from": "Ant Mound",
+              "to": "Ant Mound - ants"
+            }
+          }
+        },
+        {
+          "id": "8863",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                2
+              ]
+            }
+          }
+        },
+        {
+          "id": "8874",
+          "attributes": {
+            "biomes": {
+              "from": [
+                6
+              ],
+              "to": [
+                2
+              ]
+            }
+          }
+        },
+        {
+          "id": "8885",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0,
+                3,
+                4,
+                5
+              ],
+              "to": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "id": "8900",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                2
+              ]
+            }
+          }
+        },
+        {
+          "id": "8972",
+          "attributes": {
+            "biomes": {
+              "from": [
+                6
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9098",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                6
+              ]
+            }
+          }
+        },
+        {
+          "id": "9099",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                6
+              ]
+            }
+          }
+        },
+        {
+          "id": "9100",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                6
+              ]
+            }
+          }
+        },
+        {
+          "id": "9101",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                6
+              ]
+            }
+          }
+        },
+        {
+          "id": "9102",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0
+              ],
+              "to": [
+                6
+              ]
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        },
+        {
+          "id": "722",
+          "name": "@ Shallow Digger",
+          "category": true
+        },
+        {
+          "id": "723",
+          "name": "@ Rough Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "1919a9e4f38e1164918189ef1025b021c9d5c108",
+      "message": "Can rope Alpacas",
+      "date": "2021-12-07T01:41:35.000Z",
+      "addedObjectIDs": [
+        "9133",
+        "9134",
+        "9135",
+        "9136",
+        "9137",
+        "9138"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "59",
+          "targetID": "8819",
+          "newActorID": "9133",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "8820",
+          "newActorID": "9135",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "8823",
+          "newActorID": "9134",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "8824",
+          "newActorID": "9136",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "8828",
+          "newActorID": "9138",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "8829",
+          "newActorID": "9137",
+          "hand": true
+        },
+        {
+          "actorID": "9133",
+          "newActorID": "59",
+          "newTargetID": "8819",
+          "hand": true
+        },
+        {
+          "actorID": "9134",
+          "newActorID": "59",
+          "newTargetID": "8823",
+          "hand": true
+        },
+        {
+          "actorID": "9135",
+          "newActorID": "59",
+          "newTargetID": "8820",
+          "hand": true
+        },
+        {
+          "actorID": "9136",
+          "newActorID": "59",
+          "newTargetID": "8824",
+          "hand": true
+        },
+        {
+          "actorID": "9137",
+          "newActorID": "59",
+          "newTargetID": "8829",
+          "hand": true
+        },
+        {
+          "actorID": "9138",
+          "newActorID": "59",
+          "newTargetID": "8828",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "92ba8aabecccb819587c552f2b5eafccf5e796da",
+      "message": "Merchannts no longer natually spawn",
+      "date": "2021-12-07T00:57:14.000Z"
+    },
+    {
+      "sha": "2cbbd5be705efd4e968b8ab663f0bd20b26de68d",
+      "message": "Bear cave rubble should be naturally spawning",
+      "date": "2021-12-07T00:56:27.000Z",
+      "objectChanges": [
+        {
+          "id": "9113",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9114",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9115",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9116",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9117",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9118",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9122",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "9123",
+          "attributes": {
+            "biomes": {
+              "from": [
+                3
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "13a3e07e2a3e90cefa2e87a1d08d80db275f0e7b",
+      "message": "Raccoon Transitions",
+      "date": "2021-12-07T00:54:07.000Z",
+      "addedObjectIDs": [
+        "9126",
+        "9127",
+        "9128",
+        "9129",
+        "9130",
+        "9131",
+        "9132"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "9126",
+          "newTargetID": "9000",
+          "decay": "5s",
+          "move": 2
+        },
+        {
+          "targetID": "9132",
+          "decay": "5s"
+        },
+        {
+          "targetID": "9128",
+          "newActorID": "9129",
+          "newTargetID": "9132",
+          "hand": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "9129",
+          "newActorID": "1127",
+          "newTargetID": "9130",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9000",
+          "newActorID": "560",
+          "newTargetID": "9131",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9001",
+          "newActorID": "560",
+          "newTargetID": "9131",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "561",
+          "newActorUses": "-1",
+          "targetID": "9131",
+          "newActorID": "561",
+          "newTargetID": "9128",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "9000",
+          "targetID": "9127",
+          "newTargetUses": "-1",
+          "newTargetID": "9126",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "561",
+          "name": "@ Skinning Tool",
+          "category": true
+        },
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        },
+        {
+          "id": "9127",
+          "name": "@ Any Raw Meat",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "58bf2eb79545ded19073787d964f081721af0d96",
+      "message": "Added a way to remove mosquitoes",
+      "date": "2021-12-06T23:50:31.000Z",
+      "addedObjectIDs": [
+        "9125"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "2156",
+          "targetID": "9097",
+          "newTargetID": "9125",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "4dcc8ab880a18f1bc94fb7d4a671f21700eadac5",
+      "message": "Dynamite can blow up hills and caves",
+      "date": "2021-12-06T23:43:08.000Z",
+      "addedObjectIDs": [
+        "9105",
+        "9106",
+        "9107",
+        "9109",
+        "9110",
+        "9111",
+        "9112",
+        "9113",
+        "9114",
+        "9115",
+        "9116",
+        "9117",
+        "9118",
+        "9122",
+        "9123",
+        "9124"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "9105",
+          "newTargetID": "9109",
+          "decay": "1s"
+        },
+        {
+          "targetID": "9107",
+          "newTargetID": "9105",
+          "decay": "5s"
+        },
+        {
+          "targetID": "9113",
+          "newTargetID": "9114",
+          "decay": "1s"
+        },
+        {
+          "targetID": "9123",
+          "decay": "5m"
+        },
+        {
+          "targetID": "9124",
+          "newTargetID": "9113",
+          "decay": "5s"
+        },
+        {
+          "targetID": "9109",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.7,
+          "newActorID": "9110",
+          "newTargetID": "9109",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "9109",
+          "targetUses": "last",
+          "newActorID": "9110",
+          "newTargetID": "9111",
+          "hand": true
+        },
+        {
+          "targetID": "9114",
+          "newActorID": "344",
+          "newTargetID": "9115",
+          "hand": true
+        },
+        {
+          "targetID": "9115",
+          "newActorID": "345",
+          "newTargetID": "9116",
+          "hand": true
+        },
+        {
+          "targetID": "9116",
+          "newActorID": "33",
+          "newTargetID": "9117",
+          "hand": true
+        },
+        {
+          "targetID": "9117",
+          "newActorID": "33",
+          "newTargetID": "9118",
+          "hand": true
+        },
+        {
+          "targetID": "9118",
+          "newActorID": "33",
+          "newTargetID": "9122",
+          "hand": true
+        },
+        {
+          "targetID": "9122",
+          "newActorID": "503",
+          "newTargetID": "9123",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "9106",
+          "newActorID": "248",
+          "newTargetID": "9107",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "9112",
+          "newActorID": "248",
+          "newTargetID": "9124",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "5294",
+          "targetID": "9106",
+          "newActorID": "5294",
+          "newTargetID": "9107",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "5294",
+          "targetID": "9112",
+          "newActorID": "5294",
+          "newTargetID": "9124",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8929",
+          "targetID": "650",
+          "newTargetID": "9112",
+          "hand": true
+        },
+        {
+          "actorID": "8929",
+          "targetID": "8911",
+          "newTargetID": "9106",
+          "hand": true
+        },
+        {
+          "actorID": "9105",
+          "newActorID": "9105",
+          "newTargetID": "8295",
+          "targetPlayer": true,
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "9110",
+          "name": "Random Quarry Cave Outcome",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "40b19bb402c5d80ad17dbdb27fcfbb5d0bce59a1",
+      "message": "Added clovers, jungle plants and primitive crown",
+      "date": "2021-12-05T02:43:16.000Z",
+      "addedObjectIDs": [
+        "9094",
+        "9095",
+        "9096",
+        "9097",
+        "9098",
+        "9099",
+        "9100",
+        "9101",
+        "9102",
+        "9103",
+        "9104"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "9104",
+          "newTargetID": "9097",
+          "decay": "5m"
+        },
+        {
+          "actorID": "723",
+          "newActorUses": "-1",
+          "targetID": "9099",
+          "newActorID": "723",
+          "newTargetID": "9103",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "9103",
+          "targetID": "8138",
+          "newTargetID": "9104",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "723",
+          "name": "@ Rough Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "5f210d623fc1feb034f6f4733b987d5e8eef208c",
+      "message": "Added vine wall sprites,objects and transitions",
+      "date": "2021-10-10T16:56:52.000Z",
+      "addedObjectIDs": [
+        "9087",
+        "9088",
+        "9089",
+        "9090",
+        "9091",
+        "9092"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8645",
+          "newTargetID": "9088",
+          "decay": "1h"
+        },
+        {
+          "targetID": "8647",
+          "newTargetID": "9087",
+          "decay": "1h"
+        },
+        {
+          "targetID": "8648",
+          "newTargetID": "9089",
+          "decay": "1h"
+        },
+        {
+          "targetID": "9087",
+          "newTargetID": "9092",
+          "decay": "10m"
+        },
+        {
+          "targetID": "9088",
+          "newTargetID": "9091",
+          "decay": "10m"
+        },
+        {
+          "targetID": "9089",
+          "newTargetID": "9090",
+          "decay": "10m"
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9087",
+          "newActorID": "568",
+          "newTargetID": "8647",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9088",
+          "newActorID": "568",
+          "newTargetID": "8645",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9089",
+          "newActorID": "568",
+          "newTargetID": "8648",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9090",
+          "newActorID": "568",
+          "newTargetID": "9089",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9091",
+          "newActorID": "568",
+          "newTargetID": "9088",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "9092",
+          "newActorID": "568",
+          "newTargetID": "9087",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "1f8e81ed6efbf36bc400feac2aea7432cf3ec8b6",
+      "message": "Spider sprites",
+      "date": "2021-10-09T23:40:02.000Z"
+    },
+    {
+      "sha": "bbf10bdc76e55bea3cdb56de8d1d8a7b291ea325",
+      "message": "Added other wood variants for shelters",
+      "date": "2021-10-09T22:53:14.000Z",
+      "addedObjectIDs": [
+        "9083",
+        "9084",
+        "9085",
+        "9086"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "9083",
+          "newTargetUses": "-1",
+          "newActorID": "7393",
+          "newTargetID": "9083",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "9083",
+          "targetUses": "last",
+          "newActorID": "7393",
+          "newTargetID": "8966",
+          "hand": true
+        },
+        {
+          "targetID": "9084",
+          "newTargetUses": "-1",
+          "newActorID": "7394",
+          "newTargetID": "9084",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "9084",
+          "targetUses": "last",
+          "newActorID": "7394",
+          "newTargetID": "8966",
+          "hand": true
+        },
+        {
+          "targetID": "9085",
+          "newTargetUses": "-1",
+          "newActorID": "7392",
+          "newTargetID": "9085",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "9085",
+          "targetUses": "last",
+          "newActorID": "7392",
+          "newTargetID": "8966",
+          "hand": true
+        },
+        {
+          "targetID": "9086",
+          "newTargetUses": "-1",
+          "newActorID": "7391",
+          "newTargetID": "9086",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "9086",
+          "targetUses": "last",
+          "newActorID": "7391",
+          "newTargetID": "8966",
+          "hand": true
+        },
+        {
+          "actorID": "7391",
+          "targetID": "8966",
+          "newTargetUses": "last",
+          "newTargetID": "9086",
+          "hand": true
+        },
+        {
+          "actorID": "7391",
+          "targetID": "9086",
+          "newTargetUses": "+1",
+          "newTargetID": "9086",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7392",
+          "targetID": "8966",
+          "newTargetUses": "last",
+          "newTargetID": "9085",
+          "hand": true
+        },
+        {
+          "actorID": "7392",
+          "targetID": "9085",
+          "newTargetUses": "+1",
+          "newTargetID": "9085",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7393",
+          "targetID": "8966",
+          "newTargetUses": "last",
+          "newTargetID": "9083",
+          "hand": true
+        },
+        {
+          "actorID": "7393",
+          "targetID": "9083",
+          "newTargetUses": "+1",
+          "newTargetID": "9083",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7394",
+          "targetID": "8966",
+          "newTargetUses": "last",
+          "newTargetID": "9084",
+          "hand": true
+        },
+        {
+          "actorID": "7394",
+          "targetID": "9084",
+          "newTargetUses": "+1",
+          "newTargetID": "9084",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    }
+  ]
+}

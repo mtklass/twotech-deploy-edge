@@ -1,0 +1,427 @@
+{
+  "id": "247",
+  "date": "2019-07-05T22:00:42.000Z",
+  "commits": [
+    {
+      "sha": "e1623b56992edf194f19424c7c1ce5302eec7f9b",
+      "message": "Weak skewer can finally till 2-pile into a deep row.  Fixes #344",
+      "date": "2019-07-05T20:55:17.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "852",
+          "targetID": "903",
+          "targetUses": "last",
+          "newActorID": "847",
+          "newTargetID": "213",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "903",
+          "name": "@ Tillable Row",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "1b45f9e289f3bc5635f51dfb12d571a6b8f47198",
+      "message": "Fixed so you can't build a road/floor on top of an existing road/floor.  Fixes #340",
+      "date": "2019-07-05T20:39:25.000Z",
+      "objectChanges": [
+        {
+          "id": "1596",
+          "attributes": {
+            "name": {
+              "from": "Stone Road",
+              "to": "Stone Road -  groundOnly"
+            }
+          }
+        },
+        {
+          "id": "485",
+          "attributes": {
+            "name": {
+              "from": "Wooden Floor",
+              "to": "Wooden Floor -  groundOnly"
+            }
+          }
+        },
+        {
+          "id": "884",
+          "attributes": {
+            "name": {
+              "from": "Stone Floor",
+              "to": "Stone Floor -  groundOnly"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "84294a9d1ccea0e44a72bcea8a57ec185bfe345c",
+      "message": "Threshed wheat decays in 30 minutes to reduce clutter.  Fixes #341",
+      "date": "2019-07-05T20:23:47.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "297",
+          "decay": "30m"
+        }
+      ]
+    },
+    {
+      "sha": "4ab1cdd5b1a7b8e7ffcf48c153ad4c110294e68a",
+      "message": "Spoon can be recycled.  Fixes #233   Fixes #339",
+      "date": "2019-07-05T20:18:22.000Z"
+    },
+    {
+      "sha": "af5d168dfcd52b47fae448346adbe29739047353",
+      "message": "Cut stones with bear skin can't be picked up.  Made bear skin spelling consistent.  Fixes #349",
+      "date": "2019-07-05T19:55:17.000Z",
+      "objectChanges": [
+        {
+          "id": "668",
+          "attributes": {
+            "name": {
+              "from": "Boards with Bearskin",
+              "to": "Boards with Bear Skin"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "b9a537f59685cd4ee7dc56f2f9ff23757643d730",
+      "message": "Fixed pick-up age on diesel engine parts (only full engine is heavy and requires you to be 15).",
+      "date": "2019-07-05T19:51:42.000Z"
+    },
+    {
+      "sha": "e6a22a9b3e228de0a796e0676341c7f1a83e279c",
+      "message": "Scrapping steel into a bowl requires an extra step (marking bowl first) to ensure that valuable steel items aren't scrapped accidentally with a misclick.",
+      "date": "2019-07-05T19:49:28.000Z",
+      "addedObjectIDs": [
+        "3076",
+        "3077"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3077",
+          "newTargetID": "235",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1002",
+          "targetID": "3076",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "235",
+          "newActorID": "1617",
+          "newTargetID": "3076",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "62",
+          "targetID": "3076",
+          "newActorID": "62",
+          "newTargetID": "3077",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "696",
+          "actorUses": "max",
+          "targetID": "3076",
+          "newTargetID": "495",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "696",
+          "actorUses": "max",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "930",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "696",
+          "name": "@ New Scrap Steel",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8bd27de2fe954ff81950439847eeb3f779d5891c",
+      "message": "A bunch more steel things can be scrapped.  Fixes #351",
+      "date": "2019-07-05T19:29:25.000Z"
+    },
+    {
+      "sha": "fb6bf533aa25ba580cd48e13d33f3733f948be76",
+      "message": "Both knife and flint chip can make property twigs now.  Fixes #353",
+      "date": "2019-07-05T19:19:08.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "64",
+          "newActorID": "964",
+          "newTargetID": "2957",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "135",
+          "targetID": "64",
+          "newActorID": "135",
+          "newTargetID": "2957",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "5de50a008f614deea9d230d6538f747525ac9ca0",
+      "message": "Marked murder weapons as offScreenSound.  Related to jasonrohrer/OneLife#349",
+      "date": "2019-07-05T18:58:55.000Z",
+      "objectChanges": [
+        {
+          "id": "3048",
+          "attributes": {
+            "name": {
+              "from": "Bloody War Sword",
+              "to": "Bloody War Sword -  offScreenSound"
+            }
+          }
+        },
+        {
+          "id": "749",
+          "attributes": {
+            "name": {
+              "from": "Yew Bow - just murdered",
+              "to": "Yew Bow - just murdered offScreenSound"
+            }
+          }
+        },
+        {
+          "id": "750",
+          "attributes": {
+            "name": {
+              "from": "Bloody Knife",
+              "to": "Bloody Knife -  offScreenSound"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "48c7b580c06cec636fbb5c5c5527485983a9e738",
+      "message": "Fixed so that you can't drain shot goose pond before removing the goose, to prevent the goose from disappearing when the pond is emptied.  Fixes #358",
+      "date": "2019-07-05T17:11:53.000Z"
+    },
+    {
+      "sha": "2fbc4727631ef184f43c4dafba53bbd96cdcb10d",
+      "message": "Made a bunch of non-liquid bowls and crucibles containable in a box or cart.  Fixes #360",
+      "date": "2019-07-05T16:30:41.000Z"
+    },
+    {
+      "sha": "50c9758062bae8f77add95914ccd809edd4f108d",
+      "message": "Rubber tree planting.  Fixes #361",
+      "date": "2019-07-05T01:12:14.000Z",
+      "addedObjectIDs": [
+        "3069",
+        "3070",
+        "3071",
+        "3072",
+        "3073",
+        "3074",
+        "3075"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3070",
+          "newTargetID": "2135",
+          "decay": "1h"
+        },
+        {
+          "actorID": "568",
+          "targetID": "3075",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "3073",
+          "newTargetID": "3075",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3075",
+          "name": "@ (outdated) Cutting-source Rubber Tree",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "bab29d6ae24e4fc889bba4807631f5c5e999cc5d",
+      "message": "Can now milk last use of milk cow.  Fixes #363",
+      "date": "2019-07-05T00:38:31.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "659",
+          "targetID": "1489",
+          "targetUses": "last",
+          "newActorID": "1478",
+          "newTargetID": "1458",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "87cd822540812b3cf0774c754aa6f155897367ed",
+      "message": "Single piece of rabbit fur no longer decays, for consistency with stacks and cut fur.  Fixes #366",
+      "date": "2019-07-05T00:24:48.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "183",
+          "decay": "2h"
+        }
+      ]
+    },
+    {
+      "sha": "243ed02cc37142792fb2fd6352f4d2f25ad75d14",
+      "message": "Added missing transition from empty bucket to partial skim milk bucket.  Also fixed filling empty bucket with whole milk from a bowl.  Fixes #368",
+      "date": "2019-07-05T00:23:07.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1481",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "1483",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "295fb56d83ed224dfac309b5dc1d99a008fd6f24",
+      "message": "Fixed so that several attacking animals, that also go through uses, produce wounds when they attack on their last use, and don't get stuck after attacking.  The fix changes it so that they don't consume a use when attacking.  Fixes #370",
+      "date": "2019-07-05T00:16:24.000Z",
+      "legacyObjects": [
+        {
+          "id": "1712",
+          "name": "Attacking Pit Bull",
+          "category": false
+        },
+        {
+          "id": "1747",
+          "name": "Mean Pit Bull",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "bf35a52e5b939eccba57df2c7664f0e4744a16e6",
+      "message": "Before, dogs were young for 8 years and old for 8 years, on average.  Now they are young for 12 years and old for four years.  Fixes #371",
+      "date": "2019-07-04T23:58:05.000Z"
+    },
+    {
+      "sha": "655529bcf7225be59fa8ceb24382747499bfb74e",
+      "message": "Can remove antenna from parital am transmitter, allowing it to be moved.  Fixed #372",
+      "date": "2019-07-04T23:44:02.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2652",
+          "newActorID": "2539",
+          "newTargetID": "2650",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "9d042852e9e0c8fb7fe81b2035d03253cf5ff53a",
+      "message": "Added visually distinct separate pocket to medical apron for sterile pads.",
+      "date": "2019-07-04T23:26:05.000Z"
+    },
+    {
+      "sha": "12245727944beef8bdc44ea8f910302b1b135321",
+      "message": "Three sterile pads can be stored in medical apron.  Fixes #374",
+      "date": "2019-07-04T22:35:49.000Z",
+      "addedObjectIDs": [
+        "3068"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3068",
+          "newTargetUses": "-1",
+          "newActorID": "1378",
+          "newTargetID": "3068",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "3068",
+          "targetUses": "last",
+          "newActorID": "1378",
+          "newTargetID": "1376",
+          "hand": true
+        },
+        {
+          "actorID": "1378",
+          "targetID": "1376",
+          "newTargetUses": "last",
+          "newTargetID": "3068",
+          "hand": true
+        },
+        {
+          "actorID": "1378",
+          "targetID": "3068",
+          "newTargetUses": "+1",
+          "newTargetID": "3068",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "122f93cb38e1e87ed01a03cbd9291d4e91191a10",
+      "message": "Test scenes",
+      "date": "2019-07-04T21:52:44.000Z"
+    },
+    {
+      "sha": "30b1741286a88ff93b110c6774fdb8b85bcd7a50",
+      "message": "Test scene",
+      "date": "2019-07-03T23:55:32.000Z"
+    },
+    {
+      "sha": "5a85f4cad41c4380af4af894650cb258af01da45",
+      "message": "Test scenes",
+      "date": "2019-07-03T23:29:12.000Z"
+    },
+    {
+      "sha": "2c4227ef03b0d25312cee94b19328551faa400c9",
+      "message": "Scene for last week's gif, and test scene.",
+      "date": "2019-06-29T01:41:17.000Z"
+    }
+  ]
+}

@@ -1,0 +1,2834 @@
+{
+  "id": "20312",
+  "date": "2024-04-07T13:17:24.000Z",
+  "commits": [
+    {
+      "sha": "26195d662b3be1f3bddf87284f56faf62474bbb0",
+      "message": "Renumber sprites and sprites",
+      "date": "2024-04-07T09:28:46.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "14768",
+          "newTargetID": "14774",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14769",
+          "newTargetID": "14770",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14774",
+          "newTargetID": "14769",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14776",
+          "newTargetUses": "last",
+          "newTargetID": "14766",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14777",
+          "newTargetID": "14769",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14778",
+          "newTargetID": "14767",
+          "decay": "1s"
+        },
+        {
+          "actorID": "14771",
+          "targetID": "4611",
+          "newTargetUses": "-1",
+          "newActorID": "14772",
+          "newTargetID": "4611",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14771",
+          "targetID": "4611",
+          "targetUses": "last",
+          "newActorID": "14772",
+          "newTargetID": "4546",
+          "hand": true
+        },
+        {
+          "actorID": "14771",
+          "targetID": "4647",
+          "newActorID": "14772",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "14772",
+          "targetID": "14767",
+          "newTargetID": "14768",
+          "hand": true
+        },
+        {
+          "actorID": "14773",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "newActorID": "568",
+          "newTargetID": "14771",
+          "hand": true
+        },
+        {
+          "actorID": "14773",
+          "actorUses": "last",
+          "newActorID": "862",
+          "newTargetID": "14771",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "14769",
+          "newActorID": "568",
+          "newTargetID": "14778",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "actorUses": "last",
+          "targetID": "14769",
+          "newActorID": "862",
+          "newTargetID": "14778",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "14770",
+          "newActorID": "568",
+          "newTargetID": "14777",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "actorUses": "last",
+          "targetID": "14770",
+          "newActorID": "862",
+          "newTargetID": "14777",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "14766",
+          "newTargetUses": "-1",
+          "newActorID": "660",
+          "newTargetID": "14766",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "14767",
+          "newActorID": "660",
+          "newTargetID": "14766",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "14766",
+          "newTargetUses": "+1",
+          "newActorID": "659",
+          "newTargetID": "14766",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "14766",
+          "targetUses": "max",
+          "newActorID": "659",
+          "newTargetID": "14767",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "4751",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "14776",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "14766",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "14766",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "14767",
+          "newActorID": "7029",
+          "newTargetID": "14766",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "23709",
+          "newTargetID": "23715",
+          "decay": "10m"
+        },
+        {
+          "targetID": "23710",
+          "newTargetID": "23711",
+          "decay": "10m"
+        },
+        {
+          "targetID": "23715",
+          "newTargetID": "23710",
+          "decay": "10m"
+        },
+        {
+          "targetID": "23717",
+          "newTargetUses": "last",
+          "newTargetID": "23707",
+          "decay": "1s"
+        },
+        {
+          "targetID": "23718",
+          "newTargetID": "23710",
+          "decay": "1s"
+        },
+        {
+          "targetID": "23719",
+          "newTargetID": "23708",
+          "decay": "1s"
+        },
+        {
+          "actorID": "23712",
+          "targetID": "4611",
+          "newTargetUses": "-1",
+          "newActorID": "23713",
+          "newTargetID": "4611",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "23712",
+          "targetID": "4611",
+          "targetUses": "last",
+          "newActorID": "23713",
+          "newTargetID": "4546",
+          "hand": true
+        },
+        {
+          "actorID": "23712",
+          "targetID": "4647",
+          "newActorID": "23713",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "23713",
+          "targetID": "23708",
+          "newTargetID": "23709",
+          "hand": true
+        },
+        {
+          "actorID": "23714",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "newActorID": "568",
+          "newTargetID": "23712",
+          "hand": true
+        },
+        {
+          "actorID": "23714",
+          "actorUses": "last",
+          "newActorID": "862",
+          "newTargetID": "23712",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23710",
+          "newActorID": "568",
+          "newTargetID": "23719",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "actorUses": "last",
+          "targetID": "23710",
+          "newActorID": "862",
+          "newTargetID": "23719",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23711",
+          "newActorID": "568",
+          "newTargetID": "23718",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "actorUses": "last",
+          "targetID": "23711",
+          "newActorID": "862",
+          "newTargetID": "23718",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "23707",
+          "newTargetUses": "-1",
+          "newActorID": "660",
+          "newTargetID": "23707",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "23708",
+          "newActorID": "660",
+          "newTargetID": "23707",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "23707",
+          "newTargetUses": "+1",
+          "newActorID": "659",
+          "newTargetID": "23707",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "23707",
+          "targetUses": "max",
+          "newActorID": "659",
+          "newTargetID": "23708",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "4751",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "23717",
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "23707",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "23707",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "23708",
+          "newActorID": "7029",
+          "newTargetID": "23707",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23707",
+          "name": "Partial Wooden Barrel of Water",
+          "category": false
+        },
+        {
+          "id": "23708",
+          "name": "Full Wooden Barrel of Water",
+          "category": false
+        },
+        {
+          "id": "23709",
+          "name": "Wooden Barrel with Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23710",
+          "name": "Wooden Barrel with Budding Lotus",
+          "category": false
+        },
+        {
+          "id": "23711",
+          "name": "Wooden Barrel with Lotus",
+          "category": false
+        },
+        {
+          "id": "23712",
+          "name": "Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23713",
+          "name": "Rooting Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23714",
+          "name": "Shears with Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23715",
+          "name": "Wooden Barrel with Sprouting Lotus",
+          "category": false
+        },
+        {
+          "id": "23717",
+          "name": "Partial Wooden Barrel of Water - just built",
+          "category": false
+        },
+        {
+          "id": "23718",
+          "name": "Wooden Barrel with Budding Lotus - just sheared",
+          "category": false
+        },
+        {
+          "id": "23719",
+          "name": "Full Wooden Barrel of Water - just sheared",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "9f541efeab1712870c375a90ff325c5832928144",
+      "message": "Bugfix - fix hold position of cuttings",
+      "date": "2024-04-06T18:55:02.000Z"
+    },
+    {
+      "sha": "00bdce957fd9469b61e5fe871653ce7053f8d667",
+      "message": "BugFix Allow Empty Watering Can to be used on (last use) Partial Wooden Barrel with Water",
+      "date": "2024-04-06T13:13:01.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7014",
+          "targetID": "23707",
+          "targetUses": "last",
+          "newActorID": "7029",
+          "newTargetID": "4751",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23707",
+          "name": "Partial Wooden Barrel of Water",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "a8698d84263ae10ebc7a3a02db61d63171dd7308",
+      "message": "BugFix Using categories 14035 and 14038 for cutting lotus",
+      "date": "2024-04-06T12:58:05.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "568",
+          "targetID": "14029",
+          "newActorID": "23714",
+          "newTargetID": "14029",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23714",
+          "name": "Shears with Lotus Cutting",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "e56713e795dc60f5db181185e35fb53683d8eaaf",
+      "message": "BugFix Align lotus cutting help position with maple",
+      "date": "2024-04-06T12:20:13.000Z"
+    },
+    {
+      "sha": "cbc8ec90d6a7b036dd1e3e917877d43771169a56",
+      "message": "BugFix Add last use transitiions for shears",
+      "date": "2024-04-06T12:11:25.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "23714",
+          "actorUses": "last",
+          "newActorID": "862",
+          "newTargetID": "23712",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "actorUses": "last",
+          "targetID": "23710",
+          "newActorID": "862",
+          "newTargetID": "23719",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "actorUses": "last",
+          "targetID": "23711",
+          "newActorID": "862",
+          "newTargetID": "23718",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23710",
+          "name": "Wooden Barrel with Budding Lotus",
+          "category": false
+        },
+        {
+          "id": "23711",
+          "name": "Wooden Barrel with Lotus",
+          "category": false
+        },
+        {
+          "id": "23712",
+          "name": "Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23714",
+          "name": "Shears with Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23718",
+          "name": "Wooden Barrel with Budding Lotus - just sheared",
+          "category": false
+        },
+        {
+          "id": "23719",
+          "name": "Full Wooden Barrel of Water - just sheared",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "428d1e8042172d589f3439c5ffaa96dacc4c4992",
+      "message": "BugFix Change naming of objects",
+      "date": "2024-04-06T11:44:33.000Z",
+      "objectChanges": [
+        {
+          "id": "23707",
+          "attributes": {
+            "name": {
+              "from": "Partial Wooden Barrel with Water",
+              "to": "Partial Wooden Barrel of Water"
+            }
+          }
+        },
+        {
+          "id": "23708",
+          "attributes": {
+            "name": {
+              "from": "Full Wooden Barrel with Water",
+              "to": "Full Wooden Barrel of Water"
+            }
+          }
+        },
+        {
+          "id": "23717",
+          "attributes": {
+            "name": {
+              "from": "Partial Wooden Barrel with Water - just built",
+              "to": "Partial Wooden Barrel of Water - just built"
+            }
+          }
+        },
+        {
+          "id": "23718",
+          "attributes": {
+            "name": {
+              "from": "Wooden Barrel with Budding Lotus - just built",
+              "to": "Wooden Barrel with Budding Lotus - just sheared"
+            }
+          }
+        },
+        {
+          "id": "23719",
+          "attributes": {
+            "name": {
+              "from": "Full Wooden Barrel with Water - just built",
+              "to": "Full Wooden Barrel of Water - just sheared"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "3d42cb1d5462ae38552274212c72562f69de9312",
+      "message": "BugFix - Change sprite LotusInBarrel 121341",
+      "date": "2024-04-05T21:21:45.000Z"
+    },
+    {
+      "sha": "39ab106fe119b7d8e6ca4698f2675d8631928e53",
+      "message": "Renumber sprites and sprites",
+      "date": "2024-04-05T17:26:23.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "14765",
+          "newTargetID": "14748",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14749",
+          "newTargetUses": "-1",
+          "newActorID": "6402",
+          "newTargetID": "14749",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14751",
+          "newActorID": "14748",
+          "newTargetID": "198",
+          "hand": true
+        },
+        {
+          "targetID": "14752",
+          "newActorID": "14748",
+          "newTargetID": "6633",
+          "hand": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "14749",
+          "targetUses": "max",
+          "newActorID": "1127",
+          "newTargetID": "14765",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14748",
+          "targetID": "198",
+          "newTargetID": "14751",
+          "hand": true
+        },
+        {
+          "actorID": "14748",
+          "targetID": "6633",
+          "newTargetID": "14752",
+          "hand": true
+        },
+        {
+          "actorID": "6402",
+          "targetID": "14317",
+          "newTargetUses": "last",
+          "newTargetID": "14749",
+          "hand": true
+        },
+        {
+          "actorID": "6402",
+          "targetID": "14749",
+          "newTargetUses": "+1",
+          "newTargetID": "14749",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "17283",
+          "newTargetID": "17266",
+          "decay": "1s"
+        },
+        {
+          "targetID": "17267",
+          "newTargetUses": "-1",
+          "newActorID": "6402",
+          "newTargetID": "17267",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "17269",
+          "newActorID": "17266",
+          "newTargetID": "198",
+          "hand": true
+        },
+        {
+          "targetID": "17270",
+          "newActorID": "17266",
+          "newTargetID": "6633",
+          "hand": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "17267",
+          "targetUses": "max",
+          "newActorID": "1127",
+          "newTargetID": "17283",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "17266",
+          "targetID": "198",
+          "newTargetID": "17269",
+          "hand": true
+        },
+        {
+          "actorID": "17266",
+          "targetID": "6633",
+          "newTargetID": "17270",
+          "hand": true
+        },
+        {
+          "actorID": "6402",
+          "targetID": "14317",
+          "newTargetUses": "last",
+          "newTargetID": "17267",
+          "hand": true
+        },
+        {
+          "actorID": "6402",
+          "targetID": "17267",
+          "newTargetUses": "+1",
+          "newTargetID": "17267",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        },
+        {
+          "id": "17266",
+          "name": "Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17267",
+          "name": "Polar Bear Skin with Cotton",
+          "category": false
+        },
+        {
+          "id": "17269",
+          "name": "Backpack with Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17270",
+          "name": "Poipack with Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17283",
+          "name": "Polar Teddy Bear -  just sewed",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "e6c83c7ac1821e1331069f9a7da6069844238c8f",
+      "message": "Renumber sprites and sprites",
+      "date": "2024-04-05T17:13:06.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "14745",
+          "newTargetUses": "-1",
+          "newTargetID": "14746",
+          "decay": "1s"
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14686",
+          "newActorID": "441",
+          "newTargetID": "14744",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14687",
+          "newActorID": "441",
+          "newTargetID": "14742",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14735",
+          "newActorID": "441",
+          "newTargetID": "14742",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14739",
+          "newActorID": "441",
+          "newTargetID": "14743",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "14747",
+          "newTargetUses": "-1",
+          "newActorID": "660",
+          "newTargetID": "14746",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "14746",
+          "newTargetUses": "-1",
+          "newActorID": "659",
+          "newTargetID": "14747",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "17262",
+          "newTargetUses": "-1",
+          "newTargetID": "17263",
+          "decay": "1s"
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14686",
+          "newActorID": "441",
+          "newTargetID": "17261",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14687",
+          "newActorID": "441",
+          "newTargetID": "17259",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17252",
+          "newActorID": "441",
+          "newTargetID": "17259",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17256",
+          "newActorID": "441",
+          "newTargetID": "17260",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "17264",
+          "newTargetUses": "-1",
+          "newActorID": "660",
+          "newTargetID": "17263",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "17263",
+          "newTargetUses": "-1",
+          "newActorID": "659",
+          "newTargetID": "17264",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "14745",
+          "name": "@ Empty Fountain Just Created Pattern",
+          "category": true
+        },
+        {
+          "id": "14746",
+          "name": "@ Empty Fountain Pattern",
+          "category": true
+        },
+        {
+          "id": "14747",
+          "name": "@ Fountain Pattern",
+          "category": true
+        },
+        {
+          "id": "17252",
+          "name": "Empty Fountain -  frog",
+          "category": false
+        },
+        {
+          "id": "17256",
+          "name": "Empty Fountain -  elephant",
+          "category": false
+        },
+        {
+          "id": "17259",
+          "name": "Empty Fountain -  boy justCreated",
+          "category": false
+        },
+        {
+          "id": "17260",
+          "name": "Empty Fountain -  frog justCreated",
+          "category": false
+        },
+        {
+          "id": "17261",
+          "name": "Empty Fountain -  elephant justCreated",
+          "category": false
+        },
+        {
+          "id": "17262",
+          "name": "@ Empty Fountain Just Created Pattern",
+          "category": true
+        },
+        {
+          "id": "17263",
+          "name": "@ Empty Fountain Pattern",
+          "category": true
+        },
+        {
+          "id": "17264",
+          "name": "@ Fountain Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8c3d826cfcf0f94de9145c1415e158f49c55b636",
+      "message": "Temporary way to destruct lightposts",
+      "date": "2024-04-05T13:21:12.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "14673",
+          "newActorID": "684",
+          "newTargetID": "14677",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "593c2dd8cfceb095e9f2cab4309f215d94a9bcc9",
+      "message": "Missing green linen tunic animations",
+      "date": "2024-04-05T13:20:12.000Z"
+    },
+    {
+      "sha": "0ebbe8cab3ae4cfbbfbbdd66a9fbb4d04ec4d9c5",
+      "message": "The painting category was not merged correctly",
+      "date": "2024-04-05T13:19:09.000Z"
+    },
+    {
+      "sha": "5685edf1449db24de130f58d7150486b7763a085",
+      "message": "Reduced the shadow of the empty boy fountain spout",
+      "date": "2024-04-05T13:11:29.000Z"
+    },
+    {
+      "sha": "7e732cd667c01ad644096b0a4f41bd83b2a8f6cb",
+      "message": "Fixed sounds of teddy bear backpack and poipack",
+      "date": "2024-04-04T15:39:35.000Z",
+      "addedObjectIDs": [
+        "14734"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14734",
+          "newTargetID": "11878",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "11881",
+          "targetUses": "max",
+          "newActorID": "1127",
+          "newTargetID": "14734",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "11881",
+          "targetUses": "max",
+          "newActorID": "1127",
+          "newTargetID": "11878",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "b9731c20bc70b2e51c10052e6f48a5f5d36c86cd",
+      "message": "Missing animations for polar bear skin",
+      "date": "2024-04-04T15:25:59.000Z"
+    },
+    {
+      "sha": "4bc0493249ddef9d070aeaf22adad9a021c1aa14",
+      "message": "Ignore polar bear sprite in the polar backpacks when they are contained",
+      "date": "2024-04-04T14:28:29.000Z"
+    },
+    {
+      "sha": "b278ba04673d3c29b8a244f422e5c7bc38157a34",
+      "message": "Touched the boy fountain spout sprite",
+      "date": "2024-04-04T14:09:51.000Z"
+    },
+    {
+      "sha": "113f7fdb5226139119954847a4213c7620fef5d5",
+      "message": "Getting rid of the onion seed hack, we now have containOffset",
+      "date": "2024-04-04T13:17:42.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "3059",
+          "newActorID": "1530",
+          "newTargetID": "3060",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "3059",
+          "newActorID": "1530",
+          "newTargetID": "107",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a904126e239ba35c50bb30e36aa7100e3be18770",
+      "message": "Some test sprites and objects",
+      "date": "2024-04-04T06:37:52.000Z",
+      "addedObjectIDs": [
+        "14732",
+        "14733"
+      ]
+    },
+    {
+      "sha": "b4cf7bd000b0760e32fd4e861a23f88b960d05f7",
+      "message": "Adjusted slot positions for the change in the contained position calculation of table-like containers",
+      "date": "2024-03-30T21:53:56.000Z"
+    },
+    {
+      "sha": "84915ba09326997644bb2cf0033afd415e85b302",
+      "message": "Fix sounds for polar teddy bear",
+      "date": "2024-03-30T18:19:47.000Z",
+      "addedObjectIDs": [
+        "17283"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "17283",
+          "newTargetID": "17266",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "17267",
+          "targetUses": "max",
+          "newActorID": "1127",
+          "newTargetID": "17283",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "17267",
+          "targetUses": "max",
+          "newActorID": "1127",
+          "newTargetID": "17266",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        },
+        {
+          "id": "17266",
+          "name": "Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17267",
+          "name": "Polar Bear Skin with Cotton",
+          "category": false
+        },
+        {
+          "id": "17283",
+          "name": "Polar Teddy Bear -  just sewed",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "aff4e2026d5614778fd69a90d1202225e701bcab",
+      "message": "Remove contained x on object 17269",
+      "date": "2024-03-29T17:45:06.000Z"
+    },
+    {
+      "sha": "11242096f31de562c9a9c74d9d7146e823cd0c6a",
+      "message": "Fix initial sound for backpack with polar teddy bear",
+      "date": "2024-03-29T13:09:14.000Z"
+    },
+    {
+      "sha": "8a3583af214c0e09647ae0eb3b9afe5601d60276",
+      "message": "Add transitions for putting polar teddy bear to the poipack and backpack",
+      "date": "2024-03-23T23:17:29.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "17269",
+          "newActorID": "17266",
+          "newTargetID": "198",
+          "hand": true
+        },
+        {
+          "targetID": "17270",
+          "newActorID": "17266",
+          "newTargetID": "6633",
+          "hand": true
+        },
+        {
+          "actorID": "17266",
+          "targetID": "198",
+          "newTargetID": "17269",
+          "hand": true
+        },
+        {
+          "actorID": "17266",
+          "targetID": "6633",
+          "newTargetID": "17270",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "17266",
+          "name": "Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17269",
+          "name": "Backpack with Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17270",
+          "name": "Poipack with Polar Teddy Bear",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "9681ace7bb9634de2c66b8311ceeb65f9efa1fdc",
+      "message": "Add poipack and backpack with polar teddy bear",
+      "date": "2024-03-23T22:54:52.000Z",
+      "addedObjectIDs": [
+        "17269",
+        "17270"
+      ],
+      "legacyObjects": [
+        {
+          "id": "17269",
+          "name": "Backpack with Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17270",
+          "name": "Poipack with Polar Teddy Bear",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "791372687a35e4c33b52858874f4499fc702644a",
+      "message": "Fix polar teddy bear in the box",
+      "date": "2024-03-23T21:39:53.000Z"
+    },
+    {
+      "sha": "090c453e22b9a24ca3599451a0440a8c7c10848d",
+      "message": "Add polar teddy bear",
+      "date": "2024-03-22T23:06:05.000Z",
+      "addedObjectIDs": [
+        "17266",
+        "17267"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "17267",
+          "newTargetUses": "-1",
+          "newActorID": "6402",
+          "newTargetID": "17267",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "17267",
+          "targetUses": "last",
+          "newActorID": "6402",
+          "newTargetID": "14317",
+          "hand": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "17267",
+          "targetUses": "max",
+          "newActorID": "1127",
+          "newTargetID": "17266",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "6402",
+          "targetID": "14317",
+          "newTargetUses": "last",
+          "newTargetID": "17267",
+          "hand": true
+        },
+        {
+          "actorID": "6402",
+          "targetID": "17267",
+          "newTargetUses": "+1",
+          "newTargetID": "17267",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        },
+        {
+          "id": "17266",
+          "name": "Polar Teddy Bear",
+          "category": false
+        },
+        {
+          "id": "17267",
+          "name": "Polar Bear Skin with Cotton",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "bb1927c15dda9b4497f9258833d9f451049dd820",
+      "message": "Finally got rid of the 0.999 hack, use the ignoredCont flag instead to ignore a sprite in calculation of contained position",
+      "date": "2024-03-29T15:32:24.000Z"
+    },
+    {
+      "sha": "7b6cae5c32ae18793c5cbd3d30b3d1de89323bcb",
+      "message": "Changed colors of the dropped clothings",
+      "date": "2024-03-29T11:43:10.000Z",
+      "objectChanges": [
+        {
+          "id": "13417",
+          "attributes": {
+            "name": {
+              "from": "Red Scarf",
+              "to": "Red Linen Scarf"
+            }
+          }
+        },
+        {
+          "id": "13418",
+          "attributes": {
+            "name": {
+              "from": "Blue Scarf",
+              "to": "Blue Linen Scarf"
+            }
+          }
+        },
+        {
+          "id": "13419",
+          "attributes": {
+            "name": {
+              "from": "Black Scarf",
+              "to": "Black Linen Scarf"
+            }
+          }
+        },
+        {
+          "id": "14729",
+          "attributes": {
+            "name": {
+              "from": "Green Scarf",
+              "to": "Green Linen Scarf"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "9a3038cb52dc4ba71c6df5fd143e48760ff16241",
+      "message": "Green linen top and tunic",
+      "date": "2024-03-29T11:33:40.000Z",
+      "addedObjectIDs": [
+        "14730",
+        "14731"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "14723",
+          "targetID": "2898",
+          "newActorID": "14730",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14724",
+          "targetID": "2898",
+          "newActorID": "14731",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "19787515333a583bf65c2bbe18597a6ef1654166",
+      "message": "Made category diff preserve order",
+      "date": "2024-03-29T10:39:13.000Z"
+    },
+    {
+      "sha": "54def9f387dc499984fca14123f13c672922e7c7",
+      "message": "Just pulled beets should not be food",
+      "date": "2024-03-27T17:56:57.000Z"
+    },
+    {
+      "sha": "51be9cbaf6a57ffa1991964576410dc7a2fadcd7",
+      "message": "Missed animations for molten cast iron in ornament molds",
+      "date": "2024-03-27T17:35:26.000Z"
+    },
+    {
+      "sha": "307754bd7b99b7d5c3cfbb08e79bae674b9bd9cf",
+      "message": "Dyed linen clothes - crafting",
+      "date": "2024-03-13T12:52:22.000Z",
+      "addedObjectIDs": [
+        "14722",
+        "14723",
+        "14724",
+        "14725",
+        "14726",
+        "14728",
+        "14729"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14722",
+          "newTargetID": "14534",
+          "decay": "5m"
+        },
+        {
+          "targetID": "14723",
+          "newTargetID": "14529",
+          "decay": "5m"
+        },
+        {
+          "targetID": "14724",
+          "newTargetID": "14528",
+          "decay": "5m"
+        },
+        {
+          "targetID": "14725",
+          "newTargetID": "14530",
+          "decay": "5m"
+        },
+        {
+          "actorID": "14528",
+          "targetID": "731",
+          "newActorID": "14724",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14529",
+          "targetID": "731",
+          "newActorID": "14723",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14530",
+          "targetID": "731",
+          "newActorID": "14725",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14534",
+          "targetID": "731",
+          "newActorID": "14722",
+          "newTargetID": "731",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14722",
+          "targetID": "2898",
+          "newActorID": "14729",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14723",
+          "targetID": "2896",
+          "newActorID": "14718",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14723",
+          "targetID": "733",
+          "newActorID": "14717",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14723",
+          "targetID": "734",
+          "newActorID": "14716",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14724",
+          "targetID": "2896",
+          "newActorID": "14721",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14724",
+          "targetID": "733",
+          "newActorID": "14720",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14724",
+          "targetID": "734",
+          "newActorID": "14719",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14725",
+          "targetID": "2896",
+          "newActorID": "14714",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14725",
+          "targetID": "2898",
+          "newActorID": "14726",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14725",
+          "targetID": "733",
+          "newActorID": "14713",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14725",
+          "targetID": "734",
+          "newActorID": "14712",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "0490358246a9040aaf39ac041dcd3deab8fb814f",
+      "message": "Dye-ready clothes cannot be worn, they change back to normal in time",
+      "date": "2024-03-13T12:32:10.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2900",
+          "newTargetUses": "-1",
+          "newTargetID": "2899",
+          "decay": "5m"
+        },
+        {
+          "targetID": "736",
+          "newTargetID": "586",
+          "decay": "5m"
+        },
+        {
+          "targetID": "737",
+          "newTargetID": "584",
+          "decay": "5m"
+        },
+        {
+          "targetID": "738",
+          "newTargetID": "585",
+          "decay": "5m"
+        },
+        {
+          "targetID": "9050",
+          "newTargetID": "9049",
+          "decay": "5m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "12304",
+          "targetID": "12304",
+          "newTargetID": "12303",
+          "hand": true
+        },
+        {
+          "actorID": "12432",
+          "targetID": "12432",
+          "newTargetID": "12355",
+          "hand": true
+        },
+        {
+          "actorID": "736",
+          "targetID": "736",
+          "newTargetID": "12431",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12303",
+          "attributes": {
+            "name": {
+              "from": "Dye-Ready Pair of Slippers with Bows",
+              "to": "(outdated) Dye-Ready Pair of Slippers with Bows"
+            }
+          }
+        },
+        {
+          "id": "12355",
+          "attributes": {
+            "name": {
+              "from": "Dye-Ready Pair of Slippers",
+              "to": "(outdated) Dye-Ready Pair of Slippers"
+            }
+          }
+        },
+        {
+          "id": "12431",
+          "attributes": {
+            "name": {
+              "from": "Dye-Ready Pair of Wool Booties",
+              "to": "(outdated) Dye-Ready Pair of Wool Booties"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2899",
+          "name": "@ Undyed Item Pattern",
+          "category": true
+        },
+        {
+          "id": "2900",
+          "name": "@ Dye-ready Item Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "ddfe06980db3edac093b6b030fa11c7e6441166e",
+      "message": "Dyed linen clothes",
+      "date": "2024-03-09T15:12:21.000Z",
+      "addedObjectIDs": [
+        "14712",
+        "14713",
+        "14714",
+        "14716",
+        "14717",
+        "14718",
+        "14719",
+        "14720",
+        "14721"
+      ]
+    },
+    {
+      "sha": "218b7660cfb2f95a45fd369a3649edd8572a3530",
+      "message": "Banana tree doesn't need to be full use to be chopped",
+      "date": "2024-03-08T15:08:15.000Z",
+      "legacyObjects": [
+        {
+          "id": "11665",
+          "name": "@ Any Axe",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "4e6e54965b0611a159a86e6e9892a335002d7df9",
+      "message": "Amani painting",
+      "date": "2024-03-05T15:10:30.000Z",
+      "addedObjectIDs": [
+        "14709"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "7779",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "12003",
+          "newActorID": "7779",
+          "newTargetID": "14709",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7779",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "14709",
+          "newActorID": "7779",
+          "newTargetID": "11951",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "7779",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "12003",
+          "newActorID": "7779",
+          "newTargetID": "11951",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "451ff9230617e63f38229e134c3472e2ad9c4c2d",
+      "message": "Renumber sprites and sprites",
+      "date": "2024-03-29T16:17:55.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "13611",
+          "newActorUses": "last",
+          "targetID": "14707",
+          "targetUses": "max",
+          "newActorID": "14708",
+          "hand": true
+        },
+        {
+          "actorID": "14708",
+          "newActorUses": "-1",
+          "newActorID": "14708",
+          "newTargetID": "14707",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14708",
+          "actorUses": "last",
+          "newActorID": "13611",
+          "newTargetID": "14707",
+          "hand": true
+        },
+        {
+          "actorID": "14708",
+          "newActorUses": "+1",
+          "targetID": "14707",
+          "targetUses": "max",
+          "newActorID": "14708",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "13611",
+          "newActorUses": "last",
+          "targetID": "17244",
+          "targetUses": "max",
+          "newActorID": "17245",
+          "hand": true
+        },
+        {
+          "actorID": "17245",
+          "newActorUses": "-1",
+          "newActorID": "17245",
+          "newTargetID": "17244",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "17245",
+          "actorUses": "last",
+          "newActorID": "13611",
+          "newTargetID": "17244",
+          "hand": true
+        },
+        {
+          "actorID": "17245",
+          "newActorUses": "+1",
+          "targetID": "17244",
+          "targetUses": "max",
+          "newActorID": "17245",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "17244",
+          "name": "Pile of Gold Nuggets",
+          "category": false
+        },
+        {
+          "id": "17245",
+          "name": "Steel Wheelbarrow with Gold Nuggets",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "4219f2ac3a0f5f2ac6438b0203b1fea6e18d140e",
+      "message": "Action updates comment if it already exists",
+      "date": "2024-03-30T07:53:14.000Z"
+    },
+    {
+      "sha": "99271b468bb884dce28ba9cc3584cd4c9ed2328d",
+      "message": "Fix black outline around snouts",
+      "date": "2024-03-29T17:02:53.000Z"
+    },
+    {
+      "sha": "fb77febbef399db00020f4db667d672de479f90a",
+      "message": "Add sounds for shearing lotus in barrel",
+      "date": "2024-03-29T14:13:03.000Z",
+      "addedObjectIDs": [
+        "23718",
+        "23719"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "23718",
+          "newTargetID": "23710",
+          "decay": "1s"
+        },
+        {
+          "targetID": "23719",
+          "newTargetID": "23708",
+          "decay": "1s"
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23710",
+          "newActorID": "568",
+          "newTargetID": "23719",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23711",
+          "newActorID": "568",
+          "newTargetID": "23718",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23710",
+          "newActorID": "568",
+          "newTargetID": "23708",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23711",
+          "newActorID": "568",
+          "newTargetID": "23710",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23708",
+          "name": "Full Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23710",
+          "name": "Wooden Barrel with Budding Lotus",
+          "category": false
+        },
+        {
+          "id": "23711",
+          "name": "Wooden Barrel with Lotus",
+          "category": false
+        },
+        {
+          "id": "23718",
+          "name": "Wooden Barrel with Budding Lotus - just built",
+          "category": false
+        },
+        {
+          "id": "23719",
+          "name": "Full Wooden Barrel with Water - just built",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "fb636cd865bf6f58cd63c25c32105d913951fb55",
+      "message": "Fix creation sounds for lotus life stages",
+      "date": "2024-03-29T13:47:51.000Z"
+    },
+    {
+      "sha": "85f056b53034f64297ce717b3f647908019cf0d4",
+      "message": "Fix creation sound for partial water barrel",
+      "date": "2024-03-29T13:07:33.000Z",
+      "addedObjectIDs": [
+        "23717"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "23717",
+          "newTargetUses": "last",
+          "newTargetID": "23707",
+          "decay": "1s"
+        },
+        {
+          "actorID": "660",
+          "targetID": "4751",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "23717",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "660",
+          "targetID": "4751",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "23707",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23707",
+          "name": "Partial Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23717",
+          "name": "Partial Wooden Barrel with Water - just built",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "fafa9f50995431d4c62d13d972298403de9deffb",
+      "message": "Change all barrels to be non-blocking.",
+      "date": "2024-03-29T11:49:54.000Z"
+    },
+    {
+      "sha": "cbcb16f04e9589ac4143dabbfbb0d1a82b96e2d3",
+      "message": "Change capacity of barrel from 10 to 5 buckets",
+      "date": "2024-03-29T11:48:00.000Z"
+    },
+    {
+      "sha": "00ac10231b0eb8b2a14234e35c48909108a1d6b8",
+      "message": "add transitions to get rid of lotus in the barrel",
+      "date": "2024-03-27T20:42:36.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23710",
+          "newActorID": "568",
+          "newTargetID": "23708",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "23711",
+          "newActorID": "568",
+          "newTargetID": "23710",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23708",
+          "name": "Full Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23710",
+          "name": "Wooden Barrel with Budding Lotus",
+          "category": false
+        },
+        {
+          "id": "23711",
+          "name": "Wooden Barrel with Lotus",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "18b43bc76b8597ffeaf59437975b4ec3065a8d9b",
+      "message": "Add transitions for lotus growing stages sapling-sprout-budding-mature.",
+      "date": "2024-03-27T20:13:15.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "23709",
+          "newTargetID": "23715",
+          "decay": "10m"
+        },
+        {
+          "targetID": "23710",
+          "newTargetID": "23711",
+          "decay": "10m"
+        },
+        {
+          "targetID": "23715",
+          "newTargetID": "23710",
+          "decay": "10m"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23709",
+          "name": "Wooden Barrel with Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23710",
+          "name": "Wooden Barrel with Budding Lotus",
+          "category": false
+        },
+        {
+          "id": "23711",
+          "name": "Wooden Barrel with Lotus",
+          "category": false
+        },
+        {
+          "id": "23715",
+          "name": "Wooden Barrel with Sprouting Lotus",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7331562d2d3c620d57f08df599dcf649db0f42f6",
+      "message": "trying to fix miniguide image for partial water barrel",
+      "date": "2024-03-27T19:11:24.000Z"
+    },
+    {
+      "sha": "43025583ed9a4c751d482c43b146ff4379587438",
+      "message": "Fix sound for full water barrel",
+      "date": "2024-03-27T18:43:10.000Z"
+    },
+    {
+      "sha": "d97b088fbb020779eb13279c66686d84157829b1",
+      "message": "Update water drops in order to try solve miniguide image for partial barrel",
+      "date": "2024-03-27T18:42:24.000Z"
+    },
+    {
+      "sha": "2e062bb2e6d3639495306b184bd2dc77b84d4d32",
+      "message": "Add transitions for watering can interaction with barrel",
+      "date": "2024-03-27T18:04:42.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7014",
+          "targetID": "23707",
+          "newTargetUses": "-1",
+          "newActorID": "7029",
+          "newTargetID": "23707",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7014",
+          "targetID": "23708",
+          "newActorID": "7029",
+          "newTargetID": "23707",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23707",
+          "name": "Partial Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23708",
+          "name": "Full Wooden Barrel with Water",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "98a8d8d1b3390f8ff4f8b192e649df842f5c059b",
+      "message": "Add permanent and blocking properties for barrel lotus stages.",
+      "date": "2024-03-27T17:33:05.000Z"
+    },
+    {
+      "sha": "bdcb8798f5f76a42f365d8ad5942e03a36148cef",
+      "message": "Adding transitions for barrel, partial barrel and full barrel to work as cistern.  Changed partial barrel to contain 9 uses, non-containable, blocking, changed full barrel to be blocking and non-containable.",
+      "date": "2024-03-27T13:19:08.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "659",
+          "targetID": "23707",
+          "newTargetUses": "-1",
+          "newActorID": "660",
+          "newTargetID": "23707",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "23707",
+          "targetUses": "last",
+          "newActorID": "660",
+          "newTargetID": "4751",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "23708",
+          "newActorID": "660",
+          "newTargetID": "23707",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "23707",
+          "newTargetUses": "+1",
+          "newActorID": "659",
+          "newTargetID": "23707",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "23707",
+          "targetUses": "max",
+          "newActorID": "659",
+          "newTargetID": "23708",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "4751",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "23707",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23707",
+          "name": "Partial Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23708",
+          "name": "Full Wooden Barrel with Water",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "a1781cd25e905b55adad177db61b3477319cffaf",
+      "message": "Added sprouting lotus object",
+      "date": "2024-03-27T11:47:37.000Z",
+      "addedObjectIDs": [
+        "23715"
+      ],
+      "legacyObjects": [
+        {
+          "id": "23715",
+          "name": "Wooden Barrel with Sprouting Lotus",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "b7c95682b872770bf95c560c671b3ed067bface1",
+      "message": "Added transition to plant rooted lotus cutting into full barrel of water (not visible in game as barrel is not craftable yet)",
+      "date": "2024-03-26T22:06:21.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "23713",
+          "targetID": "23708",
+          "newTargetID": "23709",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23708",
+          "name": "Full Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23709",
+          "name": "Wooden Barrel with Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23713",
+          "name": "Rooting Lotus Cutting",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "d619240447ba63f02cb037c042b7c6eba4f12f89",
+      "message": "Added non-categorised transitions for cutting lotus, rooting it with jar and bowl",
+      "date": "2024-03-26T21:30:29.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "23712",
+          "targetID": "4611",
+          "newTargetUses": "-1",
+          "newActorID": "23713",
+          "newTargetID": "4611",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "23712",
+          "targetID": "4611",
+          "targetUses": "last",
+          "newActorID": "23713",
+          "newTargetID": "4546",
+          "hand": true
+        },
+        {
+          "actorID": "23712",
+          "targetID": "4647",
+          "newActorID": "23713",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "23714",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "newActorID": "568",
+          "newTargetID": "23712",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14029",
+          "newActorID": "23714",
+          "newTargetID": "14029",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23712",
+          "name": "Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23713",
+          "name": "Rooting Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23714",
+          "name": "Shears with Lotus Cutting",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "4cdea23825e8765576674e8b6abbb996d9e34f5a",
+      "message": "Revert \"Added categories for creating lotus rooted cutting.\"",
+      "date": "2024-03-26T20:19:30.000Z"
+    },
+    {
+      "sha": "8569f59938f0c7ea5a23b933b27c0cc0995c458a",
+      "message": "Adding decay for lotus cutting.",
+      "date": "2024-03-23T21:18:07.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "23712",
+          "decay": "5m"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "23712",
+          "name": "Lotus Cutting",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "848e3ad607747864bf0a6599dc4637d99e949173",
+      "message": "Added categories for creating lotus rooted cutting.",
+      "date": "2024-03-23T20:43:02.000Z"
+    },
+    {
+      "sha": "71f988112a3680fa708dec6c6e432851441ed4f5",
+      "message": "Changed water drop position on partial barrel.",
+      "date": "2024-03-23T18:12:25.000Z"
+    },
+    {
+      "sha": "f22b69aa34c527999a11d0aca45c40922d97488a",
+      "message": "Added new sprites and objects for lotus cuttings and water barrel.",
+      "date": "2024-03-23T17:57:27.000Z",
+      "addedObjectIDs": [
+        "23707",
+        "23708",
+        "23709",
+        "23710",
+        "23711",
+        "23712",
+        "23713",
+        "23714"
+      ],
+      "legacyObjects": [
+        {
+          "id": "23707",
+          "name": "Partial Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23708",
+          "name": "Full Wooden Barrel with Water",
+          "category": false
+        },
+        {
+          "id": "23709",
+          "name": "Wooden Barrel with Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23710",
+          "name": "Wooden Barrel with Budding Lotus",
+          "category": false
+        },
+        {
+          "id": "23711",
+          "name": "Wooden Barrel with Lotus",
+          "category": false
+        },
+        {
+          "id": "23712",
+          "name": "Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23713",
+          "name": "Rooting Lotus Cutting",
+          "category": false
+        },
+        {
+          "id": "23714",
+          "name": "Shears with Lotus Cutting",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "236f9d5f48225fa1ff5834d260680d122725fdd5",
+      "message": "Add missing animations for object 17245",
+      "date": "2024-03-29T11:42:19.000Z"
+    },
+    {
+      "sha": "8b85f17edcbdd88d1263688716417942efb97634",
+      "message": "Fix fountain water stream animations",
+      "date": "2024-03-29T11:24:16.000Z"
+    },
+    {
+      "sha": "65647e869521145329bfa95b31877ca5be0198ab",
+      "message": "Handled cases when categories are added or deleted",
+      "date": "2024-03-28T15:52:06.000Z"
+    },
+    {
+      "sha": "0f2638c0221f797b93cd78ea22228c1a09dd0537",
+      "message": "Add missing animation for Ladle Cart.",
+      "date": "2024-03-09T23:59:34.000Z"
+    },
+    {
+      "sha": "3acd1254d740e1980bbc7791a4be7e452b25e4ef",
+      "message": "Fixed typo in RenumberSprites.js",
+      "date": "2024-03-26T17:38:00.000Z"
+    },
+    {
+      "sha": "487b4e7a1c453fe80fa770fbf1b586d5944ce4a0",
+      "message": "Renumber sprites as well",
+      "date": "2024-03-26T17:41:03.000Z"
+    },
+    {
+      "sha": "b30fb0f6c7794ba3d6d5ace88fdc8928bf1566e2",
+      "message": "Made commenting on PR work when the PR's creator doesn't have write access to our repo",
+      "date": "2024-03-26T16:36:00.000Z"
+    },
+    {
+      "sha": "a6a1403435d89a375a556bf1ec26d6813c86d2fc",
+      "message": "Action to renumber objects",
+      "date": "2024-03-24T15:59:10.000Z"
+    },
+    {
+      "sha": "f1b85e6496bbb345a739e7b12fd52f593c67e079",
+      "message": "Do git diff within python to get rid of changed-files action",
+      "date": "2024-03-23T06:48:00.000Z"
+    },
+    {
+      "sha": "361c5a763ab2b0a61bdc442da0756d384c7d936c",
+      "message": "Mostly semantic updates",
+      "date": "2024-03-22T17:13:28.000Z"
+    },
+    {
+      "sha": "4841d165642ee8f7271303d76970c5b3e1a4c445",
+      "message": "Add sad frog fountain",
+      "date": "2024-03-22T22:00:56.000Z"
+    },
+    {
+      "sha": "798aa0ce26bbb464d616fffe4246cda57d852b03",
+      "message": "Python script and github action yaml to summarize OneLifeData7 pull requests in more readable format",
+      "date": "2024-03-22T15:21:49.000Z"
+    },
+    {
+      "sha": "dba012bbb1eefc476191a666c0efb15e1d83d916",
+      "message": "Fix fountains sounds and refactor transitions",
+      "date": "2024-03-21T21:00:04.000Z",
+      "addedObjectIDs": [
+        "17259",
+        "17260",
+        "17261",
+        "17262",
+        "17263",
+        "17264"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "17262",
+          "newTargetUses": "-1",
+          "newTargetID": "17263",
+          "decay": "1s"
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14686",
+          "newActorID": "441",
+          "newTargetID": "17261",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14687",
+          "newActorID": "441",
+          "newTargetID": "17259",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17252",
+          "newActorID": "441",
+          "newTargetID": "17259",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17256",
+          "newActorID": "441",
+          "newTargetID": "17260",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "17264",
+          "newTargetUses": "-1",
+          "newActorID": "660",
+          "newTargetID": "17263",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "17263",
+          "newTargetUses": "-1",
+          "newActorID": "659",
+          "newTargetID": "17264",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14686",
+          "newActorID": "441",
+          "newTargetID": "17256",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14687",
+          "newActorID": "441",
+          "newTargetID": "14686",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17252",
+          "newActorID": "441",
+          "newTargetID": "14686",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17256",
+          "newActorID": "441",
+          "newTargetID": "17252",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "14684",
+          "newActorID": "660",
+          "newTargetID": "14686",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "17253",
+          "newActorID": "660",
+          "newTargetID": "17252",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "17257",
+          "newActorID": "660",
+          "newTargetID": "17256",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "14686",
+          "newActorID": "1100",
+          "newTargetID": "14684",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "17252",
+          "newActorID": "1100",
+          "newTargetID": "17253",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "17256",
+          "newActorID": "1100",
+          "newTargetID": "17257",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "17252",
+          "newActorID": "684",
+          "newTargetID": "14687",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "17256",
+          "newActorID": "684",
+          "newTargetID": "14687",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "17252",
+          "name": "Empty Fountain -  frog",
+          "category": false
+        },
+        {
+          "id": "17253",
+          "name": "Fountain -  frog",
+          "category": false
+        },
+        {
+          "id": "17256",
+          "name": "Empty Fountain -  elephant",
+          "category": false
+        },
+        {
+          "id": "17257",
+          "name": "Fountain -  elephant",
+          "category": false
+        },
+        {
+          "id": "17259",
+          "name": "Empty Fountain -  boy justCreated",
+          "category": false
+        },
+        {
+          "id": "17260",
+          "name": "Empty Fountain -  frog justCreated",
+          "category": false
+        },
+        {
+          "id": "17261",
+          "name": "Empty Fountain -  elephant justCreated",
+          "category": false
+        },
+        {
+          "id": "17262",
+          "name": "@ Empty Fountain Just Created Pattern",
+          "category": true
+        },
+        {
+          "id": "17263",
+          "name": "@ Empty Fountain Pattern",
+          "category": true
+        },
+        {
+          "id": "17264",
+          "name": "@ Fountain Pattern",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "68970f713029583f4a729188c1cd22165596e536",
+      "message": "Add new fountain variants and transitions.",
+      "date": "2024-03-20T20:07:33.000Z",
+      "addedObjectIDs": [
+        "17252",
+        "17253",
+        "17256",
+        "17257"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14686",
+          "newActorID": "441",
+          "newTargetID": "17256",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17252",
+          "newActorID": "441",
+          "newTargetID": "14686",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "17256",
+          "newActorID": "441",
+          "newTargetID": "17252",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "14684",
+          "newActorID": "660",
+          "newTargetID": "14686",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "17253",
+          "newActorID": "660",
+          "newTargetID": "17252",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "17257",
+          "newActorID": "660",
+          "newTargetID": "17256",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "17252",
+          "newActorID": "1100",
+          "newTargetID": "17253",
+          "hand": true
+        },
+        {
+          "actorID": "660",
+          "targetID": "17256",
+          "newActorID": "1100",
+          "newTargetID": "17257",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "17256",
+          "newActorID": "684",
+          "newTargetID": "14687",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "14684",
+          "attributes": {
+            "name": {
+              "from": "Fountain",
+              "to": "Fountain -  boy"
+            }
+          }
+        },
+        {
+          "id": "14686",
+          "attributes": {
+            "name": {
+              "from": "Empty Fountain",
+              "to": "Empty Fountain -  boy"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "17252",
+          "name": "Empty Fountain -  frog",
+          "category": false
+        },
+        {
+          "id": "17253",
+          "name": "Fountain -  frog",
+          "category": false
+        },
+        {
+          "id": "17256",
+          "name": "Empty Fountain -  elephant",
+          "category": false
+        },
+        {
+          "id": "17257",
+          "name": "Fountain -  elephant",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "702f9be1c8e09a9d66a96ae70f73e196a9dfaf0b",
+      "message": "Add stacking of gold nuggets",
+      "date": "2024-03-16T16:22:28.000Z",
+      "addedObjectIDs": [
+        "17244",
+        "17245"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "13611",
+          "newActorUses": "last",
+          "targetID": "17244",
+          "targetUses": "max",
+          "newActorID": "17245",
+          "hand": true
+        },
+        {
+          "actorID": "17245",
+          "newActorUses": "-1",
+          "newActorID": "17245",
+          "newTargetID": "17244",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "17245",
+          "actorUses": "last",
+          "newActorID": "13611",
+          "newTargetID": "17244",
+          "hand": true
+        },
+        {
+          "actorID": "17245",
+          "newActorUses": "+1",
+          "targetID": "17244",
+          "targetUses": "max",
+          "newActorID": "17245",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "17244",
+          "name": "Pile of Gold Nuggets",
+          "category": false
+        },
+        {
+          "id": "17245",
+          "name": "Steel Wheelbarrow with Gold Nuggets",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "594a1822b0d2731d28b25ae3fb3fdd969c030c15",
+      "message": "Modify fountain sprites.",
+      "date": "2024-03-14T19:55:59.000Z"
+    },
+    {
+      "sha": "6ebb769ed2ae6b7d99b406cb73d0038a4930957d",
+      "message": "Editor automatically made the shelf box-like again...",
+      "date": "2024-03-02T08:28:28.000Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "192",
+  "date": "2019-01-12T03:26:19.000Z",
+  "commits": [
+    {
+      "sha": "3145f5f0149edca3e1908d522d888cf916f58ae2",
+      "message": "Fixed missing transitions.  Added scenes for gif.",
+      "date": "2019-01-12T03:21:54.000Z",
+      "removedObjectIDs": [
+        "2499"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2614",
+          "newActorID": "2536",
+          "newTargetID": "2536",
+          "hand": true
+        },
+        {
+          "actorID": "2492",
+          "newActorID": "239",
+          "newTargetID": "2494",
+          "hand": true
+        },
+        {
+          "actorID": "2536",
+          "targetID": "2536",
+          "newTargetID": "2614",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2499",
+          "name": "Drill Working",
+          "category": false
+        }
+      ]
+    }
+  ]
+}

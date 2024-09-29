@@ -1,0 +1,817 @@
+{
+  "id": "271",
+  "date": "2019-10-12T21:02:11.000Z",
+  "commits": [
+    {
+      "sha": "9057273f852bc9d18ce0539f8aadd18b2dc770ed",
+      "message": "Can remove kero burner from dry pump, so pump can't get stuck in kero-only state.  Thanks Tarr.",
+      "date": "2019-10-12T20:43:41.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2345",
+          "newActorID": "2348",
+          "newTargetID": "2220",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2345",
+          "name": "Dry Kerosene Newcomen Pump",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "be7f2ccc405297bd09f33f51ea50b4f909724703",
+      "message": "Unpowered transmitters and receivers are containable.",
+      "date": "2019-10-12T19:22:44.000Z"
+    },
+    {
+      "sha": "d0d01cdc8a643591bf096dea6833a4a78e53fbe8",
+      "message": "Can deconstruct crude car and tire from wheel.",
+      "date": "2019-10-12T19:12:51.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2391",
+          "newActorID": "2168",
+          "newTargetID": "475",
+          "hand": true
+        },
+        {
+          "targetID": "2394",
+          "newActorID": "2393",
+          "newTargetID": "434",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "6252e643f499974119e471490cce618bf4f91ef3",
+      "message": "Fixed number of 13 nosaj on map",
+      "date": "2019-10-12T19:07:23.000Z",
+      "objectChanges": [
+        {
+          "id": "2466",
+          "attributes": {
+            "name": {
+              "from": "Dark Nosaj",
+              "to": "Dark Nosaj -  randPlacement13"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "c221682ad4feb9e021fccddda19443da607985fc",
+      "message": "Fixed order of moss sprites.",
+      "date": "2019-10-12T18:59:25.000Z"
+    },
+    {
+      "sha": "c066b8e99360744c063c2174a9eae36ea4f0e655",
+      "message": "Fixed sounds for firing pumps.",
+      "date": "2019-10-12T18:53:34.000Z"
+    },
+    {
+      "sha": "9d41eb6748db10e7bd6cc7c2046e9041ea8626a9",
+      "message": "Fixed some more glitches with new pump and tank transitions.",
+      "date": "2019-10-12T18:20:13.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2302",
+          "targetID": "3171",
+          "targetUses": "last",
+          "newActorID": "3168",
+          "newTargetID": "3033",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "3172",
+          "targetUses": "last",
+          "newActorID": "3167",
+          "newTargetID": "3032",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "3167",
+          "actorUses": "last",
+          "newActorID": "2302",
+          "hand": true
+        },
+        {
+          "actorID": "3168",
+          "actorUses": "last",
+          "targetID": "672",
+          "newTargetUses": "+1",
+          "newActorID": "2302",
+          "newTargetID": "672",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3033",
+          "name": "Exhausted Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "3167",
+          "name": "Tank of Water",
+          "category": false
+        },
+        {
+          "id": "3168",
+          "name": "Tank of Water -  less full",
+          "category": false
+        },
+        {
+          "id": "3171",
+          "name": "Wet Kerosene Newcomen Pump -  burner added low",
+          "category": false
+        },
+        {
+          "id": "3172",
+          "name": "Wet Newcomen Pump -  burner removed",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "9570dadec8ba5d8dde9630d2e3905a4aa941e33b",
+      "message": "Can add tire cart to horse (as opposed to just adding tires to horse cart).",
+      "date": "2019-10-12T18:13:27.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2172",
+          "targetID": "774",
+          "newTargetID": "3159",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3159",
+          "name": "Hitched Horse-Drawn Tire Cart",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "93eb9d06f8d47797ca36ae1fd9f7c05b01e78702",
+      "message": "Newcomen core can be taken apart for transport.  Better contained position for piston.",
+      "date": "2019-10-12T17:55:53.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2227",
+          "newActorID": "2211",
+          "newTargetID": "2213",
+          "hand": true
+        },
+        {
+          "targetID": "2228",
+          "newActorID": "2219",
+          "newTargetID": "2227",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "4482f1a8c9cf27c7f32d01c059d6d695e82845f8",
+      "message": "Fixed missing sound when removing burner from kero pump.  Boiler is containable.",
+      "date": "2019-10-12T17:44:17.000Z",
+      "addedObjectIDs": [
+        "3173"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3173",
+          "newTargetID": "2352",
+          "decay": "1s"
+        },
+        {
+          "actorID": "2348",
+          "targetID": "3172",
+          "newTargetID": "3173",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "2348",
+          "targetID": "3172",
+          "newTargetID": "2352",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3171",
+          "attributes": {
+            "name": {
+              "from": "Wet Kerosene Newcomen Pump -  burner added",
+              "to": "Wet Kerosene Newcomen Pump -  burner added low"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2352",
+          "name": "Wet Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "3172",
+          "name": "Wet Newcomen Pump -  burner removed",
+          "category": false
+        },
+        {
+          "id": "3173",
+          "name": "Wet Kerosene Newcomen Pump -  burner added high",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "a67b6f8c060c88fdb0894f0ad7e4ca2350413726",
+      "message": "Bell tower base takes 10 hours to become stable, same as ancient walls, to give people more time to undo griefing attempts.",
+      "date": "2019-10-12T17:22:59.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "815",
+          "newTargetID": "816",
+          "decay": "10h"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "815",
+          "newTargetID": "816",
+          "decay": "3h"
+        }
+      ]
+    },
+    {
+      "sha": "2237651f450f4b2af0604ae9935e2cac8d6ea8cb",
+      "message": "Fixed major bugs with new tank-based newcomen pumps, where you could mistakenly install tanks in any newcomen machine and transform it into a pump.  Now, instead of installing the tank in the pump, the tank is used to remove the water only.  Fixes #491",
+      "date": "2019-10-12T17:15:15.000Z",
+      "removedObjectIDs": [
+        "3165"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2352",
+          "newActorID": "2348",
+          "newTargetID": "3172",
+          "hand": true
+        },
+        {
+          "targetID": "3171",
+          "newActorID": "2348",
+          "newTargetID": "2234",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "2352",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.1,
+          "newActorID": "3167",
+          "newTargetID": "2345",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "3171",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.1,
+          "newActorID": "3168",
+          "newTargetID": "2345",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "3172",
+          "newActorID": "3167",
+          "newTargetID": "2220",
+          "hand": true
+        },
+        {
+          "actorID": "2348",
+          "targetID": "2234",
+          "newTargetID": "3171",
+          "hand": true
+        },
+        {
+          "actorID": "2348",
+          "targetID": "3172",
+          "newTargetID": "2352",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3044",
+          "newTargetID": "2345",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2345",
+          "newActorID": "2348",
+          "newTargetID": "2220",
+          "hand": true
+        },
+        {
+          "targetID": "2352",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.1,
+          "newActorID": "3167",
+          "newTargetID": "2345",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "2222",
+          "newTargetID": "3164",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "2350",
+          "newTargetID": "3165",
+          "hand": true
+        },
+        {
+          "actorID": "2348",
+          "targetID": "2220",
+          "newTargetID": "3044",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2345",
+          "name": "Dry Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "2350",
+          "name": "Newcomen Pump with Kerosene",
+          "category": false
+        },
+        {
+          "id": "2352",
+          "name": "Wet Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "3044",
+          "name": "Dry Kerosene Newcomen Pump -  burner added",
+          "category": false
+        },
+        {
+          "id": "3164",
+          "name": "Newcomen Pump with Tank",
+          "category": false
+        },
+        {
+          "id": "3165",
+          "name": "Kerosene Newcomen Pump with Tank",
+          "category": false
+        },
+        {
+          "id": "3167",
+          "name": "Tank of Water",
+          "category": false
+        },
+        {
+          "id": "3168",
+          "name": "Tank of Water -  less full",
+          "category": false
+        },
+        {
+          "id": "3171",
+          "name": "Wet Kerosene Newcomen Pump -  burner added",
+          "category": false
+        },
+        {
+          "id": "3172",
+          "name": "Wet Newcomen Pump -  burner removed",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "9aec87b4bc34668b7f9ead30891648c2e3835ad7",
+      "message": "Reworked usage of newcomen water pumps.  Instead of flat 1/20 chance of breaking after each pumping, we have four use states per pump, with a 1/10 chance of transitioning between use states after each pumping.  This gives us an estimated 40 pumpings before exhaustion, which much lower variance.  This is accomplished by installing a tank in the pump before pumping, which fills up with either 4 or 6 buckets worth of water, and is removed in one go (so the use counter of the pump can track its age and not how many buckets are left after a pumping).  In general, this means these pumps last 2x as long, and are much more reliable.",
+      "date": "2019-10-12T03:48:18.000Z",
+      "addedObjectIDs": [
+        "3164",
+        "3165",
+        "3167",
+        "3168"
+      ],
+      "removedObjectIDs": [
+        "3035"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3044",
+          "newTargetID": "2345",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2234",
+          "newActorID": "3168",
+          "newTargetID": "2220",
+          "hand": true
+        },
+        {
+          "targetID": "2234",
+          "targetUses": "last",
+          "newActorID": "3168",
+          "newTargetID": "3032",
+          "hand": true
+        },
+        {
+          "targetID": "2352",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.1,
+          "newActorID": "3167",
+          "newTargetID": "2345",
+          "hand": true
+        },
+        {
+          "targetID": "2352",
+          "targetUses": "last",
+          "newActorID": "3167",
+          "newTargetID": "3033",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "2222",
+          "newTargetID": "3164",
+          "hand": true
+        },
+        {
+          "actorID": "2302",
+          "targetID": "2350",
+          "newTargetID": "3165",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "3164",
+          "newActorID": "248",
+          "newTargetID": "2224",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "3165",
+          "newActorID": "248",
+          "newTargetID": "2344",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3167",
+          "actorUses": "last",
+          "newActorID": "2302",
+          "hand": true
+        },
+        {
+          "actorID": "3168",
+          "actorUses": "last",
+          "targetID": "672",
+          "newTargetUses": "+1",
+          "newActorID": "2302",
+          "newTargetID": "672",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3169",
+          "newActorUses": "-1",
+          "targetID": "659",
+          "newActorID": "3169",
+          "newTargetID": "660",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3169",
+          "actorUses": "last",
+          "targetID": "659",
+          "newActorID": "2302",
+          "newTargetID": "660",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "248",
+          "targetID": "2222",
+          "newActorID": "248",
+          "newTargetID": "2224",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "2350",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.1,
+          "newActorID": "248",
+          "newTargetID": "2344",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "2234",
+          "newTargetUses": "-1",
+          "newActorID": "660",
+          "newTargetID": "2234",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "2234",
+          "targetUses": "last",
+          "newActorID": "660",
+          "newTargetID": "3034",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "2352",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.1,
+          "newActorID": "660",
+          "newTargetID": "2352",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "2352",
+          "targetUses": "last",
+          "newActorID": "660",
+          "newTargetID": "3035",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "3044",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.1,
+          "newActorID": "660",
+          "newTargetID": "3044",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "3044",
+          "targetUses": "last",
+          "newActorID": "660",
+          "newTargetID": "3035",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2302",
+          "attributes": {
+            "name": {
+              "from": "Empty Fuel Tank",
+              "to": "Empty Tank"
+            }
+          }
+        },
+        {
+          "id": "3044",
+          "attributes": {
+            "name": {
+              "from": "Wet Kerosene Newcomen Pump -  burner added",
+              "to": "Dry Kerosene Newcomen Pump -  burner added"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "2344",
+          "name": "Firing Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "2345",
+          "name": "Dry Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "2349",
+          "name": "Kerosene Newcomen Pump with Full Boiler",
+          "category": false
+        },
+        {
+          "id": "2350",
+          "name": "Newcomen Pump with Kerosene",
+          "category": false
+        },
+        {
+          "id": "2352",
+          "name": "Wet Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "3033",
+          "name": "Exhausted Kerosene Newcomen Pump",
+          "category": false
+        },
+        {
+          "id": "3034",
+          "name": "Perhaps an Exhausted Pump",
+          "category": true
+        },
+        {
+          "id": "3035",
+          "name": "Perhaps an Exhausted Kerosene Pump",
+          "category": false
+        },
+        {
+          "id": "3044",
+          "name": "Dry Kerosene Newcomen Pump -  burner added",
+          "category": false
+        },
+        {
+          "id": "3164",
+          "name": "Newcomen Pump with Tank",
+          "category": false
+        },
+        {
+          "id": "3165",
+          "name": "Kerosene Newcomen Pump with Tank",
+          "category": false
+        },
+        {
+          "id": "3167",
+          "name": "Tank of Water",
+          "category": false
+        },
+        {
+          "id": "3168",
+          "name": "Tank of Water -  less full",
+          "category": false
+        },
+        {
+          "id": "3169",
+          "name": "@ Any Water Tank",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "0ba4132dfe40f3941d3d891235c205dffa07749c",
+      "message": "Can shear skeep skin to make fleece.",
+      "date": "2019-10-12T00:54:39.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "593",
+          "newActorID": "568",
+          "newTargetID": "578",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "327de90e4b1b70891fb8938d3613b8c32eb58a33",
+      "message": "Mouflon hide decays after 10 hours.",
+      "date": "2019-10-12T00:53:13.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "564",
+          "decay": "10h"
+        }
+      ]
+    },
+    {
+      "sha": "5842e19addb2f6c5816d29b31e7dec54cfa54234",
+      "message": "Tarry spot now has 5 random placements on map, only in snowy biome.",
+      "date": "2019-10-12T00:49:46.000Z",
+      "objectChanges": [
+        {
+          "id": "2285",
+          "attributes": {
+            "name": {
+              "from": "Tarry Spot",
+              "to": "Tarry Spot -  randPlacement5"
+            },
+            "biomes": {
+              "from": [
+                4,
+                5
+              ],
+              "to": [
+                4
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ec1e0b138e466ce882f9a935fb35f0731a517e17",
+      "message": "Added juniper and maple tree to end of tutorial.  Fixed position of SPACE release hint.",
+      "date": "2019-10-10T23:58:08.000Z"
+    },
+    {
+      "sha": "e9fa25fa87a275f4683637751e32d30c14764d9a",
+      "message": "Can add tires to horse cart to double capacity.",
+      "date": "2019-10-08T19:03:54.000Z",
+      "addedObjectIDs": [
+        "3157",
+        "3158",
+        "3159",
+        "3160",
+        "3161",
+        "3162"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3159",
+          "newActorID": "3158",
+          "newTargetID": "550",
+          "hand": true
+        },
+        {
+          "actorID": "2169",
+          "targetID": "779",
+          "newTargetID": "3159",
+          "hand": true
+        },
+        {
+          "actorID": "3158",
+          "targetID": "550",
+          "newTargetID": "3159",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3157",
+          "name": "Escaped Horse-Drawn Tire Cart",
+          "category": false
+        },
+        {
+          "id": "3158",
+          "name": "Horse-Drawn Tire Cart",
+          "category": false
+        },
+        {
+          "id": "3159",
+          "name": "Hitched Horse-Drawn Tire Cart",
+          "category": false
+        },
+        {
+          "id": "3160",
+          "name": "Tipped Horse-Drawn Tire Cart -  ground",
+          "category": false
+        },
+        {
+          "id": "3161",
+          "name": "Escaped Horse-Drawn Tire Cart -  just released",
+          "category": false
+        },
+        {
+          "id": "3162",
+          "name": "Tipped Horse-Drawn Tire Cart -  just tipped",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "8a4c95603ddb3a54a2f2346970976b7a5cf39b26",
+      "message": "Tire hand cart can carry 8 items (was 6).",
+      "date": "2019-10-08T18:14:44.000Z"
+    },
+    {
+      "sha": "34dfe712a34b9a11bc5170a81a84e067fa092319",
+      "message": "Update promo scene.",
+      "date": "2019-10-08T17:53:45.000Z"
+    }
+  ]
+}

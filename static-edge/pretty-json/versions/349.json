@@ -1,0 +1,1582 @@
+{
+  "id": "349",
+  "date": "2020-07-11T01:55:47.000Z",
+  "commits": [
+    {
+      "sha": "f47f34404f765fbbf1543f201708f8c9efca5960",
+      "message": "Scene for update",
+      "date": "2020-07-11T00:02:30.000Z"
+    },
+    {
+      "sha": "e553e17e0697ff3611d60072f973d2d0cd81fac9",
+      "message": "Making crossroads out of former Tee junctions.",
+      "date": "2020-07-10T23:33:47.000Z",
+      "addedObjectIDs": [
+        "4492",
+        "4493"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "4425",
+          "targetID": "4492",
+          "newActorID": "4426",
+          "newTargetID": "4429",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "targetID": "4492",
+          "newActorID": "4426",
+          "newTargetID": "4466",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "4425",
+          "targetID": "4427",
+          "newActorID": "4426",
+          "newTargetID": "4429",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "targetID": "4427",
+          "newActorID": "4426",
+          "newTargetID": "4466",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4466",
+          "name": "Running Paver -  Entered NS go E",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "5db8d680415a65645c964325ec55851fe857449b",
+      "message": "Road Tee-making with paver working well.",
+      "date": "2020-07-10T22:53:50.000Z",
+      "addedObjectIDs": [
+        "4475",
+        "4476",
+        "4477",
+        "4479",
+        "4480",
+        "4482",
+        "4483",
+        "4484",
+        "4486",
+        "4487",
+        "4488",
+        "4489",
+        "4490",
+        "4491"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4475",
+          "newTargetID": "4461",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4476",
+          "newTargetID": "4461",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4477",
+          "newTargetID": "4434",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4479",
+          "newTargetID": "4434",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4480",
+          "newTargetID": "4460",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4482",
+          "newTargetID": "4460",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4483",
+          "newTargetID": "4425",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4484",
+          "newTargetID": "4425",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4491",
+          "decay": "30s"
+        },
+        {
+          "actorID": "4487",
+          "targetID": "4488",
+          "newTargetID": "4489",
+          "hand": true
+        },
+        {
+          "actorID": "4489",
+          "newActorID": "4486",
+          "newTargetID": "4490",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "4473",
+          "newActorID": "684",
+          "newTargetID": "4491",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4434",
+          "name": "Running Paver South",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "eb02c0245a7fc03c898977d8f7a40f2b7a0b707f",
+      "message": "Road elbows have +noCover tag as part of ground tile glitch fix.",
+      "date": "2020-07-10T21:07:26.000Z",
+      "objectChanges": [
+        {
+          "id": "4431",
+          "attributes": {
+            "name": {
+              "from": "South East Road Elbow -  +road4426",
+              "to": "South East Road Elbow -  +road4426 +noCover"
+            }
+          }
+        },
+        {
+          "id": "4448",
+          "attributes": {
+            "name": {
+              "from": "South West Road Elbow -  +road4426",
+              "to": "South West Road Elbow -  +road4426 +noCover"
+            }
+          }
+        },
+        {
+          "id": "4449",
+          "attributes": {
+            "name": {
+              "from": "North East Road Elbow -  +road4426",
+              "to": "North East Road Elbow -  +road4426 +noCover"
+            }
+          }
+        },
+        {
+          "id": "4450",
+          "attributes": {
+            "name": {
+              "from": "North West Road Elbow -  +road4426",
+              "to": "North West Road Elbow -  +road4426 +noCover"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "f510e11bbf1c1e6f4f50eaa4c1e8e8949b990fef",
+      "message": "All road paving logic working, except for t junctions.",
+      "date": "2020-07-10T01:32:58.000Z",
+      "addedObjectIDs": [
+        "4455",
+        "4456",
+        "4457",
+        "4458",
+        "4459",
+        "4460",
+        "4461",
+        "4462",
+        "4463",
+        "4464",
+        "4465",
+        "4466",
+        "4467",
+        "4468",
+        "4469",
+        "4470",
+        "4471",
+        "4472",
+        "4473"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4460",
+          "newTargetID": "4460",
+          "targetRemains": true,
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4461",
+          "newTargetID": "4461",
+          "targetRemains": true,
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4463",
+          "newTargetID": "4434",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4464",
+          "newTargetID": "4461",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4465",
+          "newTargetID": "4461",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4466",
+          "newTargetID": "4460",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4467",
+          "newTargetID": "4434",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4468",
+          "newTargetID": "4461",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4469",
+          "newTargetID": "4460",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4470",
+          "newTargetID": "4460",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4471",
+          "newTargetID": "4425",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4472",
+          "newTargetID": "4425",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4432",
+          "newTargetID": "4457",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "4455",
+          "newTargetID": "4432",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "4456",
+          "newTargetID": "4455",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "4457",
+          "newTargetID": "4456",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "4458",
+          "newActorID": "852",
+          "newTargetID": "107",
+          "hand": true
+        },
+        {
+          "actorID": "107",
+          "targetID": "853",
+          "newTargetUses": "-1",
+          "newTargetID": "4432",
+          "hand": true
+        },
+        {
+          "actorID": "34",
+          "targetID": "4459",
+          "newActorID": "34",
+          "newTargetID": "4458",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4425",
+          "targetID": "4455",
+          "newTargetID": "4460",
+          "hand": true
+        },
+        {
+          "actorID": "4425",
+          "targetID": "4456",
+          "newTargetID": "4464",
+          "hand": true
+        },
+        {
+          "actorID": "4425",
+          "targetID": "4457",
+          "newTargetID": "4425",
+          "hand": true
+        },
+        {
+          "actorID": "4434",
+          "targetID": "4426",
+          "newTargetID": "4467",
+          "hand": true
+        },
+        {
+          "actorID": "4434",
+          "targetID": "4432",
+          "newTargetID": "4434",
+          "hand": true
+        },
+        {
+          "actorID": "4434",
+          "targetID": "4455",
+          "newTargetID": "4470",
+          "hand": true
+        },
+        {
+          "actorID": "4434",
+          "targetID": "4456",
+          "newTargetID": "4461",
+          "hand": true
+        },
+        {
+          "actorID": "4434",
+          "targetID": "4457",
+          "newTargetID": "4472",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "newActorID": "4426",
+          "newTargetID": "4460",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "targetID": "4427",
+          "newActorID": "4426",
+          "newTargetID": "4466",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "targetID": "4432",
+          "newTargetID": "4463",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "targetID": "4455",
+          "newTargetID": "4460",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "targetID": "4456",
+          "newTargetID": "4465",
+          "hand": true
+        },
+        {
+          "actorID": "4460",
+          "targetID": "4457",
+          "newTargetID": "4425",
+          "hand": true
+        },
+        {
+          "actorID": "4461",
+          "newActorID": "4427",
+          "newTargetID": "4461",
+          "hand": true
+        },
+        {
+          "actorID": "4461",
+          "targetID": "4426",
+          "newTargetID": "4468",
+          "hand": true
+        },
+        {
+          "actorID": "4461",
+          "targetID": "4432",
+          "newTargetID": "4434",
+          "hand": true
+        },
+        {
+          "actorID": "4461",
+          "targetID": "4455",
+          "newTargetID": "4469",
+          "hand": true
+        },
+        {
+          "actorID": "4461",
+          "targetID": "4456",
+          "newTargetID": "4461",
+          "hand": true
+        },
+        {
+          "actorID": "4461",
+          "targetID": "4457",
+          "newTargetID": "4471",
+          "hand": true
+        },
+        {
+          "actorID": "4463",
+          "newActorID": "4448",
+          "newTargetID": "4434",
+          "hand": true
+        },
+        {
+          "actorID": "4464",
+          "newActorID": "4449",
+          "newTargetID": "4461",
+          "hand": true
+        },
+        {
+          "actorID": "4465",
+          "newActorID": "4450",
+          "newTargetID": "4461",
+          "hand": true
+        },
+        {
+          "actorID": "4466",
+          "newActorID": "4430",
+          "newTargetID": "4460",
+          "hand": true
+        },
+        {
+          "actorID": "4467",
+          "newActorID": "4430",
+          "newTargetID": "4434",
+          "hand": true
+        },
+        {
+          "actorID": "4468",
+          "newActorID": "4430",
+          "newTargetID": "4461",
+          "hand": true
+        },
+        {
+          "actorID": "4469",
+          "newActorID": "4431",
+          "newTargetID": "4460",
+          "hand": true
+        },
+        {
+          "actorID": "4470",
+          "newActorID": "4449",
+          "newTargetID": "4460",
+          "hand": true
+        },
+        {
+          "actorID": "4471",
+          "newActorID": "4448",
+          "newTargetID": "4425",
+          "hand": true
+        },
+        {
+          "actorID": "4472",
+          "newActorID": "4450",
+          "newTargetID": "4425",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "4434",
+          "newActorID": "659",
+          "newTargetID": "4445",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "4428",
+          "attributes": {
+            "name": {
+              "from": "North South East Road Tee -  +road4426",
+              "to": "North South East Road Tee -  B +road4426"
+            }
+          }
+        },
+        {
+          "id": "4429",
+          "attributes": {
+            "name": {
+              "from": "Running Paver -  Entered NS from East",
+              "to": "Running Paver -  Entered NS was W"
+            }
+          }
+        },
+        {
+          "id": "4430",
+          "attributes": {
+            "name": {
+              "from": "Paved Road T -  +road4426",
+              "to": "Paved Crossroad -  +road4426"
+            }
+          }
+        },
+        {
+          "id": "4432",
+          "attributes": {
+            "name": {
+              "from": "Paving Direction Marker",
+              "to": "Paving Direction South"
+            }
+          }
+        },
+        {
+          "id": "4435",
+          "attributes": {
+            "name": {
+              "from": "Running Paver South -  from West",
+              "to": "Running Paver South -  was W"
+            }
+          }
+        },
+        {
+          "id": "4451",
+          "attributes": {
+            "name": {
+              "from": "South East West Road Tee -  +road4426",
+              "to": "South East West Road Tee -  C +road4426"
+            }
+          }
+        },
+        {
+          "id": "4452",
+          "attributes": {
+            "name": {
+              "from": "North South West Road Tee -  +road4426",
+              "to": "North South West Road Tee -  D +road4426"
+            }
+          }
+        },
+        {
+          "id": "4453",
+          "attributes": {
+            "name": {
+              "from": "North East West Road Tee -  +road4426",
+              "to": "North East West Road Tee -  A +road4426"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "853",
+          "name": "@ Non-tilling Stick",
+          "category": true
+        },
+        {
+          "id": "4434",
+          "name": "Running Paver South",
+          "category": false
+        },
+        {
+          "id": "4465",
+          "name": "Running Paver North -  was E",
+          "category": false
+        },
+        {
+          "id": "4466",
+          "name": "Running Paver -  Entered NS go E",
+          "category": false
+        },
+        {
+          "id": "4467",
+          "name": "Running Paver -  entered EW go S",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "519865aa189b62a14d3c6ca088a045caa7f4c451",
+      "message": "Visuals for all road variatons done and looking good.  Still can't pave them all yet.",
+      "date": "2020-07-09T19:53:08.000Z",
+      "addedObjectIDs": [
+        "4448",
+        "4449",
+        "4450",
+        "4451",
+        "4452",
+        "4453"
+      ],
+      "objectChanges": [
+        {
+          "id": "4428",
+          "attributes": {
+            "name": {
+              "from": "Paved Road North South East T -  +road4426",
+              "to": "North South East Road Tee -  +road4426"
+            }
+          }
+        },
+        {
+          "id": "4431",
+          "attributes": {
+            "name": {
+              "from": "Paved Road Elbow -  +road4426",
+              "to": "South East Road Elbow -  +road4426"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "a1b4be6c0854b07823147fcb93a13bbfbc81e175",
+      "message": "Working on motorized road paver.",
+      "date": "2020-07-09T00:53:19.000Z",
+      "addedObjectIDs": [
+        "4425",
+        "4426",
+        "4427",
+        "4428",
+        "4429",
+        "4430",
+        "4431",
+        "4432",
+        "4434",
+        "4435",
+        "4436",
+        "4437",
+        "4439",
+        "4440",
+        "4442",
+        "4443",
+        "4445",
+        "4446",
+        "4447"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4425",
+          "newTargetID": "4425",
+          "targetRemains": true,
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4429",
+          "newTargetID": "4425",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4434",
+          "newTargetID": "4434",
+          "targetRemains": true,
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4435",
+          "newTargetID": "4434",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4436",
+          "newTargetID": "4437",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4447",
+          "newTargetID": "4377",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4425",
+          "newActorID": "659",
+          "newTargetID": "4445",
+          "hand": true
+        },
+        {
+          "targetID": "4434",
+          "newActorID": "659",
+          "newTargetID": "4445",
+          "hand": true
+        },
+        {
+          "targetID": "4442",
+          "newActorID": "2334",
+          "newTargetID": "4447",
+          "hand": true
+        },
+        {
+          "targetID": "4443",
+          "newActorID": "4439",
+          "newTargetID": "4442",
+          "hand": true
+        },
+        {
+          "targetID": "4445",
+          "newActorID": "659",
+          "newTargetID": "4446",
+          "hand": true
+        },
+        {
+          "targetID": "4446",
+          "newActorID": "2302",
+          "newTargetID": "4447",
+          "hand": true
+        },
+        {
+          "actorID": "1906",
+          "targetID": "4443",
+          "newTargetID": "4425",
+          "hand": true
+        },
+        {
+          "actorID": "2334",
+          "targetID": "4377",
+          "newTargetID": "4442",
+          "hand": true
+        },
+        {
+          "actorID": "4425",
+          "newActorID": "4426",
+          "newTargetID": "4425",
+          "hand": true
+        },
+        {
+          "actorID": "4425",
+          "targetID": "4427",
+          "newActorID": "4426",
+          "newTargetID": "4429",
+          "hand": true
+        },
+        {
+          "actorID": "4425",
+          "targetID": "4432",
+          "newTargetID": "4435",
+          "hand": true
+        },
+        {
+          "actorID": "4429",
+          "newActorID": "4430",
+          "newTargetID": "4425",
+          "hand": true
+        },
+        {
+          "actorID": "4434",
+          "newActorID": "4427",
+          "newTargetID": "4434",
+          "hand": true
+        },
+        {
+          "actorID": "4435",
+          "newActorID": "4431",
+          "newTargetID": "4434",
+          "hand": true
+        },
+        {
+          "actorID": "4439",
+          "newActorID": "659",
+          "newTargetID": "4437",
+          "hand": true
+        },
+        {
+          "actorID": "4439",
+          "targetID": "4437",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "4440",
+          "hand": true
+        },
+        {
+          "actorID": "4439",
+          "targetID": "4440",
+          "newTargetUses": "last",
+          "newActorID": "659",
+          "newTargetID": "4440",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4439",
+          "targetID": "4442",
+          "newTargetID": "4443",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "4437",
+          "newActorID": "4439",
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "4440",
+          "newActorID": "4439",
+          "newTargetID": "4440",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "659",
+          "targetID": "4440",
+          "newActorID": "4439",
+          "newTargetID": "4437",
+          "hand": true
+        },
+        {
+          "actorID": "684",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "881",
+          "newActorID": "684",
+          "newTargetID": "4436",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4377",
+          "name": "Fueled Plow",
+          "category": false
+        },
+        {
+          "id": "4434",
+          "name": "Running Paver South",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "0ae731644e4e00a8a2317422915afc0ee0a338b4",
+      "message": "Back-flowed pipe elbows hang around forever, until someone notices them, and fixes them with a smithing hammer.  Otherwise, it could be confusing if you start your pump and walk away, and then return later to find that the water didn't flow all the way.",
+      "date": "2020-07-08T02:02:26.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4421",
+          "newActorID": "441",
+          "newTargetID": "4390",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4422",
+          "newActorID": "441",
+          "newTargetID": "4395",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "4421",
+          "newTargetID": "4391",
+          "decay": "5s"
+        },
+        {
+          "targetID": "4422",
+          "newTargetID": "4394",
+          "decay": "5s"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4390",
+          "name": "West to Southward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4391",
+          "name": "South to Eastward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4394",
+          "name": "South to Westward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4395",
+          "name": "East to Southward Pipe Elbow",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "4e87f135e66df78c57cd790a4c5f5fa4bdfca6a5",
+      "message": "Reduced visual clutter by only showing directional arrows on two elbows that can actually backflow.",
+      "date": "2020-07-08T01:58:18.000Z"
+    },
+    {
+      "sha": "8e07283368cc6d23c6062aa348c987a84f7d86a7",
+      "message": "For clarity (since water can't flow North, to prevent loops), visible back-flowed states of certain elbows, if they are installed and used in the wrong direction.",
+      "date": "2020-07-08T01:53:30.000Z",
+      "addedObjectIDs": [
+        "4421",
+        "4422"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4421",
+          "newTargetID": "4391",
+          "decay": "5s"
+        },
+        {
+          "targetID": "4422",
+          "newTargetID": "4394",
+          "decay": "5s"
+        },
+        {
+          "actorID": "4352",
+          "targetID": "4391",
+          "newTargetID": "4421",
+          "hand": true
+        },
+        {
+          "actorID": "4396",
+          "targetID": "4394",
+          "newTargetID": "4422",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4391",
+          "name": "South to Eastward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4394",
+          "name": "South to Westward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4396",
+          "name": "Sprinkler Water moving East",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "bc956d8d35f775c629045d5072041cc8504ff477",
+      "message": "Sprinkler elbow pipes working.",
+      "date": "2020-07-08T01:20:17.000Z",
+      "addedObjectIDs": [
+        "4390",
+        "4391",
+        "4393",
+        "4394",
+        "4395",
+        "4396",
+        "4397",
+        "4398",
+        "4399",
+        "4400",
+        "4402",
+        "4403",
+        "4404",
+        "4405",
+        "4406",
+        "4407",
+        "4408",
+        "4409",
+        "4410",
+        "4411",
+        "4412",
+        "4418"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4396",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4397",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4398",
+          "newTargetID": "4397",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4399",
+          "newTargetID": "4396",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4400",
+          "newTargetID": "4397",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4402",
+          "newTargetID": "4352",
+          "decay": "1s",
+          "move": 7
+        },
+        {
+          "targetID": "4403",
+          "newTargetID": "4397",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4404",
+          "newTargetID": "4354",
+          "decay": "1s",
+          "move": 5
+        },
+        {
+          "targetID": "4405",
+          "newTargetID": "4353",
+          "decay": "1s",
+          "move": 4
+        },
+        {
+          "targetID": "4406",
+          "newTargetID": "4396",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4407",
+          "newTargetID": "4396",
+          "decay": "1s",
+          "move": 6
+        },
+        {
+          "targetID": "4408",
+          "newTargetID": "4393",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4409",
+          "newTargetID": "4390",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4410",
+          "newTargetID": "4391",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4411",
+          "newTargetID": "4394",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4412",
+          "newTargetID": "4395",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4418",
+          "newTargetID": "2297",
+          "decay": "1s"
+        },
+        {
+          "actorID": "4352",
+          "targetID": "4390",
+          "newTargetID": "4398",
+          "hand": true
+        },
+        {
+          "actorID": "4352",
+          "targetID": "4411",
+          "newTargetID": "4394",
+          "hand": true
+        },
+        {
+          "actorID": "4353",
+          "targetID": "4407",
+          "newTargetID": "4407",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4354",
+          "targetID": "4406",
+          "newTargetID": "4406",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4396",
+          "targetID": "4349",
+          "newTargetID": "4404",
+          "hand": true
+        },
+        {
+          "actorID": "4396",
+          "targetID": "4350",
+          "newTargetID": "4405",
+          "hand": true
+        },
+        {
+          "actorID": "4396",
+          "targetID": "4384",
+          "newTargetID": "4349",
+          "hand": true
+        },
+        {
+          "actorID": "4396",
+          "targetID": "4385",
+          "newTargetID": "4350",
+          "hand": true
+        },
+        {
+          "actorID": "4396",
+          "targetID": "4395",
+          "newTargetID": "4403",
+          "hand": true
+        },
+        {
+          "actorID": "4396",
+          "targetID": "4410",
+          "newTargetID": "4391",
+          "hand": true
+        },
+        {
+          "actorID": "4397",
+          "targetID": "4391",
+          "newTargetID": "4399",
+          "hand": true
+        },
+        {
+          "actorID": "4397",
+          "targetID": "4393",
+          "newTargetID": "4400",
+          "hand": true
+        },
+        {
+          "actorID": "4397",
+          "targetID": "4394",
+          "newTargetID": "4402",
+          "hand": true
+        },
+        {
+          "actorID": "4397",
+          "targetID": "4408",
+          "newTargetID": "4393",
+          "hand": true
+        },
+        {
+          "actorID": "4397",
+          "targetID": "4409",
+          "newTargetID": "4390",
+          "hand": true
+        },
+        {
+          "actorID": "4397",
+          "targetID": "4412",
+          "newTargetID": "4395",
+          "hand": true
+        },
+        {
+          "actorID": "4398",
+          "newActorID": "4409",
+          "newTargetID": "4397",
+          "hand": true
+        },
+        {
+          "actorID": "4399",
+          "newActorID": "4410",
+          "newTargetID": "4396",
+          "hand": true
+        },
+        {
+          "actorID": "4400",
+          "newActorID": "4408",
+          "newTargetID": "4397",
+          "hand": true
+        },
+        {
+          "actorID": "4402",
+          "newActorID": "4411",
+          "newTargetID": "4352",
+          "hand": true
+        },
+        {
+          "actorID": "4403",
+          "newActorID": "4412",
+          "newTargetID": "4397",
+          "hand": true
+        },
+        {
+          "actorID": "4404",
+          "newActorID": "4406",
+          "newTargetID": "4354",
+          "hand": true
+        },
+        {
+          "actorID": "4405",
+          "newActorID": "4407",
+          "newTargetID": "4353",
+          "hand": true
+        },
+        {
+          "actorID": "4406",
+          "newActorID": "4384",
+          "newTargetID": "4396",
+          "hand": true
+        },
+        {
+          "actorID": "4407",
+          "newActorID": "4385",
+          "newTargetID": "4396",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "2297",
+          "newActorID": "441",
+          "newTargetID": "4390",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4390",
+          "newActorID": "441",
+          "newTargetID": "4393",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4391",
+          "newActorID": "441",
+          "newTargetID": "4394",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4393",
+          "newActorID": "441",
+          "newTargetID": "4391",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4394",
+          "newActorID": "441",
+          "newTargetID": "4395",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4395",
+          "newActorID": "441",
+          "newTargetID": "4418",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "4356",
+          "attributes": {
+            "name": {
+              "from": "South-facing Sprinkler Pipe -  waterHit",
+              "to": "South-facing Sprinkler Pipe -  waterHit west"
+            }
+          }
+        },
+        {
+          "id": "4357",
+          "attributes": {
+            "name": {
+              "from": "North-facing Sprinkler Pipe -  waterHit",
+              "to": "North-facing Sprinkler Pipe -  waterHit west"
+            }
+          }
+        },
+        {
+          "id": "4358",
+          "attributes": {
+            "name": {
+              "from": "South-facing Sprinkler Pipe -  water passed",
+              "to": "South-facing Sprinkler Pipe -  waterPassed west"
+            }
+          }
+        },
+        {
+          "id": "4359",
+          "attributes": {
+            "name": {
+              "from": "North-facing Sprinkler Pipe -  water passed",
+              "to": "North-facing Sprinkler Pipe -  waterPassed west"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4349",
+          "name": "South-facing Sprinkler Pipe",
+          "category": false
+        },
+        {
+          "id": "4354",
+          "name": "Sprinkler Squirt South",
+          "category": false
+        },
+        {
+          "id": "4384",
+          "name": "South-facing Sprinkler Pipe -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4385",
+          "name": "North-facing Sprinkler Pipe -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4390",
+          "name": "West to Southward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4391",
+          "name": "South to Eastward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4393",
+          "name": "Southward Sprinkler Pipe",
+          "category": false
+        },
+        {
+          "id": "4394",
+          "name": "South to Westward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4395",
+          "name": "East to Southward Pipe Elbow",
+          "category": false
+        },
+        {
+          "id": "4396",
+          "name": "Sprinkler Water moving East",
+          "category": false
+        },
+        {
+          "id": "4397",
+          "name": "Sprinkler Water moving South",
+          "category": false
+        },
+        {
+          "id": "4398",
+          "name": "West to Southward Pipe Elbow -  waterHit",
+          "category": false
+        },
+        {
+          "id": "4399",
+          "name": "South to Eastward Pipe Elbow -  waterHit",
+          "category": false
+        },
+        {
+          "id": "4400",
+          "name": "Southward Sprinkler Pipe -  waterHit",
+          "category": false
+        },
+        {
+          "id": "4402",
+          "name": "South to Westward Pipe Elbow -  waterHit",
+          "category": false
+        },
+        {
+          "id": "4403",
+          "name": "East to Southward Pipe Elbow -  waterHit",
+          "category": false
+        },
+        {
+          "id": "4404",
+          "name": "South-facing Sprinkler Pipe -  waterHit east",
+          "category": false
+        },
+        {
+          "id": "4405",
+          "name": "North-facing Sprinkler Pipe -  waterHit east",
+          "category": false
+        },
+        {
+          "id": "4407",
+          "name": "North-facing Sprinkler Pipe -  waterPassed east",
+          "category": false
+        },
+        {
+          "id": "4408",
+          "name": "Southward Sprinkler Pipe -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4409",
+          "name": "West to Southward Pipe Elbow -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4410",
+          "name": "South to Eastward Pipe Elbow -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4411",
+          "name": "South to Westward Pipe Elbow -  waterGone",
+          "category": false
+        },
+        {
+          "id": "4412",
+          "name": "East to Southward Pipe Elbow -  waterGone",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "8a32712e917b49d067922ae3d82977a57e1fbdb9",
+      "message": "Stacks of harvested wheat sheaves.",
+      "date": "2020-07-07T17:53:35.000Z",
+      "addedObjectIDs": [
+        "4389"
+      ]
+    },
+    {
+      "sha": "f685312c1a26b66280184e114cd71db5927b8bde",
+      "message": "Wheat leaves behind hardened row.",
+      "date": "2020-07-07T17:46:27.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "244",
+          "newTargetID": "848",
+          "decay": "30s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "244",
+          "decay": "2m"
+        }
+      ]
+    },
+    {
+      "sha": "53204ec1c7144ac3dfedb51ae2f90b1aa8338208",
+      "message": "Seeding carrots now leave behind a hardened row.",
+      "date": "2020-07-07T17:27:36.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "401",
+          "targetUses": "last",
+          "newActorID": "395",
+          "newTargetID": "848",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "401",
+          "targetUses": "last",
+          "newActorID": "395",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "fcffb9c3a33da0d3742fe909855e892f5a5fdf5e",
+      "message": "Sprinkler water no longer jumps across pipe gaps.  Fixes #847",
+      "date": "2020-07-06T17:45:56.000Z"
+    },
+    {
+      "sha": "2fe8c4fdfc84dee1a2d3678d9572cb3d1a56e039",
+      "message": "If there's nowhere for water to go out of sprinkler pump, it made pump disappear.  Fixed.  Fixes #849",
+      "date": "2020-07-06T17:32:26.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "4352",
+          "targetID": "4369",
+          "newTargetID": "4369",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4369",
+          "name": "Running sprinkler pump -  waterSent",
+          "category": false
+        }
+      ]
+    }
+  ]
+}

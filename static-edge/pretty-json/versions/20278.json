@@ -1,0 +1,2309 @@
+{
+  "id": "20278",
+  "date": "2020-12-12T19:12:17.000Z",
+  "commits": [
+    {
+      "sha": "fec0451289978989cdce2acb3878aead5d98d217",
+      "message": "Soil can be removed from croc",
+      "date": "2020-12-12T18:55:35.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "292",
+          "targetID": "8138",
+          "newActorID": "336",
+          "newTargetID": "1217",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "cbf6cfeda4945126aa2bc989232f836194dd20ef",
+      "message": "Added light recipe and fixed transitions",
+      "date": "2020-12-12T18:53:26.000Z",
+      "addedObjectIDs": [
+        "8261",
+        "8262",
+        "8263"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8262",
+          "newActorID": "8257",
+          "newTargetID": "8158",
+          "hand": true
+        },
+        {
+          "targetID": "8263",
+          "newActorID": "8257",
+          "newTargetID": "7039",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "2574",
+          "newActorID": "8255",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8122",
+          "newActorID": "462",
+          "newTargetID": "8263",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "8122",
+          "newActorID": "858",
+          "newTargetID": "8263",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8261",
+          "newActorID": "462",
+          "newTargetID": "8262",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "8261",
+          "newActorID": "858",
+          "newTargetID": "8262",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "8122",
+          "newTargetID": "8261",
+          "hand": true
+        },
+        {
+          "actorID": "8257",
+          "targetID": "8158",
+          "newTargetID": "8261",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "8258",
+          "targetID": "8143",
+          "newTargetID": "8133",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "5b62d480f4018e69d770fe2048f2b5a5bac707ed",
+      "message": "Initial Lights commit",
+      "date": "2020-12-12T15:04:13.000Z",
+      "addedObjectIDs": [
+        "8255",
+        "8256",
+        "8257",
+        "8258",
+        "8259",
+        "8260"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8133",
+          "newActorID": "8256",
+          "newTargetID": "8143",
+          "hand": true
+        },
+        {
+          "targetID": "8256",
+          "newActorID": "8255",
+          "newTargetID": "8257",
+          "hand": true
+        },
+        {
+          "targetID": "8257",
+          "newActorID": "8255",
+          "newTargetID": "8258",
+          "hand": true
+        },
+        {
+          "targetID": "8258",
+          "newActorID": "8255",
+          "newTargetID": "8255",
+          "hand": true
+        },
+        {
+          "targetID": "8259",
+          "newActorID": "8136",
+          "newTargetID": "8260",
+          "hand": true
+        },
+        {
+          "targetID": "8260",
+          "newActorID": "8136",
+          "newTargetID": "8133",
+          "hand": true
+        },
+        {
+          "actorID": "8136",
+          "targetID": "8133",
+          "newTargetID": "8260",
+          "hand": true
+        },
+        {
+          "actorID": "8136",
+          "targetID": "8260",
+          "newTargetID": "8259",
+          "hand": true
+        },
+        {
+          "actorID": "8255",
+          "targetID": "8255",
+          "newTargetID": "8258",
+          "hand": true
+        },
+        {
+          "actorID": "8255",
+          "targetID": "8257",
+          "newTargetID": "8256",
+          "hand": true
+        },
+        {
+          "actorID": "8255",
+          "targetID": "8258",
+          "newTargetID": "8257",
+          "hand": true
+        },
+        {
+          "actorID": "8256",
+          "targetID": "8143",
+          "newTargetID": "8133",
+          "hand": true
+        },
+        {
+          "actorID": "8257",
+          "targetID": "7039",
+          "newTargetID": "8122",
+          "hand": true
+        },
+        {
+          "actorID": "8257",
+          "targetID": "7980",
+          "newTargetID": "8123",
+          "hand": true
+        },
+        {
+          "actorID": "8258",
+          "targetID": "8143",
+          "newTargetID": "8133",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8133",
+          "attributes": {
+            "name": {
+              "from": "Decorated Christmas Tree",
+              "to": "Christmas Tree with Lights"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "5bd00879ea50c5f7800e3f753346032799fdbb4d",
+      "message": "Garland can be reverted",
+      "date": "2020-12-12T14:33:34.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "8161",
+          "targetID": "519",
+          "newTargetUses": "-1",
+          "newActorID": "2531",
+          "newTargetID": "519",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "519",
+          "name": "@ Food Burner",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "ea03a312aca82a94512fb8f4e8d4497cd9d07b1e",
+      "message": "Christmas item fixes",
+      "date": "2020-12-12T14:32:14.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "3269",
+          "targetID": "3269",
+          "newTargetID": "3268",
+          "hand": true
+        },
+        {
+          "actorID": "3874",
+          "targetID": "3874",
+          "newTargetID": "3267",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3269",
+          "attributes": {
+            "name": {
+              "from": "Snow Door -  +tapoutTrigger,1,1,2,1",
+              "to": "Snow Door"
+            }
+          }
+        },
+        {
+          "id": "3874",
+          "attributes": {
+            "name": {
+              "from": "Snow Door -  +tapoutTrigger,1,1,1,2",
+              "to": "Snow Door"
+            }
+          }
+        },
+        {
+          "id": "8251",
+          "attributes": {
+            "name": {
+              "from": "Plate of Uncooked Cookies",
+              "to": "Plate of Uncooked Cookies  - +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "8252",
+          "attributes": {
+            "name": {
+              "from": "Plate of Cooked Cookies",
+              "to": "Plate of Cooked Cookies  - +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "8254",
+          "attributes": {
+            "name": {
+              "from": "Plate of Cooked Cookies  - just made",
+              "to": "Plate of Cooked Cookies  - just made +contFoodDish"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ba88130f79486962c5e3cda9913051f9a8e102f1",
+      "message": "Imported Snow walls",
+      "date": "2020-12-12T01:39:46.000Z",
+      "addedObjectIDs": [
+        "3266",
+        "3267",
+        "3268",
+        "3269",
+        "3270",
+        "3271",
+        "3874"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3271",
+          "decay": "30s"
+        },
+        {
+          "actorID": "2411",
+          "targetID": "108",
+          "newActorID": "107",
+          "newTargetID": "3268",
+          "hand": true
+        },
+        {
+          "actorID": "2411",
+          "targetID": "109",
+          "newActorID": "107",
+          "newTargetID": "3267",
+          "hand": true
+        },
+        {
+          "actorID": "2411",
+          "targetID": "110",
+          "newActorID": "107",
+          "newTargetID": "3266",
+          "hand": true
+        },
+        {
+          "actorID": "2411",
+          "targetID": "486",
+          "newActorID": "107",
+          "newTargetID": "3270",
+          "hand": true
+        },
+        {
+          "actorID": "3269",
+          "targetID": "3269",
+          "newTargetID": "3268",
+          "hand": true
+        },
+        {
+          "actorID": "3874",
+          "targetID": "3874",
+          "newTargetID": "3267",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3266",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "3266",
+          "newActorID": "858",
+          "newTargetID": "3271",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3267",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "3267",
+          "newActorID": "858",
+          "newTargetID": "3271",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3268",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "3268",
+          "newActorID": "858",
+          "newTargetID": "3271",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3269",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "3269",
+          "newActorID": "858",
+          "newTargetID": "3271",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3270",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "3270",
+          "newActorID": "858",
+          "newTargetID": "3271",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3874",
+          "newActorID": "462",
+          "newTargetID": "3271",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "3874",
+          "newActorID": "858",
+          "newTargetID": "3271",
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "3267",
+          "newActorID": "502",
+          "newTargetID": "3874",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "502",
+          "actorUses": "last",
+          "targetID": "3267",
+          "newActorID": "858",
+          "newTargetID": "3874",
+          "hand": true
+        },
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "3268",
+          "newActorID": "502",
+          "newTargetID": "3269",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "502",
+          "actorUses": "last",
+          "targetID": "3268",
+          "newActorID": "858",
+          "newTargetID": "3269",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "2acd6cf634c92b6b5e2ce70191051e6ffab27b82",
+      "message": "Removed white from Christmas tree",
+      "date": "2020-12-11T23:57:30.000Z"
+    },
+    {
+      "sha": "aa0c11e7bc13cdc2633c599ef7ede2d3fbbad50d",
+      "message": "Added missing Christmas transitions",
+      "date": "2020-12-11T23:51:49.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "8152",
+          "newTargetID": "8150",
+          "decay": "10h"
+        },
+        {
+          "targetID": "8153",
+          "newTargetID": "8151",
+          "decay": "10h"
+        },
+        {
+          "targetID": "8154",
+          "newTargetID": "8156",
+          "decay": "10h"
+        },
+        {
+          "targetID": "8157",
+          "newTargetID": "8155",
+          "decay": "10h"
+        },
+        {
+          "targetID": "8160",
+          "newTargetID": "8159",
+          "decay": "10h"
+        },
+        {
+          "actorID": "2428",
+          "targetID": "8221",
+          "newActorID": "191",
+          "newTargetID": "8222",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "8162",
+          "newActorID": "291",
+          "newTargetID": "8245",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "2428",
+          "targetID": "8221",
+          "newTargetID": "8222",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "1250",
+          "attributes": {
+            "name": {
+              "from": "Empty Stew Pot",
+              "to": "Empty Pot"
+            }
+          }
+        },
+        {
+          "id": "8157",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall with Double Shelf and Galand -  +noBackAccess +contFoodDish +useOnContained",
+              "to": "Stone Wall with Double Shelf and Garland -  +noBackAccess +contFoodDish +useOnContained"
+            }
+          }
+        },
+        {
+          "id": "8202",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall with Double Shelf and Detached Galand -  +noBackAccess +contFoodDish +useOnContained",
+              "to": "Stone Wall with Double Shelf and Detached Garland -  +noBackAccess +contFoodDish +useOnContained"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "397e6d91096f640115fc27dcc6b197fc5c42d67b",
+      "message": "Watering can works on potted balsam",
+      "date": "2020-12-11T23:25:02.000Z"
+    },
+    {
+      "sha": "d67a9b12295fe114a43ffc76a5c5cb67938490a7",
+      "message": "Garland containable as large item",
+      "date": "2020-12-11T23:23:29.000Z"
+    },
+    {
+      "sha": "470b95a2c10046b8afaa35625b1c66f50f4222a4",
+      "message": "Fixed fireplace ashe transition",
+      "date": "2020-12-11T23:13:03.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "8190",
+          "newTargetUses": "-1",
+          "newTargetID": "8188",
+          "decay": "30s"
+        },
+        {
+          "targetID": "8190",
+          "newTargetUses": "-1",
+          "newTargetID": "8188",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8188",
+          "name": "@ Empty Fireplace",
+          "category": true
+        },
+        {
+          "id": "8190",
+          "name": "@ Stone Fireplace with Ashes",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "3a5749805e8b73cb3f0a8de8bb9e03a6f73c3562",
+      "message": "Cookies can be replaced on plate",
+      "date": "2020-12-11T22:58:40.000Z",
+      "addedObjectIDs": [
+        "8254"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8254",
+          "newTargetID": "8252",
+          "decay": "1s"
+        },
+        {
+          "actorID": "8251",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "8254",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8253",
+          "targetID": "236",
+          "newTargetUses": "last",
+          "newTargetID": "8252",
+          "hand": true
+        },
+        {
+          "actorID": "8253",
+          "targetID": "8252",
+          "newTargetUses": "+1",
+          "newTargetID": "8252",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "8251",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "8252",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "c0bd5b5fd2eddd11f17973ecce0d136b8dd92b2e",
+      "message": "Transition fix",
+      "date": "2020-12-11T01:37:09.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1300",
+          "actorUses": "max",
+          "targetID": "6701",
+          "newActorID": "235",
+          "newTargetID": "8029",
+          "hand": true
+        },
+        {
+          "actorID": "252",
+          "actorUses": "max",
+          "targetID": "6701",
+          "newActorID": "235",
+          "newTargetID": "8032",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "1300",
+          "targetID": "6701",
+          "newActorID": "235",
+          "newTargetID": "8029",
+          "hand": true
+        },
+        {
+          "actorID": "252",
+          "targetID": "6701",
+          "newActorID": "235",
+          "newTargetID": "8032",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e5fe7aaafb46ed4aae7e36d3ba5ce91480c7f0fe",
+      "message": "Cookies",
+      "date": "2020-12-11T01:25:08.000Z",
+      "addedObjectIDs": [
+        "8245",
+        "8247",
+        "8248",
+        "8249",
+        "8250",
+        "8251",
+        "8252",
+        "8253"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8245",
+          "decay": "5s"
+        },
+        {
+          "targetID": "8252",
+          "newTargetUses": "-1",
+          "newActorID": "8253",
+          "newTargetID": "8252",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "8252",
+          "targetUses": "last",
+          "newActorID": "8253",
+          "newTargetID": "236",
+          "hand": true
+        },
+        {
+          "actorID": "236",
+          "newActorUses": "last",
+          "targetID": "8250",
+          "newActorID": "8251",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "actorID": "2786",
+          "targetID": "251",
+          "newActorID": "235",
+          "newTargetID": "8247",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "8244",
+          "newActorID": "291",
+          "newTargetID": "8245",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "31",
+          "targetID": "8249",
+          "newTargetID": "8250",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "8248",
+          "newActorID": "67",
+          "newTargetID": "8249",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8247",
+          "newActorUses": "-1",
+          "targetID": "291",
+          "newActorID": "8247",
+          "newTargetID": "8248",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8247",
+          "actorUses": "last",
+          "targetID": "291",
+          "newActorID": "235",
+          "newTargetID": "8248",
+          "hand": true
+        },
+        {
+          "actorID": "8251",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "8252",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8251",
+          "newActorUses": "+1",
+          "targetID": "8250",
+          "newActorID": "8251",
+          "newTargetID": "291",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "94b0287a00b991f2f8340146d3580bc680045770",
+      "message": "Present transitions",
+      "date": "2020-12-10T01:57:53.000Z",
+      "addedObjectIDs": [
+        "8242",
+        "8243",
+        "8244"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8244",
+          "newTargetID": "8162",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1619",
+          "targetID": "2898",
+          "newActorID": "8242",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7643",
+          "targetID": "8243",
+          "targetUses": "max",
+          "newActorID": "235",
+          "newTargetID": "8244",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "30bd33ef19df41adfc8c8bc2e546b9ccc61df547",
+      "message": "Wreath doors",
+      "date": "2020-12-10T01:24:11.000Z",
+      "addedObjectIDs": [
+        "8215",
+        "8216",
+        "8217",
+        "8218",
+        "8219",
+        "8220",
+        "8221",
+        "8222",
+        "8223",
+        "8225",
+        "8226",
+        "8227",
+        "8228",
+        "8229",
+        "8230",
+        "8231",
+        "8232",
+        "8233",
+        "8234",
+        "8235",
+        "8236",
+        "8237",
+        "8238",
+        "8239",
+        "8240",
+        "8241"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8118",
+          "newTargetID": "8235",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8120",
+          "newTargetID": "8233",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8121",
+          "newTargetID": "8234",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8215",
+          "newTargetID": "8226",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8216",
+          "newTargetID": "8228",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8217",
+          "newTargetID": "8227",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8218",
+          "newTargetID": "8236",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8219",
+          "newTargetID": "8238",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8220",
+          "newTargetID": "8237",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8223",
+          "newTargetID": "8239",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8224",
+          "newTargetID": "8241",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8225",
+          "newTargetID": "8240",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8226",
+          "newTargetID": "8215",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8227",
+          "newTargetID": "8217",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8228",
+          "newTargetID": "8216",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8233",
+          "newTargetID": "8120",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8234",
+          "newTargetID": "8121",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8235",
+          "newTargetID": "8118",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8236",
+          "newTargetID": "8218",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8237",
+          "newTargetID": "8220",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8238",
+          "newTargetID": "8219",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8239",
+          "newTargetID": "8223",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8240",
+          "newTargetID": "8225",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "8241",
+          "newTargetID": "8224",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1051",
+          "targetID": "8221",
+          "newTargetID": "8148",
+          "hand": true
+        },
+        {
+          "actorID": "2428",
+          "targetID": "8221",
+          "newTargetID": "8222",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8118",
+          "newActorID": "8232",
+          "newTargetID": "876",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8120",
+          "newActorID": "8232",
+          "newTargetID": "8039",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8121",
+          "newActorID": "8232",
+          "newTargetID": "8038",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8215",
+          "newActorID": "8229",
+          "newTargetID": "8039",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8216",
+          "newActorID": "8229",
+          "newTargetID": "876",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8217",
+          "newActorID": "8229",
+          "newTargetID": "8038",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8218",
+          "newActorID": "8231",
+          "newTargetID": "8039",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8219",
+          "newActorID": "8231",
+          "newTargetID": "876",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "8220",
+          "newActorID": "8231",
+          "newTargetID": "8038",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8223",
+          "newActorID": "8230",
+          "newTargetID": "8039",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8224",
+          "newActorID": "8230",
+          "newTargetID": "876",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8225",
+          "newActorID": "8230",
+          "newTargetID": "8038",
+          "hand": true
+        },
+        {
+          "actorID": "8115",
+          "targetID": "1352",
+          "newActorID": "8116",
+          "newTargetID": "1352",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8148",
+          "targetID": "8038",
+          "newTargetID": "8225",
+          "hand": true
+        },
+        {
+          "actorID": "8148",
+          "targetID": "8039",
+          "newTargetID": "8223",
+          "hand": true
+        },
+        {
+          "actorID": "8148",
+          "targetID": "876",
+          "newTargetID": "8224",
+          "hand": true
+        },
+        {
+          "actorID": "8149",
+          "targetID": "8038",
+          "newTargetID": "8121",
+          "hand": true
+        },
+        {
+          "actorID": "8149",
+          "targetID": "8039",
+          "newTargetID": "8120",
+          "hand": true
+        },
+        {
+          "actorID": "8149",
+          "targetID": "876",
+          "newTargetID": "8118",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "8147",
+          "newTargetID": "8221",
+          "hand": true
+        },
+        {
+          "actorID": "8221",
+          "targetID": "8038",
+          "newTargetID": "8217",
+          "hand": true
+        },
+        {
+          "actorID": "8221",
+          "targetID": "8039",
+          "newTargetID": "8215",
+          "hand": true
+        },
+        {
+          "actorID": "8221",
+          "targetID": "876",
+          "newTargetID": "8216",
+          "hand": true
+        },
+        {
+          "actorID": "8222",
+          "targetID": "8038",
+          "newTargetID": "8220",
+          "hand": true
+        },
+        {
+          "actorID": "8222",
+          "targetID": "8039",
+          "newTargetID": "8218",
+          "hand": true
+        },
+        {
+          "actorID": "8222",
+          "targetID": "876",
+          "newTargetID": "8219",
+          "hand": true
+        },
+        {
+          "actorID": "8229",
+          "newActorID": "568",
+          "newTargetID": "8221",
+          "hand": true
+        },
+        {
+          "actorID": "8230",
+          "newActorID": "568",
+          "newTargetID": "8148",
+          "hand": true
+        },
+        {
+          "actorID": "8231",
+          "newActorID": "568",
+          "newTargetID": "8222",
+          "hand": true
+        },
+        {
+          "actorID": "8232",
+          "newActorID": "568",
+          "newTargetID": "8149",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "8161",
+          "targetID": "8147",
+          "newTargetID": "8148",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8114",
+          "attributes": {
+            "name": {
+              "from": "Elf Hat",
+              "to": "Elf Hat with Bell"
+            }
+          }
+        },
+        {
+          "id": "8116",
+          "attributes": {
+            "name": {
+              "from": "Elf Hat",
+              "to": "Elf Hat with Ears"
+            }
+          }
+        },
+        {
+          "id": "8148",
+          "attributes": {
+            "name": {
+              "from": "Covered Wreath",
+              "to": "Covered Rose Wreath"
+            }
+          }
+        },
+        {
+          "id": "8149",
+          "attributes": {
+            "name": {
+              "from": "Covered Wreath with Bell",
+              "to": "Covered Rose Wreath with Bell"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "480f6b60d24fc7d3b8b4169ddd5fd239247b7991",
+      "message": "Fireplace and Garland walls done",
+      "date": "2020-12-09T23:12:42.000Z",
+      "addedObjectIDs": [
+        "8196",
+        "8197",
+        "8198",
+        "8199",
+        "8200",
+        "8201",
+        "8202",
+        "8203",
+        "8204",
+        "8205",
+        "8206",
+        "8207",
+        "8208",
+        "8209",
+        "8210",
+        "8211",
+        "8213",
+        "8214"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8210",
+          "newTargetID": "8161",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8198",
+          "newTargetUses": "-1",
+          "newActorID": "8210",
+          "newTargetID": "8197",
+          "hand": true
+        },
+        {
+          "targetID": "8211",
+          "newActorID": "8210",
+          "newTargetID": "7178",
+          "hand": true
+        },
+        {
+          "targetID": "8213",
+          "newActorID": "8144",
+          "newTargetID": "8167",
+          "hand": true
+        },
+        {
+          "targetID": "8214",
+          "newActorID": "8144",
+          "newTargetID": "8213",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8167",
+          "newActorID": "568",
+          "newTargetID": "8211",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8174",
+          "newActorID": "568",
+          "newTargetID": "8213",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8181",
+          "newActorID": "568",
+          "newTargetID": "8214",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8196",
+          "newTargetUses": "-1",
+          "newActorID": "568",
+          "newTargetID": "8198",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "8197",
+          "newTargetUses": "-1",
+          "newTargetID": "8196",
+          "hand": true
+        },
+        {
+          "actorID": "8210",
+          "targetID": "8197",
+          "newTargetUses": "-1",
+          "newTargetID": "8196",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8196",
+          "name": "@ Garland Wall",
+          "category": true
+        },
+        {
+          "id": "8197",
+          "name": "@ Plain Wall",
+          "category": true
+        },
+        {
+          "id": "8198",
+          "name": "@ Removed Garland Wall",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "72a17272782c653453a52d06f97cd4433050588e",
+      "message": "Fireplaces now use groups for transitions",
+      "date": "2020-12-09T02:19:20.000Z",
+      "addedObjectIDs": [
+        "8174",
+        "8175",
+        "8176",
+        "8177",
+        "8178",
+        "8179",
+        "8180",
+        "8181",
+        "8182",
+        "8183",
+        "8184",
+        "8185",
+        "8186",
+        "8187",
+        "8188",
+        "8189",
+        "8190",
+        "8191",
+        "8192",
+        "8193",
+        "8194",
+        "8195"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8189",
+          "newTargetUses": "-1",
+          "newTargetID": "8190",
+          "decay": "10m"
+        },
+        {
+          "targetID": "8191",
+          "newTargetUses": "-1",
+          "newTargetID": "8189",
+          "decay": "5s"
+        },
+        {
+          "targetID": "8195",
+          "newTargetUses": "-1",
+          "newTargetID": "8191",
+          "decay": "5s"
+        },
+        {
+          "targetID": "8193",
+          "newTargetUses": "-1",
+          "newActorID": "72",
+          "newTargetID": "8188",
+          "hand": true
+        },
+        {
+          "targetID": "8194",
+          "newTargetUses": "-1",
+          "newActorID": "61",
+          "newTargetID": "8193",
+          "hand": true
+        },
+        {
+          "actorID": "248",
+          "targetID": "8193",
+          "newTargetUses": "-1",
+          "newActorID": "248",
+          "newTargetID": "8189",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4720",
+          "targetID": "8189",
+          "newTargetUses": "-1",
+          "newActorID": "5190",
+          "newTargetID": "8189",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4722",
+          "targetID": "8189",
+          "newTargetUses": "-1",
+          "newActorID": "5270",
+          "newTargetID": "8189",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "5294",
+          "targetID": "8194",
+          "newTargetUses": "-1",
+          "newActorID": "5294",
+          "newTargetID": "8195",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "61",
+          "targetID": "8193",
+          "newTargetUses": "-1",
+          "newTargetID": "8194",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "8189",
+          "newTargetUses": "-1",
+          "newActorID": "248",
+          "newTargetID": "8189",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "72",
+          "targetID": "8188",
+          "newTargetUses": "-1",
+          "newTargetID": "8193",
+          "hand": true
+        },
+        {
+          "actorID": "7419",
+          "targetID": "8193",
+          "newTargetUses": "-1",
+          "newTargetID": "8194",
+          "hand": true
+        },
+        {
+          "actorID": "8144",
+          "targetID": "8167",
+          "newTargetID": "8174",
+          "hand": true
+        },
+        {
+          "actorID": "8144",
+          "targetID": "8174",
+          "newTargetID": "8181",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7178",
+          "newTargetID": "8167",
+          "hand": true
+        },
+        {
+          "actorID": "96",
+          "targetID": "8193",
+          "newTargetUses": "-1",
+          "newTargetID": "8194",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8166",
+          "attributes": {
+            "name": {
+              "from": "Stone Fireplace with Garland and Stocking",
+              "to": "Stone Fireplace with Garland - stocking"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8188",
+          "name": "@ Empty Fireplace",
+          "category": true
+        },
+        {
+          "id": "8189",
+          "name": "@ Stone Fireplace",
+          "category": true
+        },
+        {
+          "id": "8190",
+          "name": "@ Stone Fireplace with Ashes",
+          "category": true
+        },
+        {
+          "id": "8191",
+          "name": "@ Stone Fireplace with Burning Tinder",
+          "category": true
+        },
+        {
+          "id": "8192",
+          "name": "@ Stone Fireplace with Hot Coals",
+          "category": true
+        },
+        {
+          "id": "8193",
+          "name": "@ Stone Fireplace with Kindling",
+          "category": true
+        },
+        {
+          "id": "8194",
+          "name": "@ Stone Fireplace with Kindling Tinder",
+          "category": true
+        },
+        {
+          "id": "8195",
+          "name": "@ Stone Fireplace with Smoldering Tinder",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "87ff417b44a34d387a1a2b502a5b4ec2924b15a4",
+      "message": "Fireplace with Garland",
+      "date": "2020-12-09T01:10:54.000Z",
+      "addedObjectIDs": [
+        "8166",
+        "8167",
+        "8168",
+        "8169",
+        "8170",
+        "8171",
+        "8172",
+        "8173"
+      ]
+    },
+    {
+      "sha": "ad2b68fdceb0fc35b7263639482dc7a04956f61e",
+      "message": "Christmas item transitions",
+      "date": "2020-12-08T01:59:11.000Z",
+      "addedObjectIDs": [
+        "8161"
+      ],
+      "removedObjectIDs": [
+        "8134"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8164",
+          "newActorID": "1615",
+          "newTargetID": "8125",
+          "hand": true
+        },
+        {
+          "actorID": "1615",
+          "targetID": "8125",
+          "newTargetID": "8130",
+          "hand": true
+        },
+        {
+          "actorID": "2531",
+          "targetID": "8165",
+          "newTargetUses": "-1",
+          "newActorID": "8161",
+          "newTargetID": "8165",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "2957",
+          "newTargetID": "8147",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "8162",
+          "newTargetID": "8125",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "6919",
+          "newTargetID": "8154",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7019",
+          "newTargetID": "8152",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7021",
+          "newTargetID": "8150",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7039",
+          "newTargetID": "8158",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7177",
+          "newTargetID": "8113",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7698",
+          "newTargetID": "8160",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7907",
+          "newTargetID": "8157",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7912",
+          "newTargetID": "8156",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "7913",
+          "newTargetID": "8155",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "8008",
+          "newTargetID": "8159",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "8147",
+          "newTargetID": "8148",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "887",
+          "newTargetID": "8153",
+          "hand": true
+        },
+        {
+          "actorID": "8161",
+          "targetID": "896",
+          "newTargetID": "8151",
+          "hand": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "8125",
+          "newActorID": "964",
+          "newTargetID": "8162",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "8130",
+          "newActorID": "964",
+          "newTargetID": "8164",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8129",
+          "newTargetID": "8134",
+          "decay": "2s"
+        },
+        {
+          "targetID": "8128",
+          "newTargetID": "8129",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "8126",
+          "newActorID": "8128",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "8125",
+          "newTargetID": "8126",
+          "hand": true
+        },
+        {
+          "actorID": "8128",
+          "newActorID": "1617",
+          "newTargetID": "8126",
+          "hand": true
+        },
+        {
+          "actorID": "8129",
+          "newActorID": "1617",
+          "newTargetID": "8130",
+          "hand": true
+        },
+        {
+          "actorID": "8134",
+          "newActorID": "1617",
+          "newTargetID": "8130",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        },
+        {
+          "id": "8126",
+          "name": "Present with Blank Note",
+          "category": false
+        },
+        {
+          "id": "8128",
+          "name": "Present with Blank Note - &writable",
+          "category": false
+        },
+        {
+          "id": "8129",
+          "name": "Present with Note -  writing &written",
+          "category": false
+        },
+        {
+          "id": "8134",
+          "name": "Present with Note -  written &written",
+          "category": false
+        },
+        {
+          "id": "8165",
+          "name": "@ Garland Tree",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "d0abacf018fda6a25ed191fb1863e6e796c8418f",
+      "message": "More Christmas stuff",
+      "date": "2020-12-07T21:02:05.000Z",
+      "addedObjectIDs": [
+        "8146",
+        "8147",
+        "8148",
+        "8149",
+        "8150",
+        "8151",
+        "8152",
+        "8153",
+        "8154",
+        "8155",
+        "8156",
+        "8157",
+        "8158",
+        "8159",
+        "8160"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "583",
+          "targetID": "8145",
+          "newActorID": "583",
+          "newTargetID": "8146",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "8136",
+          "targetID": "8148",
+          "newTargetID": "8149",
+          "hand": true
+        },
+        {
+          "actorID": "8146",
+          "targetID": "2898",
+          "newActorID": "8144",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "583",
+          "targetID": "8145",
+          "newActorID": "583",
+          "newTargetID": "8144",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8113",
+          "attributes": {
+            "name": {
+              "from": "Stone Fireplace with Wreath",
+              "to": "Stone Fireplace with Garland"
+            }
+          }
+        },
+        {
+          "id": "8124",
+          "attributes": {
+            "name": {
+              "from": "Stone Fireplace with Wreath and Stockings",
+              "to": "Stone Fireplace with Garland and Stockings"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "7978",
+          "name": "Perhaps a Sparrow",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "27922909388a39c4d23c0f222e56088855711d0e",
+      "message": "Christmas transitions",
+      "date": "2020-12-07T15:49:12.000Z",
+      "addedObjectIDs": [
+        "8135",
+        "8136",
+        "8137",
+        "8138",
+        "8139",
+        "8140",
+        "8141",
+        "8142",
+        "8143",
+        "8144",
+        "8145"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8141",
+          "newTargetID": "8143",
+          "decay": "30m"
+        },
+        {
+          "targetID": "8142",
+          "newTargetID": "8140",
+          "decay": "30m"
+        },
+        {
+          "targetID": "8137",
+          "newActorID": "692",
+          "newTargetID": "291",
+          "hand": true
+        },
+        {
+          "targetID": "8145",
+          "newActorID": "580",
+          "newTargetID": "8131",
+          "hand": true
+        },
+        {
+          "actorID": "336",
+          "targetID": "1217",
+          "newActorID": "292",
+          "newTargetID": "8138",
+          "hand": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "8139",
+          "newActorID": "394",
+          "newTargetID": "8142",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "8140",
+          "newActorID": "394",
+          "newTargetID": "8141",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "689",
+          "newActorID": "441",
+          "newTargetID": "8136",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "6995",
+          "newActorID": "441",
+          "newTargetID": "8137",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "8136",
+          "newActorID": "441",
+          "newTargetID": "689",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "578",
+          "targetID": "2922",
+          "newTargetID": "8132",
+          "hand": true
+        },
+        {
+          "actorID": "578",
+          "targetID": "740",
+          "newTargetID": "8131",
+          "hand": true
+        },
+        {
+          "actorID": "578",
+          "targetID": "8135",
+          "newTargetID": "8115",
+          "hand": true
+        },
+        {
+          "actorID": "580",
+          "targetID": "8131",
+          "newTargetID": "8145",
+          "hand": true
+        },
+        {
+          "actorID": "583",
+          "targetID": "8145",
+          "newActorID": "583",
+          "newTargetID": "8144",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "737",
+          "targetID": "2898",
+          "newActorID": "8135",
+          "newTargetID": "2898",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8099",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8138",
+          "newActorID": "568",
+          "newTargetID": "8139",
+          "hand": true
+        },
+        {
+          "actorID": "8107",
+          "targetID": "8138",
+          "newTargetID": "8139",
+          "hand": true
+        },
+        {
+          "actorID": "8136",
+          "targetID": "8115",
+          "newTargetID": "8114",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "689",
+          "newActorID": "441",
+          "newTargetID": "692",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8133",
+          "attributes": {
+            "name": {
+              "from": "Christmas Tree",
+              "to": "Decorated Christmas Tree"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "15e4e70e16a4d0e1f762c72f3e4574913f84a2ca",
+      "message": "Presents with notes",
+      "date": "2020-12-07T13:14:00.000Z",
+      "addedObjectIDs": [
+        "8134"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8129",
+          "newTargetID": "8134",
+          "decay": "2s"
+        },
+        {
+          "targetID": "8128",
+          "newTargetID": "8129",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "8126",
+          "newActorID": "8128",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "8125",
+          "newTargetID": "8126",
+          "hand": true
+        },
+        {
+          "actorID": "8128",
+          "newActorID": "1617",
+          "newTargetID": "8126",
+          "hand": true
+        },
+        {
+          "actorID": "8129",
+          "newActorID": "1617",
+          "newTargetID": "8130",
+          "hand": true
+        },
+        {
+          "actorID": "8134",
+          "newActorID": "1617",
+          "newTargetID": "8130",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8129",
+          "attributes": {
+            "name": {
+              "from": "Present with Blank Note -  writing &written",
+              "to": "Present with Note -  writing &written"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "8126",
+          "name": "Present with Blank Note",
+          "category": false
+        },
+        {
+          "id": "8128",
+          "name": "Present with Blank Note - &writable",
+          "category": false
+        },
+        {
+          "id": "8129",
+          "name": "Present with Note -  writing &written",
+          "category": false
+        },
+        {
+          "id": "8134",
+          "name": "Present with Note -  written &written",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "654aa33ca3f24c78ea5efb2ecbb10c6ab2f26b9d",
+      "message": "Initial Christmas Items",
+      "date": "2020-12-07T02:05:16.000Z",
+      "addedObjectIDs": [
+        "8113",
+        "8114",
+        "8115",
+        "8116",
+        "8118",
+        "8119",
+        "8120",
+        "8121",
+        "8122",
+        "8123",
+        "8124",
+        "8125",
+        "8126",
+        "8128",
+        "8129",
+        "8130",
+        "8131",
+        "8132",
+        "8133"
+      ],
+      "legacyObjects": [
+        {
+          "id": "8119",
+          "name": "Wooden Door with Wreath -  Installed",
+          "category": false
+        },
+        {
+          "id": "8126",
+          "name": "Present with Blank Note",
+          "category": false
+        },
+        {
+          "id": "8128",
+          "name": "Present with Blank Note - &writable",
+          "category": false
+        },
+        {
+          "id": "8129",
+          "name": "Present with Blank Note -  writing &written",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "17e52068018a4a9678f4a374d76f7f739b9ba6b0",
+      "message": "Glue pot no flip",
+      "date": "2020-12-06T23:39:48.000Z"
+    },
+    {
+      "sha": "e015b9d00d3644fda2d8b62509c3a362d8cfa6e8",
+      "message": "Missed door transition oops",
+      "date": "2020-12-06T23:02:55.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "69",
+          "targetID": "7947",
+          "newTargetID": "8042",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "7948",
+          "newTargetID": "8043",
+          "hand": true
+        }
+      ]
+    }
+  ]
+}

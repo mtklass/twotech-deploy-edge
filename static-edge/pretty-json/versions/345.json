@@ -1,0 +1,518 @@
+{
+  "id": "345",
+  "date": "2020-06-27T06:43:27.000Z",
+  "commits": [
+    {
+      "sha": "ee945792e4ce2d7f0b830076cd07cae39c21e80c",
+      "message": "Scene for update image.",
+      "date": "2020-06-27T05:46:43.000Z"
+    },
+    {
+      "sha": "6891b274463db0ebb307b2e3c679009bb319dc4b",
+      "message": "Last content glitches fixed.  Ready for release",
+      "date": "2020-06-27T05:23:25.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "2795",
+          "targetID": "4337",
+          "targetUses": "last",
+          "newActorID": "4338",
+          "newTargetID": "235",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4338",
+          "name": "Spoon of Dry Rub",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "9065de8b859999c04bec9cb763b0b63d1c81f343",
+      "message": "Spoon of dry rub and ground pepper not edible.  Thanks Tarr.",
+      "date": "2020-06-27T03:56:05.000Z"
+    },
+    {
+      "sha": "56ea947389a2988699fce34f8e1f1ae52c9cad95",
+      "message": "Spiced food content done.  Still need to test it fully.",
+      "date": "2020-06-27T02:57:21.000Z",
+      "addedObjectIDs": [
+        "4314",
+        "4315",
+        "4316",
+        "4317",
+        "4318",
+        "4320",
+        "4321",
+        "4322",
+        "4323",
+        "4324",
+        "4325",
+        "4326",
+        "4328",
+        "4329",
+        "4330",
+        "4331",
+        "4332",
+        "4333",
+        "4334",
+        "4335",
+        "4336",
+        "4337",
+        "4338",
+        "4339",
+        "4340",
+        "4341",
+        "4342",
+        "4343",
+        "4345",
+        "4346",
+        "4347"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "4317",
+          "newTargetID": "4316",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4335",
+          "newTargetID": "4336",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4330",
+          "newActorID": "4270",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "4331",
+          "newActorID": "2844",
+          "newTargetID": "4330",
+          "hand": true
+        },
+        {
+          "targetID": "4347",
+          "newActorID": "4258",
+          "newTargetID": "236",
+          "hand": true
+        },
+        {
+          "actorID": "1234",
+          "targetID": "4331",
+          "newActorID": "235",
+          "newTargetID": "4332",
+          "hand": true
+        },
+        {
+          "actorID": "2783",
+          "targetID": "4332",
+          "newActorID": "235",
+          "newTargetID": "4333",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "4314",
+          "newTargetUses": "-1",
+          "newActorID": "4315",
+          "newTargetID": "4314",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "4314",
+          "targetUses": "last",
+          "newActorID": "4315",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "4316",
+          "newActorID": "4315",
+          "newTargetID": "4314",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "4336",
+          "newActorID": "4338",
+          "newTargetID": "4337",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "4337",
+          "newTargetUses": "-1",
+          "newActorID": "4338",
+          "newTargetID": "4337",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2844",
+          "targetID": "4330",
+          "newTargetID": "4331",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "4284",
+          "newActorID": "33",
+          "newTargetID": "4317",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "4334",
+          "newActorID": "33",
+          "newTargetID": "4335",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4258",
+          "targetID": "236",
+          "newTargetID": "4347",
+          "hand": true
+        },
+        {
+          "actorID": "4270",
+          "targetID": "235",
+          "newTargetID": "4330",
+          "hand": true
+        },
+        {
+          "actorID": "4315",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newActorID": "2795",
+          "newTargetID": "4314",
+          "hand": true
+        },
+        {
+          "actorID": "4315",
+          "targetID": "2820",
+          "newActorID": "2795",
+          "newTargetID": "4326",
+          "hand": true
+        },
+        {
+          "actorID": "4315",
+          "targetID": "4314",
+          "newTargetUses": "+1",
+          "newActorID": "2795",
+          "newTargetID": "4314",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4315",
+          "targetID": "4314",
+          "targetUses": "max",
+          "newActorID": "2795",
+          "newTargetID": "4316",
+          "hand": true
+        },
+        {
+          "actorID": "4315",
+          "targetID": "4333",
+          "newActorID": "2795",
+          "newTargetID": "4334",
+          "hand": true
+        },
+        {
+          "actorID": "4324",
+          "targetID": "519",
+          "newTargetUses": "-1",
+          "newActorID": "2821",
+          "newTargetID": "519",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4324",
+          "targetID": "85",
+          "newActorID": "4325",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4325",
+          "newActorUses": "-1",
+          "newActorID": "4325",
+          "targetPlayer": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4325",
+          "actorUses": "last",
+          "newActorID": "852",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "4326",
+          "targetID": "519",
+          "newTargetUses": "-1",
+          "newActorID": "2821",
+          "newTargetID": "519",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4326",
+          "targetID": "85",
+          "newActorID": "4328",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4328",
+          "newActorUses": "-1",
+          "newActorID": "4328",
+          "targetPlayer": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4328",
+          "actorUses": "last",
+          "newActorID": "852",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "4329",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "4345",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4338",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newActorID": "2795",
+          "newTargetID": "4337",
+          "hand": true
+        },
+        {
+          "actorID": "4338",
+          "targetID": "4337",
+          "newTargetUses": "+1",
+          "newActorID": "2795",
+          "newTargetID": "4337",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4338",
+          "targetID": "4337",
+          "targetUses": "max",
+          "newActorID": "2795",
+          "newTargetID": "4336",
+          "hand": true
+        },
+        {
+          "actorID": "4338",
+          "targetID": "569",
+          "newActorID": "2795",
+          "newTargetID": "4329",
+          "hand": true
+        },
+        {
+          "actorID": "4346",
+          "targetID": "2820",
+          "newActorID": "236",
+          "newTargetID": "4324",
+          "hand": true
+        },
+        {
+          "actorID": "560",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "4347",
+          "newActorID": "560",
+          "newTargetID": "4346",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "519",
+          "name": "@ Food Burner",
+          "category": true
+        },
+        {
+          "id": "4258",
+          "name": "Garlic Clove",
+          "category": false
+        },
+        {
+          "id": "4270",
+          "name": "Bay Leaf",
+          "category": false
+        },
+        {
+          "id": "4284",
+          "name": "Bowl of Loose Peppercorns",
+          "category": false
+        },
+        {
+          "id": "4314",
+          "name": "Bowl of Ground Pepper",
+          "category": false
+        },
+        {
+          "id": "4315",
+          "name": "Spoon of Ground Pepper",
+          "category": false
+        },
+        {
+          "id": "4324",
+          "name": "Raw Garlic Shrimp",
+          "category": false
+        },
+        {
+          "id": "4325",
+          "name": "Cooked Garlic Shrimp",
+          "category": false
+        },
+        {
+          "id": "4326",
+          "name": "Raw Peppered Shrimp",
+          "category": false
+        },
+        {
+          "id": "4328",
+          "name": "Cooked Peppered Shrimp",
+          "category": false
+        },
+        {
+          "id": "4329",
+          "name": "Raw Mutton with Dry Rub",
+          "category": false
+        },
+        {
+          "id": "4330",
+          "name": "Bowl with Bay Leaf",
+          "category": false
+        },
+        {
+          "id": "4331",
+          "name": "Dry Rub Bowl with Hot Pepper",
+          "category": false
+        },
+        {
+          "id": "4332",
+          "name": "Dry Rub Bowl with Salt",
+          "category": false
+        },
+        {
+          "id": "4333",
+          "name": "Dry Rub Bowl with Sugar",
+          "category": false
+        },
+        {
+          "id": "4334",
+          "name": "Dry Rub Bowl with Ground Pepper",
+          "category": false
+        },
+        {
+          "id": "4335",
+          "name": "Full Bowl of Dry Rub -  just ground",
+          "category": false
+        },
+        {
+          "id": "4338",
+          "name": "Spoon of Dry Rub",
+          "category": false
+        },
+        {
+          "id": "4345",
+          "name": "Cooked Mutton with Rub",
+          "category": false
+        },
+        {
+          "id": "4346",
+          "name": "Chopped Garlic on Plate -  +contFoodDish",
+          "category": false
+        },
+        {
+          "id": "4347",
+          "name": "Garlic Clove on Plate -  +contFoodDish",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "79c330a6cfe91ee0d0e8c56d5d7521a673bd1426",
+      "message": "Tables allow contained items to have actions done on them (+useOnContained tag).  Satisfied mouth for satisfied emote.",
+      "date": "2020-06-26T23:45:49.000Z",
+      "addedObjectIDs": [
+        "4313"
+      ],
+      "objectChanges": [
+        {
+          "id": "3371",
+          "attributes": {
+            "name": {
+              "from": "Table -  +contFoodDish",
+              "to": "Table -  +contFoodDish +useOnContained"
+            }
+          }
+        },
+        {
+          "id": "3894",
+          "attributes": {
+            "name": {
+              "from": "Lab Table -  +contLabDish",
+              "to": "Lab Table -  +contLabDish +useOnContained"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "4313",
+          "name": "Satisfied Mouth",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "fe66ac92331d69d8f28275d998c99d3e9f84acfc",
+      "message": "Snipped cucumber has same YUM as unsnipped.  Thanks Twisted.",
+      "date": "2020-06-20T01:34:40.000Z",
+      "objectChanges": [
+        {
+          "id": "4292",
+          "attributes": {
+            "name": {
+              "from": "Snipped Pickling Cucumber",
+              "to": "Snipped Pickling Cucumber -  +yum4233"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "c7e315780db13ca0299c1eb3f3357fa9f00133e1",
+      "message": "Scene for update.",
+      "date": "2020-06-20T01:33:16.000Z"
+    }
+  ]
+}

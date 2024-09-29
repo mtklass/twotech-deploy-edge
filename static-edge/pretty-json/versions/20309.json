@@ -1,0 +1,938 @@
+{
+  "id": "20309",
+  "date": "2023-12-22T11:28:11.000Z",
+  "commits": [
+    {
+      "sha": "2e11914f75c2aaef655f418615a6e317b26534fe",
+      "message": "Can empty pot of water",
+      "date": "2023-12-20T12:13:19.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "14104",
+          "targetID": "209",
+          "newActorID": "4841",
+          "newTargetID": "210",
+          "hand": true
+        },
+        {
+          "actorID": "14104",
+          "targetID": "235",
+          "newActorID": "4841",
+          "newTargetID": "382",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "10b31cc6b547f0208775b1a28b662ce8a54386e0",
+      "message": "Can stack mugs and crocks off tongs after firing",
+      "date": "2023-12-20T12:12:05.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "1219",
+          "targetID": "1217",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "6859",
+          "hand": true
+        },
+        {
+          "actorID": "1219",
+          "targetID": "6859",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "6859",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13468",
+          "targetID": "13465",
+          "newActorID": "239",
+          "newTargetID": "13639",
+          "hand": true
+        },
+        {
+          "actorID": "13468",
+          "targetID": "13639",
+          "newActorID": "239",
+          "newTargetID": "13638",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "b58c9d82dbd38c11ba0ae95c52cfcd1ff61f8682",
+      "message": "Bundle of flax and scutched flax is containable",
+      "date": "2023-12-20T12:08:27.000Z"
+    },
+    {
+      "sha": "456a05f90aafe804aae876ca956e0ac51a40c470",
+      "message": "Shears with wreaths should not be containable",
+      "date": "2023-12-20T12:04:51.000Z"
+    },
+    {
+      "sha": "d0309310c72954d8bcbe6b8604476b6c575f16d8",
+      "message": "Minor adjustments for linen clothes",
+      "date": "2023-12-16T19:11:46.000Z",
+      "removedObjectIDs": [
+        "14531"
+      ],
+      "objectChanges": [
+        {
+          "id": "14530",
+          "attributes": {
+            "name": {
+              "from": "Linen Dress",
+              "to": "Linen Skirt"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "14531",
+          "name": "Linen Scarf Test 1",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "6d5be8219a4697842ca3140bbe3ceced34be1481",
+      "message": "These stay in a museum",
+      "date": "2023-12-16T18:45:50.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "4706",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4710",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4734",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4742",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4743",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4744",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4746",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4747",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4748",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4749",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4750",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4821",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4854",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4855",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4856",
+          "decay": "3s"
+        },
+        {
+          "targetID": "4857",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5198",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5200",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5265",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5280",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5281",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5283",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5291",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5292",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5311",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5341",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5342",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5343",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5344",
+          "decay": "3s"
+        },
+        {
+          "targetID": "5345",
+          "decay": "3s"
+        },
+        {
+          "targetID": "6367",
+          "decay": "3s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "4746",
+          "newTargetID": "4710",
+          "decay": "2s",
+          "move": 1
+        },
+        {
+          "targetID": "4747",
+          "newTargetID": "4747",
+          "targetRemains": true,
+          "decay": "2s",
+          "move": 1
+        },
+        {
+          "targetID": "4748",
+          "newTargetID": "4748",
+          "targetRemains": true,
+          "decay": "2s",
+          "move": 1
+        },
+        {
+          "targetID": "4749",
+          "newTargetID": "4749",
+          "targetRemains": true,
+          "decay": "2s",
+          "move": 1
+        },
+        {
+          "targetID": "4750",
+          "newTargetID": "4750",
+          "targetRemains": true,
+          "decay": "2s",
+          "move": 1
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "5198",
+          "name": "Mammoth Hide Gambeson",
+          "category": true
+        },
+        {
+          "id": "5280",
+          "name": "Mammoth Hide Skirt",
+          "category": true
+        },
+        {
+          "id": "5281",
+          "name": "Mammoth Hide Helm",
+          "category": true
+        },
+        {
+          "id": "5341",
+          "name": "Mammoth Hide Gambeson  - cloak",
+          "category": true
+        },
+        {
+          "id": "5342",
+          "name": "Mammoth Hide Gambeson  - cloak blue",
+          "category": true
+        },
+        {
+          "id": "5343",
+          "name": "Mammoth Hide Gambeson  - cloak red",
+          "category": true
+        },
+        {
+          "id": "5344",
+          "name": "Mammoth Hide Gambeson  - cloak blue gold",
+          "category": true
+        },
+        {
+          "id": "5345",
+          "name": "Mammoth Hide Gambeson  - cloak red gold",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "cb912a34672e8337323c677ff8fe516a16a2a24a",
+      "message": "Can only scrap metal parts in scrap bowl",
+      "date": "2023-12-16T18:25:14.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "1000",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "1002",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "1003",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "696",
+          "actorUses": "max",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "904",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "908",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "911",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "912",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        },
+        {
+          "actorID": "917",
+          "targetID": "235",
+          "newTargetID": "495",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "696",
+          "name": "@ New Scrap Steel",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "2979ab32402be9a376c336da9378c8b42e99fcac",
+      "message": "Vertical White Fence gate can be painted red or black",
+      "date": "2023-12-16T18:13:16.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7784",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "11809",
+          "newActorID": "7779",
+          "newTargetID": "11801",
+          "hand": true
+        },
+        {
+          "actorID": "7786",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "11809",
+          "newActorID": "7779",
+          "newTargetID": "11802",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "f9e12b5503629145adbce8e533e2ff2179971824",
+      "message": "Marked bridle as outdated",
+      "date": "2023-12-16T18:08:57.000Z",
+      "objectChanges": [
+        {
+          "id": "4448",
+          "attributes": {
+            "name": {
+              "from": "Bridle",
+              "to": "(outdated) Bridle"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "b1bf9a36ba6c2450ff3d52e1db2ed45a30fd6fd1",
+      "message": "Springy Door with Wreath",
+      "date": "2023-12-16T16:46:17.000Z",
+      "addedObjectIDs": [
+        "14535",
+        "14536",
+        "14537",
+        "14538",
+        "14539",
+        "14540",
+        "14541",
+        "14542",
+        "14543",
+        "14544",
+        "14545",
+        "14546",
+        "14547",
+        "14548",
+        "14549",
+        "14550",
+        "14551",
+        "14552",
+        "14553",
+        "14554",
+        "14555",
+        "14556",
+        "14557",
+        "14558"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14547",
+          "newTargetID": "14535",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14548",
+          "newTargetID": "14536",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14549",
+          "newTargetID": "14537",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14550",
+          "newTargetID": "14538",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14551",
+          "newTargetID": "14539",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14552",
+          "newTargetID": "14540",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14553",
+          "newTargetID": "14541",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14554",
+          "newTargetID": "14542",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14555",
+          "newTargetID": "14543",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14556",
+          "newTargetID": "14544",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14557",
+          "newTargetID": "14545",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14558",
+          "newTargetID": "14546",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14535",
+          "newTargetID": "14547",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14536",
+          "newTargetID": "14548",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14537",
+          "newTargetID": "14549",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14538",
+          "newTargetID": "14550",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14539",
+          "newTargetID": "14551",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14540",
+          "newTargetID": "14552",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14541",
+          "newTargetID": "14553",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14542",
+          "newTargetID": "14554",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14543",
+          "newTargetID": "14555",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14544",
+          "newTargetID": "14556",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14545",
+          "newTargetID": "14557",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "14546",
+          "newTargetID": "14558",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14535",
+          "newActorID": "8231",
+          "newTargetID": "2757",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14536",
+          "newActorID": "8229",
+          "newTargetID": "2757",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14537",
+          "newActorID": "8230",
+          "newTargetID": "2757",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14538",
+          "newActorID": "8232",
+          "newTargetID": "2757",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14539",
+          "newActorID": "8231",
+          "newTargetID": "8398",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14540",
+          "newActorID": "8229",
+          "newTargetID": "8398",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14541",
+          "newActorID": "8230",
+          "newTargetID": "8398",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14542",
+          "newActorID": "8232",
+          "newTargetID": "8398",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14543",
+          "newActorID": "8231",
+          "newTargetID": "8395",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14544",
+          "newActorID": "8229",
+          "newTargetID": "8395",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14545",
+          "newActorID": "8230",
+          "newTargetID": "8395",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "14546",
+          "newActorID": "8232",
+          "newTargetID": "8395",
+          "hand": true
+        },
+        {
+          "actorID": "8148",
+          "targetID": "2757",
+          "newTargetID": "14537",
+          "hand": true
+        },
+        {
+          "actorID": "8148",
+          "targetID": "8395",
+          "newTargetID": "14545",
+          "hand": true
+        },
+        {
+          "actorID": "8148",
+          "targetID": "8398",
+          "newTargetID": "14541",
+          "hand": true
+        },
+        {
+          "actorID": "8149",
+          "targetID": "2757",
+          "newTargetID": "14538",
+          "hand": true
+        },
+        {
+          "actorID": "8149",
+          "targetID": "8395",
+          "newTargetID": "14546",
+          "hand": true
+        },
+        {
+          "actorID": "8149",
+          "targetID": "8398",
+          "newTargetID": "14542",
+          "hand": true
+        },
+        {
+          "actorID": "8221",
+          "targetID": "2757",
+          "newTargetID": "14536",
+          "hand": true
+        },
+        {
+          "actorID": "8221",
+          "targetID": "8395",
+          "newTargetID": "14544",
+          "hand": true
+        },
+        {
+          "actorID": "8221",
+          "targetID": "8398",
+          "newTargetID": "14540",
+          "hand": true
+        },
+        {
+          "actorID": "8222",
+          "targetID": "2757",
+          "newTargetID": "14535",
+          "hand": true
+        },
+        {
+          "actorID": "8222",
+          "targetID": "8395",
+          "newTargetID": "14543",
+          "hand": true
+        },
+        {
+          "actorID": "8222",
+          "targetID": "8398",
+          "newTargetID": "14539",
+          "hand": true
+        },
+        {
+          "actorID": "8229",
+          "actorUses": "last",
+          "newActorID": "862",
+          "newTargetID": "8221",
+          "hand": true
+        },
+        {
+          "actorID": "8230",
+          "actorUses": "last",
+          "newActorID": "862",
+          "newTargetID": "8148",
+          "hand": true
+        },
+        {
+          "actorID": "8231",
+          "actorUses": "last",
+          "newActorID": "862",
+          "newTargetID": "8222",
+          "hand": true
+        },
+        {
+          "actorID": "8232",
+          "actorUses": "last",
+          "newActorID": "862",
+          "newTargetID": "8149",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "8118",
+          "attributes": {
+            "name": {
+              "from": "Wooden Door with Wreath -  Installed",
+              "to": "Wooden Door with Bell Wreath -  Installed"
+            }
+          }
+        },
+        {
+          "id": "8120",
+          "attributes": {
+            "name": {
+              "from": "Light Wooden Door with Wreath -  Installed",
+              "to": "Light Wooden Door with Bell Wreath -  Installed"
+            }
+          }
+        },
+        {
+          "id": "8121",
+          "attributes": {
+            "name": {
+              "from": "Dark Wooden Door with Wreath -  Installed",
+              "to": "Dark Wooden Door with Bell Wreath -  Installed"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "dd315a59136010ec13302d33a016f4be29ee5ee0",
+      "message": "Linen Clothes",
+      "date": "2023-11-25T15:15:48.000Z",
+      "addedObjectIDs": [
+        "14528",
+        "14529",
+        "14530",
+        "14531",
+        "14534"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "14483",
+          "newActorID": "1127",
+          "newTargetID": "14534",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "14486",
+          "newActorID": "1127",
+          "newTargetID": "14530",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "14487",
+          "newActorID": "1127",
+          "newTargetID": "14529",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1127",
+          "newActorUses": "-1",
+          "targetID": "14488",
+          "newActorID": "1127",
+          "newTargetID": "14528",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14534",
+          "targetID": "2896",
+          "newActorID": "13419",
+          "newTargetID": "2896",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14534",
+          "targetID": "733",
+          "newActorID": "13418",
+          "newTargetID": "733",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14534",
+          "targetID": "734",
+          "newActorID": "13417",
+          "newTargetID": "734",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "13417",
+          "attributes": {
+            "name": {
+              "from": "Scarf",
+              "to": "Red Scarf"
+            }
+          }
+        },
+        {
+          "id": "13418",
+          "attributes": {
+            "name": {
+              "from": "Scarf",
+              "to": "Blue Scarf"
+            }
+          }
+        },
+        {
+          "id": "13419",
+          "attributes": {
+            "name": {
+              "from": "Scarf",
+              "to": "Black Scarf"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1127",
+          "name": "@ Hand Sew",
+          "category": true
+        },
+        {
+          "id": "14531",
+          "name": "Linen Scarf Test 1",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "9acdc73f31b2cc8dff8f84a1bb9cd8c531931abc",
+      "message": "Hoop with cloth is containable",
+      "date": "2023-11-25T13:50:26.000Z"
+    },
+    {
+      "sha": "60b368df9d9083ac6f6ac8bb834e49844f1ccd9f",
+      "message": "The slots of these tables should be table-like",
+      "date": "2023-11-25T13:40:51.000Z"
+    },
+    {
+      "sha": "65ab0dc198657bd8556d9671a258fdfedc016222",
+      "message": "These flax objects should be containable",
+      "date": "2023-11-25T13:26:05.000Z"
+    },
+    {
+      "sha": "0e035d5340af9f8eded4b3fc47eff034f23a937d",
+      "message": "Leather sheets with lasso should be permanent",
+      "date": "2023-11-25T13:19:07.000Z"
+    },
+    {
+      "sha": "4123cdbd3e9cfc25c73c87c707826530637645b8",
+      "message": "Missed this change when renumbering objects to make place for bottles",
+      "date": "2023-11-25T13:16:13.000Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "264",
+  "date": "2019-09-18T01:20:24.000Z",
+  "commits": [
+    {
+      "sha": "2e7d5f5fb644a2fb94651b293bbe237af7abdd6d",
+      "message": "Added slots to baby grave so that when clothed baby uses /die on the ground, their clothes aren't lost.  Related to jasonrohrer/OneLife#366",
+      "date": "2019-09-18T01:14:06.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "3053",
+          "decay": "2m"
+        },
+        {
+          "actorID": "292",
+          "targetID": "3053",
+          "newActorID": "3052",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3053",
+          "newTargetID": "3051",
+          "decay": "1s"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "id": "317",
+  "date": "2020-03-12T23:26:31.000Z",
+  "commits": [
+    {
+      "sha": "d3c31724f81ed388decb90379ea3b36119e0c8f3",
+      "message": "Scene for update image.",
+      "date": "2020-03-12T22:49:42.000Z"
+    },
+    {
+      "sha": "1a5222595d5c829457077a29123320af56619a7f",
+      "message": "Hot peppers now edible and trigger *spicyFood emote.  Fixes #668",
+      "date": "2020-03-12T21:18:39.000Z",
+      "objectChanges": [
+        {
+          "id": "2844",
+          "attributes": {
+            "name": {
+              "from": "Hot Pepper",
+              "to": "Hot Pepper -  +emotEat_29_10"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "04bd22974c4f9ac7ccfb16086639ce4327568d1d",
+      "message": "Sand pile now on par with fertile soil pile (holds 3 sand bowls).  Fixes #580",
+      "date": "2020-03-12T20:56:41.000Z",
+      "addedObjectIDs": [
+        "3895"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "235",
+          "targetID": "3895",
+          "targetUses": "max",
+          "newActorID": "2570",
+          "newTargetID": "3895",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3895",
+          "targetUses": "max",
+          "newActorID": "2570",
+          "newTargetID": "2571",
+          "hand": true
+        },
+        {
+          "actorID": "2570",
+          "targetID": "2571",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3895",
+          "hand": true
+        },
+        {
+          "actorID": "2570",
+          "targetID": "3895",
+          "targetUses": "max",
+          "newActorID": "235",
+          "newTargetID": "3895",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3895",
+          "name": "Sand Pile",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "e8d579d0f7df3bd9e57188eedff03293c8bbcc99",
+      "message": "Can take apart black table.  Fixes #667",
+      "date": "2020-03-12T20:43:45.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "461",
+          "newActorUses": "-1",
+          "newActorWeight": 0.2,
+          "targetID": "3894",
+          "newActorID": "461",
+          "newTargetID": "3372",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3372",
+          "name": "Boards with Shafts",
+          "category": false
+        },
+        {
+          "id": "3894",
+          "name": "Lab Table -  +contLabDish",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "6245dac6936ce8a4ff1590f3d9c4b84339304e35",
+      "message": "Grapes containable.  Fixes #663",
+      "date": "2020-03-12T19:28:45.000Z"
+    },
+    {
+      "sha": "208693c3377ad3778e4d080dee013729f6c85e6e",
+      "message": "Separate lab table, and distinct category of bowls of stuff that can be stored there (non-food chemicals).  Fixes #664",
+      "date": "2020-03-12T19:00:42.000Z",
+      "addedObjectIDs": [
+        "3894"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "3022",
+          "targetID": "3371",
+          "newActorID": "659",
+          "newTargetID": "3894",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "1180",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Soaking Beans",
+              "to": "Bowl of Soaking Beans -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "1181",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Soaked Beans",
+              "to": "Bowl of Soaked Beans -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "1226",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Salt Water",
+              "to": "Bowl of Salt Water -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "1297",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Slaked Lime",
+              "to": "Bowl of Slaked Lime -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "1298",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Corn in Lime Water",
+              "to": "Bowl of Corn in Lime Water -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "1373",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Antivenom Blood",
+              "to": "Bowl of Antivenom Blood -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "1463",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Whole Milk",
+              "to": "Bowl of Whole Milk -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "1481",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Skim Milk",
+              "to": "Bowl of Skim Milk -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "1611",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Wood Shavings in Water",
+              "to": "Bowl of Wood Shavings in Water -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "1898",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Mango-Infused Cow Urine",
+              "to": "Bowl of Mango-Infused Cow Urine -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2149",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Separating Palm Oil",
+              "to": "Bowl of Separating Palm Oil -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2150",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Soaking Palm Kernels",
+              "to": "Bowl of Soaking Palm Kernels -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2151",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Palm Oil",
+              "to": "Bowl of Palm Oil -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2441",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Palm Olein",
+              "to": "Bowl of Palm Olein -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2541",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Niter Solution",
+              "to": "Bowl of Niter Solution -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2542",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Dissolved Niter with Ashes",
+              "to": "Bowl of Dissolved Niter with Ashes -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2544",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Saltpeter Solution",
+              "to": "Bowl of Saltpeter Solution -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2552",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Sulfuric Acid",
+              "to": "Bowl of Sulfuric Acid -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2553",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Copper Sulfate",
+              "to": "Bowl of Copper Sulfate -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2563",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Soaking Glasswort Ashes",
+              "to": "Bowl of Soaking Glasswort Ashes -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2564",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Glasswort Ashes with Filter Paper",
+              "to": "Bowl of Glasswort Ashes with Filter Paper -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2565",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Soda Ash Solution",
+              "to": "Bowl of Soda Ash Solution -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2705",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Kerosene",
+              "to": "Bowl of Kerosene -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2775",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Soaking Sugarcane Pulp",
+              "to": "Bowl of Soaking Sugarcane Pulp -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2786",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Sugared Cream",
+              "to": "Bowl of Sugared Cream -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2799",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Vinegar",
+              "to": "Bowl of Vinegar -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2825",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Tomato Seed Pulp",
+              "to": "Bowl of Tomato Seed Pulp -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2826",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Fermented Tomato Seed Pulp",
+              "to": "Bowl of Fermented Tomato Seed Pulp -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2827",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Soaking Tomato Seed Pulp",
+              "to": "Bowl of Soaking Tomato Seed Pulp -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2876",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Sweetened Vinegar",
+              "to": "Bowl of Sweetened Vinegar -  +contFoodDish"
+            }
+          }
+        },
+        {
+          "id": "2894",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Rust in Salt Water",
+              "to": "Bowl of Rust in Salt Water -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "2895",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Black Dye",
+              "to": "Bowl of Black Dye -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "3011",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Copper Sulfate with Alum",
+              "to": "Bowl of Copper Sulfate with Alum -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "3013",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Nitric Acid",
+              "to": "Bowl of Nitric Acid -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "3014",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Silver Nitrate Solution",
+              "to": "Bowl of Silver Nitrate Solution -  +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "3692",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Nitric Acid -  jsutMade",
+              "to": "Bowl of Nitric Acid -  jsutMade +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "3726",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Niter Solution -  just made",
+              "to": "Bowl of Niter Solution -  just made +contLabDish"
+            }
+          }
+        },
+        {
+          "id": "382",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Water",
+              "to": "Bowl of Water -  +contFoodDish"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3894",
+          "name": "Lab Table -  +contLabDish",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "f6059db8df85650f8c8ea4a3a2485e58373d5482",
+      "message": "Held baby bones missing origGrave tag.  Part of jasonrohrer/OneLife#559",
+      "date": "2020-03-12T18:25:33.000Z",
+      "objectChanges": [
+        {
+          "id": "1920",
+          "attributes": {
+            "name": {
+              "from": "Baby Bones -  fromDeath",
+              "to": "Baby Bones -  fromDeath origGrave"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "3bf452880b75c4e5b532e5979e379383f54d79bb",
+      "message": "Clay nozzles and dice no longer infinite.  2 per ball of clay.  Can combine wet ones back together to get a full ball of clay.  Can smash wet plate to get back to ball of clay.  Fixes #588",
+      "date": "2020-03-12T01:14:57.000Z",
+      "addedObjectIDs": [
+        "3891",
+        "3892"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3892",
+          "newTargetID": "285",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2110",
+          "newActorID": "285",
+          "newTargetID": "3891",
+          "hand": true
+        },
+        {
+          "actorID": "2109",
+          "targetID": "2109",
+          "newTargetID": "126",
+          "hand": true
+        },
+        {
+          "actorID": "2109",
+          "targetID": "285",
+          "newTargetID": "126",
+          "hand": true
+        },
+        {
+          "actorID": "285",
+          "targetID": "2109",
+          "newTargetID": "126",
+          "hand": true
+        },
+        {
+          "actorID": "285",
+          "targetID": "285",
+          "newTargetID": "126",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "234",
+          "newActorID": "33",
+          "newTargetID": "126",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3891",
+          "targetID": "3891",
+          "newTargetID": "126",
+          "hand": true
+        },
+        {
+          "actorID": "853",
+          "newActorUses": "-1",
+          "targetID": "3891",
+          "newActorID": "852",
+          "newTargetID": "3892",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "2110",
+          "newActorID": "285",
+          "newTargetID": "126",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "853",
+          "name": "@ Non-tilling Stick",
+          "category": true
+        },
+        {
+          "id": "3891",
+          "name": "Small Lump of Clay",
+          "category": false
+        },
+        {
+          "id": "3892",
+          "name": "Wet Clay Nozzle -  just made",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "eaee35434959b3869d181817e21a08080f39a6aa",
+      "message": "Copper ingots stack.  Fixes #589",
+      "date": "2020-03-11T22:39:01.000Z",
+      "addedObjectIDs": [
+        "3890"
+      ],
+      "legacyObjects": [
+        {
+          "id": "3890",
+          "name": "Stack of Copper Ingots",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "f2f14e206e6b364f46c5fec202684460823dd13c",
+      "message": "Smithing hot tool heads now cycles back to axe head after you reach the end (hot pick head).  Fixes #598",
+      "date": "2020-03-11T22:32:30.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "682",
+          "newActorID": "441",
+          "newTargetID": "331",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "949d012f12e5003c2bc3b2f35e8d2df39aab8be2",
+      "message": "Sliced bread loaf can go on table.",
+      "date": "2020-03-11T22:17:40.000Z",
+      "objectChanges": [
+        {
+          "id": "1471",
+          "attributes": {
+            "name": {
+              "from": "Sliced Bread",
+              "to": "Sliced Bread -  +contFoodDish"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "1d6597c8f5dfd5847adefd760e037bb551a5bd52",
+      "message": "Bananas grow on plants, not trees.  Fixes #661",
+      "date": "2020-03-11T21:55:45.000Z",
+      "objectChanges": [
+        {
+          "id": "2142",
+          "attributes": {
+            "name": {
+              "from": "Banana Tree",
+              "to": "Banana Plant"
+            }
+          }
+        },
+        {
+          "id": "2145",
+          "attributes": {
+            "name": {
+              "from": "Empty Banana Tree",
+              "to": "Empty Banana Plant"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "97067c221e06b823b43cce62908ba3e2444cd9a1",
+      "message": "Expert waystones are in place.",
+      "date": "2020-03-11T21:16:21.000Z",
+      "addedObjectIDs": [
+        "3886",
+        "3887",
+        "3888"
+      ],
+      "legacyObjects": [
+        {
+          "id": "3886",
+          "name": "Desert Expert Way Stone -  +biomeSet3 gridPlacement40 +expertFind",
+          "category": false
+        },
+        {
+          "id": "3887",
+          "name": "Jungle Expert Way Stone -  +biomeSet3 gridPlacement40 +expertFind",
+          "category": false
+        },
+        {
+          "id": "3888",
+          "name": "Arctic Expert Way Stone -  +biomeSet3 gridPlacement40,40,p3,p0 +expertFind",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "20f74143a4ac62fdc9c1b27715cd479c35b63fc9",
+      "message": "New homesick mouth + sound.",
+      "date": "2020-03-10T21:20:30.000Z",
+      "addedObjectIDs": [
+        "3885"
+      ],
+      "legacyObjects": [
+        {
+          "id": "3885",
+          "name": "Homesick Mouth",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "82a7c40bdea9ce3dfc712a501452bed1c039301e",
+      "message": "+famUse100 tags for various wells.",
+      "date": "2020-03-10T19:23:20.000Z",
+      "objectChanges": [
+        {
+          "id": "1097",
+          "attributes": {
+            "name": {
+              "from": "Full Deep Well",
+              "to": "Full Deep Well -  +famUse100"
+            }
+          }
+        },
+        {
+          "id": "1098",
+          "attributes": {
+            "name": {
+              "from": "Full Shallow Well",
+              "to": "Full Shallow Well -  +famUse100"
+            }
+          }
+        },
+        {
+          "id": "1861",
+          "attributes": {
+            "name": {
+              "from": "Deep Well -  was empty",
+              "to": "Deep Well -  was empty +famUse100"
+            }
+          }
+        },
+        {
+          "id": "1862",
+          "attributes": {
+            "name": {
+              "from": "Shallow Well -  was empty",
+              "to": "Shallow Well -  was empty +famUse100"
+            }
+          }
+        },
+        {
+          "id": "2224",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Pump",
+              "to": "Firing Newcomen Pump -  +famUse100"
+            }
+          }
+        },
+        {
+          "id": "2344",
+          "attributes": {
+            "name": {
+              "from": "Firing Kerosene Newcomen Pump",
+              "to": "Firing Kerosene Newcomen Pump -  +famUse100"
+            }
+          }
+        },
+        {
+          "id": "2389",
+          "attributes": {
+            "name": {
+              "from": "Running Water Pump",
+              "to": "Running Water Pump -  +famUse100"
+            }
+          }
+        },
+        {
+          "id": "3258",
+          "attributes": {
+            "name": {
+              "from": "Deydration Head",
+              "to": "Dehydration Head"
+            }
+          }
+        },
+        {
+          "id": "662",
+          "attributes": {
+            "name": {
+              "from": "Shallow Well -  +tapoutTrigger,40,40,160,160",
+              "to": "Shallow Well -  +famUse100 +tapoutTrigger,40,40,160,160"
+            }
+          }
+        },
+        {
+          "id": "663",
+          "attributes": {
+            "name": {
+              "from": "Deep Well",
+              "to": "Deep Well -  +famUse100"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "4f014d78e8a318744d513ab73114e37191545cd0",
+      "message": "Late stage towns are absolutely overflowing with water and food from just a tiny bit of oil.  Diesl water pump now gives 4 buckets of water (was 7) per pumping.  Expected water produced via oil from one oil well is now 2640 (was 4620).",
+      "date": "2020-03-07T02:18:29.000Z"
+    }
+  ]
+}

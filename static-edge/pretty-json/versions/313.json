@@ -1,0 +1,1025 @@
+{
+  "id": "313",
+  "date": "2020-02-29T02:17:49.000Z",
+  "commits": [
+    {
+      "sha": "8bfde00c50c717b338193db65e4cc585a758b978",
+      "message": "CCan paint walls black.  Fixes #628",
+      "date": "2020-02-28T23:40:13.000Z",
+      "addedObjectIDs": [
+        "3851",
+        "3852",
+        "3853",
+        "3854",
+        "3855",
+        "3856",
+        "3857",
+        "3858",
+        "3859",
+        "3860"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3854",
+          "newTargetID": "3851",
+          "decay": "1s"
+        },
+        {
+          "actorID": "471",
+          "targetID": "3851",
+          "newActorID": "67",
+          "newTargetID": "3856",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3851",
+          "name": "Black Plaster Wall -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3852",
+          "name": "Black Plaster Wall -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3853",
+          "name": "Black Plaster Wall -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3854",
+          "name": "Black Plaster Wall -  +causeAutoOrient shelfRemoved",
+          "category": false
+        },
+        {
+          "id": "3855",
+          "name": "Black Wall Shelf with Slot Notches -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3856",
+          "name": "Black Wall Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3857",
+          "name": "Black Wall Slot Shelf -  +causeAutoOrient +noBackAccess",
+          "category": false
+        },
+        {
+          "id": "3858",
+          "name": "Black Wall with Box and Thread -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3859",
+          "name": "Black Wall with Box -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3860",
+          "name": "Black Wall with Thread -  +causeAutoOrient",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "09e4f73dbd2cbbb2e1e0c1b1f754d8e09680e960",
+      "message": "Test scenes",
+      "date": "2020-02-28T22:46:32.000Z"
+    },
+    {
+      "sha": "392963ced3714e904a9246a51d0096464a9e3fd0",
+      "message": "Distiller with empty tank can be removed.  Fixes #632",
+      "date": "2020-02-28T20:22:07.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2338",
+          "newActorID": "2302",
+          "newTargetID": "2339",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "22d5946df0b0d95e6ce596298f0bf51e3bdaee8c",
+      "message": "Roses can be removed from hats.  Fixes #633",
+      "date": "2020-02-28T20:16:17.000Z",
+      "addedObjectIDs": [
+        "3840",
+        "3841",
+        "3842",
+        "3843",
+        "3844",
+        "3845",
+        "3846",
+        "3847",
+        "3848",
+        "3849",
+        "3850"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3847",
+          "newTargetID": "3524",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3848",
+          "newTargetID": "3525",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3849",
+          "newTargetID": "3523",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3850",
+          "newTargetID": "1093",
+          "decay": "1s"
+        },
+        {
+          "actorID": "3842",
+          "newActorID": "568",
+          "newTargetID": "1036",
+          "hand": true
+        },
+        {
+          "actorID": "3843",
+          "newActorID": "568",
+          "newTargetID": "3850",
+          "hand": true
+        },
+        {
+          "actorID": "3844",
+          "newActorID": "568",
+          "newTargetID": "3849",
+          "hand": true
+        },
+        {
+          "actorID": "3845",
+          "newActorID": "568",
+          "newTargetID": "3847",
+          "hand": true
+        },
+        {
+          "actorID": "3846",
+          "newActorID": "568",
+          "newTargetID": "3848",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3463",
+          "newActorID": "3842",
+          "newTargetID": "2884",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3467",
+          "newActorID": "3842",
+          "newTargetID": "2885",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3471",
+          "newActorID": "3842",
+          "newTargetID": "2955",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3475",
+          "newActorID": "3842",
+          "newTargetID": "2931",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3479",
+          "newActorID": "3842",
+          "newTargetID": "2947",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3483",
+          "newActorID": "3842",
+          "newTargetID": "2939",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3488",
+          "newActorID": "3842",
+          "newTargetID": "2920",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3493",
+          "newActorID": "3842",
+          "newTargetID": "2956",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3497",
+          "newActorID": "3842",
+          "newTargetID": "2932",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3501",
+          "newActorID": "3842",
+          "newTargetID": "2948",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3505",
+          "newActorID": "3842",
+          "newTargetID": "2940",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3509",
+          "newActorID": "3842",
+          "newTargetID": "2921",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3519",
+          "newTargetUses": "-1",
+          "newActorID": "3843",
+          "newTargetID": "3516",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3556",
+          "newTargetUses": "-1",
+          "newActorID": "3844",
+          "newTargetID": "3516",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3557",
+          "newTargetUses": "-1",
+          "newActorID": "3845",
+          "newTargetID": "3516",
+          "hand": true
+        },
+        {
+          "actorID": "568",
+          "targetID": "3558",
+          "newTargetUses": "-1",
+          "newActorID": "3846",
+          "newTargetID": "3516",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3516",
+          "name": "@ Roseless Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3519",
+          "name": "@ Blue Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3556",
+          "name": "@ Black Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3557",
+          "name": "@ Green Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3558",
+          "name": "@ Yellow Rose Hat Pattern",
+          "category": true
+        },
+        {
+          "id": "3840",
+          "name": "Shears with Red Rose",
+          "category": false
+        },
+        {
+          "id": "3841",
+          "name": "Shears with White Rose",
+          "category": false
+        },
+        {
+          "id": "3842",
+          "name": "Shears with Pink Rose",
+          "category": false
+        },
+        {
+          "id": "3843",
+          "name": "Shears with Blue Rose",
+          "category": false
+        },
+        {
+          "id": "3844",
+          "name": "Shears with Black Rose",
+          "category": false
+        },
+        {
+          "id": "3845",
+          "name": "Shears with Green Rose",
+          "category": false
+        },
+        {
+          "id": "3846",
+          "name": "Shears with Yellow Rose",
+          "category": false
+        },
+        {
+          "id": "3847",
+          "name": "Green Rose -  just dropped",
+          "category": false
+        },
+        {
+          "id": "3848",
+          "name": "Yellow Rose -  just dropped",
+          "category": false
+        },
+        {
+          "id": "3849",
+          "name": "Black Rose -  just dropped",
+          "category": false
+        },
+        {
+          "id": "3850",
+          "name": "Blue Rose -  just dropped",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "a276b1d812e93f1f2ba6a2d41f4baf6cb188d4f5",
+      "message": "Adze to remove doors (wood and springy) instead of crude cutter, to make accidental removal less likely.  Fixes #640",
+      "date": "2020-02-28T18:31:20.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "2757",
+          "newActorID": "462",
+          "newTargetID": "2762",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "2759",
+          "newActorID": "462",
+          "newTargetID": "2762",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "876",
+          "newActorID": "462",
+          "newTargetID": "875",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "877",
+          "newActorID": "462",
+          "newTargetID": "875",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "2757",
+          "newActorID": "964",
+          "newTargetID": "2762",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "2759",
+          "newActorID": "964",
+          "newTargetID": "2762",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "876",
+          "newActorID": "964",
+          "newTargetID": "875",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "877",
+          "newActorID": "964",
+          "newTargetID": "875",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "0da3eebc43eadb6a44b039c01528159dde61c6eb",
+      "message": "Draw plates are tools.  Part of #638",
+      "date": "2020-02-27T20:41:52.000Z",
+      "objectChanges": [
+        {
+          "id": "2503",
+          "attributes": {
+            "name": {
+              "from": "Draw Plate",
+              "to": "Draw Plate -  +tool"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "0dd4b9eea1826b5a44835d93b4ed7d720d0a81f4",
+      "message": "Actually, only Bore and Drill are grouped together in one tool set.  Drill only makes a draw plate, and you only need one of those, so it's a wasted slot otherwise.  The other Newc machines are separate tools.  Part of #638",
+      "date": "2020-02-27T20:41:19.000Z",
+      "objectChanges": [
+        {
+          "id": "2238",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Hammer -  +toolMachining",
+              "to": "Firing Newcomen Hammer -  +tool"
+            }
+          }
+        },
+        {
+          "id": "2271",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Bore -  +toolMachining",
+              "to": "Firing Newcomen Bore -  +toolMachinedHoles"
+            }
+          }
+        },
+        {
+          "id": "2277",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Roller -  +toolMachining",
+              "to": "Firing Newcomen Roller -  +tool"
+            }
+          }
+        },
+        {
+          "id": "2357",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Lathe -  +toolMachining",
+              "to": "Firing Newcomen Lathe -  +tool"
+            }
+          }
+        },
+        {
+          "id": "2498",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Drill -  +toolMachining",
+              "to": "Firing Newcomen Drill -  +toolMachinedHoles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "fd72f2152e4371a248f170249cf4b93e4d20bb76",
+      "message": "All Necomen machines are grouped into one tool set called Machining.  Part of #638",
+      "date": "2020-02-27T20:20:29.000Z",
+      "objectChanges": [
+        {
+          "id": "2238",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Hammer -  +tool",
+              "to": "Firing Newcomen Hammer -  +toolMachining"
+            }
+          }
+        },
+        {
+          "id": "2271",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Bore -  +tool",
+              "to": "Firing Newcomen Bore -  +toolMachining"
+            }
+          }
+        },
+        {
+          "id": "2277",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Roller -  +tool",
+              "to": "Firing Newcomen Roller -  +toolMachining"
+            }
+          }
+        },
+        {
+          "id": "2357",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Lathe -  +tool",
+              "to": "Firing Newcomen Lathe -  +toolMachining"
+            }
+          }
+        },
+        {
+          "id": "2498",
+          "attributes": {
+            "name": {
+              "from": "Firing Newcomen Drill -  +tool",
+              "to": "Firing Newcomen Drill -  +toolMachining"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "4e76cc84bde86fa941ca2d943b058535d694d7f8",
+      "message": "Tongs no longer occupy a tool set, since they're always used with kiln or forge or some other tool.  Part of #638",
+      "date": "2020-02-27T20:16:17.000Z",
+      "objectChanges": [
+        {
+          "id": "239",
+          "attributes": {
+            "name": {
+              "from": "Wooden Tongs -  +tool",
+              "to": "Wooden Tongs -  empty"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "00711807005fdc0ec5d7f689a37d9bbc49c0f645",
+      "message": "Axe and hatchet are both part of same CHOPPING tool set.  Part of #638",
+      "date": "2020-02-27T20:13:59.000Z",
+      "objectChanges": [
+        {
+          "id": "334",
+          "attributes": {
+            "name": {
+              "from": "Steel Axe -  +tool",
+              "to": "Steel Axe -  +toolChopping"
+            }
+          }
+        },
+        {
+          "id": "71",
+          "attributes": {
+            "name": {
+              "from": "Stone Hatchet -  +tool",
+              "to": "Stone Hatchet -  +toolChopping"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "323f7005a56598dc558a57627dc6bdf4208e049a",
+      "message": "Bow and arrow with note is now part of the Archery tool set.  Part of #638",
+      "date": "2020-02-27T19:49:25.000Z",
+      "objectChanges": [
+        {
+          "id": "152",
+          "attributes": {
+            "name": {
+              "from": "Bow and Arrow -  +tool",
+              "to": "Bow and Arrow -  +toolArchery"
+            }
+          }
+        },
+        {
+          "id": "1624",
+          "attributes": {
+            "name": {
+              "from": "Bow and Arrow with Note -  &written",
+              "to": "Bow and Arrow with Note -  &written +toolArchery"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "68285b86647012193c03a12be2f795f5d44421e0",
+      "message": "Tracks are only bendable with hammer for first 30 seconds.  After that, they settle and become permanent (need to be 2-person dug to be changed after that).  Last part of #637  Fixes #637",
+      "date": "2020-02-25T19:35:18.000Z",
+      "addedObjectIDs": [
+        "3833",
+        "3834",
+        "3835",
+        "3836",
+        "3837",
+        "3838",
+        "3839"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3800",
+          "newTargetID": "3833",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3838",
+          "newTargetUses": "-1",
+          "newTargetID": "3839",
+          "decay": "30s"
+        },
+        {
+          "actorID": "1530",
+          "targetID": "108",
+          "newActorID": "3059",
+          "newTargetID": "3833",
+          "hand": true
+        },
+        {
+          "actorID": "1530",
+          "targetID": "3833",
+          "newActorID": "1530",
+          "newTargetID": "1583",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "108",
+          "newActorID": "3060",
+          "newTargetID": "3833",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "3833",
+          "newActorID": "1595",
+          "newTargetID": "1583",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "3833",
+          "newActorID": "441",
+          "newTargetID": "3834",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "3834",
+          "newActorID": "441",
+          "newTargetID": "3835",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "3835",
+          "newActorID": "441",
+          "newTargetID": "3836",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "3836",
+          "newActorID": "441",
+          "newTargetID": "3837",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3800",
+          "newTargetID": "1512",
+          "decay": "1s"
+        },
+        {
+          "actorID": "1530",
+          "targetID": "108",
+          "newActorID": "3059",
+          "newTargetID": "1512",
+          "hand": true
+        },
+        {
+          "actorID": "1595",
+          "targetID": "108",
+          "newActorID": "3060",
+          "newTargetID": "1512",
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "1512",
+          "newActorID": "441",
+          "newTargetID": "3762",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "3760",
+          "newActorID": "441",
+          "newTargetID": "3759",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "3761",
+          "newActorID": "441",
+          "newTargetID": "3760",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "441",
+          "targetID": "3762",
+          "newActorID": "441",
+          "newTargetID": "3761",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1595",
+          "name": "Single Track Kit",
+          "category": false
+        },
+        {
+          "id": "3800",
+          "name": "East West Track -  just unbent",
+          "category": false
+        },
+        {
+          "id": "3833",
+          "name": "Bendable East West Track",
+          "category": false
+        },
+        {
+          "id": "3834",
+          "name": "Bendable South East Track",
+          "category": false
+        },
+        {
+          "id": "3835",
+          "name": "Bendable South West Track",
+          "category": false
+        },
+        {
+          "id": "3836",
+          "name": "Bendable North East Track",
+          "category": false
+        },
+        {
+          "id": "3837",
+          "name": "Bendable North West Track",
+          "category": false
+        },
+        {
+          "id": "3838",
+          "name": "@ Bendable Track",
+          "category": true
+        },
+        {
+          "id": "3839",
+          "name": "@ Non-Bendable Track",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "2650bd93d36621b018c6c4b14447c182e1b53da6",
+      "message": "Digging up a track now takes two people collaborating (vibrating Adze gets stuck in hand for a bit after first whack).  Part of #637",
+      "date": "2020-02-25T19:15:56.000Z",
+      "addedObjectIDs": [
+        "3819",
+        "3820",
+        "3821",
+        "3822",
+        "3823",
+        "3824",
+        "3825",
+        "3826",
+        "3827",
+        "3828",
+        "3829",
+        "3830",
+        "3832"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3830",
+          "newTargetUses": "-1",
+          "newTargetID": "3831",
+          "decay": "3s"
+        },
+        {
+          "targetID": "3832",
+          "newTargetID": "462",
+          "decay": "4s"
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3831",
+          "newTargetUses": "-1",
+          "newActorID": "3832",
+          "newTargetID": "3830",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "actorUses": "last",
+          "targetID": "3831",
+          "newTargetUses": "-1",
+          "newActorID": "858",
+          "newTargetID": "3830",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3819",
+          "name": "Partially Dug South East Track",
+          "category": false
+        },
+        {
+          "id": "3820",
+          "name": "Partially Dug South West Track",
+          "category": false
+        },
+        {
+          "id": "3821",
+          "name": "Partially Dug North East Track",
+          "category": false
+        },
+        {
+          "id": "3822",
+          "name": "Partially Dug North West Track",
+          "category": false
+        },
+        {
+          "id": "3823",
+          "name": "Partially Dug East West Track",
+          "category": false
+        },
+        {
+          "id": "3824",
+          "name": "Partially Dug North South Track",
+          "category": false
+        },
+        {
+          "id": "3825",
+          "name": "Partially Dug Cross Track",
+          "category": false
+        },
+        {
+          "id": "3826",
+          "name": "Partially Dug West Track End",
+          "category": false
+        },
+        {
+          "id": "3827",
+          "name": "Partially Dug South Track End",
+          "category": false
+        },
+        {
+          "id": "3828",
+          "name": "Partially Dug North Track End",
+          "category": false
+        },
+        {
+          "id": "3829",
+          "name": "Partially Dug East Track End",
+          "category": false
+        },
+        {
+          "id": "3830",
+          "name": "@ Partially Dug track",
+          "category": true
+        },
+        {
+          "id": "3831",
+          "name": "@ Non-Dug track",
+          "category": true
+        },
+        {
+          "id": "3832",
+          "name": "Vibrating Steel Adze",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "101eba2cca521d531621b8b39430c6d49dff9754",
+      "message": "Derailing track carts no longer waste resources (they don't destroy spring or one of the wheels).  Part of #637",
+      "date": "2020-02-25T18:34:57.000Z",
+      "addedObjectIDs": [
+        "3818"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3818",
+          "newTargetID": "1548",
+          "decay": "1s"
+        },
+        {
+          "actorID": "461",
+          "newActorUses": "-1",
+          "newActorWeight": 0.2,
+          "targetID": "1582",
+          "newActorID": "461",
+          "newTargetID": "3818",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "461",
+          "newActorUses": "-1",
+          "newActorWeight": 0.2,
+          "targetID": "1582",
+          "newActorID": "461",
+          "newTargetID": "1592",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3818",
+          "name": "Track Cart Kit -  remade",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "cf0d221befdeeb3cd6f53ffb5d8379a289487553",
+      "message": "Scene for gif.",
+      "date": "2020-02-14T01:27:40.000Z"
+    },
+    {
+      "sha": "708f8c595442b58b98b8b97354745c7068b4a8d6",
+      "message": "test scenes",
+      "date": "2020-02-13T23:52:23.000Z"
+    },
+    {
+      "sha": "5490eb1b4257ee80a088b1467b6e339537d26611",
+      "message": "Batch closing already-fixed issues located by Tarr.  Fixes #250, Fixes #255, Fixes #262, Fixes #271, Fixes #276, Fixes #280, Fixes #285, Fixes #290, Fixes #292, Fixes #294, Fixes #299, Fixes #301, Fixes #304, Fixes #305, Fixes #312, Fixes #316, Fixes #318, Fixes #324, Fixes #327, Fixes #334, Fixes #336, Fixes #343, Fixes #377, Fixes #392, Fixes #398, Fixes #405, Fixes #418, Fixes #429, Fixes #482",
+      "date": "2020-02-11T20:51:28.000Z"
+    }
+  ]
+}

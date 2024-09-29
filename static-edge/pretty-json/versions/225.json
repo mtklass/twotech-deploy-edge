@@ -1,0 +1,160 @@
+{
+  "id": "225",
+  "date": "2019-05-11T20:54:51.000Z",
+  "commits": [
+    {
+      "sha": "826c7f0bcc7949cf286929b94b7fd31fdb161cac",
+      "message": "War sword now has 10 second cool-down before it can stab again.  While bloody, it can't be contained, but it can be dropped.",
+      "date": "2019-05-11T20:43:23.000Z",
+      "removedObjectIDs": [
+        "3049"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3048",
+          "newTargetID": "3047",
+          "decay": "10s"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3048",
+          "newTargetID": "3047",
+          "decay": "1m"
+        },
+        {
+          "targetID": "3049",
+          "newTargetID": "3047",
+          "decay": "1m"
+        },
+        {
+          "actorID": "3048",
+          "newActorID": "3049",
+          "newTargetID": "797",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3048",
+          "newActorID": "3049",
+          "newTargetID": "752",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3049",
+          "newActorID": "3048",
+          "newTargetID": "797",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3049",
+          "newActorID": "3048",
+          "newTargetID": "752",
+          "targetPlayer": true,
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3048",
+          "attributes": {
+            "name": {
+              "from": "Bloody War Sword -  otherFamilyOnly",
+              "to": "Bloody War Sword"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3049",
+          "name": "Bloody War Sword -  2 otherFamilyOnly",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "fc0d29942a33d7454b40883b0b2ef8d614d7fcc6",
+      "message": "Springs back to 40x40 grid.  Let's really bring people together, and see where it takes us.",
+      "date": "2019-05-11T20:26:20.000Z",
+      "objectChanges": [
+        {
+          "id": "3030",
+          "attributes": {
+            "name": {
+              "from": "Natural Spring -  gridPlacement80 evePrimaryLoc",
+              "to": "Natural Spring -  gridPlacement40 evePrimaryLoc"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "0b4c6a8728232645c6aad034b3e8ee5e9e882866",
+      "message": "Springs placed on grid of 80 instead of 100.",
+      "date": "2019-05-11T20:08:00.000Z",
+      "objectChanges": [
+        {
+          "id": "3030",
+          "attributes": {
+            "name": {
+              "from": "Natural Spring -  gridPlacement100 evePrimaryLoc",
+              "to": "Natural Spring -  gridPlacement80 evePrimaryLoc"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "4e820f1e932c064486a45befee6543b136ac56dc",
+      "message": "Property fence time extended.",
+      "date": "2019-05-11T18:55:32.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2960",
+          "newTargetID": "2978",
+          "decay": "60m"
+        },
+        {
+          "targetID": "2961",
+          "newTargetID": "2977",
+          "decay": "60m"
+        },
+        {
+          "targetID": "2977",
+          "newTargetID": "2992",
+          "decay": "60m"
+        },
+        {
+          "targetID": "2978",
+          "newTargetID": "2992",
+          "decay": "60m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "2960",
+          "newTargetID": "2978",
+          "decay": "30m"
+        },
+        {
+          "targetID": "2961",
+          "newTargetID": "2977",
+          "decay": "30m"
+        },
+        {
+          "targetID": "2977",
+          "newTargetID": "2992",
+          "decay": "30m"
+        },
+        {
+          "targetID": "2978",
+          "newTargetID": "2992",
+          "decay": "30m"
+        }
+      ]
+    }
+  ]
+}

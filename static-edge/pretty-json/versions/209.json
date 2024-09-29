@@ -1,0 +1,64 @@
+{
+  "id": "209",
+  "date": "2019-03-07T07:11:20.000Z",
+  "commits": [
+    {
+      "sha": "10a2c29e585447c21774d1459dc16d1da63cab8d",
+      "message": "Test scene for clothing.",
+      "date": "2019-03-07T07:03:56.000Z"
+    },
+    {
+      "sha": "774ad20d261d3298b880d55023955123adce8ba4",
+      "message": "Salt water pouch has S marking like rest.  Fixes #193",
+      "date": "2019-03-07T06:40:23.000Z"
+    },
+    {
+      "sha": "78e9f6024e1456ce36f1dc8542d700896b88826c",
+      "message": "Melting state of snowball no longer deadly.  Fixes #192",
+      "date": "2019-03-07T06:38:07.000Z"
+    },
+    {
+      "sha": "cbc14e7ca7f720ae04c62b12c0419de2d62b02bb",
+      "message": "Adze to remove track instead of shovel.  Fixes jasonrohrer/OneLife#249",
+      "date": "2019-03-07T06:20:39.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "1594",
+          "newTargetUses": "-1",
+          "newActorID": "462",
+          "newTargetID": "1595",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "502",
+          "newActorUses": "-1",
+          "newActorWeight": 0.05,
+          "targetID": "1594",
+          "newTargetUses": "-1",
+          "newActorID": "502",
+          "newTargetID": "1595",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1594",
+          "name": "@ Diggable Track",
+          "category": true
+        },
+        {
+          "id": "1595",
+          "name": "Track Kit -  just dug",
+          "category": false
+        }
+      ]
+    }
+  ]
+}

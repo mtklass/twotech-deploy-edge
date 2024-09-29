@@ -1,0 +1,1666 @@
+{
+  "id": "20310",
+  "date": "2024-02-02T15:30:19.000Z",
+  "commits": [
+    {
+      "sha": "4fa80246c68fb57d204dce62bec7af281ede77ae",
+      "message": "Adjusted wedding dress pos",
+      "date": "2024-02-02T14:07:27.000Z"
+    },
+    {
+      "sha": "e0534819427999b527f271439ec4b07bbdfe2675",
+      "message": "Pumpkin flag",
+      "date": "2024-02-02T14:03:26.000Z",
+      "addedObjectIDs": [
+        "14603",
+        "14604"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "2685",
+          "targetID": "3219",
+          "newActorID": "14604",
+          "newTargetID": "3219",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2685",
+          "targetID": "3225",
+          "newActorID": "14604",
+          "newTargetID": "3225",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2685",
+          "targetID": "3235",
+          "newActorID": "14604",
+          "newTargetID": "3235",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2685",
+          "targetID": "7914",
+          "newActorID": "14604",
+          "newTargetID": "7914",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "0680b77dc2a90aadfeea042ac481add931a78f83",
+      "message": "Fixed holding pos of full bundle of flax",
+      "date": "2024-02-02T13:57:55.000Z"
+    },
+    {
+      "sha": "58e3227fd519a9961163a5273c460be64d374dc8",
+      "message": "Made bamboo backpack specialize a bit",
+      "date": "2024-02-02T13:26:08.000Z",
+      "addedObjectIDs": [
+        "14598",
+        "14600",
+        "14601"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14599",
+          "newActorID": "344",
+          "newTargetID": "12276",
+          "hand": true
+        },
+        {
+          "targetID": "14600",
+          "newActorID": "7394",
+          "newTargetID": "12276",
+          "hand": true
+        },
+        {
+          "targetID": "14601",
+          "newActorID": "7393",
+          "newTargetID": "12276",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "1101",
+          "targetUses": "max",
+          "newActorID": "14598",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "1106",
+          "newTargetUses": "-1",
+          "newActorID": "14598",
+          "newTargetID": "1106",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "1106",
+          "targetUses": "last",
+          "newActorID": "14598",
+          "newTargetID": "408",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "211",
+          "newActorID": "14598",
+          "newTargetID": "411",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "411",
+          "newTargetUses": "-1",
+          "newActorID": "14598",
+          "newTargetID": "411",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "411",
+          "targetUses": "last",
+          "newActorID": "14598",
+          "newTargetID": "410",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "624",
+          "newTargetUses": "-1",
+          "newActorID": "14598",
+          "newTargetID": "624",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "624",
+          "targetUses": "last",
+          "newActorID": "14598",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "7154",
+          "newTargetUses": "-1",
+          "newActorID": "14598",
+          "newTargetID": "7154",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "7154",
+          "targetUses": "last",
+          "newActorID": "14598",
+          "newTargetID": "7158",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "7158",
+          "newActorID": "14598",
+          "newTargetID": "434",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "7161",
+          "newTargetUses": "-1",
+          "newActorID": "14598",
+          "newTargetID": "7161",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "7161",
+          "targetUses": "last",
+          "newActorID": "14598",
+          "newTargetID": "434",
+          "hand": true
+        },
+        {
+          "actorID": "12276",
+          "targetID": "7166",
+          "newActorID": "14598",
+          "newTargetID": "7161",
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "newActorID": "12276",
+          "newTargetID": "1101",
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "1106",
+          "newTargetUses": "+1",
+          "newActorID": "12276",
+          "newTargetID": "1106",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "410",
+          "newTargetUses": "last",
+          "newActorID": "12276",
+          "newTargetID": "411",
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "411",
+          "newTargetUses": "+1",
+          "newActorID": "12276",
+          "newTargetID": "411",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "411",
+          "targetUses": "max",
+          "newActorID": "12276",
+          "newTargetID": "211",
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "434",
+          "newActorID": "12276",
+          "newTargetID": "7158",
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "7154",
+          "newTargetUses": "+1",
+          "newActorID": "12276",
+          "newTargetID": "7154",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "7158",
+          "newTargetUses": "last",
+          "newActorID": "12276",
+          "newTargetID": "7154",
+          "hand": true
+        },
+        {
+          "actorID": "14598",
+          "targetID": "848",
+          "newActorID": "12276",
+          "newTargetID": "213",
+          "hand": true
+        },
+        {
+          "actorID": "344",
+          "targetID": "12276",
+          "newTargetID": "14599",
+          "hand": true
+        },
+        {
+          "actorID": "7393",
+          "targetID": "12276",
+          "newTargetID": "14601",
+          "hand": true
+        },
+        {
+          "actorID": "7394",
+          "targetID": "12276",
+          "newTargetID": "14600",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "14574",
+          "newActorID": "151",
+          "newTargetID": "12276",
+          "hand": true
+        },
+        {
+          "actorID": "151",
+          "targetID": "12276",
+          "newTargetID": "14574",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "14574",
+          "name": "Bamboo Backpack with Yew Bow",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "3364cd0dc11e2ec443151ea71b7b20ce7f3e1971",
+      "message": "Bee wax is small trash but not despawns",
+      "date": "2024-02-02T13:14:07.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "14571",
+          "decay": "2h"
+        }
+      ]
+    },
+    {
+      "sha": "81605fc012b8b9870b8f202cb7c46870d267c15f",
+      "message": "Sheeps fed by trough give dung",
+      "date": "2024-02-02T13:11:53.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "14594",
+          "newActorID": "899",
+          "newTargetID": "575",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "d2ffec4397da0b8e54eee934e62048252ddccff8",
+      "message": "Some missed bronze froe changes",
+      "date": "2024-02-02T13:08:24.000Z"
+    },
+    {
+      "sha": "5dad17e44c88eb4e42a19704e7896d97dfc242a5",
+      "message": "Hatchet to turn bamboo into strips",
+      "date": "2024-02-02T13:02:54.000Z"
+    },
+    {
+      "sha": "9eb3a8626915bdd3035c27a9e8966a4ef2684309",
+      "message": "Way to dismantle trough",
+      "date": "2024-02-02T13:00:38.000Z",
+      "addedObjectIDs": [
+        "14597"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14597",
+          "newTargetID": "14595",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14595",
+          "newActorID": "124",
+          "newTargetID": "7605",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "14565",
+          "newActorID": "334",
+          "newTargetID": "14597",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "14565",
+          "newActorID": "334",
+          "newTargetID": "14595",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "42376962a62ccc94ae8502acdee327373e8f8138",
+      "message": "Recipe for trough was conflicting with loom reed",
+      "date": "2024-02-02T12:50:08.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "124",
+          "targetID": "557",
+          "newTargetID": "2687",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "14565",
+          "newActorID": "334",
+          "newTargetID": "14595",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "14595",
+          "newActorID": "124",
+          "newTargetID": "557",
+          "hand": true
+        },
+        {
+          "actorID": "124",
+          "targetID": "557",
+          "newTargetID": "14595",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "ee54b873d21c990d9c6a83cc13d5d1168826cf69",
+      "message": "Trough",
+      "date": "2024-01-31T17:32:22.000Z",
+      "addedObjectIDs": [
+        "14591",
+        "14592",
+        "14593",
+        "14594",
+        "14595",
+        "14596"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14563",
+          "newTargetID": "14594",
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "14591",
+          "newTargetID": "14564",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14592",
+          "newTargetID": "14565",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14593",
+          "newTargetID": "14594",
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "14594",
+          "newTargetID": "575",
+          "decay": "6s",
+          "move": 1
+        },
+        {
+          "targetID": "14596",
+          "newTargetID": "14564",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14595",
+          "newActorID": "124",
+          "newTargetID": "557",
+          "hand": true
+        },
+        {
+          "actorID": "124",
+          "targetID": "557",
+          "newTargetID": "14595",
+          "hand": true
+        },
+        {
+          "actorID": "14563",
+          "newActorID": "14591",
+          "newTargetID": "14594",
+          "hand": true
+        },
+        {
+          "actorID": "14593",
+          "newActorID": "14592",
+          "newTargetID": "14594",
+          "hand": true
+        },
+        {
+          "actorID": "14594",
+          "targetID": "14592",
+          "newTargetID": "14593",
+          "hand": true
+        },
+        {
+          "actorID": "576",
+          "targetID": "14564",
+          "targetUses": "last",
+          "newTargetID": "14593",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "14595",
+          "newTargetID": "14565",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "7794",
+          "newTargetID": "14595",
+          "hand": true
+        },
+        {
+          "actorID": "7011",
+          "targetID": "14565",
+          "newActorID": "659",
+          "newTargetID": "14596",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "14567",
+          "newTargetUses": "-1",
+          "newTargetID": "14567",
+          "targetRemains": true,
+          "decay": "6s",
+          "move": 8
+        },
+        {
+          "targetID": "14567",
+          "targetUses": "last",
+          "newTargetID": "14566",
+          "decay": "6s"
+        },
+        {
+          "actorID": "124",
+          "targetID": "557",
+          "newTargetID": "2687",
+          "hand": true
+        },
+        {
+          "actorID": "7011",
+          "actorUses": "max",
+          "targetID": "14565",
+          "newActorID": "659",
+          "newTargetID": "14564",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "14563",
+          "attributes": {
+            "name": {
+              "from": "TEST Fed Shorn Domestic Sheep",
+              "to": "Fed Shorn Domestic Sheep"
+            }
+          }
+        },
+        {
+          "id": "14564",
+          "attributes": {
+            "name": {
+              "from": "TEST Trough",
+              "to": "Trough"
+            }
+          }
+        },
+        {
+          "id": "14565",
+          "attributes": {
+            "name": {
+              "from": "TEST Empty Trough",
+              "to": "Empty Trough"
+            }
+          }
+        },
+        {
+          "id": "14566",
+          "attributes": {
+            "name": {
+              "from": "TEST Dead Sheep - shorn  - starved",
+              "to": "TEST Dead Sheep - shorn  - starved  - test"
+            }
+          }
+        },
+        {
+          "id": "14567",
+          "attributes": {
+            "name": {
+              "from": "TEST Shorn Domestic Sheep - hungry",
+              "to": "TEST Shorn Domestic Sheep - hungry  - test"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ba58b26a0be8e4782df4f5bd4fd67d1d3544a0f6",
+      "message": "Extra transitions turn spraying sprinkler into puddle when clicked",
+      "date": "2024-01-31T16:33:51.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "14260",
+          "newTargetID": "7236",
+          "hand": true,
+          "tool": true,
+          "move": 7
+        },
+        {
+          "targetID": "14261",
+          "newTargetID": "7236",
+          "hand": true,
+          "tool": true,
+          "move": 7
+        }
+      ]
+    },
+    {
+      "sha": "37437ee0841355021256cb8824ac18004d57a25e",
+      "message": "Wedding dress",
+      "date": "2024-01-30T16:52:32.000Z",
+      "addedObjectIDs": [
+        "14589",
+        "14590"
+      ]
+    },
+    {
+      "sha": "d6569f2e61168a1239e74f6a573ae15a6c5ac534",
+      "message": "Silly hat",
+      "date": "2024-01-30T16:40:25.000Z",
+      "addedObjectIDs": [
+        "14588"
+      ]
+    },
+    {
+      "sha": "2053760ea71f5ee0e8a2bbf3a59c1c9753a6d85f",
+      "message": "Fox flag",
+      "date": "2024-01-30T16:30:29.000Z",
+      "addedObjectIDs": [
+        "14587"
+      ]
+    },
+    {
+      "sha": "28d00e504a181cf76a96173a7ae545557c20520d",
+      "message": "Buffed cats",
+      "date": "2024-01-30T15:20:36.000Z",
+      "addedObjectIDs": [
+        "14575",
+        "14576",
+        "14577",
+        "14578",
+        "14579",
+        "14580",
+        "14581",
+        "14582",
+        "14583",
+        "14584",
+        "14585",
+        "14586"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "10940",
+          "targetUses": "last",
+          "newTargetID": "14586",
+          "decay": "3s"
+        },
+        {
+          "targetID": "14586",
+          "newTargetUses": "-1",
+          "newTargetID": "14586",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 8
+        },
+        {
+          "targetID": "14586",
+          "targetUses": "last",
+          "newTargetID": "10954",
+          "decay": "3s"
+        },
+        {
+          "targetID": "12715",
+          "newActorID": "14576",
+          "hand": true
+        },
+        {
+          "targetID": "14586",
+          "newActorID": "10943",
+          "hand": true
+        },
+        {
+          "actorID": "12716",
+          "newActorUses": "-1",
+          "targetID": "14586",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10938",
+          "hand": true
+        },
+        {
+          "actorID": "13294",
+          "targetID": "14586",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10938",
+          "hand": true
+        },
+        {
+          "actorID": "14576",
+          "newTargetID": "12715",
+          "hand": true
+        },
+        {
+          "actorID": "14586",
+          "targetID": "10766",
+          "newTargetID": "10822",
+          "hand": true
+        },
+        {
+          "actorID": "14586",
+          "targetID": "10806",
+          "newTargetID": "10993",
+          "hand": true
+        },
+        {
+          "actorID": "14586",
+          "targetID": "10808",
+          "newTargetID": "10991",
+          "hand": true
+        },
+        {
+          "actorID": "14586",
+          "targetID": "10809",
+          "newTargetID": "10821",
+          "hand": true
+        },
+        {
+          "actorID": "1463",
+          "targetID": "14586",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10938",
+          "hand": true
+        },
+        {
+          "actorID": "1464",
+          "targetID": "14586",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10938",
+          "hand": true
+        },
+        {
+          "actorID": "1481",
+          "targetID": "14586",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10938",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "10940",
+          "targetUses": "last",
+          "newTargetID": "10954",
+          "decay": "3s"
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12710",
+          "attributes": {
+            "name": {
+              "from": "Tabby Cat  - hunting +tapoutTrigger,1,1,3,3",
+              "to": "Hunting Tabby Cat  - +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12711",
+          "attributes": {
+            "name": {
+              "from": "Maine Coon Cat  - hunting +tapoutTrigger,1,1,3,3",
+              "to": "Hunting Maine Coon Cat  - +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12712",
+          "attributes": {
+            "name": {
+              "from": "Black Cat  - hunting +tapoutTrigger,1,1,3,3",
+              "to": "Hunting Black Cat  - +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12713",
+          "attributes": {
+            "name": {
+              "from": "White Cat  - hunting +tapoutTrigger,1,1,3,3",
+              "to": "Hunting White Cat  - +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12714",
+          "attributes": {
+            "name": {
+              "from": "Calico Cat  - hunting +tapoutTrigger,1,1,3,3",
+              "to": "Hunting Calico Cat  - +tapoutTrigger,1,1,3,3"
+            }
+          }
+        },
+        {
+          "id": "12722",
+          "attributes": {
+            "name": {
+              "from": "Tabby Cat  - readyToPounce",
+              "to": "Hunting Tabby Cat  - readyToPounce"
+            }
+          }
+        },
+        {
+          "id": "12723",
+          "attributes": {
+            "name": {
+              "from": "White Cat  - readyToPounce",
+              "to": "Hunting White Cat  - readyToPounce"
+            }
+          }
+        },
+        {
+          "id": "12724",
+          "attributes": {
+            "name": {
+              "from": "Maine Coon Cat  - readyToPounce",
+              "to": "Hunting Maine Coon Cat  - readyToPounce"
+            }
+          }
+        },
+        {
+          "id": "12725",
+          "attributes": {
+            "name": {
+              "from": "Calico Cat  - readyToPounce",
+              "to": "Hunting Calico Cat  - readyToPounce"
+            }
+          }
+        },
+        {
+          "id": "12726",
+          "attributes": {
+            "name": {
+              "from": "Black Cat  - readyToPounce",
+              "to": "Hunting Black Cat  - readyToPounce"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "10821",
+          "name": "@ Cat Pillows - sitting black",
+          "category": true
+        },
+        {
+          "id": "10822",
+          "name": "@ Cat Pillows - sitting white",
+          "category": true
+        },
+        {
+          "id": "10938",
+          "name": "@ Cat - fed",
+          "category": true
+        },
+        {
+          "id": "10940",
+          "name": "@ Cat - standing",
+          "category": true
+        },
+        {
+          "id": "10943",
+          "name": "@ Cat - held",
+          "category": true
+        },
+        {
+          "id": "10954",
+          "name": "@ Cat - old",
+          "category": true
+        },
+        {
+          "id": "10991",
+          "name": "@ Cat Pillows - sitting yellow",
+          "category": true
+        },
+        {
+          "id": "10993",
+          "name": "@ Cat Pillows - sitting blue",
+          "category": true
+        },
+        {
+          "id": "12715",
+          "name": "@ Cat - hunting",
+          "category": true
+        },
+        {
+          "id": "12716",
+          "name": "@ Cat Food Bowl",
+          "category": true
+        },
+        {
+          "id": "14576",
+          "name": "@ Cat - held hunting",
+          "category": true
+        },
+        {
+          "id": "14586",
+          "name": "@ Cat - standing2",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "60796ecbd8d88b9b2f1df59163c81e4830473db1",
+      "message": "Buffed bamboo backpack",
+      "date": "2024-01-30T15:01:13.000Z",
+      "addedObjectIDs": [
+        "14574"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14574",
+          "newActorID": "151",
+          "newTargetID": "12276",
+          "hand": true
+        },
+        {
+          "actorID": "151",
+          "targetID": "12276",
+          "newTargetID": "14574",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "14574",
+          "name": "Bamboo Backpack with Yew Bow",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "7314bda1409aaff59f0cf0865beaf0692f6d63af",
+      "message": "Some changes to maybe make headwrap less confusing",
+      "date": "2024-01-30T14:50:18.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "6723",
+          "newActorID": "6721",
+          "newTargetID": "292",
+          "hand": true
+        },
+        {
+          "actorID": "6721",
+          "newTargetID": "6724",
+          "hand": true
+        },
+        {
+          "actorID": "6721",
+          "targetID": "292",
+          "newTargetID": "6722",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "6723",
+          "newActorID": "292",
+          "newTargetID": "6724",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "6723",
+          "attributes": {
+            "name": {
+              "from": "Head Wrap basket onGround",
+              "to": "Head Wrap and Detached Basket"
+            }
+          }
+        },
+        {
+          "id": "6724",
+          "attributes": {
+            "name": {
+              "from": "Head Wrap onGround",
+              "to": "Head Wrap - onGround"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "9f25b12cc01cabe83eaf8c6cb5b7ea2a65b71c60",
+      "message": "Pile of Fence Stakes",
+      "date": "2024-01-29T17:01:47.000Z",
+      "addedObjectIDs": [
+        "14573"
+      ]
+    },
+    {
+      "sha": "69c176c88e1f89b4df26864d6ab7a43326cfc3a2",
+      "message": "Can stack and despawn clean bee wax",
+      "date": "2024-01-29T16:51:55.000Z",
+      "addedObjectIDs": [
+        "14571",
+        "14572"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14571",
+          "decay": "2h"
+        },
+        {
+          "targetID": "14412",
+          "newActorID": "14571",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "14571",
+          "targetID": "235",
+          "newTargetID": "14412",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a46aebd24737eac1c1373a7e3e86649b7effe93a",
+      "message": "Buffed bamboo",
+      "date": "2024-01-29T16:28:55.000Z",
+      "addedObjectIDs": [
+        "14569",
+        "14570"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14570",
+          "newTargetUses": "-1",
+          "newActorID": "14569",
+          "newTargetID": "14570",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14570",
+          "targetUses": "last",
+          "newActorID": "14569",
+          "newTargetID": "14569",
+          "hand": true
+        },
+        {
+          "targetID": "6667",
+          "newActorID": "14569",
+          "newTargetID": "14570",
+          "hand": true
+        },
+        {
+          "actorID": "14569",
+          "targetID": "14569",
+          "newTargetUses": "last",
+          "newTargetID": "14570",
+          "hand": true
+        },
+        {
+          "actorID": "14569",
+          "targetID": "14570",
+          "newTargetUses": "+1",
+          "newTargetID": "14570",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14569",
+          "targetID": "14570",
+          "targetUses": "max",
+          "newTargetID": "6667",
+          "hand": true
+        },
+        {
+          "actorID": "723",
+          "newActorUses": "-1",
+          "targetID": "6664",
+          "newActorID": "723",
+          "newTargetID": "6665",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "6664",
+          "newActorID": "964",
+          "newTargetID": "6665",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "6667",
+          "attributes": {
+            "name": {
+              "from": "Cut Bamboo",
+              "to": "Full Stack of Bamboo Stalks"
+            }
+          }
+        },
+        {
+          "id": "7602",
+          "attributes": {
+            "name": {
+              "from": "Cut Bamboo Stack",
+              "to": "Stacks of Bamboo Stalks"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "723",
+          "name": "@ Rough Cutter",
+          "category": true
+        },
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "ee79a6b5414456eec37ad7267994d1baeb61799b",
+      "message": "Flat rock smolders fire",
+      "date": "2024-01-29T15:23:40.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "10236",
+          "targetID": "82",
+          "newActorID": "239",
+          "newTargetID": "1280",
+          "hand": true
+        },
+        {
+          "actorID": "291",
+          "targetID": "82",
+          "newTargetID": "1280",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "8ca175aa3af80eb422534ce989eef2869d12bc40",
+      "message": "Stack of flatrock is XL",
+      "date": "2024-01-29T15:17:19.000Z"
+    },
+    {
+      "sha": "fb596d9eafed1727785fd52bb0e7b8c07db19ea2",
+      "message": "Fixed floating beets",
+      "date": "2024-01-29T15:11:14.000Z",
+      "addedObjectIDs": [
+        "14568"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14568",
+          "newTargetID": "8841",
+          "decay": "1s"
+        },
+        {
+          "targetID": "8840",
+          "newTargetUses": "-1",
+          "newActorID": "14568",
+          "newTargetID": "8840",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "8840",
+          "targetUses": "last",
+          "newActorID": "14568",
+          "newTargetID": "848",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "8840",
+          "newTargetUses": "-1",
+          "newActorID": "8841",
+          "newTargetID": "8840",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "8840",
+          "targetUses": "last",
+          "newActorID": "8841",
+          "newTargetID": "848",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "3e3b5ba58a5a055a7acb902664a2894a769a0a2a",
+      "message": "Tables with cloth should be in the table exception categories",
+      "date": "2024-01-29T15:11:08.000Z"
+    },
+    {
+      "sha": "c27d4b4cedd0727fa9730c854ebc004fc64576f1",
+      "message": "Cleaning intestines should not spend the salt water in bucket",
+      "date": "2024-01-29T14:41:44.000Z",
+      "legacyObjects": [
+        {
+          "id": "6509",
+          "name": "@ Salt Water",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "cc5acf2344530b24ddd59f639b5e297c8546375f",
+      "message": "Missed hot chocolate as table exception",
+      "date": "2024-01-29T14:39:52.000Z"
+    },
+    {
+      "sha": "228e5ae46cab11fe23568c0d4b3e167feb31f08a",
+      "message": "Some tests",
+      "date": "2024-01-29T14:19:47.000Z",
+      "addedObjectIDs": [
+        "14563",
+        "14564",
+        "14565",
+        "14566",
+        "14567"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14567",
+          "newTargetUses": "-1",
+          "newTargetID": "14567",
+          "targetRemains": true,
+          "decay": "6s",
+          "move": 8
+        },
+        {
+          "targetID": "14567",
+          "targetUses": "last",
+          "newTargetID": "14566",
+          "decay": "6s"
+        },
+        {
+          "actorID": "14567",
+          "targetID": "14564",
+          "newTargetID": "14563",
+          "hand": true
+        },
+        {
+          "actorID": "576",
+          "targetID": "14564",
+          "newTargetID": "14563",
+          "hand": true
+        },
+        {
+          "actorID": "7011",
+          "actorUses": "max",
+          "targetID": "14565",
+          "newActorID": "659",
+          "newTargetID": "14564",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a105145b0d73a365e0bae2aab7a953d57e0fb448",
+      "message": "Buffed flax",
+      "date": "2024-01-17T19:36:45.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "14427",
+          "newTargetID": "14423",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14452",
+          "newTargetID": "14460",
+          "decay": "10s"
+        },
+        {
+          "targetID": "14464",
+          "newTargetID": "14463",
+          "decay": "10s"
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "14473",
+          "newActorID": "964",
+          "newTargetID": "8954",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "14427",
+          "newTargetID": "14422",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14452",
+          "newTargetID": "14460",
+          "decay": "30s"
+        },
+        {
+          "targetID": "14464",
+          "newTargetID": "14463",
+          "decay": "30s"
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "9ebea8f3ecf0ae8f6282630a58c4701258a6bfce",
+      "message": "Mirrored vertical arches",
+      "date": "2024-01-17T15:21:07.000Z",
+      "addedObjectIDs": [
+        "14561",
+        "14562"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "13202",
+          "newActorID": "467",
+          "newTargetID": "14562",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "14561",
+          "newActorID": "467",
+          "newTargetID": "8782",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "14562",
+          "newActorID": "467",
+          "newTargetID": "13202",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "8782",
+          "newActorID": "467",
+          "newTargetID": "14561",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "9ab0afbb05750e47366f049a8fbd5cd969caa45f",
+      "message": "Scarfs are small",
+      "date": "2024-01-16T17:37:00.000Z"
+    },
+    {
+      "sha": "429dcc023ad3cf3928218ecd46e0d1d7101bfb8f",
+      "message": "Getting rid of scarecrow stand",
+      "date": "2024-01-16T17:14:20.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "6451",
+          "newActorID": "964",
+          "newTargetID": "557",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "5a7999b12a55b1bd17f054ee705aba89cc630655",
+      "message": "Shallow water bridges",
+      "date": "2024-01-14T16:13:12.000Z",
+      "addedObjectIDs": [
+        "14559",
+        "14560"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14559",
+          "newTargetUses": "-1",
+          "newActorID": "67",
+          "newTargetID": "14559",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14559",
+          "targetUses": "last",
+          "newActorID": "67",
+          "newTargetID": "13876",
+          "hand": true
+        },
+        {
+          "actorID": "470",
+          "targetID": "14560",
+          "newTargetID": "6489",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "14559",
+          "targetUses": "max",
+          "newTargetID": "14560",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "13876",
+          "newTargetUses": "last",
+          "newTargetID": "14559",
+          "hand": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "14559",
+          "newTargetUses": "+1",
+          "newTargetID": "14559",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7945",
+          "targetID": "14560",
+          "newTargetID": "7962",
+          "hand": true
+        },
+        {
+          "actorID": "7946",
+          "targetID": "14560",
+          "newTargetID": "7961",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "0d60d81814b2099d1d1a500d551eb4c08674c3ba",
+      "message": "Tweaked normal vs primitive fishing pole probabilities",
+      "date": "2024-01-14T15:50:13.000Z"
+    },
+    {
+      "sha": "958b623d714513d348a411e03f2c9a020b6d8762",
+      "message": "Can get rid of these wooden/pine wall panels and doors",
+      "date": "2024-01-14T15:27:49.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "106",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "114",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "11746",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7795",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8036",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "8037",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "875",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "106",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "7795",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "66f7c0634357ad24e89ff93e86c77749d2a1fd4a",
+      "message": "Removed old way to make pine panel",
+      "date": "2024-01-14T15:19:50.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "92",
+          "targetID": "92",
+          "newTargetID": "105",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "2fbd23550d1bcc982ea2928412017ef04c09a95f",
+      "message": "Iron rod should be scrappable",
+      "date": "2024-01-14T15:13:10.000Z"
+    },
+    {
+      "sha": "48188291a41f2d11a5631388dfad8e2fbfac5b38",
+      "message": "Containable moss",
+      "date": "2024-01-14T15:13:02.000Z"
+    },
+    {
+      "sha": "c997ca88286a40b9301f6f5ede0cbcda5e3fb06a",
+      "message": "Bronze froe no longer flying out of a container",
+      "date": "2024-01-14T14:59:41.000Z"
+    },
+    {
+      "sha": "422c6d588b25fb5b6207a30649fde565c4911b64",
+      "message": "Fixed the mess that's the crafting of a rolling pin",
+      "date": "2024-01-14T14:48:59.000Z"
+    },
+    {
+      "sha": "117bdbe57a87c787a98f7736d5315cbe8d8252f2",
+      "message": "Bowl of garlic cloves no longer bottomless",
+      "date": "2024-01-14T14:35:34.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "10469",
+          "targetID": "10470",
+          "targetUses": "max",
+          "newTargetID": "10470",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "bb92bfc71a75f8abd06c25d1478801b66376243e",
+      "message": "Held pos of cooked goose vs raw",
+      "date": "2024-01-14T14:30:04.000Z"
+    },
+    {
+      "sha": "4104a5fb29f92706f7d8cbfb29ad3f1ead74708c",
+      "message": "Domestic bison (without calf) is not moving",
+      "date": "2024-01-14T14:23:40.000Z"
+    },
+    {
+      "sha": "6b4db2c23f29b1adee2ab791326b0e6d69b62d20",
+      "message": "Wrong creation sound for cooked rice",
+      "date": "2024-01-14T14:15:31.000Z"
+    }
+  ]
+}

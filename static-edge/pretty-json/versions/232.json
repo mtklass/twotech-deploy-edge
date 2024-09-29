@@ -1,0 +1,157 @@
+{
+  "id": "232",
+  "date": "2019-05-23T23:07:47.000Z",
+  "commits": [
+    {
+      "sha": "6016dc14af9027707b3cb47e384ba79864c3a9ee",
+      "message": "Test scene.",
+      "date": "2019-05-23T22:31:37.000Z"
+    },
+    {
+      "sha": "b0ebb39594ead3e85f5e3f40ed42e1a97227bf9a",
+      "message": "Property fence twig bundles decay after 10 minutes.",
+      "date": "2019-05-21T21:07:05.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2957",
+          "decay": "10m"
+        }
+      ]
+    },
+    {
+      "sha": "e126efa2c782c43104a4032f83e5d792b8f00406",
+      "message": "Gates can be built over roads (just not fences).  I didn't like the way the road gap looked where a fence with a gate crossed over.  Gates over roads aren't a problem, because the rope makes them expensive, and they don't live on after the builder dies (so they're not as easy to grief with).",
+      "date": "2019-05-21T20:39:09.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2966",
+          "newActorID": "2993",
+          "newTargetID": "59",
+          "hand": true
+        },
+        {
+          "targetID": "2974",
+          "newActorID": "2993",
+          "newTargetID": "59",
+          "hand": true
+        },
+        {
+          "actorID": "2957",
+          "targetID": "2966",
+          "newActorID": "2993",
+          "newTargetID": "59",
+          "hand": true
+        },
+        {
+          "actorID": "2957",
+          "targetID": "59",
+          "newActorID": "2957",
+          "newTargetID": "2966",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2993",
+          "targetID": "2966",
+          "newActorID": "2994",
+          "newTargetID": "59",
+          "hand": true
+        },
+        {
+          "actorID": "2993",
+          "targetID": "59",
+          "newActorID": "2957",
+          "newTargetID": "2966",
+          "hand": true
+        },
+        {
+          "actorID": "2994",
+          "targetID": "2966",
+          "newActorID": "2993",
+          "newTargetID": "59",
+          "hand": true
+        },
+        {
+          "actorID": "2994",
+          "targetID": "59",
+          "newActorID": "2957",
+          "newTargetID": "2966",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "2966",
+          "newActorID": "59",
+          "newTargetID": "2965",
+          "hand": true
+        },
+        {
+          "targetID": "2974",
+          "newActorID": "59",
+          "newTargetID": "2992",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "2965",
+          "newTargetID": "2966",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2966",
+          "attributes": {
+            "name": {
+              "from": "Proposed Property Gate -  groundOnly",
+              "to": "Proposed Property Gate"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "df5829c105df106b8e51e88f6fe03b9527cd4149",
+      "message": "Natural spring sites no longer spawn in jungle.",
+      "date": "2019-05-20T22:20:34.000Z",
+      "objectChanges": [
+        {
+          "id": "3030",
+          "attributes": {
+            "biomes": {
+              "from": [
+                0,
+                1,
+                2,
+                3,
+                6
+              ],
+              "to": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "027b35b5963e00f664994f5cf8ce958dbea93deb",
+      "message": "Can now pick up steril pad bowl, and contain it in box or cart.  Fixes #223",
+      "date": "2019-05-20T20:25:05.000Z"
+    },
+    {
+      "sha": "402f0ff5df28c6d2a9d5ee0a1531fe04177cfaed",
+      "message": "Ginger baby penis had wrong color.",
+      "date": "2019-05-20T19:37:54.000Z"
+    },
+    {
+      "sha": "0cc514177771709788bd36f618b49f7e95ac6296",
+      "message": "Scene for this week's gif.",
+      "date": "2019-05-18T18:32:13.000Z"
+    }
+  ]
+}

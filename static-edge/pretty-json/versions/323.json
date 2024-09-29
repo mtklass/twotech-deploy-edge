@@ -1,0 +1,142 @@
+{
+  "id": "323",
+  "date": "2020-03-30T20:46:09.000Z",
+  "commits": [
+    {
+      "sha": "7901bf9cf01d730ee769623c423c06cdc0a0b474",
+      "message": "Fixed object numbering glitch, which caused a big jump in the object ID space, and failed to set nextObjectNumber correctly.  I was editing with makeUseDummies on by accident.  Fixes #695",
+      "date": "2020-03-30T18:50:11.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "3954",
+          "newTargetID": "3961",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2388",
+          "newActorID": "2365",
+          "newTargetID": "3964",
+          "hand": true
+        },
+        {
+          "targetID": "3961",
+          "newTargetUses": "-1",
+          "newActorID": "290",
+          "newTargetID": "3961",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "3962",
+          "newTargetUses": "-1",
+          "newActorID": "290",
+          "newTargetID": "3962",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1096",
+          "targetUses": "max",
+          "newTargetID": "3963",
+          "hand": true
+        },
+        {
+          "actorID": "3963",
+          "targetID": "942",
+          "newTargetID": "3962",
+          "hand": true
+        },
+        {
+          "actorID": "662",
+          "targetID": "942",
+          "newTargetID": "3965",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "3954",
+          "newTargetID": "7120",
+          "decay": "1s"
+        },
+        {
+          "targetID": "2388",
+          "newActorID": "2365",
+          "newTargetID": "7123",
+          "hand": true
+        },
+        {
+          "targetID": "7120",
+          "newActorID": "290",
+          "newTargetID": "7120",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "7121",
+          "newActorID": "290",
+          "newTargetID": "7121",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1096",
+          "targetUses": "max",
+          "newTargetID": "7122",
+          "hand": true
+        },
+        {
+          "actorID": "662",
+          "targetID": "942",
+          "newTargetID": "7124",
+          "hand": true
+        },
+        {
+          "actorID": "7122",
+          "targetID": "942",
+          "newTargetID": "7121",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3954",
+          "name": "Iron Vein -  justDried",
+          "category": false
+        },
+        {
+          "id": "3961",
+          "name": "Iron Vein",
+          "category": false
+        },
+        {
+          "id": "3962",
+          "name": "Loose Muddy Iron Vein -  +primaryHomeland",
+          "category": false
+        },
+        {
+          "id": "3963",
+          "name": "Ready Well Site -  +famUse100 +tapoutTrigger,40,40,160,0",
+          "category": false
+        },
+        {
+          "id": "3964",
+          "name": "Unpowered Pump Head -  diesel removed",
+          "category": false
+        },
+        {
+          "id": "3965",
+          "name": "Sunken Iron Vein",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "f7a938151a4ee34a60d7b0fdf97266c72c9eef7a",
+      "message": "Fixed use count for mines with extracted ore sitting in front, so use transitions can happen.  Before, because there was a use-count mismatch, mines were lasting forever without exhausting.",
+      "date": "2020-03-30T18:13:01.000Z"
+    }
+  ]
+}

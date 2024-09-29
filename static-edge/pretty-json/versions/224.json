@@ -1,0 +1,152 @@
+{
+  "id": "224",
+  "date": "2019-05-11T01:05:29.000Z",
+  "commits": [
+    {
+      "sha": "5e5ef1ea6fc6329e6f6b739af9b718765ea4935d",
+      "message": "War swords.",
+      "date": "2019-05-11T00:24:05.000Z",
+      "addedObjectIDs": [
+        "3047",
+        "3048",
+        "3049"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3048",
+          "newTargetID": "3047",
+          "decay": "1m"
+        },
+        {
+          "targetID": "3049",
+          "newTargetID": "3047",
+          "decay": "1m"
+        },
+        {
+          "actorID": "3047",
+          "newActorID": "3048",
+          "newTargetID": "797",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3047",
+          "newActorID": "3048",
+          "newTargetID": "752",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3048",
+          "newActorID": "3049",
+          "newTargetID": "797",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3048",
+          "newActorID": "3049",
+          "newTargetID": "752",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3049",
+          "newActorID": "3048",
+          "newTargetID": "797",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "3049",
+          "newActorID": "3048",
+          "newTargetID": "752",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "441",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "2296",
+          "newActorID": "441",
+          "newTargetID": "3047",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3049",
+          "name": "Bloody War Sword -  2 otherFamilyOnly",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "589cc136a95cdb7f8dcf569887de58c281051e8c",
+      "message": "Springs spread on 100x100 grid instead of 40x40.  25 second walk.",
+      "date": "2019-05-10T23:41:20.000Z",
+      "objectChanges": [
+        {
+          "id": "3030",
+          "attributes": {
+            "name": {
+              "from": "Natural Spring -  gridPlacement40 evePrimaryLoc",
+              "to": "Natural Spring -  gridPlacement100 evePrimaryLoc"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "cbc35c61964aeee21949faf4f35430f22e2be461",
+      "message": "eveHomeMarker label so server can stick home marker near Eve's spring.",
+      "date": "2019-05-10T23:28:42.000Z",
+      "objectChanges": [
+        {
+          "id": "487",
+          "attributes": {
+            "name": {
+              "from": "Home Marker",
+              "to": "Home Marker -  eveHomeMarker"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "ea31cc1ee4daa2164a05f615495a7f38465c5924",
+      "message": "Added evePrimaryLoc and eveSecondaryLoc to well objects, for server Eve spawning code.",
+      "date": "2019-05-10T22:20:35.000Z",
+      "objectChanges": [
+        {
+          "id": "1096",
+          "attributes": {
+            "name": {
+              "from": "Well Site",
+              "to": "Well Site -  eveSecondaryLoc"
+            }
+          }
+        },
+        {
+          "id": "3030",
+          "attributes": {
+            "name": {
+              "from": "Natural Spring -  gridPlacement40",
+              "to": "Natural Spring -  gridPlacement40 evePrimaryLoc"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "7c0c32421dee9cb17c76a6c1fa9c5b1bf387db7b",
+      "message": "Pregnant belly sprites, just in case...",
+      "date": "2019-05-07T20:29:05.000Z",
+      "addedObjectIDs": [
+        "3046"
+      ]
+    }
+  ]
+}

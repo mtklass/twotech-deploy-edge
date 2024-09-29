@@ -1,0 +1,1912 @@
+{
+  "id": "289",
+  "date": "2019-11-23T22:16:58.000Z",
+  "commits": [
+    {
+      "sha": "07d30f0b001d28885e473d9e7844d48ce3c3ca1e",
+      "message": "Scene for update image.",
+      "date": "2019-11-23T22:02:37.000Z"
+    },
+    {
+      "sha": "3ff82a29c7001ebb0ca8e362939707e3f79e3a43",
+      "message": "No back access to wall shelf.",
+      "date": "2019-11-23T21:13:31.000Z",
+      "objectChanges": [
+        {
+          "id": "3240",
+          "attributes": {
+            "name": {
+              "from": "Wall Shelf -  +causeAutoOrient",
+              "to": "Wall Shelf -  +causeAutoOrient +noBackAccess"
+            }
+          }
+        },
+        {
+          "id": "3241",
+          "attributes": {
+            "name": {
+              "from": "Wall Shelf with Slot Notches -  +causeAutoOrient",
+              "to": "Wall Shelf with Slot Notches -  +causeAutoOrient +noBackAccess"
+            }
+          }
+        },
+        {
+          "id": "3242",
+          "attributes": {
+            "name": {
+              "from": "Wall Slot Shelf -  +causeAutoOrient",
+              "to": "Wall Slot Shelf -  +causeAutoOrient +noBackAccess"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "814754a86854eb3bbf4f68f54b2866ca5fc4bda0",
+      "message": "Can't make deep-tilled row in arctic either.  Fixes #512",
+      "date": "2019-11-23T19:46:24.000Z",
+      "objectChanges": [
+        {
+          "id": "213",
+          "attributes": {
+            "name": {
+              "from": "Deep Tilled Row -  groundOnly",
+              "to": "Deep Tilled Row -  groundOnly +biomeBlock4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "0981801922642ff04fa0726ba6e156b07d514e7d",
+      "message": "Can copy maps off of new and ancient way stones.  Fixes #510",
+      "date": "2019-11-23T19:37:28.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "3181",
+          "targetID": "3304",
+          "newActorID": "3182",
+          "newTargetID": "3304",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3181",
+          "targetID": "3305",
+          "newActorID": "3182",
+          "newTargetID": "3305",
+          "targetRemains": true,
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3304",
+          "name": "Ancient Way Stone -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3305",
+          "name": "New Way Stone -  &written +map",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "d9d787e8eb55473f793dcdda4a04b04a4be6a55f",
+      "message": "Can't drop temporary removal notice (which is stuck in hand to prevent unilateral removal by one elder working alone) by walking into a bad biome.  Fixes #509",
+      "date": "2019-11-23T19:27:54.000Z",
+      "objectChanges": [
+        {
+          "id": "3124",
+          "attributes": {
+            "name": {
+              "from": "Temporary Removal Receipt",
+              "to": "Temporary Removal Receipt -  +neverDrop"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "e69cfa8e78b6ce662df34f875538e3e7d288b6e4",
+      "message": "Property fence and gate cure time (from shaky) is now 5 minutes (was 20).",
+      "date": "2019-11-23T02:39:36.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2982",
+          "newTargetID": "2959",
+          "decay": "5m"
+        },
+        {
+          "targetID": "2983",
+          "newTargetID": "2963",
+          "decay": "5m"
+        },
+        {
+          "targetID": "2984",
+          "newTargetID": "2962",
+          "decay": "5m"
+        },
+        {
+          "targetID": "2985",
+          "newTargetID": "2960",
+          "decay": "5m"
+        },
+        {
+          "targetID": "2986",
+          "newTargetID": "2961",
+          "decay": "5m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "2982",
+          "newTargetID": "2959",
+          "decay": "20m"
+        },
+        {
+          "targetID": "2983",
+          "newTargetID": "2963",
+          "decay": "20m"
+        },
+        {
+          "targetID": "2984",
+          "newTargetID": "2962",
+          "decay": "20m"
+        },
+        {
+          "targetID": "2985",
+          "newTargetID": "2960",
+          "decay": "20m"
+        },
+        {
+          "targetID": "2986",
+          "newTargetID": "2961",
+          "decay": "20m"
+        }
+      ]
+    },
+    {
+      "sha": "68783bdf5d397c1521eaef347ca1cddf1ab32c40",
+      "message": "Test scenes",
+      "date": "2019-11-22T21:56:24.000Z"
+    },
+    {
+      "sha": "5578c01681a564ee6f83796ed637c11f11a68e68",
+      "message": "Pine walls now take two steps to remove to prevent accidents.  Fixed some prefix issues with +horizontalPine and +horizontalPineDoor",
+      "date": "2019-11-22T21:30:46.000Z",
+      "addedObjectIDs": [
+        "3308",
+        "3309",
+        "3310",
+        "3311"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3308",
+          "newActorID": "107",
+          "newTargetID": "111",
+          "hand": true
+        },
+        {
+          "targetID": "3309",
+          "newActorID": "107",
+          "newTargetID": "113",
+          "hand": true
+        },
+        {
+          "targetID": "3310",
+          "newActorID": "107",
+          "newTargetID": "112",
+          "hand": true
+        },
+        {
+          "targetID": "3311",
+          "newActorID": "107",
+          "newTargetID": "72",
+          "hand": true
+        },
+        {
+          "actorID": "107",
+          "targetID": "111",
+          "newTargetID": "3308",
+          "hand": true
+        },
+        {
+          "actorID": "107",
+          "targetID": "112",
+          "newTargetID": "3310",
+          "hand": true
+        },
+        {
+          "actorID": "107",
+          "targetID": "113",
+          "newTargetID": "3309",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3308",
+          "newActorID": "334",
+          "newTargetID": "3311",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3309",
+          "newActorID": "334",
+          "newTargetID": "3311",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3310",
+          "newActorID": "334",
+          "newTargetID": "3311",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "111",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "112",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "113",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "115",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed +horizontalPineDoor +cornerPineDoor",
+              "to": "Pine Door -  Installed +horizontalDoorPine +cornerDoorPine"
+            }
+          }
+        },
+        {
+          "id": "116",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  installed vert +verticalPineDoor",
+              "to": "Pine Door -  installed vert +verticalDoorPine"
+            }
+          }
+        },
+        {
+          "id": "876",
+          "attributes": {
+            "name": {
+              "from": "Wooden Door -  Installed +horizontalWoodenDoor +cornerWoodenDoor",
+              "to": "Wooden Door -  Installed +horizontalDoorWood +cornerDoorWood"
+            }
+          }
+        },
+        {
+          "id": "877",
+          "attributes": {
+            "name": {
+              "from": "Wooden Door -  installed vert +verticalWoodDoor",
+              "to": "Wooden Door -  installed vert +verticalDoorWood"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3308",
+          "name": "Marked Pine Wall -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3309",
+          "name": "Marked Pine Wall -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3310",
+          "name": "Marked Pine Wall -  +causeAutoOrient",
+          "category": false
+        },
+        {
+          "id": "3311",
+          "name": "Kindling with Stakes",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "da1a5c97f02916338a0276cafd38cf5bdd1dcc2b",
+      "message": "Pine needles can fit in basket.",
+      "date": "2019-11-22T20:58:15.000Z"
+    },
+    {
+      "sha": "7ee4cea3baa3df13f536462371e555c273cb99bc",
+      "message": "Using +autoDefaultTrans to automatically open springy door when player passes through, and keep it open as long as more players are passing through.",
+      "date": "2019-11-22T20:17:15.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "2758",
+          "newTargetID": "2758",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "targetID": "2760",
+          "newTargetID": "2760",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "2757",
+          "attributes": {
+            "name": {
+              "from": "Springy Wooden Door -  Installed +horizontalSpringyDoor +cornerSpringyDoor",
+              "to": "Springy Wooden Door -  Installed +horizontalSpringyDoor +cornerSpringyDoor +autoDefaultTrans"
+            }
+          }
+        },
+        {
+          "id": "2758",
+          "attributes": {
+            "name": {
+              "from": "Springy Open Wooden Door -  installed",
+              "to": "Springy Open Wooden Door -  installed +autoDefaultTrans"
+            }
+          }
+        },
+        {
+          "id": "2759",
+          "attributes": {
+            "name": {
+              "from": "Springy Wooden Door -  installed vert +verticalSpringyDoor",
+              "to": "Springy Wooden Door -  installed vert +verticalSpringyDoor +autoDefaultTrans"
+            }
+          }
+        },
+        {
+          "id": "2760",
+          "attributes": {
+            "name": {
+              "from": "Springy Open Wooden Door -  installed vert",
+              "to": "Springy Open Wooden Door -  installed vert +autoDefaultTrans"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "7db0cf4de57565af53601cc2b1c9a457e4a2cd3b",
+      "message": "Things that hug floors already don't need +wall tag.",
+      "date": "2019-11-22T19:24:13.000Z",
+      "objectChanges": [
+        {
+          "id": "115",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed +wall +horizontalPineDoor +cornerPineDoor",
+              "to": "Pine Door -  Installed +horizontalPineDoor +cornerPineDoor"
+            }
+          }
+        },
+        {
+          "id": "116",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  installed vert +wall +verticalPineDoor",
+              "to": "Pine Door -  installed vert +verticalPineDoor"
+            }
+          }
+        },
+        {
+          "id": "117",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Door -  installed vert +wall",
+              "to": "Open Pine Door -  installed vert"
+            }
+          }
+        },
+        {
+          "id": "119",
+          "attributes": {
+            "name": {
+              "from": "Open Pine Needle Door -  installed +wall",
+              "to": "Open Pine Needle Door -  installed"
+            }
+          }
+        },
+        {
+          "id": "1846",
+          "attributes": {
+            "name": {
+              "from": "Loose Fence -  +wall",
+              "to": "Loose Fence"
+            }
+          }
+        },
+        {
+          "id": "1883",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1884",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1885",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1886",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall -  just deplastered +wall",
+              "to": "Adobe Wall -  just deplastered"
+            }
+          }
+        },
+        {
+          "id": "1887",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall -  just deplastered +wall",
+              "to": "Adobe Wall -  just deplastered"
+            }
+          }
+        },
+        {
+          "id": "1888",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall -  just deplastered +wall",
+              "to": "Adobe Wall -  just deplastered"
+            }
+          }
+        },
+        {
+          "id": "1907",
+          "attributes": {
+            "name": {
+              "from": "Blue Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Blue Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1908",
+          "attributes": {
+            "name": {
+              "from": "Blue Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Blue Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1909",
+          "attributes": {
+            "name": {
+              "from": "Blue Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Blue Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1910",
+          "attributes": {
+            "name": {
+              "from": "Red Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Red Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1911",
+          "attributes": {
+            "name": {
+              "from": "Red Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Red Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1912",
+          "attributes": {
+            "name": {
+              "from": "Red Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Red Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1913",
+          "attributes": {
+            "name": {
+              "from": "Yellow Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Yellow Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1914",
+          "attributes": {
+            "name": {
+              "from": "Yellow Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Yellow Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1915",
+          "attributes": {
+            "name": {
+              "from": "Yellow Plaster Wall -  +wall +causeAutoOrient",
+              "to": "Yellow Plaster Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "2757",
+          "attributes": {
+            "name": {
+              "from": "Springy Wooden Door -  Installed +wall +horizontalSpringyDoor +cornerSpringyDoor",
+              "to": "Springy Wooden Door -  Installed +horizontalSpringyDoor +cornerSpringyDoor"
+            }
+          }
+        },
+        {
+          "id": "2758",
+          "attributes": {
+            "name": {
+              "from": "Springy Open Wooden Door -  installed +wall",
+              "to": "Springy Open Wooden Door -  installed"
+            }
+          }
+        },
+        {
+          "id": "2759",
+          "attributes": {
+            "name": {
+              "from": "Springy Wooden Door -  installed vert +wall +verticalSpringyDoor",
+              "to": "Springy Wooden Door -  installed vert +verticalSpringyDoor"
+            }
+          }
+        },
+        {
+          "id": "2760",
+          "attributes": {
+            "name": {
+              "from": "Springy Open Wooden Door -  installed vert +wall",
+              "to": "Springy Open Wooden Door -  installed vert"
+            }
+          }
+        },
+        {
+          "id": "3240",
+          "attributes": {
+            "name": {
+              "from": "Wall Shelf -  +wall +causeAutoOrient",
+              "to": "Wall Shelf -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3241",
+          "attributes": {
+            "name": {
+              "from": "Wall Shelf with Slot Notches -  +wall +causeAutoOrient",
+              "to": "Wall Shelf with Slot Notches -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3242",
+          "attributes": {
+            "name": {
+              "from": "Wall Slot Shelf -  +wall +causeAutoOrient",
+              "to": "Wall Slot Shelf -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3243",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall with Thread -  +wall +causeAutoOrient",
+              "to": "Plaster Wall with Thread -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3244",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall with Box -  +wall +causeAutoOrient",
+              "to": "Plaster Wall with Box -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3245",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall with Box and Thread -  +wall +causeAutoOrient",
+              "to": "Plaster Wall with Box and Thread -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "549",
+          "attributes": {
+            "name": {
+              "from": "Fence -  +wall +verticalFence",
+              "to": "Fence -  +verticalFence"
+            }
+          }
+        },
+        {
+          "id": "876",
+          "attributes": {
+            "name": {
+              "from": "Wooden Door -  Installed +wall +horizontalWoodenDoor +cornerWoodenDoor",
+              "to": "Wooden Door -  Installed +horizontalWoodenDoor +cornerWoodenDoor"
+            }
+          }
+        },
+        {
+          "id": "877",
+          "attributes": {
+            "name": {
+              "from": "Wooden Door -  installed vert +wall +verticalWoodDoor",
+              "to": "Wooden Door -  installed vert +verticalWoodDoor"
+            }
+          }
+        },
+        {
+          "id": "878",
+          "attributes": {
+            "name": {
+              "from": "Open Wooden Door -  installed +wall",
+              "to": "Open Wooden Door -  installed"
+            }
+          }
+        },
+        {
+          "id": "879",
+          "attributes": {
+            "name": {
+              "from": "Open Wooden Door -  installed vert +wall",
+              "to": "Open Wooden Door -  installed vert"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "28876d37d68a6bf8ae722c5411e97ca80dc2ce40",
+      "message": "Chisel wasn't working as a tool, because it's almost always added to something, leaving nothing in hand.  Switched to Mallet as tool instead.  Fixed the names of several tool groups (+toolSterile becomes +toolSterile_Handling), because the group name is now displayed in tool learning messages.",
+      "date": "2019-11-22T18:44:35.000Z",
+      "objectChanges": [
+        {
+          "id": "1126",
+          "attributes": {
+            "name": {
+              "from": "Needle and Ball of Thread -  +toolSew",
+              "to": "Needle and Ball of Thread -  +toolSewing"
+            }
+          }
+        },
+        {
+          "id": "1368",
+          "attributes": {
+            "name": {
+              "from": "Sterilized Knife -  +toolSterile",
+              "to": "Sterilized Knife -  +toolSterile_Handling"
+            }
+          }
+        },
+        {
+          "id": "1378",
+          "attributes": {
+            "name": {
+              "from": "Sterile Wool Pad -  +toolSterile",
+              "to": "Sterile Wool Pad -  +toolSterile_Handling"
+            }
+          }
+        },
+        {
+          "id": "192",
+          "attributes": {
+            "name": {
+              "from": "Needle and Thread -  +toolSew",
+              "to": "Needle and Thread -  +toolSewing"
+            }
+          }
+        },
+        {
+          "id": "2700",
+          "attributes": {
+            "name": {
+              "from": "Crude Airplane with Empty Tank -  +toolPlane",
+              "to": "Crude Airplane with Empty Tank -  +toolAirplane"
+            }
+          }
+        },
+        {
+          "id": "2704",
+          "attributes": {
+            "name": {
+              "from": "Crude Airplane on Landing Strip -  +toolPlane",
+              "to": "Crude Airplane on Landing Strip -  +toolAirplane"
+            }
+          }
+        },
+        {
+          "id": "3295",
+          "attributes": {
+            "name": {
+              "from": "Permanent Map with Mallet -  &written +map",
+              "to": "Permanent Map with Mallet -  &written +map +toolMallet"
+            }
+          }
+        },
+        {
+          "id": "3297",
+          "attributes": {
+            "name": {
+              "from": "Charcoal Map with Mallet -  &written +map",
+              "to": "Charcoal Map with Mallet -  &written +map +toolMallet"
+            }
+          }
+        },
+        {
+          "id": "455",
+          "attributes": {
+            "name": {
+              "from": "Steel Chisel -  +tool",
+              "to": "Steel Chisel"
+            }
+          }
+        },
+        {
+          "id": "467",
+          "attributes": {
+            "name": {
+              "from": "Mallet",
+              "to": "Mallet -  +toolMallet"
+            }
+          }
+        },
+        {
+          "id": "474",
+          "attributes": {
+            "name": {
+              "from": "Flint-tipped Bow Drill -  +toolBowDrill",
+              "to": "Flint-tipped Bow Drill -  +toolBow_Drill"
+            }
+          }
+        },
+        {
+          "id": "74",
+          "attributes": {
+            "name": {
+              "from": "Fire Bow Drill -  +toolBowDrill",
+              "to": "Fire Bow Drill -  +toolBow_Drill"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "8d861407444c297e36a6b1938a80e0ae21b2f121",
+      "message": "Auto-orienting walls, doors, and fences.",
+      "date": "2019-11-22T04:45:42.000Z",
+      "objectChanges": [
+        {
+          "id": "108",
+          "attributes": {
+            "name": {
+              "from": "East-West Wall Stakes",
+              "to": "Auto-Orienting Wall Stakes"
+            }
+          }
+        },
+        {
+          "id": "109",
+          "attributes": {
+            "name": {
+              "from": "North-South Wall Stakes",
+              "to": "Free-standing North-South Wall Stakes"
+            }
+          }
+        },
+        {
+          "id": "110",
+          "attributes": {
+            "name": {
+              "from": "Corner Wall Stakes",
+              "to": "Free-standing Corner Wall Stakes"
+            }
+          }
+        },
+        {
+          "id": "111",
+          "attributes": {
+            "name": {
+              "from": "Pine Wall",
+              "to": "Pine Wall -  +cornerPine"
+            }
+          }
+        },
+        {
+          "id": "112",
+          "attributes": {
+            "name": {
+              "from": "Pine Wall",
+              "to": "Pine Wall -  +horizontalPine"
+            }
+          }
+        },
+        {
+          "id": "113",
+          "attributes": {
+            "name": {
+              "from": "Pine Wall",
+              "to": "Pine Wall -  +verticalPine"
+            }
+          }
+        },
+        {
+          "id": "115",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  Installed +wall",
+              "to": "Pine Door -  Installed +wall +horizontalPineDoor +cornerPineDoor"
+            }
+          }
+        },
+        {
+          "id": "116",
+          "attributes": {
+            "name": {
+              "from": "Pine Door -  installed vert +wall",
+              "to": "Pine Door -  installed vert +wall +verticalPineDoor"
+            }
+          }
+        },
+        {
+          "id": "154",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall",
+              "to": "Adobe Wall -  +cornerAdobe"
+            }
+          }
+        },
+        {
+          "id": "155",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall",
+              "to": "Adobe Wall -  +horizontalAdobe"
+            }
+          }
+        },
+        {
+          "id": "156",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall",
+              "to": "Adobe Wall -  +verticalAdobe"
+            }
+          }
+        },
+        {
+          "id": "157",
+          "attributes": {
+            "name": {
+              "from": "Partial Adobe Wall",
+              "to": "Partial Adobe Wall -  +cornerPartAdobe"
+            }
+          }
+        },
+        {
+          "id": "158",
+          "attributes": {
+            "name": {
+              "from": "Partial Adobe Wall",
+              "to": "Partial Adobe Wall -  +horizontalPartAdobe"
+            }
+          }
+        },
+        {
+          "id": "159",
+          "attributes": {
+            "name": {
+              "from": "Partial Adobe Wall",
+              "to": "Partial Adobe Wall -  +verticalPartAdobe"
+            }
+          }
+        },
+        {
+          "id": "1851",
+          "attributes": {
+            "name": {
+              "from": "Fence Gate -  +wall",
+              "to": "Fence Gate -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1859",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall with Board Stack",
+              "to": "Stone Wall with Board Stack -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1860",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall with Boards",
+              "to": "Stone Wall with Boards -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1883",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall",
+              "to": "Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1884",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall",
+              "to": "Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1885",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall",
+              "to": "Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1886",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall -  just deplastered",
+              "to": "Adobe Wall -  just deplastered +wall"
+            }
+          }
+        },
+        {
+          "id": "1887",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall -  just deplastered",
+              "to": "Adobe Wall -  just deplastered +wall"
+            }
+          }
+        },
+        {
+          "id": "1888",
+          "attributes": {
+            "name": {
+              "from": "Adobe Wall -  just deplastered",
+              "to": "Adobe Wall -  just deplastered +wall"
+            }
+          }
+        },
+        {
+          "id": "1907",
+          "attributes": {
+            "name": {
+              "from": "Blue Plaster Wall",
+              "to": "Blue Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1908",
+          "attributes": {
+            "name": {
+              "from": "Blue Plaster Wall",
+              "to": "Blue Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1909",
+          "attributes": {
+            "name": {
+              "from": "Blue Plaster Wall",
+              "to": "Blue Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1910",
+          "attributes": {
+            "name": {
+              "from": "Red Plaster Wall",
+              "to": "Red Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1911",
+          "attributes": {
+            "name": {
+              "from": "Red Plaster Wall",
+              "to": "Red Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1912",
+          "attributes": {
+            "name": {
+              "from": "Red Plaster Wall",
+              "to": "Red Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1913",
+          "attributes": {
+            "name": {
+              "from": "Yellow Plaster Wall",
+              "to": "Yellow Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1914",
+          "attributes": {
+            "name": {
+              "from": "Yellow Plaster Wall",
+              "to": "Yellow Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "1915",
+          "attributes": {
+            "name": {
+              "from": "Yellow Plaster Wall",
+              "to": "Yellow Plaster Wall -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "2757",
+          "attributes": {
+            "name": {
+              "from": "Springy Wooden Door -  Installed +wall",
+              "to": "Springy Wooden Door -  Installed +wall +horizontalSpringyDoor +cornerSpringyDoor"
+            }
+          }
+        },
+        {
+          "id": "2759",
+          "attributes": {
+            "name": {
+              "from": "Springy Wooden Door -  installed vert +wall",
+              "to": "Springy Wooden Door -  installed vert +wall +verticalSpringyDoor"
+            }
+          }
+        },
+        {
+          "id": "3240",
+          "attributes": {
+            "name": {
+              "from": "Wall Shelf",
+              "to": "Wall Shelf -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3241",
+          "attributes": {
+            "name": {
+              "from": "Wall Shelf with Slot Notches",
+              "to": "Wall Shelf with Slot Notches -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3242",
+          "attributes": {
+            "name": {
+              "from": "Wall Slot Shelf",
+              "to": "Wall Slot Shelf -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3243",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall with Thread",
+              "to": "Plaster Wall with Thread -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3244",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall with Box",
+              "to": "Plaster Wall with Box -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3245",
+          "attributes": {
+            "name": {
+              "from": "Plaster Wall with Box and Thread",
+              "to": "Plaster Wall with Box and Thread -  +wall +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "3266",
+          "attributes": {
+            "name": {
+              "from": "Snow Wall - Arctic Only -  +biomeReq4",
+              "to": "Snow Wall - Arctic Only -  +biomeReq4 +cornerSnow"
+            }
+          }
+        },
+        {
+          "id": "3267",
+          "attributes": {
+            "name": {
+              "from": "Snow Wall - Arctic Only -  +biomeReq4",
+              "to": "Snow Wall - Arctic Only -  +biomeReq4 +verticalSnow"
+            }
+          }
+        },
+        {
+          "id": "3268",
+          "attributes": {
+            "name": {
+              "from": "Snow Wall - Arctic Only -  +biomeReq4",
+              "to": "Snow Wall - Arctic Only -  +biomeReq4 +horizontalSnow"
+            }
+          }
+        },
+        {
+          "id": "549",
+          "attributes": {
+            "name": {
+              "from": "Fence -  +wall",
+              "to": "Fence -  +wall +verticalFence"
+            }
+          }
+        },
+        {
+          "id": "550",
+          "attributes": {
+            "name": {
+              "from": "Fence -  +wall",
+              "to": "Fence -  +wall +horizontalFence"
+            }
+          }
+        },
+        {
+          "id": "551",
+          "attributes": {
+            "name": {
+              "from": "Fence -  +wall",
+              "to": "Fence -  +wall +cornerFence"
+            }
+          }
+        },
+        {
+          "id": "553",
+          "attributes": {
+            "name": {
+              "from": "East-West Fence Holes -  groundOnly",
+              "to": "Auto-Orienting Fence Holes -  groundOnly"
+            }
+          }
+        },
+        {
+          "id": "554",
+          "attributes": {
+            "name": {
+              "from": "North-South Fence Holes -  groundOnly",
+              "to": "Free-Standing North-South Fence Holes -  groundOnly"
+            }
+          }
+        },
+        {
+          "id": "555",
+          "attributes": {
+            "name": {
+              "from": "Corner Fence Holes -  groundOnly",
+              "to": "Free-Standing Corner Fence Holes -  groundOnly"
+            }
+          }
+        },
+        {
+          "id": "876",
+          "attributes": {
+            "name": {
+              "from": "Wooden Door -  Installed +wall",
+              "to": "Wooden Door -  Installed +wall +horizontalWoodenDoor +cornerWoodenDoor"
+            }
+          }
+        },
+        {
+          "id": "877",
+          "attributes": {
+            "name": {
+              "from": "Wooden Door -  installed vert +wall",
+              "to": "Wooden Door -  installed vert +wall +verticalWoodDoor"
+            }
+          }
+        },
+        {
+          "id": "885",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall",
+              "to": "Stone Wall -  +cornerStone"
+            }
+          }
+        },
+        {
+          "id": "886",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall",
+              "to": "Stone Wall -  +verticalStone"
+            }
+          }
+        },
+        {
+          "id": "887",
+          "attributes": {
+            "name": {
+              "from": "Stone Wall",
+              "to": "Stone Wall -  +horizontalStone"
+            }
+          }
+        },
+        {
+          "id": "895",
+          "attributes": {
+            "name": {
+              "from": "Ancient Stone Wall",
+              "to": "Ancient Stone Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "896",
+          "attributes": {
+            "name": {
+              "from": "Ancient Stone Wall",
+              "to": "Ancient Stone Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "897",
+          "attributes": {
+            "name": {
+              "from": "Ancient Stone Wall",
+              "to": "Ancient Stone Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "981",
+          "attributes": {
+            "name": {
+              "from": "Small Sign on Stone Wall",
+              "to": "Small Sign on Stone Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "982",
+          "attributes": {
+            "name": {
+              "from": "Big Sign on Stone Wall",
+              "to": "Big Sign on Stone Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "983",
+          "attributes": {
+            "name": {
+              "from": "Small Sign on Ancient Stone Wall",
+              "to": "Small Sign on Ancient Stone Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "984",
+          "attributes": {
+            "name": {
+              "from": "Big Sign on Ancient Stone Wall",
+              "to": "Big Sign on Ancient Stone Wall -  +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "994",
+          "attributes": {
+            "name": {
+              "from": "Locked Small Sign on Stone Wall -  $10",
+              "to": "Locked Small Sign on Stone Wall -  $10 +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "995",
+          "attributes": {
+            "name": {
+              "from": "Locked Big Sign on Stone Wall -  $10",
+              "to": "Locked Big Sign on Stone Wall -  $10 +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "996",
+          "attributes": {
+            "name": {
+              "from": "Locked Small Sign on Ancient Stone Wall -  $10",
+              "to": "Locked Small Sign on Ancient Stone Wall -  $10 +causeAutoOrient"
+            }
+          }
+        },
+        {
+          "id": "997",
+          "attributes": {
+            "name": {
+              "from": "Locked Big Sign on Ancient Stone Wall -  $10",
+              "to": "Locked Big Sign on Ancient Stone Wall -  $10 +causeAutoOrient"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "40a31666c800fac1e0bc8e2c895965c2853b6964",
+      "message": "Permanent waystones that can be touched to get a map pointer.",
+      "date": "2019-11-21T06:41:08.000Z",
+      "addedObjectIDs": [
+        "3292",
+        "3294",
+        "3295",
+        "3297",
+        "3298",
+        "3299",
+        "3300",
+        "3301",
+        "3302",
+        "3303",
+        "3304",
+        "3305",
+        "3306",
+        "3307"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3292",
+          "newTargetID": "3304",
+          "decay": "10h"
+        },
+        {
+          "targetID": "3302",
+          "newTargetID": "3301",
+          "decay": "5s"
+        },
+        {
+          "targetID": "3303",
+          "newTargetID": "812",
+          "decay": "10m"
+        },
+        {
+          "targetID": "3305",
+          "newTargetID": "3292",
+          "decay": "10m"
+        },
+        {
+          "targetID": "3307",
+          "newTargetID": "3292",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3294",
+          "newActorID": "455",
+          "newTargetID": "3305",
+          "hand": true
+        },
+        {
+          "targetID": "3301",
+          "newActorID": "1619",
+          "newTargetID": "3292",
+          "hand": true
+        },
+        {
+          "targetID": "3302",
+          "newActorID": "1619",
+          "newTargetID": "3292",
+          "hand": true
+        },
+        {
+          "targetID": "3306",
+          "newActorID": "455",
+          "newTargetID": "3305",
+          "hand": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "3301",
+          "newActorID": "3124",
+          "newTargetID": "3302",
+          "hand": true
+        },
+        {
+          "actorID": "1617",
+          "targetID": "3302",
+          "newActorID": "3127",
+          "newTargetID": "3303",
+          "hand": true
+        },
+        {
+          "actorID": "1619",
+          "targetID": "3292",
+          "newTargetID": "3301",
+          "hand": true
+        },
+        {
+          "actorID": "3125",
+          "targetID": "3292",
+          "newTargetID": "3301",
+          "hand": true
+        },
+        {
+          "actorID": "3181",
+          "targetID": "3292",
+          "newActorID": "3182",
+          "newTargetID": "3292",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3183",
+          "targetID": "467",
+          "newActorID": "3297",
+          "hand": true
+        },
+        {
+          "actorID": "3184",
+          "targetID": "467",
+          "newActorID": "3295",
+          "hand": true
+        },
+        {
+          "actorID": "3295",
+          "newActorID": "3184",
+          "newTargetID": "467",
+          "hand": true
+        },
+        {
+          "actorID": "3295",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "813",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.04,
+          "newActorID": "3295",
+          "newTargetID": "3294",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3297",
+          "newActorID": "3183",
+          "newTargetID": "467",
+          "hand": true
+        },
+        {
+          "actorID": "3297",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "813",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.04,
+          "newActorID": "3297",
+          "newTargetID": "3294",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "3303",
+          "newActorID": "33",
+          "newTargetID": "3307",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "targetID": "3305",
+          "newTargetID": "3306",
+          "hand": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "3183",
+          "newActorID": "3297",
+          "hand": true
+        },
+        {
+          "actorID": "467",
+          "targetID": "3184",
+          "newActorID": "3295",
+          "hand": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "3306",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0.04,
+          "newActorID": "467",
+          "newTargetID": "813",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "3124",
+          "attributes": {
+            "name": {
+              "from": "Temporary Fence Removal Receipt",
+              "to": "Temporary Removal Receipt"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3292",
+          "name": "Way Stone -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3294",
+          "name": "Way Stone with Chisel -  justMade &written +map",
+          "category": false
+        },
+        {
+          "id": "3295",
+          "name": "Permanent Map with Mallet -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3297",
+          "name": "Charcoal Map with Mallet -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3298",
+          "name": "Partial Notice Working",
+          "category": false
+        },
+        {
+          "id": "3299",
+          "name": "Unsigned Notice Working",
+          "category": false
+        },
+        {
+          "id": "3300",
+          "name": "Removal Notice Working",
+          "category": false
+        },
+        {
+          "id": "3301",
+          "name": "Way Stone with Unsigned Notice -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3302",
+          "name": "Way Stone with Partial Notice -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3303",
+          "name": "Way Stone with Removal Notice -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3304",
+          "name": "Ancient Way Stone -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3305",
+          "name": "New Way Stone -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3306",
+          "name": "Way Stone with Chisel -  &written +map",
+          "category": false
+        },
+        {
+          "id": "3307",
+          "name": "Way Stone -  noticeRemoved &written +map",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "4b8e8f55980dac8687b02ab7e30319d482f104e2",
+      "message": "Can pack snow around ice hole to insulate it (like a snow floor), allowing you to build a fishing shack around an ice hole.",
+      "date": "2019-11-21T02:18:36.000Z",
+      "addedObjectIDs": [
+        "3291"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "2411",
+          "targetID": "1227",
+          "newTargetUses": "-1",
+          "newTargetID": "3291",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1227",
+          "name": "@ Any Ice Hole",
+          "category": true
+        },
+        {
+          "id": "3291",
+          "name": "Ice Hole with Snow Floor",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "2dd66893ebcfd770b69405aedf42bea85da11ffd",
+      "message": "Pine wall viable.  Requires but does not cost rope.  Cost:  1 shaft and 1 pine needles.  Pine floors also possible.  Downside to pine walls:  less insulating, and can be chopped down instantly with an axe.",
+      "date": "2019-11-21T00:26:14.000Z",
+      "addedObjectIDs": [
+        "3290"
+      ],
+      "removedObjectIDs": [
+        "101",
+        "103",
+        "104"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "3288",
+          "newActorID": "96",
+          "newTargetID": "67",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "111",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "112",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "113",
+          "newActorID": "334",
+          "newTargetID": "72",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "3290",
+          "newActorID": "462",
+          "newTargetID": "96",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "3288",
+          "newActorID": "59",
+          "newTargetID": "106",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "67",
+          "targetID": "96",
+          "newTargetID": "3288",
+          "hand": true
+        },
+        {
+          "actorID": "96",
+          "targetID": "486",
+          "newActorID": "107",
+          "newTargetID": "3290",
+          "hand": true
+        },
+        {
+          "actorID": "96",
+          "targetID": "67",
+          "newTargetID": "3288",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "111",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "112",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "113",
+          "newActorID": "334",
+          "newTargetID": "1850",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "101",
+          "newTargetID": "103",
+          "hand": true
+        },
+        {
+          "actorID": "92",
+          "targetID": "104",
+          "newTargetID": "101",
+          "hand": true
+        },
+        {
+          "actorID": "92",
+          "targetID": "105",
+          "newTargetID": "104",
+          "hand": true
+        },
+        {
+          "actorID": "92",
+          "targetID": "92",
+          "newTargetID": "105",
+          "hand": true
+        },
+        {
+          "actorID": "96",
+          "targetID": "103",
+          "newTargetID": "106",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "3288",
+          "name": "Shaft with Pine Needles",
+          "category": false
+        },
+        {
+          "id": "3290",
+          "name": "Pine Floor -  groundOnly",
+          "category": false
+        }
+      ]
+    }
+  ]
+}

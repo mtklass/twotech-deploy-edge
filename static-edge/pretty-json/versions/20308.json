@@ -1,0 +1,7854 @@
+{
+  "id": "20308",
+  "date": "2023-10-22T15:07:19.000Z",
+  "commits": [
+    {
+      "sha": "e7f4a356f47717c68947b67747d4428832552044",
+      "message": "Replaced new hat sprites",
+      "date": "2023-10-22T11:36:46.000Z",
+      "objectChanges": [
+        {
+          "id": "14521",
+          "attributes": {
+            "name": {
+              "from": "Witch Hat",
+              "to": "Black Witch Hat"
+            }
+          }
+        },
+        {
+          "id": "14522",
+          "attributes": {
+            "name": {
+              "from": "Witch Hat",
+              "to": "Pink Witch Hat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "4aa309350b6e10f1082023511fe3803918f2665a",
+      "message": "Bronze froe should not play creation sound when removed from boards",
+      "date": "2023-10-22T10:54:56.000Z"
+    },
+    {
+      "sha": "7335569d59c9a5c29aa5eacd588ab51e16ac8d98",
+      "message": "Wrong creation sound for bear hats",
+      "date": "2023-10-22T10:28:37.000Z"
+    },
+    {
+      "sha": "aed940f6f44ed1b0a77b593231fbceb8a88ba6e4",
+      "message": "Can pick up an arrow from or drop one on to a pile with a bow",
+      "date": "2023-10-22T10:25:50.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "151",
+          "targetID": "6829",
+          "newTargetUses": "-1",
+          "newActorID": "152",
+          "newTargetID": "6829",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "151",
+          "targetID": "6829",
+          "targetUses": "last",
+          "newActorID": "152",
+          "newTargetID": "148",
+          "hand": true
+        },
+        {
+          "actorID": "152",
+          "targetID": "148",
+          "newTargetUses": "last",
+          "newActorID": "151",
+          "newTargetID": "6829",
+          "hand": true
+        },
+        {
+          "actorID": "152",
+          "targetID": "6829",
+          "newTargetUses": "+1",
+          "newActorID": "151",
+          "newTargetID": "6829",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "e43a4898547c959ecde265134583ecc724579577",
+      "message": "These fences with hitched horse should be floor hugging",
+      "date": "2023-10-22T10:20:43.000Z"
+    },
+    {
+      "sha": "952e36c9978d33ad89ebec76665b85037e7a2081",
+      "message": "Can put flat rock on to or pick up from stack with tongs",
+      "date": "2023-10-22T10:13:03.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "10236",
+          "targetID": "1836",
+          "newTargetUses": "+1",
+          "newActorID": "239",
+          "newTargetID": "1836",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10236",
+          "targetID": "291",
+          "newTargetUses": "last",
+          "newActorID": "239",
+          "newTargetID": "1836",
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "1836",
+          "newTargetUses": "-1",
+          "newActorID": "10236",
+          "newTargetID": "1836",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "239",
+          "targetID": "1836",
+          "targetUses": "last",
+          "newActorID": "10236",
+          "newTargetID": "291",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "265b1963f30c4de646f5b298b81460c491b766c8",
+      "message": "Stack of glass bottles don't block walking",
+      "date": "2023-10-22T10:08:05.000Z"
+    },
+    {
+      "sha": "d99282abe66e179e09f835f899416db16b91a380",
+      "message": "Adze instead of axe to dismantle spinning wheel",
+      "date": "2023-10-16T18:05:56.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "6400",
+          "newActorID": "462",
+          "newTargetID": "14519",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "6400",
+          "newActorID": "334",
+          "newTargetID": "14519",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "f727ccaeabca2f10a670b46d619296cbab8ab01b",
+      "message": "Can stack harvested flax",
+      "date": "2023-10-16T14:32:41.000Z",
+      "addedObjectIDs": [
+        "14523",
+        "14524",
+        "14525",
+        "14526"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14453",
+          "newTargetUses": "-1",
+          "newActorID": "14439",
+          "newTargetID": "14453",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14453",
+          "targetUses": "last",
+          "newActorID": "14439",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "targetID": "14524",
+          "newActorID": "14430",
+          "newTargetID": "14429",
+          "hand": true
+        },
+        {
+          "targetID": "14525",
+          "newTargetUses": "-1",
+          "newActorID": "14430",
+          "newTargetID": "14526",
+          "hand": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14525",
+          "newTargetUses": "-1",
+          "newActorID": "14429",
+          "newTargetID": "14526",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "actorUses": "max",
+          "targetID": "14525",
+          "newTargetUses": "-1",
+          "newActorID": "14524",
+          "newTargetID": "14526",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "targetID": "14429",
+          "targetUses": "max",
+          "newTargetID": "14524",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14525",
+          "newTargetUses": "-1",
+          "newActorID": "14429",
+          "newTargetID": "14526",
+          "hand": true
+        },
+        {
+          "actorID": "14457",
+          "targetID": "235",
+          "newTargetID": "14455",
+          "hand": true
+        },
+        {
+          "actorID": "64",
+          "targetID": "14524",
+          "newActorID": "64",
+          "newTargetID": "14440",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "66",
+          "targetID": "14524",
+          "newActorID": "66",
+          "newTargetID": "14440",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14425",
+          "newActorID": "14429",
+          "newTargetID": "14431",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14431",
+          "newActorID": "14429",
+          "newTargetID": "14432",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14432",
+          "newActorID": "14429",
+          "newTargetID": "14433",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14433",
+          "newActorID": "14429",
+          "newTargetID": "14434",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14434",
+          "newActorID": "14429",
+          "newTargetID": "14435",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14435",
+          "newActorID": "14429",
+          "newTargetID": "14436",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14436",
+          "newActorID": "14429",
+          "newTargetID": "14437",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14425",
+          "newActorID": "14429",
+          "newTargetID": "14431",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14431",
+          "newActorID": "14429",
+          "newTargetID": "14432",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14432",
+          "newActorID": "14429",
+          "newTargetID": "14433",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14433",
+          "newActorID": "14429",
+          "newTargetID": "14434",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14434",
+          "newActorID": "14429",
+          "newTargetID": "14435",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14435",
+          "newActorID": "14429",
+          "newTargetID": "14436",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14436",
+          "newActorID": "14429",
+          "newTargetID": "14437",
+          "hand": true
+        },
+        {
+          "actorID": "64",
+          "targetID": "14429",
+          "targetUses": "max",
+          "newActorID": "64",
+          "newTargetID": "14440",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "14525",
+          "name": "@ Ripe Flax",
+          "category": true
+        },
+        {
+          "id": "14526",
+          "name": "@ Ripe Flax - 1 use less",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "dd4c48bec3345ee45aa8f5e079407131a7492e47",
+      "message": "Minor changes to bee wax names and containability",
+      "date": "2023-10-16T14:15:30.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "14415",
+          "targetID": "235",
+          "newTargetID": "14416",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "14414",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Dirty Bee Wax",
+              "to": "Bowl of Cooled Dirty Bee Wax"
+            }
+          }
+        },
+        {
+          "id": "14420",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Dirty Bee Wax - justPoured",
+              "to": "Bowl of Cooled Dirty Bee Wax - justPoured"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "e0e4c4b27b662cad378826e56ada4ef2583232e1",
+      "message": "Removed Message in a Bottle",
+      "date": "2023-10-16T13:55:32.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "1615",
+          "targetID": "3338",
+          "newTargetID": "7202",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "7202",
+          "attributes": {
+            "name": {
+              "from": "Message in a Bottle  -  &written",
+              "to": "(outdated) Message in a Bottle  -  &written"
+            }
+          }
+        },
+        {
+          "id": "7206",
+          "attributes": {
+            "name": {
+              "from": "Message in a Bottle  -  &written water",
+              "to": "(outdated) Message in a Bottle  -  &written water"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "14b9a0c1e88ee908d98e1f1a4ed47f83dab82603",
+      "message": "Costume",
+      "date": "2023-10-15T05:59:57.000Z",
+      "addedObjectIDs": [
+        "14520",
+        "14521",
+        "14522",
+        "3211"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "2883",
+          "newActorID": "964",
+          "newTargetID": "3211",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "0a1f074834ad709691203027eb693cb6605c8d4e",
+      "message": "Removed the old recipe of spinning wheel",
+      "date": "2023-10-14T18:25:46.000Z",
+      "removedTransitions": [
+        {
+          "actorID": "104",
+          "targetID": "557",
+          "newTargetID": "6416",
+          "hand": true
+        },
+        {
+          "actorID": "59",
+          "targetID": "6417",
+          "newTargetID": "6400",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "6416",
+          "attributes": {
+            "name": {
+              "from": "Spinning Wheel Frame",
+              "to": "(outdated) Spinning Wheel Frame"
+            }
+          }
+        },
+        {
+          "id": "6417",
+          "attributes": {
+            "name": {
+              "from": "Spinning Wheel Frame and Wheel",
+              "to": "(outdated) Spinning Wheel Frame and Wheel"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "5f7c9142e8f657f2feb2873148e834eae48abb5f",
+      "message": "Can chop wooden flywheel",
+      "date": "2023-10-14T18:24:14.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "11665",
+          "newActorUses": "-1",
+          "targetID": "14517",
+          "newActorID": "11665",
+          "newTargetID": "14302",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "11665",
+          "name": "@ Any Axe",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "cc6063f1713e2dcede5777cf986da2f4e1da98fe",
+      "message": "Can make sacks from linen",
+      "date": "2023-10-14T17:53:54.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "59",
+          "targetID": "14486",
+          "newTargetID": "7573",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "a65b27db4f01450439b33de3ea7b508706b5588f",
+      "message": "Rubber dough bucket should not be contained sideway",
+      "date": "2023-10-14T17:41:20.000Z"
+    },
+    {
+      "sha": "1b042206d430511d48508a9a060bfb551a10a8f2",
+      "message": "Consistent sack positioning",
+      "date": "2023-10-14T15:26:49.000Z",
+      "objectChanges": [
+        {
+          "id": "11611",
+          "attributes": {
+            "name": {
+              "from": "Sack of Silver Flakes",
+              "to": "Sack of Silver Flakes  - 1"
+            }
+          }
+        },
+        {
+          "id": "11616",
+          "attributes": {
+            "name": {
+              "from": "Sack of Gold Flakes",
+              "to": "Sack of Gold Flakes  - 1"
+            }
+          }
+        },
+        {
+          "id": "12078",
+          "attributes": {
+            "name": {
+              "from": "Sack of Bagasse - 3",
+              "to": "Sack of Bagasse  - 3"
+            }
+          }
+        },
+        {
+          "id": "12081",
+          "attributes": {
+            "name": {
+              "from": "Sack of Bagasse",
+              "to": "Sack of Bagasse  - 1"
+            }
+          }
+        },
+        {
+          "id": "12084",
+          "attributes": {
+            "name": {
+              "from": "Sack of Glasswort Ashes - 3",
+              "to": "Sack of Glasswort Ashes  - 3"
+            }
+          }
+        },
+        {
+          "id": "12086",
+          "attributes": {
+            "name": {
+              "from": "Sack of Glasswort Ashes",
+              "to": "Sack of Glasswort Ashes  - 1"
+            }
+          }
+        },
+        {
+          "id": "12089",
+          "attributes": {
+            "name": {
+              "from": "Sack of Dried Beans - 3",
+              "to": "Sack of Dried Beans  - 3"
+            }
+          }
+        },
+        {
+          "id": "12091",
+          "attributes": {
+            "name": {
+              "from": "Sack of Dried Beans",
+              "to": "Sack of Dried Beans  - 1"
+            }
+          }
+        },
+        {
+          "id": "13049",
+          "attributes": {
+            "name": {
+              "from": "Sack of Rice",
+              "to": "Sack of Rice  - 1"
+            }
+          }
+        },
+        {
+          "id": "14512",
+          "attributes": {
+            "name": {
+              "from": "Sack of Roasted Cocoa Beans",
+              "to": "Sack of Roasted Cocoa Beans  - 1"
+            }
+          }
+        },
+        {
+          "id": "7578",
+          "attributes": {
+            "name": {
+              "from": "Sack of Wheat",
+              "to": "Sack of Wheat  - 1"
+            }
+          }
+        },
+        {
+          "id": "7579",
+          "attributes": {
+            "name": {
+              "from": "Sack of Flour",
+              "to": "Sack of Flour  - 1"
+            }
+          }
+        },
+        {
+          "id": "7584",
+          "attributes": {
+            "name": {
+              "from": "Sack of Corn",
+              "to": "Sack of Corn  - 1"
+            }
+          }
+        },
+        {
+          "id": "7648",
+          "attributes": {
+            "name": {
+              "from": "Sack of Bone Meal",
+              "to": "Sack of Bone Meal  - 1"
+            }
+          }
+        },
+        {
+          "id": "7650",
+          "attributes": {
+            "name": {
+              "from": "Sack of Bone Meal - 3",
+              "to": "Sack of Bone Meal  - 3"
+            }
+          }
+        },
+        {
+          "id": "7651",
+          "attributes": {
+            "name": {
+              "from": "Sack of Bone Meal - 4",
+              "to": "Sack of Bone Meal  - 4"
+            }
+          }
+        },
+        {
+          "id": "7705",
+          "attributes": {
+            "name": {
+              "from": "Sack of Salt",
+              "to": "Sack of Salt  - 1"
+            }
+          }
+        },
+        {
+          "id": "7707",
+          "attributes": {
+            "name": {
+              "from": "Sack of Salt - 3",
+              "to": "Sack of Salt  - 3"
+            }
+          }
+        },
+        {
+          "id": "7708",
+          "attributes": {
+            "name": {
+              "from": "Sack of Salt - 4",
+              "to": "Sack of Salt  - 4"
+            }
+          }
+        },
+        {
+          "id": "7710",
+          "attributes": {
+            "name": {
+              "from": "Sack of Sugar",
+              "to": "Sack of Sugar  - 1"
+            }
+          }
+        },
+        {
+          "id": "7712",
+          "attributes": {
+            "name": {
+              "from": "Sack of Sugar - 3",
+              "to": "Sack of Sugar  - 3"
+            }
+          }
+        },
+        {
+          "id": "7713",
+          "attributes": {
+            "name": {
+              "from": "Sack of Sugar - 4",
+              "to": "Sack of Sugar  - 4"
+            }
+          }
+        },
+        {
+          "id": "7983",
+          "attributes": {
+            "name": {
+              "from": "Sack of Quicklime",
+              "to": "Sack of Quicklime  - 1"
+            }
+          }
+        },
+        {
+          "id": "7985",
+          "attributes": {
+            "name": {
+              "from": "Sack of Quicklime - 3",
+              "to": "Sack of Quicklime  - 3"
+            }
+          }
+        },
+        {
+          "id": "7989",
+          "attributes": {
+            "name": {
+              "from": "Sack of Sand",
+              "to": "Sack of Sand  - 1"
+            }
+          }
+        },
+        {
+          "id": "7991",
+          "attributes": {
+            "name": {
+              "from": "Sack of Sand - 3",
+              "to": "Sack of Sand  - 3"
+            }
+          }
+        },
+        {
+          "id": "8013",
+          "attributes": {
+            "name": {
+              "from": "Sack of Sulfur",
+              "to": "Sack of Sulfur  - 1"
+            }
+          }
+        },
+        {
+          "id": "8015",
+          "attributes": {
+            "name": {
+              "from": "Sack of Sulfur - 3",
+              "to": "Sack of Sulfur  - 3"
+            }
+          }
+        },
+        {
+          "id": "8664",
+          "attributes": {
+            "name": {
+              "from": "Sack of Palm Kernels",
+              "to": "Sack of Palm Kernels  - 1"
+            }
+          }
+        },
+        {
+          "id": "8667",
+          "attributes": {
+            "name": {
+              "from": "Sack of Palm Kernels - 4",
+              "to": "Sack of Palm Kernels  - 4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "e6b5a286d9ec485ee92c8f9aa47899674c6a1b9a",
+      "message": "Spinning wheel locked behind iron now",
+      "date": "2023-10-14T15:00:53.000Z",
+      "addedObjectIDs": [
+        "14514",
+        "14515",
+        "14516",
+        "14517",
+        "14518",
+        "14519"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14516",
+          "newTargetID": "6784",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14519",
+          "newTargetID": "14518",
+          "decay": "1s"
+        },
+        {
+          "targetID": "11977",
+          "newActorID": "557",
+          "newTargetID": "11975",
+          "hand": true
+        },
+        {
+          "targetID": "11978",
+          "newActorID": "6784",
+          "newTargetID": "11974",
+          "hand": true
+        },
+        {
+          "targetID": "11979",
+          "newActorID": "6472",
+          "newTargetID": "4436",
+          "hand": true
+        },
+        {
+          "targetID": "14272",
+          "newActorID": "6784",
+          "newTargetID": "470",
+          "hand": true
+        },
+        {
+          "targetID": "14514",
+          "newTargetUses": "-1",
+          "newActorID": "68",
+          "newTargetID": "14514",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14514",
+          "targetUses": "last",
+          "newActorID": "68",
+          "newTargetID": "14515",
+          "hand": true
+        },
+        {
+          "targetID": "14515",
+          "newActorID": "69",
+          "newTargetID": "6784",
+          "hand": true
+        },
+        {
+          "targetID": "14518",
+          "newActorID": "14517",
+          "newTargetID": "557",
+          "hand": true
+        },
+        {
+          "targetID": "6900",
+          "targetUses": "last",
+          "newActorID": "69",
+          "newTargetID": "14515",
+          "hand": true
+        },
+        {
+          "actorID": "14517",
+          "targetID": "557",
+          "newTargetID": "14518",
+          "hand": true
+        },
+        {
+          "actorID": "334",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "6400",
+          "newActorID": "334",
+          "newTargetID": "14519",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "68",
+          "targetID": "14514",
+          "newTargetUses": "+1",
+          "newTargetID": "14514",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "68",
+          "targetID": "14515",
+          "newTargetUses": "last",
+          "newTargetID": "14514",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "14515",
+          "newTargetUses": "last",
+          "newTargetID": "6900",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "6784",
+          "newTargetID": "14515",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "69",
+          "newTargetID": "14516",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14514",
+          "targetUses": "max",
+          "newActorID": "441",
+          "newTargetID": "14517",
+          "hand": true
+        },
+        {
+          "actorID": "8454",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "14518",
+          "newActorID": "441",
+          "newTargetID": "6400",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "11977",
+          "newActorID": "11975",
+          "newTargetID": "557",
+          "hand": true
+        },
+        {
+          "targetID": "11978",
+          "newActorID": "14476",
+          "newTargetID": "6784",
+          "hand": true
+        },
+        {
+          "targetID": "11979",
+          "newActorID": "4436",
+          "newTargetID": "6472",
+          "hand": true
+        },
+        {
+          "targetID": "14272",
+          "newActorID": "470",
+          "newTargetID": "6784",
+          "hand": true
+        },
+        {
+          "targetID": "6900",
+          "targetUses": "last",
+          "newActorID": "69",
+          "newTargetID": "6784",
+          "hand": true
+        },
+        {
+          "actorID": "11975",
+          "targetID": "557",
+          "newTargetID": "11977",
+          "hand": true
+        },
+        {
+          "actorID": "14476",
+          "targetID": "6784",
+          "newTargetID": "11978",
+          "hand": true
+        },
+        {
+          "actorID": "4436",
+          "targetID": "6472",
+          "newTargetID": "11979",
+          "hand": true
+        },
+        {
+          "actorID": "4436",
+          "targetID": "7605",
+          "newTargetID": "11976",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "6784",
+          "newTargetUses": "last",
+          "newTargetID": "6900",
+          "hand": true
+        },
+        {
+          "actorID": "69",
+          "targetID": "69",
+          "newTargetID": "6784",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "0cf959975f16d5092cd970115bc8c2964e042e62",
+      "message": "Can use stone kiln to dry malt",
+      "date": "2023-10-11T15:18:15.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "13452",
+          "targetID": "7181",
+          "newActorID": "13454",
+          "newTargetID": "7181",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "3eaf703fb5a9088e7046fa2c1e6f0532ee919764",
+      "message": "Sacks of roasted cocoa beans",
+      "date": "2023-10-10T18:44:07.000Z",
+      "addedObjectIDs": [
+        "14508",
+        "14509",
+        "14510",
+        "14511",
+        "14512",
+        "14513"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14513",
+          "newTargetID": "11847",
+          "decay": "1s"
+        },
+        {
+          "actorID": "11847",
+          "targetID": "14509",
+          "newActorID": "235",
+          "newTargetID": "14508",
+          "hand": true
+        },
+        {
+          "actorID": "11847",
+          "targetID": "14510",
+          "newActorID": "235",
+          "newTargetID": "14509",
+          "hand": true
+        },
+        {
+          "actorID": "11847",
+          "targetID": "14511",
+          "newActorID": "235",
+          "newTargetID": "14510",
+          "hand": true
+        },
+        {
+          "actorID": "11847",
+          "targetID": "14512",
+          "newActorID": "235",
+          "newTargetID": "14511",
+          "hand": true
+        },
+        {
+          "actorID": "11847",
+          "targetID": "7573",
+          "newActorID": "235",
+          "newTargetID": "14512",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14508",
+          "newActorID": "14513",
+          "newTargetID": "14509",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14509",
+          "newActorID": "14513",
+          "newTargetID": "14510",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14510",
+          "newActorID": "14513",
+          "newTargetID": "14511",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14511",
+          "newActorID": "14513",
+          "newTargetID": "14512",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14512",
+          "newActorID": "14513",
+          "newTargetID": "7573",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "17781fa396e2fc63ec42dcaec5ff2613db3d30f9",
+      "message": "Decay of dead baby animals is down from 5 to 2 minutes",
+      "date": "2023-10-10T17:43:25.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "1350",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1486",
+          "decay": "2m"
+        },
+        {
+          "targetID": "1487",
+          "decay": "2m"
+        },
+        {
+          "targetID": "605",
+          "decay": "2m"
+        },
+        {
+          "targetID": "606",
+          "decay": "2m"
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "1350",
+          "decay": "5m"
+        },
+        {
+          "targetID": "1486",
+          "decay": "5m"
+        },
+        {
+          "targetID": "1487",
+          "decay": "5m"
+        },
+        {
+          "targetID": "605",
+          "decay": "5m"
+        },
+        {
+          "targetID": "606",
+          "decay": "5m"
+        }
+      ]
+    },
+    {
+      "sha": "d8aede482d1385ff98a8b222bf9938143ece7e76",
+      "message": "Steel wheelbarrow with gold ingots, and adjusted slot positions of steel wheelbarrow",
+      "date": "2023-10-10T17:30:37.000Z",
+      "addedObjectIDs": [
+        "14507"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "13611",
+          "newActorUses": "last",
+          "targetID": "7474",
+          "targetUses": "max",
+          "newActorID": "14507",
+          "hand": true
+        },
+        {
+          "actorID": "14507",
+          "newActorUses": "-1",
+          "newActorID": "14507",
+          "newTargetID": "7474",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14507",
+          "actorUses": "last",
+          "newActorID": "13611",
+          "newTargetID": "7474",
+          "hand": true
+        },
+        {
+          "actorID": "14507",
+          "newActorUses": "+1",
+          "targetID": "7474",
+          "targetUses": "max",
+          "newActorID": "14507",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "cad2d11c309c98b58099147dc001396b2cbdb56d",
+      "message": "Stack of mugs should be containable on table",
+      "date": "2023-10-10T17:14:19.000Z"
+    },
+    {
+      "sha": "effdde71bd5c957b65d0b9fce64725503f44c90e",
+      "message": "Drink milk and skim milk from mugs",
+      "date": "2023-10-09T18:32:26.000Z",
+      "addedObjectIDs": [
+        "14505",
+        "14506"
+      ],
+      "addedTransitions": [
+        {
+          "actorID": "13465",
+          "targetID": "1478",
+          "newActorID": "14505",
+          "newTargetID": "1479",
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "1479",
+          "newTargetUses": "-1",
+          "newActorID": "14505",
+          "newTargetID": "1479",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "1479",
+          "targetUses": "last",
+          "newActorID": "14505",
+          "newTargetID": "659",
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "1483",
+          "newTargetUses": "-1",
+          "newActorID": "14506",
+          "newTargetID": "1483",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "1483",
+          "targetUses": "last",
+          "newActorID": "14506",
+          "newTargetID": "659",
+          "hand": true
+        },
+        {
+          "actorID": "13465",
+          "targetID": "2124",
+          "newActorID": "14506",
+          "newTargetID": "1483",
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "newActorID": "13465",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "targetID": "1479",
+          "newTargetUses": "+1",
+          "newActorID": "13465",
+          "newTargetID": "1479",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "targetID": "1479",
+          "targetUses": "max",
+          "newActorID": "13465",
+          "newTargetID": "1491",
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "targetID": "235",
+          "newActorID": "13465",
+          "newTargetID": "1463",
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "targetID": "3351",
+          "newTargetUses": "last",
+          "newActorID": "13465",
+          "newTargetID": "3619",
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "targetID": "3619",
+          "newTargetUses": "+1",
+          "newActorID": "13465",
+          "newTargetID": "3619",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "13465",
+          "newTargetID": "1479",
+          "hand": true
+        },
+        {
+          "actorID": "14505",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "13465",
+          "newTargetID": "1479",
+          "hand": true
+        },
+        {
+          "actorID": "14506",
+          "newActorID": "13465",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "14506",
+          "targetID": "1483",
+          "newTargetUses": "+1",
+          "newActorID": "13465",
+          "newTargetID": "1483",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14506",
+          "targetID": "1483",
+          "targetUses": "max",
+          "newActorID": "13465",
+          "newTargetID": "2125",
+          "hand": true
+        },
+        {
+          "actorID": "14506",
+          "targetID": "235",
+          "newActorID": "13465",
+          "newTargetID": "1481",
+          "hand": true
+        },
+        {
+          "actorID": "14506",
+          "targetID": "3351",
+          "newTargetUses": "last",
+          "newActorID": "13465",
+          "newTargetID": "3622",
+          "hand": true
+        },
+        {
+          "actorID": "14506",
+          "targetID": "3622",
+          "newTargetUses": "+1",
+          "newActorID": "13465",
+          "newTargetID": "3622",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14506",
+          "targetID": "659",
+          "newTargetUses": "last",
+          "newActorID": "13465",
+          "newTargetID": "1483",
+          "hand": true
+        },
+        {
+          "actorID": "1463",
+          "targetID": "13465",
+          "newActorID": "235",
+          "newTargetID": "14505",
+          "hand": true
+        },
+        {
+          "actorID": "1481",
+          "targetID": "13465",
+          "newActorID": "235",
+          "newTargetID": "14506",
+          "hand": true
+        },
+        {
+          "actorID": "3593",
+          "newActorUses": "-1",
+          "targetID": "13465",
+          "newActorID": "3650",
+          "newTargetID": "14505",
+          "hand": true
+        },
+        {
+          "actorID": "3593",
+          "actorUses": "last",
+          "targetID": "13465",
+          "newActorID": "3617",
+          "newTargetID": "14505",
+          "hand": true
+        },
+        {
+          "actorID": "3596",
+          "newActorUses": "-1",
+          "targetID": "13465",
+          "newActorID": "3653",
+          "newTargetID": "14506",
+          "hand": true
+        },
+        {
+          "actorID": "3596",
+          "actorUses": "last",
+          "targetID": "13465",
+          "newActorID": "3617",
+          "newTargetID": "14506",
+          "hand": true
+        },
+        {
+          "actorID": "3650",
+          "newActorUses": "-1",
+          "targetID": "13465",
+          "newActorID": "3650",
+          "newTargetID": "14505",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3650",
+          "actorUses": "last",
+          "targetID": "13465",
+          "newActorID": "3617",
+          "newTargetID": "14505",
+          "hand": true
+        },
+        {
+          "actorID": "3653",
+          "newActorUses": "-1",
+          "targetID": "13465",
+          "newActorID": "3653",
+          "newTargetID": "14506",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3653",
+          "actorUses": "last",
+          "targetID": "13465",
+          "newActorID": "3617",
+          "newTargetID": "14506",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "14502",
+          "attributes": {
+            "name": {
+              "from": "Mug of Apple Juice -  +noFeeding +emotEat-6_10 +alcohol5",
+              "to": "Mug of Apple Juice"
+            }
+          }
+        },
+        {
+          "id": "14503",
+          "attributes": {
+            "name": {
+              "from": "Mug of Orange Juice -  +noFeeding +emotEat-6_10 +alcohol5",
+              "to": "Mug of Orange Juice"
+            }
+          }
+        },
+        {
+          "id": "14504",
+          "attributes": {
+            "name": {
+              "from": "Mug of Lemonade -  +noFeeding +emotEat-6_10 +alcohol5",
+              "to": "Mug of Lemonade"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "6b727ee3f4b7ff80a070caa7e0e3f9224390f0a6",
+      "message": "Minor name changes",
+      "date": "2023-10-09T18:20:58.000Z",
+      "objectChanges": [
+        {
+          "id": "11889",
+          "attributes": {
+            "name": {
+              "from": "Rolling Pin -  +contTable",
+              "to": "Rolling Pin"
+            }
+          }
+        },
+        {
+          "id": "1253",
+          "attributes": {
+            "name": {
+              "from": "Squash Seed",
+              "to": "(outdated) Squash Seed"
+            }
+          }
+        },
+        {
+          "id": "14218",
+          "attributes": {
+            "name": {
+              "from": "Blooming Hibiscus test",
+              "to": "Blooming Hibiscus"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "c771fa09e41b80cb853645ec4a2f0485da9194cf",
+      "message": "New bottles and bottle sprites",
+      "date": "2023-10-07T11:31:34.000Z",
+      "addedObjectIDs": [
+        "14491",
+        "14492",
+        "14493",
+        "14494",
+        "14495",
+        "14496",
+        "14497",
+        "14498",
+        "14499",
+        "14500",
+        "14501",
+        "14502",
+        "14503",
+        "14504",
+        "3337",
+        "3338",
+        "3339",
+        "3349",
+        "3351",
+        "3352",
+        "3353",
+        "3354",
+        "3359",
+        "3360",
+        "3592",
+        "3593",
+        "3594",
+        "3596",
+        "3597",
+        "3598",
+        "3601",
+        "3602",
+        "3603",
+        "3604",
+        "3606",
+        "3607",
+        "3610",
+        "3613",
+        "3615",
+        "3616",
+        "3617",
+        "3618",
+        "3619",
+        "3620",
+        "3622",
+        "3624",
+        "3625",
+        "3628",
+        "3629",
+        "3630",
+        "3631",
+        "3633",
+        "3634",
+        "3635",
+        "3636",
+        "3638",
+        "3639",
+        "3640",
+        "3643",
+        "3644",
+        "3645",
+        "3646",
+        "3648",
+        "3649",
+        "3650",
+        "3651",
+        "3653",
+        "3654",
+        "3655",
+        "3658",
+        "3659",
+        "3660",
+        "3661",
+        "3663",
+        "3664",
+        "3665",
+        "3666",
+        "3668",
+        "3669",
+        "3670",
+        "3673",
+        "3674",
+        "3675",
+        "3676",
+        "3678",
+        "3679",
+        "3680",
+        "3681",
+        "3682",
+        "3683",
+        "3684",
+        "3685",
+        "3686",
+        "3687",
+        "3688",
+        "3689",
+        "3690",
+        "3691",
+        "3692",
+        "3693",
+        "3695",
+        "3696",
+        "3697",
+        "3698",
+        "3700",
+        "3710",
+        "3716",
+        "3717",
+        "3718",
+        "3719",
+        "3720",
+        "3737",
+        "3738",
+        "3739",
+        "3740",
+        "3741",
+        "4075",
+        "4076",
+        "4186",
+        "4316",
+        "4317",
+        "4318",
+        "4320",
+        "4321",
+        "4322",
+        "4323",
+        "4336",
+        "4337",
+        "4339",
+        "4340",
+        "4341",
+        "4342",
+        "4343",
+        "4832",
+        "4834"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "10391",
+          "newTargetID": "3352",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10392",
+          "newTargetID": "3353",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10393",
+          "newTargetID": "3354",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10394",
+          "newTargetID": "3700",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10399",
+          "newTargetID": "3613",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10401",
+          "newTargetID": "3610",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10407",
+          "newTargetID": "3616",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10423",
+          "newTargetID": "3601",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10424",
+          "newTargetID": "3673",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10425",
+          "newTargetID": "3628",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10426",
+          "newTargetID": "3593",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10427",
+          "newTargetID": "3665",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10428",
+          "newTargetID": "3619",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10429",
+          "newTargetID": "3596",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10430",
+          "newTargetID": "3668",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10431",
+          "newTargetID": "3622",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10527",
+          "newTargetID": "4316",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10528",
+          "newTargetID": "4317",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10546",
+          "newTargetID": "4336",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10547",
+          "newTargetID": "4336",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10548",
+          "newTargetID": "4337",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14491",
+          "newTargetUses": "-1",
+          "newTargetID": "14491",
+          "targetRemains": true,
+          "decay": "6s",
+          "move": 1
+        },
+        {
+          "targetID": "14492",
+          "newTargetID": "14492",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "14493",
+          "newTargetUses": "-1",
+          "newTargetID": "14493",
+          "targetRemains": true,
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "14493",
+          "targetUses": "last",
+          "newTargetID": "14492",
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "14494",
+          "newTargetID": "10402",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14495",
+          "newTargetID": "10265",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14496",
+          "newTargetID": "10405",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14497",
+          "newTargetID": "10263",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14498",
+          "newTargetID": "10406",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14499",
+          "newTargetID": "10267",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3339",
+          "newTargetID": "3337",
+          "decay": "10s"
+        },
+        {
+          "targetID": "3359",
+          "newTargetID": "3354",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3360",
+          "newTargetID": "3354",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3616",
+          "newTargetID": "3344",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3617",
+          "newTargetID": "3338",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3682",
+          "newTargetID": "3681",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3684",
+          "newTargetID": "3680",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3687",
+          "newTargetUses": "-1",
+          "newTargetID": "3338",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3689",
+          "newTargetID": "1895",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3690",
+          "newTargetID": "1897",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3691",
+          "newTargetID": "1894",
+          "decay": "1s"
+        },
+        {
+          "targetID": "3692",
+          "newTargetID": "3013",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4317",
+          "newTargetID": "4316",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4666",
+          "targetUses": "last",
+          "newTargetID": "14492",
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "4829",
+          "targetUses": "last",
+          "newTargetID": "14493",
+          "decay": "6s",
+          "move": 1
+        },
+        {
+          "targetID": "4836",
+          "targetUses": "last",
+          "newTargetID": "14492",
+          "decay": "3s",
+          "move": 3
+        },
+        {
+          "targetID": "5296",
+          "newTargetID": "3592",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10395",
+          "newActorID": "3360",
+          "newTargetID": "10263",
+          "hand": true
+        },
+        {
+          "targetID": "10396",
+          "newActorID": "3360",
+          "newTargetID": "10267",
+          "hand": true
+        },
+        {
+          "targetID": "10398",
+          "newActorID": "3360",
+          "newTargetID": "10265",
+          "hand": true
+        },
+        {
+          "targetID": "10400",
+          "newActorID": "3616",
+          "newTargetID": "6892",
+          "hand": true
+        },
+        {
+          "targetID": "10402",
+          "newActorID": "3616",
+          "newTargetID": "10265",
+          "hand": true
+        },
+        {
+          "targetID": "10405",
+          "newActorID": "3616",
+          "newTargetID": "10263",
+          "hand": true
+        },
+        {
+          "targetID": "10406",
+          "newActorID": "3616",
+          "newTargetID": "10267",
+          "hand": true
+        },
+        {
+          "targetID": "10408",
+          "newActorID": "3360",
+          "newTargetID": "6892",
+          "hand": true
+        },
+        {
+          "targetID": "10413",
+          "newActorID": "3360",
+          "newTargetID": "4733",
+          "hand": true
+        },
+        {
+          "targetID": "10414",
+          "newActorID": "3616",
+          "newTargetID": "4733",
+          "hand": true
+        },
+        {
+          "targetID": "14494",
+          "newActorID": "3616",
+          "newTargetID": "10265",
+          "hand": true
+        },
+        {
+          "targetID": "14496",
+          "newActorID": "3616",
+          "newTargetID": "10263",
+          "hand": true
+        },
+        {
+          "targetID": "14498",
+          "newActorID": "3616",
+          "newTargetID": "10267",
+          "hand": true
+        },
+        {
+          "targetID": "3349",
+          "newActorID": "2575",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "targetID": "3350",
+          "newActorID": "2575",
+          "newTargetID": "3344",
+          "hand": true
+        },
+        {
+          "targetID": "3351",
+          "newActorID": "3616",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "targetID": "3353",
+          "newActorID": "3354",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "newActorID": "3616",
+          "hand": true
+        },
+        {
+          "newActorID": "3360",
+          "hand": true
+        },
+        {
+          "targetID": "3681",
+          "newActorID": "3616",
+          "newTargetID": "3680",
+          "hand": true
+        },
+        {
+          "targetID": "3682",
+          "newActorID": "3616",
+          "newTargetID": "3680",
+          "hand": true
+        },
+        {
+          "targetID": "3683",
+          "newActorID": "3360",
+          "newTargetID": "3680",
+          "hand": true
+        },
+        {
+          "targetID": "3710",
+          "newActorID": "3360",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "targetID": "6891",
+          "newActorID": "2575",
+          "newTargetID": "6892",
+          "hand": true
+        },
+        {
+          "targetID": "7202",
+          "newActorID": "1615",
+          "newTargetID": "3338",
+          "hand": true
+        },
+        {
+          "actorID": "10263",
+          "newActorUses": "-1",
+          "targetID": "13465",
+          "newActorID": "10263",
+          "newTargetID": "14502",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10263",
+          "actorUses": "last",
+          "targetID": "13465",
+          "newActorID": "3338",
+          "newTargetID": "14502",
+          "hand": true
+        },
+        {
+          "actorID": "10265",
+          "newActorUses": "-1",
+          "targetID": "13465",
+          "newActorID": "10265",
+          "newTargetID": "14503",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10265",
+          "actorUses": "last",
+          "targetID": "13465",
+          "newActorID": "3338",
+          "newTargetID": "14503",
+          "hand": true
+        },
+        {
+          "actorID": "10267",
+          "newActorUses": "-1",
+          "targetID": "13465",
+          "newActorID": "10267",
+          "newTargetID": "14504",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10267",
+          "actorUses": "last",
+          "targetID": "13465",
+          "newActorID": "3338",
+          "newTargetID": "14504",
+          "hand": true
+        },
+        {
+          "actorID": "10272",
+          "targetID": "3351",
+          "newActorID": "1217",
+          "newTargetID": "10405",
+          "hand": true
+        },
+        {
+          "actorID": "10276",
+          "targetID": "3351",
+          "newActorID": "1217",
+          "newTargetID": "10402",
+          "hand": true
+        },
+        {
+          "actorID": "10280",
+          "targetID": "3351",
+          "newActorID": "1217",
+          "newTargetID": "10406",
+          "hand": true
+        },
+        {
+          "actorID": "10526",
+          "targetID": "10525",
+          "targetUses": "max",
+          "newActorID": "2795",
+          "newTargetID": "4316",
+          "hand": true
+        },
+        {
+          "actorID": "10549",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newActorID": "2795",
+          "newTargetID": "4337",
+          "hand": true
+        },
+        {
+          "actorID": "10549",
+          "targetID": "4337",
+          "newTargetUses": "+1",
+          "newActorID": "2795",
+          "newTargetID": "4337",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10549",
+          "targetID": "4337",
+          "targetUses": "max",
+          "newActorID": "2795",
+          "newTargetID": "4336",
+          "hand": true
+        },
+        {
+          "actorID": "14493",
+          "actorUses": "last",
+          "newActorID": "5307",
+          "newTargetID": "14492",
+          "hand": true
+        },
+        {
+          "actorID": "14493",
+          "newActorID": "5307",
+          "newTargetID": "14492",
+          "hand": true
+        },
+        {
+          "actorID": "14502",
+          "newActorID": "13465",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "14503",
+          "newActorID": "13465",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "14504",
+          "newActorID": "13465",
+          "targetPlayer": true,
+          "hand": true
+        },
+        {
+          "actorID": "1898",
+          "targetID": "85",
+          "newActorID": "3690",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2198",
+          "targetID": "2197",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "2197",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3700",
+          "newTargetUses": "-1",
+          "newActorID": "3352",
+          "newTargetID": "3700",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "3700",
+          "targetUses": "last",
+          "newActorID": "3352",
+          "newTargetID": "3352",
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "2574",
+          "newActorID": "3339",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "4336",
+          "newActorID": "10549",
+          "newTargetID": "4337",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "4337",
+          "newTargetUses": "-1",
+          "newActorID": "10549",
+          "newTargetID": "4337",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "286",
+          "targetID": "2165",
+          "newActorID": "286",
+          "newTargetID": "3700",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3012",
+          "targetID": "85",
+          "newActorID": "3692",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10263",
+          "newTargetID": "14496",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10265",
+          "newTargetID": "14494",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10267",
+          "newTargetID": "14498",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10395",
+          "newActorID": "3354",
+          "newTargetID": "14496",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10396",
+          "newActorID": "3354",
+          "newTargetID": "14498",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10398",
+          "newActorID": "3354",
+          "newTargetID": "14494",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10408",
+          "newActorID": "3354",
+          "newTargetID": "10400",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "3338",
+          "newTargetID": "3351",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "3680",
+          "newTargetID": "3682",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "3683",
+          "newActorID": "3354",
+          "newTargetID": "3682",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "3710",
+          "newActorID": "3354",
+          "newTargetID": "3351",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "6892",
+          "newTargetID": "10400",
+          "hand": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "13608",
+          "newActorID": "3353",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "3353",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "3352",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3700",
+          "hand": true
+        },
+        {
+          "actorID": "3352",
+          "targetID": "3700",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3700",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3353",
+          "newActorID": "235",
+          "newTargetID": "3359",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10263",
+          "newTargetID": "10395",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10265",
+          "newTargetID": "10398",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10267",
+          "newTargetID": "10396",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10400",
+          "newActorID": "3344",
+          "newTargetID": "10408",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10402",
+          "newActorID": "3344",
+          "newTargetID": "10398",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10405",
+          "newActorID": "3344",
+          "newTargetID": "10395",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10406",
+          "newActorID": "3344",
+          "newTargetID": "10396",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "10414",
+          "newActorID": "3616",
+          "newTargetID": "10413",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "3338",
+          "newTargetID": "3710",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "3351",
+          "newActorID": "3344",
+          "newTargetID": "3710",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "newActorID": "3616",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "3680",
+          "newTargetID": "3683",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "3681",
+          "newActorID": "3344",
+          "newTargetID": "3683",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "4733",
+          "newTargetID": "10413",
+          "hand": true
+        },
+        {
+          "actorID": "3354",
+          "targetID": "6892",
+          "newTargetID": "10408",
+          "hand": true
+        },
+        {
+          "targetID": "3341",
+          "newActorID": "3338",
+          "hand": true
+        },
+        {
+          "actorID": "3360",
+          "targetID": "10263",
+          "newTargetID": "10395",
+          "hand": true
+        },
+        {
+          "actorID": "3360",
+          "targetID": "10265",
+          "newTargetID": "10398",
+          "hand": true
+        },
+        {
+          "actorID": "3360",
+          "targetID": "10267",
+          "newTargetID": "10396",
+          "hand": true
+        },
+        {
+          "actorID": "3360",
+          "targetID": "3338",
+          "newTargetID": "3710",
+          "hand": true
+        },
+        {
+          "actorID": "3360",
+          "targetID": "3680",
+          "newTargetID": "3683",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "10495",
+          "newActorID": "33",
+          "newTargetID": "4317",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1892",
+          "newActorID": "33",
+          "newTargetID": "3691",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1893",
+          "newActorID": "33",
+          "newTargetID": "3689",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "3700",
+          "newActorID": "33",
+          "newTargetID": "2165",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3592",
+          "newActorUses": "-1",
+          "targetID": "11856",
+          "newActorID": "3592",
+          "newTargetID": "11857",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3592",
+          "actorUses": "last",
+          "targetID": "11856",
+          "newActorID": "3338",
+          "newTargetID": "11857",
+          "hand": true
+        },
+        {
+          "actorID": "3592",
+          "newActorUses": "-1",
+          "targetID": "5217",
+          "newActorID": "3592",
+          "newTargetID": "5218",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3592",
+          "actorUses": "last",
+          "targetID": "5217",
+          "newActorID": "3338",
+          "newTargetID": "5218",
+          "hand": true
+        },
+        {
+          "actorID": "3616",
+          "targetID": "10263",
+          "newTargetID": "14496",
+          "hand": true
+        },
+        {
+          "actorID": "3616",
+          "targetID": "10265",
+          "newTargetID": "14494",
+          "hand": true
+        },
+        {
+          "actorID": "3616",
+          "targetID": "10267",
+          "newTargetID": "14498",
+          "hand": true
+        },
+        {
+          "actorID": "3616",
+          "targetID": "3338",
+          "newTargetID": "3351",
+          "hand": true
+        },
+        {
+          "actorID": "3616",
+          "targetID": "3680",
+          "newTargetID": "3682",
+          "hand": true
+        },
+        {
+          "actorID": "3680",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3684",
+          "newTargetID": "3685",
+          "hand": true
+        },
+        {
+          "actorID": "3680",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3687",
+          "newTargetID": "3685",
+          "hand": true
+        },
+        {
+          "actorID": "3684",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3684",
+          "newTargetID": "3685",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3684",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3687",
+          "newTargetID": "3685",
+          "hand": true
+        },
+        {
+          "actorID": "3685",
+          "actorUses": "max",
+          "targetID": "3351",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "3681",
+          "hand": true
+        },
+        {
+          "actorID": "3685",
+          "actorUses": "max",
+          "targetID": "3681",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "3681",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3700",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "3700",
+          "newTargetID": "3352",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "3700",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3352",
+          "newTargetID": "3352",
+          "hand": true
+        },
+        {
+          "actorID": "3737",
+          "newActorUses": "-1",
+          "targetID": "676",
+          "newActorID": "3737",
+          "newTargetID": "2572",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "455",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3337",
+          "newActorID": "455",
+          "newTargetID": "3349",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3336",
+          "newActorID": "458",
+          "newTargetID": "2580",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "3339",
+          "newActorID": "458",
+          "newTargetID": "6889",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "6883",
+          "newActorID": "458",
+          "newTargetID": "3339",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "458",
+          "newActorUses": "-1",
+          "newActorWeight": 0.04,
+          "targetID": "6889",
+          "newActorID": "458",
+          "newTargetID": "6883",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4666",
+          "actorUses": "last",
+          "newActorID": "5308",
+          "newTargetID": "14492",
+          "hand": true
+        },
+        {
+          "actorID": "4666",
+          "newActorID": "5308",
+          "newTargetID": "14492",
+          "hand": true
+        },
+        {
+          "actorID": "4669",
+          "targetID": "4671",
+          "newActorID": "4667",
+          "newTargetID": "14491",
+          "hand": true
+        },
+        {
+          "actorID": "4752",
+          "newActorUses": "-1",
+          "targetID": "10400",
+          "newActorID": "4752",
+          "newTargetID": "10414",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4752",
+          "actorUses": "last",
+          "targetID": "10400",
+          "newActorID": "4751",
+          "newTargetID": "10414",
+          "hand": true
+        },
+        {
+          "actorID": "4821",
+          "newActorID": "5265",
+          "newTargetID": "14492",
+          "hand": true
+        },
+        {
+          "actorID": "5164",
+          "targetID": "5309",
+          "newActorID": "4546",
+          "newTargetID": "14492",
+          "hand": true
+        },
+        {
+          "actorID": "8580",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "3338",
+          "newTargetID": "8584",
+          "hand": true
+        },
+        {
+          "actorID": "8580",
+          "actorUses": "last",
+          "targetID": "8601",
+          "newActorID": "3338",
+          "newTargetID": "8599",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "10407",
+          "newTargetID": "3344",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10528",
+          "newTargetID": "10527",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10546",
+          "newTargetID": "10547",
+          "decay": "1s"
+        },
+        {
+          "targetID": "4666",
+          "targetUses": "last",
+          "newTargetID": "4831",
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "4829",
+          "targetUses": "last",
+          "newTargetID": "4833",
+          "decay": "6s",
+          "move": 1
+        },
+        {
+          "targetID": "4830",
+          "newTargetUses": "-1",
+          "newTargetID": "4830",
+          "targetRemains": true,
+          "decay": "6s",
+          "move": 1
+        },
+        {
+          "targetID": "4831",
+          "newTargetUses": "-1",
+          "newTargetID": "4831",
+          "targetRemains": true,
+          "decay": "3s",
+          "move": 1
+        },
+        {
+          "targetID": "4833",
+          "newTargetUses": "-1",
+          "newTargetID": "4833",
+          "targetRemains": true,
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "4833",
+          "targetUses": "last",
+          "newTargetID": "4831",
+          "decay": "6s",
+          "move": 2
+        },
+        {
+          "targetID": "4836",
+          "targetUses": "last",
+          "newTargetID": "4831",
+          "decay": "3s",
+          "move": 3
+        },
+        {
+          "targetID": "10392",
+          "newActorID": "10393",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "10409",
+          "newActorID": "10393",
+          "newTargetID": "10412",
+          "hand": true
+        },
+        {
+          "targetID": "10410",
+          "newActorID": "10407",
+          "newTargetID": "10412",
+          "hand": true
+        },
+        {
+          "targetID": "3350",
+          "newActorID": "10407",
+          "newTargetID": "2575",
+          "hand": true
+        },
+        {
+          "targetID": "6891",
+          "newActorID": "6892",
+          "newTargetID": "2575",
+          "hand": true
+        },
+        {
+          "targetID": "7202",
+          "newActorID": "1615",
+          "newTargetID": "6892",
+          "hand": true
+        },
+        {
+          "actorID": "10263",
+          "newActorUses": "-1",
+          "targetID": "3341",
+          "newActorID": "10263",
+          "newTargetID": "10264",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10263",
+          "actorUses": "last",
+          "targetID": "3341",
+          "newActorID": "6892",
+          "newTargetID": "10264",
+          "hand": true
+        },
+        {
+          "actorID": "10265",
+          "newActorUses": "-1",
+          "targetID": "3341",
+          "newActorID": "10265",
+          "newTargetID": "10266",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10265",
+          "actorUses": "last",
+          "targetID": "3341",
+          "newActorID": "6892",
+          "newTargetID": "10266",
+          "hand": true
+        },
+        {
+          "actorID": "10267",
+          "newActorUses": "-1",
+          "targetID": "3341",
+          "newActorID": "10267",
+          "newTargetID": "10268",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10267",
+          "actorUses": "last",
+          "targetID": "3341",
+          "newActorID": "6892",
+          "newTargetID": "10268",
+          "hand": true
+        },
+        {
+          "actorID": "10391",
+          "targetID": "10391",
+          "newActorID": "235",
+          "newTargetID": "10394",
+          "hand": true
+        },
+        {
+          "actorID": "10391",
+          "targetID": "10394",
+          "newTargetUses": "-1",
+          "newActorID": "235",
+          "newTargetID": "10394",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10391",
+          "targetID": "13608",
+          "newActorID": "10392",
+          "newTargetID": "13608",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10391",
+          "targetID": "250",
+          "newTargetUses": "-1",
+          "newActorID": "10392",
+          "newTargetID": "250",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10392",
+          "newActorID": "235",
+          "newTargetID": "10393",
+          "hand": true
+        },
+        {
+          "actorID": "10393",
+          "targetID": "10410",
+          "newActorID": "3344",
+          "newTargetID": "10409",
+          "hand": true
+        },
+        {
+          "actorID": "10393",
+          "targetID": "10412",
+          "newTargetID": "10409",
+          "hand": true
+        },
+        {
+          "actorID": "10394",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "10394",
+          "newTargetID": "10391",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10394",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "10391",
+          "newTargetID": "10391",
+          "hand": true
+        },
+        {
+          "actorID": "10415",
+          "actorUses": "max",
+          "targetID": "10400",
+          "newTargetUses": "last",
+          "newActorID": "235",
+          "newTargetID": "10422",
+          "hand": true
+        },
+        {
+          "actorID": "10415",
+          "actorUses": "max",
+          "targetID": "10422",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "10422",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10416",
+          "newActorUses": "-1",
+          "targetID": "10400",
+          "newActorID": "1217",
+          "newTargetID": "10419",
+          "hand": true
+        },
+        {
+          "actorID": "10417",
+          "newActorUses": "-1",
+          "targetID": "10400",
+          "newActorID": "10417",
+          "newTargetID": "10420",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10417",
+          "actorUses": "last",
+          "targetID": "10400",
+          "newActorID": "4751",
+          "newTargetID": "10420",
+          "hand": true
+        },
+        {
+          "actorID": "10423",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "10423",
+          "newTargetID": "1464",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10423",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "6892",
+          "newTargetID": "1464",
+          "hand": true
+        },
+        {
+          "actorID": "10426",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "10426",
+          "newTargetID": "1463",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10426",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "6892",
+          "newTargetID": "1463",
+          "hand": true
+        },
+        {
+          "actorID": "10429",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "10429",
+          "newTargetID": "1481",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "10429",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "6892",
+          "newTargetID": "1481",
+          "hand": true
+        },
+        {
+          "actorID": "10526",
+          "targetID": "10525",
+          "targetUses": "max",
+          "newActorID": "2795",
+          "newTargetID": "10527",
+          "hand": true
+        },
+        {
+          "actorID": "10549",
+          "targetID": "10548",
+          "newTargetUses": "+1",
+          "newActorID": "2795",
+          "newTargetID": "10548",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "10549",
+          "targetID": "10548",
+          "targetUses": "max",
+          "newActorID": "2795",
+          "newTargetID": "10547",
+          "hand": true
+        },
+        {
+          "actorID": "10549",
+          "targetID": "235",
+          "newTargetUses": "last",
+          "newActorID": "2795",
+          "newTargetID": "10548",
+          "hand": true
+        },
+        {
+          "actorID": "1898",
+          "targetID": "85",
+          "newActorID": "1897",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "10394",
+          "newTargetUses": "-1",
+          "newActorID": "10391",
+          "newTargetID": "10394",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "10394",
+          "targetUses": "last",
+          "newActorID": "10391",
+          "newTargetID": "10391",
+          "hand": true
+        },
+        {
+          "actorID": "2580",
+          "targetID": "2574",
+          "newActorID": "6889",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "10547",
+          "newActorID": "10549",
+          "newTargetID": "10548",
+          "hand": true
+        },
+        {
+          "actorID": "2795",
+          "targetID": "10548",
+          "newTargetUses": "-1",
+          "newActorID": "10549",
+          "newTargetID": "10548",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "286",
+          "targetID": "2165",
+          "newTargetID": "10394",
+          "hand": true
+        },
+        {
+          "actorID": "3012",
+          "targetID": "85",
+          "newActorID": "3013",
+          "newTargetID": "85",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10409",
+          "newActorID": "10393",
+          "newTargetID": "10410",
+          "hand": true
+        },
+        {
+          "actorID": "3344",
+          "targetID": "10412",
+          "newTargetID": "10410",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "10394",
+          "newTargetID": "2165",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "10495",
+          "newActorID": "33",
+          "newTargetID": "10528",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1892",
+          "newActorID": "33",
+          "newTargetID": "1894",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "1893",
+          "newActorID": "33",
+          "newTargetID": "1895",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4666",
+          "actorUses": "last",
+          "newActorID": "5308",
+          "newTargetID": "4831",
+          "hand": true
+        },
+        {
+          "actorID": "4666",
+          "newActorID": "5308",
+          "newTargetID": "4831",
+          "hand": true
+        },
+        {
+          "actorID": "4669",
+          "targetID": "4671",
+          "newActorID": "4667",
+          "newTargetID": "4830",
+          "hand": true
+        },
+        {
+          "actorID": "4821",
+          "newActorID": "5265",
+          "newTargetID": "4831",
+          "hand": true
+        },
+        {
+          "actorID": "4833",
+          "actorUses": "last",
+          "newActorID": "5307",
+          "newTargetID": "4831",
+          "hand": true
+        },
+        {
+          "actorID": "4833",
+          "newActorID": "5307",
+          "newTargetID": "4831",
+          "hand": true
+        },
+        {
+          "actorID": "5164",
+          "targetID": "5309",
+          "newActorID": "4546",
+          "newTargetID": "4831",
+          "hand": true
+        },
+        {
+          "actorID": "5296",
+          "newActorUses": "-1",
+          "targetID": "11856",
+          "newActorID": "5296",
+          "newTargetID": "11857",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "5296",
+          "actorUses": "last",
+          "targetID": "11856",
+          "newActorID": "6892",
+          "newTargetID": "11857",
+          "hand": true
+        },
+        {
+          "actorID": "5296",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "5296",
+          "newTargetID": "2799",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "5296",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "6892",
+          "newTargetID": "2799",
+          "hand": true
+        },
+        {
+          "actorID": "5296",
+          "newActorUses": "-1",
+          "targetID": "5217",
+          "newActorID": "5296",
+          "newTargetID": "5218",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "5296",
+          "actorUses": "last",
+          "targetID": "5217",
+          "newActorID": "6892",
+          "newTargetID": "5218",
+          "hand": true
+        },
+        {
+          "actorID": "6889",
+          "targetID": "13533",
+          "newActorID": "6883",
+          "newTargetID": "13533",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6889",
+          "targetID": "13553",
+          "newTargetUses": "-1",
+          "newActorID": "6883",
+          "newTargetID": "13553",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6889",
+          "targetID": "304",
+          "newTargetUses": "-1",
+          "newActorID": "6883",
+          "newTargetID": "304",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "8580",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "6892",
+          "newTargetID": "8584",
+          "hand": true
+        },
+        {
+          "actorID": "8580",
+          "actorUses": "last",
+          "targetID": "8601",
+          "newActorID": "6892",
+          "newTargetID": "8599",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "10263",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Apple Juice",
+              "to": "Apple Juice Bottle"
+            }
+          }
+        },
+        {
+          "id": "10264",
+          "attributes": {
+            "name": {
+              "from": "Glass of Apple Juice",
+              "to": "(outdated) Glass of Apple Juice"
+            }
+          }
+        },
+        {
+          "id": "10265",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Orange Juice",
+              "to": "Orange Juice Bottle"
+            }
+          }
+        },
+        {
+          "id": "10266",
+          "attributes": {
+            "name": {
+              "from": "Glass of Orange Juice",
+              "to": "(outdated) Glass of Orange Juice"
+            }
+          }
+        },
+        {
+          "id": "10267",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Lemonade",
+              "to": "Lemonade Bottle"
+            }
+          }
+        },
+        {
+          "id": "10268",
+          "attributes": {
+            "name": {
+              "from": "Glass of Lemonade",
+              "to": "(outdated) Glass of Lemonade"
+            }
+          }
+        },
+        {
+          "id": "10391",
+          "attributes": {
+            "name": {
+              "from": "Bowl with Raw Rubber Stopper",
+              "to": "(outdated) Bowl with Raw Rubber Stopper"
+            }
+          }
+        },
+        {
+          "id": "10392",
+          "attributes": {
+            "name": {
+              "from": "Bowl with Vulcanized Rubber Stopper",
+              "to": "(outdated) Bowl with Vulcanized Rubber Stopper"
+            }
+          }
+        },
+        {
+          "id": "10393",
+          "attributes": {
+            "name": {
+              "from": "Rubber Stopper",
+              "to": "(outdated) Rubber Stopper"
+            }
+          }
+        },
+        {
+          "id": "10394",
+          "attributes": {
+            "name": {
+              "from": "Bowl with Raw Rubber Stoppers",
+              "to": "(outdated) Bowl with Raw Rubber Stoppers"
+            }
+          }
+        },
+        {
+          "id": "10395",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Apple Juice  - stopper",
+              "to": "Sealed Apple Juice Bottle"
+            }
+          }
+        },
+        {
+          "id": "10396",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Lemonade  - stopper",
+              "to": "Sealed Lemonade Bottle"
+            }
+          }
+        },
+        {
+          "id": "10397",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Maple Syrup  - stopper",
+              "to": "Sealed Maple Syrup Bottle"
+            }
+          }
+        },
+        {
+          "id": "10398",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Orange Juice  - stopper",
+              "to": "Sealed Orange Juice Bottle"
+            }
+          }
+        },
+        {
+          "id": "10399",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Vinegar  - stopper",
+              "to": "(outdated) Bottle of Vinegar  - stopper"
+            }
+          }
+        },
+        {
+          "id": "10400",
+          "attributes": {
+            "name": {
+              "from": "Glass Bottle with Funnel",
+              "to": "Empty Wine Bottle with Funnel"
+            }
+          }
+        },
+        {
+          "id": "10401",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Vinegar  - funnel",
+              "to": "(outdated) Bottle of Vinegar  - funnel"
+            }
+          }
+        },
+        {
+          "id": "10402",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Orange Juice  - funnel",
+              "to": "Orange Juice Bottle with Funnel"
+            }
+          }
+        },
+        {
+          "id": "10403",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Maple Syrup  - funnel",
+              "to": "Maple Syrup Bottle with Funnel"
+            }
+          }
+        },
+        {
+          "id": "10405",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Apple Juice  - funnel",
+              "to": "Apple Juice Bottle with Funnel"
+            }
+          }
+        },
+        {
+          "id": "10406",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Lemonade  - funnel",
+              "to": "Lemonade Bottle with Funnel"
+            }
+          }
+        },
+        {
+          "id": "10407",
+          "attributes": {
+            "name": {
+              "from": "Glass Funnel  - justremoved",
+              "to": "(outdated) Glass Funnel  - justremoved"
+            }
+          }
+        },
+        {
+          "id": "10408",
+          "attributes": {
+            "name": {
+              "from": "Glass Bottle with Stopper",
+              "to": "Sealed Empty Wine Bottle"
+            }
+          }
+        },
+        {
+          "id": "10413",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Wine  - stopper",
+              "to": "Sealed Wine Bottle"
+            }
+          }
+        },
+        {
+          "id": "10414",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Wine  - funnel",
+              "to": "Wine Bottle with Funnel"
+            }
+          }
+        },
+        {
+          "id": "10423",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Cream",
+              "to": "(outdated) Bottle of Cream"
+            }
+          }
+        },
+        {
+          "id": "10424",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Cream  - stopper",
+              "to": "(outdated) Bottle of Cream  - stopper"
+            }
+          }
+        },
+        {
+          "id": "10425",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Cream  - funnel",
+              "to": "(outdated) Bottle of Cream  - funnel"
+            }
+          }
+        },
+        {
+          "id": "10426",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Whole Milk",
+              "to": "(outdated) Bottle of Whole Milk"
+            }
+          }
+        },
+        {
+          "id": "10427",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Whole Milk  - stopper",
+              "to": "(outdated) Bottle of Whole Milk  - stopper"
+            }
+          }
+        },
+        {
+          "id": "10428",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Whole Milk  - funnel",
+              "to": "(outdated) Bottle of Whole Milk  - funnel"
+            }
+          }
+        },
+        {
+          "id": "10429",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Skim Milk",
+              "to": "(outdated) Bottle of Skim Milk"
+            }
+          }
+        },
+        {
+          "id": "10430",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Skim Milk  - stopper",
+              "to": "(outdated) Bottle of Skim Milk  - stopper"
+            }
+          }
+        },
+        {
+          "id": "10431",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Skim Milk  - funnel",
+              "to": "(outdated) Bottle of Skim Milk  - funnel"
+            }
+          }
+        },
+        {
+          "id": "10527",
+          "attributes": {
+            "name": {
+              "from": "Full Bowl of Ground Pepper",
+              "to": "(outdated) Full Bowl of Ground Pepper"
+            }
+          }
+        },
+        {
+          "id": "10528",
+          "attributes": {
+            "name": {
+              "from": "Full Bowl of Ground Pepper -  just ground",
+              "to": "(outdated) Full Bowl of Ground Pepper -  just ground"
+            }
+          }
+        },
+        {
+          "id": "10547",
+          "attributes": {
+            "name": {
+              "from": "Full Bowl of Dry Rub",
+              "to": "(outdated) Full Bowl of Dry Rub"
+            }
+          }
+        },
+        {
+          "id": "10548",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Dry Rub",
+              "to": "(outdated) Bowl of Dry Rub"
+            }
+          }
+        },
+        {
+          "id": "4830",
+          "attributes": {
+            "name": {
+              "from": "Cow Mammoth  - wild pregnant female",
+              "to": "Sealed Slaked Lime Bottle"
+            },
+            "biomes": {
+              "from": [
+                5
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "4831",
+          "attributes": {
+            "name": {
+              "from": "Cow Mammoth  - wild sterile",
+              "to": "Slaked Lime Bottle with Funnel"
+            },
+            "biomes": {
+              "from": [
+                5
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "4833",
+          "attributes": {
+            "name": {
+              "from": "Cow Mammoth and Calf  - male",
+              "to": "Slaked Lime Bottle"
+            },
+            "biomes": {
+              "from": [
+                5
+              ],
+              "to": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "5296",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Vinegar",
+              "to": "(outdated) Bottle of Vinegar"
+            }
+          }
+        },
+        {
+          "id": "6889",
+          "attributes": {
+            "name": {
+              "from": "Blowpipe With Hot Glass Bottle",
+              "to": "Blowpipe with Hot Wine Bottle"
+            }
+          }
+        },
+        {
+          "id": "6890",
+          "attributes": {
+            "name": {
+              "from": "Blowpipe With Cool Glass Bottle",
+              "to": "Blowpipe with Cool Wine Bottle"
+            }
+          }
+        },
+        {
+          "id": "6891",
+          "attributes": {
+            "name": {
+              "from": "Blowpipe With Detached Glass Bottle",
+              "to": "Blowpipe with Detached Wine Bottle"
+            }
+          }
+        },
+        {
+          "id": "6892",
+          "attributes": {
+            "name": {
+              "from": "Glass Bottle",
+              "to": "Empty Wine Bottle"
+            }
+          }
+        },
+        {
+          "id": "8580",
+          "attributes": {
+            "name": {
+              "from": "Bottle of Maple Syrup",
+              "to": "Maple Syrup Bottle"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {},
+        {},
+        {},
+        {},
+        {
+          "id": "3680",
+          "name": "@ Pattern Bottle",
+          "category": true
+        },
+        {
+          "id": "3681",
+          "name": "@ Pattern Bottle with Funnel",
+          "category": true
+        },
+        {
+          "id": "3682",
+          "name": "@ Pattern Bottle with Funnel just inserted",
+          "category": true
+        },
+        {
+          "id": "3683",
+          "name": "@ Pattern Sealed Bottle",
+          "category": true
+        },
+        {
+          "id": "3684",
+          "name": "@ Pattern Bottle just poured",
+          "category": true
+        },
+        {
+          "id": "3685",
+          "name": "@ Pattern bowl of Bottle Stuff",
+          "category": true
+        },
+        {
+          "id": "3687",
+          "name": "@ Pattern bottle just emptied",
+          "category": true
+        },
+        {
+          "id": "5309",
+          "name": "@ Shot Mammoth cows",
+          "category": true
+        },
+        {
+          "id": "10409",
+          "name": "@ Bottles - stopper",
+          "category": true
+        },
+        {
+          "id": "10410",
+          "name": "@ Bottles - funnel",
+          "category": true
+        },
+        {
+          "id": "10412",
+          "name": "@ Bottles - open",
+          "category": true
+        },
+        {
+          "id": "10415",
+          "name": "@ Bottles - bowl elements",
+          "category": true
+        },
+        {
+          "id": "10416",
+          "name": "@ Bottles - crock elements",
+          "category": true
+        },
+        {
+          "id": "10417",
+          "name": "@ Bottles - barrel elements",
+          "category": true
+        },
+        {
+          "id": "10419",
+          "name": "@ Bottles - from crocks",
+          "category": true
+        },
+        {
+          "id": "10420",
+          "name": "@ Bottles - from barrels",
+          "category": true
+        },
+        {
+          "id": "10422",
+          "name": "@ Bottles - from bowls",
+          "category": true
+        },
+        {
+          "id": "13553",
+          "name": "@ Any Forge",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "4ed447642c44f5d07b051e8a0c99468d42abb31e",
+      "message": "Use of linen",
+      "date": "2023-10-07T10:33:22.000Z",
+      "addedObjectIDs": [
+        "14489",
+        "14490"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14489",
+          "decay": "1h"
+        },
+        {
+          "targetID": "14490",
+          "decay": "1h"
+        },
+        {
+          "targetID": "13368",
+          "newActorID": "14490",
+          "newTargetID": "13367",
+          "hand": true
+        },
+        {
+          "targetID": "14408",
+          "newActorID": "14490",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "14409",
+          "newActorID": "14490",
+          "newTargetID": "4647",
+          "hand": true
+        },
+        {
+          "targetID": "14411",
+          "newActorID": "14490",
+          "newTargetID": "14413",
+          "hand": true
+        },
+        {
+          "targetID": "14489",
+          "newActorID": "14490",
+          "hand": true
+        },
+        {
+          "actorID": "11667",
+          "newActorUses": "-1",
+          "targetID": "14473",
+          "newActorID": "11667",
+          "newTargetID": "8954",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14484",
+          "targetID": "13367",
+          "newTargetID": "13368",
+          "hand": true
+        },
+        {
+          "actorID": "14484",
+          "targetID": "235",
+          "newTargetID": "14408",
+          "hand": true
+        },
+        {
+          "actorID": "14490",
+          "newTargetID": "14489",
+          "hand": true
+        },
+        {
+          "actorID": "14490",
+          "targetID": "13367",
+          "newTargetID": "13368",
+          "hand": true
+        },
+        {
+          "actorID": "14490",
+          "targetID": "235",
+          "newTargetID": "14408",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "13368",
+          "newActorID": "6476",
+          "newTargetID": "13367",
+          "hand": true
+        },
+        {
+          "targetID": "14408",
+          "newActorID": "6476",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "14409",
+          "newActorID": "6476",
+          "newTargetID": "4647",
+          "hand": true
+        },
+        {
+          "targetID": "14411",
+          "newActorID": "6476",
+          "newTargetID": "14413",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "11667",
+          "name": "@ Any Shears",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "0a8758d62dcbf33d5e13d3937732680ecd990e90",
+      "message": "Replaced some flax sprites",
+      "date": "2023-10-06T17:07:16.000Z",
+      "removedObjectIDs": [
+        "14441",
+        "14442",
+        "14443",
+        "14444",
+        "14445",
+        "14450",
+        "14458",
+        "14459",
+        "14467"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14460",
+          "newTargetUses": "-1",
+          "newActorID": "14464",
+          "newTargetID": "14460",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14460",
+          "targetUses": "last",
+          "newActorID": "14464",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "targetID": "14465",
+          "newActorID": "14463",
+          "newTargetID": "6701",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "14441",
+          "newActorID": "14458",
+          "hand": true
+        },
+        {
+          "targetID": "14460",
+          "newTargetUses": "-1",
+          "newActorID": "14459",
+          "newTargetID": "14460",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14460",
+          "targetUses": "last",
+          "newActorID": "14459",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "targetID": "14463",
+          "newActorID": "14467",
+          "hand": true
+        },
+        {
+          "targetID": "14464",
+          "newActorID": "14459",
+          "hand": true
+        },
+        {
+          "targetID": "14465",
+          "newActorID": "14467",
+          "newTargetID": "6701",
+          "hand": true
+        },
+        {
+          "actorID": "14458",
+          "newTargetID": "14441",
+          "hand": true
+        },
+        {
+          "actorID": "14459",
+          "newTargetID": "14464",
+          "hand": true
+        },
+        {
+          "actorID": "14467",
+          "newTargetID": "14463",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "14441",
+          "name": "(outdated) Retted Flax",
+          "category": false
+        },
+        {
+          "id": "14442",
+          "name": "(outdated) Dried Flax",
+          "category": false
+        },
+        {
+          "id": "14443",
+          "name": "(outdated) Flax Scutching on Table - 0",
+          "category": false
+        },
+        {
+          "id": "14444",
+          "name": "(outdated) Flax Scutching on Table - 1",
+          "category": false
+        },
+        {
+          "id": "14445",
+          "name": "(outdated) Wooden Table - flaxOnGround",
+          "category": false
+        },
+        {
+          "id": "14450",
+          "name": "(outdated) Flax Scutching on Table - 6",
+          "category": false
+        },
+        {
+          "id": "14458",
+          "name": "(outdated) Retted Flax - held",
+          "category": false
+        },
+        {
+          "id": "14459",
+          "name": "Retted Flax - held",
+          "category": false
+        },
+        {
+          "id": "14467",
+          "name": "Dried Flax - held",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "be46c33b030c687691b3e27fa33f41161408d75b",
+      "message": "Linen sheets",
+      "date": "2023-10-04T18:01:42.000Z",
+      "addedObjectIDs": [
+        "14478",
+        "14479",
+        "14480",
+        "14481",
+        "14482",
+        "14483",
+        "14484",
+        "14485",
+        "14486",
+        "14487",
+        "14488"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14485",
+          "newTargetID": "7083",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14480",
+          "newTargetUses": "-1",
+          "newActorID": "33",
+          "newTargetID": "14480",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14480",
+          "targetUses": "last",
+          "newActorID": "33",
+          "newTargetID": "14485",
+          "hand": true
+        },
+        {
+          "targetID": "14482",
+          "newActorID": "14484",
+          "newTargetID": "14480",
+          "hand": true
+        },
+        {
+          "targetID": "14483",
+          "newActorID": "14484",
+          "hand": true
+        },
+        {
+          "targetID": "14486",
+          "newActorID": "14484",
+          "newTargetID": "14483",
+          "hand": true
+        },
+        {
+          "targetID": "14487",
+          "newActorID": "14484",
+          "newTargetID": "14486",
+          "hand": true
+        },
+        {
+          "targetID": "14488",
+          "newActorID": "14484",
+          "newTargetID": "14487",
+          "hand": true
+        },
+        {
+          "actorID": "11667",
+          "newActorUses": "-1",
+          "targetID": "14481",
+          "newActorID": "11667",
+          "newTargetID": "14482",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14473",
+          "targetID": "14473",
+          "newTargetID": "14478",
+          "hand": true
+        },
+        {
+          "actorID": "14473",
+          "targetID": "14478",
+          "newTargetID": "14479",
+          "hand": true
+        },
+        {
+          "actorID": "14478",
+          "targetID": "14473",
+          "newTargetID": "14479",
+          "hand": true
+        },
+        {
+          "actorID": "14479",
+          "targetID": "14421",
+          "newTargetID": "14481",
+          "hand": true
+        },
+        {
+          "actorID": "14479",
+          "targetID": "14480",
+          "targetUses": "max",
+          "newTargetID": "14421",
+          "hand": true
+        },
+        {
+          "actorID": "14484",
+          "newTargetID": "14483",
+          "hand": true
+        },
+        {
+          "actorID": "14484",
+          "targetID": "14483",
+          "newTargetID": "14486",
+          "hand": true
+        },
+        {
+          "actorID": "14484",
+          "targetID": "14486",
+          "newTargetID": "14487",
+          "hand": true
+        },
+        {
+          "actorID": "14484",
+          "targetID": "14487",
+          "newTargetID": "14488",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "14480",
+          "newTargetUses": "+1",
+          "newTargetID": "14480",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "7083",
+          "newTargetUses": "last",
+          "newTargetID": "14480",
+          "hand": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "14481",
+          "newActorID": "964",
+          "newTargetID": "14482",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "14421",
+          "attributes": {
+            "name": {
+              "from": "Warp Weighted Loom",
+              "to": "Warp Weighted Loom with Linen Warp"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        },
+        {
+          "id": "11667",
+          "name": "@ Any Shears",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "fcf4ce526e322763d11703ebec4ef450778aea36",
+      "message": "Replaced fabric sheets sprites",
+      "date": "2023-10-03T15:51:06.000Z",
+      "addedObjectIDs": [
+        "14475",
+        "14476",
+        "14477"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "11974",
+          "newActorID": "14476",
+          "hand": true
+        },
+        {
+          "targetID": "11975",
+          "newActorID": "14476",
+          "newTargetID": "11974",
+          "hand": true
+        },
+        {
+          "targetID": "11978",
+          "newActorID": "14476",
+          "newTargetID": "6784",
+          "hand": true
+        },
+        {
+          "targetID": "12137",
+          "newActorID": "14476",
+          "newTargetID": "12138",
+          "hand": true
+        },
+        {
+          "targetID": "12138",
+          "newActorID": "14476",
+          "newTargetID": "11975",
+          "hand": true
+        },
+        {
+          "targetID": "12299",
+          "newActorID": "14477",
+          "newTargetID": "12300",
+          "hand": true
+        },
+        {
+          "targetID": "12300",
+          "newActorID": "14477",
+          "hand": true
+        },
+        {
+          "targetID": "14475",
+          "newActorID": "6476",
+          "hand": true
+        },
+        {
+          "targetID": "6477",
+          "newActorID": "6476",
+          "newTargetID": "14475",
+          "hand": true
+        },
+        {
+          "actorID": "14476",
+          "newTargetID": "11974",
+          "hand": true
+        },
+        {
+          "actorID": "14477",
+          "newTargetID": "12300",
+          "hand": true
+        },
+        {
+          "actorID": "6476",
+          "newTargetID": "14475",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "11975",
+          "newActorID": "11974",
+          "newTargetID": "11974",
+          "hand": true
+        },
+        {
+          "targetID": "11978",
+          "newActorID": "11974",
+          "newTargetID": "6784",
+          "hand": true
+        },
+        {
+          "targetID": "12137",
+          "newActorID": "11974",
+          "newTargetID": "12138",
+          "hand": true
+        },
+        {
+          "targetID": "12138",
+          "newActorID": "11974",
+          "newTargetID": "11975",
+          "hand": true
+        },
+        {
+          "targetID": "12299",
+          "newActorID": "12300",
+          "newTargetID": "12300",
+          "hand": true
+        },
+        {
+          "targetID": "6477",
+          "newActorID": "6476",
+          "newTargetID": "6476",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "11974",
+          "attributes": {
+            "name": {
+              "from": "Silk Sheet",
+              "to": "Silk Sheet  - 1"
+            }
+          }
+        },
+        {
+          "id": "11975",
+          "attributes": {
+            "name": {
+              "from": "Silk Sheets",
+              "to": "Silk Sheets  - 2"
+            }
+          }
+        },
+        {
+          "id": "12137",
+          "attributes": {
+            "name": {
+              "from": "Silk Sheets - 4",
+              "to": "Silk Sheets  - 4"
+            }
+          }
+        },
+        {
+          "id": "12138",
+          "attributes": {
+            "name": {
+              "from": "Silk Sheets - 3",
+              "to": "Silk Sheets  - 3"
+            }
+          }
+        },
+        {
+          "id": "12299",
+          "attributes": {
+            "name": {
+              "from": "Wool Blend Sheets",
+              "to": "Wool Blend Sheets  - 2"
+            }
+          }
+        },
+        {
+          "id": "12300",
+          "attributes": {
+            "name": {
+              "from": "Wool Blend Sheet",
+              "to": "Wool Blend Sheet  - 1"
+            }
+          }
+        },
+        {
+          "id": "12433",
+          "attributes": {
+            "name": {
+              "from": "Wool Blend Sheets -  just sheared",
+              "to": "Wool Blend Sheets  - 2  - just sheared"
+            }
+          }
+        },
+        {
+          "id": "6476",
+          "attributes": {
+            "name": {
+              "from": "Cotton Sheet",
+              "to": "Cotton Sheet  - 1  - held"
+            }
+          }
+        },
+        {
+          "id": "6477",
+          "attributes": {
+            "name": {
+              "from": "Cotton Sheets",
+              "to": "Cotton Sheets  - 2"
+            }
+          }
+        },
+        {
+          "id": "6478",
+          "attributes": {
+            "name": {
+              "from": "Cotton Sheets - 3",
+              "to": "Cotton Sheets  - 3"
+            }
+          }
+        },
+        {
+          "id": "6479",
+          "attributes": {
+            "name": {
+              "from": "Cotton Sheets - 4",
+              "to": "Cotton Sheets  - 4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "40aa0b8bef6d8b03a5a9b9417a6a852864877dc9",
+      "message": "Housekeeping for sewing machine",
+      "date": "2023-10-03T17:45:47.000Z",
+      "objectChanges": [
+        {
+          "id": "6705",
+          "attributes": {
+            "name": {
+              "from": "Sewing Machine - thread",
+              "to": "(outdated) Sewing Machine - thread"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "5e9d011a3ad6a242dce3a543e9449763f445c6bf",
+      "message": "Flax, drop spindle and spinning wheel",
+      "date": "2023-10-01T16:10:25.000Z",
+      "addedObjectIDs": [
+        "14473"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14460",
+          "newTargetUses": "-1",
+          "newActorID": "14459",
+          "newTargetID": "14460",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14460",
+          "targetUses": "last",
+          "newActorID": "14459",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "actorID": "14451",
+          "targetID": "6400",
+          "newActorID": "14473",
+          "newTargetID": "6401",
+          "hand": true
+        },
+        {
+          "actorID": "578",
+          "targetID": "6400",
+          "newActorID": "581",
+          "newTargetID": "6401",
+          "hand": true
+        },
+        {
+          "actorID": "579",
+          "actorUses": "last",
+          "newActorID": "863",
+          "hand": true
+        },
+        {
+          "actorID": "579",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "14451",
+          "newActorID": "579",
+          "newTargetID": "14473",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "14460",
+          "targetUses": "max",
+          "newActorID": "14459",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "actorID": "579",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "578",
+          "newActorID": "579",
+          "newTargetID": "581",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "579",
+          "newActorID": "964",
+          "newTargetID": "9009",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "6407",
+          "attributes": {
+            "name": {
+              "from": "Cotton Yarn",
+              "to": "Huge Ball of Cotton Yarn"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        },
+        {
+          "id": "14459",
+          "name": "Retted Flax - held",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "89ba51f6ff3fc02931c0342a0dc9e7282cecb6c8",
+      "message": "Temporary way to get first linseed",
+      "date": "2023-09-30T19:28:49.000Z",
+      "addedObjectIDs": [
+        "14474"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "8862",
+          "newActorID": "14474",
+          "newTargetID": "8858",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "14474",
+          "newActorID": "33",
+          "newTargetID": "14471",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "1e9db5c28423c902372aaa1da38c2b2eefa5607f",
+      "message": "Linseed",
+      "date": "2023-09-30T18:05:38.000Z",
+      "addedObjectIDs": [
+        "14471",
+        "14472"
+      ]
+    },
+    {
+      "sha": "c3eb10069bd095efb11b7c5978e9b08e7e260b7e",
+      "message": "Some housekeeping of seed, seed bowl and seed bag",
+      "date": "2023-09-30T16:39:23.000Z",
+      "addedObjectIDs": [
+        "14468",
+        "14469",
+        "14470",
+        "4224",
+        "4234",
+        "4242",
+        "4243"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "10435",
+          "newTargetID": "4224",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10445",
+          "newTargetID": "4234",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10448",
+          "newTargetID": "4224",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10453",
+          "newTargetID": "4242",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10454",
+          "newTargetID": "4243",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14469",
+          "decay": "1h"
+        },
+        {
+          "targetID": "4224",
+          "decay": "5m"
+        },
+        {
+          "targetID": "4242",
+          "decay": "15m"
+        },
+        {
+          "targetID": "10450",
+          "newTargetUses": "-1",
+          "newActorID": "4242",
+          "newTargetID": "10450",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "10450",
+          "targetUses": "last",
+          "newActorID": "4242",
+          "newTargetID": "10451",
+          "hand": true
+        },
+        {
+          "targetID": "10459",
+          "newTargetUses": "-1",
+          "newActorID": "4242",
+          "newTargetID": "10459",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "10459",
+          "targetUses": "last",
+          "newActorID": "4242",
+          "newTargetID": "848",
+          "hand": true
+        },
+        {
+          "targetID": "14468",
+          "newTargetUses": "-1",
+          "newActorID": "14469",
+          "newTargetID": "14468",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14468",
+          "targetUses": "last",
+          "newActorID": "14469",
+          "newTargetID": "7630",
+          "hand": true
+        },
+        {
+          "actorID": "14468",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "14468",
+          "newTargetID": "14470",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14468",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "14470",
+          "hand": true
+        },
+        {
+          "actorID": "14469",
+          "targetID": "14468",
+          "newTargetUses": "+1",
+          "newTargetID": "14468",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14469",
+          "targetID": "213",
+          "newTargetID": "14470",
+          "hand": true
+        },
+        {
+          "actorID": "14469",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "14468",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "10435",
+          "decay": "5m"
+        },
+        {
+          "targetID": "10448",
+          "newTargetID": "10435",
+          "decay": "1s"
+        },
+        {
+          "targetID": "10453",
+          "decay": "15m"
+        },
+        {
+          "targetID": "35",
+          "decay": "1h"
+        },
+        {
+          "targetID": "10450",
+          "newTargetUses": "-1",
+          "newActorID": "10453",
+          "newTargetID": "10450",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "10450",
+          "targetUses": "last",
+          "newActorID": "10453",
+          "newTargetID": "10451",
+          "hand": true
+        },
+        {
+          "targetID": "10459",
+          "newTargetUses": "-1",
+          "newActorID": "10453",
+          "newTargetID": "10459",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "10459",
+          "targetUses": "last",
+          "newActorID": "10453",
+          "newTargetID": "848",
+          "hand": true
+        },
+        {
+          "targetID": "7755",
+          "newTargetUses": "-1",
+          "newActorID": "35",
+          "newTargetID": "7755",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "7755",
+          "targetUses": "last",
+          "newActorID": "35",
+          "newTargetID": "7630",
+          "hand": true
+        },
+        {
+          "actorID": "35",
+          "targetID": "213",
+          "newTargetID": "216",
+          "hand": true
+        },
+        {
+          "actorID": "35",
+          "targetID": "7630",
+          "newTargetUses": "last",
+          "newTargetID": "7755",
+          "hand": true
+        },
+        {
+          "actorID": "35",
+          "targetID": "7755",
+          "newTargetUses": "+1",
+          "newTargetID": "7755",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "7755",
+          "newActorUses": "-1",
+          "targetID": "213",
+          "newActorID": "7755",
+          "newTargetID": "216",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "7755",
+          "actorUses": "last",
+          "targetID": "213",
+          "newActorID": "7630",
+          "newTargetID": "216",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "10435",
+          "attributes": {
+            "name": {
+              "from": "Cucumber Seeds",
+              "to": "(outdated) Cucumber Seeds"
+            }
+          }
+        },
+        {
+          "id": "10445",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Cucumber Seeds",
+              "to": "(outdated) Bowl of Cucumber Seeds"
+            }
+          }
+        },
+        {
+          "id": "10453",
+          "attributes": {
+            "name": {
+              "from": "Dill Seed Head",
+              "to": "(outdated) Dill Seed Head"
+            }
+          }
+        },
+        {
+          "id": "10454",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Dill Seeds",
+              "to": "(outdated) Bowl of Dill Seeds"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "14468",
+          "name": "@ Seed Bags - except exotic",
+          "category": true
+        },
+        {
+          "id": "14469",
+          "name": "@ Baggable Seed",
+          "category": true
+        },
+        {
+          "id": "14470",
+          "name": "@ Dry Planted Seed - from seed heads",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "8b18038d9f3712d695c4f638c7ba853a8df9d1c8",
+      "message": "Flax",
+      "date": "2023-09-25T13:37:36.000Z",
+      "addedObjectIDs": [
+        "14422",
+        "14423",
+        "14424",
+        "14425",
+        "14426",
+        "14427",
+        "14428",
+        "14429",
+        "14430",
+        "14431",
+        "14432",
+        "14433",
+        "14434",
+        "14435",
+        "14436",
+        "14437",
+        "14439",
+        "14440",
+        "14441",
+        "14442",
+        "14443",
+        "14444",
+        "14445",
+        "14450",
+        "14451",
+        "14452",
+        "14453",
+        "14455",
+        "14456",
+        "14457",
+        "14458",
+        "14459",
+        "14460",
+        "14463",
+        "14464",
+        "14465",
+        "14466",
+        "14467"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "14422",
+          "newTargetID": "14423",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14423",
+          "newTargetID": "14424",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14424",
+          "newTargetID": "14425",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14427",
+          "newTargetID": "14422",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14437",
+          "newTargetID": "848",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14452",
+          "targetUses": "max",
+          "newTargetID": "14460",
+          "decay": "30s"
+        },
+        {
+          "targetID": "14457",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14464",
+          "newTargetID": "14463",
+          "decay": "30s"
+        },
+        {
+          "targetID": "14425",
+          "newActorID": "14430",
+          "newTargetID": "14431",
+          "hand": true
+        },
+        {
+          "targetID": "14429",
+          "newTargetUses": "-1",
+          "newActorID": "14430",
+          "newTargetID": "14429",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "14429",
+          "targetUses": "last",
+          "newActorID": "14430",
+          "newTargetID": "14430",
+          "hand": true
+        },
+        {
+          "targetID": "14431",
+          "newActorID": "14430",
+          "newTargetID": "14432",
+          "hand": true
+        },
+        {
+          "targetID": "14432",
+          "newActorID": "14430",
+          "newTargetID": "14433",
+          "hand": true
+        },
+        {
+          "targetID": "14433",
+          "newActorID": "14430",
+          "newTargetID": "14434",
+          "hand": true
+        },
+        {
+          "targetID": "14434",
+          "newActorID": "14430",
+          "newTargetID": "14435",
+          "hand": true
+        },
+        {
+          "targetID": "14435",
+          "newActorID": "14430",
+          "newTargetID": "14436",
+          "hand": true
+        },
+        {
+          "targetID": "14436",
+          "newActorID": "14430",
+          "newTargetID": "14437",
+          "hand": true
+        },
+        {
+          "targetID": "14440",
+          "newActorID": "14439",
+          "newTargetID": "14457",
+          "hand": true
+        },
+        {
+          "targetID": "14441",
+          "newActorID": "14458",
+          "hand": true
+        },
+        {
+          "targetID": "14460",
+          "targetUses": "max",
+          "newActorID": "14459",
+          "newTargetID": "1217",
+          "hand": true
+        },
+        {
+          "targetID": "14463",
+          "newActorID": "14467",
+          "hand": true
+        },
+        {
+          "targetID": "14464",
+          "newActorID": "14459",
+          "hand": true
+        },
+        {
+          "targetID": "14465",
+          "newActorID": "14467",
+          "newTargetID": "6701",
+          "hand": true
+        },
+        {
+          "targetID": "14466",
+          "newActorID": "14451",
+          "newTargetID": "6701",
+          "hand": true
+        },
+        {
+          "actorID": "12626",
+          "targetID": "14426",
+          "newTargetID": "14428",
+          "hand": true
+        },
+        {
+          "actorID": "14338",
+          "newActorUses": "-1",
+          "targetID": "14426",
+          "newActorID": "14338",
+          "newTargetID": "14427",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14425",
+          "newActorID": "14429",
+          "newTargetID": "14431",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14431",
+          "newActorID": "14429",
+          "newTargetID": "14432",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14432",
+          "newActorID": "14429",
+          "newTargetID": "14433",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14433",
+          "newActorID": "14429",
+          "newTargetID": "14434",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14434",
+          "newActorID": "14429",
+          "newTargetID": "14435",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14435",
+          "newActorID": "14429",
+          "newTargetID": "14436",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14429",
+          "newActorUses": "+1",
+          "targetID": "14436",
+          "newActorID": "14429",
+          "newTargetID": "14437",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14425",
+          "newActorID": "14429",
+          "newTargetID": "14431",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "targetID": "14429",
+          "newTargetUses": "+1",
+          "newTargetID": "14429",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "targetID": "14430",
+          "newTargetUses": "last",
+          "newTargetID": "14429",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14431",
+          "newActorID": "14429",
+          "newTargetID": "14432",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14432",
+          "newActorID": "14429",
+          "newTargetID": "14433",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14433",
+          "newActorID": "14429",
+          "newTargetID": "14434",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14434",
+          "newActorID": "14429",
+          "newTargetID": "14435",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14435",
+          "newActorID": "14429",
+          "newTargetID": "14436",
+          "hand": true
+        },
+        {
+          "actorID": "14430",
+          "newActorUses": "last",
+          "targetID": "14436",
+          "newActorID": "14429",
+          "newTargetID": "14437",
+          "hand": true
+        },
+        {
+          "actorID": "14439",
+          "targetID": "1217",
+          "newTargetUses": "last",
+          "newTargetID": "14453",
+          "hand": true
+        },
+        {
+          "actorID": "14439",
+          "targetID": "14453",
+          "newTargetUses": "+1",
+          "newTargetID": "14453",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "14458",
+          "newTargetID": "14441",
+          "hand": true
+        },
+        {
+          "actorID": "14459",
+          "newTargetID": "14464",
+          "hand": true
+        },
+        {
+          "actorID": "14467",
+          "newTargetID": "14463",
+          "hand": true
+        },
+        {
+          "actorID": "14467",
+          "targetID": "6701",
+          "newTargetID": "14465",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14440",
+          "newActorID": "14455",
+          "newTargetID": "14439",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14457",
+          "newActorID": "14455",
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "14455",
+          "newActorID": "33",
+          "newTargetID": "14456",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "382",
+          "targetID": "14453",
+          "targetUses": "max",
+          "newActorID": "235",
+          "newTargetID": "14452",
+          "hand": true
+        },
+        {
+          "actorID": "394",
+          "newActorUses": "-1",
+          "targetID": "14426",
+          "newActorID": "394",
+          "newTargetID": "14427",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "467",
+          "newActorUses": "-1",
+          "newActorWeight": 0.1,
+          "targetID": "14465",
+          "newActorID": "467",
+          "newTargetID": "14466",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "64",
+          "targetID": "14429",
+          "targetUses": "max",
+          "newActorID": "64",
+          "newTargetID": "14440",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "394",
+          "name": "@ Full Portable Water Source",
+          "category": true
+        },
+        {
+          "id": "12626",
+          "name": "@ Any Sprinkler tapout",
+          "category": true
+        },
+        {
+          "id": "14338",
+          "name": "@ Watering Cans",
+          "category": true
+        },
+        {
+          "id": "14428",
+          "name": "Perhaps sprayed Planted Flax",
+          "category": true
+        },
+        {
+          "id": "14441",
+          "name": "(outdated) Retted Flax",
+          "category": false
+        },
+        {
+          "id": "14442",
+          "name": "(outdated) Dried Flax",
+          "category": false
+        },
+        {
+          "id": "14443",
+          "name": "(outdated) Flax Scutching on Table - 0",
+          "category": false
+        },
+        {
+          "id": "14444",
+          "name": "(outdated) Flax Scutching on Table - 1",
+          "category": false
+        },
+        {
+          "id": "14445",
+          "name": "(outdated) Wooden Table - flaxOnGround",
+          "category": false
+        },
+        {
+          "id": "14450",
+          "name": "(outdated) Flax Scutching on Table - 6",
+          "category": false
+        },
+        {
+          "id": "14458",
+          "name": "(outdated) Retted Flax - held",
+          "category": false
+        },
+        {
+          "id": "14459",
+          "name": "Retted Flax - held",
+          "category": false
+        },
+        {
+          "id": "14467",
+          "name": "Dried Flax - held",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "e7d7331356c1997dd63326e254375269f9a1294d",
+      "message": "Warp weighted loom - initial",
+      "date": "2023-09-24T15:50:41.000Z",
+      "addedObjectIDs": [
+        "14421"
+      ]
+    },
+    {
+      "sha": "fc772fdb8f16318d50adba5a65ac903a8ba4d799",
+      "message": "More obvious difference in hot vs cold adobe oven",
+      "date": "2023-09-24T15:40:55.000Z"
+    },
+    {
+      "sha": "7634bb3def7eb61061091c73daa61b9993cd0865",
+      "message": "Can make firepit with basket of small cut stones",
+      "date": "2023-09-24T14:56:50.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "7024",
+          "targetID": "622",
+          "newActorID": "6861",
+          "newTargetID": "13641",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "3edecd3a700f3d37341eb9f01f6b4d8b2b984509",
+      "message": "Replaced pile of snares with OHOL's",
+      "date": "2023-09-24T14:53:14.000Z",
+      "addedObjectIDs": [
+        "3913"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "6828",
+          "newTargetID": "3913",
+          "decay": "1s"
+        }
+      ]
+    },
+    {
+      "sha": "2f68f34127b0df9faaddf9a095999352dfd9ee33",
+      "message": "New honey comb sprites and honey extraction method",
+      "date": "2023-09-23T14:48:21.000Z",
+      "addedObjectIDs": [
+        "14355",
+        "14356",
+        "14357",
+        "14358",
+        "14359",
+        "14360",
+        "14361",
+        "14362",
+        "14363",
+        "14364",
+        "14365",
+        "14366",
+        "14367",
+        "14368",
+        "14369",
+        "14370",
+        "14371",
+        "14372",
+        "14373",
+        "14374",
+        "14375",
+        "14376",
+        "14377",
+        "14378",
+        "14379",
+        "14381",
+        "14383",
+        "14386",
+        "14387",
+        "14390",
+        "14391",
+        "14392",
+        "14393",
+        "14394",
+        "14395",
+        "14396",
+        "14397",
+        "14398",
+        "14399",
+        "14400",
+        "14401",
+        "14402",
+        "14403",
+        "14404",
+        "14405",
+        "14406",
+        "14407",
+        "14408",
+        "14409",
+        "14410",
+        "14411",
+        "14412",
+        "14413",
+        "14414",
+        "14415",
+        "14416",
+        "14417",
+        "14418",
+        "14419",
+        "14420"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "12728",
+          "newTargetID": "4610",
+          "decay": "2m"
+        },
+        {
+          "targetID": "14357",
+          "newTargetID": "235",
+          "decay": "1m"
+        },
+        {
+          "targetID": "14360",
+          "newTargetID": "14383",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14361",
+          "newTargetID": "14387",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14362",
+          "newTargetID": "14386",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14363",
+          "newTargetID": "14392",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14364",
+          "newTargetID": "14391",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14365",
+          "newTargetID": "14390",
+          "decay": "10m"
+        },
+        {
+          "targetID": "14366",
+          "newTargetID": "7301",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14367",
+          "newTargetID": "7299",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14368",
+          "newTargetID": "7303",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14369",
+          "newTargetID": "14360",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14370",
+          "newTargetID": "7298",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14371",
+          "newTargetID": "7304",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14372",
+          "newTargetID": "14362",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14373",
+          "newTargetID": "14361",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14374",
+          "newTargetID": "7297",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14375",
+          "newTargetID": "7305",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14376",
+          "newTargetID": "14365",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14377",
+          "newTargetID": "14364",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14378",
+          "newTargetID": "14363",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14379",
+          "newTargetID": "7296",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14381",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "14383",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "14386",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "14387",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "14390",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "14391",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "14392",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "14393",
+          "newTargetID": "7301",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14394",
+          "newTargetID": "7299",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14395",
+          "newTargetID": "7303",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14396",
+          "newTargetID": "14360",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14397",
+          "newTargetID": "7298",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14398",
+          "newTargetID": "7304",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14399",
+          "newTargetID": "14362",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14400",
+          "newTargetID": "14361",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14401",
+          "newTargetID": "7297",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14402",
+          "newTargetID": "7305",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14403",
+          "newTargetID": "14365",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14404",
+          "newTargetID": "14364",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14405",
+          "newTargetID": "14363",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14406",
+          "newTargetID": "7296",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14407",
+          "newTargetID": "7302",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14410",
+          "newTargetID": "14414",
+          "decay": "1m"
+        },
+        {
+          "targetID": "14413",
+          "newTargetID": "14412",
+          "decay": "10s"
+        },
+        {
+          "targetID": "14415",
+          "decay": "1m"
+        },
+        {
+          "targetID": "14416",
+          "newTargetID": "14357",
+          "decay": "1s"
+        },
+        {
+          "targetID": "14419",
+          "newTargetID": "14418",
+          "decay": "1m"
+        },
+        {
+          "targetID": "14420",
+          "newTargetID": "14414",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7296",
+          "newTargetID": "7310",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7297",
+          "newTargetID": "7323",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7298",
+          "newTargetID": "7327",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7299",
+          "newTargetID": "14381",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7301",
+          "newTargetID": "7306",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7303",
+          "newTargetID": "7329",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7304",
+          "newTargetID": "7325",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7305",
+          "newTargetID": "7321",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7306",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7310",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7321",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7323",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7325",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7327",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7329",
+          "newTargetID": "4567",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "12728",
+          "newActorID": "14410",
+          "newTargetID": "85",
+          "hand": true
+        },
+        {
+          "targetID": "14355",
+          "newActorID": "4598",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "14359",
+          "newActorID": "4598",
+          "newTargetID": "7302",
+          "hand": true
+        },
+        {
+          "targetID": "14360",
+          "newActorID": "14358",
+          "newTargetID": "7301",
+          "hand": true
+        },
+        {
+          "targetID": "14361",
+          "newActorID": "14358",
+          "newTargetID": "14360",
+          "hand": true
+        },
+        {
+          "targetID": "14362",
+          "newActorID": "14358",
+          "newTargetID": "7303",
+          "hand": true
+        },
+        {
+          "targetID": "14363",
+          "newActorID": "14358",
+          "newTargetID": "14361",
+          "hand": true
+        },
+        {
+          "targetID": "14364",
+          "newActorID": "14358",
+          "newTargetID": "14362",
+          "hand": true
+        },
+        {
+          "targetID": "14365",
+          "newActorID": "14358",
+          "newTargetID": "7304",
+          "hand": true
+        },
+        {
+          "targetID": "14408",
+          "newActorID": "6476",
+          "newTargetID": "235",
+          "hand": true
+        },
+        {
+          "targetID": "14409",
+          "newActorID": "6476",
+          "newTargetID": "4647",
+          "hand": true
+        },
+        {
+          "targetID": "14411",
+          "newActorID": "6476",
+          "newTargetID": "14413",
+          "hand": true
+        },
+        {
+          "targetID": "4610",
+          "newActorID": "14414",
+          "newTargetID": "86",
+          "hand": true
+        },
+        {
+          "targetID": "7296",
+          "newActorID": "14358",
+          "newTargetID": "7297",
+          "hand": true
+        },
+        {
+          "targetID": "7297",
+          "newActorID": "14358",
+          "newTargetID": "7298",
+          "hand": true
+        },
+        {
+          "targetID": "7298",
+          "newActorID": "14358",
+          "newTargetID": "7299",
+          "hand": true
+        },
+        {
+          "targetID": "7299",
+          "newActorID": "14358",
+          "newTargetID": "7300",
+          "hand": true
+        },
+        {
+          "targetID": "7301",
+          "newActorID": "7302",
+          "newTargetID": "7300",
+          "hand": true
+        },
+        {
+          "targetID": "7303",
+          "newActorID": "7302",
+          "newTargetID": "7301",
+          "hand": true
+        },
+        {
+          "targetID": "7304",
+          "newActorID": "7302",
+          "newTargetID": "7303",
+          "hand": true
+        },
+        {
+          "targetID": "7305",
+          "newActorID": "7302",
+          "newTargetID": "7304",
+          "hand": true
+        },
+        {
+          "actorID": "13938",
+          "targetID": "14417",
+          "newActorID": "13938",
+          "newTargetID": "14419",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "14356",
+          "targetID": "14408",
+          "newActorID": "14357",
+          "newTargetID": "14409",
+          "hand": true
+        },
+        {
+          "actorID": "14357",
+          "newActorID": "235",
+          "newTargetID": "14415",
+          "hand": true
+        },
+        {
+          "actorID": "14357",
+          "targetID": "14106",
+          "newActorID": "235",
+          "newTargetID": "14417",
+          "hand": true
+        },
+        {
+          "actorID": "14357",
+          "targetID": "730",
+          "newActorID": "235",
+          "newTargetID": "12728",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "14360",
+          "newTargetID": "14400",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "14361",
+          "newTargetID": "14405",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "14362",
+          "newTargetID": "14404",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "7297",
+          "newTargetID": "14406",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "7298",
+          "newTargetID": "14401",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "7299",
+          "newTargetID": "14397",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "7300",
+          "newTargetID": "14394",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "7301",
+          "newTargetID": "14396",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "7303",
+          "newTargetID": "14399",
+          "hand": true
+        },
+        {
+          "actorID": "14358",
+          "targetID": "7304",
+          "newTargetID": "14403",
+          "hand": true
+        },
+        {
+          "actorID": "14381",
+          "newActorID": "14367",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "14383",
+          "newActorID": "14369",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "14386",
+          "newActorID": "14372",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "14387",
+          "newActorID": "14373",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "14390",
+          "newActorID": "14376",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "14391",
+          "newActorID": "14377",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "14392",
+          "newActorID": "14378",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "14410",
+          "targetID": "14408",
+          "newActorID": "235",
+          "newTargetID": "14411",
+          "hand": true
+        },
+        {
+          "actorID": "14412",
+          "targetID": "85",
+          "newTargetID": "4609",
+          "hand": true
+        },
+        {
+          "actorID": "14414",
+          "targetID": "14106",
+          "newActorID": "235",
+          "newTargetID": "14417",
+          "hand": true
+        },
+        {
+          "actorID": "14414",
+          "targetID": "730",
+          "newActorID": "235",
+          "newTargetID": "12728",
+          "hand": true
+        },
+        {
+          "actorID": "14418",
+          "targetID": "235",
+          "newActorID": "13634",
+          "newTargetID": "14420",
+          "hand": true
+        },
+        {
+          "actorID": "14419",
+          "targetID": "14408",
+          "newActorID": "13634",
+          "newTargetID": "14411",
+          "hand": true
+        },
+        {
+          "actorID": "235",
+          "targetID": "14415",
+          "newActorID": "14416",
+          "hand": true
+        },
+        {
+          "actorID": "2443",
+          "targetID": "4609",
+          "newActorID": "2445",
+          "newTargetID": "4609",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2444",
+          "targetID": "4609",
+          "newActorID": "2444",
+          "newTargetID": "4609",
+          "targetRemains": true,
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "2445",
+          "targetID": "4609",
+          "newActorID": "2444",
+          "newTargetID": "4609",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2446",
+          "targetID": "4609",
+          "newActorID": "2447",
+          "newTargetID": "4609",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "2447",
+          "targetID": "4609",
+          "newActorID": "2444",
+          "newTargetID": "4609",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "33",
+          "targetID": "14355",
+          "newActorID": "33",
+          "newTargetID": "14356",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14366",
+          "newTargetID": "7301",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14367",
+          "newTargetID": "7299",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14368",
+          "newTargetID": "7303",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14369",
+          "newTargetID": "14360",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14370",
+          "newTargetID": "7298",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14371",
+          "newTargetID": "7304",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14372",
+          "newTargetID": "14362",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14373",
+          "newTargetID": "14361",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14374",
+          "newTargetID": "7297",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14375",
+          "newTargetID": "7305",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14376",
+          "newTargetID": "14365",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14377",
+          "newTargetID": "14364",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14378",
+          "newTargetID": "14363",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "14379",
+          "newTargetID": "7296",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "14360",
+          "newTargetID": "7298",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "14361",
+          "newTargetID": "7297",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "14362",
+          "newTargetID": "14361",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "14363",
+          "newTargetID": "7296",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "14364",
+          "newTargetID": "14363",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "14365",
+          "newTargetID": "14364",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7296",
+          "newTargetID": "7296",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7297",
+          "newTargetID": "7297",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7298",
+          "newTargetID": "7298",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7299",
+          "newTargetID": "7299",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7301",
+          "newTargetID": "7299",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7303",
+          "newTargetID": "14360",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7304",
+          "newTargetID": "14362",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7305",
+          "newTargetID": "14365",
+          "hand": true
+        },
+        {
+          "actorID": "4598",
+          "targetID": "235",
+          "newTargetID": "14355",
+          "hand": true
+        },
+        {
+          "actorID": "4600",
+          "targetID": "7293",
+          "newTargetID": "14407",
+          "hand": true
+        },
+        {
+          "actorID": "4611",
+          "newActorUses": "-1",
+          "targetID": "235",
+          "newActorID": "4611",
+          "newTargetID": "4647",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4611",
+          "actorUses": "last",
+          "targetID": "235",
+          "newActorID": "4546",
+          "newTargetID": "4647",
+          "hand": true
+        },
+        {
+          "actorID": "58",
+          "targetID": "4609",
+          "newActorID": "2444",
+          "newTargetID": "4609",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "6476",
+          "targetID": "235",
+          "newTargetID": "14408",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "14360",
+          "newTargetID": "14399",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "14361",
+          "newTargetID": "14404",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "14362",
+          "newTargetID": "14403",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7297",
+          "newTargetID": "14405",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7298",
+          "newTargetID": "14400",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7299",
+          "newTargetID": "14396",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7300",
+          "newTargetID": "14393",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7301",
+          "newTargetID": "14395",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7303",
+          "newTargetID": "14398",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7304",
+          "newTargetID": "14402",
+          "hand": true
+        },
+        {
+          "actorID": "7306",
+          "newActorID": "14366",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "7310",
+          "newActorID": "14379",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "7321",
+          "newActorID": "14375",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "7323",
+          "newActorID": "14374",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "7325",
+          "newActorID": "14371",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "7327",
+          "newActorID": "14370",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "7329",
+          "newActorID": "14368",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "964",
+          "newActorUses": "-1",
+          "targetID": "14358",
+          "newActorID": "964",
+          "newTargetID": "14359",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "12728",
+          "newTargetID": "4609",
+          "decay": "20s"
+        },
+        {
+          "targetID": "4598",
+          "decay": "2h"
+        },
+        {
+          "targetID": "4609",
+          "newTargetID": "4610",
+          "decay": "2m"
+        },
+        {
+          "actorID": "4598",
+          "targetID": "730",
+          "newTargetID": "12728",
+          "hand": true
+        },
+        {
+          "actorID": "4600",
+          "targetID": "7293",
+          "newTargetID": "7302",
+          "hand": true
+        },
+        {
+          "actorID": "4600",
+          "targetID": "730",
+          "newTargetID": "12728",
+          "hand": true
+        },
+        {
+          "actorID": "4608",
+          "targetID": "730",
+          "newActorID": "4546",
+          "newTargetID": "12728",
+          "hand": true
+        },
+        {
+          "actorID": "4611",
+          "newActorUses": "-1",
+          "newActorID": "4611",
+          "hand": true,
+          "tool": true
+        },
+        {
+          "actorID": "4611",
+          "actorUses": "last",
+          "newActorID": "4546",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12728",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Simmering Honeycomb",
+              "to": "Simmering Dirty Bee Wax"
+            }
+          }
+        },
+        {
+          "id": "4598",
+          "attributes": {
+            "name": {
+              "from": "Honey Comb",
+              "to": "Honeycomb"
+            }
+          }
+        },
+        {
+          "id": "4600",
+          "attributes": {
+            "name": {
+              "from": "Wild Honey Comb",
+              "to": "Wild Honeycomb"
+            }
+          }
+        },
+        {
+          "id": "4609",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Cooked Honeycomb",
+              "to": "Molten Bee Wax"
+            }
+          }
+        },
+        {
+          "id": "4610",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Ashes with Bowl of Honey",
+              "to": "Ashes with Bowl of Dirty Bee Wax"
+            }
+          }
+        },
+        {
+          "id": "7296",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 4",
+              "to": "Bee Hive  - 4  - honey4"
+            }
+          }
+        },
+        {
+          "id": "7297",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 3",
+              "to": "Bee Hive  - 3  - honey3"
+            }
+          }
+        },
+        {
+          "id": "7298",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 2",
+              "to": "Bee Hive  - 2  - honey2"
+            }
+          }
+        },
+        {
+          "id": "7299",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 1",
+              "to": "Bee Hive  - 1  - honey1"
+            }
+          }
+        },
+        {
+          "id": "7301",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 1 empty",
+              "to": "Bee Hive  - 1  - honey0"
+            }
+          }
+        },
+        {
+          "id": "7303",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 2 empty",
+              "to": "Bee Hive  - 2  - honey0"
+            }
+          }
+        },
+        {
+          "id": "7304",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 3 empty",
+              "to": "Bee Hive  - 3  - honey0"
+            }
+          }
+        },
+        {
+          "id": "7305",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 4 empty",
+              "to": "Bee Hive  - 4  - honey0"
+            }
+          }
+        },
+        {
+          "id": "7306",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Bee Hive  - 1 empty bee leaving",
+              "to": "Bee Hive  - 1  - honey0  - bee"
+            }
+          }
+        },
+        {
+          "id": "7310",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Bee Hive  - 4 bee leaving",
+              "to": "Bee Hive  - 4  - honey4  - bee"
+            }
+          }
+        },
+        {
+          "id": "7321",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Bee Hive  - 4 empty bee leaving",
+              "to": "Bee Hive  - 4  - honey0  - bee"
+            }
+          }
+        },
+        {
+          "id": "7323",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Bee Hive  - 3 bee leaving",
+              "to": "Bee Hive  - 3  - honey3  - bee"
+            }
+          }
+        },
+        {
+          "id": "7325",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Bee Hive  - 3 empty bee leaving",
+              "to": "Bee Hive  - 3  - honey0  - bee"
+            }
+          }
+        },
+        {
+          "id": "7327",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Bee Hive  - 2 bee leaving",
+              "to": "Bee Hive  - 2  - honey2  - bee"
+            }
+          }
+        },
+        {
+          "id": "7329",
+          "attributes": {
+            "name": {
+              "from": "(outdated) Bee Hive  - 2 empty bee leaving",
+              "to": "Bee Hive  - 2  - honey0  - bee"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "964",
+          "name": "@ Fine Cutter",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "5c6ee72b923fd9adf446d326e5c6ac698731e8ec",
+      "message": "Fill the mason jar with honey one use at a time",
+      "date": "2023-09-23T14:36:21.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "4647",
+          "targetID": "4611",
+          "newTargetUses": "+1",
+          "newActorID": "235",
+          "newTargetID": "4611",
+          "targetRemains": true,
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "af499a7c535590086c2fb92e0a5d2c66e234c4a6",
+      "message": "Removed honey cooking",
+      "date": "2023-09-23T14:35:15.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "4609",
+          "newActorID": "4647",
+          "newTargetID": "85",
+          "hand": true
+        },
+        {
+          "targetID": "4610",
+          "newActorID": "4647",
+          "newTargetID": "86",
+          "hand": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "12728",
+          "attributes": {
+            "name": {
+              "from": "Simmering Honeycomb",
+              "to": "(outdated) Simmering Honeycomb"
+            }
+          }
+        },
+        {
+          "id": "4609",
+          "attributes": {
+            "name": {
+              "from": "Cooked Honeycomb",
+              "to": "(outdated) Cooked Honeycomb"
+            }
+          }
+        },
+        {
+          "id": "4610",
+          "attributes": {
+            "name": {
+              "from": "Ashes with Bowl of Honey",
+              "to": "(outdated) Ashes with Bowl of Honey"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "2c2efa3bfb107edc68a4acfdc59742cbbf271156",
+      "message": "Some renaming, bee box and honey comb",
+      "date": "2023-09-23T14:30:06.000Z",
+      "objectChanges": [
+        {
+          "id": "4598",
+          "attributes": {
+            "name": {
+              "from": "Bee Box Comb",
+              "to": "Honey Comb"
+            }
+          }
+        },
+        {
+          "id": "4600",
+          "attributes": {
+            "name": {
+              "from": "Bee Comb",
+              "to": "Wild Honey Comb"
+            }
+          }
+        },
+        {
+          "id": "7302",
+          "attributes": {
+            "name": {
+              "from": "Beebox",
+              "to": "Bee Box"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "16a7a20d461cfcf7edcb7bc5f2d975a337a3b396",
+      "message": "We can't use useDummies for how hives will work",
+      "date": "2023-09-23T14:10:31.000Z"
+    },
+    {
+      "sha": "f1559f4c1d84ecc9a5be08d1992c57bdb609d0e1",
+      "message": "Marked  #returning and #leaving bee hives as outdated",
+      "date": "2023-09-23T14:07:09.000Z",
+      "objectChanges": [
+        {
+          "id": "7306",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 1 empty bee leaving",
+              "to": "(outdated) Bee Hive  - 1 empty bee leaving"
+            }
+          }
+        },
+        {
+          "id": "7307",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 1 empty bee returning",
+              "to": "(outdated) Bee Hive  - 1 empty bee returning"
+            }
+          }
+        },
+        {
+          "id": "7310",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 4 bee leaving",
+              "to": "(outdated) Bee Hive  - 4 bee leaving"
+            }
+          }
+        },
+        {
+          "id": "7311",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 4 bee returning",
+              "to": "(outdated) Bee Hive  - 4 bee returning"
+            }
+          }
+        },
+        {
+          "id": "7321",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 4 empty bee leaving",
+              "to": "(outdated) Bee Hive  - 4 empty bee leaving"
+            }
+          }
+        },
+        {
+          "id": "7322",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 4 empty bee returning",
+              "to": "(outdated) Bee Hive  - 4 empty bee returning"
+            }
+          }
+        },
+        {
+          "id": "7323",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 3 bee leaving",
+              "to": "(outdated) Bee Hive  - 3 bee leaving"
+            }
+          }
+        },
+        {
+          "id": "7324",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 3 bee returning",
+              "to": "(outdated) Bee Hive  - 3 bee returning"
+            }
+          }
+        },
+        {
+          "id": "7325",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 3 empty bee leaving",
+              "to": "(outdated) Bee Hive  - 3 empty bee leaving"
+            }
+          }
+        },
+        {
+          "id": "7326",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 3 empty bee returning",
+              "to": "(outdated) Bee Hive  - 3 empty bee returning"
+            }
+          }
+        },
+        {
+          "id": "7327",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 2 bee leaving",
+              "to": "(outdated) Bee Hive  - 2 bee leaving"
+            }
+          }
+        },
+        {
+          "id": "7328",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 2 bee returning",
+              "to": "(outdated) Bee Hive  - 2 bee returning"
+            }
+          }
+        },
+        {
+          "id": "7329",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 2 empty bee leaving",
+              "to": "(outdated) Bee Hive  - 2 empty bee leaving"
+            }
+          }
+        },
+        {
+          "id": "7330",
+          "attributes": {
+            "name": {
+              "from": "Bee Hive  - 2 empty bee returning",
+              "to": "(outdated) Bee Hive  - 2 empty bee returning"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "0d447b61b49013de7003e5e8fef67519be5c4cdb",
+      "message": "Removed old bee hive transitions",
+      "date": "2023-09-23T14:06:47.000Z",
+      "removedTransitions": [
+        {
+          "targetID": "7296",
+          "newTargetID": "7310",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7301",
+          "newTargetID": "7306",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7305",
+          "newTargetID": "7321",
+          "decay": "10m"
+        },
+        {
+          "targetID": "7306",
+          "newTargetID": "4567",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "7307",
+          "newTargetID": "7299",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7310",
+          "newTargetID": "7320",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "7310",
+          "newTargetID": "7320",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "7311",
+          "newTargetID": "7296",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7311",
+          "targetUses": "max",
+          "newTargetID": "7296",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7321",
+          "newTargetID": "7320",
+          "decay": "1s",
+          "move": 3
+        },
+        {
+          "targetID": "7322",
+          "newTargetUses": "last",
+          "newTargetID": "7296",
+          "decay": "1s"
+        },
+        {
+          "targetID": "7296",
+          "newActorID": "4598",
+          "newTargetID": "7296",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "targetID": "7296",
+          "newActorID": "4598",
+          "newTargetID": "7305",
+          "hand": true
+        },
+        {
+          "targetID": "7299",
+          "newActorID": "4598",
+          "newTargetID": "7301",
+          "hand": true
+        },
+        {
+          "targetID": "7301",
+          "newActorID": "7302",
+          "newTargetID": "7300",
+          "hand": true
+        },
+        {
+          "targetID": "7303",
+          "newActorID": "7302",
+          "newTargetID": "7301",
+          "hand": true
+        },
+        {
+          "targetID": "7304",
+          "newActorID": "7302",
+          "newTargetID": "7303",
+          "hand": true
+        },
+        {
+          "targetID": "7305",
+          "newActorID": "7302",
+          "newTargetID": "7304",
+          "hand": true
+        },
+        {
+          "actorID": "4567",
+          "targetID": "7301",
+          "newTargetID": "7306",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7296",
+          "newTargetID": "7311",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7301",
+          "newTargetID": "7307",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "7305",
+          "newTargetID": "7322",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7300",
+          "newTargetID": "7301",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7301",
+          "newTargetID": "7303",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7303",
+          "newTargetID": "7304",
+          "hand": true
+        },
+        {
+          "actorID": "7302",
+          "targetID": "7304",
+          "newTargetID": "7305",
+          "hand": true
+        },
+        {
+          "actorID": "7306",
+          "newActorID": "7301",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "7310",
+          "newActorID": "7296",
+          "newTargetID": "7320",
+          "hand": true
+        },
+        {
+          "actorID": "7320",
+          "targetID": "7296",
+          "newTargetID": "7310",
+          "hand": true
+        },
+        {
+          "actorID": "7320",
+          "targetID": "7305",
+          "newTargetID": "7321",
+          "hand": true
+        },
+        {
+          "actorID": "7321",
+          "newActorID": "7305",
+          "newTargetID": "7320",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "76e8f48b706514e47cb3a2d436153d0a4f5a0bd7",
+      "message": "Some housekeeping on the old bee stuff",
+      "date": "2023-09-23T13:35:03.000Z",
+      "removedObjectIDs": [
+        "6368",
+        "6369"
+      ],
+      "removedTransitions": [
+        {
+          "targetID": "4592",
+          "newTargetID": "4567",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "4593",
+          "newTargetID": "4567",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "4594",
+          "newTargetID": "4567",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "4595",
+          "newTargetID": "4567",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "4596",
+          "newTargetID": "4567",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "4597",
+          "newTargetID": "4567",
+          "decay": "2s",
+          "move": 3
+        },
+        {
+          "targetID": "4606",
+          "newTargetID": "4602",
+          "decay": "2s",
+          "move": 1
+        },
+        {
+          "targetID": "4607",
+          "newTargetID": "4602",
+          "decay": "2s",
+          "move": 1
+        },
+        {
+          "targetID": "6368",
+          "targetUses": "last",
+          "newTargetID": "6369",
+          "decay": "2s"
+        },
+        {
+          "targetID": "6369",
+          "decay": "5s"
+        },
+        {
+          "actorID": "4569",
+          "targetID": "4572",
+          "newTargetID": "4575",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "4573",
+          "newTargetID": "4576",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "4574",
+          "newTargetID": "4578",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "4576",
+          "newTargetID": "4577",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "4578",
+          "newTargetID": "4579",
+          "hand": true
+        },
+        {
+          "actorID": "4569",
+          "targetID": "4579",
+          "newTargetID": "4580",
+          "hand": true
+        },
+        {
+          "actorID": "4592",
+          "newActorID": "4572",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "4593",
+          "newActorID": "4573",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "4594",
+          "newActorID": "4574",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "4595",
+          "newActorID": "4576",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "4596",
+          "newActorID": "4578",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "4597",
+          "newActorID": "4579",
+          "newTargetID": "4567",
+          "hand": true
+        },
+        {
+          "actorID": "4605",
+          "newActorID": "4572",
+          "newTargetID": "4602",
+          "hand": true
+        },
+        {
+          "actorID": "4606",
+          "newActorID": "4573",
+          "newTargetID": "4602",
+          "hand": true
+        },
+        {
+          "actorID": "4607",
+          "newActorID": "4574",
+          "newTargetID": "4602",
+          "hand": true
+        },
+        {
+          "actorID": "462",
+          "newActorUses": "-1",
+          "newActorWeight": 0.02,
+          "targetID": "4572",
+          "newActorID": "462",
+          "newTargetID": "4570",
+          "hand": true,
+          "tool": true
+        }
+      ],
+      "objectChanges": [
+        {
+          "id": "4570",
+          "attributes": {
+            "name": {
+              "from": "Bee Box",
+              "to": "(outdated) Bee Box"
+            }
+          }
+        },
+        {
+          "id": "4571",
+          "attributes": {
+            "name": {
+              "from": "Platform",
+              "to": "(outdated) Platform"
+            }
+          }
+        },
+        {
+          "id": "4572",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 1A",
+              "to": "(outdated) Domestic Hive  - 1A"
+            }
+          }
+        },
+        {
+          "id": "4573",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 2A",
+              "to": "(outdated) Domestic Hive  - 2A"
+            }
+          }
+        },
+        {
+          "id": "4574",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3A",
+              "to": "(outdated) Domestic Hive  - 3A"
+            }
+          }
+        },
+        {
+          "id": "4575",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 1B",
+              "to": "(outdated) Domestic Hive  - 1B"
+            }
+          }
+        },
+        {
+          "id": "4576",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 2B",
+              "to": "(outdated) Domestic Hive  - 2B"
+            }
+          }
+        },
+        {
+          "id": "4577",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 2C",
+              "to": "(outdated) Domestic Hive  - 2C"
+            }
+          }
+        },
+        {
+          "id": "4578",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3B",
+              "to": "(outdated) Domestic Hive  - 3B"
+            }
+          }
+        },
+        {
+          "id": "4579",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3C",
+              "to": "(outdated) Domestic Hive  - 3C"
+            }
+          }
+        },
+        {
+          "id": "4580",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3D",
+              "to": "(outdated) Domestic Hive  - 3D"
+            }
+          }
+        },
+        {
+          "id": "4592",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 1A spawn",
+              "to": "(outdated) Domestic Hive  - 1A spawn"
+            }
+          }
+        },
+        {
+          "id": "4593",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 2A spawn",
+              "to": "(outdated) Domestic Hive  - 2A spawn"
+            }
+          }
+        },
+        {
+          "id": "4594",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3A spawn",
+              "to": "(outdated) Domestic Hive  - 3A spawn"
+            }
+          }
+        },
+        {
+          "id": "4595",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 2B spawn",
+              "to": "(outdated) Domestic Hive  - 2B spawn"
+            }
+          }
+        },
+        {
+          "id": "4596",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3B spawn",
+              "to": "(outdated) Domestic Hive  - 3B spawn"
+            }
+          }
+        },
+        {
+          "id": "4597",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3C spawn",
+              "to": "(outdated) Domestic Hive  - 3C spawn"
+            }
+          }
+        },
+        {
+          "id": "4605",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 1A swarm",
+              "to": "(outdated) Domestic Hive  - 1A swarm"
+            }
+          }
+        },
+        {
+          "id": "4606",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 2A swarm",
+              "to": "(outdated) Domestic Hive  - 2A swarm"
+            }
+          }
+        },
+        {
+          "id": "4607",
+          "attributes": {
+            "name": {
+              "from": "Domestic Hive  - 3A swarm",
+              "to": "(outdated) Domestic Hive  - 3A swarm"
+            }
+          }
+        },
+        {
+          "id": "4608",
+          "attributes": {
+            "name": {
+              "from": "Mason Jar of Honeycomb",
+              "to": "(outdated) Mason Jar of Honeycomb"
+            }
+          }
+        },
+        {
+          "id": "4612",
+          "attributes": {
+            "name": {
+              "from": "Mason Jar of Honey - 2",
+              "to": "(outdated) Mason Jar of Honey - 2"
+            }
+          }
+        },
+        {
+          "id": "4613",
+          "attributes": {
+            "name": {
+              "from": "Mason Jar of Honey - 3",
+              "to": "(outdated) Mason Jar of Honey - 3"
+            }
+          }
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "6368",
+          "name": "@ 2HOL Bees",
+          "category": true
+        },
+        {
+          "id": "6369",
+          "name": "Dead Honeybee",
+          "category": false
+        }
+      ]
+    },
+    {
+      "sha": "4303143690fb14204edf2eeebd384cae4be0b0dc",
+      "message": "Missing orange tree growth transition",
+      "date": "2023-09-23T13:07:16.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "7365",
+          "newTargetID": "7313",
+          "decay": "60m"
+        }
+      ]
+    },
+    {
+      "sha": "3659fba1cfaa638eec821d320480c3e0cd94a267",
+      "message": "Decay the old blue paper to new",
+      "date": "2023-09-19T12:32:48.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "14045",
+          "newTargetID": "3185",
+          "decay": "1s"
+        }
+      ]
+    },
+    {
+      "sha": "ae8665c3b33a31aa5bf04e5ccf41a68d653d3da0",
+      "message": "Wrong order of wet and dry saplings in the categories",
+      "date": "2023-09-19T12:20:49.000Z"
+    }
+  ]
+}

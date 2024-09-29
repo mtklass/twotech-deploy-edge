@@ -1,0 +1,122 @@
+{
+  "id": "189",
+  "date": "2019-01-04T20:38:42.000Z",
+  "commits": [
+    {
+      "sha": "a3f6f877858d5120a6879582360a9b9b98b483d3",
+      "message": "Burnt goose deay.  Fixes #75",
+      "date": "2019-01-04T19:38:48.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "521",
+          "decay": "3m"
+        }
+      ]
+    },
+    {
+      "sha": "956973252a92fe9fe864f7c642115633b153810a",
+      "message": "Fixed some inconsistencies with chisel and cut stone.  Cut stone held age fixed.  Fixes #73",
+      "date": "2019-01-04T19:13:35.000Z",
+      "addedTransitions": [
+        {
+          "actorID": "684",
+          "targetID": "1318",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "858",
+          "newTargetID": "1853",
+          "hand": true
+        }
+      ],
+      "removedTransitions": [
+        {
+          "actorID": "684",
+          "targetID": "1318",
+          "newTargetUses": "-1",
+          "newTargetWeight": 0,
+          "newActorID": "858",
+          "newTargetID": "881",
+          "hand": true
+        }
+      ],
+      "legacyObjects": [
+        {
+          "id": "1318",
+          "name": "@ Young Stone Wall",
+          "category": true
+        }
+      ]
+    },
+    {
+      "sha": "46bb5c679afaa97d4fb872b4785e2411119248b6",
+      "message": "Typo.  Fixes #72",
+      "date": "2019-01-04T19:05:41.000Z",
+      "objectChanges": [
+        {
+          "id": "1297",
+          "attributes": {
+            "name": {
+              "from": "Bowl of Slacked Lime",
+              "to": "Bowl of Slaked Lime"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sha": "0ee7a8e21ad4ec0d370b45a97e420ef2097bff3a",
+      "message": "Wheat sheaf and bowl of wheat can be used to seed rows.  Fixes #65",
+      "date": "2019-01-04T18:37:44.000Z",
+      "addedTransitions": [
+        {
+          "targetID": "225",
+          "newActorID": "223",
+          "newTargetID": "225",
+          "targetRemains": true,
+          "hand": true
+        },
+        {
+          "actorID": "245",
+          "targetID": "213",
+          "newActorID": "245",
+          "newTargetID": "228",
+          "hand": true,
+          "tool": true
+        }
+      ]
+    },
+    {
+      "sha": "4e7f4f6875cf851530d0457e8adb3180af979789",
+      "message": "Domestic boar with piglet can be shot, and attacking domestic boars no longer reset piglet countdowns.  Fixes #61",
+      "date": "2019-01-04T17:58:40.000Z",
+      "addedObjectIDs": [
+        "2489"
+      ],
+      "addedTransitions": [
+        {
+          "targetID": "2489",
+          "newActorID": "1856",
+          "newTargetID": "1330",
+          "hand": true
+        },
+        {
+          "actorID": "152",
+          "targetID": "1341",
+          "newActorID": "151",
+          "newTargetID": "2489",
+          "hand": true
+        }
+      ]
+    },
+    {
+      "sha": "ebd3ddb5bfa9906718cec872f65b5af4af329e79",
+      "message": "More scrapable steel items.  Fixes #60",
+      "date": "2019-01-04T17:42:42.000Z"
+    },
+    {
+      "sha": "8f086f0d5ea0b554ba746579f64fd7765b8a8ab5",
+      "message": "Scenes for population gif.",
+      "date": "2019-01-04T02:25:55.000Z"
+    }
+  ]
+}
